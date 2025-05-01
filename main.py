@@ -1,16 +1,18 @@
-# This is a sample Python script.
+import asyncio
+from crawl4ai import AsyncWebCrawler ,BrowserConfig, CrawlerRunConfig,CacheMode
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+async def main():
+    browser_config = BrowserConfig(
+        headless=False,
+        browser_type="chromium",  # Use Chromium as the browser
 
+    )
+    run_config = CrawlerRunConfig(
+        cache_mode=CacheMode.ENABLED,  # Ignore cache for fresh content
+    )
+    async with AsyncWebCrawler(config= browser_config) as crawler:
+        result = await crawler.arun("https://www.myneta.info/",config=run_config)
+        print(result.markdown)  # Print first 300 chars
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    asyncio.run(main())
