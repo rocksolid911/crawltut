@@ -6,12 +6,13 @@ from urllib.parse import urljoin
 from election_year_folder_creater import create_output_folder
 
 
-def extract_constituencies_from_html(input_file=None, output_folder=None, url=None):
+def extract_constituencies_from_html(html_content=None,input_file=None, output_folder=None, url=None):
     """
     Extract constituency information from HTML and save to specified output folder
 
     Args:
-        input_file: Path to HTML file (default: "constituencies_raw.html")
+        html_content: HTML content as a string (takes precedence over input_file)
+        input_file: Path to HTML file (used if html_content is not provided)
         output_folder: Path to save output files (default: created based on URL)
         url: URL of the data source (used for folder naming if output_folder not provided)
     """
@@ -19,24 +20,32 @@ def extract_constituencies_from_html(input_file=None, output_folder=None, url=No
     if not output_folder:
         output_folder = create_output_folder(url)
 
-    # Default input file if not specified
-    if not input_file:
-        input_file = input("Enter path to HTML file (default: raw_result.html): ").strip() or "raw_result.html"
+    # Load HTML content - either from the provided string or from a file
+    if html_content is None:
+        # Default input file if not specified
+        if not input_file:
+            input_file = input("Enter path to HTML file (default: raw_result.html): ").strip() or "raw_result.html"
 
-    # Check if the input path is absolute or should be under the output folder
-    if not os.path.isabs(input_file) and not os.path.exists(input_file):
-        # Try looking in the output folder
-        potential_path = os.path.join(output_folder, input_file)
-        if os.path.exists(potential_path):
-            input_file = potential_path
+        # Check if the input path is absolute or should be under the output folder
+        if not os.path.isabs(input_file) and not os.path.exists(input_file):
+            # Try looking in the output folder
+            potential_path = os.path.join(output_folder, input_file)
+            if os.path.exists(potential_path):
+                input_file = potential_path
 
-    # Load the HTML content
-    try:
-        with open(input_file, "r", encoding="utf-8") as file:
-            html_content = file.read()
-    except FileNotFoundError:
-        print(f"Error: HTML file '{input_file}' not found.")
-        return None
+        # Load the HTML content from file
+        try:
+            with open(input_file, "r", encoding="utf-8") as file:
+                html_content = file.read()
+        except FileNotFoundError:
+            print(f"Error: HTML file '{input_file}' not found.")
+            return None
+
+    # Save the HTML content to a file in the output folder for reference
+    raw_html_path = os.path.join(output_folder, "raw_result.html")
+    with open(raw_html_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+    print(f"Saved raw HTML to {raw_html_path}")
 
     # Parse HTML with BeautifulSoup
     soup = BeautifulSoup(html_content, 'html.parser')

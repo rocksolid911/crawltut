@@ -9,14 +9,9 @@ def create_output_folder(url):
     year_match = re.search(r'LokSabha(\d{4})', url)
     year_folder = year_match.group(1) if year_match else "unknown_year"
 
-    # Get optional user subfolder
-    subfolder = input(f"Enter optional subfolder name within {base_folder}/{year_folder}/ (press Enter to skip): ").strip()
 
-    # Create folder path
-    if subfolder:
-        output_folder = os.path.join(base_folder, year_folder, subfolder)
-    else:
-        output_folder = os.path.join(base_folder, year_folder)
+
+    output_folder = os.path.join(base_folder, year_folder)
 
     # Create the directory if it doesn't exist
     if not os.path.exists(output_folder):
