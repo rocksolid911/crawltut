@@ -3,6 +3,10 @@ from crawl4ai import AsyncWebCrawler ,BrowserConfig, CrawlerRunConfig,CacheMode
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 from crawl4ai.content_filter_strategy import PruningContentFilter
 
+from constituency_link_crawler import customcrawler
+from html_text_markdown_parser import extract_constituencies_from_html
+
+
 async def main():
     browser_config = BrowserConfig(
         headless=False,
@@ -20,5 +24,10 @@ async def main():
         result = await crawler.arun("https://www.myneta.info/LokSabha2019/candidate.php?candidate_id=5560",config=run_config)
         print(result.markdown.fit)
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# if __name__ == "__main__":
+    # asyncio.run(main())
+# asyncio.run(customcrawler())
+
+
+# Parse HTML to text
+extract_constituencies_from_html()
