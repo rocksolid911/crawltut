@@ -1,12 +1,42 @@
+import os
 import re
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+from election_year_folder_creater import create_output_folder
 
-def extract_constituencies_from_html():
+
+def extract_constituencies_from_html(input_file=None, output_folder=None, url=None):
+    """
+    Extract constituency information from HTML and save to specified output folder
+
+    Args:
+        input_file: Path to HTML file (default: "constituencies_raw.html")
+        output_folder: Path to save output files (default: created based on URL)
+        url: URL of the data source (used for folder naming if output_folder not provided)
+    """
+    # If no output folder is specified, create one based on URL
+    if not output_folder:
+        output_folder = create_output_folder(url)
+
+    # Default input file if not specified
+    if not input_file:
+        input_file = input("Enter path to HTML file (default: raw_result.html): ").strip() or "raw_result.html"
+
+    # Check if the input path is absolute or should be under the output folder
+    if not os.path.isabs(input_file) and not os.path.exists(input_file):
+        # Try looking in the output folder
+        potential_path = os.path.join(output_folder, input_file)
+        if os.path.exists(potential_path):
+            input_file = potential_path
+
     # Load the HTML content
-    with open("constituencies_raw.html", "r", encoding="utf-8") as file:
-        html_content = file.read()
+    try:
+        with open(input_file, "r", encoding="utf-8") as file:
+            html_content = file.read()
+    except FileNotFoundError:
+        print(f"Error: HTML file '{input_file}' not found.")
+        return None
 
     # Parse HTML with BeautifulSoup
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -52,7 +82,11 @@ def extract_constituencies_from_html():
                         constituency_href = a_tag.get('href', '')
 
                         # Make the URL absolute if it's relative
-                        base_url = "https://www.myneta.info/LokSabha2024/"
+                        if url:
+                            base_url = url
+                        else:
+                            base_url = "https://www.myneta.info/LokSabha2024/"
+
                         if constituency_href and not constituency_href.startswith('http'):
                             constituency_href = urljoin(base_url, constituency_href)
 
@@ -83,7 +117,7 @@ def extract_constituencies_from_html():
                             constituency_href = link.get('href', '')
 
                             # Make the URL absolute if it's relative
-                            base_url = "https://www.myneta.info/LokSabha2024/"
+                            base_url = url or "https://www.myneta.info/LokSabha2024/"
                             if constituency_href and not constituency_href.startswith('http'):
                                 constituency_href = urljoin(base_url, constituency_href)
 
@@ -92,8 +126,17 @@ def extract_constituencies_from_html():
                                 'href': constituency_href
                             })
 
+    # If we still have no data, return an error
+    if not states_data:
+        print("Error: Could not extract constituency data from the HTML.")
+        return None
+
+    # File paths in output folder
+    txt_file_path = os.path.join(output_folder, "constituencies_links.txt")
+    md_file_path = os.path.join(output_folder, "constituencies_links.md")
+
     # Generate text file
-    with open("constituencies_links.txt", "w", encoding="utf-8") as txt_file:
+    with open(txt_file_path, "w", encoding="utf-8") as txt_file:
         txt_file.write("CONSTITUENCY LINKS BY STATE\n")
         txt_file.write("==========================\n\n")
 
@@ -113,7 +156,7 @@ def extract_constituencies_from_html():
         txt_file.write(f"\nTotal: {total_constituencies} constituencies across {len(states_data)} states/UTs\n")
 
     # Generate markdown file
-    with open("constituencies_links.md", "w", encoding="utf-8") as md_file:
+    with open(md_file_path, "w", encoding="utf-8") as md_file:
         md_file.write("# Constituency Links By State\n\n")
 
         total_constituencies = 0
@@ -130,9 +173,9 @@ def extract_constituencies_from_html():
 
         md_file.write(f"**Total: {total_constituencies} constituencies across {len(states_data)} states/UTs**\n")
 
-    print(f"Successfully extracted constituency links and saved to files.")
+    print(f"Successfully extracted constituency links and saved to files in {output_folder}")
     print(f"Found {total_constituencies} constituencies across {len(states_data)} states/UTs")
-    print(f"Files created: constituencies_links.txt and constituencies_links.md")
+    print(f"Files created: {txt_file_path}, {md_file_path},")
 
     return states_data
 

@@ -29,5 +29,5 @@ async def main():
 asyncio.run(customcrawler())
 
 
-# Parse HTML to text
-extract_constituencies_from_html()
+# # Parse HTML to text
+# extract_constituencies_from_html()
