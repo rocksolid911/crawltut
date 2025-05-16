@@ -256,80 +256,80 @@ async def customcrawler():
 
     )
 
-    # async with AsyncWebCrawler(config=browser_config) as crawler:
-    #     result = await crawler.arun(
-    #         "https://www.myneta.info/LokSabha2024/",
-    #         config=run_config
-    #     )
-    #
-    #     # Save raw HTML to debug
-    #     with open("raw_result.html", "w", encoding="utf-8") as f:
-    #         f.write(result.cleaned_html)
-    #
-    # async  with AsyncWebCrawler(config=browser_config) as crawler:
-    #     result = await crawler.arun(
-    #         "raw:raw_result.html",
-    #          config=run_config
-    #     )
+    async with AsyncWebCrawler(config=browser_config) as crawler:
+        result = await crawler.arun(
+            "https://www.myneta.info/LokSabha2024/",
+            config=run_config
+        )
 
-        # # Extract the JSON results
-        # json_match = re.search(r'(\{.*})', result.cleaned_html)
-        #
-        # if json_match:
-        #     try:
-        #         # Parse the JSON data
-        #         constituency_data = json.loads(json_match.group(1))
-        #
-        #         # Write to a text file
-        #         with open("constituencies_links.txt", "w", encoding="utf-8") as f:
-        #             f.write("CONSTITUENCY LINKS BY STATE\n")
-        #             f.write("==========================\n\n")
-        #
-        #             total_constituencies = 0
-        #
-        #             for state, constituencies in constituency_data.items():
-        #                 f.write(f"{state} ({len(constituencies)} constituencies)\n")
-        #                 f.write("-" * (len(state) + 4 + len(str(len(constituencies))) + 16) + "\n")
-        #
-        #                 total_constituencies += len(constituencies)
-        #
-        #                 for constituency in constituencies:
-        #                     # Create full URL if it's a relative path
-        #                     href = constituency['href']
-        #                     if href and href.startswith('index.php'):
-        #                         href = f"https://www.myneta.info/LokSabha2024/{href}"
-        #
-        #                     f.write(f"  {constituency['name']}: {href}\n")
-        #
-        #                 f.write("\n")
-        #
-        #             f.write(
-        #                 f"\nTotal: {total_constituencies} constituencies across {len(constituency_data)} states/UTs\n")
-        #
-        #         print(f"Successfully saved constituency links to constituencies_links.txt")
-        #         print(f"Found {total_constituencies} constituencies across {len(constituency_data)} states/UTs")
-        #
-        #     except json.JSONDecodeError as e:
-        #         print(f"Could not parse JSON results: {e}")
-        #         # Try to extract JSON with a more lenient approach
-        #         try:
-        #             # Look for JSON-like content - anything between curly braces
-        #             full_text = result.cleaned_html
-        #             start_idx = full_text.find('{')
-        #             end_idx = full_text.rfind('}') + 1
-        #
-        #             if 0 <= start_idx < end_idx:
-        #                 json_str = full_text[start_idx:end_idx]
-        #                 constituency_data = json.loads(json_str)
-        #                 print("Found JSON data using alternative extraction method")
-        #                 # Process the data as before...
-        #             else:
-        #                 print("No JSON-like content found in the result")
-        #         except Exception as e2:
-        #             print(f"Alternative JSON extraction also failed: {e2}")
-        # else:
-        #     print("No JSON results found in the response")
+        # Save raw HTML to debug
+        with open("raw_result.html", "w", encoding="utf-8") as f:
+            f.write(result.cleaned_html)
 
-        # print("Crawled length:", len(result.cleaned_html))
+    async  with AsyncWebCrawler(config=browser_config) as crawler:
+        result = await crawler.arun(
+            "raw:raw_result.html",
+             config=run_config
+        )
+
+        # Extract the JSON results
+        json_match = re.search(r'(\{.*})', result.cleaned_html)
+
+        if json_match:
+            try:
+                # Parse the JSON data
+                constituency_data = json.loads(json_match.group(1))
+
+                # Write to a text file
+                with open("constituencies_links.txt", "w", encoding="utf-8") as f:
+                    f.write("CONSTITUENCY LINKS BY STATE\n")
+                    f.write("==========================\n\n")
+
+                    total_constituencies = 0
+
+                    for state, constituencies in constituency_data.items():
+                        f.write(f"{state} ({len(constituencies)} constituencies)\n")
+                        f.write("-" * (len(state) + 4 + len(str(len(constituencies))) + 16) + "\n")
+
+                        total_constituencies += len(constituencies)
+
+                        for constituency in constituencies:
+                            # Create full URL if it's a relative path
+                            href = constituency['href']
+                            if href and href.startswith('index.php'):
+                                href = f"https://www.myneta.info/LokSabha2024/{href}"
+
+                            f.write(f"  {constituency['name']}: {href}\n")
+
+                        f.write("\n")
+
+                    f.write(
+                        f"\nTotal: {total_constituencies} constituencies across {len(constituency_data)} states/UTs\n")
+
+                print(f"Successfully saved constituency links to constituencies_links.txt")
+                print(f"Found {total_constituencies} constituencies across {len(constituency_data)} states/UTs")
+
+            except json.JSONDecodeError as e:
+                print(f"Could not parse JSON results: {e}")
+                # Try to extract JSON with a more lenient approach
+                try:
+                    # Look for JSON-like content - anything between curly braces
+                    full_text = result.cleaned_html
+                    start_idx = full_text.find('{')
+                    end_idx = full_text.rfind('}') + 1
+
+                    if 0 <= start_idx < end_idx:
+                        json_str = full_text[start_idx:end_idx]
+                        constituency_data = json.loads(json_str)
+                        print("Found JSON data using alternative extraction method")
+                        # Process the data as before...
+                    else:
+                        print("No JSON-like content found in the result")
+                except Exception as e2:
+                    print(f"Alternative JSON extraction also failed: {e2}")
+        else:
+            print("No JSON results found in the response")
+
+        print("Crawled length:", len(result.cleaned_html))
 
 
