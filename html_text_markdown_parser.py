@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 from election_year_folder_creater import create_output_folder
 
 
-def extract_constituencies_from_html(html_content=None,input_file=None, output_folder=None, url=None):
+def extract_constituencies_from_html(html_content=None, input_file=None, output_folder=None, url=None):
     """
     Extract constituency information from HTML and save to specified output folder
 
@@ -19,6 +19,19 @@ def extract_constituencies_from_html(html_content=None,input_file=None, output_f
     # If no output folder is specified, create one based on URL
     if not output_folder:
         output_folder = create_output_folder(url)
+
+    # Extract year from URL for file naming
+    year = "unknown_year"
+    if url:
+        # Try to extract year from different URL patterns
+        year_match = re.search(r'LokSabha(\d{4})|ls(\d{4})', url, re.IGNORECASE)
+        if year_match:
+            year = year_match.group(1) or year_match.group(2)
+
+    # File paths in output folder with year in filename
+    txt_file_path = os.path.join(output_folder, f"constituencies_links_{year}.txt")
+    md_file_path = os.path.join(output_folder, f"constituencies_links_{year}.md")
+    raw_html_path = os.path.join(output_folder, f"raw_result_{year}.html")
 
     # Load HTML content - either from the provided string or from a file
     if html_content is None:
@@ -42,7 +55,6 @@ def extract_constituencies_from_html(html_content=None,input_file=None, output_f
             return None
 
     # Save the HTML content to a file in the output folder for reference
-    raw_html_path = os.path.join(output_folder, "raw_result.html")
     with open(raw_html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
     print(f"Saved raw HTML to {raw_html_path}")
@@ -140,10 +152,6 @@ def extract_constituencies_from_html(html_content=None,input_file=None, output_f
         print("Error: Could not extract constituency data from the HTML.")
         return None
 
-    # File paths in output folder
-    txt_file_path = os.path.join(output_folder, "constituencies_links.txt")
-    md_file_path = os.path.join(output_folder, "constituencies_links.md")
-
     # Generate text file
     with open(txt_file_path, "w", encoding="utf-8") as txt_file:
         txt_file.write("CONSTITUENCY LINKS BY STATE\n")
@@ -187,7 +195,6 @@ def extract_constituencies_from_html(html_content=None,input_file=None, output_f
     print(f"Files created: {txt_file_path}, {md_file_path},")
 
     return states_data
-
 
 # # Run the extraction
 # extract_constituencies_from_html()
