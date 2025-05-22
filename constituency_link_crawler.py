@@ -47,10 +47,4 @@ async def customcrawler():
             url=url,
 
         )
-        # # Save raw HTML to the new directory
-        # raw_html_path = os.path.join(output_folder, "raw_result.html")
-        # # Save raw HTML to debug
-        # with open(raw_html_path, "w", encoding="utf-8") as f:
-        #     f.write(result.cleaned_html)
-        #
-        #
+

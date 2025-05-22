@@ -1,0 +1,69 @@
+**Myneta.info is an open data repository platform of Association for Democratic Reforms (ADR).**
+[![Myneta Logo](https://www.myneta.info/lib/img/myneta-logo.png)](https://www.myneta.info/) | [![Myneta Logo](https://www.myneta.info/lib/img/adr-logo.png)](https://adrindia.org)  
+---|---  
+[Home](https://www.myneta.info/) [Lok Sabha](https://www.myneta.info/#ls "Lok Sabha") [ State Assemblies ](https://www.myneta.info/#sa "State Assemblies") [Rajya Sabha](https://www.myneta.info/#rs "Rajya Sabha") [Political Parties ](https://www.myneta.info/party "Political Parties") [ Electoral Bonds ](https://www.myneta.info/electoral_bonds "Electoral Bonds") [ || माय नेता हिंदी में || ](https://translate.google.co.in/translate?prev=hp&hl=en&js=y&u=www.myneta.info&sl=en&tl=hi&history_state0=) [ About MyNeta ](https://adrindia.org/content/about-myneta) [ About ADR ](https://adrindia.org/about-adr/who-we-are) [☰](javascript:void\(0\))
+[ State Assemblies ](https://www.myneta.info/#sa "State Assemblies") [ Rajya Sabha ](https://www.myneta.info/#rs "Rajya Sabha") [ Political Parties ](https://www.myneta.info/party "Political Parties")
+|   
+---|---  
+![](https://www.myneta.info/lib/img/banner/banner-1.png)![](https://www.myneta.info/lib/img/banner/banner-2.png)![](https://www.myneta.info/lib/img/banner/banner-3.png)![](https://www.myneta.info/lib/img/banner/banner-4.png)
+1  2  3  4 
+[Home](https://www.myneta.info/) → [Lok Sabha 2009](https://www.myneta.info/ls2009/)→[TAMIL NADU](https://www.myneta.info/ls2009/index.php?action=show_constituencies&state_id=22) → **Kallakurichi**
+### 
+## Lok Sabha 2009
+###  Election Summary 
+HIGHLIGHTS OF CANDIDATES  
+---  
+Total number of constituencies analyzed |  543   
+Total candidates analyzed by NEW | **[7549](https://www.myneta.info/ls2009/index.php?action=summary&subAction=candidates_analyzed&sort=candidate#summary) **  
+Candidates with declared criminal cases | **[1095(15%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=crime&sort=candidate#summary) **  
+Candidates with declared serious criminal cases| **[749(10%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=serious_crime&sort=candidate#summary) **  
+Crorepati candidates | **[1213(16%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=crorepati&sort=candidate#summary) **  
+Candidates who are graduate or above | **[3303 (44%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=education&sort=candidate#summary) **  
+Candidates who have not declared PAN | **[4688 (62%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=without_pan&sort=candidate#summary) **  
+Total women candidates | **[512 (7%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=women_candidate&sort=candidate#summary) **  
+HIGHLIGHTS OF WINNERS  
+---  
+Total winners analyzed by NEW | **[542](https://www.myneta.info/ls2009/index.php?action=summary&subAction=winner_analyzed&sort=candidate#summary) **  
+Winners with declared criminal cases | **[162 (30%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=winner_crime&sort=candidate#summary) **  
+Winners with declared serious criminal cases | **[89 (16%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=winner_serious_crime&sort=candidate#summary)**  
+Crorepati winners | **[312 (58%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=winner_crorepati&sort=candidate#summary) **  
+Winners who are graduate or above | **[411 (76%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=winner_education&sort=candidate#summary) **  
+Winners who have not declared PAN | **[81 (15%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=winner_without_pan&sort=candidate#summary) **  
+Total women winners | **[58 (11%)](https://www.myneta.info/ls2009/index.php?action=summary&subAction=winner_women&sort=candidate#summary) **  
+### List of Candidates - Kallakurichi:TAMIL NADU ([Comparison Chart of Party Candidates](https://www.myneta.info/ls2009/comparisonchart.php?constituency_id=486))
+SNo | Candidate| Party| Criminal Cases| Education| Age| Total Assets| Liabilities  
+---|---|---|---|---|---|---|---  
+20  | [SANKAR ADHI](https://www.myneta.info/ls2009/candidate.php?candidate_id=8979)** Winner ** | DMK | **1** | Graduate Professional| 52 | Rs 1,78,37,266 ~ 1 Crore+ | Rs 9,86,068 ~ 9 Lacs+  
+1  | [ANANDHADASS C](https://www.myneta.info/ls2009/candidate.php?candidate_id=8982) | LJP | 0 | 10th Pass| 27 | Rs 60,300 ~ 60 Thou+ | Rs 0 ~   
+2  | [ARUN KENNEDI A](https://www.myneta.info/ls2009/candidate.php?candidate_id=8987) | IND | 0 | 10th Pass| 44 | Rs 50,000 ~ 50 Thou+ | Rs 0 ~   
+3  | [DHANARAJ T](https://www.myneta.info/ls2009/candidate.php?candidate_id=8995) | IND | 0 | Not Given| 35 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8995&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8995&col=lia)  
+4  | [DHANARAJU K](https://www.myneta.info/ls2009/candidate.php?candidate_id=8981) | PMK | 0 | Doctorate| 52 | Rs 1,25,31,131 ~ 1 Crore+ | Rs 67,77,922 ~ 67 Lacs+  
+5  | [DINESH M](https://www.myneta.info/ls2009/candidate.php?candidate_id=8996) | IND | 0 | Others| 32 | Rs 1,06,000 ~ 1 Lacs+ | Rs 0 ~   
+6  | [GANESAN K](https://www.myneta.info/ls2009/candidate.php?candidate_id=8989) | IND | 0 | Graduate| 32 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8989&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8989&col=lia)  
+7  | [GOVINDARAJAN K M](https://www.myneta.info/ls2009/candidate.php?candidate_id=8984) | Akila India Vallalar Peravai | 0 | Not Given| 73 | Rs 9,50,000 ~ 9 Lacs+ | Rs 0 ~   
+8  | [INIYADAYALAN G](https://www.myneta.info/ls2009/candidate.php?candidate_id=8988) | IND | 0 | Not Given| 56 | Rs 32,18,000 ~ 32 Lacs+ | Rs 10,000 ~ 10 Thou+  
+9  | [KESAVAN ANNA](https://www.myneta.info/ls2009/candidate.php?candidate_id=8983) | JMM | 0 | 12th Pass| 63 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8983&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8983&col=lia)  
+10  | [MANICKAM V](https://www.myneta.info/ls2009/candidate.php?candidate_id=9000) | IND | 0 | Graduate| 57 | Rs 26,43,519 ~ 26 Lacs+ | Rs 85,518 ~ 85 Thou+  
+11  | [MANNAN M P](https://www.myneta.info/ls2009/candidate.php?candidate_id=8999) | IND | 0 | Post Graduate| 48 | Rs 90,000 ~ 90 Thou+ | Rs 0 ~   
+12  | [NALLATHAMBI C](https://www.myneta.info/ls2009/candidate.php?candidate_id=8997) | IND | 0 | 10th Pass| 31 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8997&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8997&col=lia)  
+13  | [NAVARATTHINAM A](https://www.myneta.info/ls2009/candidate.php?candidate_id=8998) | IND | 0 | Literate| 33 | Rs 3,50,000 ~ 3 Lacs+ | Rs 0 ~   
+14  | [RAJAMANICKAM K](https://www.myneta.info/ls2009/candidate.php?candidate_id=9003) | IND | 0 | 10th Pass| 52 | Rs 15,15,498 ~ 15 Lacs+ | Rs 51,000 ~ 51 Thou+  
+15  | [RAJENTHREN D](https://www.myneta.info/ls2009/candidate.php?candidate_id=9004) | IND | 0 | 5th Pass| 50 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=9004&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=9004&col=lia)  
+16  | [RAJENTHREN M](https://www.myneta.info/ls2009/candidate.php?candidate_id=9005) | IND | 0 | 5th Pass| 38 | Rs 30,000 ~ 30 Thou+ | Rs 0 ~   
+17  | [RAMAJAYAM P M](https://www.myneta.info/ls2009/candidate.php?candidate_id=9002) | IND | 0 | Literate| 52 | Rs 2,62,000 ~ 2 Lacs+ | Rs 0 ~   
+18  | [RAMESH S](https://www.myneta.info/ls2009/candidate.php?candidate_id=8986) | KNMK | 0 | Graduate Professional| 32 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8986&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8986&col=lia)  
+19  | [SADEESH A](https://www.myneta.info/ls2009/candidate.php?candidate_id=8990) | IND | 0 | 12th Pass| 30 | Rs 20,000 ~ 20 Thou+ | Rs 0 ~   
+21  | [SATHISH BABU S](https://www.myneta.info/ls2009/candidate.php?candidate_id=8991) | IND | 0 | 10th Pass| 35 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8991&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8991&col=lia)  
+22  | [SELVAM K](https://www.myneta.info/ls2009/candidate.php?candidate_id=8993) | IND | 0 | 5th Pass| 39 | Rs 25,00,360 ~ 25 Lacs+ | Rs 1,35,000 ~ 1 Lacs+  
+23  | [SENTHILKUMAR K](https://www.myneta.info/ls2009/candidate.php?candidate_id=8980) | BSP | 0 | 12th Pass| 35 | Rs 3,51,000 ~ 3 Lacs+ | Rs 0 ~   
+24  | [SIVARAMAN G](https://www.myneta.info/ls2009/candidate.php?candidate_id=8992) | IND | 0 | Post Graduate| 33 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8992&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=8992&col=lia)  
+25  | [SUDHISH L K](https://www.myneta.info/ls2009/candidate.php?candidate_id=8985) | DMDK | 0 | Graduate| 41 | Rs 6,03,13,713 ~ 6 Crore+ | Rs 80,43,273 ~ 80 Lacs+  
+26  | [VASU V](https://www.myneta.info/ls2009/candidate.php?candidate_id=9006) | IND | 0 | 5th Pass| 50 | Rs 1,80,000 ~ 1 Lacs+ | Rs 0 ~   
+27  | [VIJAYA RAJENDHAR T](https://www.myneta.info/ls2009/candidate.php?candidate_id=9007) | IND | 0 | Post Graduate| 52 | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=9007&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=ls2009&candidate_id=9007&col=lia)  
+28  | [YUVARAJ R](https://www.myneta.info/ls2009/candidate.php?candidate_id=9001) | IND | 0 | 10th Pass| 34 | Rs 1,02,000 ~ 1 Lacs+ | Rs 0 ~   
+|  **DONATE NOW** × |  Share On:  | [](https://api.whatsapp.com/send?text=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19) | [](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19) | [](https://twitter.com/share?url=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19)  
+---|---|---|---|---  
+| [ Download App ](https://play.google.com/store/apps/details?id=com.webrosoft.myneta1&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) | [](https://play.google.com/store/apps/details?id=com.webrosoft.myneta1&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) |  Follow us on  | [](https://www.facebook.com/adrindia.org/) | [](https://twitter.com/adrspeaks) | [](https://groups.google.com/g/national-election-watch?hl=en&pli=1) | [](https://www.instagram.com/adrspeaks/) | [](https://www.youtube.com/user/adrspeaks) | [](https://sharechat.com/profile/adrspeaks)  
+---|---|---|---|---|---|---|---|---  
+**Disclaimer:** All information on this website has been taken by ADR from the website of the Election Commission of India (https://affidavitarchive.nic.in/) and all the information is available in public domain. ADR does not add or subtract any information, unless the EC changes the data. In particular, no unverified information from any other source is used. While all efforts have been made by ADR to ensure that the information is in keeping with what is available in the ECI website, in case of discrepancy between information provided by ADR through this report, anyone and that given in the ECI website, the information available on the ECI website should be treated as correct and Association for Democratic Reforms and their volunteers are not responsible or liable for any direct, indirect special, or consequential damages, claims, demands, losses of any kind whatsoever, made, claimed, incurred or suffered by any party arising under or relating to the usage of data provided by ADR through this report. It is to be noted that ADR undertakes great care and adopts utmost due diligence in analysing and dissemination of the background information of the candidates furnished by them at the time of elections from the duly self-sworn affidavits submitted with the Election Commission of India. Such information is only aimed at highlighting the growing criminality in politics, increased misuse of money in elections so as to facilitate a system of transparency, accountability and good governance and to enable voters to form an informed choice. Therefore, it is expected that anyone using this report shall undertake due care and utmost precaution while using the data provided by ADR. ADR is not responsible for any mishandling, discrepancy, inability to understand, misinterpretation or manipulation, distortion of the data in such a way so as to benefit or target a particular political party or politician or candidate. 
+[ About MyNeta ](https://adrindia.org/content/about-myneta) [ About ADR ](https://adrindia.org/about-adr/who-we-are) [ State Coordinators ](https://adrindia.org/about-adr/state-coordinators) [ Contact ](https://adrindia.org/contact-us) [ Terms of Use ](https://adrindia.org/content/adr-terms-use) [ FAQs ](https://adrindia.org/content/faqs)

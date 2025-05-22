@@ -1,5 +1,6 @@
 import os
 import re
+import csv
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
@@ -35,7 +36,7 @@ def extract_constituencies_from_html(html_content=None, input_file=None, output_
 
     # Load HTML content - either from the provided string or from a file
     if html_content is None:
-        # Default input file if not specified
+        # Default input file if isn't specified
         if not input_file:
             input_file = input("Enter path to HTML file (default: raw_result.html): ").strip() or "raw_result.html"
 
@@ -46,7 +47,7 @@ def extract_constituencies_from_html(html_content=None, input_file=None, output_
             if os.path.exists(potential_path):
                 input_file = potential_path
 
-        # Load the HTML content from file
+        # Load the HTML content from a file
         try:
             with open(input_file, "r", encoding="utf-8") as file:
                 html_content = file.read()
@@ -172,7 +173,7 @@ def extract_constituencies_from_html(html_content=None, input_file=None, output_
 
         txt_file.write(f"\nTotal: {total_constituencies} constituencies across {len(states_data)} states/UTs\n")
 
-    # Generate markdown file
+    # Generate a markdown file
     with open(md_file_path, "w", encoding="utf-8") as md_file:
         md_file.write("# Constituency Links By State\n\n")
 
@@ -196,5 +197,4 @@ def extract_constituencies_from_html(html_content=None, input_file=None, output_
 
     return states_data
 
-# # Run the extraction
-# extract_constituencies_from_html()
+# def extract_candidate_links(html_content=None, input_file=None, output_folder=None, url=None, constituency_name=None):

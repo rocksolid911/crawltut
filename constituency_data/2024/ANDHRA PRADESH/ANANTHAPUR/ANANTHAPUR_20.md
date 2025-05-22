@@ -1,0 +1,61 @@
+**Myneta.info is an open data repository platform of Association for Democratic Reforms (ADR).**
+[![Myneta Logo](https://www.myneta.info/lib/img/myneta-logo.png)](https://www.myneta.info/) | [![Myneta Logo](https://www.myneta.info/lib/img/adr-logo.png)](https://adrindia.org)  
+---|---  
+[Home](https://www.myneta.info/) [Lok Sabha](https://www.myneta.info/#ls "Lok Sabha") [ State Assemblies ](https://www.myneta.info/#sa "State Assemblies") [Rajya Sabha](https://www.myneta.info/#rs "Rajya Sabha") [Political Parties ](https://www.myneta.info/party "Political Parties") [ Electoral Bonds ](https://www.myneta.info/electoral_bonds "Electoral Bonds") [ || माय नेता हिंदी में || ](https://translate.google.co.in/translate?prev=hp&hl=en&js=y&u=www.myneta.info&sl=en&tl=hi&history_state0=) [ About MyNeta ](https://adrindia.org/content/about-myneta) [ About ADR ](https://adrindia.org/about-adr/who-we-are) [☰](javascript:void\(0\))
+[ State Assemblies ](https://www.myneta.info/#sa "State Assemblies") [ Rajya Sabha ](https://www.myneta.info/#rs "Rajya Sabha") [ Political Parties ](https://www.myneta.info/party "Political Parties")
+|   
+---|---  
+![](https://www.myneta.info/lib/img/banner/banner-1.png)![](https://www.myneta.info/lib/img/banner/banner-2.png)![](https://www.myneta.info/lib/img/banner/banner-3.png)![](https://www.myneta.info/lib/img/banner/banner-4.png)
+1  2  3  4 
+[Home](https://www.myneta.info/) → [Lok Sabha 2024](https://www.myneta.info/LokSabha2024/)→[ANDHRA PRADESH](https://www.myneta.info/LokSabha2024/index.php?action=show_constituencies&state_id=2) → **ANANTHAPUR**
+### 
+## Lok Sabha 2024
+###  Election Summary 
+HIGHLIGHTS OF CANDIDATES  
+---  
+Total number of constituencies analyzed |  543   
+Total candidates analyzed by NEW | **[8338](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=candidates_analyzed&sort=candidate#summary) **  
+Candidates with declared criminal cases | **[1645(20%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=crime&sort=candidate#summary) **  
+Candidates with declared serious criminal cases| **[1189(14%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=serious_crime&sort=candidate#summary) **  
+Crorepati candidates | **[2575(31%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=crorepati&sort=candidate#summary) **  
+Candidates who are graduate or above | **[4212 (51%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=education&sort=candidate#summary) **  
+Candidates who have not declared PAN | **[264 (3%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=without_pan&sort=candidate#summary) **  
+Total women candidates | **[797 (10%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=women_candidate&sort=candidate#summary) **  
+HIGHLIGHTS OF WINNERS  
+---  
+Total winners analyzed by NEW | **[543](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_analyzed&sort=candidate#summary) **  
+Winners with declared criminal cases | **[251 (46%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_crime&sort=candidate#summary) **  
+Winners with declared serious criminal cases | **[169 (31%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_serious_crime&sort=candidate#summary)**  
+Crorepati winners | **[504 (93%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_crorepati&sort=candidate#summary) **  
+Winners who are graduate or above | **[420 (77%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_education&sort=candidate#summary) **  
+Winners who have not declared PAN | **[0 (0%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_without_pan&sort=candidate#summary) **  
+Total women winners | **[74 (14%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_women&sort=candidate#summary) **  
+### List of Candidates - ANANTHAPUR:ANDHRA PRADESH ([Comparison Chart of Party Candidates](https://www.myneta.info/LokSabha2024/comparisonchart.php?constituency_id=20))
+SNo | Candidate| Party| Criminal Cases| Education| Age| Total Assets| Liabilities  
+---|---|---|---|---|---|---|---  
+1  | [Ambica G Lakshminarayana Valmiki](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5097)** Winner ** | TDP | **8** | Graduate| 60 | Rs 4,75,40,056 ~ 4 Crore+ | Rs 21,19,559 ~ 21 Lacs+  
+2  | [B.Nagamuthyalu](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5096) | SUCI(C) | 0 | 10th Pass| 42 | Rs 3,45,573 ~ 3 Lacs+ | Rs 0 ~   
+3  | [B.Raghavendra Prasad](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5896) | IND | **4** | 12th Pass| 33 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5896&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5896&col=lia)  
+4  | [Banasi Narayanappa](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5889) | BSP | 0 | Graduate Professional| 48 | Rs 6,83,000 ~ 6 Lacs+ | Rs 0 ~   
+5  | [Dr.Nallani Ramesh Naidu](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5906) | Andhra Rastra Praja Samithi | **1** | Graduate| 44 | Rs 4,70,000 ~ 4 Lacs+ | Rs 0 ~   
+6  | [Durga Prasad D Byatarayanaji](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5891) | Challengers Party | 0 | Graduate Professional| 58 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5891&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5891&col=lia)  
+7  | [G.V.Ramana Reddy](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5909) | IND | **1** | 12th Pass| 59 | Rs 5,14,19,000 ~ 5 Crore+ | Rs 6,40,000 ~ 6 Lacs+  
+8  | [Kethireddy Raghunathareddy](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5897) | IND | 0 | 10th Pass| 48 | Rs 22,00,500 ~ 22 Lacs+ | Rs 65,00,000 ~ 65 Lacs+  
+9  | [Kuruba Mallikarjuna.S.](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5895) | All India Kisan Janatha party | 0 | 12th Pass| 37 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5895&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5895&col=lia)  
+10  | [Lokanath Gowd Suragowini](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5907) | IND | 0 | 10th Pass| 40 | Rs 33,35,373 ~ 33 Lacs+ | Rs 1,25,944 ~ 1 Lacs+  
+11  | [M.Surendra](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5888) | Pyramid Party of India | 0 | Graduate| 38 | Rs 3,73,500 ~ 3 Lacs+ | Rs 57,000 ~ 57 Thou+  
+12  | [Malagundla Sankar Narayana](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5095) | YSRCP | **4** | Graduate Professional| 59 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5095&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5095&col=lia)  
+13  | [Mallikarjuna Vajjala](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5283) | INC | 0 | 10th Pass| 61 | Rs 6,99,18,391 ~ 6 Crore+ | Rs 84,30,000 ~ 84 Lacs+  
+14  | [P.Chowdeswari](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5911) | IND | 0 | Graduate| 38 | Rs 3,30,40,267 ~ 3 Crore+ | Rs 56,07,058 ~ 56 Lacs+  
+15  | [Shaik.Nizam](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5908) | SP | 0 | 5th Pass| 44 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5908&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5908&col=lia)  
+16  | [Sreerangarajula Gopinath Royal](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5912) | IND | **5** | Post Graduate| 33 | Rs 3,46,19,800 ~ 3 Crore+ | Rs 8,35,029 ~ 8 Lacs+  
+17  | [Srinivasa Raju.O](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5910) | Bhartiya Panchyat Party | 0 | Post Graduate| 35 | Rs 21,500 ~ 21 Thou+ | Rs 0 ~   
+18  | [U.C.Venkatasubbaiah](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5894) | Jaathia Chethi Vruthula Ikya Vedika Party | 0 | 5th Pass| 59 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5894&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=5894&col=lia)  
+19  | [V.Murali Prasad Reddy](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5893) | IND | **2** | 10th Pass| 53 | Rs 1,20,43,537 ~ 1 Crore+ | Rs 19,87,581 ~ 19 Lacs+  
+20  | [Vadla Kesavaiah](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=5892) | IND | 0 | Post Graduate| 68 | Rs 1,59,15,213 ~ 1 Crore+ | Rs 18,00,000 ~ 18 Lacs+  
+|  **DONATE NOW** × |  Share On:  | [](https://api.whatsapp.com/send?text=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19) | [](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19) | [](https://twitter.com/share?url=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19)  
+---|---|---|---|---  
+| [ Download App ](https://play.google.com/store/apps/details?id=com.webrosoft.myneta1&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) | [](https://play.google.com/store/apps/details?id=com.webrosoft.myneta1&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) |  Follow us on  | [](https://www.facebook.com/adrindia.org/) | [](https://twitter.com/adrspeaks) | [](https://groups.google.com/g/national-election-watch?hl=en&pli=1) | [](https://www.instagram.com/adrspeaks/) | [](https://www.youtube.com/user/adrspeaks) | [](https://sharechat.com/profile/adrspeaks)  
+---|---|---|---|---|---|---|---|---  
+**Disclaimer:** All information on this website has been taken by ADR from the website of the Election Commission of India (https://affidavitarchive.nic.in/) and all the information is available in public domain. ADR does not add or subtract any information, unless the EC changes the data. In particular, no unverified information from any other source is used. While all efforts have been made by ADR to ensure that the information is in keeping with what is available in the ECI website, in case of discrepancy between information provided by ADR through this report, anyone and that given in the ECI website, the information available on the ECI website should be treated as correct and Association for Democratic Reforms and their volunteers are not responsible or liable for any direct, indirect special, or consequential damages, claims, demands, losses of any kind whatsoever, made, claimed, incurred or suffered by any party arising under or relating to the usage of data provided by ADR through this report. It is to be noted that ADR undertakes great care and adopts utmost due diligence in analysing and dissemination of the background information of the candidates furnished by them at the time of elections from the duly self-sworn affidavits submitted with the Election Commission of India. Such information is only aimed at highlighting the growing criminality in politics, increased misuse of money in elections so as to facilitate a system of transparency, accountability and good governance and to enable voters to form an informed choice. Therefore, it is expected that anyone using this report shall undertake due care and utmost precaution while using the data provided by ADR. ADR is not responsible for any mishandling, discrepancy, inability to understand, misinterpretation or manipulation, distortion of the data in such a way so as to benefit or target a particular political party or politician or candidate. 
+[ About MyNeta ](https://adrindia.org/content/about-myneta) [ About ADR ](https://adrindia.org/about-adr/who-we-are) [ State Coordinators ](https://adrindia.org/about-adr/state-coordinators) [ Contact ](https://adrindia.org/contact-us) [ Terms of Use ](https://adrindia.org/content/adr-terms-use) [ FAQs ](https://adrindia.org/content/faqs)

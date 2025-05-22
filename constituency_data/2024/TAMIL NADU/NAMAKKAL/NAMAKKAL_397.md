@@ -1,0 +1,81 @@
+**Myneta.info is an open data repository platform of Association for Democratic Reforms (ADR).**
+[![Myneta Logo](https://www.myneta.info/lib/img/myneta-logo.png)](https://www.myneta.info/) | [![Myneta Logo](https://www.myneta.info/lib/img/adr-logo.png)](https://adrindia.org)  
+---|---  
+[Home](https://www.myneta.info/) [Lok Sabha](https://www.myneta.info/#ls "Lok Sabha") [ State Assemblies ](https://www.myneta.info/#sa "State Assemblies") [Rajya Sabha](https://www.myneta.info/#rs "Rajya Sabha") [Political Parties ](https://www.myneta.info/party "Political Parties") [ Electoral Bonds ](https://www.myneta.info/electoral_bonds "Electoral Bonds") [ || माय नेता हिंदी में || ](https://translate.google.co.in/translate?prev=hp&hl=en&js=y&u=www.myneta.info&sl=en&tl=hi&history_state0=) [ About MyNeta ](https://adrindia.org/content/about-myneta) [ About ADR ](https://adrindia.org/about-adr/who-we-are) [☰](javascript:void\(0\))
+[ State Assemblies ](https://www.myneta.info/#sa "State Assemblies") [ Rajya Sabha ](https://www.myneta.info/#rs "Rajya Sabha") [ Political Parties ](https://www.myneta.info/party "Political Parties")
+|   
+---|---  
+![](https://www.myneta.info/lib/img/banner/banner-1.png)![](https://www.myneta.info/lib/img/banner/banner-2.png)![](https://www.myneta.info/lib/img/banner/banner-3.png)![](https://www.myneta.info/lib/img/banner/banner-4.png)
+1  2  3  4 
+[Home](https://www.myneta.info/) → [Lok Sabha 2024](https://www.myneta.info/LokSabha2024/)→[TAMIL NADU](https://www.myneta.info/LokSabha2024/index.php?action=show_constituencies&state_id=31) → **NAMAKKAL**
+### 
+## Lok Sabha 2024
+###  Election Summary 
+HIGHLIGHTS OF CANDIDATES  
+---  
+Total number of constituencies analyzed |  543   
+Total candidates analyzed by NEW | **[8338](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=candidates_analyzed&sort=candidate#summary) **  
+Candidates with declared criminal cases | **[1645(20%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=crime&sort=candidate#summary) **  
+Candidates with declared serious criminal cases| **[1189(14%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=serious_crime&sort=candidate#summary) **  
+Crorepati candidates | **[2575(31%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=crorepati&sort=candidate#summary) **  
+Candidates who are graduate or above | **[4212 (51%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=education&sort=candidate#summary) **  
+Candidates who have not declared PAN | **[264 (3%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=without_pan&sort=candidate#summary) **  
+Total women candidates | **[797 (10%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=women_candidate&sort=candidate#summary) **  
+HIGHLIGHTS OF WINNERS  
+---  
+Total winners analyzed by NEW | **[543](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_analyzed&sort=candidate#summary) **  
+Winners with declared criminal cases | **[251 (46%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_crime&sort=candidate#summary) **  
+Winners with declared serious criminal cases | **[169 (31%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_serious_crime&sort=candidate#summary)**  
+Crorepati winners | **[504 (93%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_crorepati&sort=candidate#summary) **  
+Winners who are graduate or above | **[420 (77%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_education&sort=candidate#summary) **  
+Winners who have not declared PAN | **[0 (0%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_without_pan&sort=candidate#summary) **  
+Total women winners | **[74 (14%)](https://www.myneta.info/LokSabha2024/index.php?action=summary&subAction=winner_women&sort=candidate#summary) **  
+### List of Candidates - NAMAKKAL:TAMIL NADU ([Comparison Chart of Party Candidates](https://www.myneta.info/LokSabha2024/comparisonchart.php?constituency_id=397))
+SNo | Candidate| Party| Criminal Cases| Education| Age| Total Assets| Liabilities  
+---|---|---|---|---|---|---|---  
+18  | [Matheswaran V S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=164)** Winner ** | DMK | **3** | 10th Pass| 51 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=164&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=164&col=lia)  
+1  | [Arulmani M](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1613) | IND | 0 | Others| 37 | Rs 28,000 ~ 28 Thou+ | Rs 0 ~   
+2  | [Balajichezhian P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1611) | IND | 0 | Graduate Professional| 39 | Rs 15,000 ~ 15 Thou+ | Rs 0 ~   
+3  | [Deepan Chakkravarthi S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1605) | IND | 0 | 12th Pass| 33 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1605&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1605&col=lia)  
+4  | [Dr Gurunathan S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1624) | IND | 0 | Doctorate| 53 | Rs 12,99,855 ~ 12 Lacs+ | Rs 4,72,709 ~ 4 Lacs+  
+5  | [Dr Ramalingam K P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=166) | BJP | **1** | Graduate| 69 | Rs 8,63,89,735 ~ 8 Crore+ | Rs 74,00,000 ~ 74 Lacs+  
+6  | [Durairaj C](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1600) | IND | 0 | 10th Pass| 66 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1600&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1600&col=lia)  
+7  | [Easwaramoorthy M](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1599) | IND | 0 | 10th Pass| 56 | Rs 77,83,600 ~ 77 Lacs+ | Rs 0 ~   
+8  | [Ezhil Selvan P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1621) | Tamilaga Makkal Thannurimai Katchi | 0 | Graduate Professional| 46 | Rs 1,56,65,722 ~ 1 Crore+ | Rs 1,20,00,000 ~ 1 Crore+  
+9  | [Gopal P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1608) | IND | 0 | 10th Pass| 37 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1608&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1608&col=lia)  
+10  | [Kaliannan S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1607) | IND | 0 | 10th Pass| 47 | Rs 48,00,000 ~ 48 Lacs+ | Rs 0 ~   
+11  | [Kandasamy A M](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1597) | IND | 0 | 8th Pass| 42 | Rs 15,71,000 ~ 15 Lacs+ | Rs 5,00,000 ~ 5 Lacs+  
+12  | [Kandasamy P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1602) | IND | 0 | 5th Pass| 49 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1602&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1602&col=lia)  
+13  | [Kanimozhi G](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=162) | Naam Tamilar Katchi | 0 | Graduate Professional| 29 | Rs 30,19,000 ~ 30 Lacs+ | Rs 4,55,000 ~ 4 Lacs+  
+14  | [Karthi S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1601) | IND | 0 | Graduate Professional| 31 | Rs 70,22,900 ~ 70 Lacs+ | Rs 21,00,000 ~ 21 Lacs+  
+15  | [Karthikeyan S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1610) | IND | 0 | Post Graduate| 39 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1610&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1610&col=lia)  
+16  | [Madheswaran V](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1592) | IND | 0 | Others| 40 | Rs 21,42,848 ~ 21 Lacs+ | Rs 1,50,000 ~ 1 Lacs+  
+17  | [Manikkam S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1596) | Ulzaipali Makkal Katchy | 0 | 5th Pass| 53 | Rs 41,10,500 ~ 41 Lacs+ | Rs 0 ~   
+19  | [Moorthi J](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1618) | IND | **1** | 5th Pass| 66 | Rs 11,77,000 ~ 11 Lacs+ | Rs 0 ~   
+20  | [Moorthy V](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1598) | IND | 0 | 12th Pass| 39 | Rs 18,26,938 ~ 18 Lacs+ | Rs 0 ~   
+21  | [Nallathambi P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1604) | IND | 0 | Graduate| 61 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1604&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1604&col=lia)  
+22  | [Natarajan M](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1616) | IND | 0 | 8th Pass| 56 | Rs 1,98,48,632 ~ 1 Crore+ | Rs 39,99,140 ~ 39 Lacs+  
+23  | [Naveen K](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1606) | IND | 0 | Others| 27 | Rs 13,85,000 ~ 13 Lacs+ | Rs 0 ~   
+24  | [Netajikaviarasu V](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1614) | IND | 0 | Graduate Professional| 43 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1614&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1614&col=lia)  
+25  | [Rajendran C](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=165) | Viduthalai Kalam Katchi | 0 | 5th Pass| 46 | Rs 8,84,209 ~ 8 Lacs+ | Rs 5,23,600 ~ 5 Lacs+  
+26  | [Raman V](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1622) | BSP | 0 | 5th Pass| 51 | Rs 2,41,000 ~ 2 Lacs+ | Rs 0 ~   
+27  | [Ramasamy N](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1620) | IND | 0 | Illiterate| 67 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1620&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1620&col=lia)  
+28  | [Ramasamy P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1615) | IND | 0 | 12th Pass| 59 | Rs 4,23,200 ~ 4 Lacs+ | Rs 0 ~   
+29  | [Ramesh T](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1590) | Ahimsa Socialist Party | 0 | Graduate| 43 | Rs 1,07,85,200 ~ 1 Crore+ | Rs 12,30,000 ~ 12 Lacs+  
+30  | [Ramesh T R](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1609) | IND | 0 | 10th Pass| 43 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1609&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1609&col=lia)  
+31  | [Ravikumar P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1619) | Ganasangam Party of India | 0 | 12th Pass| 44 | Rs 39,700 ~ 39 Thou+ | Rs 0 ~   
+32  | [Sakthivel S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1612) | IND | 0 | Graduate Professional| 39 | Rs 15,000 ~ 15 Thou+ | Rs 0 ~   
+33  | [Satheesh G](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1593) | IND | **1** | Graduate| 35 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1593&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1593&col=lia)  
+34  | [Selvaraj K R](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1625) | IND | 0 | 10th Pass| 67 | Rs 1,75,89,602 ~ 1 Crore+ | Rs 0 ~   
+35  | [Sivakumar V](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1595) | IND | 0 | Graduate| 58 | Rs 13,01,368 ~ 13 Lacs+ | Rs 0 ~   
+36  | [Tamilmani A](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1591) | IND | 0 | 10th Pass| 35 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1591&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1591&col=lia)  
+37  | [Tamilmani S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=163) | AIADMK | 0 | Post Graduate| 64 | Rs 85,04,13,532 ~ 85 Crore+ | Rs 18,86,73,943 ~ 18 Crore+  
+38  | [Thiyagarajan R](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1594) | Samaniya Makkal Nala Katchi | 0 | 10th Pass| 36 | Rs 85,500 ~ 85 Thou+ | Rs 0 ~   
+39  | [Uthayakumar P](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1603) | IND | 0 | 10th Pass| 39 | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1603&col=ta) | ![](https://myneta.info/image_v2.php?myneta_folder=LokSabha2024&candidate_id=1603&col=lia)  
+40  | [Vennila S](https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1617) | IND | 0 | 8th Pass| 52 | Rs 28,00,000 ~ 28 Lacs+ | Rs 0 ~   
+|  **DONATE NOW** × |  Share On:  | [](https://api.whatsapp.com/send?text=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19) | [](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19) | [](https://twitter.com/share?url=https%3A%2F%2Fmyneta.info%2Fpunjab2022%2Findex.php%3Faction%3Dshow_constituencies%26state_id%3D19)  
+---|---|---|---|---  
+| [ Download App ](https://play.google.com/store/apps/details?id=com.webrosoft.myneta1&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) | [](https://play.google.com/store/apps/details?id=com.webrosoft.myneta1&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) |  Follow us on  | [](https://www.facebook.com/adrindia.org/) | [](https://twitter.com/adrspeaks) | [](https://groups.google.com/g/national-election-watch?hl=en&pli=1) | [](https://www.instagram.com/adrspeaks/) | [](https://www.youtube.com/user/adrspeaks) | [](https://sharechat.com/profile/adrspeaks)  
+---|---|---|---|---|---|---|---|---  
+**Disclaimer:** All information on this website has been taken by ADR from the website of the Election Commission of India (https://affidavitarchive.nic.in/) and all the information is available in public domain. ADR does not add or subtract any information, unless the EC changes the data. In particular, no unverified information from any other source is used. While all efforts have been made by ADR to ensure that the information is in keeping with what is available in the ECI website, in case of discrepancy between information provided by ADR through this report, anyone and that given in the ECI website, the information available on the ECI website should be treated as correct and Association for Democratic Reforms and their volunteers are not responsible or liable for any direct, indirect special, or consequential damages, claims, demands, losses of any kind whatsoever, made, claimed, incurred or suffered by any party arising under or relating to the usage of data provided by ADR through this report. It is to be noted that ADR undertakes great care and adopts utmost due diligence in analysing and dissemination of the background information of the candidates furnished by them at the time of elections from the duly self-sworn affidavits submitted with the Election Commission of India. Such information is only aimed at highlighting the growing criminality in politics, increased misuse of money in elections so as to facilitate a system of transparency, accountability and good governance and to enable voters to form an informed choice. Therefore, it is expected that anyone using this report shall undertake due care and utmost precaution while using the data provided by ADR. ADR is not responsible for any mishandling, discrepancy, inability to understand, misinterpretation or manipulation, distortion of the data in such a way so as to benefit or target a particular political party or politician or candidate. 
+[ About MyNeta ](https://adrindia.org/content/about-myneta) [ About ADR ](https://adrindia.org/about-adr/who-we-are) [ State Coordinators ](https://adrindia.org/about-adr/state-coordinators) [ Contact ](https://adrindia.org/contact-us) [ Terms of Use ](https://adrindia.org/content/adr-terms-use) [ FAQs ](https://adrindia.org/content/faqs)
