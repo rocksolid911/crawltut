@@ -121,7 +121,7 @@ async def candidatecrawler(year, state=None):
                 clean_district = district_name.replace(' ', '_').replace('-', '_')
 
                 # Create directory structure
-                output_dir = os.path.join("constituency_data", str(year), state_match, clean_district)
+                output_dir = os.path.join("../constituency_data", str(year), state_match, clean_district)
                 os.makedirs(output_dir, exist_ok=True)
 
                 # Clean constituency name for filename

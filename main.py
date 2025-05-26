@@ -1,12 +1,5 @@
-import asyncio
-import os
-import glob
-from md_file_reader import get_constituency_csv_file
-from extract_candidate_table_csv import extract_candidate_tables_to_csv
-from candidate_link_crawler import candidatecrawler
-from candidate_profile_craweler import candidate_link_crawler
-from constituency_link_crawler import customcrawler
-
+from old_working_code_mp.candidate_link_crawler import candidatecrawler
+from old_working_code_mp.candidate_profile_craweler import candidate_link_crawler
 
 
 async def run_crawler_for_years(years):
