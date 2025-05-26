@@ -55,32 +55,6 @@ async def crawl_link_from_csv(csv_path, winners_only=False, batch_size=50):
     candidates = list(candidate_dict_link_with_name.items())
     batches = [candidates[i:i + batch_size] for i in range(0, len(candidates), batch_size)]
 
-    # async with AsyncWebCrawler(config=browser_config) as crawler:
-    #     for candidate_name, candidate_link in candidate_dict_link_with_name.items():
-    #         print(f"Processing candidate: {candidate_name} ({candidate_link})")
-    #
-    #         # Create a safe filename from candidate name
-    #         safe_name = "".join([c if c.isalnum() else "_" for c in candidate_name]).rstrip("_")
-    #         candidate_dir = os.path.join(output_dir, safe_name)
-    #         os.makedirs(candidate_dir, exist_ok=True)  # Create a candidate directory if it doesn't exist
-    #         json_output_file = os.path.join(candidate_dir, f"{safe_name}.json")
-    #
-    #         try:
-    #             # Fetch the candidate page
-    #             result = await crawler.arun(candidate_link, config=run_config)
-    #
-    #             # Generate JSON from markdown content
-    #             print(f"Extracted data for {candidate_name}")
-    #
-    #             # Modify generate function to accept output filename
-    #             generate(result.markdown, json_output_file)
-    #             print(f"JSON saved to: {json_output_file}")
-    #
-    #         except Exception as e:
-    #             print(f"Error processing {candidate_name}: {e}")
-
-    # Set up the web crawler
-
     async with AsyncWebCrawler(config=browser_config) as crawler:
         # Process batches of candidates in parallel
         for batch_num, batch in enumerate(batches, 1):
@@ -145,25 +119,6 @@ async def process_candidate(crawler, candidate_name, candidate_link, json_output
         import traceback
         traceback.print_exc()
         return False
-
-
-# def generate_wrapper(markdown_content: str, output_file: str):
-#     """
-#     Wrapper function that handles the generate call safely.
-#     This function runs in a separate thread/process.
-#     """
-#     max_retries = 3
-#     try:
-#         # Call the generate function with plain string content
-#         generate(markdown_content, output_file)
-#     except Exception as e:
-#         print(f"Error in generate_wrapper: {e}")
-#         # Save error information to a file for debugging
-#         error_file = output_file.replace('.json', '_error.txt')
-#         with open(error_file, 'w') as f:
-#             f.write(f"Error: {str(e)}\n")
-#             f.write(f"Content length: {len(markdown_content)}\n")
-#         raise
 
 
 @retry(
