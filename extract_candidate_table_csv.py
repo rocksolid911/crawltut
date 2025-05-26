@@ -5,16 +5,16 @@ import glob
 
 def extract_candidate_tables_to_csv(base_dir="constituency_data"):
     """
-    Extract candidate tables from markdown files and create district-specific CSV files.
+    Extract candidate tables from Markdown files and create district-specific CSV files.
 
     Args:
         base_dir: Base directory containing the constituency data
     """
-    # Fields to extract
+    # Fields to extract - adding CandidateURL field
     csv_fields = ["Year", "State", "Constituency", "SerialNo", "CandidateName", "Party",
-                  "CriminalCases", "Education", "Age", "TotalAssets", "Liabilities", "Winner"]
+                  "CriminalCases", "Education", "Age", "TotalAssets", "Liabilities", "Winner", "CandidateURL"]
 
-    # Find all markdown files recursively
+    # Find all Markdown files recursively
     md_files = glob.glob(os.path.join(base_dir, "**", "*.md"), recursive=True)
     print(f"Found {len(md_files)} markdown files to process")
 
@@ -36,7 +36,7 @@ def extract_candidate_tables_to_csv(base_dir="constituency_data"):
         # Extract path components
         path_parts = directory.split(os.sep)
         if len(path_parts) < 4:
-            continue  # Skip if path does not have year/state/district structure
+            continue  # Skip if a path does not have a year/state/district structure
 
         year = path_parts[-3] if path_parts[-3].isdigit() else "unknown_year"
         state = path_parts[-2].replace('%20', ' ')
@@ -78,10 +78,19 @@ def extract_candidate_tables_to_csv(base_dir="constituency_data"):
                     try:
                         serial_no = cells[0].strip()
 
-                        # Extract candidate name from markdown link
+                        # Extract candidate name from Markdown link
                         candidate_cell = cells[1]
-                        candidate_link = re.search(r'\[(.*?)\]', candidate_cell)
-                        candidate_name = candidate_link.group(1) if candidate_link else candidate_cell.strip()
+
+                        # Extract both name and URL from markdown link [Name](URL)
+                        link_match = re.search(r'\[(.*?)\]\((.*?)\)', candidate_cell)
+                        if link_match:
+                            candidate_name = link_match.group(1)
+                            candidate_url = link_match.group(2)
+                        else:
+                            # Try alternative pattern [Name]
+                            name_match = re.search(r'\[(.*?)\]', candidate_cell)
+                            candidate_name = name_match.group(1) if name_match else candidate_cell.strip()
+                            candidate_url = ""  # No URL found
 
                         # Check if candidate is winner
                         is_winner = "Yes" if "** Winner **" in candidate_cell else "No"
@@ -113,7 +122,8 @@ def extract_candidate_tables_to_csv(base_dir="constituency_data"):
                             "Age": age,
                             "TotalAssets": assets,
                             "Liabilities": liabilities,
-                            "Winner": is_winner
+                            "Winner": is_winner,
+                            "CandidateURL": candidate_url
                         })
                     except Exception as e:
                         print(f"Error processing row in {md_file}: {str(e)}")

@@ -38,3 +38,53 @@ def get_constituency_md_file(year=None):
             return md_files[0]  # Return the first match
 
     return None
+
+
+
+def get_constituency_csv_file(year=None, state=None, district=None):
+    """
+    Find and return the path to constituency CSV files.
+
+    Args:
+        year: The election year (e.g. '2024')
+        state: The state name (e.g. 'ASSAM')
+        district: The district name (e.g. 'DARRANG_UDALGURI')
+
+    Returns:
+        Path to CSV file if found, None otherwise
+    """
+    base_folder = "constituency_data"
+
+    # Convert year to string if it's an integer
+    if year is not None:
+        year = str(year)
+
+    # If all parameters are provided, get the specific district CSV
+    if year and state and district:
+        district_csv = os.path.join(base_folder, year, state, district, f"{district}.csv")
+        if os.path.exists(district_csv):
+            return district_csv
+
+    # If only year and state provided, find all CSVs in that state
+    elif year and state:
+        csv_pattern = os.path.join(base_folder, year, state, "**", "*.csv")
+        csv_files = glob.glob(csv_pattern, recursive=True)
+        if csv_files:
+            return csv_files  # Return all matches
+
+    # If only year provided, search at year level as before
+    elif year:
+        year_folder = os.path.join(base_folder, year)
+        if os.path.exists(year_folder):
+            csv_pattern = os.path.join(year_folder, "**", "*.csv")
+            csv_files = glob.glob(csv_pattern, recursive=True)
+            if csv_files:
+                return csv_files
+
+    # If no parameters, search all years
+    else:
+        all_csvs = glob.glob(os.path.join(base_folder, "**", "*.csv"), recursive=True)
+        if all_csvs:
+            return all_csvs
+
+    return None
