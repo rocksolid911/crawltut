@@ -1,168 +1,851 @@
 {
   "candidate_name": "UMMEDA RAM BENIWAL",
   "party": "INC",
-  "constituency": "BARMER (RAJASTHAN)",
-  "father_or_husband_name": "Late Mularam",
-  "age": 46,
-  "education": "Graduate B.A. From MDSU, Ajmer in 2000",
-  "profession_self": "Company Director, Business, Agriculture",
-  "profession_spouse": "Company Director, Business, Agriculture",
-  "criminal_cases": 0,
-  "assets_total_inr": 192765969,
-  "liabilities_total_inr": 66244492,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 5687306,
-        "2021-2022": 6051214,
-        "2020-2021": 8107700,
-        "2019-2020": 7780808,
-        "2018-2019": 4731860
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 1681200,
-        "2021-2022": 1395920,
-        "2020-2021": 1250000,
-        "2019-2020": 1188720,
-        "2018-2019": 1460450
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1564700,
-      "bank_deposits_inr": 720888,
-      "bonds_debentures_shares_inr": 58200000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 92955990,
-      "motor_vehicles_inr": 330000,
-      "jewellery_inr": 279400,
-      "other_assets_inr": 287358,
-      "gross_total_value_inr": 152648336
-    },
-    "spouse": {
-      "cash_inr": 597400,
-      "bank_deposits_inr": 404502,
-      "bonds_debentures_shares_inr": 23200000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 1578464,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1059400,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 26859766
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 8500000,
-      "non_agricultural_land": {
-        "description": "Nil"
+  "constituency": "BARMER",
+  "state": "RAJASTHAN",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Mularam",
+      "age": 46,
+      "voter_enrolled_in": {
+        "constituency": "17 Barmer",
+        "state": "Rajasthan",
+        "serial_no": 230,
+        "part_no": 26
       },
-      "commercial_buildings_inr": 25000000,
-      "residential_buildings": {
-        "description": "Residential House No.C-23 Riko Boranada, Jodhpur",
-        "total_area_sqft": 1800,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "2018-03-31",
-        "purchase_cost_inr": 3150300,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3500000
+      "self_profession": "Company Director, Business, Agriculture",
+      "spouse_profession": "Company Director, Business, Agriculture"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 192765969,
+      "total_liabilities_in_rupees": 66244492
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A. From MDSU, Ajmer in 2000"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 5687306
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 6051214
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 8107700
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 7780808
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 4731860
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 1681200
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 1395920
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1250000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1188720
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 1460450
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 107333916,
+      "gross_total_value_spouse_rupees": 5949766.74,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 42286,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 113325968.74,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1564700,
+          "spouse_value_rupees": 597400,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 3530,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2165630,
+          "self_details": "15,64,700",
+          "spouse_details": "5,97,400"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 699712,
+          "spouse_value_rupees": 397502.65,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 38756,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1143560.65,
+          "self_details": "BOB Boranada Branch Jodhpur No 3173010000xxxxx 5,81,228; SBI Boranada No 61102804xxxxx 6,473; Rajasthan Marudhra Grameen Bank No 1131360xxxxx 3,980; The Barmer Central Cooperative Bank Barmer No 1401411111005xxxxx 789; AU Bank, Pachpadra Road Balotra No 202122912745xxxxx 2,916; ICICI BANK Balotra No 68090560xxxxx 1,14,916",
+          "spouse_details": "SBI Boranada No 6104243xxxxx 37,897; UBI Boranada No 50370201001xxxxx 0; SBI Boranada , Jodhpur, No 6116311xxxxx 2,57,520.47; BOB Boranada No 3173010000xxxxx 99,085.18"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 5820000,
+          "spouse_value_rupees": 2320000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8140000,
+          "self_details": "Beniwal Construction Pvt. Ltd. 44,00,000; Akarti Craftas Pvt. Ltd. 14,20,000",
+          "spouse_details": "Beniwal construction Pvt. Ltd. 5,00,000; Akarti Craftas Pvt. Ltd 18,20,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 917036692,
+          "spouse_value_rupees": 1578464,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 918615156,
+          "self_details": "Jodhpur Trading Ekal Firm 3,01,72,693; Dessert Green Filling Station Bagudi Barmer 56,25,463; Akarti Kaftas Pvt. Ltd. 6,95,000; Dessert Green Filling Station Bagudi Barmer 17,992; Jodhpur Infr. 10,90,000; Pushpa 14,65,096; Godara Construction 15,00,000; J.V.V.N. Ltd. Jodhpur 1,80,024; Isra Ram 3,59,000; Rupa Jain 60,00,000; Ganpatlal Godara 3,54,750; Beniwal Construction 1,08,70,000; Gorsiya Construction 3,00,000; Lalita Devi 2,00,000; J.V.V.N. Ltd. Barmer, Security 16,800; Business Liabilities from Various Persons (Jodhpur Trading Ekal Firm) 3,36,85,995; Dessert Filling Station Ekal Firm 46,46,580; Akarti Craftas Pvt. Ltd., Personal 11,62,763",
+          "spouse_details": "Jodhpur construction Akal Firm 7,28,460; Jodhpur Trading 8,50,004"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 330000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 330000,
+          "self_details": "Tractor, No.RJ04RA8938, Year-2013 1,50,000; Tractor, No.RJ04RB2764, Year-2015 1,80,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 279400,
+          "spouse_value_rupees": 1059400,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1338800,
+          "self_details": "Gold 6 Tola 2,40,000; Silver 1/2 KG 39,400",
+          "spouse_details": "Gold 22 Tola 10,20,000; Silver 1/2 KG 39,400"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 287358,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 287358,
+          "self_details": "GST Receivable 2,87,358",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 39890000,
+      "total_current_market_value_spouse_rupees": 39550000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 79440000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 7800000,
+          "spouse_value_rupees": 2550000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10350000,
+          "self_details": [
+            {
+              "location": "Sodha Musalman ki Dhadi Barmer",
+              "khet_khata_no": "2",
+              "khasra_no": "688/3626,42,460",
+              "total_area": "7 Bigha",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2014-12-15",
+              "purchase_cost_rupees": 642460,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            },
+            {
+              "location": "Vill. Sagromoni Godaro Ki Dhani, Patvar Halka Bayut Chimanji, Teh.Bayut, Distt. Barmer",
+              "khata_no": "43",
+              "khasra_no": "483",
+              "total_area": "3 Bhiga 5 Biswa",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2011-05-09",
+              "purchase_cost_rupees": 98890,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 400000
+            },
+            {
+              "location": "Bambhuo ki Dhani Patvar Madpura Barmer, Teh.Bayut, Dist.Barmer",
+              "khata_no": "22",
+              "khasra_no": "292/26",
+              "total_area": "14 Bigha 6 Biswa",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-05-23",
+              "purchase_cost_rupees": 811445,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1100000
+            },
+            {
+              "location": "Vill. Mehrangarh Panchayat Rajmathai, Teh.Bhinyana, Dist. Jaislmer",
+              "khasra_no": "654/2464",
+              "total_area": "6 Bigha, 6 Biswa, 6 Biswasi",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2013-05-28",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 800000
+            },
+            {
+              "location": "Vill. Sinavdiya Patwar Halka Rajmathai, Teh.Bhiniyana, Dist.Jaisalmer",
+              "total_area": "25 Bigha",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2003-04-01",
+              "purchase_cost_rupees": 600000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1250000
+            },
+            {
+              "location": "Paternal Land Vill. Nimbaniyo ki Dhani, Patwar Halka, Teh.Bhind, Dist.Barmer",
+              "kh_no": "651, 745/651, 763/726,76/726",
+              "share": "1/5",
+              "total_area": "36 Bigha 3 Biswa",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 750000
+            },
+            {
+              "location": "Paternal Agri. Land Rajmathai",
+              "kh_no": "659",
+              "total_area": "15 Bigha 12 Biswa",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 850000
+            },
+            {
+              "location": "Agriculture Land Bhandapura Patwar Halka, Teh.Panchpadra, Dist.Baad",
+              "khasra_no": "1329/851",
+              "total_area": "1 Bigha 2 Biswa 10 Biswasi",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2020-10-14",
+              "purchase_cost_rupees": 1535450,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2000000
+            },
+            {
+              "location": "Agriculture Land Vill. Mandapura Patwar Halka Pachpadra, Dist.Barmer",
+              "khasra_no": "3011/878 & 1376/884",
+              "total_area": "5 Bigha",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2021-03-18",
+              "purchase_cost_rupees": 873490,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1400000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Agriculture Land in Vill. Rajmathai, Teh.Bhiniyana, Dist.Jaisalmer",
+              "khasra_no": "659/2462",
+              "tubewal": true,
+              "pucca_house": true,
+              "total_area": "55 Bigha",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2005-11-16",
+              "purchase_cost_rupees": 175700,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 800000
+            },
+            {
+              "location": "Vill.Rajmathai",
+              "khasra_no": "659/2463",
+              "rakba": "54 Bigha",
+              "share": "1/3",
+              "total_area": "54 Bigha",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2005-11-16",
+              "purchase_cost_rupees": 172672,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 800000
+            },
+            {
+              "location": "Vill.Hamaji Ka Tala, Patwar Halka Bayut Chimanji Teh.Bayut, Dist.Barmer, Raj.",
+              "khata_no": "17",
+              "khasra_no": "589/346",
+              "total_area": "8 Bigha 18 Biswa",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2022-11-22",
+              "purchase_cost_rupees": 910625,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 950000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 25000000,
+          "spouse_value_rupees": 20000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 45000000,
+          "self_details": [
+            {
+              "location": "Jodhpur Plot No. 01",
+              "total_area": "1200sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-05-18",
+              "purchase_cost_rupees": 2512300,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4000000
+            },
+            {
+              "location": "Commercial Plot F-50 Boranada Industrial Park, Jodhpur",
+              "total_area": "21528sqft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2008-07-08",
+              "purchase_cost_rupees": 5976376,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 20000000
+            },
+            {
+              "location": "Commercial Plot, Vill. Sindhiyo ki Dhani, Patwar, Teh.Pachpadra, Dist. Barmer",
+              "total_area": "95287.30sqft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2020-06-08",
+              "purchase_cost_rupees": 679338,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "F-359 Industrial Area, Boranada, Jodhpur",
+              "total_area": "1950sqft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-06-20",
+              "purchase_cost_rupees": 6598790,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 20000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 3500000,
+          "spouse_value_rupees": 17000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20500000,
+          "self_details": [
+            {
+              "house_no": "C-23 Riko Boranada, Jodhpur",
+              "total_area": "1800 sq,ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2018-03-31",
+              "purchase_cost_rupees": 3150300,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "house_no": "49, Kanishka Resort, Pal, Jodhpur",
+              "total_area": "7500 Sq ft.",
+              "built_up_area": "6800 Sqft.",
+              "inherited": false,
+              "purchase_date": "2019-11-18",
+              "purchase_cost_rupees": 9300000,
+              "development_cost_rupees": 7000000,
+              "current_value_rupees": 17000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 60397144,
+      "grand_total_of_liabilities_spouse_rupees": 5847348,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 66244492,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 36600000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 138923451,
+          "spouse_value_rupees": 3292252,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 142215703,
+          "self_details": [
+            {
+              "bank": "BOB, Boranada Jodhpur",
+              "loan_type": "Business Cash Credit A/C. Loan in Ekal Malik Firm Jodhpur Trading",
+              "account_no": "3173050000xxxxx",
+              "amount_rupees": 11160429
+            },
+            {
+              "bank": "BOB, Boranada ,Jodhpur",
+              "loan_type": "Business Loan From",
+              "account_no": "3173060000xxxxx",
+              "amount_rupees": 258481
+            },
+            {
+              "bank": "SBI",
+              "loan_type": "Home Loan",
+              "amount_rupees": 2456641
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "UBI",
+              "loan_type": "Home Loan",
+              "amount_rupees": 3292252
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 465048093,
+          "spouse_value_rupees": 2555096,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 467603189,
+          "self_details": [
+            {
+              "name": "Achlaram",
+              "amount_rupees": 850000
+            },
+            {
+              "name": "Balkishan Soni",
+              "amount_rupees": 500000
+            },
+            {
+              "name": "Pradeep Kumar",
+              "amount_rupees": 950000
+            },
+            {
+              "name": "Beniwal Construction",
+              "amount_rupees": 4266719
+            },
+            {
+              "name": "Jodhpur construction",
+              "amount_rupees": 500004
+            },
+            {
+              "name": "Jodhpur Infrastructure",
+              "amount_rupees": 850004
+            },
+            {
+              "name": "Chokharam",
+              "amount_rupees": 200000
+            },
+            {
+              "name": "Khemaram",
+              "amount_rupees": 500000
+            },
+            {
+              "name": "Laxmi Construction",
+              "amount_rupees": 25000
+            },
+            {
+              "name": "Business Liabilities from Various Persons (Jodhpur Trading)",
+              "amount_rupees": 37879866
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Jodhpur Trading",
+              "amount_rupees": 635096
+            },
+            {
+              "name": "Umeedaram",
+              "amount_rupees": 1920000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 2550000,
-      "non_agricultural_land": {
-        "description": "Nil"
+    "profession_or_occupation": {
+      "self": "Company Director, Business, Agriculture",
+      "spouse": "Company Director, Business, Agriculture"
+    },
+    "sources_of_income": {
+      "self": "Company Director, Business, Agriculture",
+      "spouse": "Company Director, Business, Agriculture",
+      "dependent": "NA"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NA",
+      "spouse": "NA",
+      "dependent": "NA",
+      "huf_or_trust": "NA",
+      "partnership_firms": "NA",
+      "private_companies": "NA"
+    },
+    "election_history": [
+      {
+        "election_name": "Rajasthan 2023",
+        "declared_assets_rupees": 185684874,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 20000000,
-      "residential_buildings": {
-        "description": "Residential House, Plot No. 49, Kanishka Resort, Pal, Jodhpur",
-        "total_area_sqft": 7500,
-        "built_up_area_sqft": 6800,
-        "inherited": "N",
-        "purchase_date": "2019-11-18",
-        "purchase_cost_inr": 9300000,
-        "development_cost_inr": 7000000,
-        "current_market_value_inr": 17000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 39550000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 11448851,
-      "loans_due_to_individual_entity_inr": 49076689,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 60525540
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 3292252,
-      "loans_due_to_individual_entity_inr": 2555096,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 5847348
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Company Director, Business, Agriculture",
-    "spouse": "Company Director, Business, Agriculture",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+      {
+        "election_name": "Rajasthan 2018",
+        "declared_assets_rupees": 135794155,
+        "declared_cases": 0
+      }
+    ]
   }
 }

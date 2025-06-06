@@ -2,158 +2,615 @@
   "candidate_name": "DR. BASAVARAJ K. SHARANAPPA",
   "party": "BJP",
   "constituency": "KOPPAL",
-  "father_or_husband_name": "Sharanappa K",
-  "age": 48,
-  "education": "Post Graduate M Ch Master of Chirurgiae Dundi University United Kingdom 2008, M.S Master of Surgery Orthopedics KMC Mangalore 2005",
-  "profession_self": "Medical Profession & Partner in K S Health Care Firm",
-  "profession_spouse": "Not Applicable",
-  "criminal_cases": 0,
-  "assets_total_inr": 141392780,
-  "liabilities_total_inr": 50823859,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 13384580,
-        "2021-2022": 11344670,
-        "2020-2021": 5895720,
-        "2019-2020": 4908810,
-        "2018-2019": 3700780
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1934020,
-      "bank_deposits_inr": 6188203,
-      "bonds_debentures_shares_inr": 651000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 675671,
-      "personal_loans_advance_given_inr": 34464917,
-      "motor_vehicles_inr": 6587085,
-      "jewellery_inr": 1400000,
-      "other_assets_inr": 50737882,
-      "gross_total_value_inr": 102638778
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 0
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Tanakanakal Sy No 19/4/1 (Agri Land) Total Area 2.20 Acre, Tanakanakal Sy No 21/16 (Na Land) Total Area 20 Guntas, Divatar Nagar Koppal Plot No 24 Total Area 2325 sq ft, Tanakanakal Sy No 20/*/1 (Agri Land) Total Area 2.36 Acre",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2021-06-14",
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 32154000
+  "state": "KARNATAKA",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sharanappa K",
+      "age": 48,
+      "voter_enrolled_in": {
+        "constituency": "60 Kushtagi",
+        "state": "Karnataka",
+        "serial_no": 845,
+        "part_no": 174
       },
-      "commercial_buildings_inr": 6600000,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+      "self_profession": "Medical Profession & Partner in K S Health Care Firm",
+      "spouse_profession": "Not Applicable"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 141392780,
+      "total_liabilities_in_rupees": 50823859
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M Ch Master of Chirurgiae Dundi University United Kingdom 2008, M.S Master of Surgery Orthopedics KMC Mangalore 2005"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 13384580
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 11344670
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 5895720
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 4908810
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 3700780
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 102638780,
+      "gross_total_value_spouse_rupees": 0,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 102638780,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1934020,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1934020
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 6188203,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6188203,
+          "self_details": [
+            {
+              "bank": "Bank Of India",
+              "branch": "Bangalore",
+              "account_type": "SB",
+              "account_no": "981011000xxxxx",
+              "amount_rupees": 9141
+            },
+            {
+              "bank": "HDFC Bank",
+              "branch": "Bannerugatta Bangalore",
+              "account_type": "",
+              "account_no": "0514105004xxxxx",
+              "amount_rupees": 5942427
+            },
+            {
+              "bank": "KG Bank",
+              "branch": "Kushtagi",
+              "account_type": "",
+              "account_no": "107150001xxxxx",
+              "amount_rupees": 48662
+            },
+            {
+              "bank": "SBI",
+              "branch": "Jayanagar Bangalore",
+              "account_type": "",
+              "account_no": "3010108xxxxx",
+              "amount_rupees": 182937
+            },
+            {
+              "bank": "Suco Bank",
+              "branch": "Koppal",
+              "account_type": "",
+              "account_no": "200005105009xxxxx",
+              "amount_rupees": 3360
+            },
+            {
+              "bank": "Bharath Co Op Bank Ltd",
+              "branch": "Koramangala Bangalore",
+              "account_type": "",
+              "account_no": "",
+              "amount_rupees": 1676
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 651000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 651000,
+          "self_details": [
+            {
+              "name": "Gavishree Diaognostics Pvt Ltd Koppal",
+              "type": "Shares",
+              "amount_rupees": 350000
+            },
+            {
+              "name": "IlkalScan Centre Pvt Ltd",
+              "type": "shares",
+              "amount_rupees": 300000
+            },
+            {
+              "name": "SucoBank Ltd",
+              "type": "Shares",
+              "amount_rupees": 1000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 675671,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 675671,
+          "self_details": [
+            {
+              "company": "HDFC Life Insurance",
+              "amount_rupees": 350000
+            },
+            {
+              "company": "TATA AIG Life Insurance",
+              "amount_rupees": 325671
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 34464917,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 34464917,
+          "self_details": [
+            {
+              "to": "K.Mahesh",
+              "amount_rupees": 90000
+            },
+            {
+              "to": "Rajarajeshwari Buildcon Pvt Ltd",
+              "amount_rupees": 20000000
+            },
+            {
+              "to": "Shreyas Patil",
+              "amount_rupees": 10000000
+            },
+            {
+              "to": "K. Veeresh",
+              "amount_rupees": 2000000
+            },
+            {
+              "to": "Sharanabasaveshwar Shikshana Samsthe Kushtagi",
+              "amount_rupees": 60260
+            },
+            {
+              "to": "Advance Tax & Receivables",
+              "amount_rupees": 2314657
+            }
+          ]
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 6587085,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6587085,
+          "self_details": [
+            {
+              "make": "LEXUS",
+              "model": "??05??4041",
+              "dop": "2018",
+              "value_rupees": 6587085
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1400000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1400000,
+          "self_details": [
+            {
+              "item": "Gold",
+              "grams": 200,
+              "value_rupees": 1400000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 50737882,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50737882,
+          "self_details": [
+            {
+              "item": "Captial In KS Health Care",
+              "value_rupees": 49962883
+            },
+            {
+              "item": "Camara",
+              "value_rupees": 550218
+            },
+            {
+              "item": "Computer",
+              "value_rupees": 74032
+            },
+            {
+              "item": "Equipments",
+              "value_rupees": 106458
+            },
+            {
+              "item": "Television",
+              "value_rupees": 44291
+            }
+          ]
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 38754000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 38754000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 32154000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 32154000,
+          "self_details": [
+            {
+              "location": "Tanakanakal",
+              "sy_no": "19/4/1",
+              "type": "(Agri Land)",
+              "total_area": "2.20 Acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2021-06-14",
+              "purchase_cost_rupees": 650000,
+              "development_cost_rupees": 83500,
+              "current_value_rupees": 11220000
+            },
+            {
+              "location": "Tanakanakal",
+              "sy_no": "21/16",
+              "type": "(Na Land)",
+              "total_area": "20 Guntas",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2022-09-08",
+              "purchase_cost_rupees": 3532420,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6534000
+            },
+            {
+              "location": "Divatar Nagar Koppal",
+              "sy_no": null,
+              "plot_no": "24",
+              "total_area": "2325 sq ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2024-02-07",
+              "purchase_cost_rupees": 1497009,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1640000
+            },
+            {
+              "location": "Tanakanakal",
+              "sy_no": "20/*/1",
+              "type": "(Agri Land)",
+              "total_area": "2.36 Acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2021-06-14",
+              "purchase_cost_rupees": 750000,
+              "development_cost_rupees": 94900,
+              "current_value_rupees": 12760000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 6600000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6600000,
+          "self_details": [
+            {
+              "location": "Near Bus Stand Kushtagi",
+              "stall_no": "14/2, 15 & 15/1",
+              "city_pa_no": "3634/2, 3635 & 3635/1",
+              "total_area": "660 sq ft",
+              "built_up_area": "1320 sq ft",
+              "inherited": false,
+              "purchase_date": "1999-01-04",
+              "purchase_cost_rupees": 150000,
+              "development_cost_rupees": 1580410,
+              "current_value_rupees": 6600000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 50823859,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 50823859,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 38754000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 50519199,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50519199,
+          "self_details": [
+            {
+              "bank": "Aditya Birla Finance Ltd",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 2837865
+            },
+            {
+              "bank": "Axis Bank",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 7500000
+            },
+            {
+              "bank": "Bajaj Finance Ltd",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 3900000
+            },
+            {
+              "bank": "BOI",
+              "loan_type": "Vehicle loan",
+              "amount_rupees": 1441877
+            },
+            {
+              "bank": "Fed Bank Finance ltd",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 3000000
+            },
+            {
+              "bank": "HDFC Bank",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 6000000
+            },
+            {
+              "bank": "IDFC Bank",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 2040000
+            },
+            {
+              "bank": "SBI",
+              "loan_type": "Housing Loan",
+              "amount_rupees": 15399457
+            },
+            {
+              "bank": "Tata Capital ltd",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 3400000
+            },
+            {
+              "bank": "Yes Bank ltd",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 5000000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 304660,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 304660,
+          "self_details": [
+            {
+              "item": "HDFC Credit Card",
+              "amount_rupees": 154220
+            },
+            {
+              "item": "Other Expenses Payable",
+              "amount_rupees": 150440
+            }
+          ]
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
+    "profession_or_occupation": {
+      "self": "Medical Profession & Partner in K S Health Care Firm",
+      "spouse": "Not Applicable"
+    },
+    "sources_of_income": {
+      "self": "Professional Income & Income from Firm",
+      "spouse": "Not Applicable",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Not Applicable",
+      "spouse": "Not Applicable",
+      "dependent": "Not Applicable",
+      "huf_or_trust": "Not Applicable",
+      "partnership_firms": "Not Applicable",
+      "private_companies": "Not Applicable"
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 50519199,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 304660,
-      "grand_total_of_liabilities_inr": 50823859
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Professional Income & Income from Firm",
-    "spouse": "Not Applicable",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "Not Applicable",
-    "entered_by_spouse": "Not Applicable",
-    "entered_by_dependent": "Not Applicable",
-    "entered_by_huf_trust": "Not Applicable",
-    "entered_by_partnership_firms": "Not Applicable",
-    "entered_by_private_companies": "Not Applicable"
   }
 }

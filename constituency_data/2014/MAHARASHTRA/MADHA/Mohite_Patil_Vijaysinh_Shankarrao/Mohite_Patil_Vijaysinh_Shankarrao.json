@@ -1,139 +1,447 @@
 {
   "candidate_name": "MOHITE PATIL VIJAYSINH SHANKARRAO",
   "party": "NCP",
-  "constituency": "MADHA(MAHARASHTRA)",
-  "father_or_husband_name": "Shankarrao Narayanrao Mohite-Patil",
-  "age": 69,
-  "education": "10th Pass Sadashivrao Mane Vidyalaya, Akluj, March 1962",
-  "profession_self": "Farmer & Business",
-  "profession_spouse": "House wife, Farmer & Business",
-  "criminal_cases": 1,
-  "assets_total_inr": 170253390,
-  "liabilities_total_inr": 9774791,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 2484310
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 2810595
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1507570,
-      "bank_deposits_inr": 9079549,
-      "bonds_debentures_shares_inr": 80940,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2245555,
-      "other_assets_inr": 36504285,
-      "gross_total_value_inr": 36570291
-    },
-    "spouse": {
-      "cash_inr": 402950,
-      "bank_deposits_inr": 305886,
-      "bonds_debentures_shares_inr": 955799,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 112056,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1090000,
-      "jewellery_inr": 7158631,
-      "other_assets_inr": 44217775,
-      "gross_total_value_inr": 30921244
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 7125985,
-      "non_agricultural_land": {
-        "description": "Akluj, Tal. Malshiras, C. S. No. 891/2/1 A",
-        "area_sq_mtr": 585.83,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9423512
+  "constituency": "MADHA",
+  "state": "MAHARASHTRA",
+  "status": "(Winner)",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Shankarrao Narayanrao Mohite-Patil",
+      "age": 69,
+      "voter_enrolled_in": {
+        "constituency": "Malshiras",
+        "state": "Maharashtra",
+        "serial_no": 59,
+        "part_no": 169
       },
-      "commercial_buildings_inr": 3597400,
-      "residential_buildings": {
-        "description": "Yashwantnagar, Tal. Malshiras, Unit No. 25/2B",
-        "total_area_sqft": 87120,
-        "built_up_area_sqft": 7880,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 47309078
+      "self_profession": "Farmer & Business",
+      "spouse_profession": "House wife, Farmer & Business"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 170253390,
+      "total_liabilities_in_rupees": 9774791
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Sadashivrao Mane Vidyalaya, Akluj, March 1962"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 2484310
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 2810595
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+          "ipc_section": "201",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Criminal breach of trust by public servant, or by banker, merchant or agent",
+          "ipc_section": "409",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery for purpose of cheating",
+          "ipc_section": "468",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by killing or maiming animal of the value of ten rupees",
+          "ipc_section": "428",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "forgery",
+          "ipc_section": "465",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Using as genuine a forged document or electronic record",
+          "ipc_section": "471",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "charges_framed": [],
+      "cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "120B, 201, 409, 428, 420, 427, 465, 468, 471, 34",
+          "other_details_or_acts_sections_applicable": "29,13(3),13(4)8, 9(1)(10) Security Interest Enforcement Act 202, Case No. 72/2011, JMFC Koregaon, Date 14.10.2011, Magistrate Dist Court Satara Criminal Revision No. 108/11, Maharashtra Mumbai High Court Criminal Apilate Juridiction Reet Petition no. 3782/11 High Court Criminal Apilate Juridiction Criminal Reet Petition 3657/12"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 36570291,
+      "gross_total_value_spouse_rupees": 30921244,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 67491535,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1507570,
+          "spouse_value_rupees": 402950,
+          "total_value_rupees": 1910520,
+          "self_details": "Cash 15,07,570",
+          "spouse_details": "Cash 4,02,950"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 10304209,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 10304209,
+          "self_details": "S. J. M. Sahakari Bank, Br. Yashwantnagar, No 15030284000xxxxx 3,80,112  S. J. M. Sahakari Bank, Br. Akluj, No 15010284000xxxxx 2,239  Bank of Maharashtra, Mumbai, No 2004570xxxxx 1,88,828  Bank of Baroda, Mumbai, No 0382010000xxxxx 26,012  S. M. P. Bank, Br. Solapur, A/c No. 27 901  s. M. P. Bank, Br. Market Yard, Akluj, A/c No. 763 170  S. M. P. Bank, Akluj, A/c No. 3 31,121  Bank of Baroda, Akluj, No 0885010000xxxxx 3,57,925  Bank of Maharashtra, Br. Ichalkaranji, No 200728xxxxx 702  Bank of Baroda, Akluj, No 0885030000xxxxx 80,79,000  S. J. M. Sahakari Bank, Br. Yashwantnagar, Current No 1503027800xxxxx 5,01,000  Sumitra Gramin B. Sheti Sah. Patsanstha, Akluj 10,000  Sahakar Maharshi S. M-P Sah. Sakhar Karkhana 15,891  Shri Shankar Sahakari Sakhar Karkhana, Share/7458/2013-2014 13,569  Rajhans Sahakari Kukkut Palan Sangh 2,500  Bank of India Br. Aklug  1,773",
+          "spouse_details": "S. M. P. Bank, Akluj, A/c No. 4 8,601  S. J. M. Sahakari Bank, Br. Yashwantnagar, No 15030284000xxxxx 1,73,244  Bank of Baroda, Akluj, No 0885010000xxxxx 4,284  Bank of Baroda, Akluj, S. J. M. Sahakari Bank, Br. Yashwantnagar, No 0885010000xxxxx 19,139  S. M. S. M. P. Patsanstha, Shankarnagar No 1xxxxx 112  Shri Paisafund Shetaki Sahakari Bank, Hupari A/c No. 8217 3,45,770  Bank of Maharashtra, Br. Ichalkaranji No 2008728xxxxx 954  S. M. P. Bank, Br. Market Yard, Akluj No 15010284001xxxxx 250  Bank of Baroda, Br. Akluj No 0885030000xxxxx 60,435  Jila Sehkari Bank  538  Bank of Baroda, Br. Akluj No 0885030000xxxxx 52,393  S. M. S. M. P. Patsanstha, Shankarnagar 24,246  Rajhans Sahakari Kukkut Palan Sangh 2,500"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 1210018,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 1210018,
+          "self_details": "Rajhans Sahakari Kukkut Palan Sangh 10,000  Shivkrupa Poltry 20,000  Sumitra Patsanstha 100  Vijay Patsanstha 2,000  S. M. P. S. Bank 700  Akluj Vikas Society 10,000  Shetkari Kharedi Vikri Sangh 100  S. M. Sahakari Sutgirani 5,000  S. M. S. M. P. Dudh Sah. Sanstha 1,220  Solapur Jilha Sah. Krushi Gramin Bahu-uddeshiya Vikas Bank 560  Shri Shankar S. S. K. 20,000  Shankarnagar Vikas Society 8,600  S. M. S. M. P. Sah. Sakhar Karkhana 80,000  S. M. P. Sah. Patsanstha, Shankarnagar 100  Shivsmruti Falotpadak Sangh 1,000  Bagewadi Vikas Society  10 Yashwant Grahak Bhandar 100  State Co-op. Bank, Mumbai  500  Maharashtra Bhu-vikas Bank 4,550  Ranjit Poltry 100  Vijaysinh Mohite-Patil Sheli Mendhi Sangh 1,000  Banks India Ltd., Shares 240 2,400  Maharashtra Rajya Marketing Federation, Mumbai 200  Asara Gruhnirman Sahakari Sanstha 50 Saswad Mali Sah. Sanstha 1,000  jawahar Co-op. Engg. Company 2,400  Vijay Poltry 100  Adinath Sahakari Sakhar Karkhana 5,000",
+          "spouse_details": "Rajhans Sahakari Kukkut Palan Sangh  10,000  Sahakar Maharshi Karkhana  96,947  Akluj Vikas Society 5 Shankarnagar Vikas Society 20,050  Shetkari Kharedi Vikri Sangh 100  S. M. Sah. Sutgirni 5,000  Shivkrupa Poltry 20,000  S. M. S. M. P. Patsanstha 100  Vijay Patsanstha 2,000  Sumitra Patsanstha 100  S. M. P. Sahakari Bank,  250  S. M. S. M. P. Sah. Dudh Sanstha 840  Solapur Jilha Sah. Krushi Gramin Bahu-uddeshiya Vikas Bank, Br.Akluj 570  The Pandharpur Urban Co-op. Bank Ltd., Pandharpur 50 Reliance Communication, Shares 45 5,490  Reliance Industries Ltd., Shares 180 1,59,480  Reliance Capital, Shares 40 13,116  Reliance Infrastructure, Shares 6 2,449  Zee News Ltd., Shares 452 6,192  Zee Entertainment Enterprises Ltd., Shares 2191 6,30,610  Vijay Poltry 4,200  Shivsmruti Falotpadak Sangh 1,100  Chambal Shares, Shares 670 26,519  Dish TV India Ltd., Shares 575 28,060"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 112056,
+          "total_value_rupees": 112056,
+          "self_details": "Nil",
+          "spouse_details": "LIC Policy No 95470xxxxx 1,12,056"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1090000,
+          "total_value_rupees": 1090000,
+          "self_details": "Nil",
+          "spouse_details": "Tractor (Bajaj Tempo), M.H.-45 A-5349, Year 2005 3,00,000  Tractor Trailor, M.H.-45 A-6179, Year 2005 90,000  Tractor (Mahindra), M.H.-45 S-0439, Year 2013 7,00,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2245555,
+          "spouse_value_rupees": 7159000,
+          "total_value_rupees": 9404555,
+          "self_details": "Gold 598.50 Gram 18,13,555  Silver 900 Gram 4,32,000",
+          "spouse_details": "Gold 2291.30 Gram 69,42,631  Diamond Ring 14,000  Silver 4500 Gram 2,16,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 44217775,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 44217775,
+          "self_details": "Shivratna Motors - Tempo  8,000  Shivratna Motors - Tempo 16,68,130  Shivratna Petroleum 8,000  Shivratna Petroleum 1,11,377  Rajvijay Farms and Developers P. Ltd.  5,00,000  Nandvijay Farms and Developers P. Ltd. 1,25,000  Nandvijay Farms and Developers P. Ltd. 1,25,000  Ichalkaranji Power Loom 5,90,252  Laxminarayan Marketing  12,500  Laxminarayan Marketing  13,54,223  Shivratna Udyog P. Ltd. 77,27,200  Sanyuktarjan Agro Farms P. Ltd., Shankarnagar 50,000  Shri. Rajsinh Shankarrao Mohite-Patil 29,10,655  Shri. Rajsinh Shankarrao Mohite-Patil 10,00,000  Shri Laxmi Sahakari Audyogik Vasahat Ltd., Hatkanangale, Plot No. 30, Power Loom Machinery & etc 67,80,000  Vijayraj Borewell, Shankarnagar 60,000",
+          "spouse_details": "Shivratna Motors - Tempo  8,000  Shivratna Motors - Tempo  17,38,380  Shivratna Petroleum 8,000  Shivratna Petroleum 2,60,479  Nandvijay Farms and Developers P. Ltd. 1,25,000  Nandvijay Farms and Developers P. Ltd. 1,25,000  Shivratna Poltry 5,64,839  Shivratna Poltry 25,000  Vijayratna Poltry 75,000  Shivratna Plastic P. Ltd. 1,88,000  M/s. Doshi Devchand Chaturchand Company 10,34,433  Laxminarayan Marketing  12,500  Laxminarayan Marketing  21,82,947  Shivratna Udyog P. Ltd. 77,27,600  Shri Laxmi Sahakari Audyogik Vasahat Ltd., Hatkanangale, Plot No. 30, Power Loom Machinery & etc. 67,80,000  Sau. Sitaladevi Dhairysheel Mohite-Patil 3,32,260"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 67455975,
+      "total_current_market_value_spouse_rupees": 35305880,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 102761855,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 7125000,
+          "spouse_value_rupees": 31708480,
+          "total_value_rupees": 38833480,
+          "self_details": "Yashwantnagar, Tal. Malshiras, Unit No. 25/2B Total Area 17 Gunta Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 14,22,000  Sadashivnagar, Tal. Malshiras, Unit No. 190/1 Total Area 1 Acre 20 Gunta Built Up Area  Whether Inherited N Purchase Date 1981-04-05 Purchase Cost 0.00 Development Cost 0.00 7,45,500  Anandnagar, Tal. Malshiras, Unit No. 8 Total Area 12 Acre 7 Gunta Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 49,58,485",
+          "spouse_details": "Yashwantnagar, Tal. Malshiras, Unit No. 75/2B Total Area 16 Acre 10 Gunta Built Up Area  Whether Inherited Y Purchase Date 1978-06-26 Purchase Cost 0.00 Development Cost 0.00 3,10,95,000  Mangur, Tal. Chikodi, Dist. Belgaon Total Area 3 Acre 13 Gunta Built Up Area  Whether Inherited N Purchase Date 2001-06-14 Purchase Cost 70000.00 Development Cost 0.00 6,13,480"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 9423512,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 9423512,
+          "self_details": "Akluj, Tal. Malshiras, C. S. No. 891/2/1 A Total Area 6306.75 sq. ft. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 13,36,376  Akluj, Tal. Malshiras, C. S. No. 981/2/1B Total Area 4000.67 sq. ft. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 8,47,726  Akluj, Tal. Malshiras, C. S. No. 891/2/3 to 891/2/61 Total Area 31816.56 sq. ft. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 67,41,800  Akluj, Tal. Malshiras, C. S. No.891/2/68 to 70 Total Area 2348.37 sq. ft. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 4,97,610",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 3597400,
+          "spouse_value_rupees": 3597400,
+          "total_value_rupees": 7194800,
+          "self_details": "Hatkanangale, Dist. Kolhapur, Shri Laxmi Sahakari Audyagik Vasahat Ltd., Hatkanangalr, R.S. No. 837, Plot No. 30 Total Area 6507.75 sq. ft. Built Up Area  Whether Inherited N Purchase Date 2006-10-17 Purchase Cost 0.00 Development Cost 2161262.00 35,97,400",
+          "spouse_details": "Hatkanangale, Dist. Kolhapur, Shri Laxmi Sahakari Audyagik Vasahat Ltd., Hatkanangalr, R.S. No. 837, Plot No. 30 Total Area 6507.75 sq. ft. Built Up Area  Whether Inherited N Purchase Date 2006-10-17 Purchase Cost 0.00 Development Cost 2161262.00 35,97,400"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 47309078,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 47309078,
+          "self_details": "Yashwantnagar, Tal. Malshiras, Unit No. 25/2B Total Area 87120 sq. ft. Built Up Area 7880 sq. ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,16,41,320  Akluj, Tal. Malshiras, C. S. No. 1884, 1885, 1886 Total Area 17253.66 sq. ft. Built Up Area 3138 sq. ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 70,258  Sindola, Tal. Mahabaleshwar, S. No. 27 b + 28, Plot No. 9 Total Area 20013.60 sq. ft. Built Up Area 1990.60 sq. ft. Whether Inherited N Purchase Date 2002-04-08 Purchase Cost 400000.00 Development Cost 0.00 24,00,000  Worli Sagar Co-op. Hsg. Soc., Flat No. 1002, Vaitarana Bldg., Worli, Mumbai, C. S. T. No. 751 Total Area 1440 sq. ft. Built Up Area 1440 sq. ft. Whether Inherited N Purchase Date 1992-05-14 Purchase Cost 409777.00 Development Cost 0.00 2,70,69,000  Kirol Gaon, Tal. Kurla, Mumbai, Om Vivek Co-op. Hsg. Soc., Chembur, Mumbai, Flat No. 303, C. T. S. No. 503 Total Area 1024 sq. ft. Built Up Area 1024 sq. ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 61,28,500",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 4670079,
+      "grand_total_of_liabilities_spouse_rupees": 5104712,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 9774791,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 67455975
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2844902,
+          "spouse_value_rupees": 3698435,
+          "total_value_rupees": 6537472,
+          "self_details": "Bank of Maharashtra, Br. Ichalkaranji  28,44,902",
+          "spouse_details": "Bank of Maharashtra, Br. Ichalkaranji 19,59,099  S. M. Shankarrao Mohite-Patil P. Ltd. Sheti Patsanstha, Shankarnagar 10,94,235  Bank of Baroda, Br. Akluj 4,99,236  Shankarnagar V. K. S. Seva Sah. Sanstha Ltd., Shankarnagar 1,40,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 1825177,
+          "spouse_value_rupees": 1412142,
+          "total_value_rupees": 3237319,
+          "self_details": "Shivratna Motors, Akluj 15,26,981  M/s. Doshi Devchand Chaturchand Company, Akluj 2,98,196",
+          "spouse_details": "Shivratna Motors, Akluj 14,12,142"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 31708480,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 3597400,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 35305880
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2844902,
-      "loans_due_to_individual_entity_inr": 1825177,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 4670079
+    "profession_or_occupation": {
+      "self": "Farmer & Business",
+      "spouse": "House wife, Farmer & Business"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 3692570,
-      "loans_due_to_individual_entity_inr": 1412142,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 5104712
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "past_election_declarations": [
+      {
+        "election_year": "2009",
+        "election_type": "Maharashtra",
+        "declared_assets_rupees": 67288649,
+        "declared_cases_count": 0
+      },
+      {
+        "election_year": "2004",
+        "election_type": "Maharashtra",
+        "declared_assets_rupees": 23766163,
+        "declared_cases_count": 0
+      }
+    ]
+  }
 }

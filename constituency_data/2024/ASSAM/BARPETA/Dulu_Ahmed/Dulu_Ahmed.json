@@ -1,169 +1,871 @@
 {
   "candidate_name": "DULU AHMED",
   "party": "IND",
-  "constituency": "BARPETA (ASSAM)",
-  "father_or_husband_name": "Nazimuddin Ahmed",
-  "age": 49,
-  "education": "Graduate Bachelor of Arts Year 1999 From Pragjyotish College, Gauhati University",
-  "profession_self": "Business",
-  "profession_spouse": "Business",
-  "criminal_cases": 15,
-  "assets_total_inr": 635712765,
-  "liabilities_total_inr": 118620393,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 947940,
-        "2021-2022": 656120,
-        "2020-2021": 512870,
-        "2019-2020": 1693010,
-        "2018-2019": 2227210
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 487600,
-        "2021-2022": 566200,
-        "2020-2021": 392690,
-        "2019-2020": 605960,
-        "2018-2019": 943280
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 1041240,
-        "2021-2022": 1001380,
-        "2020-2021": 436000
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 793617,
-      "bank_deposits_inr": 43355,
-      "bonds_debentures_shares_inr": 100000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 39396270,
-      "motor_vehicles_inr": 1095000,
-      "jewellery_inr": 735000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 45431739
-    },
-    "spouse": {
-      "cash_inr": 315240,
-      "bank_deposits_inr": 1992,
-      "bonds_debentures_shares_inr": 150000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 2100000,
-      "motor_vehicles_inr": 333340,
-      "jewellery_inr": 588000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3488572
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "(i) 1 Katha 10 Lechas Dag No. 301 Patta No. 104 Vill-Jatia, Mouza-Beltola Kamrup (M), Assam, Area 4320 Sq.ft. (ii) 4 Katha 3 Lechas Dag No. 251, 257, 265 and 2147 (New) Patta No. 249, Area 11952 Sq.ft. (iii) 2 Katha 0 Lecha Dag No. 941 K.P. Patta NO. 557 Vill - Kalitakuchi Mouza-Hajo District -Kamrup, Assam Area 5760 Sq.ft.",
-        "inherited": "N",
-        "purchase_date": "Not fully specified",
-        "purchase_cost_inr": "Not fully specified",
-        "development_cost_inr": "Not fully specified",
-        "current_market_value_inr": 370000000
+  "constituency": "BARPETA",
+  "state": "ASSAM",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Nazimuddin Ahmed",
+      "age": 49,
+      "voter_enrolled_in": {
+        "constituency": "3 Barpeta",
+        "state": "Assam",
+        "serial_no": 388,
+        "part_no": 144
       },
-      "commercial_buildings_inr": {
-        "description": "(i) Hotel Plaza INN GMCH Road Bhangagarh Guwahati Dag No. 734, 1489, 3447 (O), 2718, 2719, (N) Patta No. 285, 804, 1385 (O) 2255, 2256 (N) 21 No. Japorigog under Mouza Beltola Area 16800 Sq.ft. (ii) Dona Planet ABC Guwahati (4 Units) Dag No. 2827 Patta No. 389 Japorigog Beltola Kamrup (M) Assam , Area 2083 Sq.ft.",
-        "inherited": "N",
-        "purchase_date": "Not fully specified",
-        "purchase_cost_inr": "Not fully specified",
-        "development_cost_inr": "Not fully specified",
-        "current_market_value_inr": 200000000
+      "self_profession": "Business",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 15,
+      "total_assets_in_rupees": 635712765,
+      "total_liabilities_in_rupees": 118620393
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Bachelor of Arts Year 1999 From Pragjyotish College, Gauhati University"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 947940
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 656120
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 512870
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1693010
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 2227210
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 487600
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 566200
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 392690
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 605960
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 943280
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 1041240
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 1001380
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 436000
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for criminal intimidation",
+          "ipc_section": "506",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Punishment for criminal breach of trust",
+          "ipc_section": "406",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Forgery for purpose of cheating",
+          "ipc_section": "468",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Defamation",
+          "ipc_section": "500",
+          "count": 7
+        },
+        {
+          "charges_related_to": "Obscene acts and songs",
+          "ipc_section": "294",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Criminal intimidation by an anonymous communication",
+          "ipc_section": "507",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Word, gesture or act intended to insult the modesty of a woman",
+          "ipc_section": "509",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Punishment for criminal trespass",
+          "ipc_section": "447",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Using as genuine a forged document or electronic record",
+          "ipc_section": "471",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "11/2020, Garchuk P.S. Garchuk , Guwahati - 35",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "143, 294, 427, 506",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "36/2020, Hajo P.S. Kamrup (R) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "143, 294, 447, 427, 507",
+          "other_details_or_acts_sections_applicable": "Section 67 of I.T. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "fir_no": "40/2020, Hajo P.S. Kamrup (R) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "120(B), 420, 468, 471, 506",
+          "other_details_or_acts_sections_applicable": "Section 67 of I.T. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 4,
+          "fir_no": "46/2020, Hajo P.S. Kamrup (R) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "120(B), 506",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 5,
+          "fir_no": "456/2020, Bharalumukh P.S. Guwahati -9 Kamrup (M) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "406, 420, 34",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 6,
+          "fir_no": "1791/2020, Dispur P.S. Guwahati -6 kamrup (M) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "294, 500, 507",
+          "other_details_or_acts_sections_applicable": "Section 67 of I.T. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 7,
+          "fir_no": "434/2020, Hatigaon P.S. Guwahati 38 Kamrup (M) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "509, 500",
+          "other_details_or_acts_sections_applicable": "Section 67 of I.T. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 8,
+          "fir_no": "129/2020, Sualkuchi P.S. Kamrup (R) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "500",
+          "other_details_or_acts_sections_applicable": "Section 67 of I.T. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 9,
+          "fir_no": "362/2020, Bhangagarh P.S. Guwahati 5 Kamrup (M) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "294, 500",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 10,
+          "fir_no": "35/2021, Bhangagarh P.S. Guwahati 5 Kamrup (M) Assam",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "509, 500",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 11,
+          "fir_no": "762/2022, Barpeta Police Station Barpeta",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "500",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 12,
+          "fir_no": null,
+          "case_no": "CR Case No. 6449/2022",
+          "court": "Judicial Magistrate 1st Class, S. Khanikar, Kamrup (M) at Guwahati",
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 138 N.I. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 13,
+          "fir_no": null,
+          "case_no": "CR Case No. 6448/2022",
+          "court": "Judicial Magistrate 1st Class, B.Das, Kamrup (M) at Guwahati",
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 138 N.I. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 14,
+          "fir_no": null,
+          "case_no": "PRC Case No. 1778/2022",
+          "court": "SDJM No.1, Kamrup (M) at Guwahati",
+          "ipc_sections_applicable": "420, 406, 34",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 15,
+          "fir_no": null,
+          "case_no": "CR Case No. 589/2022",
+          "court": "Additional Chief Judicial Magistrate, Nagaon at Nagaon",
+          "ipc_sections_applicable": "500",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 45431738,
+      "gross_total_value_spouse_rupees": 3488572,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 12692425,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 61612735,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 793617,
+          "spouse_value_rupees": 315240,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 1496366,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2605223,
+          "self_details": "7,93,617",
+          "spouse_details": "3,15,240",
+          "dependent1_details": "14,96,366"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 50385,
+          "spouse_value_rupees": 1992,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 13611,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 84954,
+          "self_details": "SB No 7862010000xxxxx Bank of Baroda Fancy Bazar Br. Guwahati 15,968; Current No 7862000000xxxxx of Bank of Boroda Fancy Bazar Br. Guwahati 17,741; SB No 5010009920xxxxx of HDFC Bank of Chand Mari Br. Guwahait 8,966; SB A/c N o. 05093 of Bank of Boroda Fancy Bazar Br. Guwahati 676; RD with HDFC Bank Chand Mari Br. No 504002xxxxx 26,000",
+          "spouse_details": "Br. Guwahati 1,992",
+          "dependent1_details": "UCO 60261 5,616; ICICI 758; HDFC 7,237"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 150000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 5535998,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5785998,
+          "self_details": "5000 Shares SSR Design and Construction Pvt. Ltd. 50,000; 5000 Shares in Euro Holidaya Pvt. Ltd. 50,000",
+          "spouse_details": "5000 Shares in SSR Design and Construction Pvt. Ltd. 50,000; 5000 Shares in Euro Holidays Pvt. Ltd. 50,000; 5000 Shares in Mee infrasturcture Pvt. Ltd. 50,000",
+          "dependent1_details": "Mutual Fund 1,79,998; Investment In Restaurant 53,56,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 372093270,
+          "spouse_value_rupees": 21000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 22700000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 47008770,
+          "self_details": "Advance against purchase 3,60,73,400; Sayesta Ahmed 5,00,000; Jitu Moni Das (contractor) 6,15,000; Belle Vue Clinic 8,00,000; Advance for Flat (Nikon Associates) 21,00,000; Advance for Hajo Land (Manju Bibi) 5,00,000; Rojy Ahmed 4,90,000; Sundry Debtors 1,25,870; Other Loans and Advances 14,34,500",
+          "spouse_details": "Against Purchase of Flat 21,00,000",
+          "dependent1_details": "Rojy Ahmed 7,20,000; Dullu Ahmed 15,50,000"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1095000,
+          "spouse_value_rupees": 333340,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 3376450,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4804790,
+          "self_details": "Eco Sports Bearing Reg. No. DL12CR3829 10,95,000",
+          "spouse_details": "Hyndai 3,33,340",
+          "dependent1_details": "Fortuner Car 33,76,450"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 735000,
+          "spouse_value_rupees": 588000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1323000,
+          "self_details": "10 Tola 7,35,000",
+          "spouse_details": "8 Tolas 5,88,000",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 570000000,
+      "total_current_market_value_spouse_rupees": 2900000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 1200000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 574100000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 370000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 370000000,
+          "self_details": "(i) 1 Katha 10 Lechas Dag No. 301 Patta No. 104 Vill-Jatia, Mouza-Beltola Kamrup (M), Assam , Area 4320 Sq.ft. Date of Purchase 05-02-2005 Cost of Land 300000/- Investment 3000000/-(ii) 4 Katha 3 Lechas Dag No. 251, 257, 265 and 2147 (New) Patta No. 249, Area 11952 Sq.ft. Date of Purchase 10-12-2012 Cost of Land 4944600/- Investment 30000000/- (iii) 2 Katha 0 Lecha Dag No. 941 K.P. Patta NO. 557 Vill - Kalitakuchi Mouza-Hajo District -Kamrup, Assam Area 5760 Sq.ft. Date of Purchase 28-10-2021 Cost of Land 56469/- Investment 6000000/- Total Area Built Up Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 37,00,00,000",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 200000000,
+          "spouse_value_rupees": 2900000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 1200000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 204100000,
+          "self_details": "(i) Hotel Plaza INN GMCH Road Bhangagarh Guwahati Dag No. 734, 1489, 3447 (O), 2718, 2719, (N) Patta No. 285, 804, 1385 (O) 2255, 2256 (N) 21 No. Japorigog under Mouza Beltola Area 16800 Sq.ft. Built Area 16800 Sq.ft. Date of Purchase 26-08-2011 Cost of Land 2600000/- Any Investment 9500000/- (ii) Dona Planet ABC Guwahati (4 Units) Dag No. 2827 Patta No. 389 Japorigog Beltola Kamrup (M) Assam , Area 2083 Sq.ft.Built Area 2093 Sq.ft. Date of Purchase 03-02-2020 Cost of Land 9088470/- Total Area Built Up Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 20,00,00,000",
+          "spouse_details": "Flat at Hatigaon Total Area Built Up Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 29,00,000",
+          "dependent1_details": "Flat at Hatigaon Total Area Built Up Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 12,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 108988764,
+      "grand_total_of_liabilities_spouse_rupees": 1100000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 8531629,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 118620393,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 570000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 3642760,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 4586883,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 39303873,
+          "self_details": "Bank of Baroda Restaurant Loan 36,42,760; Bank of Baroda Khanpara Br. Housing Loan 5,87,664; Central Bank of India GaraliJorhat Mortgage Loan 12,21,896; Central Bank of India Garali Jorhat Cash Credit 6,11,884; Central Bank of India Garali Jorhat MSME 8,51,025; Central Bank of India Over Draft 61,82,408; LIC Housing Finance Ltd. Housingh Loan 1,86,74,607",
+          "spouse_details": "Nil",
+          "dependent1_details": "Loan against Restaurant SBI 45,86,883; vehicle Loan UCO 29,44,746"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 76916520,
+          "spouse_value_rupees": 1100000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 10000000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 79316520,
+          "self_details": "Unsecured Loan from various parties 3,02,67,815; Advance Against Property 2,72,95,505; Advance against sale of Flats and Property 1,96,53,200",
+          "spouse_details": "Mee Infrastructure Private limited 11,00,000",
+          "dependent1_details": "Advance against sale of Flats and property 10,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": {
-        "description": "Flat at Hatigaon",
-        "inherited": "N",
-        "purchase_date": "Not fully specified",
-        "purchase_cost_inr": "Not fully specified",
-        "development_cost_inr": "Not fully specified",
-        "current_market_value_inr": 2900000
+    "profession_or_occupation": {
+      "self": "Business",
+      "spouse": "Business"
+    },
+    "sources_of_income": {
+      "self": "Business, House property income",
+      "spouse": "Business",
+      "dependent": "Business"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nill"
+    },
+    "other_elections": [
+      {
+        "election_name": "Assam 2021",
+        "declared_assets": 434924690,
+        "declared_cases": 10
       },
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2900000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 39303873,
-      "loans_due_to_individual_entity_inr": 77916520,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 108988764
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 1100000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1100000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Business, House property income",
-    "spouse": "Business",
-    "dependent": "Business"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nill"
+      {
+        "election_name": "Assam 2016",
+        "declared_assets": 150936784,
+        "declared_cases": 0
+      }
+    ]
   }
 }

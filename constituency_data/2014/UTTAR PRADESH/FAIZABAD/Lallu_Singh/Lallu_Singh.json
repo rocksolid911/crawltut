@@ -1,153 +1,486 @@
 {
   "candidate_name": "LALLU SINGH",
   "party": "BJP",
-  "constituency": "FAIZABAD (UTTAR PRADESH)",
-  "father_or_husband_name": "Late Bhagwan Singh",
-  "age": 59,
-  "education": "Post Graduate M.A From Saket College Faizabad, Avadh University In 1982, LL.B Pass In 1984",
-  "profession_self": "Agriculture, Pensioner",
-  "profession_spouse": "Business",
-  "criminal_cases": 1,
-  "assets_total_inr": 15127861,
-  "liabilities_total_inr": 4640964,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 317520
+  "constituency": "FAIZABAD",
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Bhagwan Singh",
+      "age": 59,
+      "voter_enrolled_in": {
+        "constituency": "275-Ayodaha",
+        "state": "Uttar Pradesh",
+        "serial_no": 111,
+        "part_no": 4
+      },
+      "self_profession": "Agriculture, Pensioner",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 15127861,
+      "total_liabilities_in_rupees": 4640964
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A From Saket College Faizabad, Avadh University In 1982, LL.B Pass In 1984"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 317520
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 208870
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+          "ipc_section": "332",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+          "ipc_section": "201",
+          "count": 1
+        },
+        {
+          "charges_related_to": "dacoity",
+          "ipc_section": "395",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Causing grievous hurt by act endangering life or personal safety of others",
+          "ipc_section": "338",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "332,338,201,149,395,120B",
+          "other_details_or_acts_sections_applicable": "Crime No.197/1992, Station Ram Janam Land Faizabad U.P.,After CBI Transfer R.C. No.1(5/3) At R.C, No.48 (5/93), R.C. No. 8(5/92) Janpad Faizabad U.P., Charges frame Court Name- Special Additional Magistrate Indira Nagar Lucknow dated 09-09-1997, Cognizance Court Special Magistrate CBI Ram janm bhumi prakan dated 11-10-1993"
+        }
+      ],
+      "cases_where_cognizance_taken": [],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1364299,
+      "gross_total_value_spouse_rupees": 1241062,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 2605361,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 145000,
+          "spouse_value_rupees": 90000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 235000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 125545,
+          "spouse_value_rupees": 68674,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 194219,
+          "self_details": "PNB Civil Lines Faizabad No 415200010001xxxxx 19,905  19 Thou+ East Baroda Rural Bank Main Br. Faizabad No 5470010000xxxxx 4,140  4 Thou+ Baroda P. Rural Bank Mumtaj Nagar Faizabad No 5506010001xxxxx 5,097  5 Thou+ SBI Sachivalaya Br. Lucknow No 1022301xxxxx 7,433  7 Thou+ BOB Br. Sahdatganj Faizabad No 0067010001xxxxx 637  6 Hund+ PNB Vikas Bhavan Faizabad No 612800010000xxxxx 86,965  86 Thou+ Allahabad BankBr. Faizabd No 12xxxxx Allahabad 1,018  1 Thou+ BUP Rural bank Dist. Faizabad No 5664010000xxxxx 20,531  20 Thou+",
+          "spouse_details": "SBI Br. Faizabad No 1010207xxxxx 3,674  3 Thou+ Allahabad Bank No 1xxxxx 3,145  3 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "self_details": "2 NSS 15,000  15 Thou+ 4 KVP 35,000  35 Thou+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 44093,
+          "spouse_value_rupees": 164243,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 208336,
+          "self_details": "2 LIC Policies amount Rs. 5Laks 28,733  28 Thou+ LIC Policy India Fisrt 15,360  15 Thou+",
+          "spouse_details": "LIC Policy Amount Rs. 500000/- 17,243  17 Thou+ Tata AIG Life Policy 1,47,000  1 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 814480,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 814480,
+          "self_details": "Mahindra Scorpio No. VL X4 WD BS-111, Make- Nov., 2012, No.UP 42W/2711 8,14,480  8 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 90000,
+          "spouse_value_rupees": 940000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1030000,
+          "self_details": "30 Gm. Gold Jewellery 90,000  90 Thou+",
+          "spouse_details": "300 Gm. Gold 9,00,000  9 Lacs+ 900 Gm. Silver 40,000  40 Thou+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 75000,
+          "spouse_value_rupees": 40000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 115000,
+          "self_details": "Household Things e.g. Electronic Things Computer Sofa And Another Things 75,000  75 Thou+",
+          "spouse_details": "Importants Things 40,000  40 Thou+"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 46500000,
+      "total_current_market_value_spouse_rupees": 2412500,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 7062500,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "1. Vill-Raipur,Mangalsi,Tah-Sohawal,Faizabad,Khata No-29 Area:0.355 Hect. 2. Khata No-30 Area:2.00 Hect, Khata No-31 Area:2.282 Hec. Khata No-132 Area:1.675 Hect. Khata No-133 Area:0.076 Hect, Khata No-134 Area:2.472 Hec. Khata No-166 Area:0.107 Hect. Khata No-191 Area:0.019 Hec. Khata No-193 Area:0.158 Hect. Khata No-253 Area 0.685 Hec. Khata No-284 Area:3.270 Hec. Khata No-534 Area:0.196 Hec. Khata No-561 Area:0.015 Hec. 2.. Vill-Kharagapur,Mangalsi,Tah-Sohawal,Faizabad Khata No-5 Area:0.010 Hec. 3... Vill-Kotsarai,Mangalshi Tah-Sohawal,Faizabad, Khata No-2 83 85 100 508 Area:0.101 Hec. 4.093 Hec. 0.451 Hec. 0.291 Hec. 0.086 Hec. 4.. Vill-Ballipur,Mangalsahi,Tah-Sohawal,Faizabad,Khata No-57 65 102 Area:0.058 5.. Vill-Mangakala Mangalshi,Tah-Sohawal,Faizabad Khata No-101 Area:1.910 Hec. Khata No-471 Area:1.114 Hec. 5.. Vill-Abbusarai,Haveli,Abadh Tah-Sadar,Faizabad, Khata No-25 1 Area:0.139 Hec. 0.060 Hec. 0.076 Hec,  Total Area 4.927 Hec. Built Up Area  Whether Inherited Y Purchase Date 2004-07-12 Purchase Cost 110000.00 Development Cost 0.00",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2150000,
+          "spouse_value_rupees": 1750000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3900000,
+          "self_details": "Resident Plot,Viratkhand Gomti Nagar Luckhnow Plot No-2/268 Area:288 Sq Mt. Sahres 1/2 2. Business Plot Transport Nagar Faizabad,Plot No-155 Area:60 Sq Mt. Cost Value-7281800 99120 Date 2004/12/02 2004/08/27 Total Area 204 Sq Mt Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "Resident Plot,Viratkhand Gomti Nagar Luckhnow Plot No-2/268, Area:288 Sq Mt, 1/2 Sahres  Total Area 144 Sq Mt. Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 600000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 600000,
+          "self_details": "Nil",
+          "spouse_details": "H No-1/3/1 Sahadatganj Area:52.85 Sq Mt. 1/3 Sahrres Total Area 17.62 Sq Mt. Built Up Area  Whether Inherited N Purchase Date 2008-07-29 Purchase Cost 700000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 2500000,
+          "spouse_value_rupees": 62500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2562500,
+          "self_details": "1. H No-128A 1/3/3 Sahadat Ganj Faizabad 2. H No-1/2/2 Salarpuer,Sahadatganj Faizabad 3..Inherited Plot, Vill-Raipur,Po-Kotsarai Mangalshi,Faizabad, 4..232.24 Sq Mt. 1/3 Sahres,Area:680 Sq Ft,1/4 Sahres, 800 Sq Ft 198 Sq Mt. 181.36 Sq Mt,1/3 Sahres, Cost Value-50000 166666.66  Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "1/2 Share of Rs. 125000/- Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 4365964,
+      "grand_total_of_liabilities_spouse_rupees": 275000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 4640964,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2003964,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2003964,
+          "self_details": "Rural bank Mumtaj Nagar KVS Loan 2,11,617  2 Lacs+ SBI India Vidhansabha Br. Lucknow Hand Loan 2,30,656  2 Lacs+ Rural Bank Dist. 9,99,943  9 Lacs+ BOB Br.Faizabad Vehicle Loan 1,47,112  1 Lacs+ BOB Br.Sahadatganj Simple Loan 4,14,636  4 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "i",
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 362000,
+          "spouse_value_rupees": 175000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 537000,
+          "self_details": "LIC Policy Loan 3,62,000  3 Lacs+",
+          "spouse_details": "LIC Loan 1,75,000  1 Lacs+"
+        },
+        {
+          "sr_no": "i",
+          "description": "Any other Liability",
+          "self_value_rupees": 2100000,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2200000,
+          "self_details": "Loan 10,00,000  10 Lacs+ Indra Bhan Singh Laon From Raipur 5,00,000  5 Lacs+ Krishan Murari Singh Sahadatganj 5,00,000  5 Lacs+",
+          "spouse_details": "Family Laon 1,00,000  1 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election": "Lok Sabha 2024",
+        "declared_assets_rupees": 54014579,
+        "declared_cases": 0
+      },
+      {
+        "election": "Lok Sabha 2019",
+        "declared_assets_rupees": 31884642,
+        "declared_cases": 1
+      },
+      {
+        "election": "Uttar Pradesh 2012",
+        "declared_assets_rupees": 12845148,
+        "declared_cases": 1
+      },
+      {
+        "election": "Lok Sabha 2009",
+        "declared_assets_rupees": 7849185,
+        "declared_cases": 1
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 208870
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 145000,
-      "bank_deposits_inr": 152545,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 50000,
-      "lic_other_insurance_inr": 44093,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 814480,
-      "jewellery_inr": 90000,
-      "other_assets_inr": 75000,
-      "gross_total_value_inr": 1364299
-    },
-    "spouse": {
-      "cash_inr": 90000,
-      "bank_deposits_inr": 6819,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 164243,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 940000,
-      "other_assets_inr": 40000,
-      "gross_total_value_inr": 1241062
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Resident Plot, Viratkhand Gomti Nagar Luckhnow Plot No-2/268 Area:288 Sq Mt. Shares 1/2. Business Plot Transport Nagar Faizabad, Plot No-155 Area:60 Sq Mt.",
-        "area_sq_mtr": 204,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2150000
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "1. H No-128A 1/3/3 Sahadat Ganj Faizabad 2. H No-1/2/2 Salarpuer, Sahadatganj Faizabad 3. Inherited Plot, Vill-Raipur, Po-Kotsarai Mangalshi, Faizabad 4. 232.24 Sq Mt. 1/3 Sahres, Area:680 Sq Ft, 1/4 Sahres, 800 Sq Ft 198 Sq Mt. 181.36 Sq Mt, 1/3 Sahres.",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 4650000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Resident Plot, Viratkhand Gomti Nagar Luckhnow Plot No-2/268, Area:288 Sq Mt, 1/2 Sahres",
-        "area_sq_mtr": 144,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1750000
-      },
-      "commercial_buildings_inr": 600000,
-      "residential_buildings": {
-        "description": "1/2 Share of Rs. 125000/-",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 62500
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2412500
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2003964,
-      "loans_due_to_individual_entity_inr": 362000,
-      "any_other_liability_inr": 2000000,
-      "grand_total_of_liabilities_inr": 4365964
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 175000,
-      "any_other_liability_inr": 100000,
-      "grand_total_of_liabilities_inr": 275000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    ]
+  }
 }

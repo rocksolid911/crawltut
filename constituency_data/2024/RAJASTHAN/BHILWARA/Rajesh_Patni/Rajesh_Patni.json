@@ -1,155 +1,462 @@
 {
   "candidate_name": "RAJESH PATNI",
+  "constituency": "BHILWARA",
+  "state": "RAJASTHAN",
   "party": "IND",
-  "constituency": "BHILWARA (RAJASTHAN)",
-  "father_or_husband_name": "Prakash Chandr Patni",
+  "s_o_d_o_w_o": "Prakash Chandr Patni",
   "age": 45,
-  "education": "12th Pass From Govt. Senior Secondary School Mahatma Gandhi Rampura",
-  "profession_self": "Business",
-  "profession_spouse": "Govt Teacher",
-  "criminal_cases": 1,
-  "assets_total_inr": 12095268,
-  "liabilities_total_inr": 3700000,
-  "income_tax_details": {
+  "voter_enrolled_in": {
+    "state": "Rajasthan",
+    "serial_no": 1067,
+    "part_no": 31
+  },
+  "self_profession": "Business",
+  "spouse_profession": "Govt Teacher",
+  "criminal_cases": {
+    "number_of_criminal_cases": 1,
+    "pending_cases": [
+      {
+        "serial_no": 1,
+        "fir_no": null,
+        "case_no": "197/17",
+        "court": "Special Metropolitan Magistrate NI Act I Jaipur",
+        "ipc_sections_applicable": null,
+        "other_details_or_acts_sections_applicable": "Sections 138 NI Act",
+        "charges_framed": false,
+        "date_on_which_charges_were_framed": null,
+        "appeal_filed": false,
+        "details_and_present_status_of_appeal": null
+      }
+    ],
+    "convicted_cases": []
+  },
+  "assets_and_liabilities": {
+    "assets": "Rs 1,20,95,268",
+    "liabilities": "Rs 37,00,000"
+  },
+  "educational_details": "12th Pass From Govt. Senior Secondary School Mahatma Gandhi Rampura",
+  "pan_and_itr_details": {
     "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 499163,
-        "2022-2023": 438140,
-        "2021-2022": 437948,
-        "2020-2021": 483057,
-        "2019-2020": 298979
+      "pan_given": true,
+      "financial_years": {
+        "2023 - 2024": "Rs 4,99,163",
+        "2022 - 2023": "Rs 4,38,140",
+        "2021 - 2022": "Rs 4,37,948",
+        "2020 - 2021": "Rs 4,83,057",
+        "2019 - 2020": "Rs 2,98,979"
       }
     },
     "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 624420,
-        "2022-2023": 477000,
-        "2021-2022": 496820,
-        "2020-2021": 476550,
-        "None": 319590
+      "pan_given": true,
+      "financial_years": {
+        "2023 - 2024": "Rs 6,24,420",
+        "2022 - 2023": "Rs 4,77,000",
+        "2021 - 2022": "Rs 4,96,820",
+        "2020 - 2021": "Rs 4,76,550",
+        "None": "Rs 3,19,590"
       }
     },
     "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
+      "pan_given": false,
+      "financial_years": {
+        "None": "Rs 0"
       }
     },
     "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
+      "pan_given": false,
+      "financial_years": {
+        "None": "Rs 0"
       }
     },
     "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
+      "pan_given": false,
+      "financial_years": {
+        "None": "Rs 0"
       }
     },
     "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
+      "pan_given": false,
+      "financial_years": {
+        "None": "Rs 0"
       }
     }
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 447439,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 497439
+    "total_calculated": {
+      "self": "Rs 4,94,439",
+      "spouse": "Rs 6,00,829",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "grand_total": "Rs 10,95,268"
     },
-    "spouse": {
-      "cash_inr": 10000,
-      "bank_deposits_inr": 30829,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 560000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 600829
-    }
+    "details": [
+      {
+        "description": "Cash",
+        "self": "50,000",
+        "spouse": "10,000",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 60,000"
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self": "PNB  33,565, SBI  0*(Value Not Given), Canara Bank  1,778, Bandhan Bank  27,096, SBI  3,75,000, UBI 7,000",
+        "spouse": "BOB 0*(Value Not Given), SBI  30,829",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 4,75,268"
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self": "Share UCO -200, UBI - 377, PNB-152, IBOL- 7, Bandhan - 10, Yes - 180 0*(Value Not Given)",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 0"
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self": "Nil",
+        "spouse": "Insurance Policy 0*(Value Not Given)",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 0"
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self": "Motorcycle RJU6BE2920 0*(Value Not Given)",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 0"
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self": "Nil",
+        "spouse": "80 Gram Gold  5,60,000",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 5,60,000"
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 11000000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Total Area 4500 Sq.ft.",
-        "total_area_sqft": 4500,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "2014-01-01",
-        "purchase_cost_inr": 4000000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 11000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 22000000
+    "total_current_market_value_as_per_affidavit": {
+      "self": "1,10,00,000",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "grand_total": "Rs 1,10,00,000"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
+    "totals_calculated": {
+      "self": "Rs 2,20,00,000",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "grand_total": "Rs 2,20,00,000"
+    },
+    "details": [
+      {
+        "description": "Agricultural Land",
+        "self": "Land Total Area Built Up Area  Whether Inherited N Purchase Date 2014-01-01 Purchase Cost 400000.00 Development Cost 0.00 1,10,00,000",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 1,10,00,000"
+      },
+      {
+        "description": "Non Agricultural Land",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Commercial Buildings",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Residential Buildings",
+        "self": "Total Area 4500 Sq.ft. Built Up Area  Whether Inherited N Purchase Date 2014-01-01 Purchase Cost 4000000.00 Development Cost 0.00 1,10,00,000",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 1,10,00,000"
+      },
+      {
+        "description": "Others",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      }
+    ]
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3700000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3700000
+    "grand_total_of_liabilities_as_per_affidavit": {
+      "self": "37,00,000",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "grand_total": "Rs 37,00,000"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "grand_total_of_all_govt_dues_as_per_affidavit": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "grand_total": "Nil"
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
+    "whether_any_other_liabilities_are_in_dispute": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "grand_total": "Nil"
     },
-    "other_liabilities_in_dispute_inr": 0
+    "totals_calculated": {
+      "self": "Rs 37,00,000",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "grand_total": "Rs 37,00,000"
+    },
+    "details": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self": "Canara Bank Home Loan  5,00,000, SBI Mudra Loan  12,00,000, Bandhan Bank Business Loan  20,00,000",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Rs 37,00,000"
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Any other Liability",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Income Tax Dues",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Service Tax Dues",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Property Tax Dues",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "GST Dues",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      },
+      {
+        "description": "Any Other Dues",
+        "self": "Nil",
+        "spouse": "Nil",
+        "huf": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "total": "Nil"
+      }
+    ]
   },
   "sources_of_income": {
     "self": "Business",
     "spouse": "Govt Teacher",
     "dependent": "Not Applicable"
   },
-  "contracts": {
-    "entered_by_candidate": "Not Applicable",
-    "entered_by_spouse": "Not Applicable",
-    "entered_by_dependent": "Not Applicable",
-    "entered_by_huf_trust": "Not Applicable",
-    "entered_by_partnership_firms": "Not Applicable",
-    "entered_by_private_companies": "Not Applicable"
+  "contracts_with_appropriate_govt_and_any_public_company_companies": {
+    "candidate": "Not Applicable",
+    "spouse": "Not Applicable",
+    "dependent": "Not Applicable",
+    "hindu_undivided_family_or_trust": "Not Applicable",
+    "partnership_firms": "Not Applicable",
+    "private_companies": "Not Applicable"
   }
 }

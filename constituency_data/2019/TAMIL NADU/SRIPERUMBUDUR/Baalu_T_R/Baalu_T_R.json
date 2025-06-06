@@ -2,177 +2,968 @@
   "candidate_name": "Baalu.T.R.",
   "party": "DMK",
   "constituency": "SRIPERUMBUDUR",
-  "father_or_husband_name": "Raju Thevar",
-  "age": 77,
-  "education": "Graduate, Bachelor of Science at University of Madras, Chennai - Year 1989",
-  "profession_self": "Social Service",
-  "profession_spouse": "House wives",
-  "criminal_cases": 0,
-  "assets_total_inr": 208806446,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 1402869,
-        "2016-2017": 1548010,
-        "2015-2016": 1492430,
-        "2014-2015": 1499550,
-        "2013-2014": 1154860
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2008-2009": 180000,
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2008-2009": 1325510,
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 190000,
-      "bank_deposits_inr": 2029522,
-      "bonds_debentures_shares_inr": 8681940,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 1450000,
-      "motor_vehicles_inr": 75000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 13939461
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 2617765,
-      "bonds_debentures_shares_inr": 1109660,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 4995000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 9752984
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 66080000,
-      "non_agricultural_land": {
-        "description": "Industrial Land at 131, Pulikoradu Village, Tambaram Taluk Kanchipuram District Survey no. 22/1, 122/2, 122/3 & 123/2",
-        "area_sq_mtr": 3201.2,
-        "inherited": "N",
-        "purchase_date": "1979-09-22",
-        "purchase_cost_inr": 12150,
-        "development_cost_inr": 10000,
-        "current_market_value_inr": 27706000
+  "state": "TAMIL NADU",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Raju Thevar",
+      "age": 77,
+      "voter_enrolled_in": {
+        "constituency": "T Nagar",
+        "state": "Tamil Nadu",
+        "serial_no": 748,
+        "part_no": 121
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "NA",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "NA",
-        "purchase_date": "NA",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      "self_profession": "Social Service",
+      "spouse_profession": "House wives"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 208806446,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Bachelor of Science at University of Madras, Chennai - Year 1989"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 1402869
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 1548010
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 1492430
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 1499550
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 1154860
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2008 - 2009",
+          "total_income_shown_in_itr_rupees": 180000
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2008 - 2009",
+          "total_income_shown_in_itr_rupees": 1325510
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 13939461,
+      "gross_total_value_spouse_rupees": 9752984,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 23692445,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 190000,
+          "spouse_value_rupees": 25000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 215000,
+          "self_details": {
+            "amount_rupees": 190000
+          },
+          "spouse_details": {
+            "Mrs. Porkodi_amount_rupees": 10000,
+            "Mrs. Renugadevi_amount_rupees": 15000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1536737,
+          "spouse_value_rupees": 3111505,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4648242,
+          "self_details": [
+            {
+              "bank": "State Bank of India",
+              "branch": "Tnagar Branch",
+              "acc_no": "2015338xxxxx",
+              "amount_rupees": 132118,
+              "as_on": "14/03/2019"
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "New Delhi Branch",
+              "acc_no": "1002382xxxxx",
+              "amount_rupees": 587970,
+              "as_on": "18/03/2019"
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Tanjore Branch",
+              "acc_no": "13640100001xxxxx",
+              "amount_rupees": 254933,
+              "as_on": "14/03/2019"
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Manargudi Branch",
+              "acc_no": "08960100010xxxxx",
+              "amount_rupees": 174901,
+              "as_on": "14/03/2019"
+            },
+            {
+              "bank": "The Thanjavur DCC Bank limited",
+              "branch": "Thanjavur Branch",
+              "acc_no": "20003xxxxx",
+              "amount_rupees": 6091,
+              "as_on": "14/03/2019"
+            },
+            {
+              "bank": "Karur Vysya Bank",
+              "branch": "Whites road Branch",
+              "acc_no": "121917200000xxxxx",
+              "amount_rupees": 30000,
+              "as_on": "20/03/2019"
+            },
+            {
+              "bank": "State bank of India",
+              "fd_no": "3205068xxxxx",
+              "dated": "24/11/2013",
+              "amount_rupees": 322622
+            },
+            {
+              "bank": "State bank of India",
+              "fd_no": "32050681719",
+              "dated": "24/11/2013",
+              "amount_rupees": 322622
+            },
+            {
+              "bank": "State bank of India",
+              "fd_no": "32050682214",
+              "dated": "24/11/2013",
+              "amount_rupees": 160229
+            },
+            {
+              "bank": "State bank of India",
+              "fd_no": "36268063378",
+              "dated": "25/11/2018",
+              "amount_rupees": 567435
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Mrs. Porkodi",
+              "bank": "C.C.C. Bank",
+              "branch": "Kodambakkam Branch",
+              "acc_no": "211002xxxxx",
+              "amount_rupees": 118080,
+              "as_on": "14/03/2019"
+            },
+            {
+              "name": "Mrs. Porkodi",
+              "bank": "Karur Vysya Bank",
+              "branch": "Kodambakkam Branch",
+              "acc_no": "115515300000xxxxx",
+              "amount_rupees": 19995,
+              "as_on": "20/03/2019"
+            },
+            {
+              "name": "Mrs. Porkodi",
+              "bank": "Indian Bank",
+              "branch": "Mannargudi",
+              "acc_no": "86931xxxxx",
+              "amount_rupees": 48699,
+              "as_on": "13/03/2019"
+            },
+            {
+              "name": "Mrs. Porkodi",
+              "bank": "Thanjavur Central Cooperative bank",
+              "branch": "Mannargudi",
+              "acc_no": "3xxxxx",
+              "amount_rupees": 898,
+              "as_on": "14/03/2019"
+            },
+            {
+              "name": "Mrs. Porkodi",
+              "bank": "IDBI Bank",
+              "branch": "Tnagar Branch",
+              "acc_no": "019410400030xxxxx",
+              "amount_rupees": 120087,
+              "as_on": "14/03/2019"
+            },
+            {
+              "name": "Mrs Porkodi",
+              "bank": "Post Office",
+              "branch": "Thallikottai",
+              "acc_no": "39xxxxx",
+              "amount_rupees": 184,
+              "as_on": "14/03/2019"
+            },
+            {
+              "name": "Mrs. Porkodi",
+              "bank": "Primary Agricultural Cooperative Bank Limited",
+              "branch": "Thallikottai",
+              "acc_no": "3454",
+              "amount_rupees": 201,
+              "as_on": "14/03/2019"
+            },
+            {
+              "name": "Thanjavur Central Cooperative Bank",
+              "branch": "Mannargudi",
+              "receipt_no": "24008xxxxx",
+              "dated": "14/03/2019",
+              "amount_rupees": 161997
+            },
+            {
+              "name": "Indian Bank",
+              "branch": "Mannargudi",
+              "dated": "14/03/2019",
+              "amount_rupees": 142025
+            },
+            {
+              "name": "Thallikottai Primary Agricultural cooperative bank",
+              "fd_no": "T 1200",
+              "dated": "14/03/2019",
+              "amount_rupees": 85385
+            },
+            {
+              "name": "IDBI Bank",
+              "branch": "Tnagar",
+              "fd_no": "19410600004xxxxx",
+              "dated": "14/03/2019",
+              "amount_rupees": 150000
+            },
+            {
+              "name": "IDBI Bank",
+              "branch": "Tnagar",
+              "fd_no": "19410600004xxxxx",
+              "dated": "14/03/2019",
+              "amount_rupees": 25000
+            },
+            {
+              "name": "KVB Bank",
+              "branch": "Kodambakkam branch",
+              "dated": "14/03/2019",
+              "amount_rupees": 1100000
+            },
+            {
+              "name": "Mrs. B.Renuga Devi",
+              "bank": "IOB",
+              "branch": "Thanjavur branch",
+              "acc_no": "13640100002xxxxx",
+              "amount_rupees": 71350,
+              "as_on": "14/03/2019"
+            },
+            {
+              "name": "Mrs. B.Renuga Devi",
+              "bank": "ICICI",
+              "branch": "Tnagar branch",
+              "acc_no": "60260152xxxxx",
+              "amount_rupees": 31686,
+              "as_on": "14/03/2019"
+            },
+            {
+              "name": "Mrs. B.Renuga Devi",
+              "bank": "The Thanjavur Central Cooperative bank",
+              "acc_no": "20002xxxxx",
+              "amount_rupees": 13737,
+              "as_on": "14/03/2019"
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 9583440,
+          "spouse_value_rupees": 2725680,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12309120,
+          "self_details": [
+            {
+              "company": "M/s.Kings India Chemicals Corporation limited",
+              "num_shares": 791800,
+              "face_value_per_share": 10,
+              "amount_rupees": 1583600
+            },
+            {
+              "company": "M/s.Meenam Fisheries Limited",
+              "num_shares": 29444,
+              "face_value_per_share": 100,
+              "amount_rupees": 294440
+            },
+            {
+              "company": "M/s. Kings India Power Corporation Limited",
+              "num_shares": 197500,
+              "face_value_per_share": 10,
+              "amount_rupees": 987500
+            },
+            {
+              "company": "M/s. Rajee Estates and securities private Limited",
+              "num_shares": 10000,
+              "face_value_per_share": 10,
+              "amount_rupees": 6800000
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Mrs Porkodi",
+              "company": "M/s. Meenam Fisheries limited",
+              "num_shares": 6756,
+              "face_value_per_share": 100,
+              "amount_rupees": 67560
+            },
+            {
+              "name": "Mrs Porkodi",
+              "company": "M/s. Kings Estates and securities private limited",
+              "num_shares": 900,
+              "face_value_per_share": 10,
+              "amount_rupees": 9000
+            },
+            {
+              "name": "Mrs Porkodi",
+              "company": "M/s. Kings India Power corporation limited",
+              "num_shares": 10000,
+              "face_value_per_share": 10,
+              "amount_rupees": 50000
+            },
+            {
+              "name": "Mrs Porkodi",
+              "company": "M/s. Kings India Chemicals corporation limited",
+              "num_shares": 97500,
+              "face_value_per_share": 10,
+              "amount_rupees": 195000
+            },
+            {
+              "name": "Mrs Renuka Devi",
+              "company": "M/s. Kings India Chemicals corporation limited",
+              "num_shares": 339000,
+              "face_value_per_share": 10,
+              "amount_rupees": 678000
+            },
+            {
+              "name": "Mrs. Renuka Devi",
+              "company": "M/s. Meenam Fisheries Limited",
+              "num_shares": 910,
+              "face_value_per_share": 100,
+              "amount_rupees": 9100
+            },
+            {
+              "name": "Mrs Renuka Devi",
+              "company": "M/s. Kings India Power Corporation Limited",
+              "num_shares": 71000,
+              "face_value_per_share": 10,
+              "amount_rupees": 710000
+            },
+            {
+              "name": "Mrs. Renuka Devi",
+              "company": "M/s. Twice Digital Private Limited",
+              "num_shares": 175000,
+              "face_value_per_share": 10,
+              "amount_rupees": 875000
+            },
+            {
+              "name": "Mrs. Renuka Devi",
+              "company": "M/s. Kings Agro techs private limited",
+              "num_shares": 5000,
+              "face_value_per_share": 10,
+              "amount_rupees": 50000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "b",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 1450000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1450000,
+          "self_details": [
+            {
+              "recipient": "Kings India Chemicals Corporation Limited",
+              "amount_rupees": 1000000
+            },
+            {
+              "recipient": "Mrs. Sharmila Rajaa",
+              "amount_rupees": 450000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 75000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 75000,
+          "self_details": [
+            {
+              "make": "Mahindra Tractor",
+              "reg_no": "TN55AD7323",
+              "year": 2017,
+              "value_rupees": 75000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 4995000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4995000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "name": "Mrs. Porkodi",
+              "item": "Gold with Stones",
+              "weight_gms": 1050,
+              "approx_value_rupees": 2835000
+            },
+            {
+              "name": "Mrs Renuka Devi",
+              "item": "Gold with stones",
+              "weight_gms": 800,
+              "approx_value_rupees": 2160000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 951140000,
+      "total_current_market_value_spouse_rupees": 900000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 1851140000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 67408000,
+          "spouse_value_rupees": 160000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 227408000,
+          "self_details": [
+            {
+              "location": "Punarkulam Village Kandharvakottai Taluk Pudukottai District Tamilnadu",
+              "survey_no": "261/1D, 2D, 3D",
+              "total_area_acres": 20.03,
+              "inherited": false,
+              "purchase_date": "1991-07-01",
+              "purchase_cost_rupees": 108125,
+              "development_cost_rupees": 0,
+              "current_market_value_rupees": 30000000
+            },
+            {
+              "location": "Pudhu nagar, Kandharvakottai Taluk Pudukottai District Tamilnadu",
+              "survey_no": "7/1",
+              "total_area_acres": 10,
+              "inherited": false,
+              "purchase_date": "1991-07-01",
+              "purchase_cost_rupees": 108125,
+              "development_cost_rupees": 0,
+              "current_market_value_rupees": 30000000
+            },
+            {
+              "location": "Thallikottai Village Mannargudi Taluk Tiruvarur district Tamilnadu",
+              "survey_no": "136/10, 138B/10, 149/1, 162/6B, 166A/3B, 166A/1B, 176/BA/6",
+              "total_area_acres": 3.38,
+              "inherited": true,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_market_value_rupees": 3704000
+            },
+            {
+              "location": "Mahadevapattinam Village Mannargudi Taluk Tiruvarur District Tamilnadu",
+              "survey_no": "390/20B",
+              "total_area_acres": 0.74,
+              "inherited": true,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_market_value_rupees": 3704000
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Mrs B Renuga Devi",
+              "location": "Pudhu nagar Kandharvakottai Taluk Pudhukottai District Tamilnadu",
+              "survey_no": "7/1 & 7/2",
+              "total_area_acres": 16.90,
+              "inherited": false,
+              "purchase_date": "1990-10-09",
+              "purchase_cost_rupees": 121680,
+              "development_cost_rupees": 0,
+              "current_market_value_rupees": 160000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 27706000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 27706000,
+          "self_details": [
+            {
+              "location": "131, Pulikoradu Village, Tambaram Taluk Kanchipuram District",
+              "survey_no": "22/1, 122/2, 122/3 & 123/2",
+              "total_area_sq_ft": 34460,
+              "inherited": false,
+              "purchase_date": "1979-09-22",
+              "purchase_cost_rupees": 12150,
+              "development_cost_rupees": 10000,
+              "current_market_value_rupees": 27706000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 740000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 740000000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "name": "Mrs Porkodi",
+              "property_type": "Gift Settlement Property House Property",
+              "location": "United India Colony, First cross street, Kodambakkam, Chennai 600024",
+              "survey_no": "33",
+              "door_no": "23",
+              "total_area": "3 Grounds 1000 Sq.ft",
+              "built_up_area": "2400 Sq.ft",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_market_value_rupees": 700000000
+            },
+            {
+              "name": "Mrs. Porkodi",
+              "property_type": "HIG SDI Flat",
+              "location": "P.V.R. Salai KK Nagar, Chennai",
+              "survey_no": "275 part, Virugambakkam village Chennai",
+              "total_area": "1047 Sq.ft",
+              "built_up_area": "1000",
+              "inherited": false,
+              "purchase_date": "2011-03-16",
+              "purchase_cost_rupees": 145400,
+              "development_cost_rupees": 0,
+              "current_market_value_rupees": 40000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 95114000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 16000000,
-      "non_agricultural_land": {
-        "description": "NA",
-        "area_sq_mtr": 0,
-        "inherited": "NA",
-        "purchase_date": "NA",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "profession_or_occupation": {
+      "self": "Social Service",
+      "spouse": "House wives"
+    },
+    "sources_of_income": {
+      "self": "M.P. Pension & Interest on Deposits",
+      "spouse": "Mrs Renuka Devi-Agricultural Income and from Interest, Mrs. Porkodi-Interest on Deposits",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NIL",
+      "spouse": "NIL",
+      "dependent": "NIL",
+      "huf_or_trust": "Not Applicable",
+      "partnership_firms": "Not Applicable",
+      "private_companies": "Not Applicable"
+    },
+    "election_declarations": [
+      {
+        "election_name": "Lok Sabha 2024",
+        "declared_assets_rupees": 457302056,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Gift Settlement Property House Property at Survey no. 33 Door No. 23 United India Colony, First cross street, Kodambakkam, Chennai 600024 and HIG SDI Flat at P.V.R. Salai KK Nagar, Chennai in Survey no.275 part, Virugambakkam village Chennai",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "NA",
-        "purchase_date": "NA",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 74000000
+      {
+        "election_name": "Loksabha 2014",
+        "declared_assets_rupees": 201555306,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 90000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "M.P. Pension & Interest on Deposits",
-    "spouse": "Mrs Renuka Devi-Agricultural Income and from Interest, Mrs. Porkodi-Interest on Deposits",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "NIL",
-    "entered_by_spouse": "NIL",
-    "entered_by_dependent": "NIL",
-    "entered_by_huf_trust": "Not Applicable",
-    "entered_by_partnership_firms": "Not Applicable",
-    "entered_by_private_companies": "Not Applicable"
+      {
+        "election_name": "Lok Sabha 2009",
+        "declared_assets_rupees": 76971478,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Lok Sabha 2004",
+        "declared_assets_rupees": 27444755,
+        "declared_cases": 0
+      }
+    ]
   }
 }

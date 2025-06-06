@@ -1,146 +1,426 @@
 {
   "candidate_name": "ANIS AHMED KHAN (PHOOL BABU)",
-  "party": "Bahujan Samaj Party (BSP)",
-  "constituency": "PILIBHIT (UTTAR PRADESH)",
-  "father_or_husband_name": "Shafi Khan",
-  "age": 57,
-  "education": "Graduate from MJP Rohilkhand University, Bareilly 1985",
-  "profession_self": "Salary, Agriculture",
-  "profession_spouse": "Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 74521063,
-  "liabilities_total_inr": 2439902,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 2478981,
-        "2021-2022": 2670117,
-        "2020-2021": 2669258,
-        "2019-2020": 2858460,
-        "2018-2019": 2526810
+  "constituency": "PILIBHIT",
+  "state": "UTTAR PRADESH",
+  "party": "BSP",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Shafi Khan",
+      "age": 57,
+      "voter_enrolled_in": {
+        "constituency": "130 Bilaspur",
+        "state": "Uttar Pradesh",
+        "serial_no": 48,
+        "part_no": 386
+      },
+      "self_profession": "Salary, Agriculture",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 74521063,
+      "total_liabilities_in_rupees": 2439902
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Graduate from MJP Rohilkhand University, Bareilly 1985"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 2478981
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 2670117
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 2669258
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 2858460
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 2526810
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 724729
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 715630
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 706564
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 774940
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 625510
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 28558902,
+      "gross_total_value_spouse_rupees": 11062161,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 39621063,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 77000,
+          "spouse_value_rupees": 128000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 205000,
+          "self_details": "77,000",
+          "spouse_details": "1,28,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 17498361,
+          "spouse_value_rupees": 62886,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18362459,
+          "self_details": "(1) Bank Of Baroda No 06550100000xxxxx 1,69,05,050 (2)State Bank Of India No 1022303xxxxx 9,22,222 (3)HDFC Bank No 5010011306xxxxx 99,000 (4)FD HDFC No 5030017176xxxxx 1,55,497 FD HDFC No 5030052788xxxxx 1,59,497 FD HDFC No 5030061406xxxxx 30,391 FD HDFC Bank No 5030092942xxxxx 27,916",
+          "spouse_details": "Bank Of Baroda No 065501000xxxxx 62,886"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 4405483,
+          "spouse_value_rupees": 8043482,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12448968,
+          "self_details": "(1)Beneficiary Capital In A.A.Khan Trust 31,33,731 (2)SBI Long Term Equity Fund Folio No 2407xxxxx 4,42,001 (3)SBI Long term Equity Fund Folio No 2602xxxxx 2,99,403 (4)Tata Elss Tax Server Fund Folio No 802xxxxx/11 2,02,854 (5)Tata Elss Tax Saver Fund Folio No 1055xxxxx/67 1,46,898 (6)UTI Elss Tax Saver Fund Folio No 57734044xxxxx 1,80,596",
+          "spouse_details": "(1)Shafi Properties LLP 21,42,941 (2) Batra Holdings LLP 14,91,586 Beneficiary Capital In A.A. Khan Trust 31,33,731 (4) SBI Long Term Equity Fund Folio No 2423xxxxx 4,42,001 (5)SBI Long Term Equity fund Folio No 2602xxxxx 2,99,403 (6)Tata Elss Tax Saver fund Folio No 802xxxxx/90 2,04,359 (7)Tata Elss Tax Saver Fund Folio No 1055xxxxx/28 1,46,898 (8)UTI Elss tax Saver Fund Folio No 57734018xxxxx 1,82,566"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 5657280,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5657280,
+          "self_details": "Fortuner Reg No-UP16AF6700 M-2016 11,25,000 Swaraj Tractor Reg No-UP26AA0910 M-2018 2,82,280 Toyota Fortuner Reg No-UP26AQ9990 M-2023 42,50,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 2736210,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2736210,
+          "self_details": "Nil",
+          "spouse_details": "Jwellery 27,36,210"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 120000,
+          "spouse_value_rupees": 91600,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 211600,
+          "self_details": "Rifle & Pistol 1,20,000",
+          "spouse_details": "Rifle & Revolver 91,600"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 276500000,
+      "total_current_market_value_spouse_rupees": 72500000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 349000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 181500000,
+          "spouse_value_rupees": 39750000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 278750000,
+          "self_details": "(1)Khasra No-232 Gyaspur Bus Stand Shahranpur Road UP Total Area 0.259 Acre Built Up Area  Whether Inherited N Purchase Date 2004-09-06 Purchase Cost 270520.00 Development Cost 0.00 16,50,000 Khasra No-601 682 686 752 Total Area 2.19 Acre Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 4,50,000 (3)Khasra No 60 Mallapur Total Area 0.95 Acre Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,50,000 (4) Gram Mahawa Bilaspur Khasra No-100 Total Area 1.01 Acre Built Up Area  Whether Inherited N Purchase Date 2006-10-19 Purchase Cost 78000.00 Development Cost 0.00 4,50,000 (5) Kasba Patti Near Ghazi Kamal Shah Miya Bilaspur Khasra No-85 Total Area 1.58 Acre Built Up Area 2002-12-09 Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 8,00,000 (6)Dugipur Badgawa Bilaspur Khasra No-512 Total Area 4.01 Acre Built Up Area  Whether Inherited N Purchase Date 2003-04-04 Purchase Cost 550000.00 Development Cost 0.00 40,00,000 (7)Dugipur Badgawa bilaspur Khasra No-510 Total Area 3.190 Acre Built Up Area  Whether Inherited N Purchase Date 2023-06-19 Purchase Cost 16300000.00 Development Cost 0.00 1,63,00,000",
+          "spouse_details": "(1)Near Railway Crossing Bilaspur Khasra No-255 Total Area 0.496 Acre Built Up Area  Whether Inherited N Purchase Date 2014-06-23 Purchase Cost 450000.00 Development Cost 0.00 15,50,000 (2)Opp Chini Mill Bilaspur Khasra No-485  Total Area 0.80 Acre Built Up Area  Whether Inherited N Purchase Date 2006-05-31 Purchase Cost 95000.00 Development Cost 0.00 9,00,000 (3)Shahjahan Pur Road Bilaspur Khasra no 561 Total Area 1.161 Acre Built Up Area  Whether Inherited N Purchase Date 2011-03-08 Purchase Cost 0.00 Development Cost 0.00 9,00,000 (4)Kitnapur Mahawa Bilaspur Khasra No-305 Total Area 0.990 Acre Built Up Area  Whether Inherited N Purchase Date 2013-01-24 Purchase Cost 250000.00 Development Cost 0.00 6,25,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 15500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15500000,
+          "self_details": "Nil",
+          "spouse_details": "(1)Plot Moh-Habibullah Khan Janubi Bilaspur Total Area 2413.69 Sqft Built Up Area  Whether Inherited N Purchase Date 2013-02-28 Purchase Cost 400000.00 Development Cost 0.00 15,50,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 17250000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17250000,
+          "self_details": "Nil",
+          "spouse_details": "(1)Bada Chauhraha Moh-Habibullah khan Shumali Bilaspur 1/2 Total Area 1000 sqft Built Up Area  Whether Inherited N Purchase Date 2000-09-28 Purchase Cost 103000.00 Development Cost 0.00 17,25,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 37500000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 37500000,
+          "self_details": "(1)Paitrik Niwas Mohalla Habibullah Khan Janubi Bilaspur Total Area 1485 Sqft Built Up Area 1485 Sqft Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 12,00,000 (2)Apartment No-2 Riverwave Apartments Lucknow Total Area Built Up Area 1150 Sqft Whether Inherited N Purchase Date 2004-12-29 Purchase Cost 750000.00 Development Cost 0.00 25,50,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2439902,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2439902,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2439902,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2439902,
+          "self_details": "(1) Bank Of Baroda Vehicle Loan 24,39,902",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Salary, Agriculture",
+      "spouse": "Business"
+    },
+    "sources_of_income": {
+      "self": "Salary, Agriculture, Interest",
+      "spouse": "Business",
+      "dependent": "Nil"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
+    },
+    "other_elections": [
+      {
+        "election_name": "Uttar Pradesh 2022",
+        "declared_assets": 52722129,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Uttar Pradesh 2007",
+        "declared_assets": 4709745,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 724729,
-        "2021-2022": 715630,
-        "2020-2021": 706564,
-        "2019-2020": 774940,
-        "2018-2019": 625510
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 77000,
-      "bank_deposits_inr": 18362459,
-      "bonds_debentures_shares_inr": 12448968,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 5657280,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 211600,
-      "gross_total_value_inr": 28559336
-    },
-    "spouse": {
-      "cash_inr": 128000,
-      "bank_deposits_inr": 62886,
-      "bonds_debentures_shares_inr": 11062161,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2736210,
-      "other_assets_inr": 91600,
-      "gross_total_value_inr": 11062181
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 27650000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 3750000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 27650000
-    },
-    "spouse": {
-      "agricultural_land_inr": 40750000,
-      "non_agricultural_land": 1550000,
-      "commercial_buildings_inr": 1725000,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 7250000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2439902,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2439902
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Salary, Agriculture, Interest",
-    "spouse": "Business",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+    ]
   }
 }

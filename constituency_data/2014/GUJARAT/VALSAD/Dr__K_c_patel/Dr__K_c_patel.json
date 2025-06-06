@@ -2,138 +2,713 @@
   "candidate_name": "DR. K.C.PATEL",
   "party": "BJP",
   "constituency": "VALSAD",
-  "father_or_husband_name": "CHHAGANBHAI MANJIBHAI",
-  "age": 65,
-  "education": "Graduate Professional MBBS From South Gujarat University in 1975",
-  "profession_self": "AGRICULTURE AND DOCTOR",
-  "profession_spouse": "AGRICULTURE",
-  "criminal_cases": 0,
-  "assets_total_inr": 131141867,
-  "liabilities_total_inr": 2381344,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 906855
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 371112
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 300000,
-      "bank_deposits_inr": 1354252,
-      "bonds_debentures_shares_inr": 290320,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 150000,
-      "personal_loans_advance_given_inr": 1800000,
-      "motor_vehicles_inr": 640578,
-      "jewellery_inr": 4376100,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 9497250
-    },
-    "spouse": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 468710,
-      "bonds_debentures_shares_inr": 205800,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 150000,
-      "personal_loans_advance_given_inr": 581344,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1607313
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 57500000,
-      "non_agricultural_land": {
-        "description": "SURVEY NO.:-243/2, VILLAGE :- PARIA, DIST.:- VALSAD",
-        "area_sq_mtr": 45740,
-        "inherited": "N",
-        "purchase_date": "1981-04-02",
-        "purchase_cost_inr": 28999,
-        "development_cost_inr": 300000,
-        "current_market_value_inr": 20000000
+  "state": "GUJARAT",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "CHHAGANBHAI MANJIBHAI",
+      "age": 65,
+      "voter_enrolled_in": {
+        "constituency": "PARDI, VALSAD",
+        "state": "Gujarat",
+        "serial_no": 1135,
+        "part_no": 90
       },
-      "commercial_buildings_inr": 7500000,
-      "residential_buildings": {
-        "description": "FLAT NO.:- 103, AMBIKA COMPLEX, PLOT NO.:- CM8/11, GIDC, VAPI and FLAT NO.:- 104, AMBIKA COMPLEX, PLOT NO.:- CM8/11, GIDC, VAPI",
-        "total_area_sqft": 1848,
-        "built_up_area_sqft": 2248,
-        "inherited": "N",
-        "purchase_date": "2003-12-23",
-        "purchase_cost_inr": 1397000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6744000
+      "self_profession": "AGRICULTURE AND DOCTOR",
+      "spouse_profession": "AGRICULTURE"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 131141867,
+      "total_liabilities_in_rupees": 2381344
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "MBBS From South Gujarat University in 1975"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 906855
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 371112
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 9497250.20,
+      "gross_total_value_spouse_rupees": 1607313.64,
+      "gross_total_value_dependent1_rupees": 2918303.08,
+      "gross_total_value_total_rupees": 14022866.92,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 500000,
+          "self_details": {
+            "amount_rupees": 300000
+          },
+          "spouse_details": {
+            "amount_rupees": 200000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1332852.20,
+          "spouse_value_rupees": 470671.64,
+          "dependent1_value_rupees": 2616093.08,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5027024.92,
+          "self_details": [
+            {
+              "bank": "DENA BANK",
+              "branch": "PARIA BRANCH",
+              "account_no": "045710001281",
+              "amount_rupees": 6740
+            },
+            {
+              "bank": "STATE BANK OF INDIA",
+              "branch": "ATUL BRANCH",
+              "account_no": "01190018651",
+              "amount_rupees": 656477.10
+            },
+            {
+              "bank": "SBPP CO-OP BANK",
+              "branch": "VAI BR.",
+              "account_no": "12787",
+              "amount_rupees": 825.10
+            },
+            {
+              "bank": "SBI",
+              "branch": "VALSAD BR",
+              "account_type": "FDR",
+              "amount_rupees": 350210
+            },
+            {
+              "bank": "DENA BANK",
+              "branch": "PARIA BRANCH",
+              "account_type": "FD",
+              "amount_rupees": 625000
+            },
+            {
+              "bank": "SBPP CO-OP BANK",
+              "branch": "VAPI BRANCH",
+              "account_type": "FD",
+              "amount_rupees": 300000
+            },
+            {
+              "bank": "SBI",
+              "branch": "ATUL BRANCH",
+              "account_no": "33753110274",
+              "amount_rupees": 1000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "DENA BANK",
+              "branch": "PARIA BRANCH",
+              "account_no": "045710003637",
+              "amount_rupees": 1959
+            },
+            {
+              "bank": "STATE BANK OF INDIA",
+              "branch": "ATUL BRANCH",
+              "account_no": "30009526962",
+              "amount_rupees": 368710.64
+            },
+            {
+              "bank": "DENA BANK",
+              "branch": "PARIA BRANCH",
+              "account_type": "FD",
+              "amount_rupees": 100000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "bank": "DENA BANK",
+              "branch": "PARIA BRANCH",
+              "account_no": "045710003420",
+              "amount_rupees": 24454
+            },
+            {
+              "bank": "STATE BANK OF INDIA",
+              "branch": "ATUL BRANCH",
+              "account_no": "30249411595",
+              "amount_rupees": 880649.08
+            },
+            {
+              "bank": "STATE BANK OF INDIA",
+              "branch": "ATUL BRANCH",
+              "account_type": "FD",
+              "amount_rupees": 1711000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 289820,
+          "spouse_value_rupees": 205300,
+          "dependent1_value_rupees": 202200,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 697820,
+          "self_details": [
+            {
+              "name": "EQUITY SHARES OF SHREE DAMANGANGA SAHAKARI KHAND UDHYOG MANDLI LTD.",
+              "amount_rupees": 2000
+            },
+            {
+              "name": "125 SHARES OF SARDAR BHILADWALA PARDI PEOPLE'S CO-OP BANK LTD.",
+              "amount_rupees": 12500
+            },
+            {
+              "name": "100 EQUITY SHARES OF BANK OF INDIA",
+              "amount_rupees": 202200
+            },
+            {
+              "name": "1200 EQUITY SHARES OF RS. 2/-EACH OF ESSAR PROPAC LTD",
+              "amount_rupees": 73620
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "EQUITY SHARES OF SHREE DAMANGANGA SAHAKARI KHAND UDHYOG MANDLI LTD.",
+              "amount_rupees": 2000
+            },
+            {
+              "name": "11 SHARES OF SARDAR BHILADWALA PARDI PEOPLE'S CO-OP BANK LTD.",
+              "amount_rupees": 1100
+            },
+            {
+              "name": "100 EQUITY SHARES OF BANK OF INDIA",
+              "amount_rupees": 202200
+            }
+          ],
+          "dependent1_details": [
+            {
+              "name": "100 EQUITY SHARES OF BANK OF INDIA",
+              "amount_rupees": 202200
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 150000,
+          "dependent1_value_rupees": 100000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 400000,
+          "self_details": {
+            "company": "LIC",
+            "amount_rupees": 150000
+          },
+          "spouse_details": {
+            "company": "LIC",
+            "amount_rupees": 150000
+          },
+          "dependent1_details": {
+            "company": "LIC",
+            "amount_rupees": 100000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 18000000,
+          "spouse_value_rupees": 581344,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2381344,
+          "self_details": {
+            "name": "ARCHANA K PATEL",
+            "amount_rupees": 18000000
+          },
+          "spouse_details": {
+            "name": "DR K C PATEL",
+            "amount_rupees": 581344
+          },
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 640578,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 640578,
+          "self_details": {
+            "make": "FORD FIGO",
+            "registration_no": "GJ-15-AD-3096",
+            "amount_rupees": 640578
+          },
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 4376100,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4376100,
+          "self_details": {
+            "type": "GOLD",
+            "weight_gm": 1509,
+            "amount_rupees": 4376100
+          },
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 91744000,
+      "total_current_market_value_spouse_rupees": 25375000,
+      "total_current_market_value_total_rupees": 117119000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 57500000,
+          "spouse_value_rupees": 19875000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 77375000,
+          "self_details": [
+            {
+              "location": "VILLAGE :- KHERLAV, TAL.:- PARDI",
+              "sy_no": "16, 42 P/1, 43/2P1",
+              "total_area": "7-38-00 ACRES",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 800000,
+              "current_value_rupees": 39750000
+            },
+            {
+              "location": "VILLAGE KHERLAV, TAL.:- PARDI",
+              "sy_no": "17, 18/P2",
+              "total_area": "32200 SQ MT",
+              "inherited": false,
+              "purchase_date": "1991-09-09",
+              "purchase_cost_rupees": 99500,
+              "development_cost_rupees": 200000,
+              "current_value_rupees": 17750000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "VILLAGE :- KHERLAV, TAL.:- PARDI",
+              "sy_no": "15/P2",
+              "total_area": "33900 ACRES",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 550000,
+              "current_value_rupees": 19875000
+            }
+          ],
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000000,
+          "self_details": [
+            {
+              "location": "VILLAGE :- PARIA, DIST.:- VALSAD",
+              "sy_no": "243/2",
+              "total_area": "45740 SQ. FT",
+              "inherited": false,
+              "purchase_date": "1981-04-02",
+              "purchase_cost_rupees": 28999,
+              "development_cost_rupees": 300000,
+              "current_value_rupees": 20000000
+            }
+          ],
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 7500000,
+          "spouse_value_rupees": 5500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13000000,
+          "self_details": [
+            {
+              "location": "VILLAGE :- PARIA, DIST.:- VALSAD",
+              "sy_no": "243/2",
+              "total_area": "BUILDING 5500 SQ. FT (BUILT UP AREA 7700 SQ. FT)",
+              "inherited": false,
+              "purchase_date": "1981-04-02",
+              "purchase_cost_rupees": 28999,
+              "development_cost_rupees": 500000,
+              "current_value_rupees": 7500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "AMBIKA COMPLEX, PLOT NO.:- CM8/11, GIDC, VAPI",
+              "shop_no": "4",
+              "total_area": "BUILDING 500 SQ FT (BUILT UP AREA 500 SQ FT)",
+              "inherited": false,
+              "purchase_date": "2004-01-15",
+              "purchase_cost_rupees": 475000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5500000
+            }
+          ],
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 6744000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6744000,
+          "self_details": [
+            {
+              "location": "AMBIKA COMPLEX, PLOT NO.:- CM8/11, GIDC, VAPI",
+              "flat_no": "103",
+              "total_area": "924 SQ FT",
+              "built_up_area": "1124 SQ FT",
+              "inherited": false,
+              "purchase_date": "2003-12-23",
+              "purchase_cost_rupees": 497000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3372000
+            },
+            {
+              "location": "AMBIKA COMPLEX, PLOT NO.:- CM8/11, GIDC, VAPI",
+              "flat_no": "104",
+              "total_area": "924 SQ FT",
+              "built_up_area": "1124 SQ FT",
+              "inherited": false,
+              "purchase_date": "2011-08-06",
+              "purchase_cost_rupees": 900000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3372000
+            }
+          ],
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 581344,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 1800000,
+      "grand_total_of_liabilities_total_rupees": 2381344,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 91744000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 581344,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 1800000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2381344,
+          "self_details": {
+            "name": "ADVANCE FROM RAMNIBEN",
+            "amount_rupees": 581344
+          },
+          "spouse_details": "Nil",
+          "dependent1_details": {
+            "name": "ADVANCE FROM DR K C PATEL",
+            "amount_rupees": 1800000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 19875000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 5500000,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 25375000
+    "other_election_declarations": {
+      "Lok Sabha 2019": {
+        "declared_assets_rupees": 68239480,
+        "declared_cases_count": 0
+      }
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 581344,
-      "grand_total_of_liabilities_inr": 581344
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+  }
 }

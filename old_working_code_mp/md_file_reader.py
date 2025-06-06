@@ -88,3 +88,43 @@ def get_constituency_csv_file(year=None, state=None, district=None):
             return all_csvs
 
     return None
+
+
+def get_state_assembly_csv_file(year=None, state=None):
+    """
+    Find and return the path to state assembly CSV files.
+
+    Args:
+        year: The election year (e.g. '2024')
+        state: The state name (e.g. 'ASSAM')
+    Returns:
+        Path to CSV file if found, None otherwise
+    """
+    base_folder = "state_assembly"
+
+    # Convert year to string if it's an integer
+    if year is not None:
+        year = str(year)
+
+    # If both year and state are provided, get the specific CSV
+    if year and state:
+        csv_path = os.path.join(base_folder,state,year, f"{state}_{year}.csv")
+        if os.path.exists(csv_path):
+            return csv_path
+
+    # If only year is provided, search at year level
+    elif year:
+        year_folder = os.path.join(base_folder, year)
+        if os.path.exists(year_folder):
+            csv_pattern = os.path.join(year_folder, "**", "*.csv")
+            csv_files = glob.glob(csv_pattern, recursive=True)
+            if csv_files:
+                return csv_files  # Return all matches
+
+    # If no parameters, search all years
+    else:
+        all_csvs = glob.glob(os.path.join(base_folder, "**", "*.csv"), recursive=True)
+        if all_csvs:
+            return all_csvs
+
+    return None

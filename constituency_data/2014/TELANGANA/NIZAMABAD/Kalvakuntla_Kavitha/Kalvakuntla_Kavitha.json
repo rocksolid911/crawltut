@@ -1,155 +1,438 @@
 {
   "candidate_name": "KALVAKUNTLA KAVITHA",
   "party": "TRS",
-  "constituency": "NIZAMABAD (TELANGANA)",
-  "father_or_husband_name": "D.R. Anil Kumar",
-  "age": 36,
-  "education": "Graduate Professional B.Tech. from VNR VJIET, Jawaharlal Nehru Technical University in 1999",
-  "profession_self": "Business",
-  "profession_spouse": "Business",
-  "criminal_cases": 8,
-  "assets_total_inr": 61955750,
-  "liabilities_total_inr": 3213119,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 1479950
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 1182000
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 635000,
-      "bank_deposits_inr": 259000,
-      "bonds_debentures_shares_inr": 280000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1200000,
-      "personal_loans_advance_given_inr": 1500000,
-      "motor_vehicles_inr": 1000000,
-      "jewellery_inr": 3000000,
-      "other_assets_inr": 130000000,
-      "gross_total_value_inr": 134974000
-    },
-    "spouse": {
-      "cash_inr": 765000,
-      "bank_deposits_inr": 348250,
-      "bonds_debentures_shares_inr": 3883500,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 1000000,
-      "motor_vehicles_inr": 800000,
-      "jewellery_inr": 500000,
-      "other_assets_inr": 5000000,
-      "gross_total_value_inr": 12796750
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 100000000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+  "constituency": "NIZAMABAD",
+  "state": "TELANGANA",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "D.R. Anil Kumar",
+      "age": 36,
+      "voter_enrolled_in": {
+        "constituency": "12-Bodhan",
+        "state": "Andhra Pradesh",
+        "serial_no": 345,
+        "part_no": 169
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "H.no. 8-2-310/A/31/A, Flat no. 202, Hilltop Residency Plot no. 214, Road no. 14, Banjara Hills, Hyderabad-500034",
-        "total_area_sqft": 2860,
-        "built_up_area_sqft": 1825,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 6400000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 13500000
+      "self_profession": "Business",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 8,
+      "total_assets_in_rupees": 61955750,
+      "total_liabilities_in_rupees": 3213119
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.Tech. from VNR VJIET, Jawaharlal Nehru Technical University in 1999"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1479950
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1182000
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+          "ipc_section": "332",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony",
+          "ipc_section": "153A",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 6
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 5
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Knowingly joining or continuing in assembly of five or more persons after it has been commanded to disperse",
+          "ipc_section": "151",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Abetting commission of offence by the public or by more than ten persons",
+          "ipc_section": "117",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Obstructing public servant in discharge of public functions",
+          "ipc_section": "186",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of abetment if the act abetted is committed in consequence, and where no express provision is made for its punishment",
+          "ipc_section": "109",
+          "count": 1
+        },
+        {
+          "charges_related_to": "public nuisance in cases not otherwise provided for",
+          "ipc_section": "290",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Continuance of nuisance after injunction to discontinue",
+          "ipc_section": "291",
+          "count": 1
+        },
+        {
+          "charges_related_to": "assault or criminal force otherwise than on grave provocation",
+          "ipc_section": "352",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "charges_framed": [],
+      "cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "147, 117, 151, 188, 341, 353, 506, 149",
+          "other_details_other_acts_sections_applicable": "IInd Metropolitan Magistrate for Railways:Secunderabad,(FIR no. 432/2011) CC no. 926/2013 & 15/10/2011, Sec. 3(2)E of PDPP Act. Sec 7(1) of Criminal Amendment Act. Sec 145, 174(a) of Railway Act."
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "147, 148, 341, 353, 188, 427",
+          "other_details_other_acts_sections_applicable": "Xth Metropolitan Magistrate:Cyberabad at Malkajgiri (FIR no. 657/2011) & 15/10/2011, 3 & 4 of PDPP Act. 7 of Criminal Amendment Act."
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "147, 341, 332, 427, 186, 109, 506",
+          "other_details_other_acts_sections_applicable": "Xth Metropolitn Magistrate: Cyberabad at Malkajgiri (FIR no. 658/2011) & 15/10/2011, 3 & 4 of PDPP Act. 7 of Criminal Amendment Act."
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "341,188",
+          "other_details_other_acts_sections_applicable": "Special Judicial Second Class Magistrate at Nizamabad crime no. 247/2010 & 22/07/2010"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": "188, 341, 290, 291",
+          "other_details_other_acts_sections_applicable": "AFCM at Narayanpet, Mahaboob Nagar, District(Crime no. 58/2009) STC no. 16/2009 & 04/04/2014, Sec 30, 32 AP Police Act."
+        },
+        {
+          "serial_no": 6,
+          "ipc_sections_applicable": "147, 148, 352, 427, 188",
+          "other_details_other_acts_sections_applicable": "XVII Addl. Chief Metropolitan Magistrate at Hyderabad(Crime no. 172/2013) CC no. 180/2014 & 19/03/2014"
+        },
+        {
+          "serial_no": 7,
+          "ipc_sections_applicable": "153(A), 505(ii)",
+          "other_details_other_acts_sections_applicable": "X Addl. Chief Metropolitan Magistrate at Secunderabad Crime no. 14/2004 & 07/01/2014"
+        },
+        {
+          "serial_no": 8,
+          "ipc_sections_applicable": "188, 353, 427, 34",
+          "other_details_other_acts_sections_applicable": "JFCM at Mahaboobnagar Dist, FIR no. 61/2012 date-07/03/2012"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 20874000,
+      "gross_total_value_spouse_rupees": 13381750,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 34255750,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 635000,
+          "spouse_value_rupees": 765000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1400000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 259000,
+          "spouse_value_rupees": 348250,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 607250
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 280000,
+          "spouse_value_rupees": 3483500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3763500
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1700000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 1000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2500000
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 800000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1800000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3500000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 13000000,
+          "spouse_value_rupees": 5000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18000000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 23500000,
+      "total_current_market_value_spouse_rupees": 4200000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 27700000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 10000000,
+          "spouse_value_rupees": 2700000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12700000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 13500000,
+          "spouse_value_rupees": 1500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15000000
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3213119,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3213119,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 113500000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 713119,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 713119
+        },
+        {
+          "sr_no": "i",
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 2500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2500000
+        },
+        {
+          "sr_no": "i",
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 26900000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+    "other_elections_info": [
+      {
+        "declaration_in": "Telangana Legislative Council (Updated)",
+        "declared_assets": "Rs39,79,38,176",
+        "declared_cases": 2
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "H.no. 2-42 Phanigiri Village, Nalgonda",
-        "total_area_sqft": 4545,
-        "built_up_area_sqft": 1095,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 270000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1500000
+      {
+        "declaration_in": "Telangana Legislative Council (Updated)",
+        "declared_assets": "Rs27,64,34,570",
+        "declared_cases": 2
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 28400000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 713119,
-      "loans_due_to_individual_entity_inr": 2500000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3213119
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "declaration_in": "Lok Sabha 2019",
+        "declared_assets": "Rs17,93,82,394",
+        "declared_cases": 2
+      }
+    ]
+  }
 }

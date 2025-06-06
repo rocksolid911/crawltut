@@ -2,154 +2,837 @@
   "candidate_name": "DR. MAZEL AMPAREEN LYNGDOH",
   "party": "National Peoples Party",
   "constituency": "SHILLONG (ST)",
-  "father_or_husband_name": "Late Peter Garnett Marbaniang",
-  "age": 58,
-  "education": "Doctorate, Doctor of Philosoph (Ph.D) from NEHU in 2013",
-  "profession_self": "Minister, Govt. of Meghalaya, Social Service",
-  "profession_spouse": "Member of Autonomous District Council (KHADC)",
-  "criminal_cases": 1,
-  "assets_total_inr": 22213833,
-  "liabilities_total_inr": 3896450,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 1840159,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1000000,
-      "jewellery_inr": 48000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3006159
-    },
-    "spouse": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 2137684,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 70000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 840000,
-      "jewellery_inr": 7000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2697043
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Nongrim Road, Laitumkhrah, Shillong",
-        "area_sq_mtr": 301.93,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 5000000
+  "state": "MEGHALAYA",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Peter Garnett Marbaniang",
+      "age": 58,
+      "voter_enrolled_in": {
+        "constituency": "16 East Shillong",
+        "state": "Meghalaya",
+        "serial_no": 311,
+        "part_no": 29
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Nongrim Road, Laitumkhrah, Shillong",
-        "total_area_sqft": 3250,
-        "built_up_area_sqft": 3250,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 5500000
+      "self_profession": "Minister, Govt. of Meghalaya, Social Service",
+      "spouse_profession": "Member of Autonomous District Council (KHADC)"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 22213833,
+      "total_liabilities_in_rupees": 3896450
+    },
+    "educational_details": {
+      "category": "Doctorate",
+      "details": "Doctor of Philosoph (Ph.D) from NEHU in 2013"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery of valuable security, will, etc.",
+          "ipc_section": "467",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery for purpose of cheating",
+          "ipc_section": "468",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+          "ipc_section": "201",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Using as genuine a forged document or electronic record",
+          "ipc_section": "471",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "Laitumkhrah PS Case No. 62(7) of 2011 which was subsequently taken over by CBI vide direction of Honble High Court of Meghalaya and CBI Registered the FIR Vide Case No. RC0202018A0001, Dated 03.01.2018",
+          "case_no": "Special CBI Case No. 2 of 2020",
+          "court": "Special Judge (CBI), Shillong",
+          "ipc_sections_applicable": "120B, 420, 467, 468, 471, 201",
+          "other_details_or_acts_sections_applicable": "Section 13(2) PC Act",
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": "24 Aug 2022",
+          "appeal_filed": true,
+          "details_and_present_status_of_appeal": ""
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3006159,
+      "gross_total_value_spouse_rupees": 2697043,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 10658,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5713860,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 100000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 200000,
+          "self_details": {
+            "amount_rupees": 100000
+          },
+          "spouse_details": {
+            "amount_rupees": 100000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1858159,
+          "spouse_value_rupees": 1696009,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 10658,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3564826,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "Meghalaya Premier Banking Branch, Nongrim Hills",
+              "account_no": "4161996xxxxx",
+              "amount_rupees": 300038
+            },
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch",
+              "account_no": "3279422xxxxx",
+              "amount_rupees": 32000
+            },
+            {
+              "bank": "SBI",
+              "branch": "Meghalaya Premier Banking Branch, Nongrim Hills",
+              "account_no": "200892xxxxx",
+              "amount_rupees": 996627
+            },
+            {
+              "bank": "HDFC Bank Ltd",
+              "branch": "Lumawrie Laitumkhrah Shillong",
+              "account_no": "5020008351xxxxx",
+              "amount_rupees": 500000
+            },
+            {
+              "bank": "Axis Bank",
+              "branch": "Shillong Branch",
+              "account_no": "91401001560xxxxx",
+              "amount_rupees": 29494
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch, Shillong",
+              "account_no": "3771108xxxxx",
+              "amount_rupees": 108210
+            },
+            {
+              "bank": "The Shillong Coop Urban Bank Ltd.",
+              "branch": "Shillong Branch",
+              "account_no": "19800031xxxxx",
+              "amount_rupees": 19227
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Laitumkhrah Brnach Shillong",
+              "account_no": "35260100000xxxxx",
+              "amount_rupees": 165
+            },
+            {
+              "bank": "Corporation Bank",
+              "branch": "Laitumkhrah Brnach Shillong",
+              "account_no": "52010125926xxxxx",
+              "amount_rupees": 1537
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "Laitumkhrah Brnach Shillong",
+              "account_no": "332701000xxxxx",
+              "amount_rupees": 730465
+            },
+            {
+              "bank": "India Post",
+              "branch": "Laitumkhrah Branch",
+              "account_no": "388499xxxxx",
+              "amount_rupees": 182569
+            },
+            {
+              "bank": "Meghalaya Rural Bank",
+              "branch": "Rynjah Branch, Laitumkhrah Brnach Shillong",
+              "account_no": "8700811xxxxx",
+              "amount_rupees": 24970
+            },
+            {
+              "bank": "FD, ICICI Bank",
+              "branch": "Laitumkhrah Brnach Shillong",
+              "account_no": "33271300xxxxx",
+              "amount_rupees": 213092
+            },
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch, Shillong",
+              "account_no": "5257180xxxxx",
+              "amount_rupees": 7192
+            },
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch, Shillong",
+              "account_no": "3405646xxxxx",
+              "amount_rupees": 16751
+            },
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch, Shillong",
+              "account_no": "3405646xxxxx",
+              "amount_rupees": 15228
+            },
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch, Shillong",
+              "account_no": "3406659xxxxx",
+              "amount_rupees": 19852
+            },
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch, Shillong",
+              "account_no": "3441894xxxxx",
+              "amount_rupees": 97203
+            },
+            {
+              "bank": "SBI",
+              "branch": "Laitumkhrah Branch, Shillong",
+              "account_no": "4154793xxxxx",
+              "amount_rupees": 77549
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Laitumkhrah Branch Shillong",
+              "account_no": "35260400000xxxxx",
+              "amount_rupees": 10763
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Laitumkhrah Branch Shillong",
+              "account_no": "32560400000xxxxx",
+              "amount_rupees": 23502
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Laitumkhrah Branch Shillong",
+              "account_no": "32560400000xxxxx",
+              "amount_rupees": 37598
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Laitumkhrah Branch Shillong",
+              "account_no": "32560400000xxxxx",
+              "amount_rupees": 30136
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Laitumkhrah Branch Shillong",
+              "account_no": "32560400000xxxxx",
+              "amount_rupees": 64034
+            }
+          ],
+          "dependent1_details": [
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Laitumkhrah Brnach Shillong",
+              "account_no": "35260100000xxxxx",
+              "amount_rupees": 10658
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 70000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 70000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "policy_type": "LIC Policy",
+            "policy_no": "48580xxxxx",
+            "amount_rupees": 70000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 840000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1840000,
+          "self_details": [
+            {
+              "make": "Hyundai Alcazar 2.0 At Platinum",
+              "registration_no": "ML05Z011",
+              "amount_rupees": 1000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "make": "Thar LX D MT 4WD 4S CT",
+              "registration_no": "ML05Z0022",
+              "amount_rupees": 800000
+            },
+            {
+              "make": "Yamaha Cygnus Ray ZR",
+              "registration_no": "ML05V8222",
+              "amount_rupees": 40000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 48000,
+          "spouse_value_rupees": 7000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 55000,
+          "self_details": [
+            {
+              "type": "Gold Earings",
+              "weight": "1.6 gm",
+              "amount_rupees": 10000
+            },
+            {
+              "type": "Gold Finger Ring",
+              "weight": "1.6 gm",
+              "amount_rupees": 10000
+            },
+            {
+              "type": "Bracelet",
+              "amount_rupees": 20000
+            },
+            {
+              "type": "Wristwatch",
+              "amount_rupees": 8000
+            }
+          ],
+          "spouse_details": [
+            {
+              "type": "Wristwatch",
+              "amount_rupees": 7000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 165000000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 165000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 110000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 110000000,
+          "self_details": [
+            {
+              "location": "Nongrim Road, Laitumkhrah, Shillong",
+              "total_area": "3250 sqft",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 50000000
+            },
+            {
+              "location": "Umroi Nongrah, Ri-Bhoi Dist., Meghalaya",
+              "total_area": "26040 sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2016-08-02",
+              "purchase_cost_rupees": 300000,
+              "development_cost_rupees": 2000000,
+              "current_value_rupees": 40000000
+            },
+            {
+              "location": "Umroi Nongrah, Ri-Bhoi Dist., Meghalaya",
+              "total_area": "11137.50 sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2016-08-26",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 1000000,
+              "current_value_rupees": 20000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 55000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 55000000,
+          "self_details": [
+            {
+              "location": "Nongrim Road, Laitumkhrah, Shillong",
+              "total_area": "3250 sqft",
+              "built_up_area": "3250 sqft",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 55000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3849624,
+      "grand_total_of_liabilities_spouse_rupees": 46826,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3896450,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 16500000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 3849624,
+          "spouse_value_rupees": 46826,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3896450,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "Meghalaya Premier Banking Branch, Nongrim Hills",
+              "account_no": "4012429xxxxx",
+              "amount_rupees": 714517
+            },
+            {
+              "bank": "SBI",
+              "branch": "Malki Branch",
+              "account_no": "4067298xxxxx",
+              "amount_rupees": 1422010
+            },
+            {
+              "bank": "SBI",
+              "branch": "Meghalaya Premier Banking Branch, Nongrim Hills",
+              "account_no": "3698292xxxxx",
+              "amount_rupees": 1713097
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Meghalaya Rural Bank",
+              "branch": "Rynjah Branch",
+              "loan_type": "Personal Loan",
+              "amount_rupees": 46826
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
+    "profession_or_occupation": {
+      "self": "Minister, Govt. of Meghalaya, Social Service",
+      "spouse": "Member of Autonomous District Council (KHADC)"
+    },
+    "sources_of_income": {
+      "self": "Salary",
+      "spouse": "Salary",
+      "dependent": "Nil"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3849624,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3849624
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 46826,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 46826
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Salary",
-    "spouse": "Salary",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
   }
 }

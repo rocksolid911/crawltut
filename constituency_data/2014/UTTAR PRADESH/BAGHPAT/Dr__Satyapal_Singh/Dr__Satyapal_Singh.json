@@ -2,147 +2,747 @@
   "candidate_name": "DR. SATYAPAL SINGH",
   "party": "BJP",
   "constituency": "BAGHPAT",
-  "father_or_husband_name": "Ram Kishan",
-  "age": 58,
-  "education": "Doctorate Post Graduate (Chemistry) in 1976 from Digamber Jain College,Badhot, M.Phil (Chemistry) in 1978 from Delhi University, M.A (Public Administration) in 1989 from Nagpur University, Ph.D. (Public Administration) in 1993 from Nagpur University",
-  "profession_self": "Retired Govt. Servant",
-  "profession_spouse": "Applicant Retired",
-  "criminal_cases": 0,
-  "assets_total_inr": 67402076,
-  "liabilities_total_inr": 352000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 2500875
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 1858998
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 2157737,
-      "bonds_debentures_shares_inr": 114000,
-      "nss_postal_savings_inr": 3071539,
-      "lic_other_insurance_inr": 54900,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 91000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5499176
-    },
-    "spouse": {
-      "cash_inr": 60000,
-      "bank_deposits_inr": 6378566,
-      "bonds_debentures_shares_inr": 671603,
-      "nss_postal_savings_inr": 876496,
-      "lic_other_insurance_inr": 258123,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 125000,
-      "jewellery_inr": 642065,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 9011853
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 700000,
-      "non_agricultural_land": {
-        "description": "Plot no. 18 Shanti Nagar Awas Simiti, Village- Roshan Pur Dorli, Meerut",
-        "area_sq_mtr": 250.83,
-        "inherited": "N",
-        "purchase_date": "1982-01-01",
-        "purchase_cost_inr": 140000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2650000
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Ram Kishan",
+      "age": 58,
+      "voter_enrolled_in": {
+        "constituency": "11-Baghpat (Uttar Pradesh)",
+        "serial_no": 953,
+        "part_no": 130
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Flat 502, Block 17, East & Appartment Group Housing Society, Mayur Vihar , Phase1, Delhi; Flat no.1002 Badlipur Group Housing, Andheri, Mumbai; Flat no. 3111, Vanshri Group Housing Sahkari Simiti; Flat Geet City Ofiner, Sahkari Simiti, Nagpur",
-        "total_area_sqft": 6400,
-        "built_up_area_sqft": 4536.4,
-        "inherited": "N",
-        "purchase_date": "1994-01-01",
-        "purchase_cost_inr": 4450000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 219250000
+      "self_profession": "Retired Govt. Servant",
+      "spouse_profession": "Applicant Retired"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 67402076,
+      "total_liabilities_in_rupees": 352000
+    },
+    "educational_details": {
+      "category": "Doctorate",
+      "details": "Post Graduate (Chemistry) in 1976 from Digamber Jain College,Badhot, M.Phil (Chemistry) in 1978 from Delhi University, M.A (Public Administration) in 1989 from Nagpur University, Ph.D. (Public Administration) in 1993 from Nagpur University"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 2500875
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1858998
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6249376,
+      "gross_total_value_spouse_rupees": 9452700,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 15702076,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 60000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 110000,
+          "self_details": {
+            "amount_rupees": 50000
+          },
+          "spouse_details": {
+            "amount_rupees": 60000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2176437,
+          "spouse_value_rupees": 6702813,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8879250,
+          "self_details": [
+            {
+              "bank": "Bank Samta Government Bank Ltd., Badra, Mumbai",
+              "amount_rupees": 714232
+            },
+            {
+              "bank": "H.S.B.C, Badra, Mumbai",
+              "amount_rupees": 1085615
+            },
+            {
+              "bank": "Punjab National Bank, Hauz Khas, New Delhi",
+              "amount_rupees": 56370
+            },
+            {
+              "bank": "Punjab National Bank, Hauz Khas, New Delhi",
+              "amount_rupees": 544053
+            },
+            {
+              "bank": "Axis Bank, Mumbai",
+              "amount_rupees": 228667
+            },
+            {
+              "bank": "H.D.F.C. Bank No 5010003028xxxxx",
+              "amount_rupees": 239000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "F.D.R. Samta Sarkari Bank Ltd., Mumbai",
+              "amount_rupees": 4000000
+            },
+            {
+              "bank": "Samta Sarkari Bank Ltd., Mumbai",
+              "amount_rupees": 714232
+            },
+            {
+              "bank": "Axis Bank, Mumbai",
+              "amount_rupees": 17000
+            },
+            {
+              "bank": "Standard Charted Bank, Mumbai",
+              "amount_rupees": 146540
+            },
+            {
+              "bank": "Punjab National Bank, Hauz Khas, New Delhi",
+              "amount_rupees": 692792
+            },
+            {
+              "bank": "Punjab National Bank, Hauz Khas, New Delhi",
+              "amount_rupees": 544053
+            },
+            {
+              "bank": "State Bank Of India, Mumbai",
+              "amount_rupees": 463435
+            },
+            {
+              "bank": "Allahabad Bank, New Delhi",
+              "amount_rupees": 241361
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 114000,
+          "spouse_value_rupees": 671603,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 785603,
+          "self_details": [
+            {
+              "name": "UTI Bond",
+              "amount_rupees": 30000
+            },
+            {
+              "name": "Tata Mutual Fund",
+              "amount_rupees": 84000
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "HDFC Bank share 170",
+              "amount_rupees": 124134
+            },
+            {
+              "name": "Liberty Phospate share 500",
+              "amount_rupees": 8570
+            },
+            {
+              "name": "Mercator Ltd. share 500",
+              "amount_rupees": 10550
+            },
+            {
+              "name": "Reliance Capital share 10",
+              "amount_rupees": 3264
+            },
+            {
+              "name": "Reliance Industy share 24",
+              "amount_rupees": 21744
+            },
+            {
+              "name": "Tube Investment share 125",
+              "amount_rupees": 21556
+            },
+            {
+              "name": "DivyaShakti Granites share 500",
+              "amount_rupees": 11525
+            },
+            {
+              "name": "Gujnre Coke NPP share 924",
+              "amount_rupees": 7161
+            },
+            {
+              "name": "L&T share 200",
+              "amount_rupees": 243810
+            },
+            {
+              "name": "Sujana share 80",
+              "amount_rupees": 400
+            },
+            {
+              "name": "Ultratech share 40",
+              "amount_rupees": 77782
+            },
+            {
+              "name": "Tech Mahindra share 50",
+              "amount_rupees": 91107
+            },
+            {
+              "name": "SBI Mutual Fund",
+              "amount_rupees": 50000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 3071539,
+          "spouse_value_rupees": 876496,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3948035,
+          "self_details": [
+            {
+              "name": "PPF",
+              "account_no": "1015462xxxxx, SBI Bandra Mumbai",
+              "amount_rupees": 737907
+            },
+            {
+              "name": "GPF",
+              "account_no": "IPF,MH319",
+              "amount_rupees": 2333632
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "PPF",
+              "account_no": "2082 PNB Green Park",
+              "amount_rupees": 876496
+            }
+          ]
+        },
+        {
+          "sr_no": "(b)",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 54900,
+          "spouse_value_rupees": 258123,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 313023,
+          "self_details": {
+            "policy_no": "11358xxxxx",
+            "amount_rupees": 54900
+          },
+          "spouse_details": {
+            "policy_no": "11358xxxxx",
+            "amount_rupees": 258123
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 125000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 125000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "make": "SWIFT",
+              "model": 2007,
+              "amount_rupees": 100000
+            },
+            {
+              "make": "MARUTI",
+              "model": 2001,
+              "amount_rupees": 25000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 91000,
+          "spouse_value_rupees": 642065,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 733065,
+          "self_details": {
+            "item": "Gold",
+            "weight_gram": 30,
+            "value_rupees": 91000
+          },
+          "spouse_details": [
+            {
+              "item": "Gold",
+              "weight_gram": 200,
+              "value_rupees": 597080
+            },
+            {
+              "item": "Silver",
+              "weight_kg": 1,
+              "value_rupees": 44985
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 302750000,
+      "total_current_market_value_spouse_rupees": 214250000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 517000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 7000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7000000,
+          "self_details": {
+            "location": "Village Basoli",
+            "khasra_no": "317,1/9",
+            "share": "0.52 Acre",
+            "inherited": true,
+            "purchase_date": null,
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 7000000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 26500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 26500000,
+          "self_details": {
+            "location": "Plot no. 18 Shanti Nagar Awas Simiti, Village- Roshan Pur Dorli, Meerut",
+            "total_area_sq_ft": 2700,
+            "inherited": false,
+            "purchase_date": "1982-01-01",
+            "purchase_cost_rupees": 140000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 26500000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 269250000,
+          "spouse_value_rupees": 214250000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 483500000,
+          "self_details": [
+            {
+              "location": "Flat 502, Block 17, East & Appartment Group Housing Society, Mayur Vihar , Phase1, Delhi",
+              "total_area_sq_ft": 1600,
+              "built_up_area_sq_ft": 1200,
+              "inherited": false,
+              "purchase_date": "1994-01-01",
+              "purchase_cost_rupees": 350000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 49250000
+            },
+            {
+              "location": "Flat no.1002 Badlipur Group Housing, Andheri, Mumbai",
+              "total_area_sq_ft": 1400,
+              "built_up_area_sq_ft": 1076.4,
+              "inherited": false,
+              "purchase_date": "2002-04-02",
+              "purchase_cost_rupees": 1150000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 102500000
+            },
+            {
+              "location": "Flat no. 3111, Vanshri Group Housing Sahkari Simiti",
+              "total_area_sq_ft": 1900.4,
+              "built_up_area_sq_ft": 1130,
+              "inherited": false,
+              "purchase_date": "2007-04-01",
+              "purchase_cost_rupees": 1550000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 62500000
+            },
+            {
+              "location": "Flat Geet City Ofiner, Sahkari Simiti, Nagpur",
+              "total_area_sq_ft": 1500,
+              "built_up_area_sq_ft": 1130,
+              "inherited": false,
+              "purchase_date": "2009-01-01",
+              "purchase_cost_rupees": 1400000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 55000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Flat no.502 Block-17, East & Appartment Group Housing Society, Mayur Vihar Phase1, Delhi",
+              "total_area_sq_ft": 1600,
+              "built_up_area_sq_ft": 1200,
+              "inherited": false,
+              "purchase_date": "1994-11-01",
+              "purchase_cost_rupees": 350000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 49250000
+            },
+            {
+              "location": "Flat no.1002 Badlipur Group Housing, Andheri, Mumbai",
+              "total_area_sq_ft": 1400,
+              "built_up_area_sq_ft": 10754,
+              "inherited": false,
+              "purchase_date": "2002-04-02",
+              "purchase_cost_rupees": 1150000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 102500000
+            },
+            {
+              "location": "Flat no.3111, Vanshri Group Housing Sahkari Simiti",
+              "total_area_sq_ft": 1900.4,
+              "built_up_area_sq_ft": 1130,
+              "inherited": false,
+              "purchase_date": "2007-04-01",
+              "purchase_cost_rupees": 1550000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 62500000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 352000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 352000,
+      "grand_total_of_all_govt_dues_self_rupees": 352000,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 352000,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 352000,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 352000,
+        "details": [
+          {
+            "relation_type": "self",
+            "amount_rupees": 251850,
+            "authority": "AY 2011-12, ITO Ward No.41(4),Civik Center,Minto Road,New Delhi"
+          },
+          {
+            "relation_type": "self",
+            "amount_rupees": 100150,
+            "authority": "AY 2009-10, ITO Ward No.41(4),Civik Center,Minto Road,New Delhi"
+          }
+        ]
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 222600000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Flat no.502 Block-17, East & Appartment Group Housing Society, Mayur Vihar Phase1, Delhi; Flat no.1002 Badlipur Group Housing, Andheri, Mumbai; Flat no.3111, Vanshri Group Housing Sahkari Simiti",
-        "total_area_sqft": 4900,
-        "built_up_area_sqft": 34054,
-        "inherited": "N",
-        "purchase_date": "1994-11-01",
-        "purchase_cost_inr": 3050000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 214250000
+    "profession_or_occupation": {
+      "self": "Retired Govt. Servant",
+      "spouse": "Applicant Retired"
+    },
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 78195793,
+        "declared_cases": 1
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 214250000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 352000
-    },
-    "other_liabilities_in_dispute_inr": 352000
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Union Council of Ministers 2018",
+        "declared_assets_rupees": 94810751,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Union Council of Ministers 2017",
+        "declared_assets_rupees": 103333730,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

@@ -1,147 +1,435 @@
 {
   "candidate_name": "SHIBU SOREN",
   "party": "JMM",
-  "constituency": "DUMKA (JHARKHAND)",
-  "father_or_husband_name": "Late Sobran Soren",
-  "age": 68,
-  "education": "10th Pass",
-  "profession_self": "Member of House of the Pepole",
-  "profession_spouse": "Agriculture Income and Dairy",
-  "criminal_cases": 0,
-  "assets_total_inr": 46760684,
-  "liabilities_total_inr": 1479721,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 2252158
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 1887614
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 48250,
-      "bank_deposits_inr": 3209152,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 625000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 4168798,
-      "jewellery_inr": 0,
-      "other_assets_inr": 40000,
-      "gross_total_value_inr": 8091200
-    },
-    "spouse": {
-      "cash_inr": 2953469,
-      "bank_deposits_inr": 1135549,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 2136000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 1218466,
-      "gross_total_value_inr": 7443484
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Plot No. 108 Vashundhara Vashundhara, Gaziabad",
-        "area_sq_mtr": 180,
-        "inherited": "N",
-        "purchase_date": "1993-01-02",
-        "purchase_cost_inr": 375341,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
+  "constituency": "DUMKA",
+  "state": "JHARKHAND",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Sobran Soren",
+      "age": 68,
+      "voter_enrolled_in": {
+        "constituency": "36 Bokaro",
+        "state": "JH (Jharkhand)",
+        "serial_no": 262,
+        "part_no": 278
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Flat No. B-27, Shalimar Appt. Moth, Soth Extn. ND",
-        "total_area_sqft": 1500,
-        "built_up_area_sqft": 1500,
-        "inherited": "N",
-        "purchase_date": "1993-09-05",
-        "purchase_cost_inr": 702000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6000000
+      "self_profession": "Member of House of the Pepole",
+      "spouse_profession": "Agriculture Income and Dairy"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 46760684,
+      "total_liabilities_in_rupees": 1479721
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "10th Passed From MD. Yasin Khan, High School Gola"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 2252158
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1887614
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 8091200,
+      "gross_total_value_spouse_rupees": 7443484,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 15534684,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 48250,
+          "spouse_value_rupees": 2953469,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3001719
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 3209152,
+          "spouse_value_rupees": 1135549,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4344701,
+          "self_details": "SBI Bank 21,33,152; OBC Bank Election 10,76,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 625000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 625000,
+          "self_details": "UTI in 14/09/1993, 1510018887 25,000; UTI 1510018922 25,000; UTI 1510018885 50,000; Interest Acceurd 5,00,000; UTI 1510018885 25,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 2136000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2136000
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 4168798,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4168798,
+          "self_details": "Maruti Zipsi DL2CC0640 in 1992-93 1,69,178; Quail in 2004, HR26R5505 7,16,310; 10/2/4 25,000; 11/2/4 6,91,310; 09V3030 in 2013 25,67,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 40000,
+          "spouse_value_rupees": 1218466,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1258466
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 160000000,
+      "total_current_market_value_spouse_rupees": 152260000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 312260000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 20000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000000,
+          "spouse_details": "Mouza Durgapuri/Pindrajora Thana, Chas.25 Total Area 9 Acres Built Up Area  Whether Inherited N Purchase Date 2007-04-03 Purchase Cost 990000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 80000000,
+          "spouse_value_rupees": 97250000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 177250000,
+          "self_details": [
+            "Plot No. 108 Vashundhara Vashundhara, Gaziabad Total Area 180 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 1993-01-02 Purchase Cost 375341.00 Development Cost 0.00 40,00,000",
+            "Plot No. 251, Ghazibad Total Area 260 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 598562.00 Development Cost 0.00 40,00,000"
+          ],
+          "spouse_details": [
+            "Sardar Rd. Chas, Bokaro Khata No. 8 Total Area 2 Dec. Built Up Area  Whether Inherited N Purchase Date 1997-07-05 Purchase Cost 188611.00 Development Cost 0.00 6,00,000",
+            "Khespal Chas. Bokaro P.No. 7206, 7135, 7134 & 7136, Khasra No. 84 Total Area 23.75 Dec. Built Up Area  Whether Inherited N Purchase Date 1998-08-07 Purchase Cost 301741.00 Development Cost 0.00 71,25,000",
+            "City Center, Ect-4 BS. City Total Area 100 Sq. Yards Built Up Area  Whether Inherited N Purchase Date 1999-03-25 Purchase Cost 60750.00 Development Cost 0.00 20,00,000"
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 35010000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 35010000,
+          "spouse_details": [
+            "Khijuria Dhumka, 11 Cir, Jamabandi-74, Build Up Area 4000 Sq.Ft Total Area 11580.16 Sq.Ft Built Up Area  Whether Inherited N Purchase Date 1995-09-25 Purchase Cost 201000.00 Development Cost 0.00 15,01,000",
+            "Nagatoli, Ranchi, Hatma, Lalpur, Ranchi-95, Build Up Area 3000 Sq.Ft Total Area 5232 Sq.Ft Built Up Area  Whether Inherited N Purchase Date 2005-04-27 Purchase Cost 1300000.00 Development Cost 0.00 20,00,000"
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 60000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 60000000,
+          "self_details": "Flat No. B-27, Shalimar Appt. Moth, Soth Extn. ND Total Area 1500 Sq.Ft Built Up Area 1500 Sq.Ft Whether Inherited N Purchase Date 1993-09-05 Purchase Cost 702000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000000,
+          "self_details": "Agriculture Lnad and Paternal Property at Nerma, Gola, Hazaribagh, Member of HUF Self & mu Four Brother, 42 Acres Area Share of 1/4th Total Area 42 Acres Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1475903,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1475903,
+      "grand_total_of_all_govt_dues_self_rupees": 3818,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 3818,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 20000000,
-      "total_current_market_value_inr": 16000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 1475903,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1475903
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 3818,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3818
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 2000000,
-      "non_agricultural_land": {
-        "description": "Sardar Rd. Chas, Bokaro Khata No. 8",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "1997-07-05",
-        "purchase_cost_inr": 188611,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 600000
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 72593962,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 3501000,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 15226000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 1475903,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1475903
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 3818,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 3818
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Lok Sabha 2009",
+        "declared_assets_rupees": 8229419,
+        "declared_cases": 3
+      },
+      {
+        "election_name": "Lok Sabha 2004",
+        "declared_assets_rupees": 3776022,
+        "declared_cases": 4
+      }
+    ]
+  }
 }

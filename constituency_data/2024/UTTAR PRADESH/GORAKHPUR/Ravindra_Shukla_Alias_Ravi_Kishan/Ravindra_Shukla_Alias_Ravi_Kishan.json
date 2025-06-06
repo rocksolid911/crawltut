@@ -1,146 +1,579 @@
 {
   "candidate_name": "RAVINDRA SHUKLA ALIAS RAVI KISHAN",
   "party": "BJP",
-  "constituency": "GORAKHPUR (UTTAR PRADESH)",
-  "father_or_husband_name": "Shyam Narayan Shukla",
-  "age": 55,
-  "education": "12th Pass Intermediate Pass from Rizvi College of Commerce, Bandra West Mumbai 1990",
-  "profession_self": "Actor & Lok Sabha Member",
-  "profession_spouse": "House wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 433235340,
-  "liabilities_total_inr": 19051840,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 26751870,
-        "2021-2022": 22835380,
-        "2020-2021": 7539340,
-        "2019-2020": 9146340,
-        "2018-2019": 9407319
+  "constituency": "GORAKHPUR",
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Shyam Narayan Shukla",
+      "age": 55,
+      "voter_enrolled_in": {
+        "constituency": "323 Gorakhpur Rural",
+        "state": "Uttar Pradesh",
+        "serial_no": 897,
+        "part_no": 291
+      },
+      "self_profession": "Actor & Lok Sabha Member",
+      "spouse_profession": "House wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 433235340,
+      "total_liabilities_in_rupees": 19051840
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "Intermediate Pass from Rizvi College of Commerce, Bandra West Mumbai 1990"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 26751870
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 22835380
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 7539340
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 9146340
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 9407319
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 488480
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 458160
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 341820
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 6041620
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 259580
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 149692422,
+      "gross_total_value_spouse_rupees": 8193104,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 349814,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 158235340,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 79021,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 79021,
+          "self_details": "79021",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 28740724,
+          "spouse_value_rupees": 1421000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 198099,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30359823,
+          "self_details": "Bank of Baroda, No 7636010000xxxxx 21,71,974  21 Lacs+ HDFC bank, No 0079193000xxxxx 1,12,61,808  1 Crore+ Unit Bank, No 01110010000xxxxx 1,20,134  1 Lacs+ SBI, No 38480089138770xxxxx  77,09,853  77 Lacs+ HDFC Bank 37,59,369  37 Lacs+",
+          "spouse_details": "Bank of Baroda, No 7636010000xxxxx 23,90,755  23 Lacs+ Unit Bank, No 01110010000xxxxx 19,834  19 Thou+ Unity Bank, No 01110010002xxxxx 1,07,089  1 Lacs+ ICICI Bank, No 10190100xxxxx 3,23,805  3 Lacs+ Unity Bank, No 01110010002xxxxx 6,78,004  6 Lacs+",
+          "dependent1_details": "Juhu Bank, No 636010000xxxxx 1,98,099  1 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 21164799,
+          "spouse_value_rupees": 192565,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 21357364,
+          "self_details": "Nippon India Growth Fund, Rs. 30000 2,26,868  2 Lacs+ Nippon India Small Camp Fund Rs. 1420000 19,32,793  19 Lacs+ HDFC Flaxy Camp Fund, Rs. 1600000  73,32,172  73 Lacs+ IM HDFC Top 100 Fund Rs. 20000 1,01,610  1 Lacs+ Kotak Flexy Camp Fund, Rs. 1520000 26,50,054  26 Lacs+ Mygnum Mid Camp Fund Growth, Rs. 1470000 18,50,356  18 Lacs+ SBI Mygnum Nan Demat Fund, Rs. 1500000  31,46,777  31 Lacs+ Pratibhumi 14,50,000  14 Lacs+",
+          "spouse_details": "DCMSRIND 1,92,565  1 Lacs+ Goldbj 21,094  21 Thou+ Hindcoper 3,21,763  3 Lacs+ NV201 ETF 49,553  49 Thou+ India Mart 2,86,136  2 Lacs+ Junior Beej 18,035  18 Thou+ Liquid Beej  26,310  26 Thou+ Lovo Litef  76,036  76 Thou+ Manipuram 1,56,021  1 Lacs+ Nevast 501 ETF 64,167  64 Thou+ Nifty Beej 19,734  19 Thou+ Nifty Itf 79,674  79 Thou+ Renuka 4,34,261  4 Lacs+ TV 18 BRDCST 7,28,820  7 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 151715,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1351715,
+          "self_details": "LIC No 90197xxxxx 5,00,000  5 Lacs+ LIC No 91471xxxxx 7,00,000  7 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "LIC No 91471xxxxx 91,029  91 Thou+ LIC No 91471xxxxx 60,686  60 Thou+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 95567740,
+          "spouse_value_rupees": 1579940,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 97147680,
+          "self_details": "Pooja Devkan Pvt Ltd 7,51,00,000  7 Crore+ DRS(Stamp Duty Reg.) 74,91,800  74 Lacs+ Pallavi Barui 7,00,000  7 Lacs+ Rekha Tiwari 5,00,000  5 Lacs+ Bril Rerala 10,50,000  10 Lacs+ Kamala State 5,00,000  5 Lacs+ Shridham Builders 36,46,000  36 Lacs+ A One Inter National 50,00,000  50 Lacs+",
+          "spouse_details": "Isuzu Motors, UP53KT2253 15,79,940  15 Lacs+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 6009842,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6009842,
+          "self_details": "Toyota Innova, H02EP7992 7,91,346  7 Lacs+ Mercedes Benz, MH47K7992  6,35,757  6 Lacs+ BMW X, MH04DW6795 1,04,000  1 Lacs+ Jaguar Fepas, MH02EW7200 24,46,766  24 Lacs+ Steet Bab 2,81,973  2 Lacs+ Fortuner UP78FD9494 17,50,000  17 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1423538,
+          "spouse_value_rupees": 619500,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2043038,
+          "self_details": "Gold- 318 Gram 9,38,100  9 Lacs+ Silver- 10 Caret 4,85,438  4 Lacs+",
+          "spouse_details": "Gold- 210 Gram 6,19,500  6 Lacs+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 3278447,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3278447,
+          "self_details": "Office Equipment  23,318  23 Thou+ Goods & Equipment  28,65,455  28 Lacs+ Rifel  1,00,000  1 Lacs+ Revolver 1,50,000  1 Lacs+ House Hold Equipment  1,39,674  1 Lacs+",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 2325000000,
+      "total_current_market_value_spouse_rupees": 425000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 2750000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 425000000,
+          "spouse_value_rupees": 275000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 700000000,
+          "self_details": "Raw House, Flat No. 122/137, RCS 2 SBP Nagar Andheri West Mumbai- 400053, Half Share Total Area 1131 Sq ft Built Up Area 1131 Sq ft Whether Inherited N Purchase Date 2008-04-03 Purchase Cost 4268000.00 Development Cost 0.00 2,75,00,000  2 Crore+ Office Unit No. 207, Second Floor, Lukkad Skye Station Vimannagar Pune Total Area 781 Sq ft Built Up Area 781 Sq ft Whether Inherited N Purchase Date 2007-12-26 Purchase Cost 2744500.00 Development Cost 0.00 1,50,00,000  1 Crore+",
+          "spouse_details": "Raw House, Flat No. 122/137, RCS 2 SBP Nagar Andheri West Mumbai- 400053, Half Share  Total Area 1131 Sq ft Built Up Area 1131 Sq ft Whether Inherited N Purchase Date 2008-04-03 Purchase Cost 4268000.00 Development Cost 0.00 2,75,00,000  2 Crore+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 1900000000,
+          "spouse_value_rupees": 150000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2050000000,
+          "self_details": "Flat No. 7, Floor Vaibhav Palace, Oshiwara Jogeshwari Mumbai- 702 Total Area 889 sq ft Built Up Area 889 sq ft Whether Inherited N Purchase Date 2003-12-31 Purchase Cost 1734000.00 Development Cost 0.00 1,85,00,000  1 Crore+ Flat No. 1504, 15 Floor B-Wing, Garden Estate Laxminagar Goregain West Mumbai Total Area 1100 sq ft Built Up Area 1100 sq ft Whether Inherited N Purchase Date 2007-06-12 Purchase Cost 7287500.00 Development Cost 0.00 2,90,00,000  2 Crore+ Flat No. 1004, 10 Floor, A Wing Garden Estate, Laxminagar, Goregaon West, Mumbai Total Area 1250 sq ft Built Up Area 1250 sq ft Whether Inherited N Purchase Date 2007-04-08 Purchase Cost 585000.00 Development Cost 0.00 2,65,00,000  2 Crore+ Flat No. 1404, 14 Floor, B Wing Garden Estate, Laxminagar, Goregaon West, Mumbai Total Area 1100 sq ft Built Up Area 1100 sq ft Whether Inherited N Purchase Date 2007-06-12 Purchase Cost 7287500.00 Development Cost 0.00 2,90,00,000  2 Crore+ Flat No. 1403, 14 Floor, B Wing Garden Estate, Laxminagar, Goregaon West, Mumbai Total Area 800 sq ft Built Up Area 800 sq ft Whether Inherited N Purchase Date 2010-05-26 Purchase Cost 6040000.00 Development Cost 0.00 1,50,00,000  1 Crore+ Flat No. 1503, 15 Floor, B Wing Garden Estate, Laxminagar, Goregaon West, Mumbai Total Area 800 sq ft Built Up Area 800 sq ft Whether Inherited N Purchase Date 2010-05-26 Purchase Cost 6040000.00 Development Cost 0.00 1,50,00,000  1 Crore+ Flat No. 1402, 14 Floor, B Wing Garden Estate, Laxminagar, Goregaon West, Mumbai Total Area 800 sq ft Built Up Area 800 sq ft Whether Inherited N Purchase Date 2019-04-09 Purchase Cost 11000000.00 Development Cost 0.00 1,50,00,000  1 Crore+ Gorakhpur Bungalow UP  Total Area 1500 sq ft Built Up Area 1500 sq ft Whether Inherited N Purchase Date 2021-11-02 Purchase Cost 7500000.00 Development Cost 0.00 1,65,00,000  1 Crore+ Flat No. 9, 4 Floor Marina Apartment National Library Road, Near Ram Mandir SV Road, Bandra West Mumbai- 400050  Total Area 350 sq ft350 sq ft Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,35,00,000  1 Crore+ Mulchand Ji House Shop No. 3, 333 Bazar Road Bandra West mumbai 400050 Total Area 120 sq ft Built Up Area 120 sq ft Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,00,00,000  1 Crore+ Villege Bunglow & Post Barai, Dist. Jaunpur, UP  Total Area 4000 sq ft Built Up Area 4000 sq ft Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 20,00,000  20 Lacs+",
+          "spouse_details": "Flat No. 1502, 15 Floor B-Wing, Garden Estate Laxminagar Goregain West Mumbai  Total Area 800 sq ft Built Up Area 800 sq ft Whether Inherited N Purchase Date 2019-04-09 Purchase Cost 11000000.00 Development Cost 0.00 1,50,00,000  1 Crore+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 18051840,
+      "grand_total_of_liabilities_spouse_rupees": 1000000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 19051840,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 1237206,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 1237206,
+        "details": [
+          {
+            "relation_type": "self",
+            "amount_rupees": 1237206,
+            "authority": "Service Tax 12,37,206"
+          }
+        ]
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 11108622,
+          "spouse_value_rupees": 1000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12108622,
+          "self_details": "BOB,  38,85,452  38 Lacs+ BOB 25,20,848  25 Lacs+ HDFC Bank 9,01,868  9 Lacs+ SBI 38,00,454  38 Lacs+",
+          "spouse_details": "Union Bank of India 10,00,000  10 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 4406012,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4406012,
+          "self_details": "Billquz Kapadia 10,82,750  10 Lacs+ Hitesh Limbachia 10,00,000  10 Lacs+ Ram Shukla 10,00,000  10 Lacs+ Taniksh Shukla 13,23,262  13 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 1300000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1300000,
+          "self_details": "Mahaba Bunglow 5,00,000  5 Lacs+ A Wing Garden Estate 1004 2,50,000  2 Lacs+ Pune Security  3,00,000  3 Lacs+ Garden Estate 1402/1502 2,50,000  2 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Actor & Lok Sabha Member",
+      "spouse": "House wife"
+    },
+    "sources_of_income": {
+      "self": "MP Salary, Business, House Rent, FD & Bank Accounts Interest & Business Acting Fees",
+      "spouse": "Bank Accounts & FD Interest, Freelancer",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NA",
+      "spouse": "NA",
+      "dependent": "NA",
+      "huf_or_trust": "NA",
+      "partnership_firms": "NA",
+      "private_companies": "NA"
+    },
+    "other_election_declarations": [
+      {
+        "election": "Lok Sabha 2019",
+        "declared_assets_rupees": 208494688,
+        "declared_cases": 0
+      },
+      {
+        "election": "Loksabha 2014",
+        "declared_assets_rupees": 140289942,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 488480,
-        "2021-2022": 458160,
-        "2020-2021": 341820,
-        "2019-2020": 6041620,
-        "2018-2019": 259580
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 79021,
-      "bank_deposits_inr": 28740724,
-      "bonds_debentures_shares_inr": 21164799,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1351715,
-      "personal_loans_advance_given_inr": 95567740,
-      "motor_vehicles_inr": 6009842,
-      "jewellery_inr": 2043038,
-      "other_assets_inr": 3278447,
-      "gross_total_value_inr": 158235340
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 1579940,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 619500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 8193104
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 425000000,
-      "residential_buildings": 2050000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2325000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 275000000,
-      "residential_buildings": 150000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 425000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 12108622,
-      "loans_due_to_individual_entity_inr": 4406012,
-      "any_other_liability_inr": 1300000,
-      "grand_total_of_liabilities_inr": 16814634
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1000000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 1237206
-  },
-  "sources_of_income": {
-    "self": "MP Salary, Business, House Rent, FD & Bank Accounts Interest & Business Acting Fees",
-    "spouse": "Bank Accounts & FD Interest, Freelancer",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+    ]
   }
 }

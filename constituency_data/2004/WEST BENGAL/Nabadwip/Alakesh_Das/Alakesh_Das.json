@@ -2,92 +2,434 @@
   "candidate_name": "Alakesh Das",
   "party": "CPM",
   "constituency": "Nabadwip",
-  "father_or_husband_name": "LATE SHYAM CHANDRA DAS",
-  "age": 40,
-  "education": "Post Graduate Madhyamik From Ranaghat P.C. High School In 1979, H.S. From Ranaghat Collage In 1981, B.SC. (Hons) Physics From Kalyani University In 1986 & B.ED. From Calcutta University In 1992",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 0,
-  "assets_total_inr": 278876,
-  "liabilities_total_inr": 18382,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 5000,
-      "bank_deposits_inr": 41785,
-      "bonds_debentures_shares_inr": 30000,
-      "nss_postal_savings_inr": 78000,
-      "lic_other_insurance_inr": null,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 25000,
-      "other_assets_inr": null,
-      "gross_total_value_inr": 179785
+  "state": "WEST BENGAL",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "LATE SHYAM CHANDRA DAS",
+      "age": 40
     },
-    "spouse": {
-      "cash_inr": null,
-      "bank_deposits_inr": 35091,
-      "bonds_debentures_shares_inr": null,
-      "nss_postal_savings_inr": 64000,
-      "lic_other_insurance_inr": 125000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": null,
-      "jewellery_inr": null,
-      "other_assets_inr": null,
-      "gross_total_value_inr": 99091
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": null,
-      "non_agricultural_land": {
-        "description": "HOLDING NO. 24 & 25, WARD NO.8. RANAGHAT MUNICIPALITY.",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 278876,
+      "total_liabilities_in_rupees": 18382
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "Madhyamik From Ranaghat P.C. High School In 1979, H.S. From Ranaghat Collage In 1981, B.SC. (Hons) Physics From Kalyani University In 1986 & B.ED. From Calcutta University In 1992"
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 179785,
+      "gross_total_value_spouse_rupees": 99091,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 278876,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 5000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5000,
+          "self_details": {
+            "amount_rupees": 5000
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 41785,
+          "spouse_value_rupees": 35091,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 76876,
+          "self_details": [
+            {
+              "amount_rupees": 17809
+            },
+            {
+              "amount_rupees": 23976
+            }
+          ],
+          "spouse_details": [
+            {
+              "amount_rupees": 3000
+            },
+            {
+              "amount_rupees": 32091
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 30000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30000,
+          "self_details": {
+            "amount_rupees": 30000
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 78000,
+          "spouse_value_rupees": 64000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 142000,
+          "self_details": {
+            "amount_rupees": 78000,
+            "type": "NSC"
+          },
+          "spouse_details": {
+            "amount_rupees": 64000,
+            "type": "NSC"
+          }
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 125000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 125000,
+          "self_details": {
+            "amount_rupees": 0
+          },
+          "spouse_details": {
+            "amount_rupees": 125000,
+            "type": "LIC SUM ASSURED POLICY"
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "make": "TWO WHEELER",
+            "registration_no": "WB-52-B8013",
+            "value_not_given": true
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "vi",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000,
+          "self_details": {
+            "weight_gm": 50,
+            "value_rupees": 25000
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "vii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 0,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 0,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "details": "HOLDING NO. 24 & 25, WARD NO.8. RANAGHAT MUNICIPALITY.",
+            "value_not_given": true
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "Houses",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 18382,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 18382,
+      "grand_total_of_all_govt_dues_self_rupees": 18382,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 18382,
+      "items": [
+        {
+          "sr_no": "(a) i",
+          "description": "Loans from Banks",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans from Financial Institutions",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(a)",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(b)",
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(c)",
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(d)",
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(e)",
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(f)",
+          "description": "Other Dues if any",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(b) (i) (a)",
+          "description": "Income Tax including surcharge",
+          "self_value_rupees": 18382,
+          "total_value_rupees": 18382,
+          "self_details": {
+            "amount_rupees": 18382,
+            "assessment_year": "2003-2004"
+          }
+        },
+        {
+          "sr_no": "(b)",
+          "description": "Permanent Account Number (PAN)",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "pan_given": true
+          }
+        },
+        {
+          "sr_no": "(ii)",
+          "description": "Wealth Tax",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(iii)",
+          "description": "Sales Tax",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "(iv)",
+          "description": "Property Tax",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "amount_rupees": 0
+          }
+        }
+      ]
+    },
+    "other_election_declarations": [
+      {
+        "election_name": "Lok Sabha 2024",
+        "declared_assets_rupees": 8627408,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": null,
-      "others_inr": null,
-      "total_current_market_value_inr": 0
-    },
-    "spouse": {
-      "agricultural_land_inr": null,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": null,
-      "residential_buildings": null,
-      "others_inr": null,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": null,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 18382
-    },
-    "spouse": null,
-    "government_dues": {
-      "dues_govt_accommodation_inr": null,
-      "dues_water_supply_inr": null,
-      "dues_electricity_supply_inr": null,
-      "dues_telephones_inr": null,
-      "dues_transport_inr": null,
-      "income_tax_dues_inr": 18382,
-      "wealth_tax_dues_inr": null,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": null,
-      "sales_tax_dues_inr": null,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": null,
-      "grand_total_of_all_govt_dues_inr": 18382
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "West Bengal 2021",
+        "declared_assets_rupees": 7215695,
+        "declared_cases": 1
+      },
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 5556977,
+        "declared_cases": 1
+      },
+      {
+        "election_name": "West Bengal 2016",
+        "declared_assets_rupees": 7574344,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

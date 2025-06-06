@@ -1,158 +1,519 @@
 {
   "candidate_name": "Bharat Singh",
   "party": "BJP",
-  "constituency": "BALLIA (UTTAR PRADESH)",
-  "father_or_husband_name": "Late Ramchiz",
-  "age": 62,
-  "education": "Graduate, Graduation from Jodhpur University, Jodhpur, Rajasthan in 1973.",
-  "profession_self": "Agriculture, Former MLA Pension, Bank Interest",
-  "profession_spouse": "Agriculture, Income from Retail Business",
-  "criminal_cases": 3,
-  "assets_total_inr": 21130089,
-  "liabilities_total_inr": 1102553,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 701338
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 774050
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 160000,
-      "bank_deposits_inr": 223286,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 50000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1175000,
-      "jewellery_inr": 125000,
-      "other_assets_inr": 150000,
-      "gross_total_value_inr": 1883286
-    },
-    "spouse": {
-      "cash_inr": 110000,
-      "bank_deposits_inr": 37197,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 300000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 500000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 947197
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "I/259 Gomti Nagar, Vistar Khand, Lucknow",
-        "area_sq_mtr": 300,
-        "inherited": "N",
-        "purchase_date": "2009-11-01",
-        "purchase_cost_inr": 1532000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9000000
+  "constituency": "BALLIA",
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Ramchiz",
+      "age": 62,
+      "voter_enrolled_in": {
+        "constituency": "72-Ballia",
+        "state": "Uttar Pradesh",
+        "serial_no": 537,
+        "part_no": 283
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Half Share 307, Aishbag Colony, Vidhayak Niwas, Lucknow",
-        "total_area_sqft": 1172,
-        "built_up_area_sqft": 1172,
-        "inherited": "N",
-        "purchase_date": "2002-09-28",
-        "purchase_cost_inr": 414062,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1600000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 10600000
+      "self_profession": "Agriculture, Former MLA Pension, Bank Interest",
+      "spouse_profession": "Agriculture, Income from Retail Business"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Half Share 307, Aishbag Colony, Vidhayak Niwas, Lucknow",
-        "total_area_sqft": 1172,
-        "built_up_area_sqft": 1172,
-        "inherited": "N",
-        "purchase_date": "2002-09-28",
-        "purchase_cost_inr": 414062,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1600000
+    "summary": {
+      "criminal_cases_count": 3,
+      "total_assets_in_rupees": 21130089,
+      "total_liabilities_in_rupees": 1102553
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Graduation from Jodhpur University, Jodhpur, Rajasthan in 1973."
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 701338
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 774050
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "undue influence or personation at an election",
+          "ipc_section": "171F",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Danger or obstruction in public way or line of navigation",
+          "ipc_section": "283",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 341, 283",
+          "other_details_or_acts_sections_applicable": "Criminal Case No.277/13, PS.-Sukhpura, Ballia"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "171F",
+          "other_details_or_acts_sections_applicable": "Section 133/123 R. P. Act 1951, Criminal Case No.4/12, PS.-Sahatwar, Ballia"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Criminal Case No.106/12 PS.-Dubhad, Ballia"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1883286,
+      "gross_total_value_spouse_rupees": 946803,
+      "gross_total_value_dependent1_rupees": 200000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3030089,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 160000,
+          "spouse_value_rupees": 110000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 270000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 223286,
+          "spouse_value_rupees": 40800,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 264089
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 300000,
+          "dependent1_value_rupees": 200000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 550000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1175000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1175000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 125000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 625000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 141000000,
+      "total_current_market_value_spouse_rupees": 40000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 181000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": [
+            {
+              "location": "Mouza-Ibrahimabad and Mouaza-Chaddhiyar, Ballia",
+              "total_area": "2.93 Acres",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 482121,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 0
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Mouaza-Chaddhiyar, Ballia",
+              "total_area": "3.49 Acres",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 16333,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 0
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 90000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 90000000,
+          "self_details": [
+            {
+              "location": "I/259 Gomti Nagar, Vistar Khand, Lucknow",
+              "total_area": "300 Sq.Mtr.",
+              "inherited": false,
+              "purchase_date": "2009-11-01",
+              "purchase_cost_rupees": 1532000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 90000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 16000000,
+          "spouse_value_rupees": 16000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 32000000,
+          "self_details": [
+            {
+              "location": "307, Aishbag Colony, Vidhayak Niwas, Lucknow",
+              "total_area": "1172 Sq.ft.",
+              "built_up_area": "1172 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2002-09-28",
+              "purchase_cost_rupees": 414062,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 16000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "307, Aishbag Colony, Vidhayak Niwas, Lucknow",
+              "total_area": "1172 Sq.ft.",
+              "built_up_area": "1172 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2002-09-28",
+              "purchase_cost_rupees": 414062,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 16000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1084414,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1084414,
+      "grand_total_of_all_govt_dues_self_rupees": 18139,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 18139,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1600000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 321185,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 321185,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "UP Civil Secretariat Lucknow",
+              "account_no": "3000904xxxxx",
+              "loan_type": "Housing Loan",
+              "amount_rupees": 321185
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "i",
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 763229,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 763229,
+          "self_details": [
+            {
+              "entity": "Allahabad Bank",
+              "branch": "Bairia Ballia",
+              "loan_type": "Scorpio Loan",
+              "amount_rupees": 763229
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "i",
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 3000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 15139,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15139
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 321185,
-      "loans_due_to_individual_entity_inr": 763229,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1084414
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 3000,
-      "dues_telephones_inr": 15139,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 18139
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture, Former MLA Pension, Bank Interest",
-    "spouse": "Agriculture, Income from Retail Business",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
   }
 }

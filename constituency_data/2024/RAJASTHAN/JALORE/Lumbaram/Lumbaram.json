@@ -1,163 +1,613 @@
 {
   "candidate_name": "LUMBARAM",
   "party": "BJP",
-  "constituency": "JALORE (RAJASTHAN)",
-  "father_or_husband_name": "Shri Bhuda",
-  "age": 59,
-  "education": "10th Pass, 10th from National Open School in 2016",
-  "profession_self": "LIC Agents and Farmer",
-  "profession_spouse": "House Wife & Farmer",
-  "criminal_cases": 0,
-  "assets_total_inr": 19587446,
-  "liabilities_total_inr": 626171,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 534860,
-        "2022-2023": 485270,
-        "2021-2022": 455430,
-        "2020-2021": 598900,
-        "2019-2020": 563430
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 248900,
-        "2022-2023": 292900,
-        "2021-2022": 245800,
-        "2020-2021": 408730,
-        "2019-2020": 315600
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 150000,
-      "bank_deposits_inr": 1974296,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 13500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1250000,
-      "jewellery_inr": 150000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4774296
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 63150,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 300000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 513150
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2850000,
-      "non_agricultural_land": {
-        "description": "Vill Sindrath Teh Sirohi Residential Plot, Sarneshwar Nagar Sirohi Residential Plot No-15, Sarneshwar Nagar Sirohi Residential Plot No-16, Vill Mirpur Teh Sirohi Residential Land Khasra no-10, Shivganj Road Sirohi",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 7150000
+  "constituency": "JALORE",
+  "state": "RAJASTHAN",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Shri Bhuda",
+      "age": 59,
+      "voter_enrolled_in": {
+        "constituency": "Jalore",
+        "state": "Rajasthan",
+        "serial_no": 326,
+        "part_no": 246
       },
-      "commercial_buildings_inr": 900000,
-      "residential_buildings": {
-        "description": "House in Vill Vadeli",
-        "total_area_sqft": 3500,
-        "built_up_area_sqft": 1500,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 1000000,
-        "current_market_value_inr": 2500000
+      "self_profession": "LIC Agents and Farmer",
+      "spouse_profession": "House Wife & Farmer"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 19587446,
+      "total_liabilities_in_rupees": 626171
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "10th from National Open School in 2016"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2023 - 2024",
+          "total_income_shown_in_itr_rupees": 534860
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 485270
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 455430
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 598900
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 563430
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2023 - 2024",
+          "total_income_shown_in_itr_rupees": 248900
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 292900
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 245800
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 408730
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 315600
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 4774296,
+      "gross_total_value_spouse_rupees": 513150,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5287446,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 50000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 200000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1873296,
+          "spouse_value_rupees": 63150,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1937446,
+          "self_details": [
+            {
+              "bank": "SBI Belangari Sirohi",
+              "amount_rupees": 6854
+            },
+            {
+              "bank": "SBI Belangari Sirohi",
+              "amount_rupees": 337271
+            },
+            {
+              "bank": "IDBI Sirohi",
+              "amount_rupees": 95000
+            },
+            {
+              "bank": "ICICI Sirohi",
+              "amount_rupees": 1435171
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI Sirohi",
+              "amount_rupees": 63150
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1350000,
+          "spouse_value_rupees": 100000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1450000,
+          "self_details": [
+            {
+              "company": "LIC",
+              "amount_rupees": 350000
+            },
+            {
+              "company": "LIC",
+              "amount_rupees": 750000
+            },
+            {
+              "company": "LIC",
+              "amount_rupees": 250000
+            }
+          ],
+          "spouse_details": [
+            {
+              "company": "Bhartiya Jiwan Bima Nigam",
+              "amount_rupees": 100000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1250000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1250000,
+          "self_details": [
+            {
+              "make": "Maruti Vitara Briza",
+              "registration_no": "RJ24CB4041",
+              "year": 2019,
+              "value_rupees": 800000
+            },
+            {
+              "make": "Tractor",
+              "registration_no": "RJ24RA9071",
+              "year": 2020,
+              "value_rupees": 450000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 300000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 450000,
+          "self_details": {
+            "weight_gm": 25,
+            "value_rupees": 150000
+          },
+          "spouse_details": {
+            "weight_gm": 50,
+            "value_rupees": 300000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 134000000,
+      "total_current_market_value_spouse_rupees": 9000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 143000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 29000000,
+          "spouse_value_rupees": 8000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 37500000,
+          "self_details": [
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "2222,298,299,478,479/1165,997",
+              "total_area": "4.12 hec",
+              "inherited": false,
+              "purchase_date": "1994-01-01",
+              "purchase_cost_rupees": 250000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 8000000
+            },
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "202,203,217/1350,223,224",
+              "total_area": "6.40 hec 1/2 share",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6500000
+            },
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "210,331,867/1159",
+              "total_area": "1.15 hec",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2000000
+            },
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "140,141,142,143,144,145,204,476/1420,477/1421",
+              "total_area": "4.67 hec",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7000000
+            },
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "107,108",
+              "total_area": "3.20 hec 1/4 share",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            },
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "94/1355,98/1361,104/1360,106,1133/1353",
+              "total_area": "1.58 hec 1/2 share",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "202,203,217/1350,223,224",
+              "total_area": "6.40 hec 1/2 share",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6500000
+            },
+            {
+              "location": "Vadeli Teh Sirohi",
+              "khasra_no": "2289/1254,197/1215,199/1216,200/1213,201,237/1217",
+              "total_area": "1.58 hec",
+              "inherited": false,
+              "purchase_date": "2019-01-01",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 71500000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 71500000,
+          "self_details": [
+            {
+              "location": "Vill Sindrath Teh Sirohi",
+              "total_area": "15000 sq.ft",
+              "inherited": false,
+              "purchase_date": "2017-12-13",
+              "purchase_cost_rupees": 800000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 30000000
+            },
+            {
+              "location": "Sarneshwar Nagar Sirohi",
+              "plot_no": "15",
+              "total_area": "1050 sq.ft",
+              "inherited": false,
+              "purchase_date": "2021-12-30",
+              "purchase_cost_rupees": 480000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "Sarneshwar Nagar Sirohi",
+              "plot_no": "16",
+              "total_area": "1050 sq.ft",
+              "inherited": false,
+              "purchase_date": "2023-05-17",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5500000
+            },
+            {
+              "location": "Vill Mirpur Teh Sirohi",
+              "khasra_no": "10",
+              "total_area": "4000 sq.ft",
+              "inherited": false,
+              "purchase_date": "2010-07-23",
+              "purchase_cost_rupees": 400000,
+              "development_cost_rupees": 500000,
+              "current_value_rupees": 9000000
+            },
+            {
+              "location": "Shivganj Road Sirohi",
+              "total_area": "6000 sq.ft",
+              "inherited": false,
+              "purchase_date": "2023-04-22",
+              "purchase_cost_rupees": 2000000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 22000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 9000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9000000,
+          "self_details": [
+            {
+              "location": "Sirohi",
+              "land_no": "12",
+              "total_area": "1225 sq.ft",
+              "built_up_area": "1225 sq.ft",
+              "inherited": false,
+              "purchase_date": "2006-07-01",
+              "purchase_cost_rupees": 250000,
+              "development_cost_rupees": 650000,
+              "current_value_rupees": 9000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 25000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000000,
+          "self_details": [
+            {
+              "location": "House in Vill Vadeli",
+              "total_area": "3500 sq.ft",
+              "built_up_area": "1500 sq.ft",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 1000000,
+              "current_value_rupees": 25000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 626171,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 626171,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 13400000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 626171,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 626171,
+          "self_details": [
+            {
+              "bank": "SBI Sirohi",
+              "loan_type": "Horticulture",
+              "amount_rupees": 626171
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 900000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 900000
+    "profession_or_occupation": {
+      "self": "LIC Agents and Farmer",
+      "spouse": "House Wife & Farmer"
+    },
+    "sources_of_income": {
+      "self": "LIC Agents and Farmer",
+      "spouse": "House Wife & Farmer",
+      "dependent": "NA"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NA",
+      "spouse": "NA",
+      "dependent": "NA",
+      "huf_or_trust": "NA",
+      "partnership_firms": "NA",
+      "private_companies": "NA"
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 626171,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 626171
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "LIC Agents and Farmer",
-    "spouse": "House Wife & Farmer",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
   }
 }

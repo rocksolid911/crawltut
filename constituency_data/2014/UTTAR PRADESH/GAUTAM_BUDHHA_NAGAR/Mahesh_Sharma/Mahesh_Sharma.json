@@ -1,281 +1,562 @@
 {
-  "candidate_name": "Mahesh Sharma",
-  "party": "BJP",
-  "constituency": "GAUTAM BUDHHA NAGAR",
-  "father_or_husband_name": "Late Shri Kailash Chand Sharma",
-  "age": 54,
-  "education": "Graduate Professional",
-  "profession_self": "Chairman and Prbandak Nideshak",
-  "profession_spouse": "Doctorate",
-  "criminal_cases": 0,
-  "assets_total_inr": 473797545,
-  "liabilities_total_inr": 40905738,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 12460592
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 4889804
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 666910
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 329274
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "candidate_name": "Mahesh Sharma",
+    "party": "BJP",
+    "constituency": "GAUTAM BUDHHA NAGAR",
+    "state": "UTTAR PRADESH",
+    "status": "Winner",
+    "affidavit_info": {
+        "personal_details": {
+            "s_o_d_o_w_o": "Late Shri Kailash Chand Sharma",
+            "age": 54,
+            "voter_enrolled_in": {
+                "constituency": "13 Goutam Budh Nagar",
+                "state": "Uttar Pradesh",
+                "serial_no": 913,
+                "part_no": 314
+            },
+            "self_profession": "Chairman and Prbandak Nideshak",
+            "spouse_profession": "Doctorate"
+        },
+        "summary": {
+            "criminal_cases_count": 0,
+            "total_assets_in_rupees": 473797545,
+            "total_liabilities_in_rupees": 40905738
+        },
+        "educational_details": {
+            "category": "Graduate Professional",
+            "details": "12th Pass From CBSE, A.S.B.J. Higher Sec. School,Dariyaganj Delhi In 1975, Science Graduate From Delhi University,Jakir Hussian College Delhi In 1978, MBBS From Delhi University,University College Of Medical Science Delhi In 1982"
+        },
+        "income_tax_details": {
+            "report_status": "No Problems in Reading Affidavit Information",
+            "returns": [
+                {
+                    "relation_type": "self",
+                    "pan_given": true,
+                    "financial_year": "2012 - 2013",
+                    "total_income_shown_in_itr_rupees": 12460592
+                },
+                {
+                    "relation_type": "spouse",
+                    "pan_given": true,
+                    "financial_year": "2012 - 2013",
+                    "total_income_shown_in_itr_rupees": 4889804
+                },
+                {
+                    "relation_type": "dependent1",
+                    "pan_given": true,
+                    "financial_year": "2012 - 2013",
+                    "total_income_shown_in_itr_rupees": 666910
+                },
+                {
+                    "relation_type": "dependent2",
+                    "pan_given": true,
+                    "financial_year": "2012 - 2013",
+                    "total_income_shown_in_itr_rupees": 329274
+                },
+                {
+                    "relation_type": "dependent3",
+                    "pan_given": false,
+                    "financial_year": null,
+                    "total_income_shown_in_itr_rupees": 0
+                }
+            ]
+        },
+        "criminal_cases": {
+            "report_status": "No Problems in Reading Affidavit Information",
+            "brief_details_ipc_bns": [],
+            "pending_cases": [],
+            "convicted_cases": []
+        },
+        "movable_assets": {
+            "report_status": "No Problems in Reading Affidavit Information",
+            "gross_total_value_self_rupees": 123998624,
+            "gross_total_value_spouse_rupees": 56810354,
+            "gross_total_value_dependent1_rupees": 19654261,
+            "gross_total_value_dependent2_rupees": 9177658,
+            "gross_total_value_dependent3_rupees": 0,
+            "gross_total_value_total_rupees": 209640897,
+            "items": [
+                {
+                    "sr_no": "i",
+                    "description": "Cash",
+                    "self_value_rupees": 113468,
+                    "spouse_value_rupees": 116511,
+                    "dependent1_value_rupees": 5400,
+                    "dependent2_value_rupees": 148400,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 383779,
+                    "self_details": "1,13,468",
+                    "spouse_details": "1,16,511",
+                    "dependent1_details": "5,400",
+                    "dependent2_details": "1,48,400",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "ii",
+                    "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+                    "self_value_rupees": 4445479,
+                    "spouse_value_rupees": 1956187,
+                    "dependent1_value_rupees": 1876992,
+                    "dependent2_value_rupees": 443826,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 12659248,
+                    "self_details": "OBC,Sec-27 Noida 28,68,835  28 Lacs+ OBC,Sec-27 Noida 39,34,830  39 Lacs+ Joint Account OBC,Sec-27 Noida 4,73,526  4 Lacs+ SB SBI Vidansabha Marg Lakhnao UP 1,03,965  1 Lacs+ SB Axis Bank,Sec-16 Noida 33,531  33 Thou+ Overdraft,Standerd Chareted Bank,Barakhamba Road ND 6,556  6 Thou+ Considuienct A/c,OBC,Sec-27 Noida 9,61,000  9 Lacs+",
+                    "spouse_details": "SB Canara Bank,Sec-1 Noida 22,116  22 Thou+ SB,OBC,Sec-27 Noida 19,34,071  19 Lacs+",
+                    "dependent1_details": "SB OBC,Sec-27 Noida 9,96,237  9 Lacs+ Student Bank A/C,Workless Bank,Oxford Br,London,GBP 8500.63) 8,80,755  8 Lacs+",
+                    "dependent2_details": "SB OBC,Sec-27 Noida 4,05,357  4 Lacs+ SBI,Joli Grand,Dehradoon 19,557  19 Thou+ SBI 18,912  18 Thou+",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "iii",
+                    "description": "Bonds, Debentures and Shares in companies",
+                    "self_value_rupees": 48439475,
+                    "spouse_value_rupees": 11756525,
+                    "dependent1_value_rupees": 70082625,
+                    "dependent2_value_rupees": 42533273,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 72361801,
+                    "self_details": "Share Kailash Healthcare ltd 4,23,06,500  4 Crore+ Share Kailash Healthcare ltd 1,50,100  1 Lacs+ Share Citizen Co-Operative Bank 35,000  35 Thou+ Kailash Medical Research Centre Pvt Ltd. 11,98,875  11 Lacs+ Share Uma Medicare Ltd 39,05,100  39 Lacs+",
+                    "spouse_details": "Share Kailash Healthcare ltd 93,61,000  93 Lacs+ Share Citizen Co-Operative Bank  2,500  2 Thou+ Kailash Hospital ltd 16,62,800  16 Lacs+ Kailash Medical Research Centre Pvt Ltd.  7,39,325  7 Lacs+ Share Uma Medicare Ltd  13,51,800  13 Lacs+",
+                    "dependent1_details": "Share Kailash Healthcare ltd  60,60,000  60 Lacs+ Kailash Medical Research Centre Pvt Ltd.  8,72,625  8 Lacs+ Share Uma Medicare Ltd  10,000  10 Thou+ Share Kailash Medicos Pvt Ltd. 50,000  50 Thou+ Share Medical Shop 50,000  50 Thou+",
+                    "dependent2_details": "Share Kailash Healthcare ltd  16,50,000  16 Lacs+ Kailash Medical Research Centre Pvt Ltd.  21,78,310  21 Lacs+ Share Uma Medicare Ltd  10,000  10 Thou+ Kailash Hospital ltd  45,000  45 Thou+ DSP Mutual fund 3,93,303  3 Lacs+ HDFC Mutual Fund 3,29,563  3 Lacs+",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "iv",
+                    "description": "(a) NSS, Postal Savings etc",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "(b) LIC or other insurance Policies",
+                    "self_value_rupees": 5202830,
+                    "spouse_value_rupees": 2014379,
+                    "dependent1_value_rupees": 219173,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 7435382,
+                    "self_details": "LIC Policy No 25117xxxxx,Sa 500000 6,60,139  6 Lacs+ LIC Policy No 25117xxxxx,SA 500000 6,60,139  6 Lacs+ LIC Policy No 25117xxxxx,SA 250000 3,30,070  3 Lacs+ LIC Policy No 12371xxxxx,SA 1000000 13,89,897  13 Lacs+ Tata AIg LIC Policy No-U152425384,Ullif Surrender Value 1,94,894  1 Lacs+ Canara HSBC OBC LIC Policy No 001381xxxxx,SA 2500000 19,66,691  19 Lacs+",
+                    "spouse_details": "Canara HSBC OBC LIC Policy No 001402xxxxx,SA 2500000 20,14,379  20 Lacs+",
+                    "dependent1_details": "Bajaj Allianz Canara,LIC Policy No 001193xxxxx,Ulip Surrender Value 2,19,173  2 Lacs+",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "v",
+                    "description": "Personal loans/advance given",
+                    "self_value_rupees": 9159000,
+                    "spouse_value_rupees": 39395276,
+                    "dependent1_value_rupees": 10455106,
+                    "dependent2_value_rupees": 103540,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 92631116,
+                    "self_details": "Abhishek Sharma,Unsafe Loan 3,00,000  3 Lacs+ Ajay Kohali,Unsafe Loan 50,000  50 Thou+ Ajay Sehgal,Unsafe Loan 4,00,000  4 Lacs+ Amit Sehgal,Unsafe Loan 5,00,000  5 Lacs+ Ashok Sharma,Unsafe Loan 60,000  60 Thou+ Avnish Jain,Unsafe Loan 5,00,000  5 Lacs+ Desikha Kresan,Unsafe Loan 50,000  50 Thou+ Dinesh Chand Sharma,Unsafe Loan 35,98,752  35 Lacs+ Dr Supriya Gupta,Unsafe Loan 1,00,000  1 Lacs+ Kailash Health Care ltd.,Unsafe Loan 2,41,45,000  2 Crore+ Lalit Saksena,Unsafe Loan 14,00,000  14 Lacs+ Laxman Singh Patwal,Unsafe Loan 1,00,000  1 Lacs+ Mahesh Chand,Unsafe Loan 25,00,000  25 Lacs+ Mohit Traders,Unsafe Loan 5,00,000  5 Lacs+ Dr Narender Gupta,Unsafe Loan 2,45,000  2 Lacs+ Naresh Kumar Sharma,Unsafe Loan 1,02,00,000  1 Crore+ Pawan Sharma,Unsafe Loan 2,57,500  2 Lacs+ Raman Tyagi,Unsafe Loan 5,40,000  5 Lacs+ Ramesh Chand Jain,Unsafe Loan 10,00,000  10 Lacs+ Rishi Kumar,Unsafe Loan 2,33,931  2 Lacs+ Rohitas Hospital,Unsafe Loan 4,50,000  4 Lacs+ Sanjeev Sharma,Unsafe Loan 5,00,000  5 Lacs+ Satya Medical Centre,Unsafe Loan 5,00,000  5 Lacs+ SN Dubey,Unsafe Loan 1,00,000  1 Lacs+ Sunder Pal Singh,Unsafe Loan 5,00,000  5 Lacs+ Sunita Sharma,Unsafe Loan 19,25,000  19 Lacs+ Sushila,Unsafe Loan 2,00,000  2 Lacs+ Umesh Chander Sharma,Unsafe Loan 7,45,577  7 Lacs+ Vijay Kumar Sharma,Unsafe Loan 10,00,000  10 Lacs+ Vinod Kumar Pandey,Unsafe Loan 3,00,000  3 Lacs+ Pallavi Sharma,Unsafe Loan 1,03,540  1 Lacs+ Raj kumar sharma 6,50,000  6 Lacs+",
+                    "spouse_details": "Ajay Sehgal,Unsafe Loan  10,00,000  10 Lacs+ Avnish Jain,Unsafe Loan  10,00,000  10 Lacs+ Dr Mahesh Sharma,Unface Loan 1,04,55,106  1 Crore+ Kailash Health Care ltd.,Unsafe Loan  1,01,17,360  1 Crore+ Naresh Kumar Sharma,Unface Loan 10,00,000  10 Lacs+ Pallavi Sharma,Unface Loan 2,70,810  2 Lacs+ Shri Mati Lalita Devi,Unface Loan 1,00,000  1 Lacs+ Sunita Sharma,Unface Loan 6,42,000  6 Lacs+",
+                    "dependent1_details": "Dr Mahesh Sharma,Unface Loan  18,00,000  18 Lacs+ Dr Uma Sharma,Unface Loan 2,38,000  2 Lacs+ Kailash Health Care ltd.,Unsafe Loan  84,00,000  84 Lacs+",
+                    "dependent2_details": "Heavytek Infrastructure Ltd. Unface Loan 5,53,540  5 Lacs+ Kailash Health Care ltd.,Unsafe Loan  34,00,000  34 Lacs+",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "vi",
+                    "description": "Motor Vehicles (details of make, etc.)",
+                    "self_value_rupees": 2815000,
+                    "spouse_value_rupees": 10717904,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 13532904,
+                    "self_details": "Mitsubisi Lancer,Model No-2000,No-UP14N0003 2,65,000  2 Lacs+ Toyoto Landcruser,Model No-2008,No-HR70A8691 25,50,000  25 Lacs+",
+                    "spouse_details": "Mersdees Vens,Model No-2000,NO-DL3CS1912 31,00,000  31 Lacs+ Toyoto Landcruser,Model No-2007,No-DL7CG3330 43,41,763  43 Lacs+ Maruti gypsy King,Model No-2008,NO-DL7CH3460 5,47,240  5 Lacs+ Tata Magic,Model No-2009,No-UP16T3168 3,02,357  3 Lacs+ Fars Travler,Model No-2012,No-UP17H0333 24,26,544  24 Lacs+",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "vii",
+                    "description": "Jewellery (give details weight value)",
+                    "self_value_rupees": 368313,
+                    "spouse_value_rupees": 2407425,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 2771603,
+                    "self_details": "5 Tola Gold 1,53,500  1 Lacs+ Silver 25 Tola 11,525  11 Thou+ Others jewellery Nagine 1,53,288  1 Lacs+",
+                    "spouse_details": "44 Tola Gold 13,50,800  13 Lacs+ 100 Tola Silver 46,100  46 Thou+ Others jewellery Nagine  10,56,390  10 Lacs+",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "viii",
+                    "description": "Other assets, such as values of claims / interests",
+                    "self_value_rupees": 5917895,
+                    "spouse_value_rupees": 1849382,
+                    "dependent1_value_rupees": 72071,
+                    "dependent2_value_rupees": 25716,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 7865064,
+                    "self_details": "59,17,895",
+                    "spouse_details": "18,49,382",
+                    "dependent1_details": "72,071",
+                    "dependent2_details": "25,716",
+                    "dependent3_details": "Nil"
+                }
+            ]
+        },
+        "immovable_assets": {
+            "report_status": "No Problems in Reading Affidavit Information",
+            "total_current_market_value_self_rupees": 191958065,
+            "total_current_market_value_spouse_rupees": 72198583,
+            "total_current_market_value_dependent1_rupees": 0,
+            "total_current_market_value_dependent2_rupees": 0,
+            "total_current_market_value_dependent3_rupees": 0,
+            "total_current_market_value_total_rupees": 264156648,
+            "items": [
+                {
+                    "sr_no": "i",
+                    "description": "Agricultural Land",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "ii",
+                    "description": "Non Agricultural Land",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "iii",
+                    "description": "Commercial Buildings",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "iv",
+                    "description": "Residential Buildings",
+                    "self_value_rupees": 191958065,
+                    "spouse_value_rupees": 72198583,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 264156648,
+                    "self_details": "1/2 Share 404,Sec 15A,Noida UP 201301 Total Area 2421.88 Built Up Area 3826.61 Whether Inherited N Purchase Date 1999-12-24 Purchase Cost 4295205.00 Development Cost 4581594.00 7,21,98,583  7 Crore+ C-318 Sec 19,Noida UP_201301 Total Area 1230.31 Built Up Area 1800.55 Whether Inherited N Purchase Date 2011-02-15 Purchase Cost 5872260.00 Development Cost 0.00 1,58,63,774  1 Crore+ C-319,Sec-19 Noida UP-201301 Total Area 1210.94 Built Up Area 1772.19 Whether Inherited N Purchase Date 2011-02-15 Purchase Cost 7246025.00 Development Cost 0.00 1,56,13,951  1 Crore+ C-320 Sec-19,Noida UP-201301 Total Area 1412.76 Built Up Area 2067.56 Whether Inherited N Purchase Date 1990-05-01 Purchase Cost 188000.00 Development Cost 1044248.00 1,82,16,276  1 Crore+ H-46,Sec-27 Noida,UP 201301 Total Area 3616.68 Built Up Area 3903.54 Whether Inherited N Purchase Date 2010-03-30 Purchase Cost 14608530.00 Development Cost 0.00 5,44,61,161  5 Crore+ A-101 New Ashok Nagar,Delhi-09 Total Area 1925.71 Built Up Area 1829.87 Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,56,04,320  1 Crore+",
+                    "spouse_details": "1/2 Share 404,Sec 15A,Noida UP 201301  Total Area 2421.88 Built Up Area 3826.61 Whether Inherited N Purchase Date 1999-12-24 Purchase Cost 4295205.00 Development Cost 4581594.00 7,21,98,583  7 Crore+",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "v",
+                    "description": "Others",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                }
+            ]
+        },
+        "liabilities": {
+            "report_status": "No Problems in Reading Affidavit Information",
+            "grand_total_of_liabilities_self_rupees": 30353802,
+            "grand_total_of_liabilities_spouse_rupees": 9245091,
+            "grand_total_of_liabilities_dependent1_rupees": 932495,
+            "grand_total_of_liabilities_dependent2_rupees": 374350,
+            "grand_total_of_liabilities_dependent3_rupees": 0,
+            "grand_total_of_liabilities_total_rupees": 40905738,
+            "grand_total_of_all_govt_dues_self_rupees": 0,
+            "grand_total_of_all_govt_dues_spouse_rupees": 0,
+            "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+            "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+            "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+            "grand_total_of_all_govt_dues_total_rupees": 0,
+            "any_other_liabilities_in_dispute": {
+                "self_amount_rupees": 0,
+                "spouse_amount_rupees": 0,
+                "huf_amount_rupees": 0,
+                "dependent1_amount_rupees": 0,
+                "dependent2_amount_rupees": 0,
+                "dependent3_amount_rupees": 0,
+                "total_amount_rupees": 0,
+                "details": "Nil"
+            },
+            "items": [
+                {
+                    "sr_no": "i",
+                    "description": "Loans from Banks / FIs",
+                    "self_value_rupees": 5311896,
+                    "spouse_value_rupees": 5311896,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 10623792,
+                    "self_details": "Standerd Charted Bank,Chennai,Home Loan 53,11,896  53 Lacs+",
+                    "spouse_details": "Standerd Charted Bank,Chennai,Home Loan  53,11,896  53 Lacs+",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Loans due to Individual / Entity",
+                    "self_value_rupees": 30205077,
+                    "spouse_value_rupees": 3926585,
+                    "dependent1_value_rupees": 932495,
+                    "dependent2_value_rupees": 374350,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 30205077,
+                    "self_details": "Ashok Bhardwaj,Unface Loan 1,00,000  1 Lacs+ Deepak Malhotra,Unface Loan 30,00,000  30 Lacs+ Dhiraj Saxena,Unface Loan 50,000  50 Thou+ Dr Uma Sharma,Unface Loan 1,04,55,106  1 Crore+ Davijender Kumar Mahele,Unface Loan 12,00,000  12 Lacs+ Geeta Sharma,Unface Loan 1,00,000  1 Lacs+ Kamal Kishor Sharma,Unface Loan 3,15,000  3 Lacs+ Kartik Sharma,Unface Loan 18,00,000  18 Lacs+ Kusum Chaturbedi,Unface Loan 30,000  30 Thou+ Mahesh Saxena,Unface Loan 8,00,000  8 Lacs+ Punam Dahiya,Unface Loan 10,10,000  10 Lacs+ Parbhakar,Unface Loan 1,00,000  1 Lacs+ Ranjan Mahele,Unface Loan 10,00,000  10 Lacs+ Sameer Malhotra,Unface Loan 30,00,000  30 Lacs+ Suresh Chand Sharma,Unface Loan 1,00,000  1 Lacs+ Yogender Kumar Sharma,Unface Loan 7,30,000  7 Lacs+ JS Dahiya,Unface Loan 75,000  75 Thou+ Kusum Chaturvedi 11,00,000  11 Lacs+",
+                    "spouse_details": "Ashok Sharma,Unface Loan 3,75,000  3 Lacs+ Vavita Sharma,Unface Loan 1,50,000  1 Lacs+ Dr Sanjay Malik,Unface Loan 50,000  50 Thou+ Dr Saran Prasad,Unface Loan 14,70,126  14 Lacs+ Kartik Sharma,Unface Loan 2,38,000  2 Lacs+ Laxmi Sharma,Unface Loan 2,90,000  2 Lacs+ Mangeram Sharma,Unface Loan 1,10,000  1 Lacs+ Ram Avtar,Unface Loan 2,00,000  2 Lacs+ Rishi Kumar,Unface Loan 3,00,000  3 Lacs+ Sangeeta Sharma,Unface Loan 4,00,000  4 Lacs+ Shiv Shankar Sharma,Unface Loan 1,50,000  1 Lacs+ Vinod Sharma,Unface Loan 2,00,000  2 Lacs+",
+                    "dependent1_details": "Dr Raman Tyagi,Unface Loan 9,32,495  9 Lacs+",
+                    "dependent2_details": "Dr Uma Sharma,Unface Loan 2,70,810  2 Lacs+ Dr Mahesh Sharma,Unface Loan 1,03,540  1 Lacs+",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Any other Liability",
+                    "self_value_rupees": 76800,
+                    "spouse_value_rupees": 69,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 76869,
+                    "self_details": "76,800",
+                    "spouse_details": "69",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": "ii",
+                    "description": "Dues to departments dealing with government accommodation",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Dues to departments dealing with supply of water",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Dues to departments dealing with supply of electricity",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Dues to departments dealing with telephones",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Dues to departments dealing with supply of transport",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Income Tax Dues",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Wealth Tax Dues",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Service Tax Dues",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Property Tax Dues",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Sales Tax Dues",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                },
+                {
+                    "sr_no": null,
+                    "description": "Any Other Dues",
+                    "self_value_rupees": 0,
+                    "spouse_value_rupees": 0,
+                    "dependent1_value_rupees": 0,
+                    "dependent2_value_rupees": 0,
+                    "dependent3_value_rupees": 0,
+                    "total_value_rupees": 0,
+                    "self_details": "Nil",
+                    "spouse_details": "Nil",
+                    "dependent1_details": "Nil",
+                    "dependent2_details": "Nil",
+                    "dependent3_details": "Nil"
+                }
+            ]
+        },
+        "election_declarations": [
+            {
+                "election_name": "Lok Sabha 2024",
+                "declared_assets_rupees": 838209103,
+                "declared_cases": 0
+            },
+            {
+                "election_name": "Lok Sabha 2019",
+                "declared_assets_rupees": 478759568,
+                "declared_cases": 0
+            },
+            {
+                "election_name": "Uttar Pradesh 2012",
+                "declared_assets_rupees": 374562512,
+                "declared_cases": 0
+            },
+            {
+                "election_name": "Lok Sabha 2009",
+                "declared_assets_rupees": 158575632,
+                "declared_cases": 1
+            }
+        ]
     }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 113468,
-      "bank_deposits_inr": 8515083,
-      "bonds_debentures_shares_inr": 46830475,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 5661831,
-      "personal_loans_advance_given_inr": 72583800,
-      "motor_vehicles_inr": 2815000,
-      "jewellery_inr": 306813,
-      "other_assets_inr": 5917895,
-      "gross_total_value_inr": 123998624
-    },
-    "spouse": {
-      "cash_inr": 116511,
-      "bank_deposits_inr": 1956187,
-      "bonds_debentures_shares_inr": 13115425,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 2014379,
-      "personal_loans_advance_given_inr": 23565276,
-      "motor_vehicles_inr": 10717904,
-      "jewellery_inr": 2400000,
-      "other_assets_inr": 1849382,
-      "gross_total_value_inr": 56810354
-    },
-    "dependent1": {
-      "cash_inr": 5400,
-      "bank_deposits_inr": 1876992,
-      "bonds_debentures_shares_inr": 6982625,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 219173,
-      "personal_loans_advance_given_inr": 108800000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 72071,
-      "gross_total_value_inr": 19654261
-    },
-    "dependent2": {
-      "cash_inr": 148400,
-      "bank_deposits_inr": 443826,
-      "bonds_debentures_shares_inr": 4545863,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 3793540,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 25716,
-      "gross_total_value_inr": 9177658
-    },
-    "dependent3": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 0
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": [
-        {
-          "description": "1/2 Share 404,Sec 15A,Noida UP 201301",
-          "total_area_sqft": 2421.88,
-          "built_up_area_sqft": 3826.61,
-          "inherited": "N",
-          "purchase_date": "1999-12-24",
-          "purchase_cost_inr": 4295205,
-          "development_cost_inr": 4581594,
-          "current_market_value_inr": 72198583
-        },
-        {
-          "description": "C-318 Sec 19,Noida UP_201301",
-          "total_area_sqft": 1230.31,
-          "built_up_area_sqft": 1800.55,
-          "inherited": "N",
-          "purchase_date": "2011-02-15",
-          "purchase_cost_inr": 5872260,
-          "development_cost_inr": 0,
-          "current_market_value_inr": 15863774
-        },
-        {
-          "description": "C-319,Sec-19 Noida UP-201301",
-          "total_area_sqft": 1210.94,
-          "built_up_area_sqft": 1772.19,
-          "inherited": "N",
-          "purchase_date": "2011-02-15",
-          "purchase_cost_inr": 7246025,
-          "development_cost_inr": 0,
-          "current_market_value_inr": 15613951
-        },
-        {
-          "description": "C-320 Sec-19,Noida UP-201301",
-          "total_area_sqft": 1412.76,
-          "built_up_area_sqft": 2067.56,
-          "inherited": "N",
-          "purchase_date": "1990-05-01",
-          "purchase_cost_inr": 188000,
-          "development_cost_inr": 1044248,
-          "current_market_value_inr": 18216276
-        },
-        {
-          "description": "H-46,Sec-27 Noida,UP 201301",
-          "total_area_sqft": 3616.68,
-          "built_up_area_sqft": 3903.54,
-          "inherited": "N",
-          "purchase_date": "2010-03-30",
-          "purchase_cost_inr": 14608530,
-          "development_cost_inr": 0,
-          "current_market_value_inr": 54461161
-        },
-        {
-          "description": "A-101 New Ashok Nagar,Delhi-09",
-          "total_area_sqft": 1925.71,
-          "built_up_area_sqft": 1829.87,
-          "inherited": "Y",
-          "purchase_date": "0000-00-00",
-          "purchase_cost_inr": 0,
-          "development_cost_inr": 0,
-          "current_market_value_inr": 15604320
-        }
-      ],
-      "others_inr": 0,
-      "total_current_market_value_inr": 191958065
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": [
-        {
-          "description": "1/2 Share 404,Sec 15A,Noida UP 201301",
-          "total_area_sqft": 2421.88,
-          "built_up_area_sqft": 3826.61,
-          "inherited": "N",
-          "purchase_date": "1999-12-24",
-          "purchase_cost_inr": 4295205,
-          "development_cost_inr": 4581594,
-          "current_market_value_inr": 72198583
-        }
-      ],
-      "others_inr": 0,
-      "total_current_market_value_inr": 72198583
-    },
-    "dependent1": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": [],
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    },
-    "dependent2": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": [],
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    },
-    "dependent3": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": [],
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 5311896,
-      "loans_due_to_individual_entity_inr": 24967500,
-      "any_other_liability_inr": 76800,
-      "grand_total_of_liabilities_inr": 30356196
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 5311896,
-      "loans_due_to_individual_entity_inr": 3953126,
-      "any_other_liability_inr": 69,
-      "grand_total_of_liabilities_inr": 9265091
-    },
-    "dependent1": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 932495,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 932495
-    },
-    "dependent2": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 374350,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 374350
-    },
-    "dependent3": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Chairman and Prbandak Nideshak",
-    "spouse": "Doctorate",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
-  }
 }

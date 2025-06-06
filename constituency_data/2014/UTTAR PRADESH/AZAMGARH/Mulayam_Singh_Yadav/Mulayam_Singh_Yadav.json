@@ -2,162 +2,509 @@
   "candidate_name": "Mulayam Singh Yadav",
   "party": "SP",
   "constituency": "AZAMGARH",
-  "father_or_husband_name": "Sughar Singh",
-  "age": 74,
-  "education": "Post Graduate M.A.(Pol Sci), Agra University , Year 1968 , B.T., Agra University, Year 1964., B.A., Agra University, Year 1962., Intermediate Secondary Education Council (U.P.) Year 1959., High School Secondary Education Council., U.P. Year 1957",
-  "profession_self": "Agriculture Work & Social Public Interest",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 159671544,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 2377707
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 185320
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 77553,
-      "bank_deposits_inr": 12159346.4,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 864265,
-      "gross_total_value_inr": 13098164.4
-    },
-    "spouse": {
-      "cash_inr": 28466,
-      "bank_deposits_inr": 863934,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1767306,
-      "jewellery_inr": 19356676,
-      "other_assets_inr": 80044,
-      "gross_total_value_inr": 22096426
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 78988000,
-      "non_agricultural_land": {
-        "description": "1 Plot Friends Colony, Itaya",
-        "area_sq_mtr": 464.51,
-        "inherited": "N",
-        "purchase_date": "1987-07-12",
-        "purchase_cost_inr": 56000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2250000
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sughar Singh",
+      "age": 74,
+      "voter_enrolled_in": {
+        "constituency": "199, Jaswant Nagar (U.P.)",
+        "state": "Uttar Pradesh",
+        "serial_no": 188,
+        "part_no": 199
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "218 Civil Lines,Itaya",
-        "total_area_sqft": 16010,
-        "built_up_area_sqft": 13000,
-        "inherited": "N",
-        "purchase_date": "1992-03-28",
-        "purchase_cost_inr": 1080268,
-        "development_cost_inr": 2223489,
-        "current_market_value_inr": 24534039
+      "self_profession": "Agriculture Work & Social Public Interest",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 159671544,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A.(Pol Sci), Agra University , Year 1968 , B.T., Agra University, Year 1964., B.A., Agra University, Year 1962., Intermediate Secondary Education Council (U.P.) Year 1959., High School Secondary Education Council., U.P. Year 1957"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 2377707
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 185320
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 12159346,
+      "gross_total_value_spouse_rupees": 22095426,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 34254772,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 77553,
+          "spouse_value_rupees": 28466,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 106019,
+          "self_details": "77,553",
+          "spouse_details": "28,466"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 12076467,
+          "spouse_value_rupees": 839954,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12916421,
+          "self_details": "F.D.R Bank Of Baroda A/C No 3/12148 82,380  Auto Swip Account S.B.I , Lucknow No 1022301xxxxx 1,91,000  Auto Swip F.F.D. , Bank Of Baroda, New Colony, Itaya A/C, No 01/7432 12,18,000  Saving Account Bank Of Baroda, Itaya A/C, No 27xxxxx/7432 20,653  Bank Of Baroda, Lucknow A/C, No 0050010001xxxxx 18,583  Bank Of Baroda, Lucknow A/C, No 2733010000xxxxx 97,745  H.D.F.C Bank, Itaya A/c, No 189315700xxxxx 90,658.78  P.S.B, Itaya A/c, No 1xxxxx/229 6,52,810.31  S.B.I, Delhi A/C, No 1002381xxxxx 43,09,630.21  S.B.I,Lucknow, A/C, No 10223012838 10,642.10  S.B, Lucknow-C.A, No 1002782xxxxx 20,431  Bank Of Baroda Manepuri(Election A/c)No 01/20103 45,01,000",
+          "spouse_details": "F.D.R Locker A/c  5,000  Autoswip F.F.D Bank Of Baroda 1,96,305  Saving Account Bank Of Baroda, Itaya Nagar A/c, No 2724010000xxxxx 25,680  Bank Of Baroda, Lucknow No 27xxxxx/1254 27,822  U.P, Coorapative Bank, Lucknow No 3xxxxx 6,08,127"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1767306,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1767306,
+          "self_details": "Nil",
+          "spouse_details": "Cameri Toyata Car Reg No- U.P. 75-0007,  17,16,717  Year - 2005 Alivater 50,589"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 19356676,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 19356676,
+          "self_details": "Nil",
+          "spouse_details": "Mulakyan Date 2011-03-31 1,93,56,676"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 948304,
+          "spouse_value_rupees": 80044,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1028348,
+          "self_details": "Electric Instruments 23,945  Furtinure 5,93,090  Tuebe Bail 2,14,775  Invatar 36,450",
+          "spouse_details": "Furinuture 80,044"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 106112471,
+      "total_current_market_value_spouse_rupees": 19304300,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 125416771,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 78988000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 78988000,
+          "self_details": "Village Saifiya, District Itaya No-09, 100A, 100B,102B,100C,142,164 Total Area 0.78 Acres Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 37,80,000  Village - Muchara , District Itaya, Gatta No-215 Total Area 0.04 Acres Built Up Area  Whether Inherited N Purchase Date 1973-01-08 Purchase Cost 4077.00 Development Cost 0.00 2,00,000  Village - Nayakpura, Tehsil Karhal, District- Manipuri Gatta No-1486 Total Area 1.01 Acres Built Up Area  Whether Inherited N Purchase Date 1973-03-08 Purchase Cost 10611.00 Development Cost 0.00 48,96,000  Village Nayakpura, Tehsil, Karhal, District- Manipuri Gatta No-1486 A Total Area 0.19 Acres Built Up Area  Whether Inherited N Purchase Date 1977-07-23 Purchase Cost 1456.00 Development Cost 0.00 9,24,000  Village Nayakpura, Tehsil Karhal, District Manipuri Gatta No-1484 Total Area 1.14 Acres Built Up Area  Whether Inherited N Purchase Date 1977-07-23 Purchase Cost 22801.00 Development Cost 0.00 55,32,000  Village-Nayakpura,Tehsil Karhal, District Manipuri Gatta No-1487 Total Area 0.50 Acres Built Up Area  Whether Inherited N Purchase Date 1978-07-19 Purchase Cost 6730.00 Development Cost 0.00 24,24,000  Village-Saifiya, District Itaya Gatta No-9, 100 A, 100B, 100C,142,164 Total Area 0.60 Acres Built Up Area  Whether Inherited N Purchase Date 1978-02-21 Purchase Cost 20005.00 Development Cost 0.00 29,04,000  Village Muchera , District Itaya Gatta No. 301 Total Area 11.11 Acres Built Up Area  Whether Inherited N Purchase Date 1998-07-06 Purchase Cost 2597030.00 Development Cost 0.00 5,39,52,000  Village- Muchera, District- Itaya Gatta No-302 Total Area 0.01 Acres Built Up Area  Whether Inherited N Purchase Date 1998-07-06 Purchase Cost 2700.00 Development Cost 0.00 50,000  Village Muchera , District- Manipuri Gatta No-302 Total Area 0.03 Acres Built Up Area  Whether Inherited N Purchase Date 1998-07-06 Purchase Cost 7700.00 Development Cost 0.00 1,50,000  Village - Muchera, District- Itaya Gatta No-321 Total Area 0.86 Acres Built Up Area  Whether Inherited N Purchase Date 1998-09-21 Purchase Cost 33150.00 Development Cost 0.00 41,76,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2250000,
+          "spouse_value_rupees": 12210000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14460000,
+          "self_details": "1 Plot Friends Colony, Itaya Total Area 5000 Sq.Ft. Built Up Area  Whether Inherited N Purchase Date 1987-07-12 Purchase Cost 56000.00 Development Cost 0.00 22,50,000",
+          "spouse_details": "1 Polts Gomati Nagar, Lucknow A-2/86 Vijay Khand, Gomati Nagar, Lucknow Total Area 5974 Sq.Ft Built Up Area  Whether Inherited N Purchase Date 1998-06-26 Purchase Cost 600000.00 Development Cost 0.00 1,22,10,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 24534039,
+          "spouse_value_rupees": 7094300,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 31628339,
+          "self_details": "218 Civil Lines,Itaya Total Area 16010 Sq.Ft Built Up Area 13000 Sq.Ft Whether Inherited N Purchase Date 1992-03-28 Purchase Cost 1080268.00 Development Cost 2223489.00 2,45,34,039",
+          "spouse_details": "1 Residental Bahwan Vishwas Khand- Lucknow 1/103 Gomati Nagar, Lucknow Total Area 3230 Sq.Ft Built Up Area 3230 Sq.Ft Whether Inherited N Purchase Date 1994-03-31 Purchase Cost 522500.00 Development Cost 494300.00 70,94,300"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 340432,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 340432,
+          "self_details": "Shri Sudhar Singh Yadav At Inhrited to get Joint Family Of House Village Saifiya District Itaya Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 3,40,432",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 340432,
-      "total_current_market_value_inr": 106112471
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "1 Polts Gomati Nagar, Lucknow A-2/86 Vijay Khand, Gomati Nagar, Lucknow",
-        "area_sq_mtr": 554.91,
-        "inherited": "N",
-        "purchase_date": "1998-06-26",
-        "purchase_cost_inr": 600000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 12210000
+    "other_elections": [
+      {
+        "election": "Lok Sabha 2009",
+        "declared_assets_rupees": 22399320,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "1 Residental Bahwan Vishwas Khand- Lucknow 1/103 Gomati Nagar, Lucknow",
-        "total_area_sqft": 3230,
-        "built_up_area_sqft": 3230,
-        "inherited": "N",
-        "purchase_date": "1994-03-31",
-        "purchase_cost_inr": 522500,
-        "development_cost_inr": 494300,
-        "current_market_value_inr": 7094300
+      {
+        "election": "Uttar Pradesh 2007",
+        "declared_assets_rupees": 23645849,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 19304300
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election": "Uttar Pradesh 2007",
+        "declared_assets_rupees": 23645849,
+        "declared_cases": 0
+      },
+      {
+        "election": "Lok Sabha 2004",
+        "declared_assets_rupees": 11541224,
+        "declared_cases": 2
+      }
+    ]
   }
 }

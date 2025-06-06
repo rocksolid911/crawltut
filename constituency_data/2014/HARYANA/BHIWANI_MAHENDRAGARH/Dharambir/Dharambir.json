@@ -1,154 +1,781 @@
 {
   "candidate_name": "DHARAMBIR",
   "party": "BJP",
-  "constituency": "BHIWANI MAHENDRAGARH (HARYANA)",
-  "father_or_husband_name": "Sh. Bhale Ram",
-  "age": 59,
-  "education": "Graduate B.A. from Vaish College, Bhiwani, K.U. Kurukshetra in 1977, Matric from GHS, Dhanana, BSEH in 1971.",
-  "profession_self": "Business",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 50057200,
-  "liabilities_total_inr": 4530000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 1832971
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 1539849
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 1538045
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 55000,
-      "bank_deposits_inr": 338828,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 800000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1100000,
-      "jewellery_inr": 150000,
-      "other_assets_inr": 77000,
-      "gross_total_value_inr": 2525828
-    },
-    "spouse": {
-      "cash_inr": 30000,
-      "bank_deposits_inr": 217330,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2700000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3047330
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Land-16 Kanal 7 Marla Khasra No.32/18 Gaindawas Vill., Tehsil-Siwani, Dist.-Bhiwani",
-        "area_sq_ft": 89025.75,
-        "inherited": "N",
-        "purchase_date": "2003-01-27",
-        "purchase_cost_inr": 113000,
-        "development_cost_inr": 100000,
-        "current_market_value_inr": 3500000
+  "constituency": "BHIWANI MAHENDRAGARH",
+  "state": "HARYANA",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sh. Bhale Ram",
+      "age": 59,
+      "voter_enrolled_in": {
+        "constituency": "57-Bhiwani",
+        "state": "Haryana",
+        "serial_no": 1070,
+        "part_no": 26
       },
-      "commercial_buildings_inr": 2000000,
-      "residential_buildings": {
-        "description": "Area-12 Marlas Khasra No.177/22/1/2, Revenue Estate, Bhiwani Lohar",
-        "total_area_sqft": 3267,
-        "built_up_area_sqft": 1900,
-        "inherited": "N",
-        "purchase_date": "1987-10-16",
-        "purchase_cost_inr": 4950000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4200000
+      "self_profession": "Business",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 50057200,
+      "total_liabilities_in_rupees": 4530000
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A. from Vaish College, Bhiwani, K.U. Kurukshetra in 1977, Matric from GHS, Dhanana, BSEH in 1971."
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1832971
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1539849
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1538045
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2525628,
+      "gross_total_value_spouse_rupees": 3047330,
+      "gross_total_value_dependent1_rupees": 231938,
+      "gross_total_value_dependent2_rupees": 152304,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5957200,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 55000,
+          "spouse_value_rupees": 30000,
+          "dependent1_value_rupees": 25000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 110000,
+          "self_details": {
+            "amount_rupees": 55000
+          },
+          "spouse_details": {
+            "amount_rupees": 30000
+          },
+          "dependent1_details": {
+            "amount_rupees": 25000
+          },
+          "dependent2_details": {
+            "amount_rupees": 0
+          },
+          "dependent3_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 343628,
+          "spouse_value_rupees": 217330,
+          "dependent1_value_rupees": 206938,
+          "dependent2_value_rupees": 152304,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 920200,
+          "self_details": [
+            {
+              "bank": "Haryana State Coop. Appex Bank Ltd.",
+              "branch": "Sec-17B, Chandigarh",
+              "account_no": "00023400100xxxxx",
+              "amount_rupees": 24827
+            },
+            {
+              "bank": "SBI",
+              "branch": "Sec-17-B, Chandigarh",
+              "account_no": "1084771xxxxx",
+              "amount_rupees": 304003
+            },
+            {
+              "bank": "SBOP (MS) Bhiwani",
+              "account_no": "6502376xxxxx",
+              "amount_rupees": 5117
+            },
+            {
+              "bank": "Sarva HGB",
+              "branch": "Bhiwani",
+              "account_no": "8002010012xxxxx",
+              "amount_rupees": 9681
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Axis Bank",
+              "branch": "Sec-14, Gurgaon",
+              "account_no": "91001002564xxxxx",
+              "amount_rupees": 170050
+            },
+            {
+              "bank": "OBC",
+              "branch": "Vaish Sr. Sec. School Branch Bhiwani",
+              "account_no": "1169201001xxxxx",
+              "amount_rupees": 2951
+            },
+            {
+              "bank": "PNB",
+              "branch": "Clock Tower, Bhiwani",
+              "account_no": "329600010204xxxxx",
+              "amount_rupees": 44329
+            }
+          ],
+          "dependent1_details": [
+            {
+              "bank": "Axis Bank",
+              "branch": "Sec-14, Gurgaon",
+              "account_no": "910010019763881",
+              "amount_rupees": 206938
+            }
+          ],
+          "dependent2_details": [
+            {
+              "bank": "SBOP (MS) Bhiwani",
+              "account_no": "6503914xxxxx",
+              "amount_rupees": 152304
+            }
+          ],
+          "dependent3_details": []
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 900000,
+          "self_details": [
+            {
+              "policy_no": "17966xxxxx",
+              "amount_rupees": 500000
+            },
+            {
+              "policy_no": "16479xxxxx",
+              "amount_rupees": 300000
+            }
+          ],
+          "spouse_details": [
+            {
+              "policy_no": "17127xxxxx",
+              "amount_rupees": 100000
+            }
+          ],
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1100000,
+          "self_details": [
+            {
+              "make": "Endevour",
+              "model": "2006",
+              "reg_no": "HR03H0111",
+              "amount_rupees": 100000
+            },
+            {
+              "make": "Innova",
+              "model": "2013",
+              "reg_no": "CH01AS2227",
+              "amount_rupees": 1000000
+            }
+          ],
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 2700000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2850000,
+          "self_details": {
+            "type": "Gold",
+            "grams": 50,
+            "amount_rupees": 150000
+          },
+          "spouse_details": {
+            "type": "Gold",
+            "grams": 900,
+            "amount_rupees": 2700000
+          },
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 77000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 77000,
+          "self_details": [
+            {
+              "type": "Pistol",
+              "details": "0.30 Bore No 6xxxxxBN879 License No.3962MBWN",
+              "amount_rupees": 65000
+            },
+            {
+              "type": "Gun",
+              "details": "12 Bore DBBL 20605-95 License No.147 VII, Bhiwani",
+              "amount_rupees": 12000
+            }
+          ],
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 297000000,
+      "total_current_market_value_spouse_rupees": 94000000,
+      "total_current_market_value_dependent1_rupees": 50000000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 441000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 55000000,
+          "spouse_value_rupees": 50000000,
+          "dependent1_value_rupees": 50000000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 155000000,
+          "self_details": [
+            {
+              "property_type": "Land",
+              "area": "16 Kanal 7 Marla",
+              "khasra_no": "32/18 Gaindawas Vill., Tehsil-Siwani, Dist.-Bhiwani",
+              "total_area_sq_ft": 89025.75,
+              "inherited": false,
+              "purchase_date": "2003-01-27",
+              "purchase_cost_rupees": 113000,
+              "development_cost_rupees": 100000,
+              "current_value_rupees": 35000000
+            },
+            {
+              "property_type": "Unit",
+              "unit_no": "412, 4th Floor, Universal Business Park, Gurgaon",
+              "total_area_sq_ft": 1000,
+              "inherited": false,
+              "purchase_date": "2007-04-19",
+              "purchase_cost_rupees": 1500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 20000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "property_type": "H. No.",
+              "share": "1/2",
+              "address": "337 AP, 619.56 Sq.Mt. Sec-21, Gurgaon",
+              "built_up_area_sq_ft": 3638,
+              "total_area_sq_ft": 3323,
+              "inherited": false,
+              "purchase_date": "2008-12-17",
+              "purchase_cost_rupees": 109000,
+              "development_cost_rupees": 4000000,
+              "current_value_rupees": 50000000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "property_type": "H. No.",
+              "share": "1/2",
+              "address": "337 AP, 619.56 Sq.Mt. Sec-21, Gurgaon",
+              "built_up_area_sq_ft": 3638,
+              "total_area_sq_ft": 3323,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 4000000,
+              "current_value_rupees": 50000000
+            }
+          ],
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 242000000,
+          "spouse_value_rupees": 44000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 286000000,
+          "self_details": [
+            {
+              "property_type": "Area",
+              "area": "12 Marlas",
+              "khasra_no": "177/22/1/2, Revenue Estate, Bhiwani Lohar",
+              "total_area_sq_ft": 3267,
+              "built_up_area_sq_ft": 1900,
+              "inherited": false,
+              "purchase_date": "1987-10-16",
+              "purchase_cost_rupees": 4950000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 42000000
+            },
+            {
+              "property_type": "H.No.",
+              "address": "117, Sec-14, Gurgaon",
+              "area": "472.44 Sq.Yds",
+              "total_area_sq_ft": 4251,
+              "built_up_area_sq_ft": 4142,
+              "inherited": false,
+              "purchase_date": "1991-03-08",
+              "purchase_cost_rupees": 114000,
+              "development_cost_rupees": 5584000,
+              "current_value_rupees": 150000000
+            },
+            {
+              "property_type": "Area",
+              "area": "800 Sq.Yds",
+              "khasra_no": "84/6/2/2 in Ch. Dadri, Dist.-Bhiwani",
+              "total_area_sq_ft": 7200,
+              "built_up_area_sq_ft": 2594,
+              "inherited": false,
+              "purchase_date": "2014-02-20",
+              "purchase_cost_rupees": 4950000,
+              "development_cost_rupees": 380000,
+              "current_value_rupees": 50000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "property_type": "House Constructed on Plot",
+              "area": "13 Marlas",
+              "khasra_no": "177/22/1/2 in Revenue Estate Bhiwani Lohar",
+              "total_area_sq_ft": 3539,
+              "built_up_area_sq_ft": 2100,
+              "inherited": false,
+              "purchase_date": "1987-10-16",
+              "purchase_cost_rupees": 5000,
+              "development_cost_rupees": 400000,
+              "current_value_rupees": 44000000
+            }
+          ],
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 4530000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 4530000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 29700000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "i",
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 4530000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4530000,
+          "self_details": [
+            {
+              "entity": "Sectt. (Haryana Vidhan Sabha)",
+              "loan_type": "HBA",
+              "date": "2013-06-03",
+              "original_amount": 4000000,
+              "current_due_amount_rupees": 3640000
+            },
+            {
+              "entity": "Sectt. (Haryana Vidhan Sabha)",
+              "loan_type": "Motor/Car Adv.",
+              "date": "2013-03-15",
+              "original_amount": 1000000,
+              "current_due_amount_rupees": 890000
+            }
+          ],
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "i",
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "1/2 share in H. No.337 AP, 619.56 Sq.Mt. Sec-21, Gurgaon",
-        "area_sq_ft": 3323,
-        "inherited": "N",
-        "purchase_date": "2008-12-17",
-        "purchase_cost_inr": 109000,
-        "development_cost_inr": 4000000,
-        "current_market_value_inr": 5000000
+    "other_election_declarations": [
+      {
+        "election_year": 2024,
+        "declared_assets_rupees": 115664424,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "House Constructed on Plot Measuring 13 Marlas of khasra no.177/22/1/2 in Revenue Estate Bhiwani Lohar",
-        "total_area_sqft": 3539,
-        "built_up_area_sqft": 2100,
-        "inherited": "N",
-        "purchase_date": "1987-10-16",
-        "purchase_cost_inr": 5000,
-        "development_cost_inr": 400000,
-        "current_market_value_inr": 4400000
+      {
+        "election_year": 2019,
+        "declared_assets_rupees": 60642205,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 9400000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 4530000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 4530000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+      {
+        "election_year": 2009,
+        "declared_assets_rupees": 34777437,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

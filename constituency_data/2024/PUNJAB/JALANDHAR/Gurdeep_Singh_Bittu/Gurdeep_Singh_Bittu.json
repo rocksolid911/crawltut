@@ -1,128 +1,414 @@
 {
   "candidate_name": "GURDEEP SINGH BITTU",
-  "party": "IND",
   "constituency": "JALANDHAR (SC)",
-  "father_or_husband_name": "Sh. Gurdayal Singh",
+  "state": "PUNJAB",
+  "party": "IND",
+  "s_o_d_o_w_o": "Sh. Gurdayal Singh",
   "age": 55,
-  "education": "5th Pass",
-  "profession_self": "Advocate",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 1177000,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
+  "voter_enrolled_in": {
+    "constituency": "Jalandhar (Punjab)",
+    "serial_no": 0,
+    "part_no": 0
+  },
+  "self_profession": "Advocate",
+  "spouse_profession": "House Wife",
+  "criminal_cases_count": 0,
+  "assets_rupees": 1177000,
+  "liabilities_rupees": 0,
+  "educational_details": "5th Pass",
+  "pan_and_itr_details": {
+    "report_status": "No Problems in Reading Affidavit Information",
     "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 452750
-      }
+      "pan_given": true,
+      "financial_year": "2023 - 2024",
+      "total_income_shown_in_itr": 452750
     },
     "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr": 0
     },
     "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr": 0
     },
     "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
+      "pan_given": true,
+      "financial_year": "None",
+      "total_income_shown_in_itr": 0
     },
     "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr": 0
     },
     "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr": 0
     }
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 2000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 52000
+    "report_status": "No Problems in Reading Affidavit Information",
+    "cash": {
+      "self": 50000,
+      "spouse": 5000,
+      "huf": "Nil",
+      "dependent1": 2000,
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": 57000
     },
-    "spouse": {
-      "cash_inr": 5000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5000
+    "deposits_in_banks": {
+      "self": 2000,
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": 2000
+    },
+    "bonds_debentures_shares": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "nss_postal_savings": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "lic_or_other_insurance": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "personal_loans_advance_given": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "motor_vehicles": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "jewellery": {
+      "self": "Nil",
+      "spouse": "Gold 2 Tola (Value Not Given)",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": 0
+    },
+    "other_assets": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "gross_total_value_as_per_affidavit": {
+      "self": 52000,
+      "spouse": 125000,
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": 177000
+    },
+    "totals_calculated": {
+      "self": 52000,
+      "spouse": 5000,
+      "huf": "Nil",
+      "dependent1": 2000,
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": 59000
     }
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1000000,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {},
-      "others_inr": 0,
-      "total_current_market_value_inr": 1000000
+    "report_status": "No Problems in Reading Affidavit Information",
+    "agricultural_land": {
+      "self": {
+        "total_area": "Built Up Area",
+        "inherited": "N",
+        "purchase_date": "2005-03-15",
+        "purchase_cost": 175000,
+        "development_cost": 0,
+        "current_value": 10000000
+      },
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": 10000000
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {},
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
+    "non_agricultural_land": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "commercial_buildings": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "residential_buildings": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "others_immovable": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "total_current_market_value_as_per_affidavit": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "totals_calculated": {
+      "self": 10000000,
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": 10000000
     }
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "report_status": "No Problems in Reading Affidavit Information",
+    "loans_from_banks_fis": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "loans_due_to_individual_entity": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
+    "any_other_liability": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
     },
-    "other_liabilities_in_dispute_inr": 0
+    "grand_total_of_liabilities_as_per_affidavit": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "dues_to_departments_govt_accommodation": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "dues_to_departments_water": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "dues_to_departments_electricity": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "dues_to_departments_telephones": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "dues_to_departments_transport": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "income_tax_dues": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "wealth_tax_dues": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "service_tax_dues": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "property_tax_dues": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "sales_tax_dues": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "gst_dues": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "any_other_dues": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "grand_total_of_all_govt_dues_as_per_affidavit": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "any_other_liabilities_in_dispute": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    },
+    "totals_calculated": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "huf": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "total": "Nil"
+    }
   },
   "sources_of_income": {
     "self": "Advocate",
     "spouse": "House Wife",
-    "dependent": "Rs. 10000"
+    "dependent": 10000
   },
-  "contracts": {
-    "entered_by_candidate": "No",
-    "entered_by_spouse": "No",
-    "entered_by_dependent": "No",
-    "entered_by_huf_trust": "No",
-    "entered_by_partnership_firms": "No",
-    "entered_by_private_companies": "No"
+  "contracts_with_govt_and_public_companies": {
+    "candidate": "No",
+    "spouse": "No",
+    "dependent": "No",
+    "huf_or_trust": "No",
+    "partnership_firms": "No",
+    "private_companies": "No"
   }
 }

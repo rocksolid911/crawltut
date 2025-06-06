@@ -1,172 +1,843 @@
 {
   "candidate_name": "AKHILESH YADAV",
   "party": "SP",
-  "constituency": "AZAMGARH (UTTAR PRADESH)",
-  "father_or_husband_name": "Mulayam Singh Yadav",
-  "age": 45,
-  "education": "Graduate Professional B.E From B.E Civil Environment Mysore University In 1994-95, Intermediate from Dholpur Military School, Dholpur in 1990",
-  "profession_self": "Agriculture & Social Work",
-  "profession_spouse": "House Wife & Social Work",
-  "criminal_cases": 0,
-  "assets_total_inr": 377859166,
-  "liabilities_total_inr": 2853000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 8483063,
-        "2016-2017": 7166998,
-        "2015-2016": 7736174,
-        "2014-2015": 4875905,
-        "2013-2014": 12511142
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 6145073,
-        "2016-2017": 5595690,
-        "2015-2016": 5367911,
-        "2014-2015": 3058930,
-        "2013-2014": 2831838
-      }
-    },
-    "huf": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 391040,
-      "bank_deposits_inr": 39879202,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 3018762,
-      "personal_loans_advance_given_inr": 21857659,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 76015,
-      "other_assets_inr": 551543,
-      "gross_total_value_inr": 79001116
-    },
-    "spouse": {
-      "cash_inr": 403743,
-      "bank_deposits_inr": 31317544,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 2526958,
-      "personal_loans_advance_given_inr": 329181,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 5976687,
-      "other_assets_inr": 125000,
-      "gross_total_value_inr": 36816108
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 78892000,
-      "non_agricultural_land": {
-        "description": "Plot Friends Colony Itawa",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "1998-05-13",
-        "purchase_cost_inr": 211000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2150000
+  "constituency": "AZAMGARH",
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Mulayam Singh Yadav",
+      "age": 45,
+      "voter_enrolled_in": {
+        "constituency": "199 Jaswantnagar",
+        "state": "Uttar Pradesh",
+        "serial_no": 533,
+        "part_no": 228
       },
-      "commercial_buildings_inr": 40826440,
-      "residential_buildings": {
-        "description": "1-A Vikramditya Marg Lucknow 1/2",
-        "total_area_sqft": 24191,
-        "built_up_area_sqft": 8000,
-        "inherited": "N",
-        "purchase_date": "2005-01-31",
-        "purchase_cost_inr": 1955644,
-        "development_cost_inr": 2210000,
-        "current_market_value_inr": 47153501
+      "self_profession": "Agriculture & Social Work",
+      "spouse_profession": "House Wife & Social Work"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 377859166,
+      "total_liabilities_in_rupees": 2853000
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.E From B.E Civil Environment Mysore University In 1994-95, Intermediate from Dholpur Military School, Dholpur in 1990"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 8483063
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 7166998
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 7736174
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 4875905
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 12511142
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 6145073
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 5595690
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 5367911
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 3058930
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 2831838
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 79001116,
+      "gross_total_value_spouse_rupees": 36816108,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 115817224,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 391040,
+          "spouse_value_rupees": 403743,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 794783
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 80524871,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 80524871,
+          "self_details": [
+            {
+              "bank": "Bank Of Baroda",
+              "branch": "Etawah",
+              "account_type": "Auto Sweep F.F.D",
+              "account_no": "27240100007435",
+              "amount_rupees": 313629
+            },
+            {
+              "bank": "Bank of Baroda",
+              "branch": "Lucknow",
+              "account_type": null,
+              "account_no": "27330100001255",
+              "amount_rupees": 390000
+            },
+            {
+              "bank": "Axis Bank",
+              "branch": "Lucknow",
+              "account_type": "Saving Account",
+              "account_no": "914010045717584",
+              "amount_rupees": 3520167
+            },
+            {
+              "bank": "Bank Of Baroda",
+              "branch": "Itawa",
+              "account_type": null,
+              "account_no": "27240100007435",
+              "amount_rupees": 29858
+            },
+            {
+              "bank": "Bank Of Baroda",
+              "branch": "Lucknow",
+              "account_type": null,
+              "account_no": "27330100001255",
+              "amount_rupees": 27001
+            },
+            {
+              "bank": "Punjab & Sindh Bank",
+              "branch": "Itawa",
+              "account_type": null,
+              "account_no": "11941000000233",
+              "amount_rupees": 39879202
+            },
+            {
+              "bank": "SBI",
+              "branch": "New Delhi",
+              "account_type": null,
+              "account_no": "1002381xxxxx",
+              "amount_rupees": 8912575
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Bank Of Baroda",
+              "branch": "Itawa",
+              "account_type": "FDR",
+              "amount_rupees": 3770192
+            },
+            {
+              "bank": "HDFC Bank",
+              "branch": "Itawa",
+              "amount_rupees": 2021950
+            },
+            {
+              "bank": "SBI",
+              "branch": "New Delhi",
+              "account_type": "Saving Account",
+              "account_no": "32891503909",
+              "amount_rupees": 3928730
+            },
+            {
+              "bank": "Axis Bank",
+              "branch": "Lucknow",
+              "account_type": null,
+              "account_no": "914010045940469",
+              "amount_rupees": 7005259
+            },
+            {
+              "bank": "City Bank",
+              "branch": "Lucknow",
+              "account_type": null,
+              "account_no": "5011433369",
+              "amount_rupees": 3098819
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "Lucknow",
+              "account_type": null,
+              "account_no": "110401501674",
+              "amount_rupees": 8425
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "Lucknow",
+              "account_type": null,
+              "account_no": "110401502712",
+              "amount_rupees": 86170
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "Lucknow",
+              "account_type": null,
+              "account_no": "628101553760",
+              "amount_rupees": 796530
+            },
+            {
+              "bank": "Punjab & Sindh Bank",
+              "branch": "Itawa",
+              "account_type": null,
+              "account_no": "1194100000232",
+              "amount_rupees": 6736364
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 5550820,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5550820,
+          "self_details": [
+            {
+              "policy_type": "LIC",
+              "amount_rupees": 935592
+            },
+            {
+              "policy_type": "General Insurance",
+              "amount_rupees": 119122
+            },
+            {
+              "policy_type": "Policy R.B S. Bank Lucknow",
+              "amount_rupees": 1000000
+            },
+            {
+              "policy_type": "Lic Policy",
+              "amount_rupees": 405048
+            },
+            {
+              "policy_type": "Stamp Axis Bank Lucknow Rent Agreement",
+              "amount_rupees": 564000
+            }
+          ],
+          "spouse_details": [
+            {
+              "policy_type": "Birla Sunlife Insurance",
+              "amount_rupees": 1962168
+            },
+            {
+              "policy_type": "General Insurance",
+              "amount_rupees": 47890
+            },
+            {
+              "policy_type": "Stamp Axis Bank Lucknow Rent Agreement",
+              "amount_rupees": 517000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 22217505,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 22217505,
+          "self_details": [
+            {
+              "name": "Shri Mulyam Sing Yadav",
+              "amount_rupees": 21380000
+            },
+            {
+              "name": "Security U.P.P.C.L Electricity Company",
+              "amount_rupees": 45000
+            },
+            {
+              "name": "Sudhar Singh Yadav HUF",
+              "amount_rupees": 215765
+            },
+            {
+              "name": "Security Electricity Institute",
+              "amount_rupees": 245559
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Income Tax Refundable",
+              "amount_rupees": 232701
+            },
+            {
+              "name": "GST Refundable",
+              "amount_rupees": 98480
+            }
+          ]
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 6729245,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6729245,
+          "self_details": [
+            {
+              "item": "Cellular Phone",
+              "amount_rupees": 76015
+            },
+            {
+              "item": "Furniture",
+              "amount_rupees": 17085
+            },
+            {
+              "item": "Machine",
+              "amount_rupees": 534458
+            }
+          ],
+          "spouse_details": [
+            {
+              "item": "Jewellery",
+              "weight_gram": 2774.674,
+              "pearl_gram": 203,
+              "diamonds_carat": 127.75,
+              "amount_rupees": 5976687
+            },
+            {
+              "item": "Computer",
+              "amount_rupees": 125000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 169021941,
+      "total_current_market_value_spouse_rupees": 93020001,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 262041942,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 78892000,
+          "spouse_value_rupees": 5040060,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 83932060,
+          "self_details": [
+            {
+              "location": "Muchara Safai Itawa",
+              "total_area_acre": 17.93,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 1496541,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 78892000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Muchara Safai",
+              "total_area_acre": 0.81,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2016-02-03",
+              "purchase_cost_rupees": 4340060,
+              "development_cost_rupees": 700000,
+              "current_value_rupees": 5040060
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2150000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2150000,
+          "self_details": [
+            {
+              "location": "Plot Friends Colony Itawa",
+              "total_area_sq_ft": 86,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "1998-05-13",
+              "purchase_cost_rupees": 211000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2150000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 40826440,
+          "spouse_value_rupees": 40826440,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 81652880,
+          "self_details": [
+            {
+              "location": "Dilkusha M.G. Road 31/93 Ka",
+              "total_area_sq_ft": 10100,
+              "built_up_area_sq_ft": 5050,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 2705425,
+              "development_cost_rupees": 1050000,
+              "current_value_rupees": 40826440
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Dilkusha M.G.Road 31/93 Ka",
+              "total_area_sq_ft": 10100,
+              "built_up_area_sq_ft": 5050,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 2925767,
+              "development_cost_rupees": 1050000,
+              "current_value_rupees": 40826440
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 47153501,
+          "spouse_value_rupees": 47153501,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 94307002,
+          "self_details": [
+            {
+              "location": "1-A Vikramditya Marg Lucknow",
+              "total_area_sq_ft": 24191,
+              "built_up_area_sq_ft": 8000,
+              "inherited": false,
+              "purchase_date": "2005-01-31",
+              "purchase_cost_rupees": 1955644,
+              "development_cost_rupees": 2210000,
+              "current_value_rupees": 47153501
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "1-A, Vikramditye Marg, Lucknow Ka",
+              "total_area_sq_ft": 24191,
+              "built_up_area_sq_ft": 8000,
+              "inherited": false,
+              "purchase_date": "2005-01-31",
+              "purchase_cost_rupees": 1953644,
+              "development_cost_rupees": 2210000,
+              "current_value_rupees": 47153501
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1426500,
+      "grand_total_of_liabilities_spouse_rupees": 1426500,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2853000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 169021941
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1426500,
+          "spouse_value_rupees": 1426500,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2853000,
+          "self_details": [
+            {
+              "bank": "Axis Bank",
+              "loan_type": "Security",
+              "amount_rupees": 1426500
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Axis Bank",
+              "loan_type": "Security",
+              "amount_rupees": 1426500
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 5040060,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 40826440,
-      "residential_buildings": {
-        "description": "1-A, Vikramditye Marg, Lucknow Ka 1/2-Half",
-        "total_area_sqft": 24191,
-        "built_up_area_sqft": 8000,
-        "inherited": "N",
-        "purchase_date": "2005-01-31",
-        "purchase_cost_inr": 1953644,
-        "development_cost_inr": 2210000,
-        "current_market_value_inr": 47153501
+    "profession_or_occupation": {
+      "self": "Agriculture & Social Work",
+      "spouse": "House Wife & Social Work"
+    },
+    "sources_of_income": {
+      "self": "Salary, Rent, Agriculture",
+      "spouse": "Salary, Rent, Agriculture",
+      "dependent": "NILL"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NILL",
+      "spouse": "NILL",
+      "dependent": "NILL",
+      "huf_or_trust": "NILL",
+      "partnership_firms": "NILL",
+      "private_companies": "NILL"
+    },
+    "other_elections": [
+      {
+        "election": "Lok Sabha 2024",
+        "declared_assets_in_rupees": 420262015,
+        "declared_cases": 3
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 93020001
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1426500,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1426500
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1426500,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1426500
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Salary, Rent, Agriculture",
-    "spouse": "Salary, Rent, Agriculture",
-    "dependent": "NILL"
-  },
-  "contracts": {
-    "entered_by_candidate": "NILL",
-    "entered_by_spouse": "NILL",
-    "entered_by_dependent": "NILL",
-    "entered_by_huf_trust": "NILL",
-    "entered_by_partnership_firms": "NILL",
-    "entered_by_private_companies": "NILL"
+      {
+        "election": "Uttar Pradesh 2022",
+        "declared_assets_in_rupees": 401494817,
+        "declared_cases": 1
+      },
+      {
+        "election": "Lok Sabha 2009",
+        "declared_assets_in_rupees": 48582202,
+        "declared_cases": 0
+      },
+      {
+        "election": "Lok Sabha 2009",
+        "declared_assets_in_rupees": 44409557,
+        "declared_cases": 0
+      },
+      {
+        "election": "Lok Sabha 2004",
+        "declared_assets_in_rupees": 23142705,
+        "declared_cases": 0
+      }
+    ]
   }
 }

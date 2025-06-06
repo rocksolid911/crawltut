@@ -2,162 +2,509 @@
   "candidate_name": "AJAY KUMAR",
   "party": "BJP",
   "constituency": "KHERI",
-  "father_or_husband_name": "Ambika Prasad",
-  "age": 55,
-  "education": "Graduate Professional BSC Kaista Chach Collage Kanpur University Kanpur 1980 LLB DSB Collage Kanpur University Khnpur 1983",
-  "profession_self": "Agriculture",
-  "profession_spouse": "House wife",
-  "criminal_cases": 2,
-  "assets_total_inr": 26505977,
-  "liabilities_total_inr": 10000000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 235000
-      }
-    },
-    "spouse": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "2012-2013": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "2012-2013": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "2012-2013": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "2012-2013": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 260000,
-      "bank_deposits_inr": 1025430,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 336400,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2741000,
-      "jewellery_inr": 210000,
-      "other_assets_inr": 3480248,
-      "gross_total_value_inr": 8141367
-    },
-    "spouse": {
-      "cash_inr": 65000,
-      "bank_deposits_inr": 281610,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1468000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1814610
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Lahoirinagar Lakhimpur, purchase date 27-07-1992, 28-07-1992 Total Area 1/4th share of 42000 Built Up Area",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 42200,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 850000
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Ambika Prasad",
+      "age": 55,
+      "voter_enrolled_in": {
+        "constituency": "Nighasan",
+        "state": "Uttar Pradesh",
+        "serial_no": 251,
+        "part_no": 180
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Vanavirpur Total Area 15000Sq.ft Built Up Area 7000Sq.ft Shaharapuri kota Total Area 8000Sq.ft Built Up Area 1800Sq.ft",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 35000000
+      "self_profession": "Agriculture",
+      "spouse_profession": "House wife"
+    },
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 26505977,
+      "total_liabilities_in_rupees": 10000000
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "BSC Kaista Chach Collage Kanpur University Kanpur 1980 LLB DSB Collage Kanpur University Khnpur 1983"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 235000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Murder",
+          "ipc_section": "302",
+          "count": 1
+        },
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "302",
+          "other_details_or_acts_sections_applicable": "Crime No 41/2000, Case no. 518/2001, Acquitted by District and Sessions Judge cognizance date 13-12-2000, Case Revision filed and pending in the High Court"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "147, 323, 504, 506, 452",
+          "other_details_or_acts_sections_applicable": "Crime No 92/2005 Case.No 3592/07 3593/07, Cognizance date 22-12-2007, to have frame the charges court has given the date is 21-05-014 by A.C.J.M.-3 Court, The candidate has filed revision case against cognizance in tha A.D.J.-4, Hearing date 14-04-2014"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 8141367,
+      "gross_total_value_spouse_rupees": 1814610,
+      "gross_total_value_huf_rupees": null,
+      "gross_total_value_dependent1_rupees": null,
+      "gross_total_value_dependent2_rupees": null,
+      "gross_total_value_dependent3_rupees": null,
+      "gross_total_value_total_rupees": 9955977,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 260000,
+          "spouse_value_rupees": 65000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 325000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1004184,
+          "spouse_value_rupees": 181610,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1185794,
+          "self_details": [
+            "Jila sahakari bank, Tikuniya  1,64,605",
+            "DCB Bank 1,46,593",
+            "Allahabad Bank, Tikuniya  7,10,972",
+            "Allahabad Bank, Tikuniya  25,029",
+            "Jila sahakari bank, Tikuniya  3,046",
+            "Allahabad Bank, Tikuniya  1,083",
+            "PNB Lakhimpur 10,089",
+            "SBI Lucknow 52,302"
+          ],
+          "spouse_details": [
+            "Jila sahakari bank, Tikuniya  1,64,308",
+            "Allahabad Bank, Tikuniya 1,00,000",
+            "Jila sahakari bank, Tikuniya  2,115",
+            "Jila sahakari bank, Tikuniya  15,187"
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 336400,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 336400
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2741000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2741000,
+          "self_details": [
+            "Mahindra Thar Sports Jeep 2011 UP 31W-3565, Purchase year 09-Aug-2011 6,91,000",
+            "Sangyang rukstan RX5BS-4 UP31 AC0001 20,50,000"
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 210000,
+          "spouse_value_rupees": 1468000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1678000,
+          "self_details": "Gold 70 Gm 2,10,000",
+          "spouse_details": "Gold 480 Gm (2) Silver 700 Gm 14,68,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 3480248,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 3480248,
+          "self_details": [
+            "Invest in Ricemill 33,15,248",
+            "Rivolver 1,00,000",
+            "Rifle 65,000"
+          ]
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 9550000,
+      "total_current_market_value_spouse_rupees": 7000000,
+      "total_current_market_value_huf_rupees": null,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 16550000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": [
+            "Banvipur inherited 7.24 acre Total Area 12.19 acre Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 59500.00"
+          ],
+          "spouse_details": [
+            "Vanavipur, 0.69 acre 10.08.90 purchase amt., 6.64 acre in 10.06.2004 purchase amt. 562000 Total Area 7.33 acre Built Up Area  Whether Inherited N Purchase Date 2004-06-10 Purchase Cost 672000.00 Development Cost 0.00",
+            "Ganganagar 3.67 acre in 20-12-11, 1.50 acre Total Area 5.17 acre Built Up Area  Whether Inherited N Purchase Date 2020-12-11 Purchase Cost 1338000.00 Development Cost 0.00"
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 850000,
+          "spouse_value_rupees": 1500000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2350000,
+          "self_details": [
+            "Lahoirinagar Lakhimpur, purchase date 27-07-1992, 28-07-1992 Total Area 1/4th share of 42000 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 42200.00 Development Cost 0.00 8,50,000"
+          ],
+          "spouse_details": [
+            "Tikuniya Total Area 2584 sq.ft. Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 1207000.00 Development Cost 310000.00 7,00,000",
+            "Shahapura Kotha Lakhampur Total Area 1504 sq.ft. Built Up Area  Whether Inherited N Purchase Date 2004-01-20 Purchase Cost 243000.00 Development Cost 275000.00 8,00,000"
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 35000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 35000000,
+          "self_details": [
+            "Vanavirpur Total Area 15000Sq.ft Built Up Area 7000Sq.ft Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 15,00,000",
+            "Shaharapuri kota Total Area 8000Sq.ft Built Up Area 1800Sq.ft Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 20,00,000"
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 10000000,
+      "grand_total_of_liabilities_spouse_rupees": null,
+      "grand_total_of_liabilities_huf_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 10000000,
+      "grand_total_of_all_govt_dues_self_rupees": null,
+      "grand_total_of_all_govt_dues_spouse_rupees": null,
+      "grand_total_of_all_govt_dues_huf_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": null,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": null,
+        "spouse_amount_rupees": null,
+        "huf_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": null,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 9550000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 10000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 10000000,
+          "self_details": "Allahabad Bank Tikuniya, cash credit limit of rs. 1 crore in the name of Shri Ambika Rice mill banvirpur  1,00,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Tikuniya Total Area 2584 sq.ft. Shahapura Kotha Lakhampur Total Area 1504 sq.ft.",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 2350000
+    "other_elections_info": [
+      {
+        "declaration_in": "Lok Sabha 2024",
+        "declared_assets": 62572088,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+      {
+        "declaration_in": "Lok Sabha 2019",
+        "declared_assets": 45295455,
+        "declared_cases": 1
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 7000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 10000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 10000000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "declaration_in": "Uttar Pradesh 2012",
+        "declared_assets": 23376427,
+        "declared_cases": 2
+      }
+    ]
   }
 }

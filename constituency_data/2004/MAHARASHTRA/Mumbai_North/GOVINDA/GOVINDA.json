@@ -2,120 +2,299 @@
   "candidate_name": "GOVINDA",
   "party": "INC",
   "constituency": "Mumbai North",
-  "father_or_husband_name": "Arun J Ahuja",
-  "age": 41,
-  "education": "Graduate T.Y.B.COM Andrades College of Science , Vasai Road , dist. Thane Mumbai University in 1984",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 1,
-  "assets_total_inr": 145298405,
-  "liabilities_total_inr": 25000000,
-  "income_tax_details": {
-    "self": null,
-    "spouse": null,
-    "huf": null,
-    "dependent1": null,
-    "dependent2": null,
-    "dependent3": null
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 2012988,
-      "bank_deposits_inr": 35197944,
-      "bonds_debentures_shares_inr": 28400100,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 7100000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 140074,
-      "jewellery_inr": 18551718,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 84402924
+  "state": "MAHARASHTRA",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Arun J Ahuja",
+      "age": 41
     },
-    "spouse": {
-      "cash_inr": 6288435,
-      "bank_deposits_inr": 10213688,
-      "bonds_debentures_shares_inr": 1300000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 2242843,
-      "jewellery_inr": 3241415,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 23286481
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 145298405,
+      "total_liabilities_in_rupees": 25000000
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "T.Y.B.COM Andrades College of Science , Vasai Road , dist. Thane Mumbai University in 1984"
+    },
+    "criminal_cases": {
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Obscene acts and songs",
+          "ipc_section": "294",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Defamation",
+          "ipc_section": "500",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Sale of printed or engraved substance containing defamatory matter",
+          "ipc_section": "502",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "500,502,294",
+          "other_details_or_acts_sections_applicable": "Case No.52/1997,Ist Class Magistrate Pakur Jharkhand 05.04.1999,CR.MP.4939/2001 PCR CASE NO 52/97 STAYED BY H.C.Ranchi ."
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "gross_total_value_self_rupees": 84402924,
+      "gross_total_value_spouse_rupees": 23286481,
+      "gross_total_value_dependent1_rupees": 999000,
+      "gross_total_value_dependent2_rupees": 600000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 109288405,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 2012988,
+          "spouse_value_rupees": 6288435,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8301423
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 35197944,
+          "spouse_value_rupees": 10213688,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 45411632
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 28400100,
+          "spouse_value_rupees": 1300000,
+          "dependent1_value_rupees": 999000,
+          "dependent2_value_rupees": 600000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 31399300
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 7100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7100000
+        },
+        {
+          "sr_no": "v",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 140074,
+          "spouse_value_rupees": 1742843,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2382917
+        },
+        {
+          "sr_no": "vi",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 18551718,
+          "spouse_value_rupees": 3241415,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 21793133
+        },
+        {
+          "sr_no": "vii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "total_current_market_value_self_rupees": 335100000,
+      "total_current_market_value_spouse_rupees": 25000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 360100000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 210000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 210000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Buildings",
+          "self_value_rupees": 243000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 243000000
+        },
+        {
+          "sr_no": "iv",
+          "description": "Houses",
+          "self_value_rupees": 70000000,
+          "spouse_value_rupees": 25000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 95000000
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000000
+        }
+      ]
+    },
+    "liabilities": {
+      "grand_total_of_liabilities_self_rupees": 25000000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 25000000,
+      "items": [
+        {
+          "sr_no": "(a) i",
+          "description": "Loans from Banks",
+          "self_value_rupees": 25000000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 25000000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans from Financial Institutions",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "(a) Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(c) Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(d) Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(e) Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(f) Other Dues if any",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "(i) (a) Income Tax including surcharge [Also indicate the assessment year upto which Income Tax Return filed.]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Permanent Account Number (PAN)",
+          "self_value_rupees": "PAN given-Y",
+          "spouse_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "(ii) Wealth Tax [Also indicate the assessment year upto which Wealth Tax return filed.]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(iii) Sales Tax [Only in case proprietary business]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(iv) Property Tax",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 210000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "Bunglow, Plot No. 27, Golden Beach Ruia Park Juhu Mumbai. Buit up 1979.68 Sq.ft With 101.72 Sq.ft open Land & govinda Bunglow Bhati Village Erangle Madh Island, Malad (W) Mumbai. 2485.04 sq.ft",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 24300000
-      },
-      "others_inr": 2000000,
-      "total_current_market_value_inr": 33510000
-    },
-    "spouse": {
-      "agricultural_land_inr": null,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "107 Jal - Darshan co.op. Hsg Soc., Ruia Park, Juhu, Mumbai-49. Buit Up 550 sq.ft",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 550,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 2500000
-      },
-      "others_inr": null,
-      "total_current_market_value_inr": 2500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 25000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 25000000
-    },
-    "spouse": null,
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
   }
 }

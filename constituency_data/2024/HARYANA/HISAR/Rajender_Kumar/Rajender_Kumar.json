@@ -1,168 +1,323 @@
 {
   "candidate_name": "RAJENDER KUMAR",
   "party": "IND",
-  "constituency": "HISAR (HARYANA)",
-  "father_or_husband_name": "Hari Ram",
-  "age": 52,
-  "education": "10th Pass Metric HBSE - 1990",
-  "profession_self": "Pensioner / Businessman",
-  "profession_spouse": "Homemaker",
-  "criminal_cases": 0,
-  "assets_total_inr": 11345259,
-  "liabilities_total_inr": 3409624,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 655294,
-        "2021-2022": 249142,
-        "2020-2021": 544665,
-        "2019-2020": 470729,
-        "2018-2019": 407642
-      }
+  "constituency": "HISAR",
+  "state": "HARYANA",
+  "personal_details": {
+    "s_o_d_o_w_o": "Hari Ram",
+    "age": 52,
+    "voter_enrolled_in": {
+      "constituency": "51 Barwala (Haryana)",
+      "serial_no": 314,
+      "part_no": 152
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
+    "self_profession": "Pensioner / Businessman",
+    "spouse_profession": "Homemaker"
+  },
+  "crime_o_meter": {
+    "cases": 0,
+    "details": "No criminal cases"
+  },
+  "assets_liabilities": {
+    "assets_rupees": 11345259,
+    "liabilities_rupees": 3409624
+  },
+  "educational_details": {
+    "category": "10th Pass",
+    "metric": "HBSE - 1990"
+  },
+  "pan_and_income_tax_return": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "returns": [
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2022 - 2023",
+        "total_income_shown_in_itr_rupees": 655294
+      },
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2021 - 2022",
+        "total_income_shown_in_itr_rupees": 249142
+      },
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2020 - 2021",
+        "total_income_shown_in_itr_rupees": 544665
+      },
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2019 - 2020",
+        "total_income_shown_in_itr_rupees": 470729
+      },
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2018 - 2019",
+        "total_income_shown_in_itr_rupees": 407642
+      },
+      {
+        "relation_type": "spouse",
+        "pan_given": true,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "huf",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent1",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent2",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent3",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
       }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
+    ]
+  },
+  "criminal_cases_details": {
+    "status": "No criminal cases",
+    "data_readability_report": "No Problems in Reading Affidavit Information"
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 90000,
-      "bank_deposits_inr": 45259,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 350000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 350000,
-      "jewellery_inr": 210000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1044659
-    },
-    "spouse": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 600,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 280000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 300600
-    }
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "assets_by_relation": [
+      {
+        "relation": "self",
+        "cash_rupees": 90000,
+        "bank_deposits_rupees": 45259,
+        "bonds_debentures_shares_rupees": 0,
+        "nss_postal_savings_rupees": 350000,
+        "lic_other_insurance_policies_rupees": 0,
+        "personal_loans_advance_given_rupees": 0,
+        "motor_vehicles_rupees": 350000,
+        "jewellery_rupees": 210000,
+        "other_assets_rupees": 0,
+        "gross_total_value_rupees": 1044659
+      },
+      {
+        "relation": "spouse",
+        "cash_rupees": 20000,
+        "bank_deposits_rupees": 600,
+        "bonds_debentures_shares_rupees": 0,
+        "nss_postal_savings_rupees": 0,
+        "lic_other_insurance_policies_rupees": 0,
+        "personal_loans_advance_given_rupees": 0,
+        "motor_vehicles_rupees": 0,
+        "jewellery_rupees": 280000,
+        "other_assets_rupees": 0,
+        "gross_total_value_rupees": 300600
+      },
+      {
+        "relation": "huf",
+        "cash_rupees": 0,
+        "bank_deposits_rupees": 0,
+        "bonds_debentures_shares_rupees": 0,
+        "nss_postal_savings_rupees": 0,
+        "lic_other_insurance_policies_rupees": 0,
+        "personal_loans_advance_given_rupees": 0,
+        "motor_vehicles_rupees": 0,
+        "jewellery_rupees": 0,
+        "other_assets_rupees": 0,
+        "gross_total_value_rupees": 0
+      },
+      {
+        "relation": "dependent1",
+        "cash_rupees": 0,
+        "bank_deposits_rupees": 0,
+        "bonds_debentures_shares_rupees": 0,
+        "nss_postal_savings_rupees": 0,
+        "lic_other_insurance_policies_rupees": 0,
+        "personal_loans_advance_given_rupees": 0,
+        "motor_vehicles_rupees": 0,
+        "jewellery_rupees": 0,
+        "other_assets_rupees": 0,
+        "gross_total_value_rupees": 0
+      },
+      {
+        "relation": "dependent2",
+        "cash_rupees": 0,
+        "bank_deposits_rupees": 0,
+        "bonds_debentures_shares_rupees": 0,
+        "nss_postal_savings_rupees": 0,
+        "lic_other_insurance_policies_rupees": 0,
+        "personal_loans_advance_given_rupees": 0,
+        "motor_vehicles_rupees": 0,
+        "jewellery_rupees": 0,
+        "other_assets_rupees": 0,
+        "gross_total_value_rupees": 0
+      },
+      {
+        "relation": "dependent3",
+        "cash_rupees": 0,
+        "bank_deposits_rupees": 0,
+        "bonds_debentures_shares_rupees": 0,
+        "nss_postal_savings_rupees": 0,
+        "lic_other_insurance_policies_rupees": 0,
+        "personal_loans_advance_given_rupees": 0,
+        "motor_vehicles_rupees": 0,
+        "jewellery_rupees": 0,
+        "other_assets_rupees": 0,
+        "gross_total_value_rupees": 0
+      }
+    ],
+    "total_movable_assets_grand_total_rupees": 1345259
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Plot in Sector-2 VPO Agroha Hisar",
-        "area_sq_mtr": 1035.92,
-        "inherited": "N",
-        "purchase_date": "2005-08-20",
-        "purchase_cost_inr": 657597,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 4000000
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "assets_by_relation": [
+      {
+        "relation": "self",
+        "agricultural_land_rupees": 0,
+        "non_agricultural_land_rupees": 4000000,
+        "commercial_buildings_rupees": 0,
+        "residential_buildings_rupees": 30000000,
+        "others_rupees": 0,
+        "total_current_market_value_rupees": 70000000
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "House in VPO Satrod Kalan, Hisar",
-        "total_area_sqft": 566,
-        "built_up_area_sqft": 1649.11,
-        "inherited": "N",
-        "purchase_date": "2014-03-20",
-        "purchase_cost_inr": 415338,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 3000000
+      {
+        "relation": "spouse",
+        "agricultural_land_rupees": 0,
+        "non_agricultural_land_rupees": 0,
+        "commercial_buildings_rupees": 0,
+        "residential_buildings_rupees": 30000000,
+        "others_rupees": 0,
+        "total_current_market_value_rupees": 30000000
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 7000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "House in VPO Satrod Kalan, Hisar",
-        "total_area_sqft": 1098,
-        "built_up_area_sqft": 1098,
-        "inherited": "N",
-        "purchase_date": "2022-10-20",
-        "purchase_cost_inr": 1342000,
-        "development_cost_inr": 2500000,
-        "current_market_value_inr": 3000000
+      {
+        "relation": "huf",
+        "agricultural_land_rupees": 0,
+        "non_agricultural_land_rupees": 0,
+        "commercial_buildings_rupees": 0,
+        "residential_buildings_rupees": 0,
+        "others_rupees": 0,
+        "total_current_market_value_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3000000
-    }
+      {
+        "relation": "dependent1",
+        "agricultural_land_rupees": 0,
+        "non_agricultural_land_rupees": 0,
+        "commercial_buildings_rupees": 0,
+        "residential_buildings_rupees": 0,
+        "others_rupees": 0,
+        "total_current_market_value_rupees": 0
+      },
+      {
+        "relation": "dependent2",
+        "agricultural_land_rupees": 0,
+        "non_agricultural_land_rupees": 0,
+        "commercial_buildings_rupees": 0,
+        "residential_buildings_rupees": 0,
+        "others_rupees": 0,
+        "total_current_market_value_rupees": 0
+      },
+      {
+        "relation": "dependent3",
+        "agricultural_land_rupees": 0,
+        "non_agricultural_land_rupees": 0,
+        "commercial_buildings_rupees": 0,
+        "residential_buildings_rupees": 0,
+        "others_rupees": 0,
+        "total_current_market_value_rupees": 0
+      }
+    ],
+    "total_immovable_assets_grand_total_rupees": 100000000
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3409624,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3409624
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "liabilities_by_relation": [
+      {
+        "relation": "self",
+        "loans_from_banks_fis_rupees": 3409624,
+        "loans_due_to_individual_entity_rupees": 0,
+        "any_other_liability_rupees": 0,
+        "grand_total_of_liabilities_rupees": 3409624
+      },
+      {
+        "relation": "spouse",
+        "loans_from_banks_fis_rupees": 0,
+        "loans_due_to_individual_entity_rupees": 0,
+        "any_other_liability_rupees": 0,
+        "grand_total_of_liabilities_rupees": 0
+      },
+      {
+        "relation": "huf",
+        "loans_from_banks_fis_rupees": 0,
+        "loans_due_to_individual_entity_rupees": 0,
+        "any_other_liability_rupees": 0,
+        "grand_total_of_liabilities_rupees": 0
+      },
+      {
+        "relation": "dependent1",
+        "loans_from_banks_fis_rupees": 0,
+        "loans_due_to_individual_entity_rupees": 0,
+        "any_other_liability_rupees": 0,
+        "grand_total_of_liabilities_rupees": 0
+      },
+      {
+        "relation": "dependent2",
+        "loans_from_banks_fis_rupees": 0,
+        "loans_due_to_individual_entity_rupees": 0,
+        "any_other_liability_rupees": 0,
+        "grand_total_of_liabilities_rupees": 0
+      },
+      {
+        "relation": "dependent3",
+        "loans_from_banks_fis_rupees": 0,
+        "loans_due_to_individual_entity_rupees": 0,
+        "any_other_liability_rupees": 0,
+        "grand_total_of_liabilities_rupees": 0
+      }
+    ],
+    "total_liabilities_grand_total_rupees": 3409624,
+    "dues_to_departments": {
+      "government_accommodation_rupees": 0,
+      "supply_of_water_rupees": 0,
+      "supply_of_electricity_rupees": 0,
+      "telephones_rupees": 0,
+      "supply_of_transport_rupees": 0,
+      "income_tax_dues_rupees": 0,
+      "wealth_tax_dues_rupees": 0,
+      "service_tax_dues_rupees": 0,
+      "property_tax_dues_rupees": 0,
+      "sales_tax_dues_rupees": 0,
+      "gst_dues_rupees": 0,
+      "any_other_dues_rupees": 0,
+      "grand_total_of_all_govt_dues_rupees": 0
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
+    "other_liabilities_in_dispute_rupees": 0
+  },
+  "profession_or_occupation": {
+    "self": "Pensioner / Businessman",
+    "spouse": "Homemaker"
   },
   "sources_of_income": {
     "self": "Pension / Business",
     "spouse": "Homemaker",
     "dependent": "NA"
   },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+  "contracts_with_appropriate_govt_and_any_public_company": {
+    "details_of_contracts_entered_by_the_candidate": "NA",
+    "details_of_contracts_entered_into_by_spouse": "NA",
+    "details_of_contracts_entered_into_by_dependent": "NA",
+    "details_of_contracts_entered_into_by_hindu_undivided_family_or_trust": "NA",
+    "details_of_contracts_entered_into_by_partnership_firms": "NA",
+    "details_of_contracts_entered_into_by_private_companies": "NA"
   }
 }

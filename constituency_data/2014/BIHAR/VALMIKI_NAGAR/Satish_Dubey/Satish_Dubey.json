@@ -1,145 +1,421 @@
 {
   "candidate_name": "Satish Dubey",
   "party": "BJP",
-  "constituency": "VALMIKI NAGAR (BIHAR)",
-  "father_or_husband_name": "Indrajeet Dubey",
-  "age": 39,
-  "education": "10th Pass Matric in 1991, from High School, Narkatiaganj, Bihar",
-  "profession_self": "Agriculture & Dairy Farm",
-  "profession_spouse": "Business",
-  "criminal_cases": 3,
-  "assets_total_inr": 6061576,
-  "liabilities_total_inr": 626789,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 300000
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 278410
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 150000,
-      "bank_deposits_inr": 5168,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1140000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 336000,
-      "jewellery_inr": 230000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1861168
-    },
-    "spouse": {
-      "cash_inr": 82000,
-      "bank_deposits_inr": 18408,
-      "bonds_debentures_shares_inr": 1000000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 280000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1480408
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1220000
+  "constituency": "VALMIKI NAGAR",
+  "state": "BIHAR",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Indrajeet Dubey",
+      "age": 39,
+      "voter_enrolled_in": {
+        "constituency": "03-Narkatiaganj",
+        "state": "Bihar",
+        "serial_no": 391,
+        "part_no": 145
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "JOint",
-        "total_area_sqft": 10800,
-        "built_up_area_sqft": 1000,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 1000000,
-        "current_market_value_inr": 1500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2720000
+      "self_profession": "Agriculture & Dairy Farm",
+      "spouse_profession": "Business"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
+    "summary": {
+      "criminal_cases_count": 3,
+      "total_assets_in_rupees": 6061576,
+      "total_liabilities_in_rupees": 626789
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Matric in 1991, from High School, Narkatiaganj, Bihar"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 300000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 278410
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Theft after preparation made for causing death, hurt or restraint in order to the committing of the theft",
+          "ipc_section": "382",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Robbery, or dacoity, with attempt to cause death or grievous hurt",
+          "ipc_section": "397",
+          "count": 1
+        },
+        {
+          "charges_related_to": "dacoity",
+          "ipc_section": "395",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by killing or maiming cattle, etc., of any value or any animal of the value of fifty rupees",
+          "ipc_section": "429",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Theft in dwelling house, etc.",
+          "ipc_section": "380",
+          "count": 1
+        },
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "theft",
+          "ipc_section": "379",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by fire or explosive substance with intent to destroy house, etc.",
+          "ipc_section": "436",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by destroying or moving, etc., a land- mark fixed by public authority Mischief by fire or explosive substance with intent to cause damage to amount of one hundred or (in case of agricultural produce) ten rupees",
+          "ipc_section": "435",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Attempt to murder",
+          "ipc_section": "307",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Murder",
+          "ipc_section": "302",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by killing or maiming animal of the value of ten rupees",
+          "ipc_section": "428",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "147, 148, 149, 382, 307, 435, 436, 427, 379, 452, 380, 428, 429",
+          "other_details_or_acts_sections_applicable": "Section 27 Arms Act, Case No.-212/93, P.S.-Chanpatiya, Court - CJM Betiya, Cognizance Date-2-12-1995, Court Which Framed The Charge - 1st Additional Session Judge, Betiya, Date on Which the Charge Was Framed- 26-7-2010"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "395, 397",
+          "other_details_or_acts_sections_applicable": "Case No.-151/99, P.S.- Wagha, Cognizance by Chief Additional Magistrate, Wagha, on 19.08.2000, Court Which Framed The Charge - 1st Additional Session Judge Betiya, Date on Which the Charge Was Framed- 31-05-2013"
+        }
+      ],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "302, 120B",
+          "other_details_or_acts_sections_applicable": "Section 3/4 Explosive Act, Case No.-132-99, P.S. Chanpariya, CJM Betiya, Cog. Date-15-11-2000"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1861168,
+      "gross_total_value_spouse_rupees": 1480408,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3341576,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 82000,
+          "total_value_rupees": 232000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5174,
+          "spouse_value_rupees": 18408,
+          "total_value_rupees": 23576,
+          "self_details": "SBI 674, SBI 4,494",
+          "spouse_details": "SBI 18,408"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1000000,
+          "total_value_rupees": 1000000,
+          "spouse_details": "Madan Mohan Mishra, Enterprises, Share 10,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1140000,
+          "spouse_value_rupees": 100000,
+          "total_value_rupees": 1240000,
+          "self_details": "LIC 10,50,000, SBI, LIC 90,000",
+          "spouse_details": "LIC 1,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 336000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 336000,
+          "self_details": "Bolero Jeep 3,36,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 230000,
+          "spouse_value_rupees": 280000,
+          "total_value_rupees": 510000,
+          "self_details": "Gold 60 Gram 1,70,000, Silver, 1.6 Kg 60,000",
+          "spouse_details": "Gold 80 Gram 2,25,000, Silver, 1400 Gram 55,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 27200000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 27200000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 12200000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 12200000,
+          "self_details": "Total Area 11Katha, Built Up Area, Inherited Y, Purchase Date 0000-00-00, Purchase Cost 0.00, Development Cost 0.00"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 15000000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 15000000,
+          "self_details": "JOint, Total Area 10800 Sq. ft., Built Up Area 1000 Sq.ft., Inherited N, Purchase Date 0000-00-00, Purchase Cost 0.00, Development Cost 1000000.00"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 626789,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 626789,
+      "grand_total_of_all_govt_dues_self_rupees": 19857,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 19857,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 606932,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 606932,
+          "self_details": "LIC 2,57,750, LIC 2,40,000, 1,09,182"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 19857,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 19857
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 606932,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 606932
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 19857,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 19857
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
   }
 }

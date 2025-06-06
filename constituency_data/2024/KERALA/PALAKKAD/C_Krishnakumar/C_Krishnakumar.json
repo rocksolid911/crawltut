@@ -1,168 +1,783 @@
 {
   "candidate_name": "C KRISHNAKUMAR",
   "party": "BJP",
-  "constituency": "PALAKKAD(KERALA)",
-  "father_or_husband_name": "C.Krishnanunni",
-  "age": 52,
-  "education": "Graduate B.Com from University of Calicut Year 1991",
-  "profession_self": "Business",
-  "profession_spouse": "Municipality Councellor , Palakkad Municipality",
-  "criminal_cases": 30,
-  "assets_total_inr": 17024979,
-  "liabilities_total_inr": 1075791,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 192850,
-        "2022-2023": 1107410,
-        "2021-2022": 633630,
-        "2020-2021": 971650,
-        "2019-2020": 1539809
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 10000,
-      "bank_deposits_inr": 125429,
-      "bonds_debentures_shares_inr": 150000,
-      "nss_postal_savings_inr": 15000,
-      "lic_other_insurance_inr": 1720000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 40000,
-      "jewellery_inr": 150000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2210429
-    },
-    "spouse": {
-      "cash_inr": 10000,
-      "bank_deposits_inr": 572150,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 700000,
-      "jewellery_inr": 2000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3782150
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "House Ayyapuram Palakkad 15/469, 1689/3, 1688/4, 1685/8",
-        "total_area_sqft": 3049.2,
-        "built_up_area_sqft": 2500,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 350000,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 4000000
+  "constituency": "PALAKKAD",
+  "state": "KERALA",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "C.Krishnanunni",
+      "age": 52,
+      "voter_enrolled_in": {
+        "constituency": "56 Palakkad",
+        "state": "Kerala",
+        "serial_no": 524,
+        "part_no": 25
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 4000000
+      "self_profession": "Business",
+      "spouse_profession": "Municipality Councellor , Palakkad Municipality"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "kayualam Village",
-        "area_sq_mtr": 61.57,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 400000
+    "summary": {
+      "criminal_cases_count": 30,
+      "total_assets_in_rupees": 17024979,
+      "total_liabilities_in_rupees": 1075791
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Com from University of Calicut Year 1991"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2023 - 2024",
+          "total_income_shown_in_itr_rupees": 192850
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 1107410
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 633630
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 971650
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1539809
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for robbery",
+          "ipc_section": "392",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+          "ipc_section": "332",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Voluntarily causing hurt by dangerous weapons or means",
+          "ipc_section": "324",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 27
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 27
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 26
+        },
+        {
+          "charges_related_to": "Danger or obstruction in public way or line of navigation",
+          "ipc_section": "283",
+          "count": 18
+        },
+        {
+          "charges_related_to": "Joining or continuing in unlawful assembly, knowing it has been commanded to disperse",
+          "ipc_section": "145",
+          "count": 7
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Negligent conduct with respect to machinery",
+          "ipc_section": "287",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for wrongful Confinement",
+          "ipc_section": "342",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Wrongful confinement of person for whose liberation writ has been issued",
+          "ipc_section": "345",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "139/2019, Kongad Police Station, Palakkad Kerala",
+          "case_no": "CC No. 671/2020",
+          "court": "Judicial First Classs Magistrate Court No. II, Palakkad",
+          "ipc_sections_applicable": "",
+          "other_details_or_acts_sections_applicable": "Sections 123(3A), 125 Representation of the People Act 1951",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "18/2019, Town North Police Station Palakkad Kerala",
+          "case_no": "CC No. 76/2019",
+          "court": "Chief Judicial Magistrate Court Palakkad",
+          "ipc_sections_applicable": "149, 147, 148, 188, 287, 392, 353, 427",
+          "other_details_or_acts_sections_applicable": "Sections 3(2) PDPP Act 1984",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "fir_no": "400/2019, Town North Police Station, Palakkad, Kerala",
+          "case_no": "CC No. 223/2019",
+          "court": "Chief Judicial Magistrate Court, Palakkad",
+          "ipc_sections_applicable": "",
+          "other_details_or_acts_sections_applicable": "Sections 123(3A), 125 Representation of the People Act 1951",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 4,
+          "fir_no": "10/2019 Town North Police Station Palakkad Kerala",
+          "case_no": "CC No. 86/2019",
+          "court": "Chief Judicial Magistrate Court, Palakkad",
+          "ipc_sections_applicable": "143, 147, 148, 283, 332, 353, 188, 149",
+          "other_details_or_acts_sections_applicable": "Sections 3 (2) (E) of Prevention of Damages to Public Property Act 1984",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 5,
+          "fir_no": "1073/2023, Town South Police Station, Palakkad Kerala",
+          "case_no": "CC No. 1236/2023",
+          "court": "Judicial First Class Magistrate Court No.-III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 6,
+          "fir_no": "1123/2023, Town South Police Station Palakkad Kerala",
+          "case_no": "CC No. 1203/23",
+          "court": "Judicial First Class Magistrate Court No. -III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 7,
+          "fir_no": "712/2014, Town North Police Station , Palakkad Kerala",
+          "case_no": "CC No. 225/2015",
+          "court": "Judicial First Class Magistrate Court No. -II Palakkad",
+          "ipc_sections_applicable": "341, 323, 324, 34",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": "25 Jul 2016",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 8,
+          "fir_no": "868/2021, Chittur Police Station Palakkad Kerala",
+          "case_no": "CC No. 584/2021",
+          "court": "Judicial First Class Magistrate Court Chittur",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections 4(2)(F), 4(V) of the Epidemic Disease Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 9,
+          "fir_no": "1455/2015, Town South Police Station Palakkad Kerala",
+          "case_no": "CC No. 69/2016",
+          "court": "Judicial First Class Magistrate Court No. -III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 342, 345, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": "07 Sep 2018",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": [
+        {
+          "serial_no": 1,
+          "case_no": "CC No. 522/2022",
+          "court": "Judicial First Class Magistrate Court No. II, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala Public Way Restriction of Assemblies and procession Act 2011",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 800/- and till rising of court. Fine remitted on",
+          "date_on_which_convicted": "06 Dec 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "case_no": "CC No.1434/2020",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala public Way Restriction of Assemblies and Procession Act 2011",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 100/- each U/S 143, fine of Rs. 100/- Each U/S 143, Fine of Rs. 100/- each U/s 147 IPC and fine of Rs. 100/- each under Section 283 IPC and fine of Rs. 200/- each U/S 4, 6 of KPWRAP Act. Fine remitted Fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "case_no": "CC No. 834/2021",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "punishment_imposed": "Fined for Rs. 300/- fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 4,
+          "case_no": "CC No. 280/2022",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 145, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Section U/S 4 r/w 6 The Kerala Public Way (Restriction of Assemblies and procession Act 2011)",
+          "punishment_imposed": "Convicted and Sentenced to fine of Rs. 100/- each U/S 143, Fine of Rs. 100/- Each U/S 143, Fine of Rs. 100/- each under Section 283 IPC and fine of Rs. 200/- each U/S 4, 6 of KPWRAP Act fine remitted Fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 5,
+          "case_no": "CC No. 277/2022",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 149",
+          "other_details_or_acts_sections_applicable": "Section 4(2) (e) (f) r/w 5 of KEDO",
+          "punishment_imposed": "Section 4(2) (e) (f) r/w 5 of KEDO. fined Rs. 700/- Fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 6,
+          "case_no": "CC No. 278/2022",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 149",
+          "other_details_or_acts_sections_applicable": "Sections 4(2)(e) (J) r/w 5 of Kedo",
+          "punishment_imposed": "Fined Rs. 500/- Fine Remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 7,
+          "case_no": "CC No. 279/2022",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 149",
+          "other_details_or_acts_sections_applicable": "Sections 4(2)(e) (J) r/w 5 of Kedo",
+          "punishment_imposed": "Fined Rs. 700/- Fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 8,
+          "case_no": "CC No. 310/2022",
+          "court": "Judicial First Class Magistrate Court No. I, Palakkad",
+          "ipc_sections_applicable": "143, 147, 149",
+          "other_details_or_acts_sections_applicable": "Sections 4(2)(e) (J) r/w 5 of Kedo",
+          "punishment_imposed": "Fined Rs. 700/- Fine remitted on",
+          "date_on_which_convicted": "13 Aug 2022",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 9,
+          "case_no": "CC No. 990/2021",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 145, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala Public Way (Restriction of Assmblies and procession Act 2011)",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 800/- FIne remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 10,
+          "case_no": "CC No. 998/2021",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 145, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala Public Way (Restriction of Assmblies and procession Act 2011)",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 100/- each U/S 143, fine of Rs. 100/- each U/S 143, fine of Rs. 100/- each U/S 147 IPC and fine of Rs. 100/- each under section 283 IPC and fine of Rs. 200/- each U/S 4, 6 of KPWRAP Act. Fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 11,
+          "case_no": "CC No. 993/2021",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 145, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala Public Way (Restriction of Assmblies and procession Act 2011)",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 1100/- each Fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 12,
+          "case_no": "CC No. 997/2021",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4(2) (e) (f) r/w 5 of KEDO",
+          "punishment_imposed": "Fined Rs. 500/- Fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 13,
+          "case_no": "CC No. 999/2021",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala Public Way (Restriction of Assemblies and Procession Act 2011)",
+          "punishment_imposed": "Convicted and sentenced ot fine of Rs. 200/- each U/S 143, fine of Rs. 200/- each U/S 143, Fine of Rs. 200/- each U/S 147 IPC and fine of Rs. 200/- each under section 283 IPC and fine of Rs. 200/- each U/S 4, 6 of KPWRAP Act Fine remitted fine remitted on",
+          "date_on_which_convicted": "11 Feb 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 14,
+          "case_no": "CC No. 127/2024",
+          "court": "Judicial First Class Magistrate Court No. I, Palakkad",
+          "ipc_sections_applicable": "143, 147, 149",
+          "other_details_or_acts_sections_applicable": "Sections 118(E) Kerala Police Act, 4 (2) (j), 4(2) (E) r/w Section 5 of KEDO",
+          "punishment_imposed": "Fined Rs. 2400/- remitted on",
+          "date_on_which_convicted": "13 Mar 2024",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 15,
+          "case_no": "ST No. 1516/2023",
+          "court": "Judicial First Class Magistrate Court No. I, Palakkad",
+          "ipc_sections_applicable": "143, 147, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "punishment_imposed": "Fined Rs. 600/- in default 10 days S.I. Fine remitted on",
+          "date_on_which_convicted": "09 Mar 2024",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 16,
+          "case_no": "CC No. 521/2022",
+          "court": "Judicial First Class Magistrate Court No. II, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala Public Way (Restriction of Assemblies and Procession Act 2011)",
+          "punishment_imposed": "Convected and sentenced ot fine of Rs. 800/- Fine remitted Fine remitted on",
+          "date_on_which_convicted": "09 Dec 2023",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 17,
+          "case_no": "ST No. 1968/2018",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "punishment_imposed": "Convicted and fined fine remitted on",
+          "date_on_which_convicted": "11 Dec 2019",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 18,
+          "case_no": "CC No. 759/2020",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4(2) (c), 4(2) (F) r/w K.P Act",
+          "punishment_imposed": "Fined Rs. 800/- Remitted on",
+          "date_on_which_convicted": "11 Dec 2021",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 19,
+          "case_no": "CC No. 1316/2019",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 145, 147,. 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala public Way (Restriction of Assemblies and procession Act 2011)",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 2400/- fine remitted on",
+          "date_on_which_convicted": "11 Dec 2021",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 20,
+          "case_no": "CC No. 1432/2020",
+          "court": "Judicial First Class Magistrate Court No. III, Palakkad",
+          "ipc_sections_applicable": "143, 145, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala public Way (Restriction of Assemblies and procession Act 2011)",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 2400/- fine remitted on",
+          "date_on_which_convicted": "11 Dec 2021",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 21,
+          "case_no": "CC No. 929/2022",
+          "court": "Judicial First Class Magistrate Court No. II, Palakkad",
+          "ipc_sections_applicable": "143, 145, 147, 283, 149",
+          "other_details_or_acts_sections_applicable": "Sections U/S 4 r/w 6 The Kerala public Way (Restriction of Assemblies and procession Act 2011)",
+          "punishment_imposed": "Convicted and sentenced to fine of Rs. 2400/- fine remitted on",
+          "date_on_which_convicted": "02 Apr 2024",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ]
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 4190429,
+      "gross_total_value_spouse_rupees": 3782150,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 647200,
+      "gross_total_value_dependent2_rupees": 505200,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9124979,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 10000,
+          "spouse_value_rupees": 10000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 125429,
+          "spouse_value_rupees": 572150,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 4600,
+          "dependent2_value_rupees": 5200,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 707379
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 15000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 1000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16000
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1720000,
+          "spouse_value_rupees": 500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 538000,
+          "dependent2_value_rupees": 500000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3258000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 40000,
+          "spouse_value_rupees": 700000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 740000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 2000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 100000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2250000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 40000000,
+      "total_current_market_value_spouse_rupees": 39000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 79000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 4000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4000000
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 40000000,
+          "spouse_value_rupees": 35000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 75000000
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 564733,
+      "grand_total_of_liabilities_spouse_rupees": 511058,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1075791,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "House Ayyapuram Palakkad H.No. 15/470, 168/5",
-        "total_area_sqft": 2613.6,
-        "built_up_area_sqft": 2500,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3500000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 564733,
+          "spouse_value_rupees": 511058,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1075791
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Business",
+      "spouse": "Municipality Councellor , Palakkad Municipality"
+    },
+    "sources_of_income": {
+      "self": "Business",
+      "spouse": "Municipality Councellor",
+      "dependent": "Nil"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
+    },
+    "other_elections": [
+      {
+        "election": "Kerala 2021",
+        "declared_assets_rupees": 15082500,
+        "declared_cases": 15
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3900000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 564733,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 564733
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 511058,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 511058
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Business",
-    "spouse": "Municipality Councellor",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+      {
+        "election": "Lok Sabha 2019",
+        "declared_assets_rupees": 11298644,
+        "declared_cases": 10
+      },
+      {
+        "election": "Kerala 2016",
+        "declared_assets_rupees": 8831231,
+        "declared_cases": 8
+      }
+    ]
   }
 }

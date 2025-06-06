@@ -1,170 +1,686 @@
 {
   "candidate_name": "PREM SINGH CHANDUMAJRA",
   "party": "SAD",
-  "constituency": "ANANDPUR SAHIB (PUNJAB)",
-  "father_or_husband_name": "Sh. Jaswant Singh",
-  "age": 64,
-  "education": "Post Graduate M.A (Economics) Passed in 1975 and M.A (Political Science) Passed in 1977 from Punjab University, Patiala.",
-  "profession_self": "Agriculture Income, Pension & Interest Income",
-  "profession_spouse": "Agriculture Income & Interest Income",
-  "criminal_cases": 0,
-  "assets_total_inr": 141599902,
-  "liabilities_total_inr": 2248200,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 621767
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 4252
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 120000,
-      "bank_deposits_inr": 1572589,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 215698,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 130000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2519120
-    },
-    "spouse": {
-      "cash_inr": 90000,
-      "bank_deposits_inr": 124114,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 154168,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 312000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 680782
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 51000000,
-      "non_agricultural_land": {
-        "description": "Yadvindra Enclave, Patiala, Plot No.-10",
-        "area_sq_mtr": 81.28,
-        "inherited": "N",
-        "purchase_date": "2009-02-20",
-        "purchase_cost_inr": 1067425,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1700000
+  "constituency": "ANANDPUR SAHIB",
+  "state": "PUNJAB",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sh. Jaswant Singh",
+      "age": 64,
+      "voter_enrolled_in": {
+        "constituency": "111-Rajpura",
+        "state": "Punjab",
+        "serial_no": 206,
+        "part_no": 1
       },
-      "commercial_buildings_inr": 22000000,
-      "residential_buildings": {
-        "description": "Vill. Chandumajra, Rajpura, Dist. Patiala, H.No.-34",
-        "total_area_sqft": 2700,
-        "built_up_area_sqft": 2000,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 5000000
+      "self_profession": "Agriculture Income, Pension & Interest Income",
+      "spouse_profession": "Agriculture Income & Interest Income"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 141599902,
+      "total_liabilities_in_rupees": 2248200
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A (Economics) Passed in 1975 and M.A (Political Science) Passed in 1977 from Punjab University, Patiala."
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 621767
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 4252
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2519120,
+      "gross_total_value_spouse_rupees": 680782,
+      "gross_total_value_huf_rupees": null,
+      "gross_total_value_dependent1_rupees": null,
+      "gross_total_value_dependent2_rupees": null,
+      "gross_total_value_dependent3_rupees": null,
+      "gross_total_value_total_rupees": 3199902,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 120000,
+          "spouse_value_rupees": 90000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 210000,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2083422,
+          "spouse_value_rupees": 124614,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2178036,
+          "self_details": [
+            {
+              "bank": "Punjab & Sind Bank",
+              "branch": "Sec-26, Chandigarh",
+              "account_type": "SB",
+              "account_no": "03721000408707",
+              "amount_rupees": 618816
+            },
+            {
+              "bank": "SBI",
+              "branch": "Parliament House, New Delhi",
+              "account_type": "SB",
+              "account_no": "10023814089",
+              "amount_rupees": 207823
+            },
+            {
+              "bank": "HDFC Bank",
+              "branch": "Mohali, SCO-55-57,Ph-7, Mohali",
+              "account_type": "SB",
+              "account_no": "13071000023290",
+              "amount_rupees": 157607
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "Mohali",
+              "account_type": "SB",
+              "account_no": "001301051376",
+              "amount_rupees": 20827
+            },
+            {
+              "bank": "Punjab & Sind Bank",
+              "branch": "Fatehgarh Sahib",
+              "account_type": "SB",
+              "account_no": "00391000100818",
+              "amount_rupees": 648339
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "SC0-512 Sec-70, Mohali",
+              "account_type": "SB",
+              "account_no": "167501500152",
+              "amount_rupees": 400010
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "HDFC Bank",
+              "branch": "SCO-55-57, PH-7, Mohali",
+              "account_type": "SB",
+              "account_no": "13071000023308",
+              "amount_rupees": 86154
+            },
+            {
+              "bank": "Punjab & Sind Bank",
+              "branch": "Fatehgarh Sahib",
+              "account_type": "SB",
+              "account_no": "00391000100819",
+              "amount_rupees": 5460
+            },
+            {
+              "bank": "Punjab & Sind Bank",
+              "branch": "SCO-32, Ph-2, Mohali",
+              "account_type": "SB",
+              "account_no": "07991000010674",
+              "amount_rupees": 33000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 215698,
+          "spouse_value_rupees": 154168,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 369866,
+          "self_details": [
+            {
+              "policy_no": "161952509",
+              "amount_rupees": 215698
+            }
+          ],
+          "spouse_details": [
+            {
+              "policy_no": "161952293",
+              "amount_rupees": 154168
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 130000,
+          "spouse_value_rupees": 312000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 442000,
+          "self_details": {
+            "type": "Gold",
+            "weight_gram": 50,
+            "value_rupees": 130000
+          },
+          "spouse_details": {
+            "type": "Gold",
+            "weight_gram": 120,
+            "value_rupees": 312000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 797000000,
+      "total_current_market_value_spouse_rupees": 587000000,
+      "total_current_market_value_huf_rupees": null,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 1384000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 510000000,
+          "spouse_value_rupees": 570000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1080000000,
+          "self_details": [
+            {
+              "location": "Vill. Chandumajra, Tehsil Rajpura, Dist. Patiala, Punjab",
+              "kh_no": "73",
+              "khatouni_no": "118",
+              "total_area_acres": 14.5,
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost": 0,
+              "development_cost": 0,
+              "current_value_rupees": 510000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Vill. Chhajju Majra No.-45, Tehsil Naraingarh, Dist. Ambala, Haryana",
+              "kh_no": "2",
+              "khatouni_no": "5,6,7",
+              "total_area_acres": 1,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2001-06-15",
+              "purchase_cost": 371000,
+              "development_cost": 0,
+              "current_value_rupees": 3000000
+            },
+            {
+              "location": "Vill. Jatwar, Tehsil Naraingarh, Dist. Ambala, Haryana",
+              "kh_no": null,
+              "khatouni_no": "697/853,276/355,349/458,408/519,482/599,492/612,739/901,740/902,743/906,745/908,746/909,705/861",
+              "total_area_acres": 27,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2007-12-27",
+              "purchase_cost": 3025000,
+              "development_cost": 0,
+              "current_value_rupees": 540000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 17000000,
+          "spouse_value_rupees": 17000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 34000000,
+          "self_details": [
+            {
+              "location": "Yadvindra Enclave, Patiala",
+              "plot_no": "10",
+              "total_area_sq_ft": 875,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-02-20",
+              "purchase_cost": 1067425,
+              "development_cost": 0,
+              "current_value_rupees": 17000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Yadvindra Enclave, Patiala",
+              "plot_no": "10",
+              "total_area_sq_ft": 875,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-02-20",
+              "purchase_cost": 1067425,
+              "development_cost": 0,
+              "current_value_rupees": 17000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 220000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 220000000,
+          "self_details": [
+            {
+              "location": "PH-X, Mohali",
+              "survey_no": "61",
+              "total_area_sq_ft": 2800,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2004-11-22",
+              "purchase_cost": 9371250,
+              "development_cost": 0,
+              "current_value_rupees": 220000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 50000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 50000000,
+          "self_details": [
+            {
+              "location": "Vill. Chandumajra, Rajpura, Dist. Patiala",
+              "h_no": "34",
+              "total_area_sq_ft": 2700,
+              "built_up_area_sq_yd": 2000,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost": 0,
+              "development_cost": 0,
+              "current_value_rupees": 50000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2248200,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 2248200,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 79700000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2248200,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2248200,
+          "self_details": [
+            {
+              "bank": "The Rajpura Primary Co-Op Agg. Dev Bank Ltd. Rajpura",
+              "account_no": "6417",
+              "loan_type": "Dairy Farming",
+              "amount_rupees": 444400
+            },
+            {
+              "bank": "The Rajpura Primary Co-Op Agg. Dev Bank Ltd. Rajpura",
+              "account_no": "709",
+              "loan_type": "Under Ground Water Channel",
+              "amount_rupees": 144000
+            },
+            {
+              "bank": "The Rajpura Primary Co-Op Agg. Dev Bank Ltd. Rajpura",
+              "account_no": "111",
+              "loan_type": "Kissan Credit Card",
+              "amount_rupees": 334000
+            },
+            {
+              "bank": "The Rajpura Primary Co-Op Agg. Dev Bank Ltd. Rajpura",
+              "account_no": "738",
+              "loan_type": "Rural House",
+              "amount_rupees": 1325800
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 57000000,
-      "non_agricultural_land": {
-        "description": "Yadvindra Enclave, Patiala, Plot No.-10",
-        "area_sq_mtr": 81.28,
-        "inherited": "N",
-        "purchase_date": "2009-02-20",
-        "purchase_cost_inr": 1067425,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1700000
+    "past_elections": [
+      {
+        "election_name": "Lok Sabha 2024",
+        "declared_assets_rupees": 222888307,
+        "declared_cases": 2
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "NA",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      {
+        "election_name": "Punjab 2022",
+        "declared_assets_rupees": 80526779,
+        "declared_cases": 3
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 58700000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2248200,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2248200
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture Income, Pension & Interest Income",
-    "spouse": "Agriculture Income & Interest Income",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "Nil"
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 126971695,
+        "declared_cases": 1
+      },
+      {
+        "election_name": "Punjab 2012",
+        "declared_assets_rupees": 88666330,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Lok Sabha 2009",
+        "declared_assets_rupees": 29542222,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Punjab 2007",
+        "declared_assets_rupees": 619663,
+        "declared_cases": 0
+      }
+    ]
   }
 }

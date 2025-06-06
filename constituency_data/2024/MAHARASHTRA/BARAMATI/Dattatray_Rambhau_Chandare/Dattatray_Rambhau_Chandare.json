@@ -1,155 +1,569 @@
 {
   "candidate_name": "DATTATRAY RAMBHAU CHANDARE",
-  "party": "IND",
   "constituency": "BARAMATI",
-  "father_or_husband_name": "Chandrabhaga Rambhau Chandare",
-  "age": 44,
-  "education": "Post Graduate M.A., Year - 2009, Pune University, Pune",
-  "profession_self": "Farmer",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 3120464,
-  "liabilities_total_inr": 233500,
+  "state": "MAHARASHTRA",
+  "party": "IND",
+  "personal_details": {
+    "s_o_d_o_w_o": "Chandrabhaga Rambhau Chandare",
+    "age": 44,
+    "voter_enrolled_in": {
+      "constituency": "Baramati",
+      "state": "Maharashtra",
+      "serial_no": 89,
+      "part_no": 221
+    },
+    "self_profession": "Farmer",
+    "spouse_profession": "Housewife"
+  },
+  "summary": {
+    "criminal_cases_count": 0,
+    "total_assets_in_rupees": 3120464,
+    "total_liabilities_in_rupees": 233500
+  },
+  "educational_details": {
+    "category": "Post Graduate",
+    "details": "M.A., Year - 2009, Pune University, Pune"
+  },
   "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
+    "report_status": "No Problems in Reading Affidavit Information",
+    "returns": [
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "spouse",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "huf",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent1",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent2",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent3",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
       }
-    },
-    "spouse": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "huf": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    }
+    ]
+  },
+  "criminal_cases": {
+    "report_status": "No Problems in Reading Affidavit Information",
+    "brief_details_ipc_bns": [],
+    "pending_cases": [],
+    "convicted_cases": []
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 170435,
-      "bank_deposits_inr": 170435,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 155000,
-      "jewellery_inr": 15000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2920963
-    },
-    "spouse": {
-      "cash_inr": 68500,
-      "bank_deposits_inr": 2426,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 95219,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 199501
-    }
+    "report_status": "No Problems in Reading Affidavit Information",
+    "gross_total_value_self_rupees": 2920963,
+    "gross_total_value_spouse_rupees": 199501,
+    "gross_total_value_huf_rupees": 0,
+    "gross_total_value_dependent1_rupees": 0,
+    "gross_total_value_dependent2_rupees": 0,
+    "gross_total_value_dependent3_rupees": 0,
+    "gross_total_value_total_rupees": 3120464,
+    "items": [
+      {
+        "description": "Cash",
+        "self_value_rupees": 170435,
+        "spouse_value_rupees": 68500,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 238935
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_value_rupees": 170435,
+        "spouse_value_rupees": 2426,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 172861,
+        "self_details": [
+          {
+            "bank": "State Bank of India",
+            "branch": "Pune Station Branch",
+            "account_type": "Saving",
+            "account_no": "2009971xxxxx",
+            "amount_rupees": 1558
+          },
+          {
+            "bank": "Alhabadbad Bank",
+            "branch": "Manjari Branch Pune",
+            "account_type": null,
+            "account_no": "2091870xxxxx",
+            "amount_rupees": 0
+          },
+          {
+            "bank": "Pune DCC Bank",
+            "branch": "Manjri Br, pune Branch",
+            "account_type": null,
+            "account_no": "20700170000xxxxx",
+            "amount_rupees": 126000
+          },
+          {
+            "bank": "Mangalmurti Nagari Sahakari Pathsantha",
+            "branch": "Kulevadi, Chandan Nagar, Pune",
+            "account_type": "Saving",
+            "account_no": "2552",
+            "amount_rupees": 40451
+          }
+        ],
+        "spouse_details": [
+          {
+            "bank": "Panjab National Bank",
+            "branch": "Nanded City, Pune",
+            "account_type": "Saving",
+            "account_no": "594800100016",
+            "amount_rupees": 2426
+          }
+        ]
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "(a) NSS, Postal Savings etc",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_value_rupees": 100000,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 100000,
+        "self_details": [
+          {
+            "company": "LIC",
+            "policy_no": "95942xxxxx",
+            "amount_rupees": 100000
+          }
+        ]
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_value_rupees": 155000,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 155000,
+        "self_details": [
+          {
+            "make": "TVS Scooty Pep",
+            "registration_no": "Mh 12 MJ 3854",
+            "year": 2017,
+            "value_rupees": 50000
+          },
+          {
+            "make": "TVS Jupitor",
+            "registration_no": "MH 12 UT 5594",
+            "year": 2023,
+            "value_rupees": 105000
+          }
+        ]
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_value_rupees": 15000,
+        "spouse_value_rupees": 95219,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 110219,
+        "self_details": {
+          "weight": "2.5 Gram",
+          "value_rupees": 15000
+        },
+        "spouse_details": {
+          "weight": "1 Tole 180 gram Gold",
+          "value_rupees": 95219
+        }
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2017-04-24",
-        "purchase_cost_inr": 440000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "report_status": "No Problems in Reading Affidavit Information",
+    "total_current_market_value_self_rupees": 0,
+    "total_current_market_value_spouse_rupees": 0,
+    "total_current_market_value_huf_rupees": 0,
+    "total_current_market_value_dependent1_rupees": 0,
+    "total_current_market_value_dependent2_rupees": 0,
+    "total_current_market_value_dependent3_rupees": 0,
+    "total_current_market_value_total_rupees": 0,
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0,
+        "self_details": [
+          {
+            "location": "At. Ambed, Taluka Velhe, Pune",
+            "sy_no": "Bagayat Gut No. 314/355/360",
+            "account_no": "318",
+            "total_area": "1 Hector 22 r",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2017-10-25",
+            "purchase_cost_rupees": 1010000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 0
+          }
+        ]
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Plot No. 14, Saimanohar Residency, Varchi Odi, Nanded, Taluka Haveli, Dist : Pune",
-        "total_area_sqft": 373,
-        "built_up_area_sqft": 373,
-        "inherited": "N",
-        "purchase_date": "2018-07-25",
-        "purchase_cost_inr": 1375309,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      {
+        "description": "Non Agricultural Land",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0,
+        "self_details": [
+          {
+            "total_area": null,
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2017-04-24",
+            "purchase_cost_rupees": 440000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 0
+          },
+          {
+            "total_area": null,
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "2005-01-01",
+            "purchase_cost_rupees": 78571,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 0
+          }
+        ]
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
+      {
+        "description": "Commercial Buildings",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Residential Buildings",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0,
+        "self_details": [
+          {
+            "plot_no": "14",
+            "location": "Saimanohar Residency, Varchi Odi, Nanded, Taluka Haveli, Dist : Pune",
+            "total_area": "373 Sq. Ft.",
+            "built_up_area": "373 Sq. Ft.",
+            "inherited": false,
+            "purchase_date": "2018-07-25",
+            "purchase_cost_rupees": 1375309,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 0
+          }
+        ]
+      },
+      {
+        "description": "Others",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      }
+    ]
   },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 233500,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+  "liabilities": {
+    "report_status": "No Problems in Reading Affidavit Information",
+    "grand_total_of_liabilities_self_rupees": 233500,
+    "grand_total_of_liabilities_spouse_rupees": 0,
+    "grand_total_of_liabilities_huf_rupees": 0,
+    "grand_total_of_liabilities_dependent1_rupees": 0,
+    "grand_total_of_liabilities_dependent2_rupees": 0,
+    "grand_total_of_liabilities_dependent3_rupees": 0,
+    "grand_total_of_liabilities_total_rupees": 233500,
+    "grand_total_of_all_govt_dues_self_rupees": 0,
+    "grand_total_of_all_govt_dues_spouse_rupees": 0,
+    "grand_total_of_all_govt_dues_huf_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+    "grand_total_of_all_govt_dues_total_rupees": 0,
+    "any_other_liabilities_in_dispute": {
+      "self_amount_rupees": 0,
+      "spouse_amount_rupees": 0,
+      "huf_amount_rupees": 0,
+      "dependent1_amount_rupees": 0,
+      "dependent2_amount_rupees": 0,
+      "dependent3_amount_rupees": 0,
+      "total_amount_rupees": 0,
+      "details": []
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_value_rupees": 233500,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 233500,
+        "self_details": [
+          {
+            "bank": "Pune District Central Cooperative Bank",
+            "branch": "Manjri Branch, Pune",
+            "amount_rupees": 165000
+          },
+          {
+            "bank": "Mangalmurti Nagari Sahkari Pathsantha",
+            "branch": "Khulewadi, Chandan Nagar, Pune",
+            "loan_type": "Loan",
+            "amount_rupees": 68500
+          }
+        ]
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "GST Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "huf_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      }
+    ]
+  },
+  "profession_or_occupation": {
+    "self": "Farmer",
+    "spouse": "Housewife"
   },
   "sources_of_income": {
     "self": "Nil",
     "spouse": "Nil",
     "dependent": "Nil"
   },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
-  }
+  "contracts_with_government_and_public_companies": {
+    "candidate": "Nil",
+    "spouse": "Nil",
+    "dependent": "Nil",
+    "huf_or_trust": "Nil",
+    "partnership_firms": "Nil",
+    "private_companies": "Nil"
+  },
+  "banner_images": [
+    "https://www.myneta.info/lib/img/banner/banner-1.png",
+    "https://www.myneta.info/lib/img/banner/banner-2.png",
+    "https://www.myneta.info/lib/img/banner/banner-3.png",
+    "https://www.myneta.info/lib/img/banner/banner-4.png"
+  ],
+  "profile_image": "https://myneta.info/images_candidate/mynetai_ews5LokSabha2024/62bcf2b46f651d6d6fb52c62e158e6c04f390d7f.jpg"
 }

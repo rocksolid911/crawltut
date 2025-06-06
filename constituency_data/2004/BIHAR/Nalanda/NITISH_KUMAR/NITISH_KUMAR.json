@@ -2,114 +2,353 @@
   "candidate_name": "NITISH KUMAR",
   "party": "JD(U)",
   "constituency": "Nalanda",
-  "father_or_husband_name": "RAM LAKHAN SINGH",
-  "age": 52,
-  "education": "Graduate B.Sc (Engg.) from Bihar College of Engineering,Patna University,Patna in 1973",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 0,
-  "assets_total_inr": 4389206,
-  "liabilities_total_inr": 672674,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 9500,
-      "bank_deposits_inr": 5645,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 12200,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 28747
+  "state": "BIHAR",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "RAM LAKHAN SINGH",
+      "age": 52
     },
-    "spouse": {
-      "cash_inr": 6300,
-      "bank_deposits_inr": 397139,
-      "bonds_debentures_shares_inr": 40000,
-      "nss_postal_savings_inr": 80000,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 302410,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1264083
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Kalyanbigha ( Nalanada),Survey No.5660,5661,5664,Area-9 DECIMAL (50% SHARE)",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": 67500,
-        "development_cost_inr": null,
-        "current_market_value_inr": 67500
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 4389206,
+      "total_liabilities_in_rupees": 672674
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Sc (Engg.) from Bihar College of Engineering,Patna University,Patna in 1973"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 28747,
+      "gross_total_value_spouse_rupees": 1264083,
+      "gross_total_value_dependent1_rupees": 70742,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 1363572,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 9500,
+          "spouse_value_rupees": 6300,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15800
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5645,
+          "spouse_value_rupees": 735373,
+          "dependent1_value_rupees": 70742,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 811760,
+          "self_details": "SBI,Parliament HOuse,Delhi and PNB,Boring Road,Patna",
+          "spouse_details": "SBI BORING ROAD, UCO BANK,Mesra,Ranchi, FD with SBI,Boring Road,Patna, PPF with SBI Bailey Road, Patna",
+          "dependent1_details": "UCO BANK,Mesra,Ranchi"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 40000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 40000,
+          "spouse_details": "TAX SAVING"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 180000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 180000,
+          "spouse_details": "NSC, KVP"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 525000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 525000,
+          "note": "Not counted in total assets",
+          "spouse_details": "LIC,Premium 4441/-, LIC,Premium 1914/-"
+        },
+        {
+          "sr_no": "v",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "MARUTI- 800 MODAL 2000"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 12200,
+          "spouse_value_rupees": 302410,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 314610,
+          "self_details": "20 GM, 30 TOLAS Gold",
+          "spouse_details": "SILVER 5KG , GININS- 5 PCS"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 2236500,
+      "total_current_market_value_spouse_rupees": 39134,
+      "total_current_market_value_dependent1_rupees": 750000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 3025634,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 750000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 750000,
+          "dependent1_details": "Kalyanbigha ( Nalanada),Survey No.279,600,638,716&769,Area 6 ACRE 53.5 DECIMAL"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 67500,
+          "spouse_value_rupees": 39134,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 106634,
+          "self_details": "Kalyanbigha ( Nalanada),Survey No.5660,5661,5664,Area-9 DECIMAL (50% SHARE)",
+          "spouse_details": "Jaganpura Housing Society Kankarbagh,Patna,Survey No.1094,Area-2524 SQFt"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Buildings",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1000000,
+          "self_details": "Kalyanbigha ( Nalanada),Survey No.5677,5664,5678,Area-13 DECIMAL; Hakikatpur,Bakhtiyarpur,Survey No.81,82,Area 5 DECIMAL"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Houses",
+          "self_value_rupees": 1169000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1169000,
+          "self_details": "Plot No.2,Phase No.1,Sector-III,Dwarka,New Delhi,Survey No.A-305 (3rd Floor),Area-1000 SQF"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 672674,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 672674,
+      "items": [
+        {
+          "sr_no": "(a) i",
+          "description": "Loans from Banks",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans from Financial Institutions",
+          "self_value_rupees": 672674,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 672674,
+          "self_details": "HDFC,Safdarjung Enclave,DDA Com.,New Delhi"
+        },
+        {
+          "sr_no": "iii",
+          "description": "(a) Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(c) Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(d) Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(e) Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(f) Other Dues if any",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "(i) (a) Income Tax including surcharge [Also indicate the assessment year upto which Income Tax Return filed.]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Permanent Account Number (PAN)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "pan_given": true
+        },
+        {
+          "sr_no": null,
+          "description": "(ii) Wealth Tax [Also indicate the assessment year upto which Wealth Tax return filed.]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(iii) Sales Tax [Only in case proprietary business]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(iv) Property Tax",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections_info": [
+      {
+        "election_name": "Bihar Legislative Council",
+        "declared_assets_rupees": 17129264,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Kalyanbigha ( Nalanada),Survey No.5677,5664,5678,Area-13 DECIMAL & Hakikatpur,Bakhtiyarpur,Survey No.81,82,Area 5 DECIMAL",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": 1000000,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1000000
+      {
+        "election_name": "Bihar Ministers 2015",
+        "declared_assets_rupees": 27324475,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2236500
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Jaganpura Housing Society Kankarbagh,Patna,Survey No.1094,Area-2524 SQFt",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": 39134,
-        "development_cost_inr": null,
-        "current_market_value_inr": 39134
+      {
+        "election_name": "Bihar Ministers 2013",
+        "declared_assets_rupees": 24413569,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 39134
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 672674,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 672674
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Lok Sabha 2004",
+        "declared_assets_rupees": 4318464,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

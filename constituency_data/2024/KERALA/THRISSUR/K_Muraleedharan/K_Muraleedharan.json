@@ -1,180 +1,740 @@
 {
   "candidate_name": "K MURALEEDHARAN",
   "party": "INC",
-  "constituency": "THRISSUR (KERALA)",
-  "father_or_husband_name": "K Karunakaran",
-  "age": 67,
-  "education": "Graduate, BA From Mar Ivanios College, Thiruvananthapuram, Kerala University, Thiruvananthapuram In 1977-80",
-  "profession_self": "Social Worker, Vadakara MP",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 9,
-  "assets_total_inr": 134095491,
-  "liabilities_total_inr": 336000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 2401040,
-        "2021-2022": 2643330,
-        "2020-2021": 2155840,
-        "2019-2020": 3418040,
-        "2018-2019": 2966920
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 4396280,
-        "2021-2022": 4354270,
-        "2020-2021": 3782890,
-        "2019-2020": 53985530,
-        "2018-2019": 2455350
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 80000,
-      "bank_deposits_inr": 25016766,
-      "bonds_debentures_shares_inr": 100,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 5130456,
-      "jewellery_inr": 30000,
-      "other_assets_inr": 740000,
-      "gross_total_value_inr": 26554474
-    },
-    "spouse": {
-      "cash_inr": 90000,
-      "bank_deposits_inr": 37338805,
-      "bonds_debentures_shares_inr": 667340,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1500000,
-      "other_assets_inr": 2230000,
-      "gross_total_value_inr": 46269017
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+  "constituency": "THRISSUR",
+  "state": "KERALA",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "K Karunakaran",
+      "age": 67,
+      "voter_enrolled_in": {
+        "constituency": "133 Vattiyoorkavu",
+        "state": "Kerala",
+        "serial_no": 677,
+        "part_no": 86
       },
-      "commercial_buildings_inr": 24760000,
-      "residential_buildings": {
-        "description": "Land In Ayyanthole Vill. Thrissur Tk, Poomkunnam RS No. 799/Pt, 800 Pt, 801 Pt, Total Area 1.033 htr",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9400000
+      "self_profession": "Social Worker, Vadakara MP",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 9,
+      "total_assets_in_rupees": 134095491,
+      "total_liabilities_in_rupees": 336000
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "BA From Mar Ivanios College, Thiruvananthapuram, Kerala University, Thiruvananthapuram In 1977-80"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 2401040
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 2643330
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 2155840
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 3418040
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 2966920
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 4396280
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 4354270
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 3782890
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 53985530
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 2455350
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Sexual harassment (unwelcome physical contact,advances,demand,request for sexual favours, showing pornography, sexually coloured remark)",
+          "ipc_section": "354A",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 8
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 8
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 8
+        },
+        {
+          "charges_related_to": "Danger or obstruction in public way or line of navigation",
+          "ipc_section": "283",
+          "count": 8
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Word, gesture or act intended to insult the modesty of a woman",
+          "ipc_section": "509",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "CR No 1124/2023, Cantonment PS, TVPM City",
+          "case_no": "CC 1408/2023",
+          "court": "JFCM- III TVPM",
+          "ipc_sections_applicable": "143, 147, 149, 283",
+          "other_details_or_acts_sections_applicable": "Section 77(B), 39, 121 KP Act, Charge Sheet on 31.10.2023",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "CR No 1259/2021, Museum PS, District TVPM City",
+          "case_no": null,
+          "court": "JFCM III",
+          "ipc_sections_applicable": "354A, 509",
+          "other_details_or_acts_sections_applicable": "Under Investigation",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "fir_no": "CR No 253/2022, Cantonment PS, TVPM City",
+          "case_no": "CC 297/2022",
+          "court": "JFCM III TVPM",
+          "ipc_sections_applicable": "143, 147, 149, 283",
+          "other_details_or_acts_sections_applicable": "Charge Sheet on 08.03.2022",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 4,
+          "fir_no": "CR No 1205/2018, Mannanth ALA PS, TVPM City",
+          "case_no": "CC 218/2024",
+          "court": "JFCM V TVPM",
+          "ipc_sections_applicable": "143, 147, 149, 283, 188",
+          "other_details_or_acts_sections_applicable": "Charge Sheet on 18.09.2018",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 5,
+          "fir_no": "CR No 1576/2018, Mannanth ALA PS, TVPM City",
+          "case_no": "CC 414/2023",
+          "court": "JFMC V TVPM",
+          "ipc_sections_applicable": "143, 147, 149, 283, 188",
+          "other_details_or_acts_sections_applicable": "Charge Sheet on 24.11.2018",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 6,
+          "fir_no": "CR No 1325/2017, Cantonment PS, TVPM City",
+          "case_no": "CC 300/2020",
+          "court": "JFCM IV TVPM",
+          "ipc_sections_applicable": "143, 147, 149, 188, 283, 353",
+          "other_details_or_acts_sections_applicable": "Section 39, 77B, 121 Of KP Act, Charge Sheet on 11.10.2017",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 7,
+          "fir_no": "CR No 561/2020, , Museum PS, TVPM City",
+          "case_no": "CC 1475/2023",
+          "court": "JFCM III",
+          "ipc_sections_applicable": "143, 147, 149, 283",
+          "other_details_or_acts_sections_applicable": "Section 4(2)(a), 5 Of KEDO,",
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": "30 Jul 2020",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 8,
+          "fir_no": "CR No 80/2017, Kadinamkulam PS, TVPM RL",
+          "case_no": "CC 159/2022",
+          "court": "JFCM I Attingal",
+          "ipc_sections_applicable": "143, 147, 149, 283",
+          "other_details_or_acts_sections_applicable": "Under Trial ( Next Hearing Date 29.04.2024)",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 9,
+          "fir_no": "CR No 645/22, Kalpetta PS, Wayanad",
+          "case_no": "CC 305/23, CC 795/23",
+          "court": "JFCM Kalpetta",
+          "ipc_sections_applicable": "143, 147, 148, 283, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 26554474.24,
+      "gross_total_value_spouse_rupees": 46269017.18,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 72823491.42,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 80000,
+          "spouse_value_rupees": 90000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 170000,
+          "self_details": "80,000",
+          "spouse_details": "90,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 15993895.04,
+          "spouse_value_rupees": 46049753.25,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 62043648.29,
+          "self_details": "SBI FD, 38060950267, Kozhikode 60,00,000 Federal Bank No 1300040014xxxxx, Nadakkavu 29,00,000 Federal Bank No 1021040017xxxxx, Thrivananthapuram 22,50,000 SBI No 3728805xxxxx 15,00,000 Guruvayur Co-Operative Urban Bank FD 50,000 Deposit In CFCICI 2,03,000 Federal No 1021010036xxxxx Tiruvananthapuram 4,77,176.30 Federal No 1300010002xxxxx, Nadakkavu 8,72,272.31 Federal No 131701008xxxxx, Nanthocode 6,27,238.98 Federal No 1317010014xxxxx Nanthocode 1,372 SBI 10622391481 Kozhikode 2,72,750.83 SBI 67133008434 Kozhikode 2,03,998.15 SBI 10023825749 Kozhikode 1,99,343.51 SBI A/c.No 3849930xxxxx New Delhi 50,16,766.16",
+          "spouse_details": "Treasury No 79901050096xxxxx,Kozhikode 2,70,00,000 Treasury No 79901050106xxxxx, Kozhikode 1,00,00,000 Federal Bank No 130003000xxxxx 25,831 Federal Bank No 1300040014xxxxx Nadakkavu 5,00,000 Federal Bank No 1300040015xxxxx Nadakkavu 25,00,000 Federal No 1300010002xxxxx, Nadakkavu 2,762.76 Federal No 1317010016xxxxx, Nanthocode 5,17,669.85 Federal No 1300010000xxxxx Nadakkavu 1,85,909.07 SBI 67071060152 Kozhikode 4,99,024.53 Treasury No 79901010018xxxxx Kozhikode 3,52,015 Federal No 1300010027xxxxx, Nadakkavu 69,658 Federal No 1300010000xxxxx, Nadakkavu 67,517.84 DCB Bank, 36614700000161 Calicut 58,368.24 IDBI No 011410400021xxxxx Kozhikode 2,920.89"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 100,
+          "spouse_value_rupees": 667340,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 667440,
+          "self_details": "Shares In Mathrubhoomi 100",
+          "spouse_details": "Sundaram Textile Share 440 Sundaram Finance Share 6,66,900 Inherited Share From Father 1) Goodyear Limited Share 2) ICIC Bank Limited Share 3) Sundaram Finance Share 4) Subdaram Fastness Limited Share 5) Federal Bank Ltd. Share 6) Upnsana Finance Ltd. Share  0*(Value Not Given)"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "(b)",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 5130456,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5130456,
+          "self_details": "Toyota Innova Crysta , KL 01 CT4908, Model 2021 22,29,500 Toyota Innova, KL 01 BU 5806, 2015 Model 18,66,478 Maruthi Ertiga DL 2 CBA 4237, 2019 Model 10,34,478",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 30000,
+          "spouse_value_rupees": 1500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1530000,
+          "self_details": "Ornaments- 08 gm Wedding RIng 30,000",
+          "spouse_details": "Oranaments- 496 gm 15,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 740000,
+          "spouse_value_rupees": 2230000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2970000,
+          "self_details": "Electronics, Furniture & Other Househod Appliances 7,40,000",
+          "spouse_details": "Electronics, Furniture & Other Househod Appliances 22,30,000"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 261000000,
+      "total_current_market_value_spouse_rupees": 351720000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 612720000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 12012000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12012000,
+          "self_details": "Nil",
+          "spouse_details": "Achooranam Village Of Vythiri Tk, Re.Sy No. 384/1 Part & 380/4 Part Total Area 1.3383 htr Built Up Area  Whether Inherited N Purchase Date 2009-03-27 Purchase Cost 200000.00 Development Cost 0.00 13,20,000 Achooranam Village Of Vythiri Tk, Re.Sy No.381 Total Area 24100 htr Built Up Area  Whether Inherited N Purchase Date 2007-03-15 Purchase Cost 211000.00 Development Cost 0.00 39,60,000 Achooranam Village Of Vythiri Tk, Re.Sy No. 350/14 Total Area 0.4413 htr Built Up Area  Whether Inherited N Purchase Date 1983-11-22 Purchase Cost 5000.00 Development Cost 0.00 6,60,000 Eranadu Tk, Cherukavu Vill. Vengad Desam Re Sy.No. Block 4 RS No. 36/1, 36/3, 36/7, 35/9 Total Area 0.812 htr Built Up Area  Whether Inherited N Purchase Date 1995-06-22 Purchase Cost 200000.00 Development Cost 0.00 10,56,000 Eranadu Tk, Cherukavu Vill. Vengad Desam Re Sy.No. Block 4 , S.No., 70/9, 70/12, 37/13, 35/9, 35/10 Total Area 0.8290 htr Built Up Area  Whether Inherited N Purchase Date 1995-06-21 Purchase Cost 50000.00 Development Cost 0.00 10,56,000 Eranadu Tk, Cherukavu Vill. Vengad Desam Re Sy.No. Block 4 , S.No. 36/1, 36/9, 36/7, 35/3,35/10, 70/13 Total Area 0.7440 htr Built Up Area  Whether Inherited N Purchase Date 1995-03-22 Purchase Cost 200000.00 Development Cost 0.00 10,56,000 Achooranam Village Of Vythiri Tk, Re.Sy No. 380/4 Part & 384/1 Total Area 1.041 htr Built Up Area  Whether Inherited N Purchase Date 2007-03-15 Purchase Cost 330000.00 Development Cost 0.00 13,20,000 Achooranam Village Of Vythiri Tk, Re.Sy No. 363/4 Total Area 0.0764 htr Built Up Area  Whether Inherited N Purchase Date 1996-05-29 Purchase Cost 9500.00 Development Cost 0.00 15,84,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 15240000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15240000,
+          "self_details": "Nil",
+          "spouse_details": "Land In TS No. 5-24-1217/48 Part Of Kasaba Vill. Kozhikode TK, Kozhikode Dist. Total Area 26.5 Cent Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,50,00,000 Land In TS No. 5-24-1221/2 Part Of Kasaba Vill. Kozhikode TK, Kozhikode Dist. Total Area 2 Cent Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,40,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 14720000,
+          "spouse_value_rupees": 1320000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16040000,
+          "self_details": "T.S.No. 1-3-130/1-3-131 Part Of Kacheri Vill. Of Kozhikode Tk. West Hill Total Area 0.0820 htr Built Up Area  Whether Inherited N Purchase Date 1987-08-31 Purchase Cost 400000.00 Development Cost 0.00 13,20,000 Land In RS No. 2524/3, 2522/2, 2521/2 Of Vanchiyoor Vill. Thiruvanathapuram Tk Total Area 7.250 cent Built Up Area  Whether Inherited N Purchase Date 2020-12-24 Purchase Cost 7565000.00 Development Cost 0.00 1,34,00,000",
+          "spouse_details": "Building TS No. 5-15-662/ Of Kasaba Vill. Kozhikode Tk. (1/4 th Share) Total Area 1.45 cent Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 300000.00 6,60,000 Building TS No. 5-15-662/ Of Kasaba Vill. Kozhikode Tk.(1/4 th Share) Total Area 1.45 cent Built Up Area  Whether Inherited N Purchase Date 1997-01-21 Purchase Cost 100000.00 Development Cost 300000.00 6,60,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 113800000,
+          "spouse_value_rupees": 66000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 179800000,
+          "self_details": "Land In Ayyanthole Vill. Thrissur Tk, Poomkunnam RS No. 799/Pt, 800 Pt, 801 Pt, Total Area 1.033 htr Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 94,00,000 Flat in Guruvayur Viil. Chavakad Tk. Trissur RS No. 107/6 Part Of Guruvayur Vill. Total Area 1205 Sq.Ft. Built Up Area 1205 Sq.Ft. Whether Inherited N Purchase Date 1998-11-17 Purchase Cost 1000000.00 Development Cost 0.00 19,80,000",
+          "spouse_details": "Dwelling House , Katcheri Village, Kozhikode Tk, TS No. 1-37-1468/2 Pt Total Area 0.088 Htr Built Up Area 2040 Sq.Ft. Whether Inherited Y Purchase Date 1990-03-12 Purchase Cost 500000.00 Development Cost 0.00 19,80,000 House- Shastamangalam Vill. Thriuvananthapuram Tk , Bhagavathi Nagar TC No. 5/2611 TS No. 160/2  Total Area 805 Cent Built Up Area 1830 Sq.Ft. Whether Inherited N Purchase Date 2006-09-23 Purchase Cost 2300000.00 Development Cost 0.00 46,20,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 336000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 336000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 26100000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 336000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 336000,
+          "self_details": "Sanoop C, Security Deposit 2,00,000 Sudhakaran, Security Deposit 1,36,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 12012000,
-      "non_agricultural_land": {
-        "description": "Land In TS No. 5-24-1217/48 Part Of Kasaba Vill. Kozhikode TK, Kozhikode Dist. Total Area 26.5 Cent",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 15000000
+    "profession_or_occupation": {
+      "self": "Social Worker, Vadakara MP",
+      "spouse": "House Wife"
+    },
+    "sources_of_income": {
+      "self": "MP Salary, Ex. MLA Pension, Company Dividend, Bank Interest, Rent",
+      "spouse": "Agricultural Income, Bank Interest, Rent, Company Dividend",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
+    },
+    "other_elections_data": [
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 114379340,
+        "declared_cases": 3
       },
-      "commercial_buildings_inr": 1320000,
-      "residential_buildings": {
-        "description": "Dwelling House , Katcheri Village, Kozhikode Tk, TS No. 1-37-1468/2 Pt Total Area 0.088 Htr Built Up Area 2040 Sq.Ft.",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 2040,
-        "inherited": "Y",
-        "purchase_date": "1990-03-12",
-        "purchase_cost_inr": 500000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1980000
+      {
+        "election_name": "Kerala 2016",
+        "declared_assets_rupees": 130442521,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 35172000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 336000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 336000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "MP Salary, Ex. MLA Pension, Company Dividend, Bank Interest, Rent",
-    "spouse": "Agricultural Income, Bank Interest, Rent, Company Dividend",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+      {
+        "election_name": "Kerala 2011",
+        "declared_assets_rupees": 100358599,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Lok Sabha 2009",
+        "declared_assets_rupees": 30755513,
+        "declared_cases": 3
+      },
+      {
+        "election_name": "Kerala 2006",
+        "declared_assets_rupees": 30936566,
+        "declared_cases": 1
+      }
+    ]
   }
 }

@@ -1,122 +1,593 @@
 {
   "candidate_name": "DEVJI PATEL",
   "party": "BJP",
-  "constituency": "JALORE (RAJASTHAN)",
-  "father_or_husband_name": "Masinga Ram",
-  "age": 37,
-  "education": "10th Pass",
-  "profession_self": "Business, Member of Parliament",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 51846777,
-  "liabilities_total_inr": 12780726,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 500000
+  "constituency": "JALORE",
+  "state": "RAJASTHAN",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Masinga Ram",
+      "age": 37,
+      "voter_enrolled_in": {
+        "constituency": "18, Jalore",
+        "state": "Rajasthan",
+        "serial_no": 78,
+        "part_no": 261
+      },
+      "self_profession": "Business, Member of Parliament",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 51846777,
+      "total_liabilities_in_rupees": 12780726
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "10th Pass From Marwadi Vidyalaya High School , S.V.P. Road, Girgaon, Mumbai 400004 In 1992"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 500000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 280100
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1421125,
+      "gross_total_value_spouse_rupees": 6659361,
+      "gross_total_value_dependent1_rupees": 776358,
+      "gross_total_value_dependent2_rupees": 676358,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9533202,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 250000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 750000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 208101,
+          "spouse_value_rupees": 6665,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 214766,
+          "self_details": "SBI, Branch - Sansad Bhawan New Delhi 2,08,101",
+          "spouse_details": "PNB, Branch - Chankhera (Gujrat)  6,665"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 91000,
+          "spouse_value_rupees": 262500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 353500,
+          "self_details": "Share Of Sadbhavna Milk Producar Limited 91,000",
+          "spouse_details": "Share Of Divine Tubes Pvt. Ltd. 2,62,500"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 376358,
+          "dependent2_value_rupees": 376358,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 752716,
+          "dependent1_details": "Public Provident Fund - Bank Of Baroda 3,76,358",
+          "dependent2_details": "Public Provident Fund - Bank Of Baroda 3,76,358"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 2300000,
+          "dependent1_value_rupees": 400000,
+          "dependent2_value_rupees": 300000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3400000,
+          "self_details": "LIC 4,00,000",
+          "spouse_details": "LIC 23,00,000",
+          "dependent1_details": "LIC 4,00,000",
+          "dependent2_details": "LIC 3,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1573585,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1573585
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 222024,
+          "spouse_value_rupees": 2266611,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2488635,
+          "self_details": "76.56 Gm Gold Jewellery 2,22,024",
+          "spouse_details": "784.79 Gm Gold Jewellery 22,66,611"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 1565000,
+      "total_current_market_value_spouse_rupees": 40748575,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 42313575,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 965000,
+          "spouse_value_rupees": 825000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1790000,
+          "self_details": [
+            {
+              "location": "Makhupura Patwar Halka Sanchore",
+              "survey_no": "1873",
+              "total_area": "1.45 Hect.",
+              "inherited": false,
+              "purchase_date": "2012-08-09",
+              "purchase_cost": 789470,
+              "development_cost": 0,
+              "current_value": 900000
+            },
+            {
+              "location": "Makhupura Patwar Halka Sanchore",
+              "survey_no": "1871",
+              "total_area": "0.32 Hect.",
+              "inherited": false,
+              "purchase_date": "2010-11-23",
+              "purchase_cost": 57350,
+              "development_cost": 0,
+              "current_value": 65000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Makhupura Patwar Halka Sanchore",
+              "survey_no": "2779 And 2778",
+              "total_area": "1.61 Hect, 0.01 Hect.",
+              "inherited": false,
+              "purchase_date": "2008-08-04",
+              "purchase_cost": 479850,
+              "development_cost": 0,
+              "current_value": 550000
+            },
+            {
+              "location": "Makhupura Patwar Halka Sanchore",
+              "survey_no": "2749 And 2758, 1/2 Part",
+              "total_area": "1.9175 Hect.",
+              "inherited": false,
+              "purchase_date": "2008-08-02",
+              "purchase_cost": 212385,
+              "development_cost": 0,
+              "current_value": 275000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 28000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 28030000,
+          "self_details": [
+            {
+              "location": "Makhupura Patwar Halka Sanchore",
+              "survey_no": "3700/2625",
+              "plot_no": "A",
+              "total_area": "26909 Ft",
+              "inherited": false,
+              "purchase_date": "2013-01-03",
+              "purchase_cost": 20549,
+              "development_cost": 0,
+              "current_value": 25000
+            },
+            {
+              "location": "Makhupura Patwar Halka Sanchore",
+              "survey_no": "3698/2625",
+              "plot_no": "16",
+              "total_area": "1500 Sq ft",
+              "inherited": false,
+              "purchase_date": "2013-09-03",
+              "purchase_cost": 229160,
+              "development_cost": 0,
+              "current_value": 250000
+            },
+            {
+              "location": "Kalbiu Ka Bas, Vill. - Jajusan, Vill. - Panchayat Hatetar",
+              "total_area": "2400 Sq ft",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost": 0,
+              "development_cost": 0,
+              "current_value": 25000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Vill. - Agar, Teh. - Sanchore",
+              "survey_no": "686/208, 687/208",
+              "total_area": "26909 Ft",
+              "inherited": false,
+              "purchase_date": "2010-07-16",
+              "purchase_cost": 57120,
+              "development_cost": 0,
+              "current_value": 60000
+            },
+            {
+              "location": "Vill. - Agar, Teh. Sanchore",
+              "survey_no": "208",
+              "total_area": "256181 Sq ft",
+              "inherited": false,
+              "purchase_date": "2010-09-23",
+              "purchase_cost": 465100,
+              "development_cost": 0,
+              "current_value": 550000
+            },
+            {
+              "location": "Vill. - Agar, Teh. - Sanchore",
+              "survey_no": "151",
+              "total_area": "46285 Sq ft",
+              "inherited": false,
+              "purchase_date": "2010-07-16",
+              "purchase_cost": 55730,
+              "development_cost": 0,
+              "current_value": 70000
+            },
+            {
+              "location": "Vill. - Agar",
+              "survey_no": "1576",
+              "plot_no": "8, Iscon Residensi Colony",
+              "total_area": "200 sq. Ft.",
+              "inherited": false,
+              "purchase_date": "2014-01-27",
+              "purchase_cost": 31260,
+              "development_cost": 0,
+              "current_value": 50000
+            },
+            {
+              "location": "Ahamadabad - Ganghi Nagar Highway, Ahamadabad",
+              "f_p": "62",
+              "t_p_s_no": "44",
+              "plot_no": "49",
+              "total_area": "11115 Sq ft",
+              "inherited": false,
+              "purchase_date": "2014-01-16",
+              "purchase_cost": 26722517,
+              "development_cost": 0,
+              "current_value": 27000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1700000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1700000,
+          "spouse_details": [
+            {
+              "location": "Maruti Complex Mauja Rakhiyal Ahmedabad",
+              "f_p": "135",
+              "t_p_scheme_no": "10",
+              "shed_no": "G-3, Ground Floor",
+              "total_area": "260 Sq ft",
+              "inherited": false,
+              "purchase_date": "2007-02-21",
+              "purchase_cost": 410000,
+              "development_cost": 0,
+              "current_value": 550000
+            },
+            {
+              "location": "Sokol Mall, Sahjanand (Motera) Commercial And Housing Co-operative Society Ltd., Mauja Motera Teh. - Daskoai, Distt. - Ahmedabad",
+              "shop_no": "63",
+              "total_area": "154 Sq ft",
+              "built_area": 257,
+              "inherited": false,
+              "purchase_date": "2008-12-19",
+              "purchase_cost": 895000,
+              "development_cost": 0,
+              "current_value": 1150000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 2200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2200000,
+          "spouse_details": [
+            {
+              "location": "Sokol Regidensi 1, Mauja - Chandkhera Teh. - Daskaoi, Distt. - Ahmedabad",
+              "flat_no": "D 404, 4th Floor",
+              "f_p": "202/1",
+              "t_p_s_no": "22",
+              "total_area": "642 Sq ft",
+              "built_up_area": "1351 Sq ft",
+              "inherited": false,
+              "purchase_date": "2008-05-13",
+              "purchase_cost": 1495000,
+              "development_cost": 0,
+              "current_value": 2200000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 8293575,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8593575,
+          "self_details": "State Govt. Allocate, Resident Plot Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 3,00,000",
+          "spouse_details": "Selens Construction Ltd., Resident Flat Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 82,93,575"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 105588,
+      "grand_total_of_liabilities_spouse_rupees": 12675138,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 12780726,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 105588,
+          "spouse_value_rupees": 12675138,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12780726,
+          "self_details": "LIC 1,05,588",
+          "spouse_details": "ICICI Bank 1,19,33,090 LIC 7,42,048"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2009",
+        "declared_assets_rupees": 11261830,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 280100
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 208101,
-      "bonds_debentures_shares_inr": 91000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 400000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 222024,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1421125
-    },
-    "spouse": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 6665,
-      "bonds_debentures_shares_inr": 262500,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 2300000,
-      "personal_loans_advance_given_inr": 1573585,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2266611,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6659361
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 965000,
-      "non_agricultural_land": 300000,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 0,
-      "others_inr": 300000,
-      "total_current_market_value_inr": 1565000
-    },
-    "spouse": {
-      "agricultural_land_inr": 825000,
-      "non_agricultural_land": 28030000,
-      "commercial_buildings_inr": 1700000,
-      "residential_buildings": 2200000,
-      "others_inr": 8293575,
-      "total_current_market_value_inr": 40748575
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 105588,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 105588
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 12675138,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 12675138
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    ]
+  }
 }

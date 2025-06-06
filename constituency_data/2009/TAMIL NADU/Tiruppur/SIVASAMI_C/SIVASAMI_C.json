@@ -1,92 +1,288 @@
 {
   "candidate_name": "SIVASAMI C",
+  "election_year": 2009,
+  "constituency": "Tiruppur",
+  "state": "TAMIL NADU",
+  "status": "Winner",
   "party": "ADMK",
-  "constituency": "Tiruppur (TAMIL NADU)",
-  "father_or_husband_name": "Chellappan",
-  "age": 51,
-  "education": "Post Graduate MA, MADURAI KAMARAJ OPEN UNIVERSITY, 1995",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 3,
-  "assets_total_inr": 51892954,
-  "liabilities_total_inr": 0,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 2315000,
-      "bank_deposits_inr": 37360,
-      "bonds_debentures_shares_inr": 1200000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 75000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 22000,
-      "other_assets_inr": 2013000,
-      "gross_total_value_inr": 5587359
+  "personal_details": {
+    "s_o_d_o_w_o": "Chellappan",
+    "age": 51
+  },
+  "summary": {
+    "criminal_cases_count": 3,
+    "total_assets_in_rupees": 51892954,
+    "total_liabilities_in_rupees": 0
+  },
+  "educational_details": {
+    "category": "Post Graduate",
+    "details": "MA, MADURAI KAMARAJ OPEN UNIVERSITY, 1995"
+  },
+  "criminal_cases": {
+    "brief_details_ipc_bns": [
+      {
+        "charges_related_to": "Having possession of document described in Section 466 or 467, knowing it to be forged and intending to use it as genuine",
+        "ipc_section": "474",
+        "count": 3
+      },
+      {
+        "charges_related_to": "Cheating by personation",
+        "ipc_section": "416",
+        "count": 3
+      },
+      {
+        "charges_related_to": "cheating by personation",
+        "ipc_section": "419",
+        "count": 3
+      },
+      {
+        "charges_related_to": "Forgery",
+        "ipc_section": "463",
+        "count": 3
+      },
+      {
+        "charges_related_to": "Making a false document",
+        "ipc_section": "464",
+        "count": 3
+      },
+      {
+        "charges_related_to": "forgery",
+        "ipc_section": "465",
+        "count": 3
+      },
+      {
+        "charges_related_to": "Using as genuine a forged document or electronic record",
+        "ipc_section": "471",
+        "count": 3
+      },
+      {
+        "charges_related_to": "A will",
+        "ipc_section": "31",
+        "count": 3
+      }
+    ],
+    "cases_where_accused": [
+      {
+        "serial_no": 1,
+        "ipc_sections_applicable": "416, 419, 463, 464, 465, 471, 474, 31",
+        "other_details_or_acts_sections_applicable": "CC NO53/06"
+      },
+      {
+        "serial_no": 2,
+        "ipc_sections_applicable": "416, 419, 463, 464, 465, 471, 474, 31",
+        "other_details_or_acts_sections_applicable": ", CC NO54/06"
+      },
+      {
+        "serial_no": 3,
+        "ipc_sections_applicable": "416, 419, 463, 464, 465, 471, 474, 31",
+        "other_details_or_acts_sections_applicable": "CC NO55/06"
+      }
+    ],
+    "cases_where_convicted": "No Cases"
+  },
+  "assets_and_liabilities": {
+    "movable_assets": {
+      "total_self_rupees": 5587359,
+      "total_spouse_rupees": 8532951,
+      "total_dependent1_rupees": 894754,
+      "total_dependent2_rupees": 987890,
+      "total_dependent3_rupees": 50000,
+      "grand_total_rupees": 16052954,
+      "details": [
+        {
+          "description": "Cash",
+          "self_rupees": 2315000,
+          "spouse_rupees": 1204000,
+          "dependent1_rupees": 792000,
+          "dependent2_rupees": 282000,
+          "dependent3_rupees": 0
+        },
+        {
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_rupees": 47117,
+          "spouse_rupees": 1114,
+          "dependent1_rupees": 2754,
+          "dependent2_rupees": 5890,
+          "dependent3_rupees": 0,
+          "self_details": "TIRUPUR COOPERATIVE HOUSING GROUP LTD., INDIAN BANK, CHENNAI, BANK OF INDIA, SENGAPALLI",
+          "spouse_details": "BANK OF INDIA, SENGAPALLI",
+          "dependent1_details": "SBI, THENNAMPALAYAM",
+          "dependent2_details": "BANK OF INDIA, SENGAPALLI"
+        },
+        {
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_rupees": 1200000,
+          "spouse_rupees": 1000000,
+          "dependent1_rupees": 1470000,
+          "dependent2_rupees": 0,
+          "dependent3_rupees": 0,
+          "self_details": "TOPNIT PRINTS",
+          "spouse_details": "TOPKNIT EXPORTS INDIA P LTD.",
+          "dependent1_details": "TOPKNIT INTERNATIONAL"
+        },
+        {
+          "description": "(a) NSS, Postal Savings etc",
+          "self_rupees": 0,
+          "spouse_rupees": 0,
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 0,
+          "dependent3_rupees": 0
+        },
+        {
+          "description": "(b) LIC or other insurance Policies",
+          "self_rupees": 75000,
+          "spouse_rupees": 75000,
+          "dependent1_rupees": 300000,
+          "dependent2_rupees": 30000,
+          "dependent3_rupees": 0,
+          "self_details": "BAJAJ ALLIANCE, LIFE INSURANCE",
+          "spouse_details": "MAX LIFE INSURANCE",
+          "dependent1_details": "LIC",
+          "dependent2_details": "BAJAJ LIFE INSURANCE"
+        },
+        {
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_rupees": 0,
+          "spouse_rupees": 0,
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 0,
+          "dependent3_rupees": 0
+        },
+        {
+          "description": "Jewellery (give details weight value)",
+          "self_rupees": 22000,
+          "self_gms": 16,
+          "spouse_rupees": 300000,
+          "spouse_gms": 240,
+          "dependent1_rupees": 100000,
+          "dependent1_gms": 80,
+          "dependent2_rupees": 0,
+          "dependent3_rupees": 50000,
+          "dependent3_gms": 40
+        },
+        {
+          "description": "Other assets, such as values of claims / interests",
+          "self_rupees": 2013000,
+          "self_details": "FROM INDIVIDUALS",
+          "spouse_rupees": 4557837,
+          "spouse_details": "CREDIT TO TOPKNIT INTL",
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 700000,
+          "dependent2_details": "FROM INDIVIDUALS",
+          "dependent3_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "cash_inr": 1204000,
-      "bank_deposits_inr": 1114,
-      "bonds_debentures_shares_inr": 24700000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 75000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 300000,
-      "other_assets_inr": 4557837,
-      "gross_total_value_inr": 8532951
+    "immovable_assets": {
+      "total_self_rupees": 22540000,
+      "total_spouse_rupees": 4950000,
+      "total_dependent1_rupees": 0,
+      "total_dependent2_rupees": 8350000,
+      "total_dependent3_rupees": 0,
+      "grand_total_rupees": 35840000,
+      "details": [
+        {
+          "description": "Agricultural Land",
+          "self_rupees": 2640000,
+          "self_details": "TIRUPUR DIST. AVINASI TALUK KALIPALAYAM VILLAGE",
+          "spouse_rupees": 4800000,
+          "spouse_details": "TIRUPUR DIST. AVINASI TALUK KANAKAMPALAYAM VILLAGE",
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 2600000,
+          "dependent2_details": "TIRUPUR DIST. AVINASI TALUK KALIPALAYAM VILLAGE",
+          "dependent3_rupees": 0
+        },
+        {
+          "description": "Non Agricultural Land",
+          "self_rupees": 0,
+          "spouse_rupees": 0,
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 1400000,
+          "dependent2_details": "TIRUPUR DIST. AVINASI TALUK KALIPALAYAM VILLAGE",
+          "dependent3_rupees": 0
+        },
+        {
+          "description": "Buildings",
+          "self_rupees": 0,
+          "spouse_rupees": 0,
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 0,
+          "dependent3_rupees": 0
+        },
+        {
+          "description": "Houses",
+          "self_rupees": 100000,
+          "self_details": "TIRUPUR DIST. AVINASI TALUK KALIPALAYAM VILLAGE",
+          "spouse_rupees": 0,
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 100000,
+          "dependent2_details": "TIRUPUR DIST. AVINASI TALUK KALIPALAYAM VILLAGE",
+          "dependent3_rupees": 0
+        },
+        {
+          "description": "Others",
+          "self_rupees": 500000,
+          "self_details": "K. THANGARAJ, INDRANI, S. SUPPATHAL",
+          "spouse_rupees": 0,
+          "dependent1_rupees": 0,
+          "dependent2_rupees": 0,
+          "dependent3_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "grand_total_rupees": 0,
+      "details": [
+        {
+          "description": "Loans from Banks",
+          "amount": 0
+        },
+        {
+          "description": "Loans from Financial Institutions",
+          "amount": 0
+        },
+        {
+          "description": "(a) Dues to departments dealing with government accommodation",
+          "amount": 0
+        },
+        {
+          "description": "(b) Dues to departments dealing with supply of water",
+          "amount": 0
+        },
+        {
+          "description": "(c) Dues to departments dealing with supply of electricity",
+          "amount": 0
+        },
+        {
+          "description": "(d) Dues to departments dealing with telephones",
+          "amount": 0
+        },
+        {
+          "description": "(e) Dues to departments dealing with supply of transport",
+          "amount": 0
+        },
+        {
+          "description": "Other Dues if any",
+          "amount": 0
+        },
+        {
+          "description": "(i) (a) Income Tax including surcharge",
+          "amount": 0,
+          "pan_given": true
+        },
+        {
+          "description": "(ii) Wealth Tax",
+          "amount": 0
+        },
+        {
+          "description": "(iii) Sales Tax",
+          "amount": 0
+        },
+        {
+          "description": "(iv) Property Tax",
+          "amount": 0
+        }
+      ]
     }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 20840000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": null,
-      "residential_buildings": null,
-      "houses_inr": 100000,
-      "others_inr": 1600000,
-      "total_current_market_value_inr": 22540000
-    },
-    "spouse": {
-      "agricultural_land_inr": 4950000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": null,
-      "residential_buildings": null,
-      "houses_inr": null,
-      "others_inr": null,
-      "total_current_market_value_inr": 4950000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": null,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": null
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+  }
 }

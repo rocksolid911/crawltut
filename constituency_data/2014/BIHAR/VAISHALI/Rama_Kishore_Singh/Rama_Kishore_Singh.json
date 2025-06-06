@@ -1,138 +1,498 @@
 {
   "candidate_name": "RAMA KISHORE SINGH",
   "party": "LJP",
-  "constituency": "VAISHALI(BIHAR)",
-  "father_or_husband_name": "Shri Kapleswar Singh",
-  "age": 51,
-  "education": "Graduate From Bihar University, Muzaffarpur, Bihar in 1983",
-  "profession_self": "Business, Social Worker and Political Worker",
-  "profession_spouse": "Govt. Service",
-  "criminal_cases": 4,
-  "assets_total_inr": 21610218,
-  "liabilities_total_inr": 3323006,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 512144
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 529123
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 90000,
-      "bank_deposits_inr": 1788228,
-      "bonds_debentures_shares_inr": 1665000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 852004,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 3195165,
-      "jewellery_inr": 1085000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 8675553
-    },
-    "spouse": {
-      "cash_inr": 65000,
-      "bank_deposits_inr": 1051885,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 450000,
-      "lic_other_insurance_inr": 702780,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 685000,
-      "jewellery_inr": 2480000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5434665
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1600000,
-      "non_agricultural_land": {
-        "description": "Mouza Digha, Plot 3750 Total Area 5600 Sqft",
-        "area_sq_mtr": 520.257,
-        "inherited": "N",
-        "purchase_date": "2002-01-01",
-        "purchase_cost_inr": 90000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+  "constituency": "VAISHALI",
+  "state": "BIHAR",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Shri Kapleswar Singh",
+      "age": 51,
+      "voter_enrolled_in": {
+        "constituency": "21 Hazipur, Bihar (Bihar)",
+        "serial_no": 887,
+        "part_no": 171
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2600000
+      "self_profession": "Business, Social Worker and Political Worker",
+      "spouse_profession": "Govt. Service"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Mouza Digha Plot 3737 Total Area 13610 sqft Built Up Area 5600 Sqft",
-        "total_area_sqft": 13610,
-        "built_up_area_sqft": 5600,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 126000,
-        "development_cost_inr": 2500000,
-        "current_market_value_inr": 2400000
+    "summary": {
+      "criminal_cases_count": 4,
+      "total_assets_in_rupees": 21610218,
+      "total_liabilities_in_rupees": 3323006
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Graduate From Bihar University, Muzaffarpur, Bihar in 1983"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 512144
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 529123
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Kidnapping from India",
+          "ipc_section": "360",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Kidnapping or abducting in order to murder",
+          "ipc_section": "364",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Kidnapping or abducting with intent secretly and wrongfully to confine person",
+          "ipc_section": "365",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Kidnapping or abducting child under ten years with intent to steal from its person",
+          "ipc_section": "369",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Murder",
+          "ipc_section": "302",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Dishonestly receiving property stolen in the commission of a dacoity",
+          "ipc_section": "412",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assisting in concealment of stolen property",
+          "ipc_section": "414",
+          "count": 1
+        },
+        {
+          "charges_related_to": "voluntarily causing grievous hurt",
+          "ipc_section": "325",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        }
+      ],
+      "charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "360, 364, 365, 369, 120B",
+          "other_details_or_acts_sections_applicable": "Fir No. 320/92, Hazipur Nagar PS. Vaishali Bihar, Court - ADJ IV Class, Hazipur, Vaishali, ST. No. 42/97, Cognizance Date - 07/09/1992, Court Which Framed The Charge-ADJ III Hazipur, Vaishali, Date on Which the Charge Was Framed- 25-02-2008"
+        }
+      ],
+      "cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "302, 120B, 34",
+          "other_details_or_acts_sections_applicable": "Section 27 Arms Act, S.T. No. 455/04, FT-2, Vaishali, Hazipur, Cog. Date 16.12.2004"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "412, 414, 120B",
+          "other_details_or_acts_sections_applicable": "S.T. No. 233/2001, 7th Additional Session Judge FTC, Durg, Cog. Date 17/08/2003, Application Cr.M.P. No.09/08 CGHC Under Section 482 C. R. P.C."
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "323, 325, 341",
+          "other_details_or_acts_sections_applicable": "ST No. 762/11, CJM Patna, Cong Date 25/08/2008"
+        }
+      ],
+      "convicted_cases": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 8675553,
+      "gross_total_value_spouse_rupees": 5434665,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 14110218,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 90000,
+          "spouse_value_rupees": 65000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 155000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1788384,
+          "spouse_value_rupees": 151885,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1940269,
+          "self_details": "FD Canara Bank Baring Road Patna  17,70,228 ; SB Bank, PNB Bank No 616900010001xxxxx 11,000 ; SB A/c in SBI Bank No 1083946xxxxx 7,156",
+          "spouse_details": "FD in Central Bank, Patna  1,50,000 ; SB Bank No 757800010000xxxxx in PNB Bank 1,885 ; FIIS Gold FD 9,00,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 1665000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1665000,
+          "self_details": "Shares in LR Pvt. Ltd. 25,000 ; Shares in PCS Pvt. Ltd. 16,40,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 450000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 450000,
+          "spouse_details": "PO Mis 4,50,000"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 852004,
+          "spouse_value_rupees": 702780,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1554784,
+          "self_details": "LIC policy 8,52,004",
+          "spouse_details": "LIC 7,02,780"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 3195165,
+          "spouse_value_rupees": 685000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3880165,
+          "self_details": "Scorpio in 20/7/2010 BR1PB6100 9,95,165 ; Pajero in 26/7/11, BR01BF6100 22,00,000",
+          "spouse_details": "Hundai I20 in 2012 BR31J4476 6,85,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1085000,
+          "spouse_value_rupees": 2480000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3565000,
+          "self_details": "Gold 340 Grams  10,85,000",
+          "spouse_details": "Gold 800 Grams 24,80,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 26000000,
+      "total_current_market_value_spouse_rupees": 24000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 50000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 16000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16000000,
+          "self_details": "Mouza Sahdoi Bihaadi Plot No. 32, 117, 176, 185, 208 Total Area 3 Acres and 27.75 Decimals Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 16,00,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 10000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000000,
+          "self_details": "Mouza Digha, Plot 3750 Total Area 5600 Sqft Built Up Area  Whether Inherited N Purchase Date 2002-01-01 Purchase Cost 90000.00 Development Cost 0.00 10,00,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 24000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 24000000,
+          "spouse_details": "Mouza Digha Plot 3737 Total Area 13610 sqft Built Up Area 5600 Sqft Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 126000.00 Development Cost 2500000.00 24,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2546050,
+      "grand_total_of_liabilities_spouse_rupees": 776956,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3323006,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2400000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2546050,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2546050
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2546050,
+          "spouse_value_rupees": 776956,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3323006,
+          "self_details": "Vehicle Loan from Canara Bank, Baring Road Patna 25,46,050",
+          "spouse_details": "Gold Loan From FIIS Patna 5,00,000 ; Vehicle Loan From Tata Capital 2,76,956"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 776956,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 776956
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "election_expenses": "https://www.myneta.info/ls2014/expense.php?candidate_id=9179"
+  }
 }

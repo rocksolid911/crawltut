@@ -1,128 +1,403 @@
 {
   "candidate_name": "ANJU BALA",
   "party": "BJP",
-  "constituency": "MISRIKH (UTTAR PRADESH)",
-  "father_or_husband_name": "Krishan Kumar Singh",
-  "age": 34,
-  "education": "Post Graduate in Sanskarit, Jammu and Kashmir, University, 2007; Post Graduate in Hindi, Chatarpati Shooji ji Maharaj, Kanpur 2010",
-  "profession_self": "Agriculture& Bussiness",
-  "profession_spouse": "Agriculture& Bussiness",
-  "criminal_cases": 0,
-  "assets_total_inr": 37618214,
-  "liabilities_total_inr": 1200000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 875930
-      }
+  "constituency": "MISRIKH",
+  "state": "UTTAR PRADESH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Krishan Kumar Singh",
+      "age": 34,
+      "voter_enrolled_in": {
+        "constituency": "159- Billgram Mallwa",
+        "state": "Uttar Pradesh",
+        "serial_no": 801,
+        "part_no": 222
+      },
+      "self_profession": "Agriculture& Bussiness",
+      "spouse_profession": "Agriculture& Bussiness"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 1920810
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 37618214,
+      "total_liabilities_in_rupees": 1200000
     },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "Post Graduate in Sanskarit ,Jammu and Kashmir,University ,2007, Post Graduate in Hindi,Chatarpati Shooji ji Maharaj ,Kanpur2010"
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 875930
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 1920810
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6465164,
+      "gross_total_value_spouse_rupees": 9728260,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 16193424,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 400000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 700000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 154629,
+          "spouse_value_rupees": 34387,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 189053,
+          "self_details": "1)S.B.I,Mallwa,Distt Hardoye No 3376584xxxxx 11,000  11 Thou+ 2)SBI,Mallwa,No 3047090xxxxx  89,385  89 Thou+ 3)SBI(Katwua)J.K,No 108026xxxxx 50,244  50 Thou+ 4)BOI,Mallwa,/C-74041010001895 4,037  4 Thou+",
+          "spouse_details": "1)SBI,vidan sabha(U.P),No 10220308xxxxx 15,000  15 Thou+ 2)SBI,Mallwa,No 2003007xxxxx 19,387  19 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 3595498,
+          "spouse_value_rupees": 1833873,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5439371,
+          "self_details": "1)Share Partner Captial in good break field  8,05,498  8 Lacs+ 2)Share s.a.b India,Agro industries 5,00,000  5 Lacs+ 3)Share s.a.b india,Construction 20,90,000  20 Lacs+ 4)Share Application Money in good Refecture Ltd. 2,00,000  2 Lacs+",
+          "spouse_details": "1)Share partner in Captial good Break Fied 8,23,373  8 Lacs+ 2)Share Green India Archture pvt ltd 5,10,500  5 Lacs+ 3)Share s.s.b Agro Industries 5,00,000  5 Lacs+ 4)Share Application in Money in good Refacture Ltd. 10,000  10 Thou+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 5470000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5470000,
+          "spouse_details": "Vehicle Registered No-UP30E3717,Types-Qualies,Date-2003-02.05 3,00,000  3 Lacs+ Vehicle Registered -UP30S0011,Types-Invova,Date-2012.11.11 15,00,000  15 Lacs+ Vehicle Registered No-UP30P0001,Types-Safari,Date-2010.11.27 5,00,000  5 Lacs+ Vehicle Registered UP30H7829,Types-Motorcycle,Date-2006.09.07 20,000  20 Thou+ UP30A0716,Types-Tractor Maase,Date-1996-01-30 3,00,000  3 Lacs+ UP30A40237,Types-Tractor Maase,Date-1995-11-13 3,00,000  3 Lacs+ UP30B4632,Types-Tractor Maase,Date-1998-12-02 3,00,000  3 Lacs+ UP30B2786,Types-HMJT tractor,Date-2014.04.09 4,50,000  4 Lacs+ .UP30B5890,Types-HMJT,Date-1999-04-09 4,50,000  4 Lacs+ UP309716,Types HMJT Masse,Date-1995-08-07 4,50,000  4 Lacs+ UP30B0548,Types Tractor Massee,Date-1997-08-07 3,00,000  3 Lacs+ UP30A0232 Tractor Messi 13-11-1995 3,00,000  3 Lacs+ UP30B4636 Tractor Messi 02-12-1998 3,00,000  3 Lacs+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2415000,
+          "spouse_value_rupees": 1980000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4395000,
+          "self_details": "1.Gold Oranments700 Gram 21,00,000  21 Lacs+ Silver Oranments Jewellery 07 kilgram 3,15,000  3 Lacs+",
+          "spouse_details": "1.Gold Oranments 600 Gram 18,00,000  18 Lacs+ 2.Silver Oranments 4 Kilogram 1,80,000  1 Lacs+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 891040,
+      "total_current_market_value_spouse_rupees": 12907044,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 13798084,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 891040,
+          "spouse_value_rupees": 1833921,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1833921,
+          "self_details": "Place-Saunsi, Gatta-83 Total Area 0.3440 Sq.Ft Built Up Area  Whether Inherited N Purchase Date 2010-09-21 Purchase Cost 0.00 Development Cost 0.00 1,43,640  1 Lacs+ 2.Place-Saunsi,Gatta -84,Date-2010-02-23 Total Area 0.3450 Sq.Ft Built Up Area  Whether Inherited N Purchase Date 2010-02-23 Purchase Cost 0.00 Development Cost 0.00 1,45,800  1 Lacs+ 3.Saunsi,Gatta-154 Total Area 0.3610 Sq.Ft Built Up Area  Whether Inherited N Purchase Date 2010-02-23 Purchase Cost 0.00 Development Cost 0.00 1,56,080  1 Lacs+ Total Area 2.60 Acres Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 4,45,520  4 Lacs+",
+          "spouse_details": "1.Saunsi,Gatta-129,Area-0.5190,Date-1990-11.06,(2)Saunsi,Gatta - 130,Area-0.4110,Date-1990-11-06,Saunsi,Gatta -131,Area-0.3220,Date-1900-11-06 Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 25,938  25 Thou+ Saunsi,Gatta -127,Area-0.6070,Date-1990-11-06(5)Saunsi,Gatta-128,Area-0.6450,Date-1990-11-06 Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 25,938  25 Thou+ 6.Shyma Pur Town Mallwa,Gatta-301/3, Total Area 0.0970 Hectares Built Up Area  Whether Inherited N Purchase Date 1998-11-17 Purchase Cost 0.00 Development Cost 0.00 11,360  11 Thou+ Shyam Pur Town(Malwa),Gatta-301/2, Total Area 0.0970 Hectares Built Up Area  Whether Inherited N Purchase Date 1998-11-17 Purchase Cost 0.00 Development Cost 0.00 11,360  11 Thou+ (8)Tejipur,Gatta-102, Total Area 0.1170 Hectares Built Up Area  Whether Inherited N Purchase Date 1999-08-12 Purchase Cost 0.00 Development Cost 0.00 19,600  19 Thou+ (9)Tejipur ,Gatta-103,Date-199-08-30 Total Area 0.2340 Hectares Built Up Area  Whether Inherited N Purchase Date 1999-08-30 Purchase Cost 0.00 Development Cost 0.00 38,120  38 Thou+ (10)Sunasi,Gatta-117, Total Area 0.3350 Hectares Built Up Area  Whether Inherited N Purchase Date 2007-01-02 Purchase Cost 0.00 Development Cost 0.00 1,13,640  1 Lacs+ (11)Shyam Pur town Mallwa,Gatta-259, Total Area 0.3583 Hectares Built Up Area  Whether Inherited N Purchase Date 2007-06-02 Purchase Cost 0.00 Development Cost 0.00 2,72,900  2 Lacs+ (12)Saunsi,Gatta-102, Total Area 0.1720 Hectares Built Up Area  Whether Inherited N Purchase Date 2009-06-10 Purchase Cost 0.00 Development Cost 0.00 3,28,000  3 Lacs+ (13)Gangarampur Town Mallwa,Gatta-13, Total Area 0.0773 Hectares Built Up Area  Whether Inherited N Purchase Date 2009-05-09 Purchase Cost 0.00 Development Cost 0.00 63,900  63 Thou+ (14)Sunasi ,Gatta-120, Total Area 0.2750 Hectares Built Up Area  Whether Inherited N Purchase Date 1992-01-20 Purchase Cost 0.00 Development Cost 0.00 23,125  23 Thou+ (15)Tejipur,Gatta-1886/129, Total Area 0.0890 Hectares Built Up Area  Whether Inherited N Purchase Date 1991-03-04 Purchase Cost 0.00 Development Cost 0.00 9,000  9 Thou+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1844163,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1844163,
+          "spouse_details": "Sunasi,Gatta-122 Total Area 1.6640 Hectares Built Up Area  Whether Inherited N Purchase Date 1988-04-15 Purchase Cost 0.00 Development Cost 0.00 11,425  11 Thou+ Sunasi Gatta No. 113 Total Area 0.2740 Hectares Built Up Area  Whether Inherited N Purchase Date 1988-04-18 Purchase Cost 0.00 Development Cost 0.00 5,713  5 Thou+ Sunasi 120 Total Area 0.2750 Hectares Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 23,125  23 Thou+ Sunasi 119 Total Area 0.2750 Hectares  Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 23,125  23 Thou+ Sunasi 112 Total Area 0.3770 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 31,690  31 Thou+ Sunasi 121 Total Area 0.4470 Hectares Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 37,685  37 Thou+ Shyampur Town 258B Total Area 1.8080 Hectares Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 17,11,400  17 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 9850000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9850000,
+          "self_details": "(1)Residental Develop Coucil Lucknow in Awadh In Bihar Scheme Sulatanpur Road Saheedpath Lucknow k Sec 2B Bhagrathi Enclave Flats No 2b/t1-12a Total Area 1614 Sq.ft. Built Up Area  Whether Inherited N Purchase Date 2013-09-13 Purchase Cost 220000.00 Development Cost 0.00 0",
+          "spouse_details": "1.House No-452 Sunsai Tejipur Mallwa(Hardoye) Total Area 15000 Sq.ft. Built Up Area 20042Sq.Ft Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 78,50,000  78 Lacs+ 2.Gaziabad Develop Authority Madhuban Babu dam in Gaziyabad in lAND part121,Date-2010-15-09 Total Area 3228 Sq.ft. Built Up Area  Whether Inherited N Purchase Date 2010-09-15 Purchase Cost 77880000.00 Development Cost 0.00 0 3.Lucknow Development Authority,Vasant Kunj sec-Hardoye Road Lucknow in Land Part 1/5 Total Area 3098.88 Sq,Ft Built Up Area  Whether Inherited N Purchase Date 2012-03-30 Purchase Cost 1118731.00 Development Cost 0.00 20,00,000  20 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 270000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 270000,
+          "spouse_details": "1.One pistol Licencse No-10250 Station Malwa Pistol No-R.P120736 Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 70,000  70 Thou+ 2.One Raifal License No-9137Station Malwa (Hardoye),Rayfal No-1295496 Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,00,000  2 Lacs+"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 1200000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1200000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1200000,
+          "spouse_details": "1.Bank OF india Malwa Janpad (hardoye)at Vechile Interest,Tata and Safari to Equal pass Interst on bank 1,00,000  1 Lacs+ 2.SBI Bank Maalwa ,janpad(hardoye)on Loan vechile inova to equal interest on loan 11,00,000  11 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 300000,
-      "bank_deposits_inr": 154666,
-      "bonds_debentures_shares_inr": 3595498,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2415000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6465164
-    },
-    "spouse": {
-      "cash_inr": 400000,
-      "bank_deposits_inr": 34387,
-      "bonds_debentures_shares_inr": 1833873,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 5470000,
-      "jewellery_inr": 1980000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 9728260
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 895520,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 1833921,
-      "non_agricultural_land": 1844163,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 9850000,
-      "others_inr": 270000,
-      "total_current_market_value_inr": 20424790
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1200000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1200000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
   }
 }

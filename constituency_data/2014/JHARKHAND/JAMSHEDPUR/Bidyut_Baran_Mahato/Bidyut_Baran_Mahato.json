@@ -2,130 +2,543 @@
   "candidate_name": "BIDYUT BARAN MAHATO",
   "party": "BJP",
   "constituency": "JAMSHEDPUR",
-  "father_or_husband_name": "Late Surendra Mahato",
-  "age": 51,
-  "education": "12th Pass I.Sc. From Tata Collage Chaibasa, Ranchi University, Year 1983",
-  "profession_self": "Social Worker",
-  "profession_spouse": "Business",
-  "criminal_cases": 8,
-  "assets_total_inr": 16027526,
-  "liabilities_total_inr": 715347,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 648859
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 995033
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 216686
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 84500,
-      "bank_deposits_inr": 751217,
-      "bonds_debentures_shares_inr": 98000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 673000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 579288,
-      "jewellery_inr": 150800,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2357578
-    },
-    "spouse": {
-      "cash_inr": 78700,
-      "bank_deposits_inr": 557438,
-      "bonds_debentures_shares_inr": 100000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 481418,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1748148,
-      "jewellery_inr": 823600,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3748044
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Mouja - Koshnapur, Thana - Adityapur, Thana NO.-132, Khata NO.-93, Plot No. - 111, 112, 113,251, 252, 254, 260,261,262,263,264 / Mauza - Dudhkundi, P.S- Barsole, Piol NO.-1045 & 969, Khata No.- 88, Thana No.- 567 / Mouza - Randhlabandh, P.S- Baharagora, Plot NO.-8, Khata NO.-l, Thana No.- 838 / Mouza. Murakali, P.S. - Baharagora, Plot NO.-234,230,231 ,233,251,252,254,255,256&257, Khata No., 84 & 69, Thana No. 618",
-        "current_market_value_inr": 2813333
+  "state": "JHARKHAND",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Surendra Mahato",
+      "age": 51,
+      "voter_enrolled_in": {
+        "constituency": "Seraikella (ST)",
+        "state": "Jharkhand",
+        "serial_no": 43,
+        "part_no": 67
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Krishnapur, Adityapur, Khata NO.92, Plot NO.388. 460 / Vrindavan Apartment, Chandni Chowk, Kanke Road, Ranchi, Plot No.532, Sub-Plot No. 532/1, Khata No. 24, Thana No. 190",
-        "current_market_value_inr": 4266666
+      "self_profession": "Social Worker",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 8,
+      "total_assets_in_rupees": 16027526,
+      "total_liabilities_in_rupees": 715347
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "I.Sc. From Tata Collage Chaibasa, Ranchi University, Year 1983"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 648859
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 995033
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 216686
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Murder",
+          "ipc_section": "302",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Attempt to murder",
+          "ipc_section": "307",
+          "count": 1
+        },
+        {
+          "charges_related_to": "theft",
+          "ipc_section": "379",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 2
+        },
+        {
+          "charges_related_to": "committing affray",
+          "ipc_section": "160",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Joining unlawful assembly armed with deadly weapon",
+          "ipc_section": "144",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Wearing grab or carrying token used by public servant with fraudulent intent",
+          "ipc_section": "171",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "house-trespass",
+          "ipc_section": "448",
+          "count": 1
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 3(1) Defacement of Public Property Act, 1985, G.R. 1130/2011, FIR No. 76/2011 Sakchi Police Station, Dist- East Singhbhum, Jharkhand, Cognizance Court C.J.M. Jamshedpur, Cognizance Date 27.09.2011, Court taken charges framed : C. J. M. Court, Jamshedpur, Date of charges framed : 27/09/2011"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 3(1) Defacement of Public Property Act, 1985, G.R. 1131/2011, FIR No. 77/2011 Sakchi Police Station, Dist- East Singhbhum, Jharkhand, Cognizance Court C.J.M. Jamshedpur, Cognizance Date 01.10.2011, Court taken charges framed : C. J. M. Court, Jamshedpur, Date of charges framed : 01/10/2011"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "143, 149, 341, 323, 448, 427, 506",
+          "other_details_or_acts_sections_applicable": "GR Case No. 379/08, Golmuri, (Burmaninces) Police Station, Dist. East Singhbhum Jharkhand, Cognizance Court C.J.M. Jamshedpur, Cognizance Date 21.05.2008, Court taken charges framed C.J.M. Court, Jamshedpur, Date of charges framed 31.03.2008"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "188, 171/A",
+          "other_details_or_acts_sections_applicable": "Section 3(i) BPP Act., GR Case No. 1136/2011, FIR No. 110/11, Galmuri Plice Station, Dist East Singhbhum, Jharkhand, Cognizance Court N Kumar Judicial Magistrate, Jamshedpur, Court taken charges framed : Sri N Kumar Judicial Magistrate 1st Class, Jamshedpur, Date of charges framed : 04.06.2011"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": "144, 353",
+          "other_details_or_acts_sections_applicable": "Section 174, 143 of Railway Act., GR Case No. 18/96, Rail Tatanagar, Rail police Station Dist. East Singhbhum Jharkhand, Court taken Cognizance Railway Judicial Magistrate Chakradhanpur, Cognizance Date 04.03.1996, Date of charges framed : 20.03.2014"
+        },
+        {
+          "serial_no": 6,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 3(1) Defacement of Public Property Act, 1985, Case No. 1141/11, Bistupur Police Station, Dist- East Singhbhum, Jharkhand, Sri. S. N. Lawry Cognizance Date 07.01.2011, Court taken charges framed : C. J. M. Court, Jamshedpur, Date of charges framed : 07/01/2011"
+        },
+        {
+          "serial_no": 7,
+          "ipc_sections_applicable": "160, 188",
+          "other_details_or_acts_sections_applicable": "Case No. GR 70/05, FIR No. 11/2005 dtd. 08.02.2005, Baharagora Police Station, Dist. East Singhbhum, Jharkhand"
+        },
+        {
+          "serial_no": 8,
+          "ipc_sections_applicable": "302, 307, 379, 34",
+          "other_details_or_acts_sections_applicable": "Case No. GR 240/11, FIR No. 35/2011 dtd 15.06.2004 Chakulia Police Station, Dist. East Singhbhum, Jharkhand"
+        }
+      ],
+      "cases_where_cognizance_taken": [],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2357578,
+      "gross_total_value_spouse_rupees": 3748044,
+      "gross_total_value_dependent1_rupees": 470654,
+      "gross_total_value_dependent2_rupees": 376251,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 6952527,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 84500,
+          "spouse_value_rupees": 78700,
+          "dependent1_value_rupees": 22100,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 185300
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 743015,
+          "spouse_value_rupees": 555438,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1315553
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 109800,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 209800
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 673075,
+          "spouse_value_rupees": 444388,
+          "dependent1_value_rupees": 313605,
+          "dependent2_value_rupees": 307941,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1847238
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 579288,
+          "spouse_value_rupees": 1748148,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2327436
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 150800,
+          "spouse_value_rupees": 823600,
+          "dependent1_value_rupees": 29000,
+          "dependent2_value_rupees": 63800,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1067200
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 7079999,
+      "total_current_market_value_spouse_rupees": 2025000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 9104999,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2938333,
+          "spouse_value_rupees": 125000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2938333
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 4266666,
+          "spouse_value_rupees": 19000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6166666
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 188145,
+      "grand_total_of_liabilities_spouse_rupees": 527202,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 715347,
+      "grand_total_of_all_govt_dues_self_rupees": 188145,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 188145,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 7079999
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 527202,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 527202
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 188145,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 188145
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Mouza - Dudhkundi, P.S- Barsole, Plot NO.-1040 & 1041, Khata No.- 88, Thana No.- 567",
-        "current_market_value_inr": 125000
+    "other_election_declarations": [
+      {
+        "election": "Lok Sabha 2024",
+        "declared_assets": 38345063,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Krishnapur, Adityapur Industrial Area, Plot NO.B2, 1st Phase Industrial Area, Adityapur, Thana No. 132",
-        "current_market_value_inr": 1900000
+      {
+        "election": "Lok Sabha 2019",
+        "declared_assets": 27750671,
+        "declared_cases": 3
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2025000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 527202,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 527202
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 188145,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 188145
-    },
-    "other_liabilities_in_dispute_inr": 0
+      {
+        "election": "Jharkhand 2009",
+        "declared_assets": 14135054,
+        "declared_cases": 3
+      },
+      {
+        "election": "Jharkhand 2005",
+        "declared_assets": 1414063,
+        "declared_cases": 2
+      }
+    ]
   }
 }

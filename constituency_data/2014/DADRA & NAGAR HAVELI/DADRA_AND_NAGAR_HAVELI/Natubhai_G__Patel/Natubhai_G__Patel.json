@@ -1,155 +1,522 @@
 {
   "candidate_name": "Natubhai G. Patel",
   "party": "BJP",
-  "constituency": "DADRA AND NAGAR HAVELI (DADRA & NAGAR HAVELI)",
-  "father_or_husband_name": "Gomanbhai Patel",
-  "age": 41,
-  "education": "5th Pass 6th Pass From Govt.Primary School, Silvassa,Year-1988",
-  "profession_self": "Business And Agiculturist",
-  "profession_spouse": "Business and Agriculturist",
-  "criminal_cases": 5,
-  "assets_total_inr": 154760217,
-  "liabilities_total_inr": 62286896,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 2261667
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 990370
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 915000,
-      "bank_deposits_inr": 685855,
-      "bonds_debentures_shares_inr": 145000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1023127,
-      "personal_loans_advance_given_inr": 44146879,
-      "motor_vehicles_inr": 1850457,
-      "jewellery_inr": 600632,
-      "other_assets_inr": 361292,
-      "gross_total_value_inr": 49753242
-    },
-    "spouse": {
-      "cash_inr": 295000,
-      "bank_deposits_inr": 35255,
-      "bonds_debentures_shares_inr": 145000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 91234,
-      "personal_loans_advance_given_inr": 3722286,
-      "motor_vehicles_inr": 367023,
-      "jewellery_inr": 3701977,
-      "other_assets_inr": 737580,
-      "gross_total_value_inr": 11227436
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 25680000,
-      "non_agricultural_land": {
-        "description": "Total Area Built Up Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 29319000
+  "constituency": "DADRA AND NAGAR HAVELI",
+  "state": "DADRA & NAGAR HAVELI",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Gomanbhai Patel",
+      "age": 41,
+      "voter_enrolled_in": {
+        "constituency": "U-03-Dadra and Nagar Haveli (Dadra and Nagar Haveli)",
+        "serial_no": 249,
+        "part_no": 22
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Silvassa Plot No.31, Consturction Cost of Hosue No.407(8)(9)(4)(5) at Yogi Sadan Total Area Built Up Area 800 Sq.Mtr. Whether Inherited N Purchase Date 2002-11-22 Purchase Cost 486065.00 Development Cost 1302166.00",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "2002-11-22",
-        "purchase_cost_inr": 486065,
-        "development_cost_inr": 1302166,
-        "current_market_value_inr": 1788231
+      "self_profession": "Business And Agiculturist",
+      "spouse_profession": "Business and Agriculturist"
+    },
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 154760217,
+      "total_liabilities_in_rupees": 62286896
+    },
+    "educational_details": {
+      "category": "5th Pass",
+      "details": "6th Pass From Govt.Primary School, Silvassa,Year-1988"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 2261667
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 990370
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 3
+        },
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Attempt to murder",
+          "ipc_section": "307",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of abetment if the act abetted is committed in consequence, and where no express provision is made for its punishment",
+          "ipc_section": "109",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 147, 452, 427, 506, 34",
+          "other_details_or_acts_sections_applicable": "FIR (CR.No.)170/07, Case No.06/2008, P.S.-Silvassa, Court - The Hon'ble Court of CJM Silvassa, Cog.Date-17/6/08, Court Which Framed The Charge - CJM Silvassa, Date on Which the Charge Was Framed- 16.06.2008"
+        }
+      ],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 147, 148, 149, 452, 427, 504, 506",
+          "other_details_or_acts_sections_applicable": "Silvassa CR.no.294/1999, CJM Silvassa Case No.45/2000, Date-13/4/2000"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "143, 147, 148, 323, 427, 504, 506(2)",
+          "other_details_or_acts_sections_applicable": "Vapi CR.No.51/2007, JMFC, Vapi Case No.1588/2007, Date-30/5/2007"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "143, 147, 148, 149, 120B, 307, 506",
+          "other_details_or_acts_sections_applicable": "Silvassa CR.No.21/2011, CJM Silvassa Case No.60/2011, (Session Case No.06/2012), Date-2/11/2011, Silvassa CR.No.21/2011, Session Case No.06/2012 before the Hon'ble High Court Criminal Revision Application No.558/2013 for discharge"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "109",
+          "other_details_or_acts_sections_applicable": "Section : 13(2),13(1)(e) of PC Act,(PCA), CBI-AC-III, New Delhi, CR.No.RC-1(A),of 2012, Spl. Court Silvassa Case No.01/2014, Date-2/1/2014"
+        }
+      ],
+      "cases_where_convicted": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 49753242,
+      "gross_total_value_spouse_rupees": 11227436,
+      "gross_total_value_dependent1_rupees": 68139,
+      "gross_total_value_dependent2_rupees": 50000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 61098817,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 915000,
+          "spouse_value_rupees": 295000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1210000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 685855,
+          "spouse_value_rupees": 35255,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 721110
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 145000,
+          "spouse_value_rupees": 145000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 290000,
+          "self_details": "Shares with Yogi Infratech Pvt.Ltd. 1,45,000",
+          "spouse_details": "Shares with Yogi Infratech Pvt.Ltd. 1,45,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1023127,
+          "spouse_value_rupees": 91234,
+          "dependent1_value_rupees": 50000,
+          "dependent2_value_rupees": 50000,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1189361,
+          "self_details": "LIC Policy No 86209xxxxx, Sum Assured Rs.1000000 6,98,867 ; Kotak Life Insurance Policy No 0063xxxxx, Sum Assured Rs.3589350 3,00,000 ; LIC Policy No 86648xxxxx, Sum Assured Rs.1000000 24,260 ; Kotak Life Insurance Policy No 0217xxxxx, Sum Assured Rs.245000 25,000",
+          "spouse_details": "LIC Policy No 86361xxxxx, Sum Assured Rs.500000 23,095 ; Bajaj Allianze Insurance Policy No 004822xxxxx, Sum Assured Rs.500000 50,000 ; LIC Policy No 86360xxxxx, Sum Assured Rs.500000 18,139",
+          "dependent1_details": "Bajaj Allinze Insurance Policy No 004738xxxxx, Sum Assured Rs.500000 50,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 441448896,
+          "spouse_value_rupees": 5716790,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 50069385,
+          "self_details": "Advance for Land Purchase 2,20,58,000; Loans/Advances to others 1,73,55,995; Investments in Firms 47,32,884",
+          "spouse_details": "Advance for Land Purchase 22,00,000; Loans/Advances to others 35,16,790; Investments in Firms 2,05,716"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1850457,
+          "spouse_value_rupees": 367023,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2217480
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 600632,
+          "spouse_value_rupees": 3701977,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 4302609,
+          "self_details": "Gold Ornaments, 182 Grm 4,60,154; Silver Ornaments 2600 Grm 1,40,478",
+          "spouse_details": "Gold Ornaments 1342 Grm 33,80,029; Silver Ornaments 2000 Grm 1,08,060; Diamond 7.018 Carat 2,13,888"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 361292,
+          "spouse_value_rupees": 737580,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1098872,
+          "self_details": "Furniture and Fixtures and Others 3,61,292",
+          "spouse_details": "Furniture and Fixture and Other 7,37,580"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 57134731,
+      "total_current_market_value_spouse_rupees": 37766746,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 94901477,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 25680000,
+          "spouse_value_rupees": 35405000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 61085000,
+          "self_details": "Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,56,80,000",
+          "spouse_details": "Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 3,54,05,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 29319000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 29319000,
+          "self_details": "Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,93,19,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 2110731,
+          "spouse_value_rupees": 2361746,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 4472477,
+          "self_details": "Silvassa Plot No.31, Consturction Cost of Hosue No.407(8)(9)(4)(5) at Yogi Sadan Total Area Built Up Area 800 Sq.Mtr. Whether Inherited N Purchase Date 2002-11-22 Purchase Cost 486065.00 Development Cost 1302166.00 17,88,231; Flat No.108 Samarth Apartment Total Area Built Up Area 645 Sq.Ft. Whether Inherited N Purchase Date 2003-11-10 Purchase Cost 272672.00 Development Cost 0.00 3,22,500",
+          "spouse_details": "Silvassa Plot No.31,(Construction Cost and House No.407(6)at Yogi Sadan) Total Area Built Up Area 550 Sq.Ft. Whether Inherited N Purchase Date 2010-07-21 Purchase Cost 506296.00 Development Cost 1855450.00 23,61,746"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 25000,
+          "self_details": "Kaccha House at Ultan Falia House No.120/4 Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 25,000"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 42057913,
+      "grand_total_of_liabilities_spouse_rupees": 20228983,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 62286896,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 25000,
-      "total_current_market_value_inr": 57134731
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 140771,
+          "spouse_value_rupees": 643441,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 784212,
+          "self_details": "The Ratnakar Bank Ltd, Honda City Car Loan 1,40,771",
+          "spouse_details": "Dena Bank Ltd, JCB Loan 6,43,441"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 41917142,
+          "spouse_value_rupees": 19585542,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 61502684
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 35405000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 496942663,
+        "declared_cases": 6
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Silvassa Plot No.31,(Construction Cost and House No.407(6)at Yogi Sadan) Total Area Built Up Area 550 Sq.Ft. Whether Inherited N Purchase Date 2010-07-21 Purchase Cost 506296.00 Development Cost 1855450.00",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "2010-07-21",
-        "purchase_cost_inr": 506296,
-        "development_cost_inr": 1855450,
-        "current_market_value_inr": 2361746
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 37766746
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 140771,
-      "loans_due_to_individual_entity_inr": 41917142,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 42057913
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 643441,
-      "loans_due_to_individual_entity_inr": 19585542,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 20228983
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Lok Sabha 2009",
+        "declared_assets_rupees": 83494860,
+        "declared_cases": 3
+      }
+    ]
+  }
 }

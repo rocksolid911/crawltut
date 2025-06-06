@@ -1,131 +1,412 @@
 {
   "candidate_name": "Kamalbhan Singh",
   "party": "BJP",
-  "constituency": "SURGUJA(CHHATTISGARH)",
-  "father_or_husband_name": "Gajraj Maravi",
-  "age": 51,
-  "education": "Post Graduate MA From Govt. P.G. College Ambikapur In 1988, 12th Pass From Govt. Higher Sec. School Ambikapur In 1981",
-  "profession_self": "Agriculture,MLA",
-  "profession_spouse": "Social Service,Vill-Panchayat",
-  "criminal_cases": 0,
-  "assets_total_inr": 24773173,
-  "liabilities_total_inr": 2995985,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 215600
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 560500
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 515000,
-      "bank_deposits_inr": 23747,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1130000,
-      "jewellery_inr": 284200,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1952947
-    },
-    "spouse": {
-      "cash_inr": 185500,
-      "bank_deposits_inr": 139298,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 705600,
-      "other_assets_inr": 43000,
-      "gross_total_value_inr": 1073398
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 7128061,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Puriana,Raipur,CG HIG 24",
-        "total_area_sqft": 4926.73,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "2009-08-07",
-        "purchase_cost_inr": 566700,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
+  "constituency": "SURGUJA",
+  "state": "CHHATTISGARH",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Gajraj Maravi",
+      "age": 51,
+      "voter_enrolled_in": {
+        "constituency": "01 Surguja (Chhattisgarh)",
+        "serial_no": 789,
+        "part_no": 179
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 11128061
+      "self_profession": "Agriculture,MLA",
+      "spouse_profession": "Social Service,Vill-Panchayat"
     },
-    "spouse": {
-      "agricultural_land_inr": 100000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 100000
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 24773173,
+      "total_liabilities_in_rupees": 2995985
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "MA From Govt. P.G. College Ambikapur In 1988, 12th Pass From Govt. Higher Sec. School Ambikapur In 1981"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 215600
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 560500
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1952947,
+      "gross_total_value_spouse_rupees": 1073398,
+      "gross_total_value_dependent1_rupees": 304772,
+      "gross_total_value_dependent2_rupees": 3247935,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 6579052,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 515000,
+          "spouse_value_rupees": 185500,
+          "dependent1_value_rupees": 215000,
+          "dependent2_value_rupees": 194600,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1110100
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 23772,
+          "spouse_value_rupees": 139298,
+          "dependent1_value_rupees": 89772,
+          "dependent2_value_rupees": 135335,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 388152,
+          "self_details": "CBI,Br-Lakhanpur No 2153073xxxxx 385; SBI,Br-Lakhanpur No 1090612xxxxx 11,354; CG Gramin Bank Br-Lakhanpur,No 700134xxxxx 12,008",
+          "spouse_details": "CBI,Br-Lakhanpur No 215309xxxxx 1,39,298",
+          "dependent1_details": "JSKBM,Lakhanpur No 604010074xxxxx 89,772",
+          "dependent2_details": "JSKBM,Lakhanpur A/C 97,459; JSKBM,Lakhanpur A/C,FDR No-30/393 37,876"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1130000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 2918000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4048000,
+          "self_details": "Toyota Innova,No-CG15B6296,Dt Of Purchase 6/5/2010 11,30,000",
+          "dependent2_details": "M/C Dt Of Purchase 5/01/2014 55,000; Tata Vista,No-CG15B9920,Dt Of Purchase 18/10/2012 5,63,000; JCB Machine,Dt Of Purchase 31/01/2013 23,00,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 284200,
+          "spouse_value_rupees": 748600,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1032800,
+          "self_details": "100.15 Gm Gold 2,84,200",
+          "spouse_details": "250.20 Gm Gold 7,05,600; Silver 1 Kg 43,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 11128061,
+      "total_current_market_value_spouse_rupees": 100000,
+      "total_current_market_value_dependent1_rupees": 3483030,
+      "total_current_market_value_dependent2_rupees": 3483030,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 18194121,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 7128061,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 3483030,
+          "dependent2_value_rupees": 3483030,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14194121,
+          "self_details": "Vill. Jamgala Lakhanpur CG., Sy No-708 Total Area 0.979 hect Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 8,59,366; Vill-Taruja,Lakhanpur,Sy No-45/2  Total Area 0.575 Hect. Built Up Area  Whether Inherited N Purchase Date 2001-07-19 Purchase Cost 76174.00 Development Cost 0.00 4,93,695; Vill-Eaxmipur,Ambikapur,CG Sy No-416/2,448/5  Total Area 0.25 Hect Built Up Area  Whether Inherited N Purchase Date 2005-10-19 Purchase Cost 90055.00 Development Cost 0.00 43,75,000; Survey No. 414/3 Total Area 0.079 Hect Built Up Area  Whether Inherited N Purchase Date 2006-04-17 Purchase Cost 112000.00 Development Cost 0.00 14,00,000",
+          "spouse_details": "Vill. Tara, Lakhanpur,CG, Sy No-288 Total Area 0.24 hect Built Up Area  Whether Inherited N Purchase Date 2006-03-21 Purchase Cost 40500.00 Development Cost 0.00 1,00,000",
+          "dependent1_details": "Vill. Jamgala, Lakhanpur CG, Sy No-438,447, 448,548,546,563/2,568/1,635, 636,638,563, 639/1,576, 695/2,702/2, 703/2,722, 723/2,724/2, 754/2,756/2 Total Area 3.1135 Hect. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 34,83,030",
+          "dependent2_details": "Vill. Jamgala, Lakhanpur CG, Sy No-438,447,448, 548,546,563/2, 568/1,635,636, 638,563,639/1, 576,695/2, 702/2,703/2, 722,723/2,724/2, 754/2,756/2 Total Area 3.1135 Hect. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 34,83,030"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 4000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4000000,
+          "self_details": "Puriana,Raipur,CG HIG 24 Total Area 4926.73 Sq Ft Built Up Area  Whether Inherited N Purchase Date 2009-08-07 Purchase Cost 566700.00 Development Cost 0.00 40,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1309910,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 1686075,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2995985,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1309910,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 1686075,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2995985,
+          "self_details": "SBI Raipur,House Loan,No 3020348xxxxx 11,09,487; JSKBM,Lakhanpur Loan No 3020348xxxxx 2,00,423",
+          "dependent2_details": "Indushind Bank JCB Machine Loan,O/S 16,86,075"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1309910,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1309910
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+  }
 }

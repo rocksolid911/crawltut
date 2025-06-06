@@ -1,105 +1,279 @@
-{
-  "candidate_name": "ASADUDDIN OWAISI",
-  "party": "AIMIM",
-  "constituency": "Hyderabad",
-  "father_or_husband_name": "SULTAN SALAITUDDIN OWAISI",
-  "age": 37,
-  "education": "Graduate Professional S.S.C from Hyderabad Public School, Begumpet.Hyd. in 1973-83, Inter from St. Mary's Junior College,Himayatnagar,Hyd. in 1984-86, B.A. from Nizam College,Abids,Hyd. in 1986-89 and Bar-at -Law from Lincoln's Inn.L.L.B.(London) in 1989-94",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 3,
-  "assets_total_inr": 3902342,
-  "liabilities_total_inr": 0,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 95000,
-      "bank_deposits_inr": 292342,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 387342
-    },
-    "spouse": {
-      "cash_inr": 15000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 500000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 515000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Lake view Apts Rd no 1 Banjara Hills G.F.1800 SQ FT BANJARA HILLS",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 1800,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1500000
+[
+  {
+    "candidate_name": "ASADUDDIN OWAISI",
+    "party": "AIMIM",
+    "constituency": "Hyderabad",
+    "state": "ANDHRA PRADESH",
+    "status": "Winner",
+    "affidavit_info": {
+      "personal_details": {
+        "s_o_d_o_w_o": "SULTAN SALAITUDDIN OWAISI",
+        "age": 37
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3000000
+      "summary": {
+        "criminal_cases_count": 3,
+        "total_assets_in_rupees": 3902342,
+        "total_liabilities_in_rupees": 0
+      },
+      "educational_details": {
+        "category": "Graduate Professional",
+        "details": "S.S.C from Hyderabad Public School, Begumpet.Hyd. in 1973-83, Inter from St. Mary's Junior College,Himayatnagar,Hyd. in 1984-86, B.A. from Nizam College,Abids,Hyd. in 1986-89 and Bar-at -Law from Lincoln's Inn.L.L.B.(London) in 1989-94"
+      },
+      "criminal_cases": {
+        "brief_details_ipc_bns": [
+          {
+            "charges_related_to": "Attempt to murder",
+            "ipc_section": "307",
+            "count": 2
+          },
+          {
+            "charges_related_to": "Punishment for Rioting",
+            "ipc_section": "147",
+            "count": 2
+          },
+          {
+            "charges_related_to": "Rioting, armed with deadly weapon",
+            "ipc_section": "148",
+            "count": 2
+          },
+          {
+            "charges_related_to": "house-trespass",
+            "ipc_section": "448",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+            "ipc_section": "427",
+            "count": 1
+          }
+        ],
+        "pending_cases": [
+          {
+            "serial_no": 1,
+            "ipc_sections_applicable": "147, 148, 307",
+            "other_details_or_acts_sections_applicable": "I Addl. Metroplition Session Judge, Case no SC 264/00, P.S. Shamsheer Gunj, F.I.R.No. 49/98, Stay By High court of Andhra Pardesh in Criminal R.C.NO.340/2001 Dated 27.04.01"
+          },
+          {
+            "serial_no": 2,
+            "ipc_sections_applicable": "147, 148, 307",
+            "other_details_or_acts_sections_applicable": "II Metroplition Magistrte,Case No. PRC NO.6/02 ,P.S.KALAPATHAR ,F.I.R.NO 18/99 ,Appearance of the accused"
+          },
+          {
+            "serial_no": 3,
+            "ipc_sections_applicable": "448, 427",
+            "other_details_or_acts_sections_applicable": "IX Metroplition Magistrate ,P.S.GOLCONDA, FIR NO.73/00 ,Case No. CC 76/01, Appearance of the accused"
+          }
+        ],
+        "convicted_cases": []
+      },
+      "movable_assets": {
+        "gross_total_value_self_rupees": 387342,
+        "gross_total_value_spouse_rupees": 515000,
+        "gross_total_value_total_rupees": 902342,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Cash",
+            "self_value_rupees": 95000,
+            "spouse_value_rupees": 15000,
+            "total_value_rupees": 110000
+          },
+          {
+            "sr_no": "ii",
+            "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+            "self_value_rupees": 292342,
+            "spouse_value_rupees": 0,
+            "self_details": "STANDARD CHARED BANK",
+            "total_value_rupees": 292342
+          },
+          {
+            "sr_no": "iii",
+            "description": "Bonds, Debentures and Shares in companies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iv",
+            "description": "(a) NSS, Postal Savings etc",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(b) LIC or other insurance Policies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "v",
+            "description": "Motor Vehicles (details of make, etc.)",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "self_details": "TOYATA AOP 9922",
+            "spouse_details": "MARUTHI 800",
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "vi",
+            "description": "Jewellery (give details weight value)",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 500000,
+            "spouse_details": "85 TOLAS",
+            "total_value_rupees": 500000
+          },
+          {
+            "sr_no": "vii",
+            "description": "Other assets, such as values of claims / interests",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "immovable_assets": {
+        "total_current_market_value_self_rupees": 3000000,
+        "total_current_market_value_spouse_rupees": 0,
+        "total_current_market_value_total_rupees": 3000000,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Agricultural Land",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "ii",
+            "description": "Non Agricultural Land",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iii",
+            "description": "Buildings",
+            "self_value_rupees": 1500000,
+            "spouse_value_rupees": 0,
+            "self_details": "Astral Heights Banjara Hills,Shop No. G2A/1, 469 sqft",
+            "total_value_rupees": 1500000
+          },
+          {
+            "sr_no": "iv",
+            "description": "Houses",
+            "self_value_rupees": 1500000,
+            "spouse_value_rupees": 0,
+            "self_details": "Lake view Apts Rd no 1 Banjara Hills G.F.1800 SQ FT BANJARA HILLS",
+            "total_value_rupees": 1500000
+          },
+          {
+            "sr_no": "v",
+            "description": "Others",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "liabilities": {
+        "grand_total_of_liabilities_self_rupees": 0,
+        "grand_total_of_liabilities_spouse_rupees": 0,
+        "grand_total_of_liabilities_total_rupees": 0,
+        "items": [
+          {
+            "sr_no": "(a) i",
+            "description": "Loans from Banks",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "ii",
+            "description": "Loans from Financial Institutions",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iii",
+            "description": "(a) Dues to departments dealing with government accommodation",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(b) Dues to departments dealing with supply of water",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(c) Dues to departments dealing with supply of electricity",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(d) Dues to departments dealing with telephones",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(e) Dues to departments dealing with supply of transport",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(f) Other Dues if any",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "(b)",
+            "description": "(i) (a) Income Tax including surcharge [Also indicate the assessment year upto which Income Tax Return filed.]",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(b) Permanent Account Number (PAN)",
+            "self_details": "PAN given-Y",
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(ii) Wealth Tax [Also indicate the assessment year upto which Wealth Tax return filed.]",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(iii) Sales Tax [Only in case proprietary business]",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(iv) Property Tax",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      }
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": null,
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "other_elections_info": [
+      {
+        "declaration_in": "Loksabha 2014",
+        "declared_assets_rupees": 40611099,
+        "declared_cases": 4
+      },
+      {
+        "declaration_in": "Lok Sabha 2009",
+        "declared_assets_rupees": 9302233,
+        "declared_cases": 4
+      }
+    ]
   }
-}
+]

@@ -1,167 +1,592 @@
 {
   "candidate_name": "RAMDAS CHANDRABHANJI TADAS",
   "party": "BJP",
-  "constituency": "WARDHA(MAHARASHTRA)",
-  "father_or_husband_name": "Chandrabhanji Tadas",
-  "age": 60,
-  "education": "10th Pass S.S.C., March 1969, Nagar Parishad High School, Deoli, Nagpur Board, Nagpur",
-  "profession_self": "Farmer & Social Worker",
-  "profession_spouse": "Farmer, Housewife & Social Worker",
-  "criminal_cases": 5,
-  "assets_total_inr": 33628998,
-  "liabilities_total_inr": 1749314,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 595206
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009-2010": 92517
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 183069,
-      "bonds_debentures_shares_inr": 62500,
-      "nss_postal_savings_inr": 5000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1650000,
-      "jewellery_inr": 555000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2709069
-    },
-    "spouse": {
-      "cash_inr": 150000,
-      "bank_deposits_inr": 1136909,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 565000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1837910
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2725500,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+  "constituency": "WARDHA",
+  "state": "MAHARASHTRA",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Chandrabhanji Tadas",
+      "age": 60,
+      "voter_enrolled_in": {
+        "constituency": "45 Deoli",
+        "state": "Maharashtra",
+        "serial_no": 250,
+        "part_no": 167
       },
-      "commercial_buildings_inr": 1200000,
-      "residential_buildings": {
-        "description": "Mauje Deoli, Ward No. 5, Survey No. 88/8; Mauja Deoli Ward No. 5, Survey No. 88/9; Mauja Deoli Ward No. 5, Survey No. 33; Mauja Deoli Ward No. 5, Survey No. 89/1; Nalwadi, Ta. Dist. Wardha, Survey No. 21/1; Nalwadi, Survey No. 21/2",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 8810604
+      "self_profession": "Farmer & Social Worker",
+      "spouse_profession": "Farmer, Housewife & Social Worker"
+    },
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 33628998,
+      "total_liabilities_in_rupees": 1749314
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "S.S.C., March 1969, Nagar Parishad High School, Deoli, Nagpur Board, Nagpur"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 595206
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 92517
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Forgery of valuable security, will, etc.",
+          "ipc_section": "467",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Forgery for purpose of cheating",
+          "ipc_section": "468",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security",
+          "ipc_section": "477",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Criminal breach of trust by public servant, or by banker, merchant or agent",
+          "ipc_section": "409",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Using as genuine a forged document or electronic record",
+          "ipc_section": "471",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Abetment of act of insubordination by soldier, sailor or airman",
+          "ipc_section": "138",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "case_no": "4369/2009",
+          "court": null,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Crime No. 3068/09, Deoli Police Station Section 3, Prevention of Damage to Public Property Act",
+          "charges_framed": false
+        },
+        {
+          "serial_no": 2,
+          "case_no": "4370/2009",
+          "court": null,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Crime No. 3072/09, Deoli Police Station Section 3, Prevention of Damage to Public Property Act",
+          "charges_framed": false
+        },
+        {
+          "serial_no": 3,
+          "case_no": "697/2011",
+          "court": null,
+          "ipc_sections_applicable": "138",
+          "other_details_or_acts_sections_applicable": "Deoli Police Station",
+          "charges_framed": false
+        },
+        {
+          "serial_no": 4,
+          "case_no": "545/2004",
+          "court": null,
+          "ipc_sections_applicable": "420, 467, 468, 471, 477, 409, 34",
+          "other_details_or_acts_sections_applicable": "Crime No. 09/03, Date-14.12.2012, Appeal No. 25/2012",
+          "charges_framed": false
+        },
+        {
+          "serial_no": 5,
+          "case_no": "544/2004",
+          "court": null,
+          "ipc_sections_applicable": "420, 467, 468, 471, 477, 409, 34",
+          "other_details_or_acts_sections_applicable": "Crime no. 09/03, Dated 14.12.2012, Appeal No.26/2012",
+          "charges_framed": false
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2709070,
+      "gross_total_value_spouse_rupees": 1837911,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 4546981,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 150000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 400000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 185145,
+          "spouse_value_rupees": 1122800,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1307945,
+          "self_details": [
+            "Bank of Maharashtra, Wardha, Saving No 6016521xxxxx: 104705",
+            "Bank of India, Deoli Branch, Saving No 97221011000xxxxx: 20045.07",
+            "Bank of Maharashtra, Deoli Branch, Saving No 6014164xxxxx: 1083",
+            "SBI, Deoli Branch, Pension No 1152934xxxxx: 29077.70",
+            "Wardha Nagro Co.Op. Bank, Deoli Branch, Saving A/C 18: 106.02",
+            "Buldhana Urban, Deoli Branch, A/C No. 23/18: 1659",
+            "Wardha Dist. Co. Op. Bank, Deoli Branch,: 1746.84",
+            "Nirmal Ujwal Bank, Deoli Branch, No 4202300xxxxx: 26000",
+            "SBI, Deoli Saving No 1152933xxxxx: 2148"
+          ],
+          "spouse_details": [
+            "Bank of India, Deoli Branch, No 97221011000xxxxx: 852.26",
+            "Buldhana Urban Bank, A/C No. 23/83: 6763",
+            "Bank of Maharashtra, Deoli Branch, No 6014165xxxxx: 16187",
+            "Bank of India, Deoli Branch, FDR No 97225611000xxxxx: 1099108.70"
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 62500,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 62500,
+          "self_details": [
+            "Tirupati Urban Co-Op. Bank, Nagpur: 37500",
+            "Wardha Nagri Bank, Wardha: 25000"
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 5000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5000,
+          "self_details": "National Savings Certificate, Post Office: 5000"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1650000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1650000,
+          "self_details": [
+            "Mahindra XUV, MH 32/7744, Year 2011: 1450000",
+            "Ambulance Matuti Van, Year 2009, No. MH 32/1067: 200000"
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 555000,
+          "spouse_value_rupees": 565000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1120000,
+          "self_details": "Gold 125 gm: 375000, Silver 3.50 kg: 180000",
+          "spouse_details": "Gold 170 gm: 510000, Silver 1 kg: 55000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 12776104,
+      "total_current_market_value_spouse_rupees": 16305913,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 29082017,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2725500,
+          "spouse_value_rupees": 1725000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4450500,
+          "self_details": [
+            "Mauja Chaundhi, Survey No. 94, Total Area 6.44 acre, Purchase Date 2010-04-05, Purchase Cost 315000, Current Value 900450",
+            "Mauja Chaundhi, Survey No. 93/1, Total Area 13.07 acre, Purchase Date 2010-04-05, Purchase Cost 1211000, Current Value 1825050"
+          ],
+          "spouse_details": [
+            "Mauja Chaundhi, Survey No. 93, Total Area 12.35 acre, Purchase Date 2010-04-05, Purchase Cost 1011000, Current Value 1725000"
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1200000,
+          "self_details": [
+            "Tadas Complex, 2 gala, Deoli, Dist. Wardha, Property No. 89/1, Total Area 675.59 sq. ft., Purchase Date 2002-01-04, Purchase Cost 68000, Development Cost 131456, Current Value 1200000"
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 8850604,
+          "spouse_value_rupees": 14580913,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 23431517,
+          "self_details": [
+            "Mauje Deoli, Ward No. 5, Survey No. 88/8, Total Area 148 sq. ft., Inherited Y, Development Cost 74000, Value Not Given",
+            "Mauja Deoli Ward No. 5, Survey No. 88/9, Total Area 176 sq. ft., Inherited Y, Development Cost 88000, Current Value 594000",
+            "Mauja Deoli Ward No. 5, Survey No. 33, Total Area 1316 sq. ft., Inherited Y, Development Cost 650000, Current Value 440280",
+            "Mauja Deoli Ward No. 5, Survey No. 89/1, Total Area 2480 sq. ft., Purchase Date 2002-01-14, Purchase Cost 182000, Development Cost 1240000, Current Value 2316324",
+            "Nalwadi, Ta. Dist. Wardha, Survey No. 21/1, Total Area 975.32 sq. ft., Purchase Date 2008-05-26, Purchase Cost 221200, Development Cost 550000, Current Value 1500000",
+            "Nalwadi, Survey No. 21/2, Total Area 1553 sq. ft., Purchase Date 2008-05-26, Purchase Cost 1096000, Development Cost 776500, Current Value 4000000"
+          ],
+          "spouse_details": [
+            "Mauja Deoli, Ward No. 5, Survey No. 89, Total Area 1799 sq. ft., Inherited Y, Development Cost 859500, Current Value 1670913",
+            "Mauja Deoli, Ward No. 7, Survey No. 1051, Total Area 3611.32 sq. ft., Purchase Date 2011-11-08, Purchase Cost 400000, Current Value 8910000",
+            "Nalwadi, Survey No. 21/2, Total Area 1553 sq. ft., Purchase Date 2008-05-26, Purchase Cost 1096000, Development Cost 776500, Current Value 4000000"
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1448350,
+      "grand_total_of_liabilities_spouse_rupees": 300964,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1749314,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12736104
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1448350,
+          "spouse_value_rupees": 300964,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1749314,
+          "self_details": [
+            "Wardha Nagri Sahakari Bank: 837350",
+            "Sahakari Co-Op. Society, Chaundhi, No. 51: 135000",
+            "Mahindra Finance: 476000"
+          ],
+          "spouse_details": [
+            "Bank of India, Deoli Branch, FDR Loan: 300964"
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 1725000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+    "other_elections_data": [
+      {
+        "election": "Lok Sabha 2024",
+        "declared_assets_in_rupees": 110081855,
+        "declared_cases": 4
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Mauja Deoli, Ward No. 5, Survey No. 89; Mauja Deoli, Ward No. 7, Survey No. 1051; Nalwadi, Survey No. 21/2",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 14310913
+      {
+        "election": "Lok Sabha 2019",
+        "declared_assets_in_rupees": 65807822,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 16035913
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1448350,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1448350
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 300964,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 300964
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Farmer & Social Worker",
-    "spouse": "Farmer, Housewife & Social Worker",
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+      {
+        "election": "Maharashtra 2009",
+        "declared_assets_in_rupees": 13420260,
+        "declared_cases": 9
+      }
+    ]
   }
 }

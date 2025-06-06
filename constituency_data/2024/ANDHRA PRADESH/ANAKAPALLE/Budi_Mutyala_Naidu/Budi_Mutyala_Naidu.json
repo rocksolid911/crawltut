@@ -1,180 +1,591 @@
 {
   "candidate_name": "BUDI MUTYALA NAIDU",
   "party": "YSRCP",
-  "constituency": "ANAKAPALLE (ANDHRA PRADESH)",
-  "father_or_husband_name": "Venkunaidu",
-  "age": 60,
-  "education": "10th Pass Intermediate discounted G.J. College, Devarapalli in the year 1984-1985",
-  "profession_self": "Cultivation & MLA",
-  "profession_spouse": "Cultivation & House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 73992295,
-  "liabilities_total_inr": 17719071,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 2745700,
-        "2021-2022": 2995660,
-        "2020-2021": 1733840,
-        "2019-2020": 108539,
-        "2018-2019": 146400
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 453160,
-        "2021-2022": 498200,
-        "2020-2021": 498750,
-        "2019-2020": 517773,
-        "2018-2019": 470651
-      }
-    },
-    "huf": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 4243983,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 3000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 10100000,
-      "jewellery_inr": 2100000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 19643983
-    },
-    "spouse": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 1989155,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 2406000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 6050000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 10745155
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3800000,
-      "non_agricultural_land": {
-        "description": "GVMC Laxmipuram Sy.No.93/l Total Area 447.2 Sq.Yards",
-        "area_sq_mtr": 374.2,
-        "inherited": "N",
-        "purchase_date": "2023-03-02",
-        "purchase_cost_inr": 5366500,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 7500000
+  "constituency": "ANAKAPALLE",
+  "state": "ANDHRA PRADESH",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Venkunaidu",
+      "age": 60,
+      "voter_enrolled_in": {
+        "constituency": "27-Madugula",
+        "state": "Andhra Pradesh",
+        "serial_no": 558,
+        "part_no": 144
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Taruva village of Devarapalli Mandal Sy.No.142",
-        "total_area_sqft": 2000,
-        "built_up_area_sqft": 1500,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+      "self_profession": "Cultivation & MLA",
+      "spouse_profession": "Cultivation & House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 73992295,
+      "total_liabilities_in_rupees": 17719071
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Intermediate discounted G.J. College, Devarapalli in the year 1984-1985"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 2745700
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 2995660
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1733840
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 108539
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 146400
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 453160
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 498200
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 498750
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 517773
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 470651
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 19643683,
+      "gross_total_value_spouse_rupees": 10748612,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 30392295,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 200000,
+          "spouse_value_rupees": 200000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 400000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 4243683,
+          "spouse_value_rupees": 1989155,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6232838,
+          "self_details": [
+            {"bank": "SBI Devarapalli", "account_no": "3173843xxxxx", "amount_rupees": 745626},
+            {"bank": "SBI, Andhra pradesh Secretariat", "account_no": "5220881xxxxx", "amount_rupees": 663350},
+            {"bank": "HDFC, Joint Account NAD Korha Road", "account_no": "50t00677846777", "amount_rupees": 211638},
+            {"bank": "DCCB Bank ,Devarapalli", "account_no": "20300015xxxxx", "amount_rupees": 144317},
+            {"bank": "APVGVB", "account_no": "000007303078xxxxx", "amount_rupees": 522752},
+            {"bank": "SBI, Devarapalli", "account_no": "4289427xxxxx", "amount_rupees": 1956000}
+          ],
+          "spouse_details": [
+            {"bank": "SBI, Devarapalli", "account_no": "3239312xxxxx", "amount_rupees": 830302},
+            {"bank": "APVGVB", "account_no": "000xxxxx t35422531", "amount_rupees": 193853},
+            {"bank": "SBI", "account_no": "4289386xxxxx", "amount_rupees": 965000},
+            {"bank": "UCO Bank", "account_no": "0xxxxx l 1005t771", "amount_rupees": 3457}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 2406000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5406000,
+          "self_details": [
+            {"policy_no": "694xxxxxl8", "amount_rupees": 1000000},
+            {"policy_no": "IK770055802", "amount_rupees": 1500000},
+            {"policy_no": "69357xxxxx", "amount_rupees": 500000}
+          ],
+          "spouse_details": [
+            {"policy_no": "2DCP3l9278", "amount_rupees": 1500000},
+            {"policy_no": "69438xxxxx", "amount_rupees": 95000},
+            {"policy_no": "69438xxxxx", "amount_rupees": 90000},
+            {"policy_no": "69438xxxxx", "amount_rupees": 105000},
+            {"policy_no": "65962xxxxx", "amount_rupees": 400000},
+            {"policy_no": "65962xxxxx", "amount_rupees": 300000},
+            {"policy_no": "NRL530750l", "amount_rupees": 16000}
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 10100000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10100000,
+          "self_details": [
+            {"make": "Fortuner", "year": 2021, "registration_no": "AP 39 JN 3366", "amount_rupees": 4000000},
+            {"make": "Fortuner", "year": 2022, "registration_no": "AP 39 QG 3366", "amount_rupees": 4200000},
+            {"make": "Scorpio", "year": 2019, "registration_no": "AP 39 CD3366", "amount_rupees": 1900000}
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2100000,
+          "spouse_value_rupees": 6050000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8150000,
+          "self_details": {"type": "wrist watch, pouch, neck chains-3, wrist chains-3", "weight_grams": 300, "amount_rupees": 2100000},
+          "spouse_details": {"type": "Pustula thadu-2, Kasulaperu-2, Gigini-2, Necklesu-4, Haram-2, Black Beeds-4, Ear rings-10 sets, Rings-10", "weight_grams": 1100, "amount_rupees": 6050000}
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 123000000,
+      "total_current_market_value_spouse_rupees": 313000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 436000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 3800000,
+          "spouse_value_rupees": 9000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12800000,
+          "self_details": [
+            {"location": "Taruva Village of Devarapalli Mandal", "area": "5-49-1/2 cents", "purchase_date": "2004-09-02", "purchase_cost_rupees": 144000},
+            {"location": "Vakapalli Village of Devarapalli Mandal", "area": "0.32 Cents", "purchase_date": "2003-01-23", "purchase_cost_rupees": 13000}
+          ],
+          "spouse_details": [
+            {"location": "Taruva", "area": "6.30 Cents", "purchase_date": null, "purchase_cost_rupees": 186000},
+            {"location": "China Gangavaram", "area": "10.00 Cents", "purchase_date": null, "purchase_cost_rupees": 600000},
+            {"location": "Devarapalli", "area": "0.45 1/2 Cents", "purchase_date": null, "purchase_cost_rupees": 426000}
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 7500000,
+          "spouse_value_rupees": 14500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 22000000,
+          "self_details": [
+            {"location": "GVMC Laxmipuram Sy.No.93/l", "area": "447.2 Sq.Yards", "purchase_date": "2023-03-02", "purchase_cost_rupees": 5366500, "development_cost_rupees": 2000000}
+          ],
+          "spouse_details": [
+            {"location": "GVMC area Laxmipuram Sy.No.93/1", "area": null, "purchase_date": "2023-03-02", "purchase_cost_rupees": 5366500, "development_cost_rupees": 2000000},
+            {"location": "Devarapalli Sy.No.123/7", "area": null, "purchase_date": "2023-01-25", "purchase_cost_rupees": 876000},
+            {"location": "GVMC area Pendurthi 93/5,9366", "area": null, "purchase_date": "2022-09-14", "purchase_cost_rupees": 3000000},
+            {"location": "Chodavaram", "area": null, "purchase_date": "2022-03-25", "purchase_cost_rupees": 586000},
+            {"location": "Devarapalli Sy. 485-15", "area": null, "purchase_date": "2023-08-19", "purchase_cost_rupees": 159000},
+            {"location": "Devarapalli Sy.No. 151-2", "area": null, "purchase_date": "2016-06-29", "purchase_cost_rupees": 706000}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 7800000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8800000,
+          "self_details": [
+            {"location": "Taruva village of Devarapalli Mandal Sy.No.142", "total_area": "2000 Sq.Feet", "built_up_area": "1500 Sq.feet", "inherited": true}
+          ],
+          "spouse_details": [
+            {"location": "Taruva village of Devarapalli Mandal, . Sy.No.142", "area": "1000 sq.ft", "purchase_date": null, "purchase_cost_rupees": null},
+            {"location": "Sy.No.142", "area": "2500 sqft", "purchase_date": "2022-08-02", "purchase_cost_rupees": 186000},
+            {"location": "Sy.No.142", "area": "60 sq.ft", "purchase_date": "2023-10-04", "purchase_cost_rupees": 37000}
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 10003308,
+      "grand_total_of_liabilities_spouse_rupees": 7715763,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 17719071,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12300000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 10003308,
+          "spouse_value_rupees": 7715763,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17719071,
+          "self_details": [
+            {"bank": "APGVB Cooperative", "amount_rupees": 95381},
+            {"bank": "PACS M.Alamanda Crop Loan", "amount_rupees": 300000},
+            {"bank": "SBI Car Loan", "amount_rupees": 1263033},
+            {"bank": "HDFC Car Loan", "amount_rupees": 0},
+            {"bank": "SBI, Home Loan", "amount_rupees": 8344894}
+          ],
+          "spouse_details": [
+            {"bank": "SBI, Gold Loan", "account_no": "4c.4279773423", "amount_rupees": 883545},
+            {"bank": "PACS, Housing Loan", "amount_rupees": 2932301},
+            {"bank": "PACS Land Development Loan", "amount_rupees": 1971485},
+            {"bank": "PACS Cooperative Loan", "amount_rupees": 319909},
+            {"bank": "SBI Devarapalli Gold Loan", "account_no": "42585408817", "amount_rupees": 805300},
+            {"bank": "SBI Devarapalli Gold Loan", "account_no": "427892502", "amount_rupees": 803223}
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 9000000,
-      "non_agricultural_land": {
-        "description": "l. GVMC area Laxmipuram Sy.No.93/1, 2. Devarapalli Sy.No.123/7, 3. GVMC area Pendurthi 93/5,9366, 4. Chodavaram, 5. Devarapalli Sy. 485-15, 6. Devarapalli Sy.No. 151-2",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 14500000
+    "profession_or_occupation": {
+      "self": "Cultivation & MLA",
+      "spouse": "Cultivation & House Wife"
+    },
+    "sources_of_income": {
+      "self": "Cultivation and Honorarium",
+      "spouse": "Cultivation",
+      "dependent": "NIL"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NIL",
+      "spouse": "NIL",
+      "dependent": "NIL",
+      "huf_or_trust": "NIL",
+      "partnership_firms": "NIL",
+      "private_companies": "NIL"
+    },
+    "other_election_declarations": [
+      {
+        "election": "Andhra Pradesh 2019",
+        "declared_assets_rupees": 18010979,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Taruva village of Devarapalli Mandal, . Sy.No.142, Area. 1000 sq.ft (2). Sy.No.142 Area. 2500 sqft (3). Sy.No.142. area 60 sq.ft",
-        "total_area_sqft": 3560,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 7800000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 31300000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 9977608,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 10003308
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 7715763,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 7715763
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Cultivation and Honorarium",
-    "spouse": "Cultivation",
-    "dependent": "NIL"
-  },
-  "contracts": {
-    "entered_by_candidate": "NIL",
-    "entered_by_spouse": "NIL",
-    "entered_by_dependent": "NIL",
-    "entered_by_huf_trust": "NIL",
-    "entered_by_partnership_firms": "NIL",
-    "entered_by_private_companies": "NIL"
+      {
+        "election": "Andhra Pradesh 2014",
+        "declared_assets_rupees": 12011201,
+        "declared_cases": 2
+      }
+    ]
   }
 }

@@ -1,124 +1,405 @@
 {
   "candidate_name": "SUBHASH MEHARIA",
-  "party": "BJP",
-  "constituency": "Sikar (RAJASTHAN)",
-  "father_or_husband_name": "BRIJ MOHAN MEHARIA",
-  "age": 46,
-  "education": "Graduate BA (1978-1979), Shri Kalyan Collage,Sikar, Rajasthan University Jaipur",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 0,
-  "assets_total_inr": 13267020,
-  "liabilities_total_inr": 534287,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 153500,
-      "bank_deposits_inr": 670579,
-      "bonds_debentures_shares_inr": 585100,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 555000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 401986,
-      "jewellery_inr": 11600,
-      "other_assets_inr": 205000,
-      "gross_total_value_inr": 2582765
+  "party": "Bharatiya Janata Party(BJP)",
+  "constituency": "Sikar",
+  "state": "RAJASTHAN",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "BRIJ MOHAN MEHARIA",
+      "age": 46
     },
-    "spouse": {
-      "cash_inr": 60550,
-      "bank_deposits_inr": 12081,
-      "bonds_debentures_shares_inr": 40000,
-      "nss_postal_savings_inr": 87139,
-      "lic_other_insurance_inr": 257500,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 365000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 822270
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 250000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 13267020,
+      "total_liabilities_in_rupees": 534287
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "BA (1978-1979), Shri Kalyan Collage,Sikar, Rajasthan University Jaipur"
+    },
+    "income_tax_details": {
+      "report_status": null,
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": null
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2027765,
+      "gross_total_value_spouse_rupees": 564770,
+      "gross_total_value_huf_rupees": null,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 2592535,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 153500,
+          "spouse_value_rupees": 60550,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 214050
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 670579,
+          "spouse_value_rupees": 12081,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 682660
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 585100,
+          "spouse_value_rupees": 40000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 625100
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 87139,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 87139
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 555000,
+          "spouse_value_rupees": 257500,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 812500
+        },
+        {
+          "sr_no": "v",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 401986,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 401986
+        },
+        {
+          "sr_no": "vi",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 11600,
+          "spouse_value_rupees": 365000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 376600
+        },
+        {
+          "sr_no": "vii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 205000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 205000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 2778958,
+      "total_current_market_value_spouse_rupees": 7895527,
+      "total_current_market_value_huf_rupees": null,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 10674485,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 50500000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 53000000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 10000000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000000
+        },
+        {
+          "sr_no": "iii",
+          "description": "Buildings",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": 775000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1575000
+        },
+        {
+          "sr_no": "iv",
+          "description": "Houses",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 1748958,
+          "spouse_value_rupees": 1070527,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2799485
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": null,
+      "grand_total_of_liabilities_spouse_rupees": null,
+      "grand_total_of_liabilities_huf_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 534287,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": null,
+        "spouse_amount_rupees": null,
+        "huf_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": null,
+        "details": []
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "Awasan Mandal, Pratab Nagar Jaipur,Survey No. 113/116",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 2260,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 800000
+      "items": [
+        {
+          "sr_no": "(a) i",
+          "description": "Loans from Banks",
+          "self_value_rupees": 534287,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 534287
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans from Financial Institutions",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "(a) Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(c) Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(d) Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(e) Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(f) Other Dues if any",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "(i) (a) Income Tax including surcharge",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Permanent Account Number (PAN)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "(ii) Wealth Tax",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(iii) Sales Tax",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(iv) Property Tax",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "declaration_in": "Rajasthan 2023",
+        "declared_assets_rupees": 114888293,
+        "declared_cases": 0
       },
-      "others_inr": 1928958,
-      "total_current_market_value_inr": 2978958
-    },
-    "spouse": {
-      "agricultural_land_inr": 5050000,
-      "non_agricultural_land": {
-        "description": "Jaipur Road Sikar",
-        "area_sq_mtr": 742,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1000000
+      {
+        "declaration_in": "Lok Sabha 2019",
+        "declared_assets_rupees": 82542126,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "Behind the Shiv Mandir Cinema Hall, Sikar, Share 1/2",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 300,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 775000
+      {
+        "declaration_in": "Loksabha 2014",
+        "declared_assets_rupees": 74415150,
+        "declared_cases": 0
       },
-      "others_inr": 1070527,
-      "total_current_market_value_inr": 7895527
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 534287,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 534287
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": null,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": null
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": null,
-      "dues_water_supply_inr": null,
-      "dues_electricity_supply_inr": null,
-      "dues_telephones_inr": null,
-      "dues_transport_inr": null,
-      "income_tax_dues_inr": null,
-      "wealth_tax_dues_inr": null,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": null,
-      "sales_tax_dues_inr": null,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": null,
-      "grand_total_of_all_govt_dues_inr": null
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "declaration_in": "Rajasthan 2013",
+        "declared_assets_rupees": 74557772,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Lok Sabha 2009",
+        "declared_assets_rupees": 23383778,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

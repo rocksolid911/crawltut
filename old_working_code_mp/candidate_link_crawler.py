@@ -7,8 +7,10 @@ import requests
 from bs4 import BeautifulSoup
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, BrowserConfig, CacheMode, DefaultMarkdownGenerator
 
-from constituancy_link_parser import parse_constituency_links
-from md_file_reader import get_constituency_md_file
+
+
+from old_working_code_mp.constituancy_link_parser import parse_constituency_links
+from old_working_code_mp.md_file_reader import get_constituency_md_file
 
 
 # async def candidatecrawler(year , state=None):

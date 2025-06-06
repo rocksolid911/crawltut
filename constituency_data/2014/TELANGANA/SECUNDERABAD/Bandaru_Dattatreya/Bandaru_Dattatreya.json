@@ -1,139 +1,563 @@
 {
   "candidate_name": "BANDARU DATTATREYA",
   "party": "BJP",
-  "constituency": "SECUNDERABAD(TELANGANA)",
-  "father_or_husband_name": "Anjaiah",
-  "age": 66,
-  "education": "Graduate B.Sc. from Anwar Ul Uloom College, Osmania University in 1968",
-  "profession_self": "Business",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 3,
-  "assets_total_inr": 98255148,
-  "liabilities_total_inr": 405469,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 562335
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 307829
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 275430,
-      "bank_deposits_inr": 134388,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 840000,
-      "jewellery_inr": 290000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1539818
-    },
-    "spouse": {
-      "cash_inr": 220240,
-      "bank_deposits_inr": 14800,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 161000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 828620,
-      "jewellery_inr": 3580000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4804660
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Road no. 10C MLA/MP colony Plot no. 269 Jublee Hills under construction",
-        "area_sq_mtr": 501.67,
-        "inherited": "N",
-        "purchase_date": "1993-10-02",
-        "purchase_cost_inr": 85000,
-        "development_cost_inr": 3500000,
-        "current_market_value_inr": 30500000
+  "constituency": "SECUNDERABAD",
+  "state": "TELANGANA",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Anjaiah",
+      "age": 66,
+      "voter_enrolled_in": {
+        "constituency": "57-Musheerabad Assembly Constituency",
+        "state": "AP (Andhra Pradesh)",
+        "serial_no": 408,
+        "part_no": 184
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 30500000
+      "self_profession": "Business",
+      "spouse_profession": "House Wife"
     },
-    "spouse": {
-      "agricultural_land_inr": 11000000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Ramnagar TRT Qtrs B 34(F1-4) / B 33-F3 Ramnagar TRT Qtrs / B 33-F4 Ramnagar TRT Qtrs",
-        "total_area_sqft": 5445,
-        "built_up_area_sqft": 6797.53,
-        "inherited": "N",
-        "purchase_date": "2003-07-01",
-        "purchase_cost_inr": 258550,
-        "development_cost_inr": 950000,
-        "current_market_value_inr": 18050000
+    "summary": {
+      "criminal_cases_count": 3,
+      "total_assets_in_rupees": 98255148,
+      "total_liabilities_in_rupees": 405469
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Sc. from Anwar Ul Uloom College, Osmania University in 1968"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 562335
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 307829
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "u/s 145, 147 of Railway Act. IInd Metropolitan Magistrate Secundarabad S.T.C. No. 246/2009, Date 19.03.2009, Criminal Petition No. 12770 of 2013 Pending before High Court for quash. Stay granted on 02.12.2013"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "U/S 145, 147, of Railway Act. IInd Metropolitan Magistrate Secundarabad, C.C.No. 852/2012 Date 04.02.2013"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "143, 188",
+          "other_details_or_acts_sections_applicable": "Ist Addl, Chief Metropolitan Magistrate Hyderabad C.C.No. 761/2011 Charge Sheet Filed on 17.11.2011"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1539818,
+      "gross_total_value_spouse_rupees": 4804660,
+      "gross_total_value_dependent1_rupees": 740670,
+      "gross_total_value_dependent2_rupees": 120000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 7205148,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 275430,
+          "spouse_value_rupees": 220240,
+          "dependent1_value_rupees": 25670,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 521340
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 134388,
+          "spouse_value_rupees": 14800,
+          "dependent1_value_rupees": 15000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 164188,
+          "self_details": "SBI Banjara Hills 1,34,388",
+          "spouse_details": "SBI, Ram Nagar 14,800",
+          "dependent1_details": "SBI, Ramnagar 15,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 161000,
+          "dependent1_value_rupees": 120000,
+          "dependent2_value_rupees": 120000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 401000,
+          "spouse_details": "Insurance 1,61,000",
+          "dependent1_details": "Insurance 1,20,000",
+          "dependent2_details": "Insurance 1,20,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 840000,
+          "spouse_value_rupees": 828620,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1668620,
+          "self_details": "Scorpio year 2009 AP9BX801 8,40,000",
+          "spouse_details": "Toyota Qualis AP9AV801 model 2004 8,28,620"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 290000,
+          "spouse_value_rupees": 3580000,
+          "dependent1_value_rupees": 580000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4450000,
+          "self_details": "Gold 100gms 2,90,000",
+          "spouse_details": "Gold 1kg 29,00,000 Silver 1kg 6,80,000",
+          "dependent1_details": "Gold 200gm 5,80,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 305000000,
+      "total_current_market_value_spouse_rupees": 550500000,
+      "total_current_market_value_dependent1_rupees": 17000000,
+      "total_current_market_value_dependent2_rupees": 38000000,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 910500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 11000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 11000000,
+          "spouse_details": {
+            "location": "Rampally Village, Kesra Mandal",
+            "survey_no": "589, 592",
+            "total_area": "6acres 15guntas",
+            "inherited": false,
+            "purchase_date": "2013-12-01",
+            "purchase_cost_rupees": 1108900,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 11000000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 305000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 305000000,
+          "self_details": {
+            "location": "Road no. 10C MLA/MP colony Plot no. 269 Jublee Hills under construction",
+            "total_area": "5400 Sq.Ft",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "1993-10-02",
+            "purchase_cost_rupees": 85000,
+            "development_cost_rupees": 3500000,
+            "current_value_rupees": 305000000
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 17000000,
+          "dependent2_value_rupees": 17000000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 34000000,
+          "dependent1_details": {
+            "location": "Minerva Complex SP Road, Secundrabad",
+            "built_up_area": "1500sq.ft.",
+            "total_area": "135sq.ft.",
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 17000000
+          },
+          "dependent2_details": {
+            "location": "Minerva Complex SP Road, Secundrabad",
+            "built_up_area": "1500sq.ft.",
+            "total_area": "135sq.ft.",
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 17000000
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 180500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 21000000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 201500000,
+          "spouse_details": [
+            {
+              "location": "Ramnagar TRT Qtrs B 34(F1-4)",
+              "total_area": "3348sq.ft.",
+              "built_up_area": "6000sq.ft.",
+              "inherited": false,
+              "purchase_date": "2003-07-01",
+              "purchase_cost_rupees": 1355000,
+              "development_cost_rupees": 950000,
+              "current_value_rupees": 135000000
+            },
+            {
+              "location": "B 33-F3 Ramnagar TRT Qtrs",
+              "total_area": "397sq.ft.",
+              "built_up_area": "397.53 sq.ft",
+              "inherited": false,
+              "purchase_date": "2013-10-01",
+              "purchase_cost_rupees": 1230000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 12500000
+            },
+            {
+              "location": "B 33-F4 Ramnagar TRT Qtrs",
+              "total_area": "1700 Sq.Ft.",
+              "built_up_area": "405sq.ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 33550,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 33000000
+            }
+          ],
+          "dependent2_details": {
+            "location": "Flat at 15-2-531 Gowliguda",
+            "total_area": "270 Sq.Ft",
+            "built_up_area": "3000 Sq.Ft",
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 21000000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 260000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 260000000,
+          "spouse_details": [
+            {
+              "location": "Joint Investment in Land at serlingampally",
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            },
+            {
+              "location": "Bagh Amberpet undivided share of land",
+              "total_area": "450 Sq.Ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 6637000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000000
+            },
+            {
+              "location": "Amt receivable towards sale of flat",
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 40000000
+            },
+            {
+              "location": "Development of 3rd party property at Jambagh",
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            }
+          ]
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 405469,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 405469,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 26000000,
-      "total_current_market_value_inr": 55050000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 405469,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 405469
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 405469,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 405469,
+          "self_details": "Syndicate Bank DPDO Masab Tank Car Loan as on 31/03/2014 4,05,469"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "election_expenses_link": "https://www.myneta.info/ls2014/expense.php?candidate_id=6420"
+  }
 }

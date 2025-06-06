@@ -1,180 +1,910 @@
 {
   "candidate_name": "PANNEERSELVAM O S/O OTTAKARATHEVAR",
   "party": "IND",
-  "constituency": "RAMANATHAPURAM (TAMIL NADU)",
-  "father_or_husband_name": "M.Ottakarathevar",
-  "age": 74,
-  "education": "12th Pass B.A(Economics) Incomplete From Hajee Karutha Rowther Howdia College, Uthamapalayam, Year-1973",
-  "profession_self": "M.L.A Agriculture and Dairy Farming",
-  "profession_spouse": "House Wife, Agriculture",
-  "criminal_cases": 5,
-  "assets_total_inr": 60171092,
-  "liabilities_total_inr": 15285226,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 50885238,
-        "2021-2022": 2667195,
-        "2020-2021": 602000,
-        "2019-2020": 774170,
-        "2018-2019": 769670
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2021-2022": 5710622,
-        "2020-2021": 7841693,
-        "2019-2020": 2982452,
-        "2018-2019": 2290408,
-        "2017-2018": 2041152
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 86335,
-      "bank_deposits_inr": 296636,
-      "bonds_debentures_shares_inr": 308061,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 10379801,
-      "jewellery_inr": 80000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 11150833
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 9594,
-      "bonds_debentures_shares_inr": 8100,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1017694
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 26196960,
-      "non_agricultural_land": {
-        "description": "Farm House, Thenkarai Village, Doc No 258-2022, S No 1134/1",
-        "area_sq_mtr": 9000,
-        "inherited": "N",
-        "purchase_date": "2022-01-27",
-        "purchase_cost_inr": 2709650,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
+  "constituency": "RAMANATHAPURAM",
+  "state": "TAMIL NADU",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "M.Ottakarathevar",
+      "age": 74,
+      "voter_enrolled_in": {
+        "constituency": "199 Periyakulam",
+        "state": "Tamil Nadu",
+        "serial_no": 617,
+        "part_no": 108
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "None",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      "self_profession": "M.L.A Agriculture and Dairy Farming",
+      "spouse_profession": "House Wife, Agriculture"
+    },
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 60171092,
+      "total_liabilities_in_rupees": 15285226
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "B.A(Economics) Incomplete From Hajee Karutha Rowther Howdia College, Uthamapalayam, Year-1973"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 50885238
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 2667195
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 602000
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 774170
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 769670
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 5710622
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 7841693
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 2982452
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 2290408
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 2041152
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Voluntarily causing hurt by dangerous weapons or means",
+          "ipc_section": "324",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Lurking house-trespass or house-breaking in order to commit offence punishable with imprisonment",
+          "ipc_section": "454",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Theft in dwelling house, etc.",
+          "ipc_section": "380",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Criminal breach of trust by public servant, or by banker, merchant or agent",
+          "ipc_section": "409",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Punishment for wrongful restraint",
+          "ipc_section": "341",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Act endangering life or personal safety of others",
+          "ipc_section": "336",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "190/2022 PS Royapettah Mylapore",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "147, 148, 341, 324, 336, 353",
+          "other_details_or_acts_sections_applicable": "Section: TN Public Property Prvnt. of Damage & Loss Act 1992",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "191/2022 PS Royapettah Mylapore",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "147, 148, 341, 294B, 324, 506(2)",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "fir_no": "213/2022 PS Royapettah Mylapore",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "147, 148, 454, 380, 409, 427, 506(2)",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 4,
+          "fir_no": "Cr No 715/2021, PS D-1, Triplicane",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 5,
+          "fir_no": "Cr No 62/2024 PS, Ramnad Town",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 11133138,
+      "gross_total_value_spouse_rupees": 1017694,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 12150832,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 86335,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 86335
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 296636,
+          "spouse_value_rupees": 9594,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 306230,
+          "self_details": [
+            {
+              "bank": "City Union Bank",
+              "branch": "Periyakulam Br.",
+              "account_no": "03500100102xxxxx",
+              "amount_rupees": 3694
+            },
+            {
+              "bank": "City Union Bank",
+              "branch": "Periyakulam Br.",
+              "account_no": "03500100010xxxxx",
+              "amount_rupees": 28103
+            },
+            {
+              "bank": "City Union Bank",
+              "branch": "Periyakulam Br.",
+              "account_no": "50010101296xxxxx",
+              "amount_rupees": 98775
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "Chennai Secretariat Br.",
+              "account_no": "11720100001xxxxx",
+              "amount_rupees": 22418
+            },
+            {
+              "bank": "HDFC Bank",
+              "branch": "Theni Allinagaram Br.",
+              "account_no": "9990009000xxxxx",
+              "amount_rupees": 106718
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "Chennai Br",
+              "account_no": "62250101xxxxx",
+              "amount_rupees": 27334
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "City Union Bank",
+              "branch": "George Town Br",
+              "account_no": "04300100025xxxxx",
+              "amount_rupees": 9594
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 8100,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 308100,
+          "self_details": [
+            {
+              "name": "Periyakullam Cooperative Bank Share",
+              "amount_rupees": 600
+            },
+            {
+              "name": "Investment Dairy Farm",
+              "amount_rupees": 299361
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Periyakullam Cooperative Bank Share",
+              "amount_rupees": 8100
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 10379801,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10379801,
+          "self_details": [
+            {
+              "make": "Mahindra Jenio LGV",
+              "model": 2011,
+              "registration_no": "TN06P2345",
+              "value_rupees": 554980
+            },
+            {
+              "make": "Toyota Innova Car",
+              "model": 2013,
+              "registration_no": "TN04AX2345",
+              "value_rupees": 1785655
+            },
+            {
+              "make": "Toyota Innova Car",
+              "model": 2016,
+              "registration_no": "TN06Z2345",
+              "value_rupees": 2544789
+            },
+            {
+              "make": "Mahindra Tractor",
+              "model": 2021,
+              "registration_no": "TN06AL1577",
+              "value_rupees": 1160000
+            },
+            {
+              "make": "Tempo Traveler",
+              "model": 2018,
+              "registration_no": "TN60AL2345",
+              "value_rupees": 2530020
+            },
+            {
+              "make": "Tempo Traveler",
+              "model": 2020,
+              "registration_no": "TN60BA2345",
+              "value_rupees": 1804357
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 80000,
+          "spouse_value_rupees": 1000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1080000,
+          "self_details": {
+            "gold_gms": 16,
+            "value_per_gm": 5000,
+            "total_value_rupees": 80000
+          },
+          "spouse_details": {
+            "gold_gms": 200,
+            "value_per_gm": 5000,
+            "total_value_rupees": 1000000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 41237260,
+      "total_current_market_value_spouse_rupees": 6783000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 48020260,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 26196960,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 26196960,
+          "self_details": [
+            {
+              "location": "Allinagaram Village",
+              "doc_no": "12177/2022",
+              "s_no": "335, 333, 332/2, 329, 332/1, 344, 336/3A1. 336/3A2, 336/3B, 277/3, 277/4, 336/1, 334",
+              "total_area": "9.54 Acre",
+              "inherited": false,
+              "purchase_date": "2022-12-10",
+              "purchase_cost_rupees": 15561960,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 17581960
+            },
+            {
+              "location": "Bodinayakanur Village",
+              "doc_no": "1599-2023",
+              "s_no": "1673/1B",
+              "total_area": "0.82 Acre",
+              "inherited": false,
+              "purchase_date": "2023-03-16",
+              "purchase_cost_rupees": 1012640,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 990000
+            },
+            {
+              "location": "Bodinayakanur Village",
+              "doc_no": "1601/2023",
+              "s_no": "1668/6A, 1673/1A, 1668/6C",
+              "total_area": "1.74 Acre",
+              "inherited": false,
+              "purchase_date": "2023-03-16",
+              "purchase_cost_rupees": 1350410,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1310000
+            },
+            {
+              "location": "Thamaraikulam Village",
+              "doc_no": "103/2023",
+              "s_no": "2124/1, 2124/2, 2125, 2126/2, 2122/1C, 2122/1F, 2123/1C, 2123/2, 2122/1G1, 3080",
+              "total_area": "11.74 Acre",
+              "inherited": false,
+              "purchase_date": "2023-04-03",
+              "purchase_cost_rupees": 5312847,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5325000
+            },
+            {
+              "location": "Vadaveeranaickenpetty Village",
+              "doc_no": "8201-2023",
+              "s_no": "1520/2, 1520/1, 1520/3B, 1520/3C",
+              "total_area": "2.49 Acre",
+              "inherited": false,
+              "purchase_date": "2023-08-23",
+              "purchase_cost_rupees": 988750,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 990000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 15790300,
+          "spouse_value_rupees": 750000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16540300,
+          "self_details": [
+            {
+              "location": "Thenkarai Village",
+              "doc_no": "258-2022",
+              "s_no": "1134/1",
+              "total_area": "2.25 Acre",
+              "built_up_area_sq_ft": 98001,
+              "inherited": false,
+              "purchase_date": "2022-01-27",
+              "purchase_cost_rupees": 2709650,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4000000
+            },
+            {
+              "location": "Bodinayakkanur Village",
+              "doc_no": "1598/2023",
+              "s_no": "1671/C",
+              "total_area": "0.79 Acre",
+              "built_up_area_sq_ft": 34409.24,
+              "inherited": false,
+              "purchase_date": "2023-03-16",
+              "purchase_cost_rupees": 2013000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1980000
+            },
+            {
+              "location": "Bodinayakkanur Village",
+              "doc_no": "1600/2023",
+              "s_no": "1671/1A",
+              "total_area": "0.83 Acre",
+              "built_up_area_sq_ft": 36151.48,
+              "inherited": false,
+              "purchase_date": "2023-03-16",
+              "purchase_cost_rupees": 2013000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1965000
+            },
+            {
+              "location": "Bodinayakkanur Village",
+              "doc_no": "2111/2023",
+              "s_no": "1671/1B3, 1671/14, 1671.87",
+              "total_area": "0.55 Acre",
+              "built_up_area_sq_ft": 24285.42,
+              "inherited": false,
+              "purchase_date": "2023-04-03",
+              "purchase_cost_rupees": 4715050,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5277200
+            },
+            {
+              "location": "Bodinayakkanur Village",
+              "doc_no": "2112/2023",
+              "s_no": "1672/5, 1670/4, 1669/6, 1672/2A, 1672/2B",
+              "total_area": "2.02 Acre",
+              "built_up_area_sq_ft": 87983.12,
+              "inherited": false,
+              "purchase_date": "2023-04-03",
+              "purchase_cost_rupees": 660140,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1818100
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Periyakulam Muncipa Town",
+              "doc_no": "1073/2017",
+              "s_no": "TS 4293/1",
+              "total_area_sq_ft": 1732,
+              "inherited": false,
+              "purchase_date": "2017-07-05",
+              "purchase_cost_rupees": 644463,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 750000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 6033000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6033000,
+          "spouse_details": [
+            {
+              "location": "Periyakullam Muncipal Town",
+              "doc_no": "1368/1998",
+              "s_no": "TS 4294",
+              "total_area_sq_ft": 2068.5,
+              "built_up_area_sq_ft": 2000,
+              "inherited": false,
+              "purchase_date": "1998-11-02",
+              "purchase_cost_rupees": 272375,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6033000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 15285226,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 15285226,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 41237260
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 634836,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 634836,
+          "self_details": [
+            {
+              "loan_type": "Tractor Loan",
+              "bank": "ICICI Bank",
+              "branch": "Theni Br.",
+              "loan_no": "KFTHN00048428534",
+              "amount_rupees": 634836
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 14650390,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14650390,
+          "self_details": [
+            {
+              "name": "Mr Anbumani",
+              "amount_rupees": 2000000
+            },
+            {
+              "name": "Mr. V. P. Jayapradeep (son)",
+              "amount_rupees": 12650390
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Land Periyakulam Muncipa Town, Doc No 1073/2017, S No TS 4293/1",
-        "area_sq_mtr": 160.9,
-        "inherited": "N",
-        "purchase_date": "2017-07-05",
-        "purchase_cost_inr": 644463,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 750000
+    "profession_or_occupation": {
+      "self": "M.L.A Agriculture and Dairy Farming",
+      "spouse": "House Wife, Agriculture"
+    },
+    "sources_of_income": {
+      "self": "Salary M.L.A., Agriculture Income, Dairy farm Income, Sale of Land Income",
+      "spouse": "Agriculture Income and Dairy Farming",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Not Applicable",
+      "spouse": "Not Applicable",
+      "dependent": "Not Applicable",
+      "huf_or_trust": "Not Applicable",
+      "partnership_firms": "Not Applicable",
+      "private_companies": "Not Applicable"
+    },
+    "other_elections": [
+      {
+        "declaration_in": "Tamil Nadu 2021",
+        "declared_assets_rupees": 78246683,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Periyakullam Muncipal Town, Doc No 1368/1998, S.No. TS 4294",
-        "total_area_sqft": 2068.5,
-        "built_up_area_sqft": 2000,
-        "inherited": "N",
-        "purchase_date": "1998-11-02",
-        "purchase_cost_inr": 272375,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6033000
+      {
+        "declaration_in": "Tamil Nadu 2016",
+        "declared_assets_rupees": 15365075,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 6783000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 634836,
-      "loans_due_to_individual_entity_inr": 14650390,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 15285226
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Salary M.L.A., Agriculture Income, Dairy farm Income, Sale of Land Income",
-    "spouse": "Agriculture Income and Dairy Farming",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "Not Applicable",
-    "entered_by_spouse": "Not Applicable",
-    "entered_by_dependent": "Not Applicable",
-    "entered_by_huf_trust": "Not Applicable",
-    "entered_by_partnership_firms": "Not Applicable",
-    "entered_by_private_companies": "Not Applicable"
+      {
+        "declaration_in": "Tamil Nadu 2011",
+        "declared_assets_rupees": 3567174,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Tamil Nadu 2006",
+        "declared_assets_rupees": 2081702,
+        "declared_cases": 0
+      }
+    ]
   }
 }
