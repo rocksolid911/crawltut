@@ -1,163 +1,479 @@
 {
   "candidate_name": "AVTAR SINGH JUNIOR",
   "party": "INC",
-  "constituency": "JALANDHAR NORTH (JALANDHAR)",
-  "father_or_husband_name": "AVTAR HENRY",
-  "age": 37,
-  "education": "12th Pass 10+2 (P.S.E.B.)",
-  "profession_self": "Transporter, Agriculturist IOC Dealer",
-  "profession_spouse": "Transporter & Agriculturist",
-  "criminal_cases": 0,
-  "assets_total_inr": 234356643,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 6153175
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 800092
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 308835,
-      "bank_deposits_inr": 2532935 + 2641216 + 19552178 + 3417966 + 61823 + 92456,
-      "bonds_debentures_shares_inr": 343200 + 10000 + 280000,
-      "nss_postal_savings_inr": 24157 + 120000 + 543458,
-      "lic_other_insurance_inr": 545450,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 350000,
-      "other_assets_inr": 34358258 + 4708299 + 8749737 + 2997868 + 1473438 + 4500000,
-      "gross_total_value_inr": 87611274
-    },
-    "spouse": {
-      "cash_inr": 57300,
-      "bank_deposits_inr": 339457 + 1462512,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 15099 + 313228,
-      "lic_other_insurance_inr": 839000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1000000,
-      "other_assets_inr": 5114773,
-      "gross_total_value_inr": 9141369
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 24350000,
-      "non_agricultural_land": {
-        "description": "at Amritsar Bye Pass, At Village Staiawla, At Village Eelakhurd, At Village Wadala",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 25000000
+  "constituency": "JALANDHAR NORTH",
+  "state": "PUNJAB",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "AVTAR HENRY",
+      "age": 37,
+      "voter_enrolled_in": {
+        "constituency": "036-JALANDHAR NORTH",
+        "state": "Punjab",
+        "serial_no": 502,
+        "part_no": 161
       },
-      "commercial_buildings_inr": 27500000,
-      "residential_buildings": {
-        "description": "539 Model Town Jalandhar City",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 4000,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 40000000
+      "self_profession": "Transporter, Agriculturist IOC Dealer",
+      "spouse_profession": "Transporter & Agriculturist"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 234356643,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "10+2 (P.S.E.B.)"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 6153175
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 800092
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": null,
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 87611274,
+      "gross_total_value_spouse_rupees": 9141369,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 96752643,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 308835,
+          "spouse_value_rupees": 57300,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 366135
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2532935,
+          "spouse_value_rupees": 339457,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30100543,
+          "self_details": [
+            "Oriental Bank of Commerce  25,32,935",
+            "Bank of Baroda 26,41,216",
+            "Oriental Bank of Commerce  1,95,52,178",
+            "Bank of Baroda 34,17,966",
+            "Andhra Bank 61,823",
+            "Indusind Bank 92,456"
+          ],
+          "spouse_details": [
+            "Oriental Bank of Commerce  3,39,457",
+            "Oriental Bank of Commerce  14,62,512"
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 343200,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 633200,
+          "self_details": [
+            "17160 Shares of the Kartar Bus Service Ltd. 20 Each  3,43,200",
+            "100 Shares of the Kartar Tourist Bus Service Ltd 100 Each 10,000",
+            "2800 Shares of the Kartar Deposit Advance Ltd. of Rs.100 Each 2,80,000"
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 24157,
+          "spouse_value_rupees": 15099,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1015942,
+          "self_details": [
+            "Oriental Bank of Commerce  24,157",
+            "Bank of Baroda 1,20,000",
+            "Public Provident Fund 5,43,458"
+          ],
+          "spouse_details": [
+            "Oriental Bank of Commerce  15,099",
+            "Public Provident fund 3,13,228"
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 545450,
+          "spouse_value_rupees": 839000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1384450,
+          "self_details": "Life Insurance Premium Maturity  5,45,450",
+          "spouse_details": "Life Insurance Premium 8,39,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "16 Trucks, 1 Car, 1 Gypsy, 1 Motor Cycle *(Value Not Given)",
+          "spouse_details": "3 Trucks , 1 Car *(Value Not Given)"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 350000,
+          "spouse_value_rupees": 1000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1350000,
+          "self_details": "GOld 3,50,000",
+          "spouse_details": "Gold 10,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 34358258,
+          "spouse_value_rupees": 5114773,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 61902373,
+          "self_details": [
+            "Junior Avtar Sing 3,43,58,258",
+            "Kartar Petro Products 47,08,299",
+            "Kartar Mills & Agro Products 87,49,737",
+            "Kartar Deposits & Advance Corporation  29,97,868",
+            "Hero Bus Service  14,73,438",
+            "Depositor Stands at the Kartar Co-Op Transport Society  45,00,000"
+          ],
+          "spouse_details": "Harserat Kaur 51,14,773"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 1168500000,
+      "total_current_market_value_spouse_rupees": 20754000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 1376040000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 24350000,
+          "spouse_value_rupees": 20754000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 45104000,
+          "self_details": "Jalandhar & Moga, Date. 23-07-1997, 25-04-1999 Total Area 24.35 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 828000.00 Development Cost 200000.00 2,43,50,000",
+          "spouse_details": "Jalandhar, Date.29-01-2015, 07-09-2016 Total Area 16.53 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 20754000.00 Development Cost 0.00 2,07,54,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 25000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000000,
+          "self_details": "at Amritsar Bye Pass, At Village Staiawla, At Village Eelakhurd, At Village Wadala, Area. 09 Kanal 06 Marlas, 1 Kanal 06 Marla, 213.32 sq.ft, 21 Marlas 28 sq.ft, Date. 15-04-2004, 30-04-2010, 30-05-2013, 28-03-2013, Cost of land, 2410100, 0363000/-, 1425000/-, 2533000/- Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,50,00,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 27500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 27500000,
+          "self_details": "At Village Suranusi At Village Suchi Pind at 19 Guru Nagar, Area. 4 Kanals 08 Marla, 2 Kanals 06 Marla, Built up area. 5000 sq.ft, 10000 sq.ft, Date of Purchase.28-04-2004, 26-07-2005, Cost of Land 2000000/-, 1380000/- Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 1080500.00 2,75,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 40000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 40000000,
+          "self_details": "539 Model Town Jalandhar City  Total Area 064 Marla 43 sq.ft Built Up Area 4000 sq.ft Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 4,00,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 116850000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 20754000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 20754000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "sources_of_income": {},
+    "contracts_with_government_and_public_companies": {}
   }
 }

@@ -1,166 +1,656 @@
 {
   "candidate_name": "ARIF AQUEEL",
   "party": "INC",
-  "constituency": "BHOPAL UTTAR (BHOPAL)",
-  "father_or_husband_name": "Late Shri Aqueel Ahmad",
-  "age": 66,
-  "education": "Post Graduate M.A, Bhopal University , M.Sc, Bhopal University, LL.B From Bhopal University",
-  "profession_self": "Advocacy and Agriculture",
-  "profession_spouse": "Housewife and Agricultural Work",
-  "criminal_cases": 0,
-  "assets_total_inr": 20825172,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2018-2019": 441830
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2018-2019": 325000
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 1078019,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 300000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 80000,
-      "gross_total_value_inr": 1579280
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 301969,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 367000,
-      "jewellery_inr": 1788000,
-      "other_assets_inr": 15000,
-      "gross_total_value_inr": 2490232
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 8845180,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+  "constituency": "BHOPAL UTTAR",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Shri Aqueel Ahmad",
+      "age": 66,
+      "voter_enrolled_in": {
+        "constituency": "150 Bhopal Uttar",
+        "state": "Madhya Pradesh",
+        "serial_no": 322,
+        "part_no": 5
       },
-      "commercial_buildings_inr": 1000000,
-      "residential_buildings": {
-        "description": "1 Residential Building Near Lakshmi Talkies 54 Lakshmi Talkies Road Bhopal(Investment Building Build)",
-        "total_area_sqft": 1170,
-        "built_up_area_sqft": 1170,
-        "inherited": "N",
-        "purchase_date": "1979-02-07",
-        "purchase_cost_inr": 9500,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2000000
+      "self_profession": "Advocacy and Agriculture",
+      "spouse_profession": "Housewife and Agricultural Work"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 20825172,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A, Bhopal University , M.Sc, Bhopal University, LL.B From Bhopal University"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 441830
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 325000
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1489280.63,
+      "gross_total_value_spouse_rupees": 2497232.0,
+      "gross_total_value_huf_rupees": null,
+      "gross_total_value_dependent1_rupees": null,
+      "gross_total_value_dependent2_rupees": null,
+      "gross_total_value_dependent3_rupees": null,
+      "gross_total_value_total_rupees": 3986512.63,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 20000,
+          "spouse_value_rupees": 25000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 45000,
+          "self_details": {
+            "amount_rupees": 20000
+          },
+          "spouse_details": {
+            "amount_rupees": 25000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1078029.63,
+          "spouse_value_rupees": 277232,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1391512.63,
+          "self_details": [
+            {
+              "bank": "State Bank of India",
+              "branch": "Vidhan Sabha Building Branch",
+              "account_no": "5302364xxxxx",
+              "amount_rupees": 627244.63
+            },
+            {
+              "bank": "Bhopal Nagrik Sahakari Bank ltd",
+              "branch": "Bhopal",
+              "account_no": "A550-41/149",
+              "amount_rupees": 7
+            },
+            {
+              "bank": "krishak sewa sahakari sanstha",
+              "branch": "salamatpur to Bhopal District Raisen",
+              "account_no": "1411",
+              "amount_rupees": 11254
+            },
+            {
+              "bank": "State Bank Of India",
+              "branch": "Panchanan Building Bhopal",
+              "account_no": "FDR",
+              "amount_rupees": 150000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Village: Salamatpur Raisen District",
+              "account_no": "3491460xxxxx",
+              "amount_rupees": 283975
+            },
+            {
+              "bank": "Bombay Mercantile Co-operative Bank",
+              "branch": "Bhopal",
+              "account_no": "390xxxxx",
+              "amount_rupees": 1800
+            },
+            {
+              "bank": "Bombay Mercantile Co-operative Bank",
+              "branch": "Bhopal",
+              "account_no": "208100103904102",
+              "amount_rupees": 15000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Bank of India",
+              "branch": "Hamidia Road Bhopal",
+              "account_no": "90031011000xxxxx",
+              "amount_rupees": 220200
+            },
+            {
+              "bank": "Bhopal Nagrik Sahakari Bank ltd",
+              "branch": "Bhopal",
+              "account_no": "S970/41/3060",
+              "amount_rupees": 2206
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Salamatpur Raisen",
+              "account_no": "2007074xxxxx",
+              "amount_rupees": 34963
+            },
+            {
+              "bank": "krishak sewa sahakari sanstha",
+              "branch": "salamatpur District Raisen",
+              "account_no": "16500277xxxxx",
+              "amount_rupees": 863
+            },
+            {
+              "bank": "Bombay Mercantile Co-operative Bank",
+              "branch": "Bhopal",
+              "account_no": "390xxxxx",
+              "amount_rupees": 44000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 367000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 667000,
+          "self_details": [
+            {
+              "make": "Jeep",
+              "model": 1992,
+              "registration_no": "MP04-J786",
+              "value_rupees": 50000
+            },
+            {
+              "make": "Gypsy",
+              "model": 2004,
+              "registration_no": "MP-04 KG-9786",
+              "value_rupees": 100000
+            },
+            {
+              "make": "Mahindra & Mahindra 275 Tractor",
+              "model": 2000,
+              "registration_no": "MP-40 M7230",
+              "value_rupees": 150000
+            }
+          ],
+          "spouse_details": [
+            {
+              "make": "Eicher Tractors 557",
+              "model": 2015,
+              "registration_no": "MP-04AH7143",
+              "value_rupees": 300000
+            },
+            {
+              "make": "Activa Honda Scooter",
+              "model": 2018,
+              "registration_no": "MP-4/ST-7786",
+              "value_rupees": 67000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 1788000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1788000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "gold_gram": 900,
+            "gold_value_rupees": 1568000,
+            "silver_kg": 5.5,
+            "silver_value_rupees": 220000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 80000,
+          "spouse_value_rupees": 15000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 95000,
+          "self_details": [
+            {
+              "item": "1 Rifle",
+              "bore": "315 Bore",
+              "value_rupees": 60000
+            },
+            {
+              "item": "1 Pistol",
+              "value_rupees": 20000
+            }
+          ],
+          "spouse_details": [
+            {
+              "item": "1 Rifle",
+              "bore": "22 Bore",
+              "value_rupees": 15000
+            }
+          ]
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 11845180,
+      "total_current_market_value_spouse_rupees": 4910500,
+      "total_current_market_value_huf_rupees": null,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 16755680,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 8845180,
+          "spouse_value_rupees": 3899000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 12744180,
+          "self_details": [
+            {
+              "khasra_no": "4/1,188,180/3,203/2/1,204/1,204/2",
+              "total_area": "15.35 Acre",
+              "inherited": true,
+              "purchase_date": "2000-05-26",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 8845180
+            }
+          ],
+          "spouse_details": [
+            {
+              "khasra_no": "14/3/1,180/4/2",
+              "total_area": "7 Acre",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3899000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 1011500,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1011500,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "plot_no": "1",
+              "location": "New Mulana Azad Colony Housing Cooperative Society Idgah Hills Bhopal",
+              "total_area": "1250 Sq.ft",
+              "inherited": false,
+              "purchase_date": "1999-02-19",
+              "purchase_cost_rupees": 156500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1011500
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1000000,
+          "self_details": [
+            {
+              "location": "54 Laxmi Talkies Road",
+              "total_area": "600 Sq.ft",
+              "built_up_area": "600 Sq.ft",
+              "inherited": false,
+              "purchase_date": "1979-02-07",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 2000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2000000,
+          "self_details": [
+            {
+              "location": "54 Lakshmi Talkies Road Bhopal",
+              "total_area": "1170 Sqft",
+              "built_up_area": "1170 Sqft",
+              "inherited": false,
+              "purchase_date": "1979-02-07",
+              "purchase_cost_rupees": 9500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": null,
+        "spouse_amount_rupees": null,
+        "huf_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": null,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 11845160
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 3899000,
-      "non_agricultural_land": {
-        "description": "1-Plot Sr. No. 64 New Mulana Azad Colony Housing Cooperative Society Idgah Hills Bhopal (Aniy Investment Building Build Same Address )",
-        "area_sq_mtr": 116.125,
-        "inherited": "N",
-        "purchase_date": "1999-02-19",
-        "purchase_cost_inr": 156500,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1011500
+    "election_history": [
+      {
+        "election": "Madhya Pradesh 2013",
+        "declared_assets_rupees": 17478748,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 4910500
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Advocacy and Agriculture",
-    "spouse": "Housewife and Agricultural Work",
-    "dependent": "N/A"
-  },
-  "contracts": {
-    "entered_by_candidate": "N/A",
-    "entered_by_spouse": "N/A",
-    "entered_by_dependent": "N/A",
-    "entered_by_huf_trust": "N/A",
-    "entered_by_partnership_firms": "N/A",
-    "entered_by_private_companies": "N/A"
+      {
+        "election": "Madhya Pradesh 2008",
+        "declared_assets_rupees": 7963599,
+        "declared_cases": 0
+      }
+    ]
   }
 }

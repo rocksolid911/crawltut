@@ -1,170 +1,471 @@
 {
   "candidate_name": "NANA LAL AHARI",
   "party": "BJP",
-  "constituency": "KHERWARA (UDAIPUR)",
-  "father_or_husband_name": "Hurji Ahari",
-  "age": 55,
-  "education": "10th Pass Secondary From Board of Secondary Education Rajasthan Ajmer 1980, Keshariyaji Govt. High Secondary School Udaipur Rajasthan",
-  "profession_self": "Marble Business & Agricultural",
-  "profession_spouse": "Agricultural",
-  "criminal_cases": 0,
-  "assets_total_inr": 63949479,
-  "liabilities_total_inr": 3975000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 8067807
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 5864280
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 248085,
-      "bank_deposits_inr": 3952,
-      "bonds_debentures_shares_inr": 2698000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 4510000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1784528,
-      "jewellery_inr": 1587120,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 11409888
-    },
-    "spouse": {
-      "cash_inr": 175050,
-      "bank_deposits_inr": 8251,
-      "bonds_debentures_shares_inr": 415690,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1010000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1411200,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3047091
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2650000,
-      "non_agricultural_land": {
-        "description": "Residential Land Hiran Magri Sec 4 Udaipur 816/4",
-        "area_sq_mtr": 371.61,
-        "inherited": "N",
-        "purchase_date": "2001-04-18",
-        "purchase_cost_inr": 375000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
+  "constituency": "KHERWARA",
+  "state": "Rajasthan",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Hurji Ahari",
+      "age": 55,
+      "voter_enrolled_in": {
+        "constituency": "Bhaowa (Rajasthan)",
+        "state": "Rajasthan",
+        "serial_no": 400,
+        "part_no": 208
       },
-      "commercial_buildings_inr": 700000,
-      "residential_buildings": {
-        "description": "Bhairav Colony, Bus Stand, Rishabh Dev",
-        "total_area_sqft": 8000,
-        "built_up_area_sqft": 4000,
-        "inherited": "N",
-        "purchase_date": "1995-04-22",
-        "purchase_cost_inr": 25000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
+      "self_profession": "Marble Business & Agricultural",
+      "spouse_profession": "Agricultural"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 63949479,
+      "total_liabilities_in_rupees": 3975000
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Secondary From Board of Secondary Education Rajasthan Ajmer 1980, Keshariyaji Govt. High Secondary School Udaipur Rajasthan"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 8067807
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 5864280
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 11409888,
+      "gross_total_value_spouse_rupees": 3047091,
+      "gross_total_value_dependent1_rupees": 1040000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 15496979,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 248085,
+          "spouse_value_rupees": 175050,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 423135,
+          "self_details": "2,48,085",
+          "spouse_details": "1,75,050"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 10200,
+          "spouse_value_rupees": 8251,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 19451,
+          "self_details": "PNB Kalkaji Goraji Uadaipur No 297300010005xxxxx 3,952  3 Thou+ SBBJ Jaipur No 1000292xxxxx 3,388  3 Thou+ SBBJ Sector 4 Udaipur No 115000xxxxx 3,860  3 Thou+",
+          "spouse_details": "PNB Kalkaji Goraji Uadaipur No 297300010005xxxxx 1,251  1 Thou+ IDBI Udaipur No 05010400015xxxxx 7,000  7 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 2724800,
+          "spouse_value_rupees": 403610,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3128410,
+          "self_details": "IDBI Flexible Bond 5000*6 Certificate No 02312xxxxx 30,000  30 Thou+ IDBI Saving Bond A/C No. IDB53110018115 50,000  50 Thou+ RBI Relief Bond  63,000  63 Thou+ Share Gold Star Marble Pvt Ltd  3,53,000  3 Lacs+ SMT Export Pvt Ltd Share  3,00,000  3 Lacs+ Kaitaki Protitect Pvt Ltd Advance For Share Capital  13,83,675  13 Lacs+ Virendra Siroya share  1,15,000  1 Lacs+ Kalkaji Protitech Pvt Ltd share  8,00,000  8 Lacs+ Khoobsurat Ltd Share 4000 87,480  87 Thou+ Emerited Commercial Share 4000 86,800  86 Thou+",
+          "spouse_details": "Bond IDBI Flexible Bond 5000*6 30,000  30 Thou+ IDBI Savin Bond A/C No. IDB53110018110 50,000  50 Thou+ RBI Relief Bond  63,000  63 Thou+ Share Gold Star Marble  2,50,000  2 Lacs+ Shivayan Marmo Pvt Ltd 100 Share  1,000  1 Thou+ khoobsurat Ltd Share 1000 21,870  21 Thou+ Emerled Commercial 1000 Share  21,720  21 Thou+ India Infoline Securities  5,000  5 Thou+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 4510000,
+          "spouse_value_rupees": 1010000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5520000,
+          "self_details": "Lic Policy No 18323xxxxx 10,00,000  10 Lacs+ Lic Policy No 181101xxxxx 10,00,000  10 Lacs+ Lic Policy No 18396xxxxx 25,00,000  25 Lacs+ SBI Life Ins Policy No 0700715xxxxx 10,000  10 Thou+",
+          "spouse_details": "Lic Policy No 18632xxxxx 5,00,000  5 Lacs+ Lic Policy No 18332xxxxx 5,00,000  5 Lacs+ SBI Life Policy No 0700740xxxxx 10,000  10 Thou+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1784528,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1784528,
+          "self_details": "Tata Smarton Car Date 31.01.2013 12,34,246  12 Lacs+ Maruti Ritz RJCB4774 2009 5,50,282  5 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1587120,
+          "spouse_value_rupees": 1411200,
+          "dependent1_value_rupees": 1040000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4038320,
+          "self_details": "Gold 149.10gm 4,77,120  4 Lacs+ Diamond 15 Caret 90,000  90 Thou+ Silver 25.5 kg  10,20,000  10 Lacs+",
+          "spouse_details": "Gold 350gm 11,20,000  11 Lacs+ Diamond 14 Caret  84,000  84 Thou+ Silver 5.18kg  2,07,200  2 Lacs+",
+          "dependent1_details": "Gold 325gm  10,40,000  10 Lacs+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 32805000,
+      "total_current_market_value_spouse_rupees": 15097500,
+      "total_current_market_value_dependent1_rupees": 550000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 48452500,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 5500000,
+          "spouse_value_rupees": 12692500,
+          "dependent1_value_rupees": 550000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18742500,
+          "self_details": "Dhusev Rishabhdev Khata no,1307.1331.1332.1333 total 0.26 hec  Total Area 0.26 hec  Built Up Area  Whether Inherited N Purchase Date 1996-01-30 Purchase Cost 75000.00 Development Cost 0.00 1,50,000  1 Lacs+ Thana Rishebhadev Araji no,917.924. Total 0.18 hec  Total Area 0.18 hec  Built Up Area  Whether Inherited N Purchase Date 1997-12-26 Purchase Cost 40000.00 Development Cost 0.00 80,000  80 Thou+ Rishebhadev Araji no,1035-40, 1043,2444/1037 kita 12 area 1.52 hec share of 2/9 Total Area 1.52 hec  Built Up Area  Whether Inherited N Purchase Date 2002-06-26 Purchase Cost 27000.00 Development Cost 0.00 60,000  60 Thou+ Savina Teh Girwa Udaipur Araji No. 1538, Total Market value 400000 share of 1/4 Rs. 100000 Area 0.0900 hec,  Total Area 0.09000 hec  Built Up Area  Whether Inherited N Purchase Date 1995-09-13 Purchase Cost 250000.00 Development Cost 0.00 1,00,000  1 Lacs+ Village Dedkiya Teh Girwa Udaipur Araji No. 9635, 9639, 9641, 9642, 9643, kita 5.130 hec araji no. 9644-9647 kita area 2.03 hec, Total Market Value 400000 Share 175000 Total Area 2.03 hec  Built Up Area  Whether Inherited N Purchase Date 2007-09-28 Purchase Cost 425000.00 Development Cost 0.00 1,75,000  1 Lacs+ Village Gangamuda Gadriyawas Araji No. 25/68/69 area 15 bigha  Total Area 15 bigha  Built Up Area  Whether Inherited N Purchase Date 1995-11-23 Purchase Cost 135000.00 Development Cost 0.00 2,35,000  2 Lacs+ Village Dhelaga Ara 690 hec 2.10  Total Area 2.10 hec  Built Up Area  Whether Inherited N Purchase Date 1997-11-26 Purchase Cost 170100.00 Development Cost 0.00 2,30,000  2 Lacs+ Village Nayakheda Goverdhanvilas Araji No. 61-63, 65, 69, 70, 109, 100 total Kita 8 area 1.27 hec Total Area 1.27 hec  Built Up Area  Whether Inherited N Purchase Date 2009-07-10 Purchase Cost 900000.00 Development Cost 0.00 12,00,000  12 Lacs+ Village Bhauwa Rishabhdev Araji no.60, 66, 2455/61 kita 4 area 0.65 hec  Total Area 0.65 hec  Built Up Area  Whether Inherited N Purchase Date 2000-08-30 Purchase Cost 50000.00 Development Cost 0.00 75,000  75 Thou+ Village Tulsidas Ji Araji no,353-356 kita 4 , 5 bigha 3 biswa share of 1/2 Total Area 4 bigha , 3 biswa  Built Up Area  Whether Inherited N Purchase Date 2011-08-17 Purchase Cost 1325000.00 Development Cost 0.00 18,00,000  18 Lacs+ Village Nohra Nai Teh Girwa Araji no,6729 kita 1 area 0.83 hec share of 8/9 share of 1/2 Total Area 0.83 hec  Built Up Area  Whether Inherited N Purchase Date 2009-07-06 Purchase Cost 300000.00 Development Cost 0.00 5,00,000  5 Lacs+",
+          "spouse_details": "Dhulev Araji no,2040.2041. kita 0.13 share of 8/13 Total Area 0.13 hec  Built Up Area  Whether Inherited N Purchase Date 1995-04-22 Purchase Cost 50000.00 Development Cost 0.00 1,00,000  1 Lacs+ Village dedkiya th Gido Dist Udaipur Araji no.9985 to 10006 19 area 4.91 hec share of 1/4 Total Area 4.91 hec  Built Up Area  Whether Inherited N Purchase Date 2007-12-10 Purchase Cost 234400.00 Development Cost 0.00 3,50,000  3 Lacs+ Village Tedkiya Teh Girwa dist Udaipur Araji no.9495 to 9497 area 177 hec share of 1/2 Total Area 177 hec share of 1/2 Built Up Area  Whether Inherited N Purchase Date 2008-01-10 Purchase Cost 150000.00 Development Cost 0.00 2,10,000  2 Lacs+ Village Dedkiya Teh Girwa Dist Udaipur Araji no 9668 to 9672 , 9677 to 9679 area 1.98 hec  Total Area 1.98 hec  Built Up Area  Whether Inherited N Purchase Date 2007-09-21 Purchase Cost 195200.00 Development Cost 0.00 2,50,000  2 Lacs+ Village Dedkiya Teh Girwa Dist Udaipur Araji no.9682.9683. area 0.38 hec  Total Area 0.38 hec Built Up Area  Whether Inherited N Purchase Date 2007-09-26 Purchase Cost 56296.00 Development Cost 0.00 75,000  75 Thou+ Village Dedkiya Teh Girwa Dist Udaipur araji no.9638.9639.9541.43 total kita 5 area 1.30 hec  Total Area 1.30 hec  Built Up Area  Whether Inherited N Purchase Date 2007-12-12 Purchase Cost 64000.00 Development Cost 0.00 82,000  82 Thou+ Village Umarada Teh Girwa Udaipur araji no 7520.7522.7539.7542.7571.7574.7576.7578.8234.8237 total area 4.9950 hec  Total Area 4.9950 hec  Built Up Area  Whether Inherited N Purchase Date 2008-01-03 Purchase Cost 2362257.00 Development Cost 0.00 28,60,000  28 Lacs+ Village Dedkiya Teh Girwa Udaipur Araji No. 9490.9492. tota area 0.7150 hec share of 2/6 Total Area 0.7150 hec  Built Up Area  Whether Inherited N Purchase Date 2008-10-20 Purchase Cost 55162.00 Development Cost 0.00 65,500  65 Thou+ area 83 hec share of 8/9 to share of 1/2 Total Area 83 hec  Built Up Area  Whether Inherited N Purchase Date 2009-07-06 Purchase Cost 300000.00 Development Cost 0.00 4,80,000  4 Lacs+ Village Tulsidas Gudli Teh Mavali Araji no.353.356 kita 4 area 5 bigha 3 biswa share of 1/2 Total Area 5 bigha,3 biswa  Built Up Area  Whether Inherited N Purchase Date 2011-05-17 Purchase Cost 1325000.00 Development Cost 0.00 20,25,000  20 Lacs+ Bhauwa Araji no,1022-25,1035-40,1043,2444/1037 kita 12 area 1.52 hec share of 1/3 Total Area 1.52 share of 1/3 Built Up Area  Whether Inherited N Purchase Date 2003-05-09 Purchase Cost 75990.00 Development Cost 0.00 1,50,000  1 Lacs+ Bhauwa Araji no.11.16 total area 1.12 hec share of 1/3 Total Area 1.12 hec share of 1/3 Built Up Area  Whether Inherited N Purchase Date 2000-08-24 Purchase Cost 72800.00 Development Cost 0.00 2,00,000  2 Lacs+ Dhakan Kotda Titradi Teh Girwa Araji no.3890/3387 area 6.39 hec share of 1/2 Total Area 6.39 hec share of 1/2 Built Up Area  Whether Inherited N Purchase Date 2011-08-05 Purchase Cost 7484752.00 Development Cost 0.00 80,00,000  80 Lacs+ Nohra Nai Teh Girwa Araji no.7487.7490 kita 2 area 0.2650 hec  Total Area 2 area 0.2650 hec  Built Up Area  Whether Inherited N Purchase Date 2010-07-13 Purchase Cost 190000.00 Development Cost 0.00 2,50,000  2 Lacs+",
+          "dependent1_details": "Bhauwa Araji no,3 to 6 total 0.39 hec  Total Area 0.39 hec  Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 75000.00 Development Cost 0.00 1,00,000  1 Lacs+ Biralpai Kanuwada Araji no,4492 to 4496,4498.4901/4491 area 0.42 hec  Total Area 0.42 hec  Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 210000.00 Development Cost 0.00 4,50,000  4 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 12000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12000000,
+          "self_details": "Residential Land Hiran Magri Sec 4 Udaipur 816/4  Total Area 4000 sq.ft Built Up Area  Whether Inherited N Purchase Date 2001-04-18 Purchase Cost 375000.00 Development Cost 0.00 40,00,000  40 Lacs+ Hiran Magri Sec 14 Land 37 Total 4361 Sq.ft SMT International  Total Area 4361 sq.ft  Built Up Area  Whether Inherited N Purchase Date 2007-05-15 Purchase Cost 6932350.00 Development Cost 0.00 80,00,000  80 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 700000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 700000,
+          "self_details": "Village Kherawara Agricultural Mandi, Shop in Mandi, Built-Up Area 1500 sq.ft Total Area 1500 sq.ft Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 175000.00 Development Cost 0.00 7,00,000  7 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 15500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15500000,
+          "self_details": "Bhairav Colony, Bus Stand, Rishabh Dev Total Area 8000 sq.ft  Built Up Area 4000 sq. ft. Whether Inherited N Purchase Date 1995-04-22 Purchase Cost 25000.00 Development Cost 0.00 40,00,000  40 Lacs+ Vill. Bhaowa, Hosue Total Area 1500 sq.ft  Built Up Area 1500 sq.ft  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 5,00,000  5 Lacs+ Hiran Magri Sec-11, House No. 403-404, Udaipur  Total Area 3520 sq.ft  Built Up Area 2500 sq. ft. Whether Inherited N Purchase Date 2010-05-05 Purchase Cost 5000000.00 Development Cost 0.00 70,00,000  70 Lacs+ Housing Board Hiran Magri Sec 9 Udaipur Total Area 210 sq.mt  Built Up Area 210 sq.mt  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 3610257.00 Development Cost 0.00 40,00,000  40 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3975000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3975000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 32805000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 3975000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3975000,
+          "self_details": "House Loan, Sec.- 11 39,75,000  39 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 8000000,
-      "non_agricultural_land": {
-        "description": "N/A",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "other_elections": [
+      {
+        "election_year": "2023",
+        "state": "Rajasthan",
+        "declared_assets_rupees": 161617294,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "N/A",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 15097500
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3975000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3975000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Marble Business & Agricultural",
-    "spouse": "Agricultural",
-    "dependent": "N/A"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+      {
+        "election_year": "2008",
+        "state": "Rajasthan",
+        "declared_assets_rupees": 28415496,
+        "declared_cases": 0
+      }
+    ]
   }
 }

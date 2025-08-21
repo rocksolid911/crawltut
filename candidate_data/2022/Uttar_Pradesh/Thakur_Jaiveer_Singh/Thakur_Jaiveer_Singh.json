@@ -1,180 +1,534 @@
 {
   "candidate_name": "THAKUR JAIVEER SINGH",
   "party": "BJP",
-  "constituency": "BARAULI (ALIGARH)",
-  "father_or_husband_name": "Pratap Singh",
-  "age": 57,
-  "education": "Post Graduate M.Sc in 1985, B.Ed in 1986 & LLB in 1990 from Dharm Samaj College Aligarh",
-  "profession_self": "Agriculture and Business",
-  "profession_spouse": "Agriculture and Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 130754430,
-  "liabilities_total_inr": 6711061,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2020-2021": 394730,
-        "2019-2020": 568820,
-        "2018-2019": 1888780,
-        "2017-2018": 1909911,
-        "2016-2017": 2539040
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2020-2021": 360360,
-        "2019-2020": 365630,
-        "2018-2019": 561899,
-        "2017-2018": 524687,
-        "2016-2017": 464304
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 75000,
-      "bank_deposits_inr": 6555470,
-      "bonds_debentures_shares_inr": 6615000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 470354,
-      "personal_loans_advance_given_inr": 17143000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 675000,
-      "other_assets_inr": 41000,
-      "gross_total_value_inr": 31730787
-    },
-    "spouse": {
-      "cash_inr": 51000,
-      "bank_deposits_inr": 4579865,
-      "bonds_debentures_shares_inr": 2580000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 518411,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 12668000,
-      "other_assets_inr": 40000,
-      "gross_total_value_inr": 22626723
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 4900000,
-      "non_agricultural_land": {
-        "description": "Kasba Kola Nagar Kalar Aligarh, Khasra NO. 4",
-        "area_sq_mtr": 338.37,
-        "inherited": "N",
-        "purchase_date": "1997-08-23",
-        "purchase_cost_inr": 428000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1700000
+  "constituency": "BARAULI",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Pratap Singh",
+      "age": 57,
+      "voter_enrolled_in": {
+        "constituency": "72 Barauli (Uttar Pradesh)",
+        "serial_no": 637,
+        "part_no": 419
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "B-2/99, Vipul Khand, Gomati Nagar, Lucknow",
-        "total_area_sqft": 3115,
-        "built_up_area_sqft": 1900,
-        "inherited": "N",
-        "purchase_date": "2011-04-19",
-        "purchase_cost_inr": 7930000,
-        "development_cost_inr": 4652200,
-        "current_market_value_inr": 14800000
+      "self_profession": "Agriculture and Business",
+      "spouse_profession": "Agriculture and Business"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 130754430,
+      "total_liabilities_in_rupees": 6711061
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.Sc in 1985, B.Ed in 1986 & LLB in 1990 from Dharm Samaj College Aligarh"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 394730
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 568820
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 1888780
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 1909911
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 2539040
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 360360
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 365630
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 561899
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 524687
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 464304
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 31730787,
+      "gross_total_value_spouse_rupees": 22626724,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 54357511,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 75000,
+          "spouse_value_rupees": 51000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 126000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5595938,
+          "spouse_value_rupees": 4579865,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10175803
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 6605000,
+          "spouse_value_rupees": 2580000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9185000
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 470354,
+          "spouse_value_rupees": 518411,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 988765
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 17143000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17143000
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 675000,
+          "spouse_value_rupees": 12768000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13443000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 41000,
+          "spouse_value_rupees": 40000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 81000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 40446920,
+      "total_current_market_value_spouse_rupees": 35950000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 76396920,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 4900000,
+          "spouse_value_rupees": 105000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 109900000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 20746920,
+          "spouse_value_rupees": 2700000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 23446920
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 14800000,
+          "spouse_value_rupees": 227500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 242300000
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 6711061,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 6711061,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 40446920
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 6711061,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6711061
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 10500000,
-      "non_agricultural_land": {
-        "description": "Kasba Kol Nagla Kalar Aligarh, Khasra No. 4",
-        "area_sq_mtr": 485.63,
-        "inherited": "N",
-        "purchase_date": "1997-08-23",
-        "purchase_cost_inr": 4480000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2700000
+    "profession_or_occupation": {
+      "self": "Agriculture and Business",
+      "spouse": "Agriculture and Business"
+    },
+    "sources_of_income": {
+      "self": "Agriculture Products etc.",
+      "spouse": "Agriculture Products etc.",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Not Applicable",
+      "spouse": "Not Applicable",
+      "dependent": "Not Applicable",
+      "huf_or_trust": "Not Applicable",
+      "partnership_firms": "Not Applicable",
+      "private_companies": "Not Applicable"
+    },
+    "other_elections": [
+      {
+        "election": "Uttar Pradesh 2017",
+        "declared_assets_rupees": 99939559,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "No. 5/305 Banna Devi, G.T. Road Aligarh",
-        "total_area_sqft": 2551,
-        "built_up_area_sqft": 2361,
-        "inherited": "N",
-        "purchase_date": "1997-08-23",
-        "purchase_cost_inr": 421000,
-        "development_cost_inr": 886300,
-        "current_market_value_inr": 3250000
+      {
+        "election": "Uttar Pradesh 2012",
+        "declared_assets_rupees": 57003645,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 35950000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 6711061,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 6711061
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture Products etc.",
-    "spouse": "Agriculture Products etc.",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "Not Applicable",
-    "entered_by_spouse": "Not Applicable",
-    "entered_by_dependent": "Not Applicable",
-    "entered_by_huf_trust": "Not Applicable",
-    "entered_by_partnership_firms": "Not Applicable",
-    "entered_by_private_companies": "Not Applicable"
+      {
+        "election": "Uttar Pradesh 2007",
+        "declared_assets_rupees": 28596195,
+        "declared_cases": 2
+      },
+      {
+        "election": "Lok Sabha 2004",
+        "declared_assets_rupees": 14459920,
+        "declared_cases": 1
+      }
+    ]
   }
 }

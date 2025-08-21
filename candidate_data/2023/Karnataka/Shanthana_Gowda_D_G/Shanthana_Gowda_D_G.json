@@ -1,176 +1,562 @@
 {
   "candidate_name": "SHANTHANA GOWDA.D.G.",
   "party": "INC",
-  "constituency": "HONNALI (DAVANGERE)",
-  "father_or_husband_name": "Shankarappagowda",
-  "age": 74,
-  "education": "B.Sc. in 1968-69, P.C. Jabin Science College, Karnataka University, Hubli.",
-  "profession_self": "Agriculture",
-  "profession_spouse": "House wife",
-  "criminal_cases": 2,
-  "assets_total_inr": 203970523,
-  "liabilities_total_inr": 42268521,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 5857720,
-        "2021-2022": 5507720,
-        "2020-2021": 4990000,
-        "2019-2020": 5100000,
-        "2018-2019": 5395000
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1500000,
-      "bank_deposits_inr": 5431,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2600000,
-      "jewellery_inr": 2300000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6905431
-    },
-    "spouse": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 537753,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 6050000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6787753
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 13855000,
-      "non_agricultural_land": {
-        "description": "Benakanahalli, Gollarahalli 98/A",
-        "area_sq_mtr": 111.48,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 14988450
+  "constituency": "HONNALI",
+  "state": "Karnataka",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Shankarappagowda",
+      "age": 74,
+      "voter_enrolled_in": {
+        "constituency": "110-Honnali (Karnataka)",
+        "at_serial_no": 545,
+        "in_part_no": 94
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "98/A",
-        "total_area_sqft": 4000,
-        "built_up_area_sqft": 4000,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3049550
+      "self_profession": "Agriculture",
+      "spouse_profession": "House wife"
+    },
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 203970523,
+      "total_liabilities_in_rupees": 42268521
+    },
+    "educational_details": {
+      "category": "8th Pass",
+      "details": "B.Sc. in 1968-69, P.C. Jabin Science College, Karnataka University, Hubli."
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 5857720
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 5507720
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 4990000
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 5100000
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 5395000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent4",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Attempt to murder",
+          "ipc_section": "307",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "PAR:33/2023 Honnali Police Station",
+          "case_no": null,
+          "court": "Honnali Tashildar Court",
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section- 107",
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": true,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "PAR:192/2022 Honnali Police Station",
+          "case_no": null,
+          "court": "District Court Davanagere",
+          "ipc_sections_applicable": "143, 147, 323, 307, 504, 506, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": true,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6905431,
+      "gross_total_value_spouse_rupees": 6787753,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 15521431,
+      "gross_total_value_dependent2_rupees": 10936554,
+      "gross_total_value_dependent3_rupees": 8151000,
+      "gross_total_value_dependent4_rupees": 14482214,
+      "gross_total_value_total_rupees": 62784383.92,
+      "items": [
+        {
+          "description": "Cash",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 200000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 200000,
+          "dependent2_value_rupees": 200000,
+          "dependent3_value_rupees": 50000,
+          "dependent4_value_rupees": 50000,
+          "total_value_rupees": 2200000
+        },
+        {
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5431,
+          "spouse_value_rupees": 537753,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 121431.13,
+          "dependent2_value_rupees": 96554,
+          "dependent3_value_rupees": 1000,
+          "dependent4_value_rupees": 432214.79,
+          "total_value_rupees": 1194383.92
+        },
+        {
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 10550000,
+          "dependent2_value_rupees": 300000,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 11350000
+        },
+        {
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2600000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 2600000,
+          "dependent2_value_rupees": 7190000,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 5900000,
+          "total_value_rupees": 18390000
+        },
+        {
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2300000,
+          "spouse_value_rupees": 6050000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 2050000,
+          "dependent2_value_rupees": 3050000,
+          "dependent3_value_rupees": 8100000,
+          "dependent4_value_rupees": 8100000,
+          "total_value_rupees": 29650000
+        },
+        {
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 31893000,
+      "total_current_market_value_spouse_rupees": 6444000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 62596650,
+      "total_current_market_value_dependent2_rupees": 66469900,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_dependent4_rupees": 8182600,
+      "total_current_market_value_total_rupees": 175586150,
+      "items": [
+        {
+          "description": "Agricultural Land",
+          "self_value_rupees": 13855000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 2445000,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 8182600,
+          "total_value_rupees": 24482600
+        },
+        {
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 14988450,
+          "spouse_value_rupees": 6444000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 62596650,
+          "dependent2_value_rupees": 28734900,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 114054000
+        },
+        {
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 34000000,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 34000000
+        },
+        {
+          "description": "Residential Buildings",
+          "self_value_rupees": 3049550,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 3049550
+        },
+        {
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2872619,
+      "grand_total_of_liabilities_spouse_rupees": 175000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 250000,
+      "grand_total_of_liabilities_dependent2_rupees": 34170902,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_dependent4_rupees": 48000000,
+      "grand_total_of_liabilities_total_rupees": 42268521,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent4_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "dependent4_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 31893000
+      "items": [
+        {
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2872619,
+          "spouse_value_rupees": 175000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 250000,
+          "dependent2_value_rupees": 34170902,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 48000000,
+          "total_value_rupees": 42268521
+        },
+        {
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Gollarahalli 9041/19/168/B1/9041",
-        "area_sq_mtr": 526.75,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6444000
+    "profession_or_occupation": {
+      "self": "Agriculture",
+      "spouse": "House wife"
+    },
+    "sources_of_income": {
+      "self": "Agriculture",
+      "spouse": "House wife",
+      "dependent": "Agriculture"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NA",
+      "spouse": "NA",
+      "dependent": "NA",
+      "huf_or_trust": "Gurukula Charitable Trust, H.Kadadakatte, Honnali",
+      "partnership_firms": "NA",
+      "private_companies": "NA"
+    },
+    "other_election_declarations": [
+      {
+        "election": "Karnataka 2013",
+        "declared_assets_rupees": 100621090,
+        "declared_cases": 2
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 6444000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2872619,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2872619
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 175000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 175000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture",
-    "spouse": "House wife",
-    "dependent": "Agriculture"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "Gurukula Charitable Trust, H.Kadadakatte, Honnali",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+      {
+        "election": "Karnataka 2008",
+        "declared_assets_rupees": 12703940,
+        "declared_cases": 1
+      }
+    ]
   }
 }

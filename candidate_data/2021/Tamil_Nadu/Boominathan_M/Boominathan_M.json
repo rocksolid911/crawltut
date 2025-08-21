@@ -1,146 +1,885 @@
 {
   "candidate_name": "BOOMINATHAN.M",
   "party": "DMK",
-  "constituency": "MADURAI SOUTH (MADURAI)",
-  "father_or_husband_name": "MUNIYANDI.V",
-  "age": 61,
-  "education": "5th Pass Schooling",
-  "profession_self": "Former and Real Estate",
-  "profession_spouse": "Former and Real Estate",
-  "criminal_cases": 2,
-  "assets_total_inr": 70007388,
-  "liabilities_total_inr": 8523000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2020-2021": 1949145
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2020-2021": 534525
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1050500,
-      "bank_deposits_inr": 2425000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1970000,
-      "jewellery_inr": 1200000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6636500
-    },
-    "spouse": {
-      "cash_inr": 845300,
-      "bank_deposits_inr": 9000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 5150000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6004300
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 10350900,
-      "non_agricultural_land": {
-        "description": "Madurai Sought Maththur Taluk Village sno 1-22/5,100/2 flat no 96",
-        "area_sq_mtr": 183.94,
-        "inherited": "N",
-        "purchase_date": "2011-05-25",
-        "purchase_cost_inr": 64134,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 198000
+  "constituency": "MADURAI SOUTH",
+  "state": "Tamil Nadu 2021",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "MUNIYANDI.V",
+      "age": 61,
+      "voter_enrolled_in": {
+        "constituency": "192",
+        "state": "Tamil Nadu",
+        "serial_no": 361,
+        "part_no": 83
       },
-      "commercial_buildings_inr": 14564000,
-      "residential_buildings_inr": 5000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 45359625
+      "self_profession": "Former and Real Estate",
+      "spouse_profession": "Former and Real Estate"
     },
-    "spouse": {
-      "agricultural_land_inr": 6085100,
-      "non_agricultural_land": {
-        "description": "Madurai South Taluk Maththue Village sno 1.27/6,27/7 Flat no153",
-        "area_sq_mtr": 183.94,
-        "inherited": "N",
-        "purchase_date": "2010-09-16",
-        "purchase_cost_inr": 43074,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 198000
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 70007388,
+      "total_liabilities_in_rupees": 8523000
+    },
+    "educational_details": {
+      "category": "5th Pass",
+      "details": "Schooling"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1949145
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 534525
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": null,
+          "case_no": "STC No 26/2016",
+          "court": "JM No 4, Madurai",
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 4 T.N.P.P.D.L Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": null,
+          "case_no": "STC No 2404/2020",
+          "court": "JM VI",
+          "ipc_sections_applicable": "143, 188",
+          "other_details_or_acts_sections_applicable": "Section 74 of M.C.P. Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3225500,
+      "gross_total_value_spouse_rupees": 6004300,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 12640800,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1050500,
+          "spouse_value_rupees": 845300,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1895800,
+          "self_details": {
+            "amount_rupees": 1050500
+          },
+          "spouse_details": {
+            "amount_rupees": 845300
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2416000,
+          "spouse_value_rupees": 9000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2425000,
+          "self_details": [
+            {
+              "bank": "Indian Oversees Nank",
+              "branch": "Kadachanenthal Branch",
+              "account_no": "125001000001708",
+              "amount_rupees": 1571000
+            },
+            {
+              "bank": "Sough Indian Bank",
+              "branch": "Annanagar Madurai Branch",
+              "account_no": "0625053000004139",
+              "amount_rupees": 840000
+            },
+            {
+              "bank": "Indian Oversees Nank",
+              "branch": "Kadachanenthal Branch",
+              "account_no": "12500100069293",
+              "amount_rupees": 5000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Indian Oversees Bank",
+              "branch": "Kadachanallur",
+              "account_no": "125001000002365",
+              "amount_rupees": 9000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1970000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1970000,
+          "self_details": [
+            {
+              "make": "Rayal Enfiled",
+              "year": 1969,
+              "value_rupees": 20000
+            },
+            {
+              "make": "TN%(Q#^#&_2000",
+              "year": null,
+              "value_rupees": 50000
+            },
+            {
+              "make": "TN%(CH^))#-2020",
+              "year": null,
+              "value_rupees": 1900000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 5150000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6350000,
+          "self_details": {
+            "item": "GOld",
+            "weight_savaran": 30,
+            "value_rupees": 1200000
+          },
+          "spouse_details": [
+            {
+              "item": "Gold",
+              "weight_savaran": 120,
+              "value_rupees": 5000000
+            },
+            {
+              "item": "Silver",
+              "weight_kg": 1,
+              "value_rupees": 150000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 45359625,
+      "total_current_market_value_spouse_rupees": 15418263,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 60777888,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 19000000,
+          "spouse_value_rupees": 11289820,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 31732345,
+          "self_details": [
+            {
+              "location": "Madurai Taluk Kollan kulam village",
+              "sy_no": "1-35/10,11,13,14,36/2A,31/1,35/17, 2-24/3, 3-25/7B, 4-37/2A, 5-36/3, 6-36/2B, 7-8/4A3",
+              "doc_no": null,
+              "total_area": "31.77Acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10350900
+            },
+            {
+              "location": "Madurai Sougth Taluk Maththur village",
+              "sy_no": "8-244/19-43/710-35/1.36/10,36/211-37/1c 12-37/1A,37/5",
+              "doc_no": null,
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7268000
+            },
+            {
+              "location": "Madurai Sougth Kallatheyri Village",
+              "sy_no": "13-204/7 14-204/2,4,5,6",
+              "doc_no": null,
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1475000
+            },
+            {
+              "location": "Ramanathapuram Kamuthi Taluk Ariyamangalam Village",
+              "sy_no": "15-161/3B, 3D, 3G1, 3, 7C1, 2, 3A, 3C3,F1, 3, 7A1, 7B1, 180/1, 0A,3,5, 205/1B1, 1B3,1C,1F, 206/7A,209/3, 207/7B,209/5B, 5B,6A,214/6A, 179/3B, 177/5B, 191/1,2",
+              "doc_no": null,
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1348525
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Madurai Sought Kollan kulam Village",
+              "sy_no": "1-24B 2-8/4A 3-37/3 4-18/2B 5-37/9B,36/5B 6-34/1A,2,4/1B1B 735/12 8-22/4,32/2 18/2A 9-34/3 10-37/10 11-18/2A 12-8/4A2",
+              "doc_no": null,
+              "total_area": "10.46 Acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6085100
+            },
+            {
+              "location": "Madurai Sought Kollan kulam Village",
+              "sy_no": "13-14/4A 14-43/4 15-92/6 16-37/1A",
+              "doc_no": null,
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4694280
+            },
+            {
+              "location": "Madurai sought Kallaneri village",
+              "sy_no": "17-206/5A 18-20/2",
+              "doc_no": null,
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 510540
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 5353200,
+          "spouse_value_rupees": 4038292,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9481543,
+          "self_details": [
+            {
+              "location": "Madurai Sought Maththur Taluk Village",
+              "sy_no": "1-22/5,100/2 flat no 96 2-37/1A,37/5 FLAT NO 54",
+              "total_area": "1980sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2011-05-25",
+              "purchase_cost_rupees": 64134,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 198000
+            },
+            {
+              "location": "Madurai East Taluk Thallakkulam Village go- puthur",
+              "sy_no": null,
+              "total_area": "1552sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 155200,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 155200
+            },
+            {
+              "location": null,
+              "sy_no": "178 flat 769",
+              "total_area": "1755sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "1987-09-16",
+              "purchase_cost_rupees": 48000,
+              "development_cost_rupees": 500000,
+              "current_value_rupees": 5000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Madurai South Taluk Maththue Village",
+              "sy_no": "1.27/6,27/7 Flat no153",
+              "total_area": "1980sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-09-16",
+              "purchase_cost_rupees": 43074,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 198000
+            },
+            {
+              "location": null,
+              "sy_no": "2.16/4A FLAT NO 15,6",
+              "total_area": "2965sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 296500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 296500
+            },
+            {
+              "location": "Meenakshi cortance",
+              "sy_no": "float no 86,87FLOAT NO 86,87",
+              "total_area": "5938sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2011-05-27",
+              "purchase_cost_rupees": 106884,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 593800
+            },
+            {
+              "location": "MaduraiEast taluk Reaniyam Village",
+              "sy_no": "53/3",
+              "total_area": "3000sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2008-05-05",
+              "purchase_cost_rupees": 94400,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 210000
+            },
+            {
+              "location": "Madurai South Taluk K Pappankulam Village",
+              "sy_no": "3/4B,4/3 float no87",
+              "total_area": "2063sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2011-05-27",
+              "purchase_cost_rupees": 72205,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 173292
+            },
+            {
+              "location": "Madurai Taluk Thallakkulam VillageEast go Puthur karpaga nagar 3 street",
+              "sy_no": "178 float no789",
+              "total_area": "2087sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2005-08-02",
+              "purchase_cost_rupees": 300000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2656751
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 14564000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14564000,
+          "self_details": [
+            {
+              "location": "Tamilnadu soceity Madurai Sale and marketing Mattuthavani shop no",
+              "total_area": "600sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2016-02-15",
+              "purchase_cost_rupees": 564000,
+              "development_cost_rupees": 210000000,
+              "current_value_rupees": 564000
+            },
+            {
+              "location": "Madurai East Taluk Thallakulam Village no 8 and9 North Karpaga nagar",
+              "total_area": "4000sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-12-13",
+              "purchase_cost_rupees": 1312000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 14000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 5000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5000000,
+          "self_details": [
+            {
+              "location": "Madurai East Taluk Thalakkulam Village Go puthur karpaganagar 3rd street",
+              "sy_no": "178 float no789 Bakeside",
+              "total_area": "1755sqft",
+              "built_up_area": "2000sqft",
+              "inherited": false,
+              "purchase_date": "1987-09-16",
+              "purchase_cost_rupees": 48000,
+              "development_cost_rupees": 500000,
+              "current_value_rupees": 5000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 8223000,
+      "grand_total_of_liabilities_spouse_rupees": 300000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 8523000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 15418263
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 8223000,
+          "spouse_value_rupees": 300000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8523000,
+          "self_details": [
+            {
+              "bank": "Southindian Bank",
+              "branch": "Annanagar Branch Madurai -20",
+              "account_no": "062508100000xxxxx",
+              "loan_type": null,
+              "amount_rupees": 6000000
+            },
+            {
+              "bank": "Southindian Bank",
+              "branch": "Annanagar Branch Madurai -20",
+              "account_no": "0625652000000220",
+              "loan_type": "Vehical loan",
+              "amount_rupees": 750000
+            },
+            {
+              "bank": "South indian Bank",
+              "branch": "Annanagar Madurai-20",
+              "account_no": "062565300003xxxxx",
+              "loan_type": "Gold Loan",
+              "amount_rupees": 455000
+            },
+            {
+              "bank": "Southindian Bank",
+              "branch": "Annanagar Branch Madurai -20",
+              "account_no": "062565300003xxxxx",
+              "loan_type": "Gold",
+              "amount_rupees": 490000
+            },
+            {
+              "bank": "Indian Oversees Bank",
+              "branch": "Kadachanenthal",
+              "account_no": "12500321400xxxxx",
+              "loan_type": "Gold Load",
+              "amount_rupees": 528000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Indian Oversees Bank",
+              "branch": "Kadachenthal Branch",
+              "account_no": "125032028006xxxxx",
+              "loan_type": "Gold Loan",
+              "amount_rupees": 300000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Former and Real Estate",
+      "spouse": "Former and Real Estate"
+    },
+    "sources_of_income": {
+      "self": "Former and Real Estate",
+      "spouse": "Former and Real Estate",
+      "dependent": null
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nill",
+      "spouse": "Nill",
+      "dependent": "Nill",
+      "huf_or_trust": "Nill",
+      "partnership_firms": "Nill",
+      "private_companies": "Nill"
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 8223000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 8223000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 300000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 300000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Former and Real Estate",
-    "spouse": "Former and Real Estate",
-    "dependent": ""
-  },
-  "contracts": {
-    "entered_by_candidate": "Nill",
-    "entered_by_spouse": "Nill",
-    "entered_by_dependent": "Nill",
-    "entered_by_huf_trust": "Nill",
-    "entered_by_partnership_firms": "Nill",
-    "entered_by_private_companies": "Nill"
   }
 }

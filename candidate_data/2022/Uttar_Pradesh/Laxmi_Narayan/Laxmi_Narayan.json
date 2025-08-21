@@ -1,196 +1,579 @@
 {
   "candidate_name": "LAXMI NARAYAN",
   "party": "BJP",
-  "constituency": "CHHATA (MATHURA)",
-  "father_or_husband_name": "Ratiram",
-  "age": 69,
-  "education": "Post Graduate M.A., LLB from Agra University Agra, In 1976",
-  "profession_self": "Agriculture, Cooking Gas Distributor, Business, MLAs Salary",
-  "profession_spouse": "Agriculture & Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 140579164,
-  "liabilities_total_inr": 2950000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2019 - 2020": 5379576,
-        "None": 4480648,
-        "None ": 4074862,
-        "None  ": 2710765,
-        "None   ": 2259930
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2019 - 2020": 622180,
-        "None": 462530,
-        "None ": 329150,
-        "None  ": 647340,
-        "None   ": 393140
-      }
-    },
-    "huf": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2020 - 2021": 345250,
-        "None": 245910,
-        "None ": 336430,
-        "None  ": 239030,
-        "None   ": 233260
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0,
-        "None ": 0,
-        "None  ": 0,
-        "None   ": 0,
-        "None    ": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0,
-        "None ": 0,
-        "None  ": 0,
-        "None   ": 0,
-        "None    ": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0,
-        "None ": 0,
-        "None  ": 0,
-        "None   ": 0,
-        "None    ": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 225000,
-      "bank_deposits_inr": 4607494,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1596294,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 475100,
-      "other_assets_inr": 4894076,
-      "gross_total_value_inr": 12048388
-    },
-    "spouse": {
-      "cash_inr": 125000,
-      "bank_deposits_inr": 2472661,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 412500,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2137950,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5149111
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 17094000,
-      "non_agricultural_land": {
-        "description": "Muja Kshopur Manoharpur The & Distt. Mathura Sy no 225, 226, 229, 230 Total Area 985.58 Sq.Mt.",
-        "area_sq_mtr": 985.58,
-        "inherited": "N",
-        "purchase_date": "2009-12-10",
-        "purchase_cost_inr": 2950000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6000000
+  "constituency": "CHHATA",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Ratiram",
+      "age": 69,
+      "voter_enrolled_in": {
+        "constituency": "81 Chhata",
+        "state": "Uttar Pradesh",
+        "serial_no": 220,
+        "part_no": 136
       },
-      "commercial_buildings_inr": 3500000,
-      "residential_buildings": {
-        "description": "Mayur Vihar Dhauli Piyau Mathura Sy No 44",
-        "total_area_sqft": 2421.88,
-        "built_up_area_sqft": 0,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 10500000
+      "self_profession": "Agriculture, Cooking Gas Distributor, Business, MLAs Salary",
+      "spouse_profession": "Agriculture & Business"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 140579164,
+      "total_liabilities_in_rupees": 2950000
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A., LLB from Agra University Agra, In 1976"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 5379576
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 622180
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 345250
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 12048388,
+      "gross_total_value_spouse_rupees": 5149111,
+      "gross_total_value_huf_rupees": 1028108,
+      "gross_total_value_dependent1_rupees": 1187750,
+      "gross_total_value_dependent2_rupees": 1294707,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 20708064,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 225000,
+          "spouse_value_rupees": 125000,
+          "huf_value_rupees": 110000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 460000,
+          "self_details": "2,25,000  2 Lacs+",
+          "spouse_details": "1,25,000  1 Lacs+",
+          "huf_details": "1,10,000  1 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 3195894,
+          "spouse_value_rupees": 2470653,
+          "huf_value_rupees": 918108,
+          "dependent1_value_rupees": 74735,
+          "dependent2_value_rupees": 149353,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6808743,
+          "self_details": "SBI Vidhan Sabha Marg Lucknow  30,55,368  30 Lacs+ UBI Tilak Dwar, Mathura  70,131  70 Thou+ SBI Civil Line Mathura  1,15,819  1 Lacs+ FDR In SBI Civil Line Mathura  14,09,036  14 Lacs+ Union Bank FIR Tilak Dwar, Mathura  2,06,879  2 Lacs+",
+          "spouse_details": "SBI Krishna Nagar Mathura  9,31,657  9 Lacs+ Bank of India Roshan Ganj, Mathura  1,223  1 Thou+ Canara Bank Saket Barsana Mathura  15,40,781  15 Lacs+",
+          "huf_details": "PNB Krishna Nagar Mathura  2,03,967  2 Lacs+ Canara Bank Sanket PO Basrana Chhata, Mathura  7,14,141  7 Lacs+",
+          "dependent1_details": "HDFC Opp. BSA College Mathura  74,735  74 Thou+",
+          "dependent2_details": "HDFC Opp. BSA College Mathura  1,49,353  1 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 1596294,
+          "spouse_value_rupees": 412500,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 914621,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2923415,
+          "self_details": "LIC Policy 562964097 1,45,584  1 Lacs+ LIC Policy 564061769 14,50,710  14 Lacs+",
+          "spouse_details": "LIC Policy 563113677 1,34,871  1 Lacs+ LIC Policy 564075069 2,77,629  2 Lacs+",
+          "huf_details": "Nil",
+          "dependent2_details": "LIC Policy 56222651 1,90,962  1 Lacs+ LIC Policy 564075063 1,63,218  1 Lacs+ LIC Policy 564061880 5,60,441  5 Lacs+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 475100,
+          "spouse_value_rupees": 2137950,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 1187750,
+          "dependent2_value_rupees": 380080,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4180880,
+          "self_details": "Gold 100gm  4,75,100  4 Lacs+",
+          "spouse_details": "Gold 450gm  21,37,950  21 Lacs+",
+          "huf_details": "Nil",
+          "dependent1_details": "Gold 250gm  11,87,750  11 Lacs+",
+          "dependent2_details": "Gold 80gm  3,80,080  3 Lacs+"
+        },
+        {
+          "sr_no": "ix",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 4894076,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4894076,
+          "self_details": "SKGS 48,94,076  48 Lacs+",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 54309740,
+      "total_current_market_value_spouse_rupees": 47507360,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 1900000,
+      "total_current_market_value_dependent2_rupees": 16154000,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 119871100,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 170997240,
+          "spouse_value_rupees": 332847360,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 4314000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 508758600,
+          "self_details": "Khaitavila Chhata, Distrait Madhura, Sy No 67 Total Area 1.59 Acres Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 1296000.00 20,60,640  20 Lacs+ Sanchauli Chhata, District Mathura 218 & 29 Mil Jumla Total Area 0.85 Acres  Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 972000.00 8,26,200  8 Lacs+ Sanchauli Chhata, District Mathura 29 Mil Jumla  Total Area 1 Acres  Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 972000.00 97,20,000  97 Lacs+ Basay Dehra Kama District Bharatpur Sy No 7 Kita 6, 86, 42, 481, 493, 494, 497 Total Area 1.43 Acres  Built Up Area  Whether Inherited N Purchase Date 1993-01-01 Purchase Cost 50000.00 Development Cost 450000.00 6,43,500  6 Lacs+ Mauza Mohali The & Distt. Mathura Gas Godown Constructed On This Land Sy No 1425, 1426, 1427 Total Area 1.395 Acres Built Up Area  Whether Inherited N Purchase Date 1995-10-13 Purchase Cost 816000.00 Development Cost 9702000.00 1,35,59,400  1 Crore+",
+          "spouse_details": "Khaitavila Chhata, Distrait Madhura, Sy No 84, 82 Mil Jumla 177, 181 Mil Jumla  Total Area 2.23 Acres Built Up Area  Whether Inherited N Purchase Date 1999-02-18 Purchase Cost 400000.00 Development Cost 972000.00 21,67,560  21 Lacs+ Khaitavila Chhata, Distrait Madhura, Sy No  Total Area 5A & 5B Built Up Area 2.15 Acres Whether Inherited N Purchase Date 1999-02-08 Purchase Cost 400000.00 Development Cost 972000.00 20,89,800  20 Lacs+ Mouza Narhauli District Mathura, Sy No 276, 279, 275 Total Area 4.76 Acres Built Up Area  Whether Inherited N Purchase Date 2001-08-06 Purchase Cost 990000.00 Development Cost 6000000.00 2,85,60,000  2 Crore+",
+          "dependent2_details": "Mouza Sameri Chhata District Mathura, Sy No 121  Total Area 1.150 Acres  Built Up Area  Whether Inherited N Purchase Date 2021-07-12 Purchase Cost 2304000.00 Development Cost 2003000.00 23,04,000  23 Lacs+ Mouza Aajnikh Chhata District Mathura Sy No 235/5 Total Area 0.834 Acres Built Up Area  Whether Inherited N Purchase Date 2021-09-05 Purchase Cost 2010000.00 Development Cost 2410000.00 20,10,000  20 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 135000000,
+          "spouse_value_rupees": 48900000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 1900000,
+          "dependent2_value_rupees": 11820000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 216620000,
+          "self_details": "Muja Kshopur Manoharpur The & Distt. Mathura Sy no 225, 226, 229, 230 Total Area 985.58 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 2009-12-10 Purchase Cost 2950000.00 Development Cost 0.00 60,00,000  60 Lacs+ Shreejee Associated Firm Joint Ownership Self & Wife (Investment in firm Sheeji Associates), Sy No 225/1, 226, 228 Total Area 228.92 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 2010-03-23 Purchase Cost 2975960.00 Development Cost 0.00 75,00,000  75 Lacs+",
+          "spouse_details": "Mauja Kasopur Manoharpur The & Distt. Mathura Sy No 226, 227 Total Area 501.17 Sq.mt. Built Up Area  Whether Inherited N Purchase Date 2010-02-05 Purchase Cost 1500000.00 Development Cost 0.00 30,00,000  30 Lacs+ Goldan City Mathura Bangar Distt. Mathura, Plot No 15C  Total Area 159.27 Sq.mt. Built Up Area  Whether Inherited N Purchase Date 2020-11-09 Purchase Cost 1890000.00 Development Cost 0.00 18,90,000  18 Lacs+",
+          "dependent1_details": "Goldan City Mathura Bangar Distt. Mathura, Plot No 15D Total Area 159.27 Sq.Mt Built Up Area  Whether Inherited N Purchase Date 2020-11-09 Purchase Cost 1900000.00 Development Cost 0.00 19,00,000  19 Lacs+",
+          "dependent2_details": "Goldan City Mathura Bangar Distt. Mathura, Plot No 15A Total Area 159.21 Sq.mt. Built Up Area  Whether Inherited N Purchase Date 2020-07-06 Purchase Cost 1900000.00 Development Cost 0.00 19,00,000  19 Lacs+ Goldan City Mathura Bangar Distt. Mathura, Plot No 15B Total Area 159.27 Sq.Mt Built Up Area  Whether Inherited N Purchase Date 2020-10-14 Purchase Cost 1900000.00 Development Cost 0.00 19,00,000  19 Lacs+ Mayur Vihar Dhauli Piyau Mathura Plot No 45,  Total Area 48.82 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 2017-12-12 Purchase Cost 2010000.00 Development Cost 0.00 20,10,000  20 Lacs+ Mayur Vihar Dhauli Piyau Mathura Plot No 45,  Total Area 48.82 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 2017-10-05 Purchase Cost 2010000.00 Development Cost 0.00 20,10,000  20 Lacs+ Mayur Vihar Dhauli Piyau Mathura Plot No 45,  Total Area 48.82 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 2019-01-01 Purchase Cost 2010000.00 Development Cost 0.00 20,10,000  20 Lacs+ Mayur Vihar Dhauli Piyau Mathura Plot No 45 Total Area 48.82 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 2019-01-01 Purchase Cost 2010000.00 Development Cost 0.00 20,10,000  20 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 3500000,
+          "spouse_value_rupees": 5600000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9100000,
+          "self_details": "UPIL Campus Yojana S-Bag Road Lucknow, Sy No 304 Total Area 108.88 Sq.ft. Built Up Area  Whether Inherited N Purchase Date 1999-01-01 Purchase Cost 850000.00 Development Cost 0.00 35,00,000  35 Lacs+",
+          "spouse_details": "Mouza Mauhal Baramad Chhavani Mathura Part of Khasra No 16 Total Area 160 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 56,00,000  56 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 10500000,
+          "spouse_value_rupees": 4200000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14700000,
+          "self_details": "Mayur Vihar Dhauli Piyau Mathura Sy No 44 Total Area 225 Sq.mt. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,05,00,000  1 Crore+",
+          "spouse_details": "MEA Sahkari Awas Samiti Ltd Greater Noida A-Type C-558 Total Area 1450 Sq.Mt. Built Up Area  Whether Inherited N Purchase Date 2010-10-04 Purchase Cost 1730110.00 Development Cost 0.00 42,00,000  42 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 800000,
+      "grand_total_of_liabilities_spouse_rupees": 2150000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2950000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 54309740
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": 2150000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2950000,
+          "self_details": "M.L. Bhardwa, Unsecured Loan  8,00,000  8 Lacs+",
+          "spouse_details": "M.L. Bhardwa, Unsecured Loan  2,00,000  2 Lacs+ Kusum Bhardwaj, Unsecured Loan 2,00,000  2 Lacs+ Premwati Agrawal, Unsecured Loan 2,00,000  2 Lacs+ Deepti Agrawal, Unsecured Loan 2,00,000  2 Lacs+ L.N. Chaudhary HUF, Unsecured Loan 2,00,000  2 Lacs+ Anjali Sharma, Unsecured Loan 6,50,000  6 Lacs+ Dheeraj Lather, Unsecured Loan 5,00,000  5 Lacs+",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "ix",
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "x",
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "xi",
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "xii",
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "xiii",
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "xiv",
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        },
+        {
+          "sr_no": "xv",
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "huf_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 50737360,
-      "non_agricultural_land": {
-        "description": "Mauja Kasopur Manoharpur The & Distt. Mathura Sy No 226, 227 Total Area 501.17 Sq.mt.",
-        "area_sq_mtr": 501.17,
-        "inherited": "N",
-        "purchase_date": "2010-02-05",
-        "purchase_cost_inr": 1500000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3000000
+    "profession_or_occupation": {
+      "self": "Agriculture, Cooking Gas Distributor, Business, MLAs Salary",
+      "spouse": "Agriculture & Business"
+    },
+    "sources_of_income": {
+      "self": "Agriculture, Cooking Gas Distributor, Business, MLAs Salary",
+      "spouse": "Agriculture & Business",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "LPG Dealer Shiv Bharat Petroleum Corporation Ltd.",
+      "spouse": "Not Applicable",
+      "dependent": "Not Applicable",
+      "huf_or_trust": "Not Applicable",
+      "partnership_firms": "Not Applicable",
+      "private_companies": "Not Applicable"
+    },
+    "other_elections_declarations": [
+      {
+        "election": "Uttar Pradesh 2017",
+        "declared_assets_rupees": 62948143,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 5600000,
-      "residential_buildings": {
-        "description": "MEA Sahkari Awas Samiti Ltd Greater Noida A-Type C-558",
-        "total_area_sqft": 15607.75,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "2010-10-04",
-        "purchase_cost_inr": 1730110,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4200000
+      {
+        "election": "Uttar Pradesh 2012",
+        "declared_assets_rupees": 43007530,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 47507360
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 800000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 800000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 2150000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2150000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture, Cooking Gas Distributor, Business, MLAs Salary",
-    "spouse": "Agriculture & Business",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "LPG Dealer Shiv Bharat Petroleum Corporation Ltd.",
-    "entered_by_spouse": "Not Applicable",
-    "entered_by_dependent": "Not Applicable",
-    "entered_by_huf_trust": "Not Applicable",
-    "entered_by_partnership_firms": "Not Applicable",
-    "entered_by_private_companies": "Not Applicable"
+      {
+        "election": "Uttar Pradesh 2007",
+        "declared_assets_rupees": 15829909,
+        "declared_cases": 0
+      },
+      {
+        "election": "Lok Sabha 2004",
+        "declared_assets_rupees": 6702014,
+        "declared_cases": 0
+      }
+    ]
   }
 }

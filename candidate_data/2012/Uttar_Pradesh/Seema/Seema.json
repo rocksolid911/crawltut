@@ -2,154 +2,494 @@
   "candidate_name": "SEEMA",
   "party": "BJP",
   "constituency": "MUNGRA BADSHAHPUR",
-  "father_or_husband_name": "Arun",
-  "age": 42,
-  "education": "Post Graduate M.A. (Sociology ) from Veer Bahadur Singh Purvanchal University ,Jaunpur in 1995",
-  "profession_self": "Teaching",
-  "profession_spouse": "Doctor",
-  "criminal_cases": 1,
-  "assets_total_inr": 8699000,
-  "liabilities_total_inr": 135000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 341792
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Arun",
+      "age": 42,
+      "self_profession": "Teaching",
+      "spouse_profession": "Doctor"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 8699000,
+      "total_liabilities_in_rupees": 135000
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A. (Sociology ) from Veer Bahadur Singh Purvanchal University ,Jaunpur in 1995"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 341792
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 531795
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "ipc_section": null,
+          "other_details_or_acts_sections_applicable": "127A R.P. Act. 1957, Case No. 842/10, P.S. Badlapur, Dist Jaunpur, Court Upper Chief Judicial Magistrate 3rd Jaunpur, Date 17.4.10"
+        }
+      ],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2584000,
+      "gross_total_value_spouse_rupees": 1555000,
+      "gross_total_value_dependent1_rupees": 60000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 4199000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 20000,
+          "spouse_value_rupees": 20000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 40000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 610000,
+          "spouse_value_rupees": 60000,
+          "dependent1_value_rupees": 10000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 680000,
+          "self_details": "SBI ,Lucknow 3,50,000  3 Lacs+ Kashi Gomati Gramin Bank, 2,50,000  2 Lacs+ Kashi Gomati Gramin Bank,Khapraha 10,000  10 Thou+",
+          "spouse_details": "Bank of Baroda ,Varanasi 60,000  60 Thou+",
+          "dependent1_details": "SBI , Varanasi 10,000  10 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 700000,
+          "spouse_value_rupees": 400000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1100000,
+          "self_details": "SBI,Mutual Fund 7,00,000  7 Lacs+",
+          "spouse_details": "Mutual Fund,LIC  4,00,000  4 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 20000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000,
+          "self_details": "Post office KVP 20,000  20 Thou+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 50000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 650000,
+          "self_details": ",LIC 1,00,000  1 Lacs+",
+          "spouse_details": ",LIC 5,00,000  5 Lacs+",
+          "dependent1_details": ",LIC 50,000  50 Thou+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": 525000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1325000,
+          "self_details": "Scorpio Car, Model 2010, Purchase year 2010, Reg. No. UP32DM0006 8,00,000  8 Lacs+",
+          "spouse_details": "Indigo car, Model 2009, Purchase Year 2009, Reg. No. UP6240999 5,25,000  5 Lacs+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 300000,
+          "self_details": "Gold 100gm 2,50,000  2 Lacs+",
+          "spouse_details": "Gold 20gm 50,000  50 Thou+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 84000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 84000,
+          "self_details": "Rivolver 84,000  84 Thou+"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 2600000,
+      "total_current_market_value_spouse_rupees": 1900000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 4500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 400000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 700000,
+          "self_details": "Village Kushmol  Total Area 1acre Whether Inherited N Purchase Date 2011-10-14 Purchase Cost 300000.00 Development Cost 0.00 3,00,000  3 Lacs+",
+          "spouse_details": "Village Achkari and Kushmol Total Area 1acre Whether Inherited Y Purchase Date 2002-09-25 Purchase Cost 200000.00 Development Cost 0.00 4,00,000  4 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2300000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2300000,
+          "self_details": "Lucknow 250sq.ft. ,Cost of purchase 250000 , Ghaziabad Total Area 500sq.ft. Whether Inherited N Purchase Date 2009-10-20 Purchase Cost 250000.00 Development Cost 2000000.00 23,00,000  23 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1500000,
+          "spouse_details": "Mo.Tarapur,Jaunpur Total Area Built Up Area 2200sq.ft. Whether Inherited N Purchase Date 1998-01-01 Purchase Cost 1000000.00 Development Cost 0.00 15,00,000  15 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 135000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 135000,
+      "grand_total_of_all_govt_dues_self_rupees": 135000,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 135000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "i",
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "i",
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 135000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 135000,
+          "self_details": "Controversial telecom bill 1,35,000  1 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "other_elections_info": [
+      {
+        "declaration_in": "Uttar Pradesh 2017",
+        "declared_assets_rupees": 14990700,
+        "declared_cases": 1
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 531795
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 610000,
-      "bonds_debentures_shares_inr": 700000,
-      "nss_postal_savings_inr": 20000,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 800000,
-      "jewellery_inr": 250000,
-      "other_assets_inr": 84000,
-      "gross_total_value_inr": 2584000
-    },
-    "spouse": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 60000,
-      "bonds_debentures_shares_inr": 400000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 525000,
-      "jewellery_inr": 50000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1555000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land": {
-        "description": "Village Kushmol",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2011-10-14",
-        "purchase_cost_inr": 300000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 300000
-      },
-      "non_agricultural_land": {
-        "description": "Lucknow 250sq.ft. , Ghaziabad Total Area 500sq.ft.",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2009-10-20",
-        "purchase_cost_inr": 250000,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 2300000
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2600000
-    },
-    "spouse": {
-      "agricultural_land": {
-        "description": "Village Achkari and Kushmol",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "2002-09-25",
-        "purchase_cost_inr": 200000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 400000
-      },
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Mo.Tarapur,Jaunpur",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 2200,
-        "inherited": "N",
-        "purchase_date": "1998-01-01",
-        "purchase_cost_inr": 1000000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1900000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 135000,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 135000
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+    ]
+  }
 }

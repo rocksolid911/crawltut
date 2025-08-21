@@ -2,145 +2,522 @@
   "candidate_name": "C T RAVI",
   "party": "BJP",
   "constituency": "CHICKAMAGALUR",
-  "father_or_husband_name": "C.I. Thimmegowda",
-  "age": 50,
-  "education": "Post Graduate Karnataka State Open University Mysore 2012",
-  "profession_self": "Lawmaker",
-  "profession_spouse": "housewife &social worker",
-  "criminal_cases": 3,
-  "assets_total_inr": 50135079,
-  "liabilities_total_inr": 21687727,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 16920
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 381440
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 318860
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 508122,
-      "bank_deposits_inr": 5733595,
-      "bonds_debentures_shares_inr": 281488,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 103375000,
-      "motor_vehicles_inr": 955000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 110198505
-    },
-    "spouse": {
-      "cash_inr": 727167,
-      "bank_deposits_inr": 1855666,
-      "bonds_debentures_shares_inr": 29891,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 282118,
-      "personal_loans_advance_given_inr": 2758866,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 115000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5768708
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Chikkamanglore CDS Site No A 241; BDA sites given to MLAs in HBR Layout Banglore no 195/K; CT Ravi Chikkamanglore Basavanahalli Main road No13741/8874/7884 Old no 1360,2362,&2654,2658; Ramanahalli Kasab Hobli Chikkamanglore Taluk Survey No 147/P2",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 356552,
-        "current_market_value_inr": 8707317
+  "state": "Karnataka",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "C.I. Thimmegowda",
+      "age": 50,
+      "voter_enrolled_in": {
+        "constituency": "125- Chickmangalore",
+        "state": "Karnataka",
+        "serial_no": 370,
+        "part_no": 188
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Ground Floor Basavanahalli Main Road Chikkamanglore",
-        "total_area_sqft": 14556,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "2008-08-08",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 854200,
-        "current_market_value_inr": 8758500
+      "self_profession": "Lawmaker",
+      "spouse_profession": "housewife &social worker"
+    },
+    "summary": {
+      "criminal_cases_count": 3,
+      "total_assets_in_rupees": 50135079,
+      "total_liabilities_in_rupees": 21687727
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "Karnataka State Open University Mysore 2012"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 16920
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 381440
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 318860
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Criminal breach of trust by public servant, or by banker, merchant or agent",
+          "ipc_section": "409",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery of record of court or of public register, etc.",
+          "ipc_section": "466",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for bribery",
+          "ipc_section": "171E",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Concealing design to commit offence punishable with imprisonment",
+          "ipc_section": "120",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery",
+          "ipc_section": "463",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        }
+      ],
+      "pending_cases": [],
+      "convicted_cases": [],
+      "charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "409, 420, 120, 463, 466, 120B",
+          "other_details_or_acts_sections_applicable": "Sec 8,12,13(1) C & D Prevention of Corruption Act, Case no 114/12, Cognizance Court - Aditional Dist Session Court Mahoyo Hall [Special Lokayuktha Court][C C H 78] Bangalore, Cognizance Date 14-06-2012 , Charges Framed Court - Aditional Dist Session Court Mahoyo Hall [special lokayuktha court][C C H 78] Charges Framed Date 14-6-2012 , Appeal filed - criminal revision no 4749/2012 at Karnataka high court Case no 114/12"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "sec. 13(1)(E)&13(2) Prevention of Corruption Act, Case no 33/12, cognizance court - Aditional Dist Session Court Mahoyo hall [special lokayuktha court][C C H 78] Bangalore, cognizance date 28-05-2012 , charges framed court - Aditional Dist Session court mahoyo hall [special lokayuktha court][C C H 78] Charges Framed date 28-05-2012, Appeal filed-Criminal revision no 62671/2016 Karnataka High court case no 33/12"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "171E",
+          "other_details_or_acts_sections_applicable": "Case no 545/13, Cognizance Court - 2nd Grade civil judge and JMFC chickmangalore, cognizance date 04-05-2013, postponded to 26-07-2013,charges framed court 2nd grade civil judge and JMFC chickmangalore Charges framed date 04-05-2013 postponded to 26-07-2017"
+        }
+      ]
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 18815955,
+      "gross_total_value_spouse_rupees": 5952783,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 100000,
+      "gross_total_value_total_rupees": 24868738,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 508122,
+          "spouse_value_rupees": 727167,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1235289,
+          "self_details": "5,08,122  5 Lacs+",
+          "spouse_details": "7,27,167  7 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5783101,
+          "spouse_value_rupees": 1849884,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7632985,
+          "self_details": "Syndicate Bank Saving No 0900201004xxxxx Chikkamanglore 24,99,760  24 Lacs+ Apex Bank Savings No 10xxxxx shaskara branch Banglore  27,33,282  27 Lacs+ Axis Bank Savings No 53901010002xxxxx chikkamanglore  5,00,539  5 Lacs+ Syndicate Bank Savings No 0900201013xxxxx 50,074  50 Thou+ ICICI Bank Savings No 01590100xxxxx 9,296  9 Thou+",
+          "spouse_details": "Syndicate Bank,Savings No 0900220002xxxxx 54,497  54 Thou+ Corporation Bank Savings bank No 52010122904xxxxx 3,929  3 Thou+ Axis Bank savings No 53901010002xxxxx 17,88,156  17 Lacs+ ICICI Bank savings No 01590100xxxxx 3,112  3 Thou+ Mahila Sahakara Bank Savings a/c no 6364 9,579  9 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 11099688,
+          "spouse_value_rupees": 1827471,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12927159,
+          "self_details": "Relaince company 2,00,000  2 Lacs+ Apex limited  5,760  5 Thou+ Surya innovative Buildings  8,00,000  8 Lacs+ Aditya Birla Fashions ltd 815  8 Hund+ Future Enterpries Ltd  97 Future Lifestyle Fashion Ltd 610  6 Hund+ Future Market Network 11 Future Retail lTD 2,558  2 Thou+ JMR Infrastructure ltd 4,648  4 Thou+ Nohida Toll Bridge Com 17,729  17 Thou+ Pantloon fashions ltd 575  5 Hund+ TATA Consultancy service ltd 51,079  51 Thou+ Techno labs Private ltd 3,000  3 Thou+ Town-co Operate shares  500  5 Hund+",
+          "spouse_details": "Apex ltd 5,760  5 Thou+ Future Lifestyle Fashion 610  6 Hund+ Future Market Network ltd 11 Future Retail Ltd 93 B.M.R Infrastructure Ltd 2,465  2 Thou+ Noida Toll Bridge Co Ltd 3,320  3 Thou+ Pantaloons Fashion Ltd 16,725  16 Thou+ Tata Consultancy Service Ltd 575  5 Hund+ Mahila SahakaraBank 1,000  1 Thou+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 282118,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 100000,
+          "total_value_rupees": 482118,
+          "self_details": "Life Insurance policy 1,00,000  1 Lacs+",
+          "spouse_details": "Bajaj Alliance Life Insurance 2,49,198  2 Lacs+ Porties Health Care 32,920  32 Thou+",
+          "dependent3_details": "LIC POLICI No 622530362 Surya Son 1,00,000  1 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 10335000,
+          "spouse_value_rupees": 27511478,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 37846478,
+          "self_details": "Gnyaganga Trust  10,00,000  10 Lacs+ Sumitha K M Banglore 5,00,000  5 Lacs+ Pallavi Ravi 38,35,000  38 Lacs+ Century Allowance 37,500  37 Thou+ Chethan Chikkamanglore 40,00,000  40 Lacs+ Tirumalay Kumar Banglore 10,00,000  10 Lacs+",
+          "spouse_details": "Anjayana Vidhya Sangha  1,00,000  1 Lacs+ K.S.S.I.DC 11,478  11 Thou+ Raghu Chikkamanglore 1,34,188  1 Lacs+ C T Ravi (HUF) Chikkamanglore 43,000  43 Thou+ Chethan Chikkamanglore 5,00,000  5 Lacs+ HB Sudarshan Chikkamanglore 50,000  50 Thou+ NR Suresh Chikkamanglore 20,00,000  20 Lacs+ Tejas Chikkamanglore 1,00,000  1 Lacs+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 955000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 955000,
+          "self_details": "KA 18 M 7029 Scorpio July 2005 Model 9,55,000  9 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 115000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 115000,
+          "self_details": "400 Grams Gold,2100 Grams Lamp,Tamege,Plate,Pooja Stuff  0*(Value Not Given)",
+          "spouse_details": "810grams Gold Ornaments,Diamond Jewels &6000 grams Silver Lamp Tamege Pooja Stuff 1,15,000  1 Lacs+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 17465817,
+      "total_current_market_value_spouse_rupees": 3302550,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 20768367,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Arenooru Grama Survey no 101 Total Area 7acre Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 0*(Value Not Given)",
+          "spouse_details": "Huliyara Grama Survey No9/1,no9/2,(9/9,9/12,9/13,9/15,9/16,9/18,9/19,9/20,9/21,9/22,) Total Area 1-25-12 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 3234370.00 Development Cost 21653.00 0*(Value Not Given)"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 7720377,
+          "spouse_value_rupees": 3302550,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 11022927,
+          "self_details": "Chikkamanglore CDS Site No A 241, Total Area 4000 sq ft Built Up Area  Whether Inherited N Purchase Date 1998-01-01 Purchase Cost 0.00 Development Cost 0.00 91,740  91 Thou+ BDA sites given to MLAs in HBR Layout Banglore no 195/K Total Area 360mtr Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 9,02,910  9 Lacs+ CT Ravi Chikkamanglore Basavanahalli Main road No13741/8874/7884 Old no 1360,2362,&2654,2658 Total Area 14556 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 63,98,152  63 Lacs+ Ramanahalli Kasab Hobli Chikkamanglore Taluk Survey No 147/P2, 21.07.1997 2008.10.01 2007.06.16 2008.08.08 Total Area 1 acre 32 Gutas  Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 356552.00 13,14,515  13 Lacs+",
+          "spouse_details": "Ramanahalli Chikkamanglore Agriculture Land &House survey No144/IA1, Total Area 3Acres 27 Rumps Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 231199.00 19,71,665  19 Lacs+ KH B Layout Chikkamanglore Site No 114-MIG-11 Total Area 180sqr feet Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,80,515  1 Lacs+ Ramanahalli,Chikkamanglore Site No 42 &no 43 and Survey No 147/p 2007.10.24 2007.04.12 2007.04.12 2011.03.11 Total Area 80 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 9,69,855  9 Lacs+ KH B Layout Chikkamanglore Site NO 113-MIG-11  Total Area 15mtrs*12mrts Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,80,515  1 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 8758500,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8758500,
+          "self_details": "Ground Floor Basavanahalli Main Road Chikkamanglore Total Area 14556 sqr ft Built Up Area  Whether Inherited N Purchase Date 2008-08-08 Purchase Cost 0.00 Development Cost 854200.00 87,58,500  87 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 11142993,
+      "grand_total_of_liabilities_spouse_rupees": 10544734,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 21687727,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 17465817
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2734516,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2734516,
+          "self_details": "Axix Bank House Loans No 909060041435555 27,34,516  27 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 8408477,
+          "spouse_value_rupees": 10544734,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18953211,
+          "self_details": "Giri Bin D.I.S. Ayangar Banglore 50,00,000  50 Lacs+ M.K.Pranesh  10,00,000  10 Lacs+ C.I.Thimmegowda 10,00,000  10 Lacs+ C.T.Ravi(HUF) 14,08,477  14 Lacs+",
+          "spouse_details": "Sri C.I.Thimegowda (Huf) 18,00,000  18 Lacs+ Sri C.I.Thimegowda (HUF) 42,00,000  42 Lacs+ C.T.Ravi  38,35,000  38 Lacs+ Vikram Aloor 49,734  49 Thou+ Pavan Anoop 1,60,000  1 Lacs+ Anoop Ramesh 5,00,000  5 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Ramanahalli Chikkamanglore Agriculture Land &House survey No144/IA1; KH B Layout Chikkamanglore Site No 114-MIG-11; Ramanahalli,Chikkamanglore Site No 42 &no 43 and Survey No 147/p; KH B Layout Chikkamanglore Site NO 113-MIG-11",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 231199,
-        "current_market_value_inr": 3302550
+    "other_elections": [
+      {
+        "declaration_in": "Karnataka 2023",
+        "declared_assets": 64266787,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 3302550
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2734516,
-      "loans_due_to_individual_entity_inr": 8408477,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 11142993
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 10544734,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 10544734
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+      {
+        "declaration_in": "Karnataka 2013",
+        "declared_assets": 35969434,
+        "declared_cases": 2
+      }
+    ]
+  }
 }

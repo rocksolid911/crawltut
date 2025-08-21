@@ -1,172 +1,503 @@
 {
   "candidate_name": "Y. VIKHEHO SWU",
   "party": "NPF",
-  "constituency": "PUGHOBOTO (PUGHOBOTO)",
-  "father_or_husband_name": "Mr.Yeshito",
-  "age": 52,
-  "education": "Graduate B.A. Kohima College 1989 NEHU",
-  "profession_self": "Public Leader, Social Worker & Businessman",
-  "profession_spouse": "Business Women & Homemaker",
-  "criminal_cases": 0,
-  "assets_total_inr": 80667212,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 1251640,
-      "bonds_debentures_shares_inr": 26500000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 2500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2200000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 32551640
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 2536572,
-      "bonds_debentures_shares_inr": 28300000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 3000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1255000,
-      "jewellery_inr": 234000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 35375572
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 600000,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+  "constituency": "PUGHOBOTO",
+  "state": "Nagaland",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Mr.Yeshito",
+      "age": 52,
+      "voter_enrolled_in": {
+        "constituency": "13 Pughoboto",
+        "state": "Nagaland",
+        "serial_no": 463,
+        "part_no": 21
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "5Rooms Assam type 8 Rooms Thiliku Village Dimapur",
-        "total_area_sqft": 25000,
-        "built_up_area_sqft": 7700,
-        "inherited": "N",
-        "purchase_date": "2012-08-07",
-        "purchase_cost_inr": 3300000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 12000000
+      "self_profession": "Public Leader, Social Worker & Businessman",
+      "spouse_profession": "Business Women & Homemaker"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 80667212,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A. Kohima College 1989 NEHU"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 32551640,
+      "gross_total_value_spouse_rupees": 35375572,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 67927212,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000,
+          "self_details": "1,00,000",
+          "spouse_details": "50,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1249640,
+          "spouse_value_rupees": 2536572,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3786212,
+          "self_details": "SBI SB No 3005725xxxxx  3,27,649 HDFC No 1815100002xxxxx 5,51,621 Axis SB No 9120100576xxxxx  3,72,370",
+          "spouse_details": "Axis Bank SB No 91401001009xxxxx 8,36,572 SBI C.No 3064404xxxxx 13,00,000 Axis Bank No 91502001265xxxxx 4,00,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 26500000,
+          "spouse_value_rupees": 26500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 54500000,
+          "self_details": "Okura Auto Mobile Pvt Ltd Dimapur A joint  2,65,00,000",
+          "spouse_details": "Okura Auto Mobile Pvt Ltd Dimapur A join Ownership of Toyoto Kiraspa Motor Pvt. Ltd.  2,65,00,000 Archievs Gift Shop Dimapur  8,00,000 m/s Naga Colours  10,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 2500000,
+          "spouse_value_rupees": 3000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5500000,
+          "self_details": "SBI Life IN.P.No 4404223xxxxx @ 500000 P.A.Matu. 25,00,000",
+          "spouse_details": "SBI life In P.NO.IM006531306 1000000 P.A. 30,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2200000,
+          "spouse_value_rupees": 1255000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3455000,
+          "self_details": "Fortuner Toyota NL01H 4050  22,00,000",
+          "spouse_details": "Corolla Attis 186 NL01 H F 979 2014 12,55,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 234000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 234000,
+          "self_details": "Nil",
+          "spouse_details": "3no Gold Neckles 20carrat 33.2Gm @78000 2,34,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 12600000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 140000,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 12740000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 600000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 600000,
+          "self_details": {
+            "location": "Ghathashi Village Zunhebato Nagaland",
+            "ownership_details": "Joint with Inheritance Total Area 15 acres",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 600000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 140000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 140000,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent2_details": {
+            "location": "Pughobolo Town Dist Pata",
+            "ownership_details": "No. 4",
+            "total_area": "3200 sqft",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 140000
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 12000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12000000,
+          "self_details": {
+            "location": "Thiliku Village Dimapur",
+            "ownership_details": "5Rooms Assam type 8 Rooms",
+            "total_area": "25000 SQFT",
+            "built_up_area": "7700 SQFT",
+            "inherited": false,
+            "purchase_date": "2012-08-07",
+            "purchase_cost_rupees": 3300000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 12000000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12600000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Pughobolo Town Dist Pata No. 4",
-        "area_sq_mtr": 297,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 140000
+    "profession_or_occupation": {
+      "self": "Public Leader, Social Worker & Businessman",
+      "spouse": "Business Women & Homemaker"
+    },
+    "other_elections": [
+      {
+        "election_year": "2023",
+        "election_name": "Nagaland 2023",
+        "declared_assets_in_rupees": 113080371,
+        "declared_criminal_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 140000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Public Leader, Social Worker & Businessman",
-    "spouse": "Business Women & Homemaker",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+      {
+        "election_year": "2013",
+        "election_name": "Nagaland 2013",
+        "declared_assets_in_rupees": 13448952,
+        "declared_criminal_cases": 0
+      }
+    ]
   }
 }

@@ -1,176 +1,883 @@
 {
   "candidate_name": "JUPALLY KRISHNA RAO",
   "party": "INC",
-  "constituency": "KOLLAPUR (NAGARKURNOOL)",
-  "father_or_husband_name": "Late Jupally Seshagiri Rao",
-  "age": 68,
-  "education": "Graduate BA from Osmania University Hyderabad",
-  "profession_self": "Politician and Social Worker",
-  "profession_spouse": "House Maker",
-  "criminal_cases": 3,
-  "assets_total_inr": 31889171,
-  "liabilities_total_inr": 15000000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 790000,
-        "2021-2022": 1144440,
-        "2020-2021": 1342140,
-        "2019-2020": 698520,
-        "2018-2019": 188000
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 480100,
-      "bank_deposits_inr": 1517607,
-      "bonds_debentures_shares_inr": 906922,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 950000,
-      "jewellery_inr": 60000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3920047
-    },
-    "spouse": {
-      "cash_inr": 52540,
-      "bank_deposits_inr": 73720,
-      "bonds_debentures_shares_inr": 807525,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2945000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3882785
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2896500,
-      "non_agricultural_land": {
-        "description": "H.No 354 Kollapur Mandal Nagarkurnool",
-        "area_sq_mtr": 1763.66,
-        "inherited": "N",
-        "purchase_date": "2016-10-04",
-        "purchase_cost_inr": 100000,
-        "development_cost_inr": 15000000,
-        "current_market_value_inr": 15187500
+  "constituency": "KOLLAPUR",
+  "state": "Telangana 2023",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Jupally Seshagiri Rao",
+      "age": 68,
+      "voter_enrolled_in": {
+        "constituency": "85 Kollapur",
+        "state": "Telangana",
+        "serial_no": 583,
+        "part_no": 246
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      "self_profession": "Politician and Social Worker",
+      "spouse_profession": "House Maker"
+    },
+    "summary": {
+      "criminal_cases_count": 3,
+      "total_assets_in_rupees": 31889171,
+      "total_liabilities_in_rupees": 15000000
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "BA from Osmania University Hyderabad"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 790000
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 1144440
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1342140
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 698520
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 188000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by fire or explosive substance with intent to destroy house, etc.",
+          "ipc_section": "436",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Attempt to murder",
+          "ipc_section": "307",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Threat of injury to public servant",
+          "ipc_section": "189",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Intentional insult or interruption to public servant sitting in judicial proceeding",
+          "ipc_section": "228",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of abetment if the act abetted is committed in consequence, and where no express provision is made for its punishment",
+          "ipc_section": "109",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "Cr.No. 21/2022 Chinnambavi P.S., Wanaparthy",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "143, 353, 189, 228, 504, 506, 149",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "Cr.No. 16/2014 Cyberabad Rayadurgam P.S.",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Sec.151 Cr.P.C.",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "fir_no": "Cr.No. 23/2012 Peddakothapally P.S. Nagarkurnool",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "436, 307, 341, 109, 34",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3920047,
+      "gross_total_value_spouse_rupees": 3882785,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 7802832,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 480100,
+          "spouse_value_rupees": 52540,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 532640,
+          "self_details": {
+            "amount_rupees": 480100
+          },
+          "spouse_details": {
+            "amount_rupees": 52540
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1517625,
+          "spouse_value_rupees": 73720,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1591345,
+          "self_details": [
+            {
+              "bank": "SBI Bank",
+              "branch": "Secretariat Hyderabad",
+              "account_no": "5208848xxxxx",
+              "amount_rupees": 7607
+            },
+            {
+              "bank": "Axis Bank",
+              "branch": "Banjara Hills Hyderabad",
+              "account_no": "91101001411xxxxx",
+              "amount_rupees": 5418
+            },
+            {
+              "bank": "SBI Bank",
+              "branch": "Kollapur",
+              "account_no": "4241175xxxxx",
+              "amount_rupees": 10000
+            },
+            {
+              "bank": "Indira Legislature Mutual Aided Co Op",
+              "amount_rupees": 1500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Axis Bank",
+              "branch": "Banjara Hills",
+              "account_no": "00801010055xxxxx",
+              "amount_rupees": 73720
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 906922,
+          "spouse_value_rupees": 811525,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1718447,
+          "self_details": [
+            {
+              "name": "Shares",
+              "amount_rupees": 4000
+            },
+            {
+              "name": "Shares",
+              "amount_rupees": 259922
+            },
+            {
+              "name": "Shares",
+              "amount_rupees": 643000
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Shares",
+              "amount_rupees": 144500
+            },
+            {
+              "name": "Shares",
+              "amount_rupees": 24025
+            },
+            {
+              "name": "Shares",
+              "amount_rupees": 643000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 950000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 950000,
+          "self_details": [
+            {
+              "make": "Tata Safari",
+              "registration_no": "AP09AC1449",
+              "year": 1998,
+              "value_rupees": 950000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 60000,
+          "spouse_value_rupees": 2945000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3005000,
+          "self_details": {
+            "weight": "10 gm Gold",
+            "value_rupees": 60000
+          },
+          "spouse_details": {
+            "weight": "450 gm Gold and 3.5 kg Silver",
+            "value_rupees": 2945000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 18084000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 18084000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2896500,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2896500,
+          "self_details": [
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "225",
+              "total_area": "1-38.5 acres",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 764000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "191/AA1/1/5",
+              "total_area": "0.0025 Acres",
+              "inherited": false,
+              "purchase_date": "1985-01-01",
+              "purchase_cost_rupees": 1250,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 50000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "264/2/8",
+              "total_area": "0.29 acres",
+              "inherited": false,
+              "purchase_date": "2008-10-06",
+              "purchase_cost_rupees": 36272,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 150000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "267/3/8",
+              "total_area": "0.12 acres",
+              "inherited": false,
+              "purchase_date": "2008-10-06",
+              "purchase_cost_rupees": 15009,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 120000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "43/1/8",
+              "total_area": "0.01.5 acres",
+              "inherited": false,
+              "purchase_date": "2005-09-13",
+              "purchase_cost_rupees": 750,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "443/8",
+              "total_area": "0.05 acers",
+              "inherited": false,
+              "purchase_date": "2005-09-13",
+              "purchase_cost_rupees": 2500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 50000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "44/5",
+              "total_area": "0.500 acres",
+              "inherited": false,
+              "purchase_date": "2016-04-23",
+              "purchase_cost_rupees": 50000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 400000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "45/2/1/8",
+              "total_area": "0.09 acres",
+              "inherited": false,
+              "purchase_date": "2005-09-13",
+              "purchase_cost_rupees": 5000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "45/3/1/8",
+              "total_area": "0.10 acres",
+              "inherited": false,
+              "purchase_date": "2005-09-13",
+              "purchase_cost_rupees": 5000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 50000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "45/AA2/8",
+              "total_area": "0.05 acres",
+              "inherited": false,
+              "purchase_date": "2005-09-13",
+              "purchase_cost_rupees": 2500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 50000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "46/3E/8",
+              "total_area": "0.05 acre",
+              "inherited": false,
+              "purchase_date": "2005-09-13",
+              "purchase_cost_rupees": 2500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 50000
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "3555/A2/1",
+              "total_area": "0.13 Acres",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 187500
+            },
+            {
+              "location": "Peddadagada Village Weepanagandla Mandal",
+              "sy_no": "212/7",
+              "total_area": "2.12 acre",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 920000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 15187500,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15187500,
+          "self_details": [
+            {
+              "location": "H.No 354 Kollapur Mandal Nagarkurnool",
+              "total_area": "18984 sqft",
+              "inherited": false,
+              "purchase_date": "2016-10-04",
+              "purchase_cost_rupees": 100000,
+              "development_cost_rupees": 15000000,
+              "current_value_rupees": 15187500
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 15000000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 15000000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 18084000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 15000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15000000,
+          "self_details": [
+            {
+              "name": "Vian properties Pvt ltd.",
+              "description": "construction of house",
+              "amount_rupees": 15000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "profession_or_occupation": {
+      "self": "Politician and Social Worker",
+      "spouse": "House Maker"
+    },
+    "sources_of_income": {
+      "self": "Pension from Telangana Assembly",
+      "spouse": "NA",
+      "dependent": "NA"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NA",
+      "spouse": "NA",
+      "dependent": "NA",
+      "huf_or_trust": "NA",
+      "partnership_firms": "NA",
+      "private_companies": "NA"
+    },
+    "other_election_declarations": [
+      {
+        "election": "Telangana 2018",
+        "declared_assets_rupees": 19778929,
+        "declared_cases": 4
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      {
+        "election": "Andhra Pradesh Bye Election",
+        "declared_assets_rupees": 8959538,
+        "declared_cases": 4
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 15000000,
-      "grand_total_of_liabilities_inr": 15000000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Pension from Telangana Assembly",
-    "spouse": "NA",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+      {
+        "election": "Andhra Pradesh 2009",
+        "declared_assets_rupees": 4734397,
+        "declared_cases": 2
+      }
+    ]
   }
 }

@@ -1,166 +1,246 @@
 {
   "candidate_name": "Lavoo Mamledar",
   "party": "MAG",
-  "constituency": "PONDA (NORTH GOA)",
-  "father_or_husband_name": "Suryaji Mamleder",
-  "age": 55,
-  "education": "Graduate B.Sc from Dhempe Collage Arts & Science Miramar , Panaji in 1978",
-  "profession_self": "Business",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 13573733,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009-2010": 177410
-      }
+  "constituency": "PONDA",
+  "state": "Goa",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Suryaji Mamleder",
+      "age": 55,
+      "self_profession": "Business",
+      "spouse_profession": "House Wife"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009-2010": 30510
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 13573733,
+      "total_liabilities_in_rupees": 0
     },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Sc from Dhempe Collage Arts & Science Miramar, Panaji in 1978"
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 177410
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 30510
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 866952,
-      "bonds_debentures_shares_inr": 49970,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 182950,
-      "personal_loans_advance_given_inr": 1250000,
-      "motor_vehicles_inr": 1120000,
-      "jewellery_inr": 337500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3716872
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
     },
-    "spouse": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 463356,
-      "bonds_debentures_shares_inr": 44970,
-      "nss_postal_savings_inr": 275000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 40000,
-      "jewellery_inr": 810000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1653326
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2250000,
-      "non_agricultural_land": {
-        "description": "Villl. Ponda, S.No.138/0, 139/0 Total Area 2.75acre; Vill. Tiswadi Carambolim, S.No.2/1 Total Area 300sq.mt.",
-        "area_sq_mtr": 0,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 1000000,
-        "current_market_value_inr": 4200000
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3716873,
+      "gross_total_value_spouse_rupees": 1653326,
+      "gross_total_value_dependent1_rupees": 316494,
+      "gross_total_value_dependent2_rupees": 457040,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 6143733,
+      "items": [
+        {
+          "description": "Cash",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 20000,
+          "dependent1_value_rupees": 2000,
+          "dependent2_value_rupees": 2000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 124000
+        },
+        {
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 761952,
+          "spouse_value_rupees": 453356,
+          "dependent1_value_rupees": 111742,
+          "dependent2_value_rupees": 178410,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1429960
+        },
+        {
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 49970,
+          "spouse_value_rupees": 44970,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 94940
+        },
+        {
+          "description": "NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 275000,
+          "dependent1_value_rupees": 67752,
+          "dependent2_value_rupees": 141630,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 484382
+        },
+        {
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 182950,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 182950
+        },
+        {
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 12500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12500000
+        },
+        {
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1160000,
+          "spouse_value_rupees": 40000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1200000
+        },
+        {
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 337500,
+          "spouse_value_rupees": 810000,
+          "dependent1_value_rupees": 135000,
+          "dependent2_value_rupees": 135000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1417500
+        },
+        {
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 7430000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 7430000,
+      "items": [
+        {
+          "description": "Agricultural Land",
+          "self_value_rupees": 2250000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2250000
+        },
+        {
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 4200000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4200000
+        },
+        {
+          "description": "Commercial Buildings",
+          "self_value_rupees": 980000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 980000
+        },
+        {
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "items": []
+    },
+    "other_elections": [
+      {
+        "election": "Goa 2022",
+        "declared_assets_rupees": 15863378,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 980000,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      {
+        "election": "Goa 2017",
+        "declared_assets_rupees": 26700397,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 7430000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": 0,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election": "Goa 2007",
+        "declared_assets_rupees": 18179875,
+        "declared_cases": 0
+      }
+    ]
   }
 }

@@ -1,166 +1,381 @@
 {
   "candidate_name": "Dr. Nirmlaben Vadhvani",
   "party": "BJP",
-  "constituency": "NARODA (AHMEDABAD)",
-  "father_or_husband_name": "Dr.Sunil Aayaldas Vadhvani",
-  "age": 48,
-  "education": "Graduate Professional MBBS, Master of Serjery, CIC, Certificate in Computing, Diploma in Obstric & Gaynec Altra Sound",
-  "profession_self": "Doctor",
-  "profession_spouse": "Doctor",
-  "criminal_cases": 0,
-  "assets_total_inr": 35144471,
-  "liabilities_total_inr": 13215844,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 795864
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 884023
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 157500,
-      "bank_deposits_inr": 298805,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 6140000,
-      "personal_loans_advance_given_inr": 15781584,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2386000,
-      "other_assets_inr": 279952,
-      "gross_total_value_inr": 25077341
-    },
-    "spouse": {
-      "cash_inr": 115200,
-      "bank_deposits_inr": 648465,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 3853058,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 508000,
-      "jewellery_inr": 566000,
-      "other_assets_inr": 161575,
-      "gross_total_value_inr": 5852298
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 225000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+  "constituency": "NARODA",
+  "state": "Gujarat",
+  "election_year": 2012,
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Dr.Sunil Aayaldas Vadhvani",
+      "age": 48,
+      "voter_enrolled_in": {
+        "constituency": "47 Naroda",
+        "state": "Gujarat",
+        "serial_no": 203,
+        "part_no": 191
       },
-      "commercial_buildings_inr": 2922000,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+      "self_profession": "Doctor",
+      "spouse_profession": "Doctor"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 35144471,
+      "total_liabilities_in_rupees": 13215844
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "MBBS,Master of Serjery,CIC,Certificate in Computing,Diploma in Obstric & Gaynec Altra Sound"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 795864
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 884023
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 25077342,
+      "gross_total_value_spouse_rupees": 5852298,
+      "gross_total_value_dependent1_rupees": 5437072,
+      "gross_total_value_dependent2_rupees": 61196,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 36427908,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 157500,
+          "spouse_value_rupees": 115200,
+          "dependent1_value_rupees": 55250,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 327950,
+          "self_details": "1,57,500",
+          "spouse_details": "1,15,200",
+          "dependent1_details": "55,250",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 298805,
+          "spouse_value_rupees": 650085,
+          "dependent1_value_rupees": 141822,
+          "dependent2_value_rupees": 61196,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1150388,
+          "self_details": "SBI,Kubernagar,Current No 1050376xxxxx 7,238; SBI,Kubernagar,Saving No 1050381xxxxx 34,906; SBI,Kubernagar,PPF, No 1050386xxxxx 2,53,761; SBI,Kubernagar,saving No 2013616xxxxx 3,000",
+          "spouse_details": "SBI,Kubernagar,Current, No 1050376xxxxx 86,580; SBI,Kubernagar,Saving No 1050382xxxxx 56,087; SBI,Kubernagar,PPF, No 1050386xxxxx 2,39,187; SBI,Kubernagar,Current No 105606xxxxx 2,66,611",
+          "dependent1_details": "Panjab National Bank,Saving No 299700150002xxxxx 9,537; Post Office, PPF A/C.No.4515 1,31,266; Post Office,Saving, No 295xxxxx 1,019",
+          "dependent2_details": "HUF,SBI,Saving, No 3017197xxxxx 61,196",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 20000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Post Offce,Krishnanagr Kisan Vikas Patra 10,000; Post Offce,Krishnanagr Kisan Vikas Patra 10,000",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 61433401,
+          "spouse_value_rupees": 38528058,
+          "dependent1_value_rupees": 36950000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13721459,
+          "self_details": "17 LIC Polices 61,40,000; 33,401",
+          "spouse_details": "11 LIC Polices,As per Anexer 37,75,000; Reliance Policy 78,058",
+          "dependent1_details": "06 LIC Policy,As Per Anexer 27,95,000; Policy 9,00,000",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 15781584,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15781584,
+          "self_details": "Adavance Amount Given to Purchase a Banglows at Adalaj, 1,42,00,000; Given Loan to Her Husband 15,81,584",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 508000,
+          "dependent1_value_rupees": 225000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 733000,
+          "self_details": "Nil",
+          "spouse_details": "Maruti Car.No.GJ-01-HK-4597, Year-2006 5,08,000",
+          "dependent1_details": "TATA Nano, NO.MH-40KR-3155, Year-2011 2,25,000",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2386000,
+          "spouse_value_rupees": 566000,
+          "dependent1_value_rupees": 1300000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4252000,
+          "self_details": "495 GM Gold 23,86,000",
+          "spouse_details": "95 GM Gold 5,66,000",
+          "dependent1_details": "250 Gm Gold 13,00,000",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 279952,
+          "spouse_value_rupees": 161575,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 441527,
+          "self_details": "2,79,952",
+          "spouse_details": "1,61,575",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 3147000,
+      "total_current_market_value_spouse_rupees": 6168000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 9315000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 225000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 225000,
+          "self_details": "At: Rohi Village,Napasar,Dist: Bikaner,Rajasthan,S.No.999 Total Area 3.21 Acres Built Up Area  Whether Inherited N Purchase Date 2006-11-28 Purchase Cost 121000.00 Development Cost 0.00 2,25,000",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 2922000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2922000,
+          "self_details": "A-Ward,Room NO 82,Sardarnagar,Ahmedaabd, S.No.6142, 6143 Total Area 39.20 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 2003-01-22 Purchase Cost 50000.00 Development Cost 0.00 4,70,000; First Floor,Devi Jyot,Sardarnagar,Ahmedabad (Joint 50% Partner Both Husband & Wife), S.No.9141 Total Area 204.38 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 1995-08-04 Purchase Cost 50000.00 Development Cost 0.00 24,52,000",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 6168000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6168000,
+          "self_details": "Nil",
+          "spouse_details": "Banglow No 58,Urvashi Banglow,Saijpir Bougha, S.No.8220 Total Area 189 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 1998-10-03 Purchase Cost 239000.00 Development Cost 0.00 8,00,000; Flat No 3,3rd Floor,Devi Jyot Appt., S.no.6141 Total Area 43.31 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 2007-07-03 Purchase Cost 100000.00 Development Cost 0.00 5,00,000; Banglow No 6,Pramukh Residency,Randesan, S.No.141 Total Area 209 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 2009-12-04 Purchase Cost 1750000.00 Development Cost 0.00 35,53,000; Flat No 4,Devi Jyot Appt, S.No.6141 Total Area 59.45 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 2012-06-25 Purchase Cost 150000.00 Development Cost 0.00 7,15,000; Flat No 3,3rd Floor,Devi Jyot Appt., S.No.9057 Total Area 42.07 Sq.Mtr Built Up Area  Whether Inherited N Purchase Date 2012-06-25 Purchase Cost 600000.00 Development Cost 0.00 6,00,000",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 6093255,
+      "grand_total_of_liabilities_spouse_rupees": 7122589,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 13215844,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3147000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 5976255,
+          "spouse_value_rupees": 5437005,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 11584260,
+          "self_details": "ICL Finance,Margej Loan 24,17,005; Reliance Home Finance 29,50,000; LIC Against Policy Loan 1,48,250; LIC Against Policy Loan 4,57,000; LIC Against Policy Loan 71,000",
+          "spouse_details": "ICL Finance,Margej Loan 24,17,005; Reliance Home Finance 29,50,000; LIC Against Policy Loan 1,03,000; LIC Against Policy Loan 71,000",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 1581584,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1631584,
+          "self_details": "Nita Ishrani 50,000",
+          "spouse_details": "Nirmala Wadhavani 15,81,584",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 6168000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 6093255,
-      "loans_due_to_individual_entity_inr": 50000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 6093255
+    "profession_or_occupation": {
+      "self": "Doctor",
+      "spouse": "Doctor"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 5441005,
-      "loans_due_to_individual_entity_inr": 1581584,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 7122589
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "sources_of_income": {},
+    "contracts_with_government_and_public_companies": {}
   }
 }

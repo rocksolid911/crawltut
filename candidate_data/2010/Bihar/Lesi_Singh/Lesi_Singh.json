@@ -1,145 +1,300 @@
 {
   "candidate_name": "Lesi Singh",
   "party": "JD(U)",
-  "constituency": "Dhamdaha (PURNIA)",
-  "father_or_husband_name": "MADHUSUDAN SINGH",
-  "age": 36,
-  "education": "12th Pass I.A. From Bihar International Education Council Patna In 1993",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 1,
-  "assets_total_inr": 8379854,
-  "liabilities_total_inr": 7161345,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
+  "constituency": "Dhamdaha",
+  "state": "Bihar",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "MADHUSUDAN SINGH",
+      "age": 36
     },
-    "spouse": null,
-    "huf": null,
-    "dependent1": null,
-    "dependent2": null,
-    "dependent3": null
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 3837414,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 400000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 1564000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 95000,
-      "gross_total_value_inr": 5521414
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 8379854,
+      "total_liabilities_in_rupees": 7161345
     },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 0
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 840440,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 518000
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "I.A. From Bihar International Education Council Patna In 1993"
+    },
+    "criminal_cases": {
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "extortion",
+          "ipc_section": "384",
+          "count": 1
+        },
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "452, 384, 120B, 34",
+          "other_details_or_acts_sections_applicable": "27 ARMS ACT, K.Hat P.S Case No- 455/04"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "gross_total_value_self_rupees": 5521414,
+      "gross_total_value_spouse_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5521414,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 3837414,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3837414
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 681000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 106000,
+          "dependent2_value_rupees": 75000,
+          "dependent3_value_rupees": 100000,
+          "total_value_rupees": 681000
+        },
+        {
+          "sr_no": "v",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1564000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1564000
+        },
+        {
+          "sr_no": "vi",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 95000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 95000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "total_current_market_value_self_rupees": 2858440,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 2858440,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 840440,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 840440
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 518000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 518000
+        },
+        {
+          "sr_no": "iii",
+          "description": "Buildings",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1500000
+        },
+        {
+          "sr_no": "iv",
+          "description": "Houses",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "grand_total_of_liabilities_self_rupees": 7161345,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 7161345,
+      "items": [
+        {
+          "sr_no": "(a) i",
+          "description": "Loans from Banks",
+          "amount_rupees": 7129046
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans from Financial Institutions",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "(a) Dues to departments dealing with government accommodation",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "Dues to departments dealing with supply of water",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(c)",
+          "description": "Dues to departments dealing with supply of electricity",
+          "amount_rupees": 32299
+        },
+        {
+          "sr_no": "(d)",
+          "description": "Dues to departments dealing with telephones",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(e)",
+          "description": "Dues to departments dealing with supply of transport",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(f)",
+          "description": "Other Dues if any",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "(i) (a) Income Tax including surcharge [Also indicate the assessment year upto which Income Tax Return filed.]",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "Permanent Account Number (PAN)",
+          "details": "PAN given-Y"
+        },
+        {
+          "sr_no": "(ii)",
+          "description": "Wealth Tax [Also indicate the assessment year upto which Wealth Tax return filed.]",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(iii)",
+          "description": "Sales Tax [Only in case proprietary business]",
+          "amount_rupees": 0
+        },
+        {
+          "sr_no": "(iv)",
+          "description": "Property Tax",
+          "amount_rupees": 0
+        }
+      ]
+    },
+    "election_history": [
+      {
+        "declaration_in": "Bihar 2020",
+        "declared_assets_rupees": 25386712,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1500000
+      {
+        "declaration_in": "Bihar 2015",
+        "declared_assets_rupees": 19472480,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2858440
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+      {
+        "declaration_in": "Bihar Ministers 2014",
+        "declared_assets_rupees": 12226408,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 7129046,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 7129046
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 32299,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 32299
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "declaration_in": "Bihar 2005",
+        "declared_assets_rupees": 4738329,
+        "declared_cases": 2
+      }
+    ]
   }
 }

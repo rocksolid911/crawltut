@@ -1,173 +1,635 @@
 {
   "candidate_name": "SURESH MODI",
   "party": "INC",
-  "constituency": "NEEM KA THANA (SIKAR)",
-  "father_or_husband_name": "Late Shri Mohan Lal",
-  "age": 74,
-  "education": "Graduate Professional Chartered Accountant passing Year 1975 From The Institute of Chartered Accountants of India New Delhi , Bachelor of Commerce passing Year 1970 From Rajasthan University , SNKP Govt. College, Neemkathana",
-  "profession_self": "Member of Legislative Assembly , Rajasthan",
-  "profession_spouse": "Business",
-  "criminal_cases": 1,
-  "assets_total_inr": 140369827,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 1509139,
-        "2021-2022": 321670,
-        "2020-2021": 1587020,
-        "2019-2020": 1229950,
-        "2018-2019": 1237700
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 303080,
-        "2021-2022": 183020,
-        "2020-2021": 129710,
-        "2019-2020": 113180,
-        "2018-2019": 1063980
-      }
-    },
-    "huf": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 101579,
-      "bank_deposits_inr": 8570201,
-      "bonds_debentures_shares_inr": 7912040,
-      "nss_postal_savings_inr": 131460,
-      "lic_other_insurance_inr": 250000,
-      "personal_loans_advance_given_inr": 43986792,
-      "motor_vehicles_inr": 100000,
-      "jewellery_inr": 11300000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 75627150
-    },
-    "spouse": {
-      "cash_inr": 255319,
-      "bank_deposits_inr": 1939751,
-      "bonds_debentures_shares_inr": 1002000,
-      "nss_postal_savings_inr": 50100,
-      "lic_other_insurance_inr": 197287,
-      "personal_loans_advance_given_inr": 500000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 20600000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 24544457
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 6200000,
-      "non_agricultural_land": {
-        "description": "Residential Plot A-84 , A-85, A-86 balaji Enclave Phase -1, Village Siroli, Sanganer Jaipur & Residential Plot C-45, C-46 Ward No. 2 Neem Ka Thana",
-        "total_area_sqft": 16853.76,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 21500000
+  "constituency": "NEEM KA THANA",
+  "state": "Rajasthan",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Shri Mohan Lal",
+      "age": 74,
+      "voter_enrolled_in": {
+        "constituency": "38 Neem Ka Thana",
+        "state": "Rajasthan",
+        "serial_no": 11,
+        "part_no": 148
       },
-      "commercial_buildings_inr": 835000,
-      "residential_buildings": {
-        "description": "3.5/8th Share in constructed House A-117 Janta Colony Jaipur Having Plot Area 740.48 Sq.Yard & 1/7th Share in Constructed House Maya Bhawan Chhawani Neemkathana Having Plot Area 500 Sq.Yard",
-        "total_area_sqft": 3558.51,
-        "built_up_area_sqft": 3558.51,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 7200000
+      "self_profession": "Member of Legislative Assembly , Rajasthan",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 140369827,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "Chartered Accountant passing Year 1975 From The Institute of Chartered Accountants of India New Delhi , Bachelor of Commerce passing Year 1970 From Rajasthan University , SNKP Govt. College, Neemkathana"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 1509139
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 321670
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1587020
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1229950
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 1237700
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 303080
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 183020
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 129710
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 113180
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 1063980
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery of valuable security, will, etc.",
+          "ipc_section": "467",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery for purpose of cheating",
+          "ipc_section": "468",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for extortion",
+          "ipc_section": "384",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Using as genuine a forged document or electronic record",
+          "ipc_section": "471",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "329/2022, Police Thana Kotwali Neem Ka Thana",
+          "case_no": "F.R. No 84/2023, C.I.S. No. 355/2023",
+          "court": "ACJM Serial No.1, Neem Ka Thana",
+          "ipc_sections_applicable": "452, 467, 468, 420, 384, 471, 120B",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 75334790,
+      "gross_total_value_spouse_rupees": 24544457,
+      "gross_total_value_huf_rupees": 570580,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 100449827,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 679293,
+          "spouse_value_rupees": 255319,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1036191,
+          "self_details": "6,79,293  6 Lacs+ Kohinoor Marbles Jaipur  1,01,579  1 Lacs+",
+          "spouse_details": "2,55,319  2 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 8570201,
+          "spouse_value_rupees": 1939751,
+          "huf_value_rupees": 71580,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10581532,
+          "self_details": "State Bank of India Malviya Marg Jaipur Current Bank No 3237308xxxxx Rs 6,31,845/- (ii) State Bank of India Kamla Modi Market Neem Ka Thana SB No 3816072xxxxx 45,468/- (iii) ICICI Bank Ltd. Janta Colony Jaipur SB Bank No 67570112xxxxx 93,722 (iv) Allahabad Bank Janta Colony Jaipur SB A/c No. 1,949 (v) Kotak Mahindra Bank Ltd. S.P. Marg Jaipur Current No 0271210000xxxxx 24,791 (vi)ICICI Bank Ltd. Janta Colony Jaipur Current A/c No. 4,122/- (vii) ICICI Bank Ltd. Janta Colony Jipur Cureent No 67570511xxxxx 26,193/- (viii) FD ICICI Bank Ltd. Janta Colony Jaipur 11,18,605 (ix) State Bank of India Kamla Modi Market Neem ka Thana 27,32,476/- (x) FD Kohinoor Marbles ICICI Bank Ltd. Janya Colony Jaipur 7,23,108/- (xi) Kotak Mahindra Bank Limited S.P. Marg Jaipur 31,67,922/-",
+          "spouse_details": "(1) ICICI Bank Ltd. Neem Ka Thana SB No 67200104xxxxx Rs 66,567 , (ii) CICI Bank Ltd. Janta Colony Jaipur SB No 67570109xxxxx 2,91,341 (iii) Allahabad Bank Janta Colony Jaipur SB A/c No. 2,585/- (iv) FD ICICI Bank Ltd. Neem Ka Thana 98,727/- (v) ICICI Bank Ltd. Janta Coloy Jaipur 14,80,531/- (vi) ICICI Bank Limited Janta Colony Jaipur 14,80,531/-",
+          "huf_details": "Kotak Mahindra Bank Ltd. S.P. Marf Jaipur SB No 801147xxxxx 71,580  71 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 12508825,
+          "spouse_value_rupees": 1002000,
+          "huf_value_rupees": 499000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13910825,
+          "self_details": "Coal India  1,17,490  1 Lacs+ ICICI Bank  7,85,318  7 Lacs+ NTPC  1,25,967  1 Lacs+ NTPC  5,739  5 Thou+ ONGC  1,03,599  1 Lacs+ Petronet LNG 95,980  95 Thou+ Power Grid  1,57,803  1 Lacs+ Rpower  1,001  1 Thou+ TCS 4,79,890  4 Lacs+ NSE Market  2,92,360  2 Lacs+ Shri Modi Minerals Grinding Mills Pvt. Ltd.  79,12,040  79 Lacs+ Mutual Funds Nippon India Tax Saver Fund Rs. 930638/- Fund Value  9,30,638  9 Lacs+",
+          "spouse_details": "Shares in Unlisted Co.s Shri Modi Mineral Grindinag Mills Pvt.  10,02,000  10 Lacs+",
+          "huf_details": "Shares in Unlisted Co. Modi Grani Marmo PVt. Ltd. 4,99,000  4 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 131460,
+          "spouse_value_rupees": 50100,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 181560,
+          "self_details": "NSC Year 2000 9,400  9 Thou+ PPF 1,22,060  1 Lacs+",
+          "spouse_details": "NSC Year 2000 50,100  50 Thou+"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 197287,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 447287,
+          "self_details": "LIC Pension Policy  50,000  50 Thou+ HDFC Life Policy  2,00,000  2 Lacs+",
+          "spouse_details": "LIC sum Assured Rs. 200000/- 1,97,287  1 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 433556792,
+          "spouse_value_rupees": 500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 43986792,
+          "self_details": "Capital Account in Kohinoor Marbles  3,26,62,412  3 Crore+ Modi Grani Marmo Pvt. Ltd.  36,63,363  36 Lacs+ Shri Modi Mineral Grinding Mills Pvt. Ltd.  20,70,694  20 Lacs+ Loans Given to Relatives  50,90,323  50 Lacs+",
+          "spouse_details": "Amit Modi  5,00,000  5 Lacs+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100000,
+          "self_details": "Cher Volet Beat Car (in firm kohinoor marbles but in the name of applicant) RJ14CE8666 Buy Rs. 578849/- 1,00,000  1 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 11300000,
+          "spouse_value_rupees": 20600000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 31900000,
+          "self_details": "(i) 45.37 Kg. Silver Buy in 1972-1974 Rs. 24200/-, (ii) 1456.409 Gram Gold Buy in 1987-88 Rs. 113763/- 1,13,00,000  1 Crore+",
+          "spouse_details": "(i) 44.50 Kg. Silver Buy in 1974-75 Rs. 34540/-, (ii) Gold 3029.21 Gram Buy in 1987-88, (iii) Diamond 63.25 Ct. Pearl, 93.45 CT Stong, 23.96 CT. Sarafa, 18.80 CT. Lakh 21.70 CT Beats 15.50 CT, Buy Value Rs. 939915/- 2,06,00,000  2 Crore+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 35735000,
+      "total_current_market_value_spouse_rupees": 4185000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 39920000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 6200000,
+          "spouse_value_rupees": 875000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7075000,
+          "self_details": "(i) Khasra No. 737/720 Rakba 4 Bighas 2 Biswa Buy 21.04.2004 Rs. 167820/- situated at Village Dunkar sujangarh Churu Rajasthan , (ii) Khasra No. 3060/896 Rakba 1.24 Hectare Situated at Village Sirohi Neem Ka Thana (Inherited) (iii) 3/8th Share Khata No. 499 Neem ka Thanan Kul Kita 8, Kul Rakba 4.05 hectare (Inherted) Total Area 9.35 Acre Built Up Area  Whether Inherited Y Purchase Date 2004-04-21 Purchase Cost 167820.00 Development Cost 0.00 62,00,000  62 Lacs+",
+          "spouse_details": "Khasra No. 563 Rakba 14 Bighas 12 Biswa Buy 11-06-2007 Rs.255791/- Situated at Village Dunkra Sujangarh Churu Rajasthan  Total Area 8.95 Acre Built Up Area  Whether Inherited N Purchase Date 2007-06-11 Purchase Cost 255791.00 Development Cost 0.00 8,75,000  8 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 21500000,
+          "spouse_value_rupees": 1285000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 22785000,
+          "self_details": "(i) Residential Plot A-84 , A-85, A-86 balaji Enclave Phase -1, Village Siroli, Sanganer Jaipur 216.66*3=649.98 Sq.Yard Buy 21-09-2005 Rs. 488250/-, (ii) Residential Plot C-45, C-46 Ward No. 2 Neem Ka Thana Buy 1966-67 & 1970-71 Rs. 10546/- Total Area 16853.76 Sq.ft. Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,15,00,000  2 Crore+",
+          "spouse_details": "Plot A-103, S-104 Village Paloo Khurd Tehsil Mojmabad, Jaipur 1000*2-2000 Sq.Yard Buy 23.12.2006 Rs. 495100/- & A-239 & A-240, 1000*2-2000 Sq.Yard Buy 06-02-2007 Rs. 495100/- Total Area 36000 Sq.ft Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 12,85,000  12 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 835000,
+          "spouse_value_rupees": 2025000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2860000,
+          "self_details": "B-5 Shubhlabh Apartments D-37 Subhash Marg C-Scheme Jaipur Basement Office Total Area 669.75 Sq.ft. Built Up Area 669.75 Sq.ft. Whether Inherited N Purchase Date 2003-01-01 Purchase Cost 316330.00 Development Cost 0.00 8,35,000  8 Lacs+",
+          "spouse_details": "(i) Mineral Marble Mining Lease No. 150/91 Village kundala ki Dhani Dokan patan Neem Ka Thana (ii) Weghbridge Machinery Neemkathana & Village khirod  Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 20,25,000  20 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 7200000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7200000,
+          "self_details": "(i) 3.5/8th Share in constructed House A-117 Janta Colony Jaipur Having Plot Area 740.48 Sq.Yard (ii) 1/7th Share in Constructed House Maya Bhawan Chhawani Neemkathana Having Plot Area 500 Sq.Yard Total Area 3558.51 Sq.ft. Built Up Area 3558.51 Sq.ft; Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 72,00,000  72 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 35735000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 875000,
-      "non_agricultural_land": {
-        "description": "Plot A-103, S-104 Village Paloo Khurd Tehsil Mojmabad, Jaipur & A-239 & A-240",
-        "total_area_sqft": 36000,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1285000
+    "profession_or_occupation": {
+      "self": "Member of Legislative Assembly , Rajasthan",
+      "spouse": "Business"
+    },
+    "sources_of_income": {
+      "self": "Business",
+      "spouse": "Business & Interest",
+      "dependent": "Nil"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
+    },
+    "other_elections": [
+      {
+        "election": "Rajasthan 2018",
+        "declared_assets_rupees": 123235269,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 2025000,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 4185000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Business",
-    "spouse": "Business & Interest",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+      {
+        "election": "Rajasthan 2013",
+        "declared_assets_rupees": 71901814,
+        "declared_cases": 0
+      }
+    ]
   }
 }

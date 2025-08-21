@@ -1,137 +1,386 @@
 {
-  "candidate_name": "CHAUDHARY MATEEN AHMAD",
+  "name": "CHAUDHARY MATEEN AHMAD",
+  "election_status": "Winner",
+  "constituency": "SEELAMPUR",
+  "district": "NORTH-EAST",
+  "state": "Delhi",
+  "election_year": 2013,
   "party": "INC",
-  "constituency": "SEELAMPUR (NORTH-EAST)",
-  "father_or_husband_name": "Late Ch.Mahfooj Ali",
+  "father_or_spouse_name": "Late Ch.Mahfooj Ali",
   "age": 55,
-  "education": "Graduate, 10th Pass From Devnagri Intermidate College Meerut UP In 1974,12th Pass FromDr.RMLS Intermidate College Garh Mukteshwar Meerut UP In 1976,BA From Kishan Degree Coolege Simbhawali Meerut University .known As Choaudhry Charan Singh University In 1978",
-  "profession_self": "Social Worker",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 6286570,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 389939
-      }
+  "voter_enrolled_details": {
+    "constituency": "Seelampur (Delhi)",
+    "serial_no": 499,
+    "part_no": 54
+  },
+  "profession": {
+    "self": "Social Worker",
+    "spouse": "House Wife"
+  },
+  "other_elections_declarations": [
+    {
+      "election": "Delhi 2020",
+      "declared_assets_rupees": 8634868,
+      "declared_criminal_cases": 1
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 214010
-      }
+    {
+      "election": "Delhi Election 2015",
+      "declared_assets_rupees": 6238464,
+      "declared_criminal_cases": 0
     },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    {
+      "election": "Delhi 2008",
+      "declared_assets_rupees": 2903050,
+      "declared_criminal_cases": 1
     }
+  ],
+  "assets_and_liabilities": {
+    "assets_rupees": 6286570,
+    "liabilities_rupees": 0
+  },
+  "educational_details": {
+    "category": "Graduate",
+    "description": "10th Pass From Devnagri Intermidate College Meerut UP In 1974, 12th Pass From Dr.RMLS Intermidate College Garh Mukteshwar Meerut UP In 1976, BA From Kishan Degree Coolege Simbhawali Meerut University .known As Choaudhry Charan Singh University In 1978"
+  },
+  "pan_and_income_tax": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "returns": [
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2012 - 2013",
+        "total_income_shown_in_itr_rupees": 389939
+      },
+      {
+        "relation_type": "spouse",
+        "pan_given": true,
+        "financial_year": "2012 - 2013",
+        "total_income_shown_in_itr_rupees": 214010
+      },
+      {
+        "relation_type": "dependent1",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent2",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent3",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      }
+    ]
+  },
+  "criminal_cases": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "details": "No criminal cases"
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 123950,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 223950
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 212620,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 800000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1062620
-    }
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "details": [
+      {
+        "description": "Cash",
+        "self_rupees": 100000,
+        "spouse_rupees": 50000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 150000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_details": [
+          {"bank": "Central Bank Of India Seealmpur Branch Delhi", "account_no": "118716xxxxx", "amount_rupees": 24436},
+          {"bank": "PNB Bhowapur Up", "account_no": "126300010012xxxxx", "amount_rupees": 99514}
+        ],
+        "spouse_details": [
+          {"bank": "Central Bank Of India Seealmpur Branch Delhi", "account_no": "118720xxxxx", "amount_rupees": 212620}
+        ],
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 336570
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_rupees": 0,
+        "spouse_details": [
+          {"item": "Gold", "weight_grams": 250, "value_rupees": 775000},
+          {"item": "Silver", "weight_grams": 500, "value_rupees": 25000}
+        ],
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 800000
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ],
+    "gross_total_value_self_rupees": 223950,
+    "gross_total_value_spouse_rupees": 1062620,
+    "gross_total_value_dependent1_rupees": 0,
+    "gross_total_value_dependent2_rupees": 0,
+    "gross_total_value_dependent3_rupees": 0,
+    "gross_total_value_overall_rupees": 1286570
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3000000,
-      "non_agricultural_land": {
-        "description": "Plot No-12A Inderlook Colony Haridwar Utteakhand",
-        "area_sq_mtr": 200,
-        "inherited": "N",
-        "purchase_date": "2006-07-11",
-        "purchase_cost_inr": 545000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2000000
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "details": [
+      {
+        "description": "Agricultural Land",
+        "self_details": [
+          {
+            "location": "Village Todarpur P.S Simbhawali Dist-Hapur UP",
+            "total_area": "15 Bigha",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": null,
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_market_value_rupees": 3000000
+          }
+        ],
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 3000000
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 5000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
+      {
+        "description": "Non Agricultural Land",
+        "self_details": [
+          {
+            "location": "Plot No-12A Inderlook Colony Haridwar Utteakhand",
+            "total_area": "200 sq.mtrs.",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2006-07-11",
+            "purchase_cost_rupees": 545000,
+            "development_cost_rupees": 0,
+            "current_market_value_rupees": 2000000
+          }
+        ],
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 2000000
+      },
+      {
+        "description": "Commercial Buildings",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Residential Buildings",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Others",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ],
+    "total_current_market_value_self_rupees": 5000000,
+    "total_current_market_value_spouse_rupees": 0,
+    "total_current_market_value_dependent1_rupees": 0,
+    "total_current_market_value_dependent2_rupees": 0,
+    "total_current_market_value_dependent3_rupees": 0,
+    "total_current_market_value_overall_rupees": 5000000
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "loans_from_banks_or_fis": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 0
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "loans_due_to_individual_or_entity": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 0
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
+    "any_other_liability": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 0
     },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "grand_total_of_liabilities_as_per_affidavit_rupees": 0,
+    "dues_to_departments": {
+      "government_accommodation": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "supply_of_water": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "supply_of_electricity": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "telephones": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "supply_of_transport": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "income_tax_dues": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "wealth_tax_dues": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "service_tax_dues": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "property_tax_dues": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "sales_tax_dues": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      "any_other_dues": {
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    },
+    "grand_total_of_all_govt_dues_as_per_affidavit_rupees": 0,
+    "other_liabilities_in_dispute": {
+      "has_dispute": false,
+      "amount_involved_rupees": 0,
+      "authority_pending": null
+    }
   }
 }

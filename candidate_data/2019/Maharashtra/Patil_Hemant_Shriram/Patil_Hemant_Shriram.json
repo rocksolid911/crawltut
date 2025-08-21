@@ -1,135 +1,618 @@
 {
   "candidate_name": "PATIL HEMANT SHRIRAM",
   "party": "SHS",
-  "constituency": "NANDED SOUTH (NANDED)",
-  "father_or_husband_name": "Patil Shri Ram Bhagavanrao",
-  "age": 43,
-  "education": "Graduate BSC 1993 from Science College Nanded, Marathwada Univeristy Auranagabad",
-  "profession_self": "Business",
-  "profession_spouse": "Framing and Business",
-  "criminal_cases": 16,
-  "assets_total_inr": 26907571,
-  "liabilities_total_inr": 21630004,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 518920
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 322492
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 78534,
-      "bonds_debentures_shares_inr": 1058280,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 18064361,
-      "motor_vehicles_inr": 800000,
-      "jewellery_inr": 140000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 20641175
-    },
-    "spouse": {
-      "cash_inr": 300000,
-      "bank_deposits_inr": 71563,
-      "bonds_debentures_shares_inr": 1000100,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1503494,
-      "jewellery_inr": 280000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3155157
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Talegaon, Khu. Ta. Egatpuri, Dist- nashik, gat No.271/72, Plot No.230",
-        "area_sq_mtr": 430.8,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 350000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+  "constituency": "NANDED SOUTH",
+  "state": "Maharashtra",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Patil Shri Ram Bhagavanrao",
+      "age": 43,
+      "voter_enrolled_in": {
+        "constituency": "87 Nanded South",
+        "state": "Maharashtra",
+        "serial_no": 125,
+        "part_no": 60
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1000000
+      "self_profession": "Business",
+      "spouse_profession": "Framing and Business"
     },
-    "spouse": {
-      "agricultural_land": {
-        "description": "Sastur, Ta. Umarga, Dist- Usmanabad, gat No.75/2; Sarangpur, Ta. Ner, Dist- yawatmal, gat No.43",
-        "area_acre_guntha": "1 acre 1 Guntha; 27 Acre 2 Guntha",
-        "inherited": "N; Y",
-        "purchase_date": "0000-00-00; 0000-00-00",
-        "purchase_cost_inr": "0; 0",
-        "development_cost_inr": "0; 0",
-        "current_market_value_inr": "200000; 2300000"
+    "summary": {
+      "criminal_cases_count": 16,
+      "total_assets_in_rupees": 26907571,
+      "total_liabilities_in_rupees": 21630004
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "BSC 1993 from Science College Nanded, Marathwada Univeristy Auranagabad"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 518920
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 322492
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by destroying or moving, etc., a land- mark fixed by public authority Mischief by fire or explosive substance with intent to cause damage to amount of one hundred or (in case of agricultural produce) ten rupees",
+          "ipc_section": "435",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 5
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Rash driving or riding on a public way",
+          "ipc_section": "279",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Obstructing public servant in discharge of public functions",
+          "ipc_section": "186",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Causing grievous hurt by act endangering life or personal safety of others",
+          "ipc_section": "338",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 147, 186, 188, 341, 353",
+          "other_details_or_acts_sections_applicable": "Police Station-Vazirabad, Nanded, Maharashtra, CR No.20/2007, SSC No.77/2009, Court taking Cognizance- JMFC VII Nanded, Date of Cognizance-06.01.2009"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "234 B.P. Act, Police Station-Wazirabad, Nanded, Maharashtra, CR No.141/2008, SSC No.58/2011, Court taking Cognizance- JMFC IIIrd Nanded, Date of Cognizance-11.01.2011"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Police Station-Wazirabad, Nanded, Maharashtra, CR No.47/2014, Court taking Cognizance- JMFC IIIrd Nanded, SSC No.1019/2008, Date of Cognizance-22.09.2008"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 143, 241, 135 B. P. Act, Police Station-Shivajinagar, Nanded, Maharashtra, CR No.91/2002, Court taking Cognizance- JMFC VIIth Nanded, SSC No.1019/2005, Date of Cognizance-11.11.2005"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 3,4 Prevention of Damage to Public Property Act, Police Station-Shivajinagar, Nanded, Maharashtra, CR No.16/2013, Court taking Cognizance- JMFC IIIrd Nanded, SSC No.127/2014, Date of Cognizance-23.01.2014"
+        },
+        {
+          "serial_no": 6,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "153 B.P. Act, Police Station-Shivaji Nagar, Nanded, Maharashtra, CR No.36/2013, Court taking Cognizance- CJM Nanded, SSC No.2267/2008, Date of Cognizance-26.03.2009"
+        },
+        {
+          "serial_no": 7,
+          "ipc_sections_applicable": "452, 427, 504, 506",
+          "other_details_or_acts_sections_applicable": "Police Station-Shivajinagar, Nanded, Maharashtra, CR No.28/2010, Court taking Cognizance- JMFC IVth Nanded, RCC No.627/2003, Date of Cognizance-03.12.2005"
+        },
+        {
+          "serial_no": 8,
+          "ipc_sections_applicable": "143, 435, 188",
+          "other_details_or_acts_sections_applicable": "Police Station-Shivajinagar, Nanded, Maharashtra, CR No.40/2011, Court taking Cognizance- JMFC VIIIth Nanded, RCC No.308/2010, Date of Cognizance-18.05.2010"
+        },
+        {
+          "serial_no": 9,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "135 B.P. Act, Police Station-Bhagyanagar, Nanded, Maharashtra, CR No.210/2006, Court taking Cognizance- JMFC Vth Nanded, SSC No.560/2007, Date of Cognizance-20.03.2007"
+        },
+        {
+          "serial_no": 10,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "135 B.P. Act, CR No. 8/2005, Nanded, Maharashtra, Court taking Cognizance- JMFC Morning Nanded, SSC No.793/2005, Date of Cognizance-12.01.2006"
+        },
+        {
+          "serial_no": 11,
+          "ipc_sections_applicable": "279, 338",
+          "other_details_or_acts_sections_applicable": "CR No. 46/2002, Nanded, Maharashtra, Court taking Cognizance- JMFC IInd Nanded, SSC No.1901/2002, Date of Cognizance-30.12.2005"
+        },
+        {
+          "serial_no": 12,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 174(A) Railway Act, CR No.290/2006, Nanded, Maharashtra, Court taking Cognizance- JMFC Railway Court Nanded, SSC No.714/2007, Date of Cognizance- 14.05.2007"
+        },
+        {
+          "serial_no": 13,
+          "ipc_sections_applicable": "143, 534",
+          "other_details_or_acts_sections_applicable": "CR No. 273/2005, Police Station-Itwara Nanded, Maharashtra, Court taking Cognizance- Addl. Judicial Magistrate First Class Nanded, SSC No.73/2007, Date of Cognizance- 17.01.2007"
+        },
+        {
+          "serial_no": 14,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 174(A) Railway Act, Police Station-Railway, Nanded, CR No.475/2006, Court taking Cognizance- CJM Aurangabad Railway, SSC No.3955/2006, Date of Cognizance- 02.12.2006"
+        },
+        {
+          "serial_no": 15,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Police Station-Wazirabad, Nanded, Maharashtra, CR No.141/2008"
+        },
+        {
+          "serial_no": 16,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Police Station- Railway, Nizamabad, CR No. Year 2004"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 20652583,
+      "gross_total_value_spouse_rupees": 3155157,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 23807740,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 300000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 800000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 89533,
+          "spouse_value_rupees": 71563,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 160596
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 1050540,
+          "spouse_value_rupees": 1000100,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2059289
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 18064361,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18064361
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": 1503494,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2303494
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 140000,
+          "spouse_value_rupees": 280000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 420000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 10000000,
+      "total_current_market_value_spouse_rupees": 25000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 35000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 2500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000000,
+          "spouse_details": [
+            {
+              "location": "Sastur, Ta. Umarga, Dist- Usmanabad, gat No.75/2",
+              "total_area": "1 acre 1 Guntha",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000
+            },
+            {
+              "location": "Sarangpur, Ta. Ner, Dist- yawatmal, gat No.43",
+              "total_area": "27 Acre 2 Guntha",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2300000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000000,
+          "self_details": [
+            {
+              "location": "Talegaon, Khu. Ta. Egatpuri, Dist- nashik, gat No.271/72, Plot No.230",
+              "total_area": "4632.18sqft",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 350000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 18714361,
+      "grand_total_of_liabilities_spouse_rupees": 2915643,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 21630004,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 18714361,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 18714361
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 18714361,
+          "spouse_value_rupees": 2915643,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 21630004,
+          "self_details": [
+            {
+              "bank": "Dombiwali nagri Bank",
+              "branch": "Aurangabad",
+              "amount_rupees": 18064361
+            },
+            {
+              "bank": "State Bank Of hyadrabad",
+              "branch": "Shivajinagar, nanded",
+              "amount_rupees": 650000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI",
+              "branch": "Taroda naka",
+              "loan_type": "Car Loan",
+              "amount_rupees": 1415643
+            },
+            {
+              "bank": "SBI",
+              "branch": "Killari",
+              "loan_type": "CC Loan",
+              "amount_rupees": 1500000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 2915643,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2915643
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 18594458,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Maharashtra 2009",
+        "declared_assets_rupees": 2283187,
+        "declared_cases": 10
+      }
+    ]
   }
 }

@@ -1,140 +1,536 @@
 {
   "candidate_name": "Kulwant Rana",
   "party": "BJP",
-  "constituency": "RITHALA (NORTH-WEST)",
-  "father_or_husband_name": "Devendra Rana",
-  "age": 42,
-  "education": "12th Pass",
-  "profession_self": "Social Service, MLA From A-06, Rithala",
-  "profession_spouse": "Director Academic In GD Goenka Public School, Sector - 9, Rohini Delhi",
-  "criminal_cases": 3,
-  "assets_total_inr": 58262093,
-  "liabilities_total_inr": 14663613.10,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 340970
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 890500
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 1088692,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 300000,
-      "motor_vehicles_inr": 2120138,
-      "jewellery_inr": 450000,
-      "other_assets_inr": 300000,
-      "gross_total_value_inr": 4783800
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 1202793,
-      "bonds_debentures_shares_inr": 2124500,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 200000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 900000,
-      "other_assets_inr": 250000,
-      "gross_total_value_inr": 4693293
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 13500000,
-      "non_agricultural_land": {
-        "description": "Nil"
+  "constituency": "RITHALA",
+  "state": "Delhi",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Devendra Rana",
+      "age": 42,
+      "voter_enrolled_in": {
+        "constituency": "06 Rithala",
+        "state": "Delhi",
+        "serial_no": 1060,
+        "part_no": 5
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Village - Shahbad Daulatpur, Delhi, Survey No. 291, Area - 2250 Sq. Ft., Share - 750 Sq. Ft.",
-        "total_area_sqft": 750,
-        "built_up_area_sqft": 0,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 300000
+      "self_profession": "Social Service, MLA From A-06, Rithala",
+      "spouse_profession": "Director Academic In GD Goenka Public School, Sector - 9, Rohini Delhi"
+    },
+    "summary": {
+      "criminal_cases_count": 3,
+      "total_assets_in_rupees": 58262093,
+      "total_liabilities_in_rupees": 14663613.10
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "10Th Pass From CBSE From Govt. Model Sr. Sec. School, Civil Lines, Delhi In 1987. 12Th Pass From Board Of School Edu. Haryana In 2010"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 340970
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 890500
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+          "ipc_section": "332",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Voluntarily causing grievous hurt to deter public servant from his duty",
+          "ipc_section": "333",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Obstructing public servant in discharge of public functions",
+          "ipc_section": "186",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of abetment if the act abetted is committed in consequence, and where no express provision is made for its punishment",
+          "ipc_section": "109",
+          "count": 1
+        }
+      ],
+      "charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "147, 149, 186, 353, 332, 333",
+          "other_details_or_acts_sections_applicable": "FIR NO.686/2008, POLICE STATION-PRASHANT VIHAR, DELHI, COURT TAKING COGNIZANCE :- SH. MANISH KHURANA, LD. MM., ROHINI COURTS, NEW DELHI, DATE OF COGNIZANCE :-26/07/2012, COURT WHICH CHARGE FRAMED:-SH. SANJEEV KUMAR, LD ASJ, ROHINI COURTS, NEW DELHI, DATE OF CHARGE FRAMED:-15/10/2013"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "353",
+          "other_details_or_acts_sections_applicable": "FIR NO.179/2008. POLICE STATION-IP ESTATE, NEW DELHI, COURT TAKING COGNIZANCE:- LD. ILAQA MM, CENTRAL DELHI, TIS HAZARI COURT, DELHI, DATE OF COGNIZANCE :-17/03/2009, COURT WHICH CHARGE FRAMED:- MS. TWINKLE WADHWA, LD MM, TIS HAZARI COURTS, DELHI, DATE OF CHARGE FRAMED:-16/07/2010"
+        }
+      ],
+      "cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "147, 148, 109, 332, 353, 186",
+          "other_details_or_acts_sections_applicable": "DETAILS OF CASES:- 3 OF THE PREVENTION OF DAMAGE TO PUBLIC PROPERTY ACT. 1987, FIR NO.308/2006, POLICE STATION-ROHINI, NEW DELHI, COURT TAKING COGNIZANCE:- SH. VISHAL SINGH, LD. MM.ROHINI COURTS, NEW DELHI, DATE OF COGNIZANCE:-12/12/2008"
+        }
+      ],
+      "convicted_cases": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 4783800,
+      "gross_total_value_spouse_rupees": 4693293,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9477093,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 25000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "self_details": "25,000",
+          "spouse_details": "25,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1088562,
+          "spouse_value_rupees": 1193793,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2282455,
+          "self_details": "DSCB Shahbad Daulatpur, SB No 02500500xxxxx 12,570; SBI, Sector - 7, Rohini, SB No 3116277xxxxx 3,25,532; SBI Sector - 7, Rohini, SB No 3343037xxxxx 7,50,560",
+          "spouse_details": "DSCB Shahbad Daulatpur, SB No 02500500xxxxx 11,92,793; SBI, Sector - 7, Rohini, SB No 3344873xxxxx 1,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 2124500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2124500,
+          "self_details": "Nil",
+          "spouse_details": "Equity Shares In Saroj Buildwell And Construction Comapany Pvt. Ltd. 50,000; SBP Industries Pvt. Ltd. 20,24,500; Vishwanath Power Solutions Pvt. Ltd. 50,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 700000,
+          "self_details": "LIC Policy 5,00,000",
+          "spouse_details": "SBI Life Insurance 2,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 300000,
+          "self_details": "3,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2120138,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2120138,
+          "self_details": "Car Toyota Fortuner, Reg. No. DL12C0007 21,20,138",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 450000,
+          "spouse_value_rupees": 900000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1350000,
+          "self_details": "Gold, Diamond - 125gm 4,50,000",
+          "spouse_details": "Gold, Diamond Stone, Silver - 1.7kg 9,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 250000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 550000,
+          "self_details": "Household Goods & Eqipments And Office Equipments 3,00,000",
+          "spouse_details": "Household Goods & Eqipments And Office Equipments 2,50,000"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 138000000,
+      "total_current_market_value_spouse_rupees": 349850000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 487850000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 13500000,
+          "spouse_value_rupees": 334850000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 409850000,
+          "self_details": "Village - Shahbad, Daulatpur, Khasra No. 44/4/2, 7/1(5-13), Area - 51274 Sq. Ft., Candidate Share - 17091.25 Sq. Ft., Development Cost On Total Land - Rs. 1500000, (Share - 1/3) Total Area 17091.25 Sq. Ft. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,35,00,000",
+          "spouse_details": "Village - Murthal, HR, Khewat No. 6Min, Khata No. 10Min, Area - 1/3rd Share Out Of 5.61875 Acre Total Area 1.872 Acre Built Up Area  Whether Inherited N Purchase Date 2006-11-21 Purchase Cost 1590135.00 Development Cost 0.00 60,00,000; Village - Murthal, Khewat No. 749, Khata No. 1086, Area - 1/3rd Share Out Of 4.2625 Acre, Date of Purchase - 11.12.2006, Cost of Purchase - Rs. 1877068  Total Area 1.420 Acre Built Up Area  Whether Inherited N Purchase Date 2006-12-11 Purchase Cost 1877068.00 Development Cost 0.00 45,50,000; Village - Murthal, Khewat No. 1093Min, Khata No. 1520Min, Area - 1/3rd Share Out Of 2.6375 Acre Total Area 0.6789 Acre Built Up Area  Whether Inherited N Purchase Date 2007-03-13 Purchase Cost 447268.00 Development Cost 0.00 28,15,000; Village - Murthal, Khewat No. 47, 50, 51, Khata No. 71, 86, 09 Total Area 2.24375 Acre Built Up Area  Whether Inherited N Purchase Date 2008-05-08 Purchase Cost 3603203.00 Development Cost 0.00 71,80,000; Village - Dariyapur Kalan, Tahsil - Narela, Distt. - N/W, Khasra No. 21/13(4-16), 21/18(4-16), Share - 1/2nd Out Of 2 Acre Total Area 1 Acre Built Up Area  Whether Inherited N Purchase Date 2012-05-22 Purchase Cost 5565050.00 Development Cost 0.00 60,00,000; Village - Dariyapur Kalan, Tahsil - Narela, Distt. - N/W, Khasra No. 21/19(0-15), 21/20(0-15), Share - 1/2nd Of 0.3125 Acre Total Area 0.15625 Acre Built Up Area  Whether Inherited N Purchase Date 2012-05-22 Purchase Cost 869583.00 Development Cost 0.00 9,40,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 10000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000000,
+          "self_details": "Nil",
+          "spouse_details": "Village - Samaypur, Delhi, Khasra No. 33/16 Total Area 9450 Sq. Ft. Built Up Area  Whether Inherited N Purchase Date 2011-03-08 Purchase Cost 500000.00 Development Cost 0.00 10,00,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 65000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 65000000,
+          "self_details": "Nil",
+          "spouse_details": "Godown In Village - Shahbad, Daulatpur, Khasra No. 34/17, 34/24 Total Area 7614 Sq. Ft. Built Up Area  Whether Inherited N Purchase Date 2006-05-08 Purchase Cost 400000.00 Development Cost 0.00 50,00,000; Godown In Village - Shahbad Daulatpur, Khasra No. 50/9/1 Total Area 9000 Sq. Ft. Built Up Area  Whether Inherited N Purchase Date 2011-07-14 Purchase Cost 500000.00 Development Cost 300000.00 15,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": "Village - Shahbad Daulatpur, Delhi, Survey No. 291, Area - 2250 Sq. Ft., Share - 750 Sq. Ft. Total Area 750 Sq. Ft. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 3,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 447544,
+      "grand_total_of_liabilities_spouse_rupees": 14216069,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 14663613,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 13800000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 447544,
+          "spouse_value_rupees": 11916069.10,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12363613.10,
+          "self_details": "Car Loan From SBI, Sector - 7, Rohini 4,47,544",
+          "spouse_details": "Home Loan From ICICI Bank, Sector - 9, Rohini(Saroj Buildwell Pvt. Ltd. Is Co-applicant) 1,19,16,069.10"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 2300000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2300000,
+          "self_details": "Nil",
+          "spouse_details": "Unsecured Loan 23,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 34985000,
-      "non_agricultural_land": {
-        "description": "Village - Samaypur, Delhi, Khasra No. 33/16",
-        "area_sq_mtr": 9450,
-        "inherited": "N",
-        "purchase_date": "2011-03-08",
-        "purchase_cost_inr": 500000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+    "other_elections": [
+      {
+        "declaration_in": "Delhi 2025",
+        "declared_assets_rupees": 701125079,
+        "declared_cases": 3
       },
-      "commercial_buildings_inr": 6500000,
-      "residential_buildings": {
-        "description": "Nil"
+      {
+        "declaration_in": "Delhi Election 2015",
+        "declared_assets_rupees": 84304282,
+        "declared_cases": 1
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 34985000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 447544,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 447544
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 11916069.10,
-      "loans_due_to_individual_entity_inr": 2300000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 14216069.10
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
+      {
+        "declaration_in": "Delhi 2008",
+        "declared_assets_rupees": 14372654,
+        "declared_cases": 2
+      }
+    ]
   }
 }

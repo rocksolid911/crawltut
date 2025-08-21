@@ -1,172 +1,537 @@
 {
   "candidate_name": "Ashish Yadav",
   "party": "SP",
-  "constituency": "SHEKHUPUR (BUDAUN)",
-  "father_or_husband_name": "Banwari Singh Yadav",
-  "age": 35,
-  "education": "12th Pass UP Madhyamik Shiksha Parishad Allahabad Board, M.G.H.S. Inter College, Usava, Badaun, Intermediate Exam Pass 1991",
-  "profession_self": "Agriculturist",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 5,
-  "assets_total_inr": 41101745,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
+  "constituency": "SHEKHUPUR",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Banwari Singh Yadav",
+      "age": 35,
+      "self_profession": "Agriculturist",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 41101745,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "UP Madhyamik Shiksha Parishad Allahabad Board, M.G.H.S. Inter College, Usava, Badaun, Intermediate Exam Pass 1991"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "dacoity",
+          "ipc_section": "395",
+          "count": 1
+        },
+        {
+          "charges_related_to": "criminal trespass",
+          "ipc_section": "447",
+          "count": 4
+        },
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Trespassing on burial places, etc.",
+          "ipc_section": "297",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Robbery, or dacoity, with attempt to cause death or grievous hurt",
+          "ipc_section": "397",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "attempting to commit offences punishable with imprisonment for life or other imprisonment",
+          "ipc_section": "511",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "395,397, 120B",
+          "other_details_or_acts_sections_applicable": "Crime No. 1/04, Court- Special Judge Dakaiti Badaun, Pending"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "447, 297, 506",
+          "other_details_or_acts_sections_applicable": "Crime No 1034/07, Court C.J.M Badaun, Pending"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "447,297, 506",
+          "other_details_or_acts_sections_applicable": "Crime No 1038/07, Court C.J.M Badaun, Pending"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "447, 297, 506",
+          "other_details_or_acts_sections_applicable": "Crime No 1031/07, Court C.J.M Badaun, Pending"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": "147, 148, 447, 511, 504, 506",
+          "other_details_or_acts_sections_applicable": "Crime No. C6/04, Court C.J.M Bareily, Pending"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2151323,
+      "gross_total_value_spouse_rupees": 1416186,
+      "gross_total_value_dependent1_rupees": 188218,
+      "gross_total_value_dependent2_rupees": 188218,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3943945,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 260000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 310000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1113869,
+          "spouse_value_rupees": 64798,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1178667
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 39954,
+          "spouse_value_rupees": 235888,
+          "dependent1_value_rupees": 188218,
+          "dependent2_value_rupees": 188218,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 652278
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 162500,
+          "spouse_value_rupees": 220000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 382500
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 280000,
+          "spouse_value_rupees": 845500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1125500
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 295000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 295000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 19226800,
+      "total_current_market_value_spouse_rupees": 17337000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 36563800,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 15126800,
+          "spouse_value_rupees": 5637000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20763800,
+          "self_details": [
+            {
+              "location": "Sirsauli, Teh Badaun, 858,859, Gunaura Vajid pur, 86,48,9,91,35, 37,48/294, 49,61,62, 63,74, 109, 64,66, 60, 72,73,38,39, 40,65, Nai 244, Teh Data Ganj, Myau 15 , Teh Vasauli, Indpur 888, Manepur 70, Pisnari, 54,569, 495, Ashokpur 366",
+              "total_area": "30.5 Acre",
+              "inherited": false,
+              "purchase_date": "1991-10-29",
+              "purchase_cost_rupees": 3724704,
+              "development_cost_rupees": 150000,
+              "current_value_rupees": 15126800
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Teh Badaun , Gunaura,Vajidpur, 48,49, 61,62, 63,74, 109,64, 66,60, 73,72, 65, 38,39, 40",
+              "total_area": "10 Acre",
+              "inherited": false,
+              "purchase_date": "2004-09-08",
+              "purchase_cost_rupees": 2045761,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5637000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 1500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": [
+            {
+              "location": "Gunaura, Vajidpur, 65 Gata No. Tehsil Badaun (jointly with Spouse)",
+              "total_area": "17599 sqft",
+              "inherited": false,
+              "purchase_date": "2004-11-03",
+              "purchase_cost_rupees": 287905,
+              "development_cost_rupees": 2000000,
+              "current_value_rupees": 1500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Gunaura, Vajidpur, 65 Gata No. Tehsil Badaun (jointly with Spouse)",
+              "total_area": "17599 sqft",
+              "inherited": false,
+              "purchase_date": "2004-11-03",
+              "purchase_cost_rupees": 287905,
+              "development_cost_rupees": 2000000,
+              "current_value_rupees": 1500000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 2600000,
+          "spouse_value_rupees": 10200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12800000,
+          "self_details": [
+            {
+              "location": "Bhukhand Plot in Badaun, Plot in Bareilly.",
+              "total_area": "Badaun-912.56 Unit Ft., Bareilly-4795.32 Unit Ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-05-22",
+              "purchase_cost_rupees": 211950,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2600000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Room No 7, Green Park,Bareilly, Bhavan in Badaun, 2 Plot Badaun, 2 plot bareilly",
+              "total_area": "Bareilly-2712.54 Unit Ft.,Badaun 2712.54 Unit Ft., Badaun 2 Plot - 6314.52 Unit Ft., Bareilly 2 Plot, 7507.82 Unit Ft.",
+              "built_up_area": "Bareilly 1800 Unit Ft., Badaun 2000 unit ft.",
+              "inherited": false,
+              "purchase_date": "1991-07-18",
+              "purchase_cost_rupees": 1400000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10200000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election": "Uttar Pradesh 2017",
+        "declared_assets": 34628427,
+        "declared_cases": 1
       }
-    },
-    "spouse": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 260000,
-      "bank_deposits_inr": 1113868,
-      "bonds_debentures_shares_inr": 39954,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 162500,
-      "jewellery_inr": 280000,
-      "other_assets_inr": 295000,
-      "gross_total_value_inr": 2151323
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 64798,
-      "bonds_debentures_shares_inr": 235888,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 220000,
-      "jewellery_inr": 845500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1416186
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 15126800,
-      "non_agricultural_land": {
-        "description": "Gunaura, Vajidpur, 65 Gata No. Tehsil Badaun (jointly with Spouse)",
-        "area_sq_mtr": 1635,
-        "inherited": "N",
-        "purchase_date": "2004-11-03",
-        "purchase_cost_inr": 287905,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 1500000
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Bhukhand Plot in Badaun, Plot in Bareilly.",
-        "total_area_sqft": 5707,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "2010-05-22",
-        "purchase_cost_inr": 211950,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2600000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 19226800
-    },
-    "spouse": {
-      "agricultural_land_inr": 5637000,
-      "non_agricultural_land": {
-        "description": "Gunaura, Vajidpur, 65 Gata No. Tehsil Badaun (jointly with Spouse)",
-        "area_sq_mtr": 1635,
-        "inherited": "N",
-        "purchase_date": "2004-11-03",
-        "purchase_cost_inr": 287905,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 1500000
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Room No 7, Green Park,Bareilly, Bhavan in Badaun, 2 Plot Badaun, 2 plot bareilly",
-        "total_area_sqft": 17240,
-        "built_up_area_sqft": 3800,
-        "inherited": "N",
-        "purchase_date": "1991-07-18",
-        "purchase_cost_inr": 1400000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 10200000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 17337000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    ]
   }
 }

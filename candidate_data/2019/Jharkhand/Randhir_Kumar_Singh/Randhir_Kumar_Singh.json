@@ -1,138 +1,581 @@
 {
   "candidate_name": "RANDHIR KUMAR SINGH",
   "party": "JVM(P)",
-  "constituency": "SARATH (DEOGHAR )",
-  "father_or_husband_name": "Late Sukdev Singh",
-  "age": 32,
-  "education": "10th Pass Matric From Bihar School Examination Board, Patna,Year-1989",
-  "profession_self": "Vehicle Business, Social Work",
-  "profession_spouse": "Business, House Wife",
-  "criminal_cases": 7,
-  "assets_total_inr": 7892911,
-  "liabilities_total_inr": 764413,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 259950
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 587889
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1263995,
-      "bank_deposits_inr": 372796,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 25000,
-      "lic_other_insurance_inr": 619008,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 964490,
-      "jewellery_inr": 0,
-      "other_assets_inr": 24000,
-      "gross_total_value_inr": 3296814
-    },
-    "spouse": {
-      "cash_inr": 177210,
-      "bank_deposits_inr": 145757,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 181000,
-      "lic_other_insurance_inr": 510000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 272985,
-      "jewellery_inr": 402950,
-      "other_assets_inr": 115600,
-      "gross_total_value_inr": 1805502
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "share Residential in Jaharkoti",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+  "constituency": "SARATH",
+  "state": "Jharkhand",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Sukdev Singh",
+      "age": 32,
+      "voter_enrolled_in": {
+        "constituency": "Sarath",
+        "state": "Jharkhand",
+        "serial_no": 36,
+        "part_no": 133
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1000000
+      "self_profession": "Vehicle Business, Social Work",
+      "spouse_profession": "Business, House Wife"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "(1) Mauja Jamtada, Plot No.3190, (2) Jamtada, Khata No.392/K, (3)Plot No.3190/3581, (4)Mouza-Vavandigha, Deoghar",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "2010-10-31",
-        "purchase_cost_inr": 1164290,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1764290
+    "summary": {
+      "criminal_cases_count": 7,
+      "total_assets_in_rupees": 7892911,
+      "total_liabilities_in_rupees": 764413
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Matric From Bihar School Examination Board, Patna,Year-1989"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 259950
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 587889
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Extortion by putting a person in fear of death or grievous hurt",
+          "ipc_section": "386",
+          "count": 2
+        },
+        {
+          "charges_related_to": "theft",
+          "ipc_section": "379",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+          "ipc_section": "332",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 3
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful Confinement",
+          "ipc_section": "342",
+          "count": 1
+        },
+        {
+          "charges_related_to": "public nuisance in cases not otherwise provided for",
+          "ipc_section": "290",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Continuance of nuisance after injunction to discontinue",
+          "ipc_section": "291",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "341, 323, 379, 386, 353, 332",
+          "other_details_or_acts_sections_applicable": "Chitro Sarath P.S. Case no. 8/2007, Dist. Deoghar Jharkhand, Court taking Cognizance - A.Kumar, First Class Judicial Magistrate Madhupur G.R.No.51/07 TR 1329/14, Cognizance Date- 12-12-2007, Court which charges framed-A.Kumar, First Class Judicial Magistrate Madhupur, charges framed Date- 23-06-2008"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "341, 323, 353, 386, 504",
+          "other_details_or_acts_sections_applicable": "Sarath Chitra P.S. Case no.116/2007 Dist. Deoghar, Jharkhand, Court taking cognizance- Sub Divisional Judicial Magistrate Madhupur, G.R.No.468/07, T.R.No.1392/14 Cog. 10-12-2007, Court which charges framed - Sub Divisional Judicial Magistrate, Madhupur, Charges framed date 04-04-2013"
+        }
+      ],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 341, 342, 290, 291",
+          "other_details_or_acts_sections_applicable": "Court taking Cog. A.Kumar, First Class Judicial Magistrate, Madhupur, G.R.No.53/10, TR.No.974/14, Cognizance Date- 03-06-10"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Sec. 171C, 171I, 13(c) R.P.Act, Court taking Cog. A.Kumar, First Class Judicial Magistrate, Madhupur, G.R.No.533/09, TR.No.312/2014, Cog. Dated 01-02-10"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "504",
+          "other_details_or_acts_sections_applicable": "Court taking Cog. Sub Divisional Judicial Magistrate, Madhupur, G.R.No.148/14 T.R.No.1476/14 cognizance Date- 05-06-14"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Sec. 123, 171E, 171F, R.P. Act, Court taking Cog. ACJM Jamtada Court, GR 524/09 Cognizance Date- 01-02-10"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Sec.123, 171F, R.P.Act, Court taking Cog. ACJM, Jamtada, GR 522/09 Cognizance Date- 09-02-2010"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3295819,
+      "gross_total_value_spouse_rupees": 1832802,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5128621,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1263995,
+          "spouse_value_rupees": 177210,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1441205
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 399906,
+          "spouse_value_rupees": 145757,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 545663
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 181000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 206000
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 619008,
+          "spouse_value_rupees": 510000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1129008
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 964495,
+          "spouse_value_rupees": 272985,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1237480
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 402950,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 402950
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 24000,
+          "spouse_value_rupees": 115600,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 139600
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 10000000,
+      "total_current_market_value_spouse_rupees": 1764290,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 2764290,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "location": "Mauja Shahargoti",
+            "jamabandi_no": 14,
+            "total_area": "24.4 acre",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 0
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1764290,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1764290,
+          "spouse_details": [
+            {
+              "location": "Mauja Jamtada, Plot No.3190",
+              "total_area": "5 decimal",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-10-31",
+              "purchase_cost_rupees": 250500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 250500
+            },
+            {
+              "location": "Jamtada, Khata No.392/K",
+              "total_area": "4 decimal",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-10-31",
+              "purchase_cost_rupees": 100000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000
+            },
+            {
+              "location": "Plot No.3190/3581",
+              "total_area": "4 decimal",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-10-31",
+              "purchase_cost_rupees": 25000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 25000
+            },
+            {
+              "location": "Mouza-Vavandigha, Deoghar",
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-10-31",
+              "purchase_cost_rupees": 788770,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 788770
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 10000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000000,
+          "self_details": {
+            "location": "Jaharkoti",
+            "total_area": "5 decimal",
+            "built_up_area": "5 decimal",
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 10000000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 690930,
+      "grand_total_of_liabilities_spouse_rupees": 73483,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 764413,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {},
-      "others_inr": 0,
-      "total_current_market_value_inr": 1764290
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 640930,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 50000,
-      "grand_total_of_liabilities_inr": 690930
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 640930,
+          "spouse_value_rupees": 48483,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 689413,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "amount_rupees": 640930
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Gramin bank",
+              "amount_rupees": 48483
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 25000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000,
+          "spouse_details": [
+            {
+              "entity": "husband",
+              "amount_rupees": 25000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "self_details": [
+            {
+              "description": "Loan",
+              "amount_rupees": 50000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 48483,
-      "loans_due_to_individual_entity_inr": 25000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 73483
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    "election_expenses_link": "https://www.myneta.info/jharkhand2014/expense.php?candidate_id=1057",
+    "print_profile_link": "https://www.myneta.info/jharkhand2014/candidate.php?candidate_id=1057&print=true"
+  }
 }

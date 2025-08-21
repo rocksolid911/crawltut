@@ -1,145 +1,500 @@
 {
   "candidate_name": "RAZIA SULTANA",
   "party": "INC",
-  "constituency": "MALERKOTLA (SANGRUR)",
-  "father_or_husband_name": "Mohmmad Mustafa",
-  "age": 50,
-  "education": "10th Pass Matric from Govt. Girls High School, Malerkotla in 1983",
-  "profession_self": "Agriculturist",
-  "profession_spouse": "Govt.service",
-  "criminal_cases": 0,
-  "assets_total_inr": 103368282,
-  "liabilities_total_inr": 15000000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 1718107
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 2181944
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 364690
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 86000,
-      "bank_deposits_inr": 795162,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 64935,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 3500000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4446097
-    },
-    "spouse": {
-      "cash_inr": 65000,
-      "bank_deposits_inr": 398033,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 165743,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 628776
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2500000,
-      "non_agricultural_land": {
-        "description": "Farm House",
-        "total_area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "2002-01-01",
-        "purchase_cost_inr": 150000,
-        "development_cost_inr": 2500000,
-        "current_market_value_inr": 3000000
+  "constituency": "MALERKOTLA",
+  "state": "Punjab 2017",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Mohmmad Mustafa",
+      "age": 50,
+      "voter_enrolled_in": {
+        "constituency": "105- Malerkotla",
+        "state": "Punjab",
+        "serial_no": 134,
+        "part_no": 136
       },
-      "commercial_buildings_inr": 20000000,
-      "residential_buildings": {
-        "description": "1/2 SHERE IN RESI.H.NO.25 SEC-4MANSA DEVI COMPLX PANCHKULA",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 6000,
-        "inherited": "N",
-        "purchase_date": "2009-01-01",
-        "purchase_cost_inr": 11145950,
-        "development_cost_inr": 12500000,
-        "current_market_value_inr": 30000000
+      "self_profession": "Agriculturist",
+      "spouse_profession": "Govt.service"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 103368282,
+      "total_liabilities_in_rupees": 15000000
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Matric from Govt. Girls High School, Malerkotla in 1983"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 1718107
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 2181944
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 364690
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 4446097,
+      "gross_total_value_spouse_rupees": 628776,
+      "gross_total_value_dependent1_rupees": 159418,
+      "gross_total_value_dependent2_rupees": 133991,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5368282,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 86000,
+          "spouse_value_rupees": 65000,
+          "dependent1_value_rupees": 5000,
+          "dependent2_value_rupees": 3000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 159000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 795162,
+          "spouse_value_rupees": 401033,
+          "dependent1_value_rupees": 154418,
+          "dependent2_value_rupees": 130991,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1478604,
+          "self_details": [
+            "SBI Haryana Civil Sectt.-1 Chandigarh No 1008005xxxxx 3,94,545",
+            "IOB Sec -32 chandigarh No 1430010000xxxxx 3,70,617",
+            "SBI Pilkhani Saharanpur No 1171588xxxxx 28,000",
+            "IOB Malerkota  2,000"
+          ],
+          "spouse_details": [
+            "SBI SEC-7 Chandigarh No 1050675xxxxx 10,000",
+            "HDFC Bank sco-3sec-15CChandigarh No 121710500xxxxx 3,88,033"
+          ],
+          "dependent1_details": "Dena Bank Sec -7 Chandigarh a/c no12251002418 1,54,418",
+          "dependent2_details": "HDFC Bank No 5010003980xxxxx 1,30,991"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 64935,
+          "spouse_value_rupees": 165743,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 230678,
+          "self_details": [
+            "LIC Policy no 162402426 28,163",
+            "LIC 162178551 36,772"
+          ],
+          "spouse_details": [
+            "LIC Policy 162663706 1,24,394",
+            "LIC 161956751 30,928",
+            "LIC 162044142 10,421"
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 3500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3500000,
+          "self_details": "1020GMS Gold ,diamond Stones  35,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 555000000,
+      "total_current_market_value_spouse_rupees": 125000000,
+      "total_current_market_value_dependent1_rupees": 300000000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 980000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2500000,
+          "spouse_value_rupees": 10000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12500000,
+          "self_details": {
+            "location": "Village Hathoa Malerkotla Dist-Sangrur",
+            "total_area": "13B7Biswa",
+            "inherited": false,
+            "purchase_date": "2005-01-01",
+            "purchase_cost_rupees": 1000000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 2500000
+          },
+          "spouse_details": {
+            "location": "Village Hardakheri Tehsil Nakur Saharnpur U.P.",
+            "total_area": "40biga",
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 10000000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": {
+            "name": "Farm House",
+            "total_area": "4bigha16biswa16biswai",
+            "inherited": false,
+            "purchase_date": "2002-01-01",
+            "purchase_cost_rupees": 150000,
+            "development_cost_rupees": 2500000,
+            "current_value_rupees": 3000000
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000000,
+          "self_details": {
+            "name": "25% shere IN SCO NO 215,217,SEC 34CHANDIGARH",
+            "total_area": "141.12SQYD",
+            "built_up_area": "5170.23SQFT",
+            "inherited": false,
+            "purchase_date": "2007-01-01",
+            "purchase_cost_rupees": 9943650,
+            "development_cost_rupees": 1500000,
+            "current_value_rupees": 20000000
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 30000000,
+          "spouse_value_rupees": 2500000,
+          "dependent1_value_rupees": 30000000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 62500000,
+          "self_details": {
+            "name": "1/2 SHERE IN RESI.H.NO.25 SEC-4MANSA DEVI COMPLX PANCHKULA (22291900 @50%shere) 50% shere",
+            "total_area": "500sqyd",
+            "built_up_area": "6000sqft",
+            "inherited": false,
+            "purchase_date": "2009-01-01",
+            "purchase_cost_rupees": 11145950,
+            "development_cost_rupees": 12500000,
+            "current_value_rupees": 30000000
+          },
+          "spouse_details": {
+            "name": "Punjab police Personal Cop.Housing board Sociaty",
+            "total_area": "800SQYD",
+            "inherited": false,
+            "purchase_date": "2007-01-01",
+            "purchase_cost_rupees": 2500000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 2500000
+          },
+          "dependent1_details": {
+            "name": "1/2 SHERE IN RESI.H.NO.25 SEC-4MANSA DEVI COMPLX PANCHKULA (22291900 @50%shere) 50% sher",
+            "total_area": "500sqyd",
+            "built_up_area": "6000sqft",
+            "inherited": false,
+            "purchase_date": "2009-01-01",
+            "purchase_cost_rupees": 11145950,
+            "development_cost_rupees": 12500000,
+            "current_value_rupees": 30000000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 15000000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 15000000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 55500000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 15000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15000000,
+          "self_details": "Dena bank Sec -7CHANDIGARH No 04705102xxxxx PLOT NO 25MANSA DEVI COMPLEX PANCHKULA  1,50,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 10000000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Punjab police Personal Cop.Housing board Sociaty",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "2007-01-01",
-        "purchase_cost_inr": 2500000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2500000
+    "other_elections": [
+      {
+        "election": "Punjab 2022",
+        "declared_assets": 147241376,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 15000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 15000000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
+      {
+        "election": "Punjab 2012",
+        "declared_assets": 112115574,
+        "declared_cases": 0
+      }
+    ]
   }
 }

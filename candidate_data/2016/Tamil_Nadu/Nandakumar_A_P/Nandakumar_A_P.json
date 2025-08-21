@@ -1,139 +1,329 @@
-{
-  "candidate_name": "NANDAKUMAR A P",
-  "party": "DMK",
-  "constituency": "ANAIKATTU (VELLORE)",
-  "father_or_husband_name": "A.K.PERUMAL",
-  "age": 47,
-  "education": "12th Pass, 12TH STD, THIRUVALLUR HIGER SECONDARY SCHOOL",
-  "profession_self": "HOTEL MANAGER",
-  "profession_spouse": "HOUSE WIFE",
-  "criminal_cases": 2,
-  "assets_total_inr": 255325869,
-  "liabilities_total_inr": 76003569,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 0
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 347098
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 742562,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 1000,
-      "lic_other_insurance_inr": 72048,
-      "personal_loans_advance_given_inr": 6008900,
-      "motor_vehicles_inr": 1272140,
-      "jewellery_inr": 270000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 8416650
-    },
-    "spouse": {
-      "cash_inr": 15000,
-      "bank_deposits_inr": 326411,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 900360,
-      "lic_other_insurance_inr": 900360,
-      "personal_loans_advance_given_inr": 44188348,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1420000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 41741579
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 9629500,
-      "non_agricultural_land": {
-        "description": "POOGI PATTARI VELLORE TS NO 1149/1 TS NO 1152/1,2,3",
-        "area_sq_ft": null,
-        "inherited": "N",
-        "purchase_date": "2007-03-28",
-        "purchase_cost_inr": 2141000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 11311000
+[
+  {
+    "candidate_name": "NANDAKUMAR A P",
+    "party": "DMK",
+    "constituency": "ANAIKATTU",
+    "state": "Tamil Nadu",
+    "status": "Winner",
+    "affidavit_info": {
+      "personal_details": {
+        "s_o_d_o_w_o": "A.K.PERUMAL",
+        "age": 47,
+        "voter_enrolled_in": {
+          "constituency": "45 (Tamil Nadu)",
+          "state": "Tamil Nadu",
+          "serial_no": 475,
+          "part_no": 185
+        },
+        "self_profession": "HOTEL MANAGER",
+        "spouse_profession": "HOUSE WIFE"
       },
-      "commercial_buildings_inr": 169627500,
-      "residential_buildings": {
-        "description": "GANDHI NAGER VELLORE TS NO 123/1",
-        "total_area_sq_ft": 3042,
-        "built_up_area_sq_ft": null,
-        "inherited": "N",
-        "purchase_date": "2003-03-31",
-        "purchase_cost_inr": 1034090,
-        "development_cost_inr": 4742050,
-        "current_market_value_inr": 7000000
+      "summary": {
+        "criminal_cases_count": 2,
+        "total_assets_in_rupees": 255325869,
+        "total_liabilities_in_rupees": 76003569
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 197568000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 8500000,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 8500000
+      "educational_details": {
+        "category": "12th Pass",
+        "details": "12TH STD, THIRUVALLUR HIGER SECONDARY SCHOOL"
+      },
+      "income_tax_details": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "returns": [
+          {
+            "relation_type": "self",
+            "pan_given": true,
+            "financial_year": "2014 - 2015",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "spouse",
+            "pan_given": true,
+            "financial_year": "2014 - 2015",
+            "total_income_shown_in_itr_rupees": 347098
+          },
+          {
+            "relation_type": "dependent1",
+            "pan_given": false,
+            "financial_year": null,
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent2",
+            "pan_given": false,
+            "financial_year": null,
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent3",
+            "pan_given": false,
+            "financial_year": null,
+            "total_income_shown_in_itr_rupees": 0
+          }
+        ]
+      },
+      "criminal_cases": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "brief_details_ipc_bns": [
+          {
+            "charges_related_to": "Punishment for Being member of an unlawful assembly",
+            "ipc_section": "143",
+            "count": 2
+          },
+          {
+            "charges_related_to": "Punishment for wrongful restraint",
+            "ipc_section": "341",
+            "count": 2
+          },
+          {
+            "charges_related_to": "Disobedience to order duly promulgated by public servant",
+            "ipc_section": "188",
+            "count": 2
+          }
+        ],
+        "cases_where_cognizance_taken": [
+          {
+            "serial_no": 1,
+            "ipc_sections_applicable": "143, 341, 188",
+            "other_details_or_acts_sections_applicable": "KATPADI POLICE STATION, C.R. No. 150/2015"
+          },
+          {
+            "serial_no": 2,
+            "ipc_sections_applicable": "143, 341, 188",
+            "other_details_or_acts_sections_applicable": "C.R. No. 122/2015"
+          }
+        ],
+        "cases_where_charges_framed": [],
+        "convicted_cases": []
+      },
+      "movable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "gross_total_value_self_rupees": 8416650,
+        "gross_total_value_spouse_rupees": 41741579,
+        "gross_total_value_dependent1_rupees": 0,
+        "gross_total_value_dependent2_rupees": 0,
+        "gross_total_value_dependent3_rupees": 0,
+        "gross_total_value_total_rupees": 50158229,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Cash",
+            "self_value_rupees": 50000,
+            "spouse_value_rupees": 15000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 65000
+          },
+          {
+            "sr_no": "ii",
+            "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+            "self_value_rupees": 742562,
+            "spouse_value_rupees": 326411,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 1068973
+          },
+          {
+            "sr_no": "iii",
+            "description": "Bonds, Debentures and Shares in companies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iv",
+            "description": "(a) NSS, Postal Savings etc",
+            "self_value_rupees": 1000,
+            "spouse_value_rupees": 900360,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 901360
+          },
+          {
+            "sr_no": null,
+            "description": "(b) LIC or other insurance Policies",
+            "self_value_rupees": 72048,
+            "spouse_value_rupees": 900360,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 972408
+          },
+          {
+            "sr_no": "v",
+            "description": "Personal loans/advance given",
+            "self_value_rupees": 6008900,
+            "spouse_value_rupees": 38179448,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 44188348
+          },
+          {
+            "sr_no": "vi",
+            "description": "Motor Vehicles (details of make, etc.)",
+            "self_value_rupees": 1272140,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 1272140
+          },
+          {
+            "sr_no": "vii",
+            "description": "Jewellery (give details weight value)",
+            "self_value_rupees": 270000,
+            "spouse_value_rupees": 1420000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 1690000
+          },
+          {
+            "sr_no": "viii",
+            "description": "Other assets, such as values of claims / interests",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "immovable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "total_current_market_value_self_rupees": 197568000,
+        "total_current_market_value_spouse_rupees": 8500000,
+        "total_current_market_value_dependent1_rupees": 0,
+        "total_current_market_value_dependent2_rupees": 0,
+        "total_current_market_value_dependent3_rupees": 0,
+        "total_current_market_value_total_rupees": 206068000,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Agricultural Land",
+            "self_value_rupees": 9629500,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 9629500
+          },
+          {
+            "sr_no": "ii",
+            "description": "Non Agricultural Land",
+            "self_value_rupees": 11311000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 11311000
+          },
+          {
+            "sr_no": "iii",
+            "description": "Commercial Buildings",
+            "self_value_rupees": 169627500,
+            "spouse_value_rupees": 8500000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 178127500
+          },
+          {
+            "sr_no": "iv",
+            "description": "Residential Buildings",
+            "self_value_rupees": 7000000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 7000000
+          },
+          {
+            "sr_no": "v",
+            "description": "Others",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "liabilities": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "grand_total_of_liabilities_self_rupees": 62453803,
+        "grand_total_of_liabilities_spouse_rupees": 13549766,
+        "grand_total_of_liabilities_dependent1_rupees": 0,
+        "grand_total_of_liabilities_dependent2_rupees": 0,
+        "grand_total_of_liabilities_dependent3_rupees": 0,
+        "grand_total_of_liabilities_total_rupees": 76003569,
+        "grand_total_of_all_govt_dues_self_rupees": 0,
+        "grand_total_of_all_govt_dues_spouse_rupees": 0,
+        "grand_total_of_all_govt_dues_huf_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+        "grand_total_of_all_govt_dues_total_rupees": 0,
+        "any_other_liabilities_in_dispute": {
+          "self_amount_rupees": 0,
+          "spouse_amount_rupees": 0,
+          "huf_amount_rupees": 0,
+          "dependent1_amount_rupees": 0,
+          "dependent2_amount_rupees": 0,
+          "dependent3_amount_rupees": 0,
+          "total_amount_rupees": 0,
+          "details": []
+        },
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Loans from Banks / FIs",
+            "self_value_rupees": 50103303,
+            "spouse_value_rupees": 12697616,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 62800919
+          },
+          {
+            "sr_no": null,
+            "description": "Loans due to Individual / Entity",
+            "self_value_rupees": 12350500,
+            "spouse_value_rupees": 852150,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 13202650
+          },
+          {
+            "sr_no": null,
+            "description": "Any other Liability",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "other_elections": [
+        {
+          "election_year": "2021",
+          "state": "Tamil Nadu",
+          "declared_assets_rupees": 260878527,
+          "declared_cases": 10
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 50103303,
-      "loans_due_to_individual_entity_inr": 12350500,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 62453803
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 12697616,
-      "loans_due_to_individual_entity_inr": 852150,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 13549766
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
-}
+  }
+]

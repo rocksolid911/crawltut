@@ -1,180 +1,829 @@
 {
   "candidate_name": "NEENA VIKRAM VERMA",
   "party": "BJP",
-  "constituency": "DHAR (DHAR)",
-  "father_or_husband_name": "Vikram Verma",
-  "age": 66,
-  "education": "12th Pass B.A.-II Year In 1978 from University of Rajasthan",
-  "profession_self": "Agriculture, House Rent, Salary",
-  "profession_spouse": "Agriculture, House Rent, Pension",
-  "criminal_cases": 0,
-  "assets_total_inr": 110488938,
-  "liabilities_total_inr": 11058755,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 404740,
-        "2021-2022": 345700,
-        "2020-2021": 387640,
-        "2019-2020": 542360,
-        "2018-2019": 441720
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 1603810,
-        "2021-2022": 1596900,
-        "2020-2021": 1443220,
-        "2019-2020": 1897820,
-        "2018-2019": 1758510
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 45000,
-      "bank_deposits_inr": 3201651,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 530613,
-      "personal_loans_advance_given_inr": 700000,
-      "motor_vehicles_inr": 3319475,
-      "jewellery_inr": 2250000,
-      "other_assets_inr": 6000,
-      "gross_total_value_inr": 10206839
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 3490195,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 6000000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 36000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 9362201
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2596000,
-      "non_agricultural_land": {
-        "description": "Plot No 53, Trimurti Nagar Colony Dhar",
-        "total_area_sqft": 3024,
-        "inherited": "N",
-        "purchase_date": "1997-03-13",
-        "purchase_cost_inr": 81000,
-        "development_cost_inr": 3430296,
-        "current_market_value_inr": 6829296
+  "constituency": "DHAR",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Vikram Verma",
+      "age": 66,
+      "voter_enrolled_in": {
+        "constituency": "201-Dhar (Madhya Pradesh)",
+        "serial_no": 635,
+        "part_no": 49
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Flat No 1004, D Lourd Krishna Cooperative Group Housing Society Sec 43 Gurugram Haryana; Flat No H.I.G. 3/105 Rachna Tower MP State Govt. Residential Marya Flat Bhopal",
-        "total_area_sqft": 3905,
-        "built_up_area_sqft": 3905,
-        "inherited": "N",
-        "purchase_date": "2014-12-14",
-        "purchase_cost_inr": 13538970,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 15950000
+      "self_profession": "Agriculture, House Rent, Salary",
+      "spouse_profession": "Agriculture, House Rent, Pension"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 110488938,
+      "total_liabilities_in_rupees": 11058755
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "B.A.-II Year In 1978 from University of Rajasthan"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 404740
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 345700
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 387640
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 542360
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 441720
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 1603810
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 1596900
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1443220
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1897820
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 1758510
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 10206839,
+      "gross_total_value_spouse_rupees": 9362201,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 19569040,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 45000,
+          "spouse_value_rupees": 25000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 70000,
+          "self_details": {
+            "amount_rupees": 45000
+          },
+          "spouse_details": {
+            "amount_rupees": 25000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 3193751,
+          "spouse_value_rupees": 3008061,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6656952,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "Raghunathpura",
+              "amount_rupees": 168120
+            },
+            {
+              "bank": "SBI",
+              "branch": "Panchanan Bhavan, T.T. Nagar",
+              "amount_rupees": 3070887
+            },
+            {
+              "bank": "Dist. Co.operative Central Bank",
+              "branch": "Dharampuri",
+              "amount_rupees": 122039
+            },
+            {
+              "bank": "BOI",
+              "branch": "Bohra Bazar",
+              "amount_rupees": 705
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI",
+              "branch": "Trimurti Nagar",
+              "amount_rupees": 326806
+            },
+            {
+              "bank": "SBI",
+              "branch": "Dharampuri",
+              "amount_rupees": 1275949
+            },
+            {
+              "bank": "SBI",
+              "branch": "Sansad Bhavan",
+              "amount_rupees": 1347056
+            },
+            {
+              "bank": "Dist. Co.operative Central Bank",
+              "branch": "Dharampuri",
+              "amount_rupees": 26622
+            },
+            {
+              "bank": "BOB",
+              "branch": "Trimurti Nagar",
+              "amount_rupees": 318768
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 530613,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 530613,
+          "self_details": {
+            "company": "LIC",
+            "policy_no": "346762281",
+            "sum_assured_rupees": 1250000,
+            "current_value_rupees": 530613
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 700000,
+          "spouse_value_rupees": 60000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6700000,
+          "self_details": [
+            {
+              "name": "Kavita Vaishnav",
+              "amount_rupees": 700000
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Neena Vikram Verma",
+              "amount_rupees": 4350000
+            },
+            {
+              "name": "Vinay Sindhu",
+              "amount_rupees": 1150000
+            },
+            {
+              "name": "Vartika Sindhu",
+              "amount_rupees": 500000
+            }
+          ]
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 3319475,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3319475,
+          "self_details": [
+            {
+              "make": "Mahindra SUV 700",
+              "year": 2021,
+              "registration_no": "MP09WL 2727",
+              "value_rupees": 2519475
+            },
+            {
+              "make": "Scorpio",
+              "model_year": 2018,
+              "registration_no": "MP09WA2727",
+              "value_rupees": 800000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2250000,
+          "spouse_value_rupees": 36000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2286000,
+          "self_details": {
+            "gold_tola": 30,
+            "gold_value_rupees": 1800000,
+            "silver_kg": 6,
+            "silver_value_rupees": 450000
+          },
+          "spouse_details": {
+            "item": "1 gold ring",
+            "value_rupees": 36000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 6000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "item": "Licensee Weapons 12 Bore, 3 Nali Gun",
+            "value_rupees": 6000
+          }
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 25375296,
+      "total_current_market_value_spouse_rupees": 65544600,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 90919896,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2596000,
+          "spouse_value_rupees": 8014600,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10610600,
+          "self_details": [
+            {
+              "village": "Sarfarabad",
+              "tehsil": "Dharampuri",
+              "district": "Dhar",
+              "sy_no": "151",
+              "area": "2.592 Hect (6.4 Acre)",
+              "inherited": false,
+              "purchase_date": "2000-02-07",
+              "purchase_cost_rupees": 480000,
+              "development_cost_rupees": 40000,
+              "current_value_rupees": 2596000
+            }
+          ],
+          "spouse_details": [
+            {
+              "village": "Sarfarabad",
+              "tehsil": "Dharampuri",
+              "sy_no": "154",
+              "area": "9.74 acre",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3960000
+            },
+            {
+              "village": "Mahapura",
+              "tehsil": "Manavar",
+              "district": "Dhar",
+              "sy_no": "91",
+              "area": "3.680 Hect (9.10 Acres)",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 127000,
+              "current_value_rupees": 4054600
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 6829296,
+          "spouse_value_rupees": 110000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6939296,
+          "self_details": [
+            {
+              "plot_no": "53",
+              "colony": "Trimurti Nagar",
+              "city": "Dhar",
+              "area": "3024 sq.ft.",
+              "inherited": false,
+              "purchase_date": "1997-03-13",
+              "purchase_cost_rupees": 81000,
+              "development_cost_rupees": 3430296,
+              "current_value_rupees": 6829296
+            }
+          ],
+          "spouse_details": [
+            {
+              "plot_no": "3920",
+              "city": "Dharampuri",
+              "district": "Dhar",
+              "area": "2400 sq.ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 110000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 55000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 55000000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "plot_no": "91",
+              "scheme": "No 114 Part 2nd",
+              "city": "Indore",
+              "state": "MP",
+              "total_area": "3993.41 sq.ft.",
+              "built_up_area": "4667.56 sq.ft.",
+              "inherited": false,
+              "purchase_date": "2007-12-18",
+              "purchase_cost_rupees": 2025000,
+              "development_cost_rupees": 7000000,
+              "current_value_rupees": 55000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 15950000,
+          "spouse_value_rupees": 2420000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18370000,
+          "self_details": [
+            {
+              "flat_no": "1004",
+              "society": "D Lourd Krishna Cooperative Group Housing Society",
+              "sector": "43",
+              "city": "Gurugram",
+              "state": "Haryana",
+              "total_area": "1700 sq.f.t",
+              "built_up_area": "1700 sq.f.t",
+              "inherited": false,
+              "purchase_date": "2014-12-14",
+              "purchase_cost_rupees": 6588000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 8250000
+            },
+            {
+              "flat_no": "H.I.G. 3/105",
+              "building": "Rachna Tower",
+              "location": "MP State Govt. Residential Marya Flat",
+              "city": "Bhopal",
+              "total_area": "2205 sq.ft.",
+              "built_up_area": "2205 sq.ft.",
+              "inherited": false,
+              "purchase_date": "2021-06-16",
+              "purchase_cost_rupees": 6950970,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7700000
+            }
+          ],
+          "spouse_details": [
+            {
+              "type": "Inherited House",
+              "address": "21 Jawahar Magar Dhampuri Dist Dhar",
+              "total_area": "850 sq.ft.",
+              "built_up_area": "1700 sq.ft.",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2420000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 11058755,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 11058755,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 25375296
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1508755,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1508755,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "Panchanan Bhavan T.T. Nagar Bhopal",
+              "loan_type": "House Loan",
+              "amount_rupees": 1508755
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 9550000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9550000,
+          "self_details": [
+            {
+              "name": "Shri Vikram Verma",
+              "loan_type": "Unsecured Loan",
+              "amount_rupees": 4350000
+            },
+            {
+              "name": "Shiktija Singh",
+              "loan_type": "Unsecured Loan",
+              "amount_rupees": 300000
+            },
+            {
+              "name": "Vartika Singh",
+              "loan_type": "Unsecured Loan",
+              "amount_rupees": 1900000
+            },
+            {
+              "name": "Deepak Bhakar",
+              "loan_type": "Unsecured Loan",
+              "amount_rupees": 3000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 8014600,
-      "non_agricultural_land": {
-        "description": "Dharampuri Dist. Dhar Plot No 3920",
-        "total_area_sqft": 2400,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 110000
+    "profession_or_occupation": {
+      "self": "Agriculture, House Rent, Salary",
+      "spouse": "Agriculture, House Rent, Pension"
+    },
+    "sources_of_income": {
+      "self": "Agriculture, House Rent, Salary",
+      "spouse": "Agriculture, House Rent, Pension",
+      "dependent": "NA"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
+    },
+    "other_elections_data": [
+      {
+        "election": "Madhya Pradesh 2018",
+        "declared_assets_rupees": 89845029,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 55000000,
-      "residential_buildings": {
-        "description": "Inherited House 21 Jawahar Magar Dhampuri Dist Dhar",
-        "total_area_sqft": 850,
-        "built_up_area_sqft": 1700,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2420000
+      {
+        "election": "Madhya Pradesh 2013",
+        "declared_assets_rupees": 18089290,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 65544600
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1508755,
-      "loans_due_to_individual_entity_inr": 9550000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 11058755
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture, House Rent, Salary",
-    "spouse": "Agriculture, House Rent, Pension",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+      {
+        "election": "Madhya Pradesh 2008",
+        "declared_assets_rupees": 10490771,
+        "declared_cases": 0
+      }
+    ]
   }
 }

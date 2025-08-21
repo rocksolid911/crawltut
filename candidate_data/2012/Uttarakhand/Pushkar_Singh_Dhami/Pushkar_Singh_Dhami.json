@@ -1,122 +1,384 @@
 {
   "candidate_name": "Pushkar Singh Dhami",
-  "party": "BJP",
-  "constituency": "KHATIMA (UDHAMSINGH NAGAR)",
-  "father_or_husband_name": "Shri Sher Singh",
-  "age": 36,
-  "education": "Graduate Professional L.L.B in 2002 from Lucknow University",
-  "profession_self": "Farmer",
-  "profession_spouse": null,
-  "criminal_cases": 0,
-  "assets_total_inr": 4595533,
-  "liabilities_total_inr": 660668,
-  "income_tax_details": {
-    "self": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "spouse": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
+  "Party": "BJP",
+  "constituency": "KHATIMA",
+  "state": "Uttarakhand",
+  "election_year": 2012,
+  "status": "Winner",
+  "personal_details": {
+    "S_o_D_o_W_o": "Shri Sher Singh",
+    "Age": 36,
+    "Self_Profession": "Farmer",
+    "Spouse_Profession": "NA"
+  },
+  "other_elections": [
+    {
+      "Declaration_in": "Uttarakhand 2017",
+      "Declared_Assets": "Rs49,15,197",
+      "Declared_Cases": 0
     }
+  ],
+  "criminal_cases": {
+    "Cases": 0,
+    "details": "No criminal cases"
+  },
+  "assets_and_liabilities": {
+    "Assets": "Rs 45,95,533",
+    "Liabilities": "Rs 6,60,668"
+  },
+  "educational_details": {
+    "Category": "Graduate Professional L.L.B",
+    "Year": 2002,
+    "University": "Lucknow University"
+  },
+  "pan_and_income_tax": {
+    "Details": [
+      {
+        "Relation_Type": "self",
+        "PAN_Given": null,
+        "Financial_Year": null,
+        "Total_Income_Shown_in_ITR": "Nil"
+      },
+      {
+        "Relation_Type": "spouse",
+        "PAN_Given": null,
+        "Financial_Year": null,
+        "Total_Income_Shown_in_ITR": "Nil"
+      },
+      {
+        "Relation_Type": "dependent1",
+        "PAN_Given": null,
+        "Financial_Year": null,
+        "Total_Income_Shown_in_ITR": "Nil"
+      },
+      {
+        "Relation_Type": "dependent2",
+        "PAN_Given": null,
+        "Financial_Year": null,
+        "Total_Income_Shown_in_ITR": "Nil"
+      },
+      {
+        "Relation_Type": "dependent3",
+        "PAN_Given": null,
+        "Financial_Year": null,
+        "Total_Income_Shown_in_ITR": "Nil"
+      }
+    ],
+    "Data_Readability_Report": "No Problems in Reading Affidavit Information"
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 20500,
-      "bank_deposits_inr": 467744,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 356102,
-      "lic_other_insurance_inr": 962687,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1153000,
-      "jewellery_inr": 84000,
-      "other_assets_inr": 90000,
-      "gross_total_value_inr": 3134033
+    "items": [
+      {
+        "Description": "Cash",
+        "self": "20,500",
+        "spouse": "10,500",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "31,000"
+      },
+      {
+        "Description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self": "FDR 36,157  Savings 4,31,587",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "4,67,744"
+      },
+      {
+        "Description": "Bonds, Debentures and Shares in companies",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      {
+        "Description": "NSS, Postal Savings etc",
+        "self": "Postal Saving 1,102  NSC 3,55,000",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "3,56,102"
+      },
+      {
+        "Description": "LIC or other insurance Policies",
+        "self": "LIC 9,62,687",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "9,62,687"
+      },
+      {
+        "Description": "Personal loans/advance given",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      {
+        "Description": "Motor Vehicles (details of make, etc.)",
+        "self": "1 Old Scooter 3,000  1 Truck 11,50,000",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "11,53,000"
+      },
+      {
+        "Description": "Jewellery (give details weight value)",
+        "self": "30 gm Gold 84,000",
+        "spouse": "80 gm Gold 2,24,000  500 gm Silver 27,000",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "3,35,000"
+      },
+      {
+        "Description": "Other assets, such as values of claims / interests",
+        "self": "Revolver 90,000",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "90,000"
+      }
+    ],
+    "Gross_Total_Value_as_per_Affidavit": {
+      "self": "31,34,033",
+      "spouse": "2,61,500",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "Total": "33,95,533"
     },
-    "spouse": {
-      "cash_inr": 10500,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 251000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 261500
-    }
+    "Totals_Calculated": {
+      "self": "Rs 31,34,033",
+      "spouse": "Rs 2,61,500",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "Total": "Rs 33,95,533"
+    },
+    "Data_Readability_Report": "No Problems in Reading Affidavit Information"
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1200000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1200000
+    "items": [
+      {
+        "Description": "Agricultural Land",
+        "self": "Total Area 1.88 acre Whether Inherited N Purchase Date 2008-11-06 Purchase Cost 13500.00 Development Cost 0.00 12,00,000",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "12,00,000"
+      },
+      {
+        "Description": "Non Agricultural Land",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      {
+        "Description": "Commercial Buildings",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      {
+        "Description": "Residential Buildings",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      {
+        "Description": "Others",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      }
+    ],
+    "Total_Current_Market_Value_as_per_Affidavit": {
+      "self": "12,00,000",
+      "spouse": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "Total": "12,00,000"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
+    "Totals_Calculated": {
+      "self": "Rs 12,00,000",
+      "spouse": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "Total": "Rs 12,00,000"
+    },
+    "Data_Readability_Report": "No Problems in Reading Affidavit Information"
   },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 660668,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 660668
+  "liabilities": {
+    "items": [
+      {
+        "Description": "Loans from Banks / FIs",
+        "self": "LIC policy Loan 3,20,668  Truck Loan Indus Bank 3,40,000",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "6,60,668"
+      },
+      {
+        "Description": "Loans due to Individual / Entity",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      {
+        "Description": "Any other Liability",
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      }
+    ],
+    "Grand_Total_of_Liabilities_as_per_affidavit": {
+      "self": "6,60,668",
+      "spouse": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "Total": "6,60,668"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "Dues_to_government_departments": {
+      "Dues_to_departments_dealing_with_government_accommodation": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Dues_to_departments_dealing_with_supply_of_water": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Dues_to_departments_dealing_with_supply_of_electricity": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Dues_to_departments_dealing_with_telephones": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Dues_to_departments_dealing_with_supply_of_transport": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Income_Tax_Dues": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Wealth_Tax_Dues": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Service_Tax_Dues": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Property_Tax_Dues": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Sales_Tax_Dues": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      },
+      "Any_Other_Dues": {
+        "self": "Nil",
+        "spouse": "Nil",
+        "dependent1": "Nil",
+        "dependent2": "Nil",
+        "dependent3": "Nil",
+        "Total": "Nil"
+      }
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
+    "Grand_Total_of_all_Govt_Dues_as_per_affidavit": {
+      "self": "Nil",
+      "spouse": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "Total": "Nil"
     },
-    "other_liabilities_in_dispute_inr": null
+    "Totals_Calculated": {
+      "self": "Rs 6,60,668",
+      "spouse": "Nil",
+      "dependent1": "Nil",
+      "dependent2": "Nil",
+      "dependent3": "Nil",
+      "Total": "Rs 6,60,668"
+    },
+    "Data_Readability_Report": "No Problems in Reading Affidavit Information"
   },
-  "sources_of_income": null,
-  "contracts": null
+  "disclaimer": "This information is an archive of the candidate's self-declared affidavit that was filed during the elections. The current status of this information may be different. For the latest available information, please refer to the affidavit filed by the candidate to the Election Commission in the most recent election."
 }

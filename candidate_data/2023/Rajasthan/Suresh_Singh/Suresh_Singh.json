@@ -1,171 +1,751 @@
 {
   "candidate_name": "SURESH SINGH",
   "party": "BJP",
-  "constituency": "PUSHKAR (AJMER)",
-  "father_or_husband_name": "Suraj Singh",
-  "age": 40,
-  "education": "Graduate Professional LLB from Bagwant University Ajmer in 2020, B.A. (Hons) from Govt. College Ajmer in 2005",
-  "profession_self": "Salary from Rajasthan Vidhan Sabha",
-  "profession_spouse": "Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 36202528,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 873160,
-        "2021-2022": 866160,
-        "2020-2021": 870210,
-        "2019-2020": 596140,
-        "2018-2019": 906814
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 208390,
-        "2021-2022": 297950,
-        "2020-2021": 295410,
-        "2019-2020": 248510,
-        "2018-2019": 338956
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 395670,
-      "bank_deposits_inr": 241680,
-      "bonds_debentures_shares_inr": 68250,
-      "nss_postal_savings_inr": 5000000,
-      "lic_other_insurance_inr": 211900,
-      "personal_loans_advance_given_inr": 3041789,
-      "motor_vehicles_inr": 40600,
-      "jewellery_inr": 1017666,
-      "other_assets_inr": 178600,
-      "gross_total_value_inr": 7196155
-    },
-    "spouse": {
-      "cash_inr": 460450,
-      "bank_deposits_inr": 801050,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 155442,
-      "personal_loans_advance_given_inr": 87764,
-      "motor_vehicles_inr": 574924,
-      "jewellery_inr": 1832610,
-      "other_assets_inr": 11239,
-      "gross_total_value_inr": 3923479
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 266000 + 391000 + 101000 + 85000 + 85000 + 100000 + 160000 + 81000,
-      "non_agricultural_land": {
-        "description": "Multiple land parcels including K.no. 2056,2057 part, Gram Gangwana Dist Ajmer and Land for House no.13, Gram Bubani, panchayat samiti Ssrinagar Dist Ajmer",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2006-12-15",
-        "purchase_cost_inr": 100000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 370000 + 38000
+  "constituency": "PUSHKAR",
+  "state": "Rajasthan",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Suraj Singh",
+      "age": 40,
+      "voter_enrolled_in": {
+        "constituency": "Pushkar 99",
+        "state": "Rajasthan",
+        "serial_no": 862,
+        "part_no": 101
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Baba farm, Gram Muhami having Residence",
-        "total_area_sqft": 4800,
-        "built_up_area_sqft": 1600,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 8383495.14,
-        "current_market_value_inr": 10500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12177000
+      "self_profession": "Salary from Rajasthan Vidhan Sabha",
+      "spouse_profession": "Business"
     },
-    "spouse": {
-      "agricultural_land_inr": 510000,
-      "non_agricultural_land": {
-        "description": "Multiple land parcels including k.no.3161 part Land no.21 Gram Kayad, Dist. Ajmer, Land for House no.12, Gram Bubani, panchayat samiti Srinagar Dist Ajmer and Industrial land Gram Dungariya khurd, Dist, Ajmer",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2012-12-26",
-        "purchase_cost_inr": 350000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 700000 + 39000 + 9500000
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 36202528,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "LLB from Bagwant University Ajmer in 2020, B.A. (Hons) from Govt. College Ajmer in 2005"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 873160
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 866160
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 870210
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 596140
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 906814
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 208390
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 297950
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 295410
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 248510
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 338956
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 9164767,
+      "gross_total_value_spouse_rupees": 3923481,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 100568,
+      "gross_total_value_dependent2_rupees": 87712,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 13276528,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 395670,
+          "spouse_value_rupees": 460450,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 856120,
+          "self_details": "3,95,670",
+          "spouse_details": "4,60,450"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 223020,
+          "spouse_value_rupees": 703816,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1043130,
+          "self_details": "SBI Br. University Jaipur Road Ajmer No 4239634xxxxx 10,000  Axis Bank Ajmer SB No 91101006664xxxxx 18,407  SBI Br Vidhansabha Jaipur No 6121189xxxxx 2,01,732  Canara Bank Ashok Marg Ajmer SB No 213410100xxxxx 11,941",
+          "spouse_details": "SBI Br. University Jaipur Road Ajmer SB No 0205153001xxxxx 10,257  SBI Br. Chitrakoot Jaipur No 00000006133096xxxxx 7,45,364  Canara Bank Byawar SB No 213610100xxxxx 45,429"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 68250,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 68250,
+          "self_details": "P.AC.L. India Ltd Bond No 862xxxxx 68,250",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 5000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5000000,
+          "self_details": "FDR SBI Br.Vidhan sabha jaipur No 3919337xxxxx  25,00,000  FDR SBI Br.Vidhan sabha jaipur No 3919338xxxxx  25,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 211900,
+          "spouse_value_rupees": 155442,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 100568,
+          "dependent2_value_rupees": 87712,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 565622,
+          "self_details": "LIC Policy No 18669xxxxx dt.28.8.2010 2475/annual 34,650  Future Generali India Life Ins. policy No 0111xxxxx dt.31.3.2013 10,001  Max Newyork Life Ins.Co. Ltd Policy No 85595xxxxx dt.26.12.2011 14770/annual premium 1,77,249",
+          "spouse_details": "LIC Policy No 18669xxxxx dt.28.8.2010 11103/annual premium 1,55,442",
+          "dependent1_details": "LIC Policy No 18810xxxxx 9155/annual 1,00,568",
+          "dependent2_details": "LIC Policy No 18810xxxxx 7985.66/annual  87,712"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 3041789,
+          "spouse_value_rupees": 87764,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3129553,
+          "self_details": "RHB Jaipur Residential loan advance deposit 10,41,789  Personal Loan to Rekha Rawat in2020 20,00,000",
+          "spouse_details": "Unsecured Loan to Ranibagh Resort Byawar Financial Yr2013-14 present balance 87,764"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 40600,
+          "spouse_value_rupees": 574924,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 615524,
+          "self_details": "Bajaj calibar M.cycle RJ01-12M-9867/2003 40,600",
+          "spouse_details": "Hyundai i10 RJ14VC2359 / 2016 5,74,924"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1017666,
+          "spouse_value_rupees": 1832610,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2850276,
+          "self_details": "Gold Jewelry 170gm 10,17,666",
+          "spouse_details": "Gold jewelry 300gms 17,90,610  Silver 600gms 42,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 178600,
+          "spouse_value_rupees": 11239,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 189839,
+          "self_details": "Pistol 1,07,000  Rifle 71,600",
+          "spouse_details": "Partnership of 25% in Shiva Granite Muhami  11,239"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 12177000,
+      "total_current_market_value_spouse_rupees": 10749000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 22926000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 978000,
+          "spouse_value_rupees": 510000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1779000,
+          "self_details": [
+            {
+              "location": "Gram Muhami Dist Ajmer",
+              "k_no": "276",
+              "khata_no": "337",
+              "total_area": "1.1acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2011-02-23",
+              "purchase_cost": 100000,
+              "development_cost": 0,
+              "current_value": 266000
+            },
+            {
+              "location": "Gram Bhudol Dist Ajmer",
+              "k_no": "213",
+              "khata_no": "370",
+              "total_area": "1.6acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-12-24",
+              "purchase_cost": 200000,
+              "development_cost": 0,
+              "current_value": 391000
+            },
+            {
+              "location": "Gram Muhami Dist.Ajmer",
+              "k_no": "284",
+              "khata_no": "426",
+              "total_area": "0.2acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2013-01-09",
+              "purchase_cost": 75000,
+              "development_cost": 0,
+              "current_value": 101000
+            },
+            {
+              "location": "Gram Muhami Dist Ajmer",
+              "k_no": "102",
+              "khata_no": "349",
+              "total_area": "0.38acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2008-01-09",
+              "purchase_cost": 35000,
+              "development_cost": 0,
+              "current_value": 85000
+            },
+            {
+              "location": "Gram Bhudol Dist Ajmer",
+              "k_no": "582,586,588,589,591",
+              "khata_no": "469",
+              "total_area": "0.35acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2007-06-06",
+              "purchase_cost": 30000,
+              "development_cost": 0,
+              "current_value": 85000
+            },
+            {
+              "location": "Gram Muhami Dist Ajmer",
+              "k_no": "55",
+              "khata_no": "353",
+              "total_area": "0.6acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2002-12-23",
+              "purchase_cost": 20000,
+              "development_cost": 0,
+              "current_value": 100000
+            },
+            {
+              "location": "Gram Muhami,Dist Ajmer",
+              "k_no": "54",
+              "khata_no": "245",
+              "total_area": "0.6acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "1999-02-15",
+              "purchase_cost": 14000,
+              "development_cost": 0,
+              "current_value": 160000
+            },
+            {
+              "location": "Gram Bhudol,Dist Ajmer",
+              "k_no": "226",
+              "khata_no": "186",
+              "total_area": "0.32acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2007-08-09",
+              "purchase_cost": 20000,
+              "development_cost": 0,
+              "current_value": 81000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Gram Paalra, Dist. Ajmer",
+              "k_no": "352",
+              "khata_no": "72/47",
+              "total_area": "0.13acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-12-26",
+              "purchase_cost": 325000,
+              "development_cost": 0,
+              "current_value": 510000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 408000,
+          "spouse_value_rupees": 10230000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10647000,
+          "self_details": [
+            {
+              "location": "Gram Gangwana Dist Ajmer",
+              "k_no": "2056,2057 part",
+              "khata_no": "372",
+              "total_area": "1912.50sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2006-12-15",
+              "purchase_cost": 100000,
+              "development_cost": 0,
+              "current_value": 370000
+            },
+            {
+              "location": "Gram Bubani, panchayat samiti Ssrinagar Dist Ajmer",
+              "total_area": "1700sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-05-05",
+              "purchase_cost": 200,
+              "development_cost": 0,
+              "current_value": 38000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Gram Kayad, Dist. Ajmer",
+              "k_no": "3161 part",
+              "total_area": "2050sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-12-26",
+              "purchase_cost": 350000,
+              "development_cost": 0,
+              "current_value": 700000
+            },
+            {
+              "location": "Gram Bubani, panchayat samiti Srinagar Dist Ajmer",
+              "total_area": "1700sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-05-05",
+              "purchase_cost": 200,
+              "development_cost": 0,
+              "current_value": 39000
+            },
+            {
+              "location": "Gram Dungariya khurd, Dist, Ajmer",
+              "k_no": "1009/200, 1010/201, 1030/1000, 175, 1026/162, 1026/163, 1024/1012",
+              "total_area": "5.2294hact",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2020-07-03",
+              "purchase_cost": 8435208.38,
+              "development_cost": 564791.62,
+              "current_value": 9500000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 10500000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10500000,
+          "self_details": [
+            {
+              "name": "Baba farm, Gram Muhami",
+              "total_area": "4800sq.ft.",
+              "built_up_area": "1600sq.ft.",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost": 0,
+              "development_cost": 8383495.14,
+              "current_value": 10500000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 10749000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Salary from Rajasthan Vidhan Sabha",
+      "spouse": "Business"
+    },
+    "sources_of_income": {
+      "self": "Salary from Rajasthan Vidhan Sabha",
+      "spouse": "Business",
+      "dependent": "Nil"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "nil",
+      "spouse": "nil",
+      "dependent": "nil",
+      "huf_or_trust": "nil",
+      "partnership_firms": "nil",
+      "private_companies": "nil"
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Salary from Rajasthan Vidhan Sabha",
-    "spouse": "Business",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "nil",
-    "entered_by_spouse": "nil",
-    "entered_by_dependent": "nil",
-    "entered_by_huf_trust": "nil",
-    "entered_by_partnership_firms": "nil",
-    "entered_by_private_companies": "nil"
   }
 }

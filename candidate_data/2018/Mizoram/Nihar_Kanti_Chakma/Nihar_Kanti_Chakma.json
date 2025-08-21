@@ -1,139 +1,471 @@
 {
   "candidate_name": "NIHAR KANTI CHAKMA",
   "party": "INC",
-  "constituency": "WEST TUIPUI (LUNGLEI)",
-  "father_or_husband_name": "Late. H.K. Chakma",
-  "age": 49,
-  "education": "Graduate Professional B.ed from College of Teachers Education (NEHU) Aizawl in 1996",
-  "profession_self": "Public Servant",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 15070091,
-  "liabilities_total_inr": 1009560,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 1565986,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 300000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2329558,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4445544
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 199507,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 963310,
-      "lic_other_insurance_inr": 991344,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 650500,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2854661
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 500000,
-      "non_agricultural_land": {
-        "description": "(1) LSC No.719 of 1974 location-Upper khatla Aizawl Mizoram, (2) LSC No.TLB-23 of 2018 Location-Tiabung, Mizoram, (3) LSC House Site No.30/85 Location-Kamla Nagar-III, (4) LSC No.210207/01/16 of 2012, Location-Tuichawng (Donated for permitted high School)",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": null,
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 5300000
+  "constituency": "WEST TUIPUI",
+  "state": "Mizoram",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late. H.K. Chakma",
+      "age": 49,
+      "voter_enrolled_in": {
+        "constituency": "35-West Tuipui",
+        "state": "Mizoram",
+        "serial_no": 717,
+        "part_no": 8
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "VC Pass No.69 of 1988, Location Nunsury VC Area Lunglei District Mizoram",
-        "total_area_sqft": 1512,
-        "built_up_area_sqft": null,
-        "inherited": "Y",
-        "purchase_date": "1988-01-01",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 50000
+      "self_profession": "Public Servant",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 15070091,
+      "total_liabilities_in_rupees": 1009560
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.ed from College of Teachers Education (NEHU) Aizawl in 1996"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6352496,
+      "gross_total_value_spouse_rupees": 2702335,
+      "gross_total_value_dependent1_rupees": 43183,
+      "gross_total_value_dependent2_rupees": 1077,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9099091,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 300000,
+          "self_details": "2,50,000",
+          "spouse_details": "50,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1764704,
+          "spouse_value_rupees": 199507,
+          "dependent1_value_rupees": 43183,
+          "dependent2_value_rupees": 1077,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2008471,
+          "self_details": "Axis Bank Branch Khatla, Aizawl No 91601008448xxxxx, dt.7.11.2018 14,986  14 Thou+ SBI Branch New Secretariat Aizawl No 3082739xxxxx, dt.8.11.2018 2,30,365  2 Lacs+ SBI Branch Tlabung No 2002802xxxxx, dt.23.10.2018 10,773  10 Thou+ SBI Branch Tlabung No 3803852xxxxx, dt.8.11.2018 12,10,000  12 Lacs+ Nunsury Post Office (R/D) No 68xxxxx, dt.13.01.2017, Rs. 2000/- PM RD 0*(Value Not Given) SBI Branch New Secretriat No 3437061xxxxx 54,813  54 Thou+",
+          "spouse_details": "SBI Branch New Secretariat, Aizawl No 3699638xxxxx (RD Rs.5000/- monthly) Dt.10.07.2017 for 5 year  0*(Value Not Given) SBI Branch New Secretariate Aizawl No 3086320xxxxx,d t.17.10.2018 1,99,507  1 Lacs+",
+          "dependent1_details": "SBI Branch New Secretariate Aizawl No 2019385xxxxx, dt.5.11.2018 43,183  43 Thou+",
+          "dependent2_details": "SBI Branch New Secretariate Aizawl No 3609514xxxxx 1,077  1 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 963310,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 963310,
+          "self_details": "Nil",
+          "spouse_details": "SBI New Secretariat Aizawl (Term Deposit) No 3604182xxxxx, amount 963310, dt.28.02.2019 9,63,310  9 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 1000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1300000,
+          "self_details": "Postal Life Insurance Policy No.R-NE-SH-EA-3676 dt.20.2.2003, Monthly Rs. 400/- 0*(Value Not Given) LIC Policy No 49229xxxxx, dt.21.2.2012 ,mode of payment yearly-5397 1,00,000  1 Lacs+ LIC Policy No 49228xxxxx (NK Chakma) Dt.26.3.2009, yearly payment-8162 1,00,000  1 Lacs+ SBI Life Insurance Policy No 3304638xxxxx (Nk Chakma) Dt.31.12.2019 1,00,000  1 Lacs+",
+          "spouse_details": "Lic Policy No 49229xxxxx, yearly 6484, dt.21.02.2030  1,00,000  1 Lacs+ Lic Policy No 49229xxxxx, dt.28.3.2013  1,91,344  1 Lacs+ SBI Life Insurance Policy No 1700514xxxxx, dt.28.06.2015, monthly premium 1817  3,00,000  3 Lacs+ Lic Policy No 49230xxxxx, Dt.05.09.2027, single premium-292060  4,00,000  4 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2329558,
+          "spouse_value_rupees": 650500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2980058,
+          "self_details": "Mahindra Bolero Regn No.MZ02A 4098, year 2014 7,29,558  7 Lacs+ Mahindra Bolero SLX Reg No.MZ01K4445 year 2014 8,50,000  8 Lacs+ Tata Pick Up-Regn No.MZ01G4885 year 2011 7,50,000  7 Lacs+",
+          "spouse_details": "Mahindra Bolero (used) MZ046870, Year of Purchase 2013 2,50,500  2 Lacs+ TATA Sumo, MZ01C5860, Year of Purchase 2004 4,00,000  4 Lacs+ Tractor, MZ01G8638 (off Road) 0*(Value Not Given)"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Assets like computer sets, printer machine, furniture, tools and machineries etc 0*(Value Not Given)",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 5850000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 100000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 5950000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 100000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 600000,
+          "self_details": "(1)Garden pass no,152/1986 location Saizawh west cadc Area 80,300 sq.mts land value-130/-p/sq.mt- (2)Periodic patta no,97 of 1993 location Nunsury Area-6 Bigha, (3) LSC No.LLI-G-34 & 35 of 2013 Location Kalapani Vc Area Measuring area 2 Hacters Total Area Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 5,00,000  5 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Gardens pass no,210107/10/30 of 2017, Location Nunsury VC area Measuring area 2.59 hacter land value 100000  Total Area 2.59 hecter Built Up Area  Whether Inherited Y Purchase Date 2017-01-01 Purchase Cost 0.00 Development Cost 0.00 1,00,000  1 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 5300000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5300000,
+          "self_details": "(1) LSC No.719 of 1974 location-Upper khatla Aizawl Mizoram area-30 sq.ft  Total Area 30 sq.ft  Built Up Area  Whether Inherited Y Purchase Date 1974-01-01 Purchase Cost 0.00 Development Cost 0.00 50,00,000  50 Lacs+ LSC No.TLB-23 of 2018 Location-Tiabung, Mizoram  Total Area 15 sq.mt Built Up Area  Whether Inherited N Purchase Date 2018-01-01 Purchase Cost 0.00 Development Cost 0.00 1,00,000  1 Lacs+ LSC House Site No.30/85 Location-Kamla Nagar-III  Total Area 12 sq.mt Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,00,000  2 Lacs+ LSC No.210207/01/16 of 2012, Location-Tuichawng (Donated for permitted high School) Total Area 30 sq.mt Built Up Area  Whether Inherited N Purchase Date 2012-01-01 Purchase Cost 0.00 Development Cost 0.00 0*(Value Not Given)",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "self_details": "VC Pass No.69 of 1988, Location Nunsury VC Area Lunglei District Mizoram  Total Area 1512 sq.ft Built Up Area  Whether Inherited Y Purchase Date 1988-01-01 Purchase Cost 0.00 Development Cost 0.00 50,000  50 Thou+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1009560,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1009560,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 5850000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1009560,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1009560,
+          "self_details": "HBA (under Mizoram Legislative Assembly) dt.5.11.2018 10,09,560  10 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1009560,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1009560
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "other_elections": [
+      {
+        "declaration_in": "Mizoram 2023",
+        "declared_assets_rupees": 13253389,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Mizoram 2013",
+        "declared_assets_rupees": 10073026,
+        "declared_cases": 0
+      }
+    ],
+    "disclaimer": "This information is an archive of the candidate's self-declared affidavit that was filed during the elections. The current status of this information may be different. For the latest available information, please refer to the affidavit filed by the candidate to the Election Commission in the most recent election."
+  }
 }

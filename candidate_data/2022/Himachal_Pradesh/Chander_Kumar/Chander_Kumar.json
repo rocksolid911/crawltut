@@ -1,177 +1,964 @@
 {
   "candidate_name": "CHANDER KUMAR",
   "party": "INC",
-  "constituency": "JAWALI (KANGRA)",
-  "father_or_husband_name": "Sh. Beli Ram",
-  "age": 78,
-  "education": "Post Graduate MA in 1966, M.Ed. from Punjab University Chandigarh",
-  "profession_self": "Social and Political Activist",
-  "profession_spouse": "Retired Teacher",
-  "criminal_cases": 0,
-  "assets_total_inr": 44398032,
-  "liabilities_total_inr": 2802878,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 1954760,
-        "2021-2022": 1862160,
-        "2020-2021": 1487920,
-        "2019-2020": 1318560,
-        "2018-2019": 1780004
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2022-2023": 829570,
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 997980,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1986780,
-      "jewellery_inr": 522500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3595769
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 864800,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 99843,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1567500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2532145
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 11312072,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "NA",
-        "purchase_date": "NA",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+  "constituency": "JAWALI",
+  "state": "Himachal Pradesh 2022",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sh. Beli Ram",
+      "age": 78,
+      "voter_enrolled_in": {
+        "constituency": "09 Jawali",
+        "state": "Himachal Pradesh",
+        "serial_no": 378,
+        "part_no": 68
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Residential House in Village Dhan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
-        "total_area_sqft": 5283,
-        "built_up_area_sqft": 5283,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9033832
+      "self_profession": "Social and Political Activist",
+      "spouse_profession": "Retired Teacher"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 44398032,
+      "total_liabilities_in_rupees": 2802878
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "MA in 1966, M.Ed. from Punjab University Chandigarh"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 1954760
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 1862160
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1487920
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1318560
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 1780004
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 829570
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3595769,
+      "gross_total_value_spouse_rupees": 2532145,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 6127914,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 25000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "self_details": {
+            "amount_rupees": 25000
+          },
+          "spouse_details": {
+            "amount_rupees": 25000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1104680,
+          "spouse_value_rupees": 864800,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1969480,
+          "self_details": [
+            {
+              "bank": "SBI Parliament House New Delhi",
+              "account_no": "1002382xxxxx",
+              "amount_rupees": 27003
+            },
+            {
+              "bank": "SBI Jawali",
+              "account_no": "1133362xxxxx",
+              "amount_rupees": 46981
+            },
+            {
+              "bank": "UCO Bank, Vidhan Sabha Shimla",
+              "account_no": "1255010000xxxxx",
+              "amount_rupees": 910588
+            },
+            {
+              "bank": "Indian Bank, Shimla",
+              "account_no": "51442xxxxx",
+              "amount_rupees": 52358
+            },
+            {
+              "bank": "KCC Bank Branch Jawali",
+              "account_no": "2002404xxxxx",
+              "amount_rupees": 11194
+            },
+            {
+              "bank": "KCC Bank Branch Lubh",
+              "account_no": "5006694xxxxx",
+              "amount_rupees": 2353
+            },
+            {
+              "bank": "KCC Bank Branch Lubh",
+              "account_no": "5007512xxxxx",
+              "amount_rupees": 11000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI Jawali",
+              "account_no": "1133366xxxxx",
+              "amount_rupees": 33057
+            },
+            {
+              "bank": "SBI Jawali",
+              "account_no": "1152923xxxxx",
+              "amount_rupees": 24495
+            },
+            {
+              "bank": "PNB Lubh",
+              "account_no": "07680021000xxxxx",
+              "amount_rupees": 407248
+            },
+            {
+              "bank": "FDR in SBI Jawali",
+              "account_no": "4127694xxxxx",
+              "amount_rupees": 400000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 99843,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 99843,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "institution": "Department of Post India Branch Office Jawali",
+              "account_no": "985195xxxxx",
+              "amount_rupees": 3843
+            },
+            {
+              "institution": "Department of Post India Branch Office Jawali",
+              "account_no": "477589xxxxx",
+              "amount_rupees": 96000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1986780,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1986780,
+          "self_details": [
+            {
+              "make": "Ford Endeavour 3.2 Titanium at 4*4",
+              "registration_no": "HP45A0001",
+              "model_year": 2018,
+              "amount_rupees": 1986780
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 522500,
+          "spouse_value_rupees": 1567500,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2090000,
+          "self_details": {
+            "type": "Gold",
+            "weight_gm": 100,
+            "amount_rupees": 522500
+          },
+          "spouse_details": {
+            "type": "Gold",
+            "weight_gm": 300,
+            "amount_rupees": 1567500
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 20353454,
+      "total_current_market_value_spouse_rupees": 17916664,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 38270118,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 11312072,
+          "spouse_value_rupees": 5956664,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17268736,
+          "self_details": [
+            {
+              "location": "Tika Dhan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "116",
+              "khatauni_no": "228",
+              "khasra_plots": "3",
+              "area": "0-27-38 HM",
+              "share": "1/4",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Dhan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "117",
+              "khatauni_no": "229",
+              "khasra_plots": "5",
+              "area": "00-21-77 HM",
+              "share": "1/4",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Dhan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "147",
+              "khatauni_no": "271",
+              "khasra_plots": "4",
+              "area": "01-38-97 HM",
+              "share": "1496/13900",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Dhan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "179",
+              "khatauni_no": "332, 323, 324",
+              "khasra_plots": "5",
+              "area": "01-11-88 HM",
+              "share": "1/8",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Dhan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "291 min",
+              "khatauni_no": "516",
+              "khasra_plots": "1758",
+              "area": "00-04-79 HM",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Matlahar, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "158",
+              "khatauni_no": "221, 222",
+              "area": "00-11-76 HM",
+              "share": "378/12096",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Pattan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "47 min",
+              "khatauni_no": "70",
+              "khasra_plots": "2",
+              "area": "00-08-04 HM",
+              "share": "1890/22680",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Pattan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "49 min",
+              "khatauni_no": "72",
+              "khasra_plots": "159",
+              "area": "00-00-24 HM",
+              "share": "1890/22680",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Samlana, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "35",
+              "khatauni_no": "74",
+              "khasra_plots": "3",
+              "area": "1-13-17 HM",
+              "share": "4/12",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Samlana, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "36",
+              "khatauni_no": "75",
+              "khasra_plots": "2",
+              "area": "00-12-49 HM",
+              "share": "14/15",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Samlana, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "37",
+              "khatauni_no": "76",
+              "khasra_plots": "40",
+              "area": "01-02-92 HM",
+              "share": "2226/5146",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Thangar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "31",
+              "khatauni_no": "52",
+              "khasra_plots": "3",
+              "area": "0-14-19 HM",
+              "share": "105/2520",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Sunehar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "60",
+              "khatauni_no": "106, 107, 108, 109, 110",
+              "khasra_plots": "11",
+              "area": "0-35-33 HM",
+              "share": "2835/68040",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Sunehar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "129",
+              "khatauni_no": "234",
+              "khasra_plots": "7",
+              "area": "00-11-99 HM",
+              "share": "5/140",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Sunehar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "130",
+              "khatauni_no": "235",
+              "khasra_plots": "2",
+              "area": "0-02-82 HM",
+              "share": "1/42",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Sunehar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "165",
+              "khatauni_no": "294, 295",
+              "khasra_plots": "10",
+              "area": "0-44-83 HM",
+              "share": "1730/638400",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Sunehar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "167",
+              "khatauni_no": "297, 298, 299",
+              "khasra_plots": "4",
+              "area": "0-25-20 HM",
+              "share": "1730/638400",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Sunehar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "166",
+              "khatauni_no": "296",
+              "khasra_plots": "578",
+              "area": "0-07-04 HM",
+              "share": "1730/638400",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            },
+            {
+              "location": "Tika Sunehar, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "168",
+              "khatauni_no": "300",
+              "khasra_plots": "5",
+              "area": "0-28-86 HM",
+              "share": "1730/638400",
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 28068,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11312072
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Tika Kardial, Mouza & Tehsil Jawali, Dist. Kangra, HP",
+              "khata_no": "129",
+              "khatauni_no": "218, 219",
+              "khasra_plots": "10",
+              "area": "2-06-19 HM",
+              "share": "50888/109968",
+              "inherited": false,
+              "purchase_date": "1994-07-14",
+              "purchase_cost_rupees": 207000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5956664
+            },
+            {
+              "location": "Tika Har, Tehsil Shahpur, Dist. Kangra, HP",
+              "khata_no": "7 min",
+              "khatauni_no": "11",
+              "khasra_plots": "335",
+              "area": "00-07-41 Hm",
+              "inherited": false,
+              "purchase_date": "2015-02-05",
+              "purchase_cost_rupees": 207000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5956664
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 11960000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 11960000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "type": "Four storied, Basement and Etic floor building",
+              "location": "Tutu Shimla, HP",
+              "total_area_sqft": 6210,
+              "built_up_area_sqft": 6210,
+              "inherited": false,
+              "purchase_date": "1994-01-01",
+              "purchase_cost_rupees": 100000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11960000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 9033832,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9033832,
+          "self_details": [
+            {
+              "type": "Residential House",
+              "location": "Village Dhan, Mouza Jawali, Tehsil Jawali, Dist. Kangra, HP",
+              "total_area_sqft": 5283,
+              "built_up_area_sqft": 5283,
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 9033832
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 802967,
+      "grand_total_of_liabilities_spouse_rupees": 1999911,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2802878,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 20353454
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 802967,
+          "spouse_value_rupees": 1999911,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2802878,
+          "self_details": [
+            {
+              "bank": "HP Vidhan Sabha Shimla",
+              "loan_type": "House Loan",
+              "amount_rupees": 200000
+            },
+            {
+              "bank": "HDFC Bank Branch Kangra",
+              "loan_type": "Auto Premium Loan",
+              "amount_rupees": 504783
+            },
+            {
+              "bank": "SBI",
+              "account_no": "3117016xxxxx",
+              "loan_type": "KCC Loan",
+              "amount_rupees": 98184
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "PNB Lubh",
+              "account_no": "076800880000xxxxx",
+              "loan_type": "Loan",
+              "amount_rupees": 1999911
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 5956664,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "NA",
-        "purchase_date": "NA",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "profession_or_occupation": {
+      "self": "Social and Political Activist",
+      "spouse": "Retired Teacher"
+    },
+    "sources_of_income": {
+      "self": "Pension and Agriculture Income",
+      "spouse": "Pension and Agriculture Income",
+      "dependent": "Nil"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "Nil",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
+    },
+    "other_elections_data": [
+      {
+        "election": "Himachal Pradesh 2017",
+        "declared_assets_rupees": 61260532,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 11960000,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "NA",
-        "purchase_date": "NA",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      {
+        "election": "Loksabha 2014",
+        "declared_assets_rupees": 53716274,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 17916664
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 802967,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 802967
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1999911,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1999911
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Pension and Agriculture Income",
-    "spouse": "Pension and Agriculture Income",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+      {
+        "election": "Lok Sabha 2009",
+        "declared_assets_rupees": 11071942,
+        "declared_cases": 0
+      },
+      {
+        "election": "Lok Sabha 2004",
+        "declared_assets_rupees": 7304760,
+        "declared_cases": 0
+      }
+    ]
   }
 }

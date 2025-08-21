@@ -1,130 +1,430 @@
 {
   "candidate_name": "K.ACHUTHAN",
-  "party": "INC",
   "constituency": "CHITTUR",
-  "father_or_husband_name": "Late.Kittunni",
-  "age": 61,
-  "education": "10th Pass SSLC",
-  "profession_self": "Nil",
-  "profession_spouse": "Nil",
-  "criminal_cases": 0,
-  "assets_total_inr": 8620800,
-  "liabilities_total_inr": 3000000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
+  "state": "KERALA",
+  "election_year": 2011,
+  "status": "Winner",
+  "party": "INC",
+  "personal_details": {
+    "s_o_d_o_w_o": "Late.Kittunni",
+    "age": 61,
+    "voter_enrolled_in": {
+      "constituency": "() constituency",
+      "serial_no": null,
+      "part_no": null
     },
-    "spouse": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
+    "self_profession": "Nil",
+    "spouse_profession": "Nil"
+  },
+  "crime_o_meter": {
+    "criminal_cases_count": 0,
+    "details": "No criminal cases"
+  },
+  "assets_liabilities_summary": {
+    "assets_rupees": 8620800,
+    "liabilities_rupees": 3000000
+  },
+  "educational_details": {
+    "category": "10th Pass SSLC"
+  },
+  "pan_income_tax_details": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "returns": [
+      {
+        "relation_type": "self",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "spouse",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent1",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent2",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent3",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
       }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "Nil": 0
-      }
-    }
+    ]
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 10000,
-      "bank_deposits_inr": 55458,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 5000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 70221
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 137,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 700,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 375000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 375837
-    }
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "gross_total_value_as_per_affidavit_self_rupees": 80000,
+    "gross_total_value_as_per_affidavit_spouse_rupees": 414900,
+    "gross_total_value_as_per_affidavit_dependent1_rupees": 75900,
+    "gross_total_value_as_per_affidavit_dependent2_rupees": 0,
+    "gross_total_value_as_per_affidavit_dependent3_rupees": 0,
+    "gross_total_value_as_per_affidavit_total_rupees": 570800,
+    "calculated_total_value_self_rupees": 70221,
+    "calculated_total_value_spouse_rupees": 375837,
+    "calculated_total_value_dependent1_rupees": 75100,
+    "calculated_total_value_dependent2_rupees": 0,
+    "calculated_total_value_dependent3_rupees": 0,
+    "calculated_total_value_total_rupees": 521158,
+    "items": [
+      {
+        "description": "Cash",
+        "self_value_rupees": 10000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 10000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_value_rupees": 55221,
+        "spouse_value_rupees": 137,
+        "dependent1_value_rupees": 100,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 55458,
+        "self_details": "TSEB, TTM SB A/C 45,120, TSEB, TTM SB A/C 10,101",
+        "spouse_details": "TSEB, TTM SB A/C 137",
+        "dependent1_details": "TSEB,TTM SB A/C 100"
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_value_rupees": 5000,
+        "spouse_value_rupees": 700,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 5700,
+        "self_details": "LIC Policy, Chittur Branch Rs.5000 quaterly",
+        "spouse_details": "NSS 700"
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 375000,
+        "dependent1_value_rupees": 75000,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 450000,
+        "spouse_details": "Gold 200 Gms",
+        "dependent1_details": "Gold 40 gms"
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3000000,
-      "non_agricultural_land": {
-        "description": "Thathamangalam Village",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2400000
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "total_current_market_value_as_per_affidavit_self_rupees": 4050000,
+    "total_current_market_value_as_per_affidavit_spouse_rupees": 2000000,
+    "total_current_market_value_as_per_affidavit_dependent1_rupees": 2000000,
+    "total_current_market_value_as_per_affidavit_dependent2_rupees": 0,
+    "total_current_market_value_as_per_affidavit_dependent3_rupees": 0,
+    "total_current_market_value_as_per_affidavit_total_rupees": 8050000,
+    "calculated_total_value_self_rupees": 5400000,
+    "calculated_total_value_spouse_rupees": 2000000,
+    "calculated_total_value_dependent1_rupees": 2000000,
+    "calculated_total_value_dependent2_rupees": 0,
+    "calculated_total_value_dependent3_rupees": 0,
+    "calculated_total_value_total_rupees": 9400000,
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_value_rupees": 3000000,
+        "spouse_value_rupees": 2000000,
+        "dependent1_value_rupees": 2000000,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 7000000,
+        "self_details": {
+          "location": "Thathamangalam Village",
+          "sy_no": "25/40",
+          "total_area": "1 Acres 6 cents",
+          "inherited": true,
+          "purchase_date": "0000-00-00",
+          "purchase_cost_rupees": 0,
+          "development_cost_rupees": 0,
+          "current_value_rupees": 3000000
+        },
+        "spouse_details": {
+          "location": "Thathamangalam village",
+          "total_area": "1.60 cents",
+          "inherited": false,
+          "purchase_date": "2009-05-10",
+          "purchase_cost_rupees": 300000,
+          "development_cost_rupees": 0,
+          "current_value_rupees": 2000000
+        },
+        "dependent1_details": {
+          "location": "Thathamangalam Village",
+          "total_area": "70 cents",
+          "inherited": false,
+          "purchase_date": "2010-03-05",
+          "purchase_cost_rupees": 100000,
+          "development_cost_rupees": 0,
+          "current_value_rupees": 2000000
+        }
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 5400000
-    },
-    "spouse": {
-      "agricultural_land_inr": 2000000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2000000
-    }
+      {
+        "description": "Non Agricultural Land",
+        "self_value_rupees": 2400000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 2400000,
+        "self_details": {
+          "location": "Thathamangalam Village",
+          "total_area": "48 cents",
+          "inherited": true,
+          "purchase_date": "0000-00-00",
+          "purchase_cost_rupees": 0,
+          "development_cost_rupees": 0,
+          "current_value_rupees": 2400000
+        }
+      },
+      {
+        "description": "Commercial Buildings",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Residential Buildings",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Others",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ]
   },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1000000
+  "liabilities": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "grand_total_of_liabilities_as_per_affidavit_self_rupees": 1000000,
+    "grand_total_of_liabilities_as_per_affidavit_spouse_rupees": 1000000,
+    "grand_total_of_liabilities_as_per_affidavit_dependent1_rupees": 1000000,
+    "grand_total_of_liabilities_as_per_affidavit_dependent2_rupees": 0,
+    "grand_total_of_liabilities_as_per_affidavit_dependent3_rupees": 0,
+    "grand_total_of_liabilities_as_per_affidavit_total_rupees": 3000000,
+    "calculated_total_value_self_rupees": 1000000,
+    "calculated_total_value_spouse_rupees": 1000000,
+    "calculated_total_value_dependent1_rupees": 1000000,
+    "calculated_total_value_dependent2_rupees": 0,
+    "calculated_total_value_dependent3_rupees": 0,
+    "calculated_total_value_total_rupees": 3000000,
+    "grand_total_of_all_govt_dues_as_per_affidavit_self_rupees": 0,
+    "grand_total_of_all_govt_dues_as_per_affidavit_spouse_rupees": 0,
+    "grand_total_of_all_govt_dues_as_per_affidavit_dependent1_rupees": 0,
+    "grand_total_of_all_govt_dues_as_per_affidavit_dependent2_rupees": 0,
+    "grand_total_of_all_govt_dues_as_per_affidavit_dependent3_rupees": 0,
+    "grand_total_of_all_govt_dues_as_per_affidavit_total_rupees": 0,
+    "any_other_liabilities_in_dispute": {
+      "self_amount_rupees": 0,
+      "spouse_amount_rupees": 0,
+      "dependent1_amount_rupees": 0,
+      "dependent2_amount_rupees": 0,
+      "dependent3_amount_rupees": 0,
+      "total_amount_rupees": 0,
+      "details": "Nil"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1000000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_value_rupees": 1000000,
+        "spouse_value_rupees": 1000000,
+        "dependent1_value_rupees": 1000000,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 3000000,
+        "self_details": "TSEB, TTM, SMT Loan",
+        "spouse_details": "TSEB, TTM, SMT Loan",
+        "dependent1_details": "TSEB, TTM, SMT Loan"
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ]
+  }
 }

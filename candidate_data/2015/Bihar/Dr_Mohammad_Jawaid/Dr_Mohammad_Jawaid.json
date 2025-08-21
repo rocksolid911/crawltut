@@ -1,148 +1,506 @@
 {
   "candidate_name": "DR MOHAMMAD JAWAID",
   "party": "INC",
-  "constituency": "KISHANGANJ (KISHANGANJ)",
-  "father_or_husband_name": "Mohammad Hussain Azad",
-  "age": 50,
-  "education": "Graduate Professional MBBS From Govt. Medical College Kashmir University In 1989, Inter From The Air Force School New Delhi In 1981",
-  "profession_self": "Business & Agriculture",
-  "profession_spouse": "Social Service & Business",
-  "criminal_cases": 1,
-  "assets_total_inr": 78564203,
-  "liabilities_total_inr": 3618781,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 2244999
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 909958
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 400000,
-      "bank_deposits_inr": 545569,
-      "bonds_debentures_shares_inr": 1076917,
-      "nss_postal_savings_inr": 1130374,
-      "lic_other_insurance_inr": 350000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 699776,
-      "jewellery_inr": 0,
-      "other_assets_inr": 100000,
-      "gross_total_value_inr": 4279636
-    },
-    "spouse": {
-      "cash_inr": 150000,
-      "bank_deposits_inr": 984870,
-      "bonds_debentures_shares_inr": 2875433,
-      "nss_postal_savings_inr": 684995,
-      "lic_other_insurance_inr": 250000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 4000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 8945298
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 5000000,
-      "non_agricultural_land": {
-        "description": "A. Mouza Behra Khar Baihar Balarghat MP Khesra 37/1, 37/2, Patwari Halka No. 51 Area 5.755 Acre Khol (Bought By Self) (B) Chennai Area 4800 Sq. Ft. Bought (C) Faringora Khata No. 15 Area 25 Kattha Approx Date Of Purchase: 2006, 2001-12",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 1219788,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 15000000
+  "constituency": "KISHANGANJ(KISHANGANJ)",
+  "state": "Bihar",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Mohammad Hussain Azad",
+      "age": 50,
+      "voter_enrolled_in": {
+        "constituency": "54 Kishanganj",
+        "state": "Bihar",
+        "serial_no": 40,
+        "part_no": 78
       },
-      "commercial_buildings_inr": 8000000,
-      "residential_buildings": {
-        "description": "Line Ward No. 24, Khata No. 65, Khata No. 78, Khata No. 85 Total Area 14 1/2 Katha Approx With Boundary And Two Double Storeved Buildings Total Area 16000 Sq. Ft.",
-        "total_area_sqft": 16000,
-        "built_up_area_sqft": 6000,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 7000000
+      "self_profession": "Business & Agriculture",
+      "spouse_profession": "Social Service & Business"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 78564203,
+      "total_liabilities_in_rupees": 3618781
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "MBBS From Govt. Medical College Kashmir University In 1989, Inter From The Air Force School New Delhi In 1981"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 2244999
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 909958
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Mischief by injury to public road, bridge, river or channel",
+          "ipc_section": "431",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for public nuisance in cases not otherwise provided for",
+          "ipc_section": "290",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        }
+      ],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 14616847,
+      "gross_total_value_spouse_rupees": 8902589,
+      "gross_total_value_dependent1_rupees": 1608291,
+      "gross_total_value_dependent2_rupees": 936476,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 26117200,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 150000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 550000,
+          "self_details": "4,00,000",
+          "spouse_details": "1,50,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1073778,
+          "spouse_value_rupees": 984970,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2058648,
+          "self_details": "SBI Kishanganj No 1124005xxxxx 5,03,219  SBI Raj Bhawan (Patna) No 1021722xxxxx 22,289  SBI Bihar Vidhan Sabha No 1083946xxxxx 5,18,270  UBI Kishanaganj Election No 050701028xxxxx 30,000",
+          "spouse_details": "Indian Overseas Bank, Sector 31, Noida No 1xxxxx 1,66,701  Oriental Bank Of Commerce Sector 20, Noida No 0708201003xxxxx 3,55,118  United Bank Of India, Dey Market Kishanganj No 050701010xxxxx 4,63,051"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 10732917,
+          "spouse_value_rupees": 2875433,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13638350,
+          "self_details": "Shares 500000 Approximately Azad Enterprises Pvt. Ltd. As Share Holder  29,10,000  Wilderness And Wellness Resorts And Camp Pvt. Ltd 75,40,017  Chambal Wild Life and River Holidays Pvt. Ltd 3,12,900",
+          "spouse_details": "Azad Enterprises Pvt. Ltd. As Share Holder 8,00,000  Wildness And Wellness Resorts And Camp Pvt. Ltd 20,75,433"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 1130374,
+          "spouse_value_rupees": 783285,
+          "dependent1_value_rupees": 1408291,
+          "dependent2_value_rupees": 739476,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4070426,
+          "self_details": "PPF A/c SBI Raj Bhawan 10217262832 11,30,374",
+          "spouse_details": "Indian Overseas Bank Sector 31 Noida FDR No 069xxxxx 1,00,000  Oriental Bank Of Commerce Sector 20 Noida FDR No 241xxxxx 67,263  FDR No 80xxxxx 2,10,427  FDR No 591xxxxx 1,00,000  UBI Kishanganj FDR No 050710041xxxxx 2,05,287  FDR No 050710042xxxxx 1,09,308",
+          "dependent1_details": "PPF GPO Patna No 130085xxxxx 14,08,291",
+          "dependent2_details": "PPF GPO Patna No 130081xxxxx 7,39,476"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 350000,
+          "spouse_value_rupees": 250000,
+          "dependent1_value_rupees": 200000,
+          "dependent2_value_rupees": 200000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1000000,
+          "self_details": "SBI Life Bihar Vidhan Sabha Policy No 4403168xxxxx 3,50,000",
+          "spouse_details": "Reliance Life Policy No 7865xxxxx 2,50,000",
+          "dependent1_details": "LIC No 52217xxxxx Sum Assured 2,00,000",
+          "dependent2_details": "LIC No 52512xxxxx Sum Assured  2,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 699776,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 699776,
+          "self_details": "Mahindra Xylo Car  6,79,776  Maruti Car 800 20,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 4000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4000000,
+          "self_details": "Nil",
+          "spouse_details": "900 Gram Gold (Ornaments) Precious Stone And Silver Ware 40,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100000,
+          "self_details": "Pistal (Gun) 1,00,000",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 350000000,
+      "total_current_market_value_spouse_rupees": 125000000,
+      "total_current_market_value_dependent1_rupees": 25000000,
+      "total_current_market_value_dependent2_rupees": 25000000,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 525000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 50000000,
+          "spouse_value_rupees": 45000000,
+          "dependent1_value_rupees": 25000000,
+          "dependent2_value_rupees": 25000000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 145000000,
+          "self_details": "(A) Mouza Mahsul, Khata 152, 153, 34 Area 4.18 Ac (Tea) Inherited And Khata 45, 46, 48, 52 Area 4.06 1/2 Ac Gift From Father (B) Mouza Koltha Khata 417 Area 85 Dec. Inherited And Khata 248 Area 23 Dec Bought. (C) Naunadi Khata 91 Area 1.88 Ac Bought (D) Fulwari Khata 34 Area 3.31 Ac Orchard Inherited Date Of Purchase: 04.03.1970, 11.08.2000, 25.08.2000, 27.08.1991, 26.05.1992 Total Area 14A. 51 1/2 D Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 63000.00 Development Cost 0.00",
+          "spouse_details": "(A) Mouza Mahsul Khata 163 Area 4.45 Ac Bought (B) Mouza Koltha Khata 588 Area 2 Ac Orchard Bought. (C) Jharwadangi Khata 161 Area 6.67 Ac Tea Bought Date Of Purchase: 23.07.1999, 03.12.1999, 13.12.1999, 10.08.2000, 08.10.1999, 06.06.2008, 30.05.2000, 24.12.1999 Total Area 13 A 12 D Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 334500.00 Development Cost 0.00",
+          "dependent1_details": "(A) Mouza Fulbari, Khata56 Area 2.04 And Khata No. 9 Area 32 Decimal (B) Mouza Koltha Khata 241 Area 1 Acre 65 Decimal Tea Purhased By Grand Mother (C) Mouza Budhra Khata No. 241 Area 6.4 Decimal Tea Purchased By Grand Mother (D) Mahsool Khata 98 Area 52 Decimal Purchased By Grand Mother Date Of Purchase: 30.12.2004, 19.06.2010, 05.08.2006, 18.07.2001 Total Area 4 A 59 D 6 k Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 577000.00 Development Cost 0.00",
+          "dependent2_details": "(A) Mouza Fulbari, Khata 33 Area 2.04 Ac Purchased By Father (B) Mouza Koltha Khata 216 Area 66 Decimal Purchased By Grand Mother (C) Mouza Budhra Khata No. 369 Area 1.36 Acre & Khata No. 241 Area 35 Decimal 6 Kari Tea Purchased By Grand Mother (C) Mahsool Khata 190 Area 12 Decimal & Khata 195 Area 14 Decimal Purchased By Grand Mother Date Of Purchase: 30.12.2004, 01.02.2006, 07.06.2005, 04.08.2006  Total Area 4 A 67 D 6 K Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 537600.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 150000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000000,
+          "self_details": "A. Mouza Behra Khar Baihar Balarghat MP Khesra 37/1, 37/2, Patwari Halka No. 51 Area 5.755 Acre Khol (Bought By Self) (B) Chennai Area 4800 Sq. Ft. Bought (C) Faringora Khata No. 15 Area 25 Kattha Approx Date Of Purchase: 2006, 2001-12 Total Area 5.755 Acre 4800 Sq. Ft. 25 Katha Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 1219788.00 Development Cost 0.00",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 80000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 80000000,
+          "self_details": "A. Mouza Chattargachh Khata No. 11 Area 02 Ac 11 Decimal With Godown Inherited B. Food Court, PM Mail Partlipurtra Industrial Area Patna (Bought By Self) Built Up Area: 5000 Sq. Ft. With Boudary 696 Sq. Ft. Date Of Purchase: 27.04.2004, 2010-11 Cost Of Purchase: 11500, 2400000 Total Area 2.11 Acre 696 Sq. Ft.  Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 70000000,
+          "spouse_value_rupees": 80000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000000,
+          "self_details": "Line Ward No. 24, Khata No. 65, Khata No. 78, Khata No. 85 Total Area 14 1/2 Katha Approx With Boundary And Two Double Storeved Buildings Total Area 16000 Sq. Ft.  Built Up Area 6000 Sq. Ft.  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "Three Bedroom Flat Saha Sahkari Awas Samiti Ltd. 301, Plot No. D3 Sector 44 Noida UP Total Area Built Up Area 1500 Sq. Ft.  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 2300000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3618781,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3618781,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 35000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 118781,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 118781,
+          "self_details": "Car Loan 1,18,781",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 3500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3500000,
+          "self_details": "Loan From Mother 35,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 4500000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Three Bedroom Flat Saha Sahkari Awas Samiti Ltd. 301, Plot No. D3 Sector 44 Noida UP Total Area Built Up Area 1500 Sq. Ft.",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 1500,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 2300000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 8000000
+    "other_elections": [
+      {
+        "election_name": "Bihar 2010",
+        "declared_assets_rupees": 19869395,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 118781,
-      "loans_due_to_individual_entity_inr": 3500000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3618781
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Bihar 2005",
+        "declared_assets_rupees": 11569132,
+        "declared_cases": 0
+      }
+    ],
+    "cases_where_cognizance_taken": [
+      {
+        "serial_no": 1,
+        "ipc_sections_applicable": "143, 147, 290, 427, 431",
+        "other_details_or_acts_sections_applicable": "Case No. 415/11, Gr 1074/2011 Cognition Dt. 16.11.2011, CJM Kishanganj, Kishanganj Thana, 3, 4 Bihar Loud Speaker Act 1955"
+      }
+    ]
+  }
 }

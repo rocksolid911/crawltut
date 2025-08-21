@@ -1,137 +1,995 @@
 {
   "candidate_name": "Anoop Kumar",
   "party": "SP",
-  "constituency": "MAHOLI (SITAPUR)",
-  "father_or_husband_name": "Om Prakash",
-  "age": 42,
-  "education": "Graduate from RMP Degree Collage,Sitapur in 1991",
-  "profession_self": "Agriculture & Business",
-  "profession_spouse": "Agriculture and Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 67344580,
-  "liabilities_total_inr": 7240584,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 856000
+  "constituency": "MAHOLI",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Om Prakash",
+      "age": 42,
+      "self_profession": "Agriculture & Business",
+      "spouse_profession": "Agriculture and Business"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 67344580,
+      "total_liabilities_in_rupees": 7240584
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Graduate from RMP Degree Collage,Sitapur in 1991"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 856000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 826210
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 575080
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 18818851,
+      "gross_total_value_spouse_rupees": 6857503,
+      "gross_total_value_dependent1_rupees": 8824117,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 34500471,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 600000,
+          "spouse_value_rupees": 110000,
+          "dependent1_value_rupees": 25000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 735000,
+          "self_details": {
+            "amount_rupees": 600000
+          },
+          "spouse_details": {
+            "amount_rupees": 110000
+          },
+          "dependent1_details": {
+            "amount_rupees": 25000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2223893,
+          "spouse_value_rupees": 3814880,
+          "dependent1_value_rupees": 60014427,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12513873,
+          "self_details": [
+            {
+              "bank": "UCO Bank",
+              "amount_rupees": 13401
+            },
+            {
+              "bank": "SBI Lucknow",
+              "amount_rupees": 751663
+            },
+            {
+              "bank": "SBI Sitapur",
+              "amount_rupees": 381664
+            },
+            {
+              "bank": "Allahbad UP Gramin Bank",
+              "amount_rupees": 7177
+            },
+            {
+              "bank": "SBI Sitapur",
+              "amount_rupees": 1751061
+            },
+            {
+              "bank": "ICICI Bank",
+              "amount_rupees": 10200
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Central Bank of India",
+              "account_type": "Saving A/C",
+              "amount_rupees": 485156
+            },
+            {
+              "bank": "ICICI Bank",
+              "amount_rupees": 4802
+            },
+            {
+              "bank": "Oriental Bank of Commerece",
+              "amount_rupees": 58110
+            },
+            {
+              "bank": "Axis Bank",
+              "amount_rupees": 255275
+            },
+            {
+              "bank": "Allahbad UP Gramin Bank",
+              "amount_rupees": 2597
+            },
+            {
+              "bank": "SBI Sitapur",
+              "amount_rupees": 1108340
+            },
+            {
+              "bank": "Oriental Bank of Commerece",
+              "account_type": "(FD)",
+              "amount_rupees": 800000
+            },
+            {
+              "bank": "Oriental Bank of Commerece",
+              "account_type": "(FD)",
+              "amount_rupees": 800000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "bank": "Grand total of Saving Bank balance and FD balance of Anoop Gupta HUF",
+              "amount_rupees": 5992783
+            },
+            {
+              "bank": "ICICI BANK",
+              "amount_rupees": 91644
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 1181250,
+          "spouse_value_rupees": 434500,
+          "dependent1_value_rupees": 318300,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1964050,
+          "self_details": [
+            {
+              "company": "Naimish Industries Ltd.",
+              "details": "Share 107675 @ 10",
+              "amount_rupees": 1076750
+            },
+            {
+              "company": "Naimish Infrastracture Pvt.Ltd.",
+              "details": "share 5000 @10",
+              "amount_rupees": 50000
+            },
+            {
+              "company": "Naimish Food Products Pvt.Ltd.",
+              "details": "share 5000 @10",
+              "amount_rupees": 50000
+            },
+            {
+              "company": "Oriental Bank of Commerece,Sitapur",
+              "details": "share 150 @ 230",
+              "amount_rupees": 34500
+            }
+          ],
+          "spouse_details": [
+            {
+              "company": "Naimish Industries Ltd.",
+              "details": "share 40000 @ 10",
+              "amount_rupees": 400000
+            },
+            {
+              "company": "Oriental Bank of Commerece ,Sitapur",
+              "details": "share 150 @ 230",
+              "amount_rupees": 34500
+            }
+          ],
+          "dependent1_details": [
+            {
+              "company": "Naimish Industries Ltd.",
+              "details": "share 31830 @ 10",
+              "amount_rupees": 318300
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 506919,
+          "spouse_value_rupees": 365024,
+          "dependent1_value_rupees": 1198890,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2070833,
+          "self_details": [
+            {
+              "company": "LIC Corporation of India",
+              "details": ",Premium 13331",
+              "amount_rupees": 141895
+            },
+            {
+              "company": "LIC Corporation of India",
+              "details": ",Premium 64144",
+              "amount_rupees": 365024
+            }
+          ],
+          "spouse_details": [
+            {
+              "company": "LIC Corporation of India",
+              "details": ",Premium 63077",
+              "amount_rupees": 365024
+            }
+          ],
+          "dependent1_details": [
+            {
+              "company": "Surrender Value of LIC of Anoop Gupta Bajaj Allianz, Icici Prudential (HUF)",
+              "amount_rupees": 1198890
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 119554316,
+          "spouse_value_rupees": 1989699,
+          "dependent1_value_rupees": 975500,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16020715,
+          "self_details": [
+            {
+              "entity": "Dev Deveshwar,Rice mill,Sitapur",
+              "amount_rupees": 1081433
+            },
+            {
+              "entity": "Capital in M/S Naimish Oil mills,Sitapur",
+              "amount_rupees": 1332115
+            },
+            {
+              "entity": "Capital in M/S Lalite Brick Field ,Sitapur",
+              "amount_rupees": 3295500
+            },
+            {
+              "entity": "Advance for flat to Lucknow Development Authority ,Lucknow",
+              "amount_rupees": 3746468
+            },
+            {
+              "entity": "Advance for plot to Gaziabad Development Authority ,Gaziabad",
+              "amount_rupees": 3600000
+            }
+          ],
+          "spouse_details": [
+            {
+              "entity": "Loan to M/S Naimish Oil Mills ,Sitapur",
+              "amount_rupees": 615250
+            },
+            {
+              "entity": "Loan to Dev Deveshwar Rice Mills ,Sitapur",
+              "amount_rupees": 1374449
+            }
+          ],
+          "dependent1_details": [
+            {
+              "entity": "Advance to Anoop Gupta",
+              "amount_rupees": 975500
+            }
+          ]
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 380000,
+          "spouse_value_rupees": 444000,
+          "dependent1_value_rupees": 222000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1046000,
+          "self_details": [
+            {
+              "type": "Gold",
+              "weight_gm": 125,
+              "amount_rupees": 350000
+            },
+            {
+              "type": "Silver",
+              "weight_gm": 500,
+              "amount_rupees": 30000
+            }
+          ],
+          "spouse_details": [
+            {
+              "type": "Gold",
+              "weight_gm": 150,
+              "amount_rupees": 420000
+            },
+            {
+              "type": "Silver",
+              "weight_gm": 400,
+              "amount_rupees": 24000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "type": "Gold",
+              "weight_gm": 75,
+              "amount_rupees": 210000
+            },
+            {
+              "type": "Silver",
+              "weight_gm": 200,
+              "amount_rupees": 12000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000,
+          "self_details": [
+            {
+              "item": "1 Pistol, 1 Rifle",
+              "amount_rupees": 150000
+            }
+          ],
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 8168000,
+      "total_current_market_value_spouse_rupees": 17917750,
+      "total_current_market_value_dependent1_rupees": 6850000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 32935750,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 7093000,
+          "spouse_value_rupees": 49000000,
+          "dependent1_value_rupees": 5350000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17793000,
+          "self_details": [
+            {
+              "location": "Village Dhanipur ,Sitapur",
+              "details": "Share by 1/2 Total Area 1.31acre",
+              "inherited": false,
+              "purchase_date": "1987-10-09",
+              "purchase_cost_rupees": 101950,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 530000
+            },
+            {
+              "location": "Village Manikapur,P.O.Aurangabad",
+              "details": "share by 1/2 Total Area 15.47bigha",
+              "inherited": false,
+              "purchase_date": "1988-08-23",
+              "purchase_cost_rupees": 65440,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 550000
+            },
+            {
+              "location": "Vilage Rajapur LRP road ,Lakhimpur",
+              "details": "share by 1/2 of 696hect. Total Area 4.30bigha",
+              "inherited": false,
+              "purchase_date": "1992-11-18",
+              "purchase_cost_rupees": 122975,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1200000
+            },
+            {
+              "location": "Village Maujampur,shahjahanpur",
+              "details": "share by 1/2 of 0.267hect. Total Area",
+              "inherited": false,
+              "purchase_date": "1996-11-14",
+              "purchase_cost_rupees": 58275,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            },
+            {
+              "location": "Village Ralamaun pargana Machrehta",
+              "details": "share by 1/6 of 0.922hect. Total Area 1.90bigha",
+              "inherited": false,
+              "purchase_date": "1998-11-30",
+              "purchase_cost_rupees": 21000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 115500
+            },
+            {
+              "location": "Village Ralamaun pargana Machrehta",
+              "details": "share by 4/6 of 0.526hect. Total Area 4.33bigha",
+              "inherited": false,
+              "purchase_date": "1998-12-02",
+              "purchase_cost_rupees": 58100,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 263000
+            },
+            {
+              "location": "Village Ralamaun pargna machrehta",
+              "details": "(3 plot) Total Area 4.41bigha",
+              "inherited": false,
+              "purchase_date": "1998-12-14",
+              "purchase_cost_rupees": 58260,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 268000
+            },
+            {
+              "location": "Village Ralamaun pargna machrehta",
+              "details": "(2 plot) Total Area 10.40bigha",
+              "inherited": false,
+              "purchase_date": "1999-01-02",
+              "purchase_cost_rupees": 91360,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 730000
+            },
+            {
+              "location": "Village Ralamaun pargna machrehta",
+              "details": "Total Area 2bigha",
+              "inherited": false,
+              "purchase_date": "1999-01-02",
+              "purchase_cost_rupees": 24060,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 121500
+            },
+            {
+              "location": "Village Lekhnapur Aurangabad ,Misrikh",
+              "details": "Total Area 1.355hect.",
+              "inherited": false,
+              "purchase_date": "2000-02-18",
+              "purchase_cost_rupees": 196400,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1025000
+            },
+            {
+              "location": "Village Lekhnapur pargna Aurangabad",
+              "details": "share by 1/3 of 2.388hect. Total Area 9.83bigha",
+              "inherited": false,
+              "purchase_date": "2005-03-07",
+              "purchase_cost_rupees": 105100,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 600000
+            },
+            {
+              "location": "Village Lekhnapur pargna Aurangabad",
+              "details": "share by 1/2 of 0.356hect. Total Area 2.20bigha",
+              "inherited": false,
+              "purchase_date": "2005-03-07",
+              "purchase_cost_rupees": 22960,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 140000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Village Sikatia,Pargna Ramkot ,Tehsil Sitapur",
+              "details": "Total Area 6.25acre",
+              "inherited": false,
+              "purchase_date": "1999-02-11",
+              "purchase_cost_rupees": 130040,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1900000
+            },
+            {
+              "location": "Village Sikatia,Pargna Ramkot ,Tehsil Sitapur",
+              "details": "share by 1/2 of 5acre Total Area 2.50acre",
+              "inherited": false,
+              "purchase_date": "1999-07-19",
+              "purchase_cost_rupees": 55700,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 800000
+            },
+            {
+              "location": "Village Sarain Maluhi sitapur",
+              "details": "share by 2/3 of .429hect. Total Area 0.286hect.",
+              "inherited": false,
+              "purchase_date": "2006-03-31",
+              "purchase_cost_rupees": 310000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1450000
+            },
+            {
+              "location": "Village Laliyapur,Khairabad,Sitapur",
+              "details": "share by 1/2 of 0.787 hect. Total Area 0.3935hect.",
+              "inherited": false,
+              "purchase_date": "2011-02-13",
+              "purchase_cost_rupees": 1518350,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1750000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "location": "Village Naimisarnay Bahar nagar post Aurangabad",
+              "details": "Total Area 8.25bigha",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 750000
+            },
+            {
+              "location": "Village Ralamaun pargna Machrehta,Tehsil Misrikh",
+              "details": "share by 1/6 of .0730hect. Total Area 0.0121hect.",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000
+            },
+            {
+              "location": "Village Khoobpur,Sitapur",
+              "details": "share by 1/2 of 2.242hect. Total Area 1.121hect.",
+              "inherited": false,
+              "purchase_date": "2004-05-18",
+              "purchase_cost_rupees": 401800,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            },
+            {
+              "location": "Village Thakur nagar,P/O Aurangabad,Tehsil Misrikh,Sitapur",
+              "details": "38.15bigha(1/2share of each of Ashish & Anoop) Total Area 19.075bigha",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 1625000,
+          "spouse_value_rupees": 10022750,
+          "dependent1_value_rupees": 1500000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15142750,
+          "self_details": [
+            {
+              "location": "Mohl.Shivpuri Shivshankarpuram,Sadar Bazar,Sitapur",
+              "details": "share by 1/2 of 584.75sq.mt. Total Area 3146sq.ft. Built Up Area",
+              "inherited": false,
+              "purchase_date": "2005-09-16",
+              "purchase_cost_rupees": 163600,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1625000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Triveni Nagar -3 Ahibaranpur,Lucknow",
+              "details": "Total Area 2400sq.ft. Built Up Area 1000sq.ft.",
+              "inherited": false,
+              "purchase_date": "1995-08-22",
+              "purchase_cost_rupees": 350000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2400000
+            },
+            {
+              "location": "Mohl.shivpuri shivshankarpuram,sadar bazar",
+              "details": "share by 1/2 of 25725sq.ft. Total Area 12863sq.ft. Built Up Area",
+              "inherited": false,
+              "purchase_date": "2005-07-12",
+              "purchase_cost_rupees": 789075,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3858750
+            },
+            {
+              "location": "Village Jammayatpur Kharabad",
+              "details": "365.01sq.m. Total Area 3928sq.ft. Built Up Area",
+              "inherited": false,
+              "purchase_date": "2008-08-06",
+              "purchase_cost_rupees": 327500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 785000
+            },
+            {
+              "location": "Mohl.shivpuri shivshankarpuram,sadar bazar",
+              "details": "share by 1/2 of 12126sq.ft. Total Area 6063sq.ft. Built Up Area",
+              "inherited": false,
+              "purchase_date": "2006-04-29",
+              "purchase_cost_rupees": 359770,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1819000
+            },
+            {
+              "location": "Mohl. Shivpuri Shivsankarpuram ,Sadar Bazar",
+              "details": "share by 1/2 of 95.91sq.m. Total Area 516sq.ft. Built Up Area",
+              "inherited": false,
+              "purchase_date": "2006-04-29",
+              "purchase_cost_rupees": 31610,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 155000
+            },
+            {
+              "location": "Heera lal Dharmshala Chauraha Lakimpur",
+              "details": "share by 1/2 of 168.726sq.m. Total Area 908sq.ft. Built Up Area 908sq.ft.",
+              "inherited": false,
+              "purchase_date": "2011-01-01",
+              "purchase_cost_rupees": 2520750,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3000000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "location": "House Property No.39 near Hanuman Mandir",
+              "details": "(1/2 share each of Ashish & Anoop) Total Area 2090sq.ft. Built Up Area 1045sq.ft.",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1500000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 4740584,
+      "grand_total_of_liabilities_spouse_rupees": 2500000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 7240584,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2165084,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2165084,
+          "self_details": [
+            {
+              "bank": "SBI ,Sitapur",
+              "amount_rupees": 2165084
+            }
+          ],
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 25755000,
+          "spouse_value_rupees": 2500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5075500,
+          "self_details": [
+            {
+              "entity": "Balaji Brick Field,Unsecured Loan",
+              "amount_rupees": 1100000
+            },
+            {
+              "entity": "Bhuvneshwari Brick Field Unsecured Loan",
+              "amount_rupees": 500000
+            },
+            {
+              "entity": "Anoop Gupta,HUF ,Unsecured Loan",
+              "amount_rupees": 975500
+            }
+          ],
+          "spouse_details": [
+            {
+              "entity": "Balaji Brick Fiekd Unsec.loan",
+              "amount_rupees": 550000
+            },
+            {
+              "entity": "Bhuvneshwari Brick Field",
+              "amount_rupees": 150000
+            },
+            {
+              "entity": "Dev Deveshwar Brick Field",
+              "amount_rupees": 450000
+            },
+            {
+              "entity": "Arun Gupta Unsecured Loan",
+              "amount_rupees": 400000
+            },
+            {
+              "entity": "Gupta & Sons.Lakhimpur Unsec.Loan",
+              "amount_rupees": 450000
+            },
+            {
+              "entity": "Naimish Industries Ltd. Unsec. loan",
+              "amount_rupees": 500000
+            }
+          ],
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil"
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "declaration_in": "Uttar Pradesh 2022",
+        "declared_assets_rupees": 523943856,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Uttar Pradesh 2017",
+        "declared_assets_rupees": 420784842,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Uttar Pradesh 2007",
+        "declared_assets_rupees": 19535785,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 826210
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 575080
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 600000,
-      "bank_deposits_inr": 2901393,
-      "bonds_debentures_shares_inr": 1131250,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 506919,
-      "personal_loans_advance_given_inr": 13055516,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 380000,
-      "other_assets_inr": 150000,
-      "gross_total_value_inr": 18818851
-    },
-    "spouse": {
-      "cash_inr": 110000,
-      "bank_deposits_inr": 3530000,
-      "bonds_debentures_shares_inr": 434500,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 365024,
-      "personal_loans_advance_given_inr": 1989699,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 444000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6873223
-    },
-    "dependent1": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 6000000,
-      "bonds_debentures_shares_inr": 318300,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1198890,
-      "personal_loans_advance_given_inr": 975500,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 222000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 8840000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 5830000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 1625000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 8168000
-    },
-    "spouse": {
-      "agricultural_land_inr": 5900000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 12042750,
-      "others_inr": 0,
-      "total_current_market_value_inr": 17942750
-    },
-    "dependent1": {
-      "agricultural_land_inr": 5350000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 1500000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 6850000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2165084,
-      "loans_due_to_individual_entity_inr": 2575500,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 4740584
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 2500000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2500000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    }
+    ]
   }
 }

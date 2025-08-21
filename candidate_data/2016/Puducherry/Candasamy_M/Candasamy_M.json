@@ -1,132 +1,812 @@
 {
   "candidate_name": "CANDASAMY M",
   "party": "INC",
-  "constituency": "EMBALAM (PUDUCHERRY)",
-  "father_or_husband_name": "Munusamy",
-  "age": 50,
-  "education": "10th Pass",
-  "profession_self": "Agriculture",
-  "profession_spouse": "House Wife, Agriculture",
-  "criminal_cases": 0,
-  "assets_total_inr": 59088678,
-  "liabilities_total_inr": 1103868,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 120000
-      }
+  "constituency": "EMBALAM",
+  "state": "PUDUCHERRY",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Munusamy",
+      "age": 50,
+      "voter_enrolled_in": {
+        "constituency": "Embalam (Pondicherry)",
+        "serial_no": 1357,
+        "part_no": 21
+      },
+      "self_profession": "Agriculture",
+      "spouse_profession": "House Wife, Agriculture"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 1276188
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 59088678,
+      "total_liabilities_in_rupees": 1103868
     },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "10th completed from Bharathi Government High School in the year 1984"
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 120000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 1276188
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 3055,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1203055
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
     },
-    "spouse": {
-      "cash_inr": 300000,
-      "bank_deposits_inr": 31023,
-      "bonds_debentures_shares_inr": 500000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1640000,
-      "jewellery_inr": 800000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4270623
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2500000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2500000
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1203055,
+      "gross_total_value_spouse_rupees": 4270623,
+      "gross_total_value_dependent1_rupees": 515000,
+      "gross_total_value_dependent2_rupees": 500000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 6488678,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 200000,
+          "spouse_value_rupees": 300000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 500000,
+          "self_details": {
+            "amount_rupees": 200000
+          },
+          "spouse_details": {
+            "amount_rupees": 300000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 3055,
+          "spouse_value_rupees": 30623,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 33678,
+          "self_details": [
+            {
+              "bank": "Indian Bank",
+              "branch": "kirumambakkam",
+              "account_type": "SB",
+              "account_no": "634246xxxxx",
+              "amount_rupees": 1055
+            },
+            {
+              "bank": "Bharat state bank",
+              "branch": "Main, Puducherry",
+              "account_type": "No",
+              "account_no": "1083127xxxxx",
+              "amount_rupees": 2000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Bharat state bank",
+              "branch": "Main, Puducherry",
+              "account_type": "SB",
+              "account_no": "1083128xxxxx",
+              "amount_rupees": 2400
+            },
+            {
+              "bank": "Indian Bank",
+              "branch": "Kirumambakkam",
+              "account_type": "SB",
+              "account_no": "42709xxxxx",
+              "amount_rupees": 25839
+            },
+            {
+              "bank": "0riental Bank of Commerce",
+              "branch": "Puducherry",
+              "account_type": "No",
+              "account_no": "0848201100xxxxx",
+              "amount_rupees": 2384
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 500000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "name": "shares",
+            "amount_rupees": 500000
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 1000000,
+          "dependent1_value_rupees": 500000,
+          "dependent2_value_rupees": 500000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": {
+            "policy_no": "735038366",
+            "amount_rupees": 1000000
+          },
+          "spouse_details": {
+            "policy_no": "735098721",
+            "amount_rupees": 1000000
+          },
+          "dependent1_details": {
+            "policy_no": "736597304",
+            "amount_rupees": 500000
+          },
+          "dependent2_details": {
+            "policy_no": "736597590",
+            "amount_rupees": 500000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1640000,
+          "dependent1_value_rupees": 15000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1655000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "make": "Verna Car",
+              "registration_no": "PY-01-KG-3006",
+              "date": "2015-02-27",
+              "amount_rupees": 700000
+            },
+            {
+              "make": "Innova Car",
+              "registration_no": "PY-01-CJ-0005",
+              "date": "2015-07-08",
+              "amount_rupees": 900000
+            },
+            {
+              "make": "Honda Activa",
+              "registration_no": "PY-05-V 3006",
+              "date": "2016-01-04",
+              "amount_rupees": 40000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "make": "Honda Aviator",
+              "registration_no": "PY-01-BC-2187",
+              "date": "2010-03-02",
+              "amount_rupees": 15000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 800000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 800000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "weight_gram": 400,
+            "amount_rupees": 800000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 40690000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 7500000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 48190000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 25000000,
+      "total_current_market_value_spouse_rupees": 406900000,
+      "total_current_market_value_dependent1_rupees": 73600000,
+      "total_current_market_value_dependent2_rupees": 20500000,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 526000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 25000000,
+          "spouse_value_rupees": 331900000,
+          "dependent1_value_rupees": 73600000,
+          "dependent2_value_rupees": 20500000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 451000000,
+          "self_details": [
+            {
+              "location": "Cuddalore District, Madalapattu Madura, Madalapattu Village",
+              "rs_s_no": "257/5",
+              "total_area": "2 Acre, 54 cent",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "1999-04-19",
+              "purchase_cost_rupees": 385000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 25000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Cuddalore District, Madalapattu Madura, Madalapattu Village",
+              "rs_s_no": "260/7, 560/5",
+              "total_area": "1 Acre 33 cent",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2006-06-05",
+              "purchase_cost_rupees": 297000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4660000
+            },
+            {
+              "location": "Puducherry, Bahour Commune, Kirumambakkam Village NO 72",
+              "rs_s_no": "121/9, 121/14, 121/15",
+              "total_area": "22 AR, 92 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2002-10-17",
+              "purchase_cost_rupees": 70000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11000000
+            },
+            {
+              "location": "Puducherry Bahour commune, Kirumambakkam village no 72",
+              "rs_s_no": "121/12",
+              "total_area": "13 AR, 35 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2000-01-10",
+              "purchase_cost_rupees": 20500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6410000
+            },
+            {
+              "location": "Puducherry Bahour commune, Kirumambakkam village No 72",
+              "rs_s_no": "121/3, 121/8",
+              "total_area": "50 AR, 50 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2003-03-19",
+              "purchase_cost_rupees": 105000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 24240000
+            },
+            {
+              "location": "Puducherry Bahour commune, Kirumambakkam village No 72",
+              "rs_s_no": "105/3, 106/2, 105/2, 104/3,105/1, 106/4",
+              "total_area": "2 Hectare, 51 AR, 50 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2006-05-15",
+              "purchase_cost_rupees": 952000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 120720000
+            },
+            {
+              "location": "Puducherry Bahour commune, kirumambakkam village No 72",
+              "rs_s_no": "121/9",
+              "total_area": "13 AR, 37 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2002-12-19",
+              "purchase_cost_rupees": 67000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6420000
+            },
+            {
+              "location": "Puducherry Bahour commune, Kirumambakkam village, No 72",
+              "rs_s_no": "121/5, 121/10,121/11",
+              "total_area": "51 AR, 40 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2003-02-17",
+              "purchase_cost_rupees": 140000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 24680000
+            },
+            {
+              "location": "Puducherry Bahour Commune, Kirumambakkam village, No 72",
+              "rs_s_no": "121/14",
+              "total_area": "2 AR",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2003-03-31",
+              "purchase_cost_rupees": 6000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 96000
+            },
+            {
+              "location": "Puducherry Bahour Commune, Kirumambakkam village, No 72",
+              "rs_s_no": "102/2",
+              "total_area": "5 AR",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 13500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2400000
+            },
+            {
+              "location": "Puducherry Bahour Commune, Kirumambakkam village, No 72",
+              "rs_s_no": "121/14",
+              "total_area": "1 AR, 67 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2005-11-25",
+              "purchase_cost_rupees": 6000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 81000
+            },
+            {
+              "location": "Puducherry Bahour Commune, Kirumambakkam village, No. 72",
+              "rs_s_no": "102/1",
+              "total_area": "1 Hectare, 50 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-07-16",
+              "purchase_cost_rupees": 3852000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 48000000
+            },
+            {
+              "location": "Puducherry Bahour Commune, Kirumambakkam Village",
+              "rs_s_no": "103/3, 104/4",
+              "total_area": "1 Hectare, 18 AR, 50 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-09-10",
+              "purchase_cost_rupees": 4266000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 64600000
+            },
+            {
+              "location": "Cuddalore District Madalapattu Village",
+              "rs_s_no": "257/1,257/3,248/1A,248/1B,248/2,558/1,558/4",
+              "total_area": "1 Acre 58 Santhiyar",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-08-16",
+              "purchase_cost_rupees": 1164000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 17000000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "location": "Puducherry Bahour commune, Kirumambakkam Revenue 72",
+              "rs_s_no": "59/2",
+              "total_area": "52 AR",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-08-01",
+              "purchase_cost_rupees": 955000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 25000000
+            },
+            {
+              "location": "Puducherry Bahour Commune, Kirumambakkam village 72",
+              "rs_s_no": "102/1,102/3",
+              "total_area": "89 AR",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-07-16",
+              "purchase_cost_rupees": 3310000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 42720000
+            },
+            {
+              "location": "Puducherry Bahour Commune, kirumambakkam village 72",
+              "rs_s_no": "60",
+              "total_area": "1960 Sq feet",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2012-07-27",
+              "purchase_cost_rupees": 55000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5880000
+            }
+          ],
+          "dependent2_details": [
+            {
+              "location": "Cuddalore District, Madalapattu Madura, Madalapattu Village",
+              "rs_s_no": "248/1, Recent R.S.No. 248/1C",
+              "total_area": "1 Acre, 11 cent",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2014-08-27",
+              "purchase_cost_rupees": 385000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 9500000
+            },
+            {
+              "location": "Cuddalore District, Madalapattu Madura, Madalapattu Village",
+              "rs_s_no": "255/2",
+              "total_area": "1 Acre 37 Cent",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2014-08-27",
+              "purchase_cost_rupees": 484000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 75000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 75000000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "location": "Puducherry Uzhandhai keerapalayam, Revenue No 40",
+              "rs_s_no": "344/7, 345pt1",
+              "total_area": "4 Kuzhi, 1 Veesam",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "1993-08-18",
+              "purchase_cost_rupees": 109000,
+              "development_cost_rupees": 2000000,
+              "current_value_rupees": 40000000
+            },
+            {
+              "location": "Puducherry Bahour commune 72, Kirumambakkam",
+              "rs_s_no": "121/3,121/8",
+              "total_area": "50 AR, 50 Santhiyar",
+              "built_up_area": 3312,
+              "inherited": false,
+              "purchase_date": "2003-03-19",
+              "purchase_cost_rupees": 105000,
+              "development_cost_rupees": 200000,
+              "current_value_rupees": 35000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1103868,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1103868
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 1103868,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1103868,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1103868,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1103868,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "bank": "Indian Bank",
+              "branch": "Kirumambakkam",
+              "loan_type": "Agricultural loan",
+              "amount_rupees": 158004
+            },
+            {
+              "bank": "Indian Bank",
+              "branch": "Kirumambakkam",
+              "loan_type": "Vehicle loan",
+              "amount_rupees": 729485
+            },
+            {
+              "bank": "Indian Bank",
+              "branch": "Kirumambakkam",
+              "loan_type": "Jewel loan",
+              "amount_rupees": 216379
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture",
-    "spouse": "House Wife, Agriculture",
-    "dependent": "N/A"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+    "election_expenses": "https://www.myneta.info/puducherry2016/expense.php?candidate_id=10"
   }
 }

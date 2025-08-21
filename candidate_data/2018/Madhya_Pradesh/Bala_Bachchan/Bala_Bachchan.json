@@ -2,180 +2,438 @@
   "candidate_name": "BALA BACHCHAN",
   "party": "INC",
   "constituency": "RAJPUR (ST)",
-  "father_or_husband_name": "Ram Singh",
-  "age": 54,
-  "education": "Graduate Professional (Electronic Engineering) From Shri Govindram Seksiriya Institute of Technology and Science College Indore Year 1993",
-  "profession_self": "Agriculture",
-  "profession_spouse": "Petrol Pump Dealer (IOC)",
-  "criminal_cases": 1,
-  "assets_total_inr": 126681169,
-  "liabilities_total_inr": 2428511,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 724620
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Ram Singh",
+      "age": 54,
+      "voter_enrolled_in": {
+        "constituency": "188 Rajpur (Madhya Pradesh)",
+        "state": "Madhya Pradesh",
+        "serial_no": 956,
+        "part_no": 185
+      },
+      "self_profession": "Agriculture",
+      "spouse_profession": "Petrol Pump Dealer (IOC)"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 126681169,
+      "total_liabilities_in_rupees": 2428511
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "Graduate (Electronic Engineering) From Shri Govindram Seksiriya Institute of Technology and Science College Indore Year 1993"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 724620
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 1032810
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 365070
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 249630
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "341, 34",
+          "other_details_other_acts_sections_applicable": "Police Station Badwani Crime No. 10/2017, Date 07/01/2017"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6385013,
+      "gross_total_value_spouse_rupees": 6490661,
+      "gross_total_value_dependent1_rupees": 207732,
+      "gross_total_value_dependent2_rupees": 229147,
+      "gross_total_value_dependent3_rupees": 394475,
+      "gross_total_value_total_rupees": 13707028,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 27000,
+          "spouse_value_rupees": 893790,
+          "dependent1_value_rupees": 17604,
+          "dependent2_value_rupees": 2500,
+          "dependent3_value_rupees": 5400,
+          "total_value_rupees": 946294
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 3146029,
+          "spouse_value_rupees": 2989349,
+          "dependent1_value_rupees": 4878,
+          "dependent2_value_rupees": 39947,
+          "dependent3_value_rupees": 389075,
+          "total_value_rupees": 6193699
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 10198,
+          "spouse_value_rupees": 297000,
+          "dependent1_value_rupees": 86000,
+          "dependent2_value_rupees": 91000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 744396
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 1100000,
+          "spouse_value_rupees": 125000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1225000
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2530100,
+          "spouse_value_rupees": 1340000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3869839
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 138750,
+          "spouse_value_rupees": 445100,
+          "dependent1_value_rupees": 48250,
+          "dependent2_value_rupees": 95700,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 727800
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 55068500,
+      "total_current_market_value_spouse_rupees": 53389000,
+      "total_current_market_value_dependent1_rupees": 4500500,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 112958000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 10300670,
+          "spouse_value_rupees": 24458000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 34758670
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 6650000,
+          "spouse_value_rupees": 18926000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25576000
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 17450500,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 4500500,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 21951000
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 20667330,
+          "spouse_value_rupees": 10005000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30672330
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1707553,
+      "grand_total_of_liabilities_spouse_rupees": 720958,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2428511,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1707553,
+          "spouse_value_rupees": 720958,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2428511
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "declaration_in": "Madhya Pradesh 2023",
+        "declared_assets_rupees": 173002766,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Madhya Pradesh 2013",
+        "declared_assets_rupees": 92048607,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Lok Sabha 2009",
+        "declared_assets_rupees": 20306883,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Madhya Pradesh 2008",
+        "declared_assets_rupees": 19647290,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 1032810
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 365070
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 249630
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 27000,
-      "bank_deposits_inr": 2230303,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 10198,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 1100000,
-      "motor_vehicles_inr": 2531100,
-      "jewellery_inr": 138750,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6037351
-    },
-    "spouse": {
-      "cash_inr": 893790,
-      "bank_deposits_inr": 3191573,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 459196,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 125000,
-      "motor_vehicles_inr": 1340000,
-      "jewellery_inr": 445100,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6454659
-    },
-    "dependent1": {
-      "cash_inr": 17604,
-      "bank_deposits_inr": 4878,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 86000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 48250,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 156732
-    },
-    "dependent2": {
-      "cash_inr": 2500,
-      "bank_deposits_inr": 39947,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 91000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 95700,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 229147
-    },
-    "dependent3": {
-      "cash_inr": 5400,
-      "bank_deposits_inr": 389075,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 394475
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 10300670,
-      "non_agricultural_land": 6650000,
-      "commercial_buildings_inr": 17450500,
-      "residential_buildings_inr": 22267330,
-      "others_inr": 0,
-      "total_current_market_value_inr": 56668500
-    },
-    "spouse": {
-      "agricultural_land_inr": 24458000,
-      "non_agricultural_land": 18926000,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 10005000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 53389000
-    },
-    "dependent1": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 4500500,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 4500500
-    },
-    "dependent2": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    },
-    "dependent3": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1707553,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1707553
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 720958,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 720958
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    ]
+  }
 }

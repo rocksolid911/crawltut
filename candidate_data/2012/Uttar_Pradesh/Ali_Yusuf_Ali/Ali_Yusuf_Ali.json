@@ -1,146 +1,401 @@
 {
   "candidate_name": "ALI YUSUF ALI",
+  "constituency": "CHAMRAUA (RAMPUR)",
   "party": "BSP",
-  "constituency": "CHAMRAUA",
-  "father_or_husband_name": "Najakat Ali",
+  "s_o_d_o_w_o": "Najakat Ali",
   "age": 37,
-  "education": "10th Pass, CHOUDARY JAMUNADAS INTER COLLAGE IN 1991",
-  "profession_self": "Agriculture",
-  "profession_spouse": "House wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 11999486,
-  "liabilities_total_inr": 750000,
-  "income_tax_details": {
+  "self_profession": "Agriculture",
+  "spouse_profession": "House wife",
+  "other_elections_info": [
+    {
+      "election": "Uttar Pradesh 2022",
+      "declared_assets_in_rupees": 56381548,
+      "declared_cases": 17
+    },
+    {
+      "election": "Uttar Pradesh 2017",
+      "declared_assets_in_rupees": 36377573,
+      "declared_cases": 14
+    }
+  ],
+  "crime_o_meter": {
+    "criminal_cases_count": 0
+  },
+  "assets_and_liabilities": {
+    "assets_in_rupees": 11999486,
+    "liabilities_in_rupees": 750000
+  },
+  "educational_details": {
+    "category": "10th Pass",
+    "institution": "CHOUDARY JAMUNADAS INTER COLLAGE",
+    "year": 1991
+  },
+  "pan_and_income_tax_return": {
     "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010-2011": 346000
-      }
+      "pan_given": true,
+      "financial_year": "2010 - 2011",
+      "total_income_shown_in_itr_in_rupees": 346000
     },
     "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr_in_rupees": 0
     },
-    "huf": null,
     "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr_in_rupees": 0
     },
     "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr_in_rupees": 0
     },
     "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr_in_rupees": 0
     }
+  },
+  "criminal_cases_details": {
+    "cases": []
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 662186,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 296300,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 658000,
-      "jewellery_inr": 28000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1694486
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 280000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 305000
-    }
+    "gross_total_value_self_in_rupees": 1694486,
+    "gross_total_value_spouse_in_rupees": 305000,
+    "gross_total_value_dependent1_in_rupees": 0,
+    "gross_total_value_dependent2_in_rupees": 0,
+    "gross_total_value_dependent3_in_rupees": 0,
+    "gross_total_value_total_in_rupees": 1999486,
+    "details": [
+      {
+        "description": "Cash",
+        "self_in_rupees": 50000,
+        "spouse_in_rupees": 25000,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 75000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_in_rupees": 662186,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 662186,
+        "bank_details_self": [
+          {"name": "PRTHAM BANK RAJANAGAR", "value_in_rupees": 4236},
+          {"name": "SBI", "value_in_rupees": 16687},
+          {"name": "SYNDICATE BANK", "value_in_rupees": 1263},
+          {"name": "IDI BANK RAMPUR", "value_in_rupees": 640000}
+        ]
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_in_rupees": 296300,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 296300,
+        "policy_details_self": [
+          {"name": "LIC", "value_in_rupees": 200000},
+          {"name": "PLUS INDIA LIMITED", "value_in_rupees": 96300}
+        ]
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_in_rupees": 658000,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 658000,
+        "vehicle_details_self": [{"make": "BULERO", "value_in_rupees": 658000}]
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_in_rupees": 28000,
+        "spouse_in_rupees": 280000,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 308000,
+        "jewellery_details_self": {"description": "1 TOLA GOLD,RING", "value_in_rupees": 28000},
+        "jewellery_details_spouse": {"description": "10 TOLA GOLD", "value_in_rupees": 280000}
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3500000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+    "total_current_market_value_self_in_rupees": 10000000,
+    "total_current_market_value_spouse_in_rupees": 0,
+    "total_current_market_value_dependent1_in_rupees": 0,
+    "total_current_market_value_dependent2_in_rupees": 0,
+    "total_current_market_value_dependent3_in_rupees": 0,
+    "total_current_market_value_total_in_rupees": 10000000,
+    "details": [
+      {
+        "description": "Agricultural Land",
+        "self_in_rupees": 3500000,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 3500000,
+        "property_details_self": [
+          {
+            "location": "VILLAGE RAJPURA TEH. SWAR RAMPUR",
+            "total_area": "8.100 ACRE",
+            "inherited": false,
+            "purchase_date": "2011-06-07",
+            "purchase_cost_in_rupees": 2248333,
+            "development_cost_in_rupees": 0,
+            "current_value_in_rupees": 3500000
+          }
+        ]
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "RAMPUR, Total Area 16.96.89 SQ FT, Built Up Area 850.33 SQ FT",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "2008-07-18",
-        "purchase_cost_inr": 2700000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3500000
+      {
+        "description": "Non Agricultural Land",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 10000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
+      {
+        "description": "Commercial Buildings",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Residential Buildings",
+        "self_in_rupees": 6500000,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 6500000,
+        "property_details_self": [
+          {
+            "location": "RAMPUR",
+            "total_area": "16.96.89 SQ FT",
+            "built_up_area": "850.33 SQ FT",
+            "inherited": false,
+            "purchase_date": "2008-07-18",
+            "purchase_cost_in_rupees": 2700000,
+            "development_cost_in_rupees": 0,
+            "current_value_in_rupees": 3500000
+          },
+          {
+            "location": "RAMPUR",
+            "total_area": "2339.55 SQ FT",
+            "built_up_area": "850.33 SQ FT",
+            "inherited": false,
+            "purchase_date": "2010-04-20",
+            "purchase_cost_in_rupees": 2690000,
+            "development_cost_in_rupees": 0,
+            "current_value_in_rupees": 3000000
+          }
+        ]
+      },
+      {
+        "description": "Others",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      }
+    ]
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 750000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 750000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "grand_total_of_liabilities_self_in_rupees": 750000,
+    "grand_total_of_liabilities_spouse_in_rupees": 0,
+    "grand_total_of_liabilities_dependent1_in_rupees": 0,
+    "grand_total_of_liabilities_dependent2_in_rupees": 0,
+    "grand_total_of_liabilities_dependent3_in_rupees": 0,
+    "grand_total_of_liabilities_total_in_rupees": 750000,
+    "grand_total_of_all_govt_dues_self_in_rupees": 0,
+    "grand_total_of_all_govt_dues_spouse_in_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent1_in_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent2_in_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent3_in_rupees": 0,
+    "grand_total_of_all_govt_dues_total_in_rupees": 0,
+    "details": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_in_rupees": 750000,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 750000,
+        "loan_details_self": [
+          {"type": "AGRICULTURAL LOAN", "value_in_rupees": 250000},
+          {"type": "BULERO LOAN", "value_in_rupees": 500000}
+        ]
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_in_rupees": 0,
+        "spouse_in_rupees": 0,
+        "dependent1_in_rupees": 0,
+        "dependent2_in_rupees": 0,
+        "dependent3_in_rupees": 0,
+        "total_in_rupees": 0
+      }
+    ]
   }
 }

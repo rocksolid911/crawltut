@@ -1,148 +1,464 @@
 {
   "candidate_name": "POTHULA RAMARAO",
   "party": "Yuvajana Sramika Rythu Congress Party",
-  "constituency": "KANDUKUR (PRAKASAM)",
-  "father_or_husband_name": "Chenchaiah",
-  "age": 63,
-  "education": "Graduate B.Sc. (Agri) from Bapatla Agriculture College, Bapatla, AP Agriculture University, Hyd. in 1971",
-  "profession_self": "Business",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 1,
-  "assets_total_inr": 278734898,
-  "liabilities_total_inr": 56548380,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 12626015
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 2025450,
-      "bank_deposits_inr": 44413353,
-      "bonds_debentures_shares_inr": 3178780,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 29481240,
-      "personal_loans_advance_given_inr": 5000000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 5061250,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 86196073
-    },
-    "spouse": {
-      "cash_inr": 224000,
-      "bank_deposits_inr": 2022000,
-      "bonds_debentures_shares_inr": 10170000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 2671380,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 5720000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 20807380
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 14696000,
-      "non_agricultural_land": {
-        "description": "Site at Hyd., Plot no. 576 Syno. 403/1 old and new 120 &102/1, Jubilee Hills Cooperative House Building Society Ltd., Shaikpet-500034; Site at Pernamitta, Syno. 170; Tangutur Village Syno. 1230/1 East of Door no. 6-75",
-        "area_sq_mtr": 15741,
-        "inherited": "N",
-        "purchase_date": "2013-04-15",
-        "purchase_cost_inr": 74682300,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 78614300
+  "constituency": "KANDUKUR",
+  "state": "Andhra Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Chenchaiah",
+      "age": 63,
+      "voter_enrolled_in": {
+        "constituency": "229-Kondapi Assembly Constituency",
+        "state": "AP (Andhra Pradesh)",
+        "serial_no": 286,
+        "part_no": 177
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Ameerpet, Hyd. Flat no. 024; Flat at Kurnool Road Syno. 184, Flat no. 304; Tangutur Village 1/4shares",
-        "total_area_sqft": 4854.6,
-        "built_up_area_sqft": 2950,
-        "inherited": "N",
-        "purchase_date": "1996-01-25",
-        "purchase_cost_inr": 683500,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 7000000
+      "self_profession": "Business",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 278734898,
+      "total_liabilities_in_rupees": 56548380
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Sc. (Agri) from Bapatla Agriculture College, Bapatla, AP Agriculture University, Hyd. in 1971"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 12626015
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "Section 72 A of the Mines Act 1952",
+          "other_details_or_acts_sections_applicable": "Section 200 A Cr. P. C. for the Offence under Section 72 A of the Mines Act 1952, CC No. 146/2009, pending on the file of Prohibition and Excise Judicial 1st Class Magistrate, Ongole, the Hon'ble court taken the case on cognizance on 20.08.2008, The State (union of India) rep. by the Director of Mines Safety, Hyderabad region No. I filed a private complaint",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 147562718,
+      "gross_total_value_spouse_rupees": 21307380,
+      "gross_total_value_dependent1_rupees": 840000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 169710098,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 2025450,
+          "spouse_value_rupees": 224000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2249450,
+          "self_details": "20,25,450  20 Lacs+ ",
+          "spouse_details": "2,24,000  2 Lacs+ "
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 40166258,
+          "spouse_value_rupees": 2027962,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 44633517,
+          "self_details": "Axis Bank, Greenlands Begumpet Road, Hyd. No 91304001942xxxxx 5,00,000  5 Lacs+ Axis Bank, Green Lands, Begumpet Road, Hyd. No 91304005588xxxxx 1,00,00,000  1 Crore+ Axis Bank, Green Lands, Begumpet road, Hyd. No 91304005588xxxxx 1,05,00,000  1 Crore+ SBI, Commercial Branch, Ongole No 3167611xxxxx 1,92,63,581  1 Crore+ Axis Bank, Green lands, Begumpet, Hyd. No 91301001565xxxxx 80,824  80 Thou+ SBI, commercial Branch, Ongole No 1037066xxxxx 22,08,014  22 Lacs+ Vijaya Bank,Ongole No 40190030000xxxxx 9,551  9 Thou+ State Bank of Hyd., Secretariat Branch, Hyd. No 5208849xxxxx 44,547  44 Thou+ SBI, Tangutur No 6234008xxxxx 5,000  5 Thou+",
+          "spouse_details": "SBI, Yellareddyguda Hyd. No 3215029xxxxx 5,00,000  5 Lacs+ SBI, Yellareddyguda, Hyd. No 3200951xxxxx 5,00,000  5 Lacs+ ABI, Yellareddyguda, Hyd. No 3159892xxxxx 5,00,000  5 Lacs+ Union Bank of India, Somajiguda, Hyd. No 50820302000xxxxx 5,00,000  5 Lacs+ SBI, Yellareddyguda, Hyd. No 1027621xxxxx 22,000  22 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 121798780,
+          "spouse_value_rupees": 10670000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 32789680,
+          "self_details": "Share Capital in Akshaya Agri Business Pvt. Ltd., Hyd. 60,000  60 Thou+ Anjaneya Tobacco Company Pvt. Ltd. Tangutur 1,58,780  1 Lacs+ Share application money in Southern Estates and Developers Private Ltd., Hyd. 6,91,800  6 Lacs+ Share Capitals in Southern Estates & Developers Pvt. Ltd.,Hyd. 19,99,100  19 Lacs+ Share Capital in Southern Realtors & Towers Pvt. Ltd., Hyd. 50,000  50 Thou+ Share Capital in Southern Rocks & Minerals Pvt. Ltd., Hyd. 87,00,000  87 Lacs+ Vijaya Bank Shares 1,60,000  1 Lacs+ Reliance Mutual Fund 100Units(Shares) 1,00,000  1 Lacs+ SBI Mutual Fund 2000units 2,00,000  2 Lacs+ Share in Anjaneya Tobacco Company, Tangutur, Prakasam  1,00,00,000  1 Crore+",
+          "spouse_details": "Share Capital in Akshaya Agri Business pvt. ltd., Hyd. 60,000  60 Thou+ Share Capital in Southern Rocks & Minerals Pvt. ltd., Hyd. 60,000  60 Thou+ Share application Money in Southern Rocks and Minerals Pvt. Ltd., Hyd. 5,00,000  5 Lacs+ Share Capital in Southern Realtors & Towers Pvt. Ltd., Hyd. 50,000  50 Thou+ Share in Anjaneya Tobacco Company, Tangutur, Prakasam 1,00,00,000  1 Crore+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 29481240,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 29481240,
+          "self_details": "Tata AIG Keyman Insurance Policy no. C320166666 1,60,00,000  1 Crore+ LIC of India Policy No 84101xxxxx 1,23,29,000  1 Crore+ LIC of India Policy No 84077xxxxx 11,52,240  11 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 50000000,
+          "spouse_value_rupees": 2671380,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8671380,
+          "self_details": "Damacharla Anil Babu of T.Naidupalem, Tanguru Mandal 10,00,000  10 Lacs+ Smt. Snehalatha, Tangutur 10,00,000  10 Lacs+ R.K. Das Gupta, Ongole  2,00,000  2 Lacs+ R.Seetharavamma, Hyd. 5,00,000  5 Lacs+ Uma Maheswara Reddy 10,00,000  10 Lacs+ R. Venkatadri Reddy 10,00,000  10 Lacs+ T. Venkateswarlu, Ongole 13,00,000  13 Lacs+",
+          "spouse_details": "P.Rama Rao 26,71,380  26 Lacs+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 5061250,
+          "spouse_value_rupees": 5720000,
+          "dependent1_value_rupees": 840000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 11621250,
+          "self_details": "Gold 1kg 28,00,000  28 Lacs+ Silver 50.250kgs 22,61,250  22 Lacs+",
+          "spouse_details": "Gold 1.400kg 39,20,000  39 Lacs+ Silver 40kg 18,00,000  18 Lacs+",
+          "dependent1_details": "Gold 300gms 8,40,000  8 Lacs+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 98025800,
+      "total_current_market_value_spouse_rupees": 78300000,
+      "total_current_market_value_dependent1_rupees": 3169000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 109024800,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 14696000,
+          "spouse_value_rupees": 1130000,
+          "dependent1_value_rupees": 3169000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18995000,
+          "self_details": "Tangutur Village Syno. 273/1, 274/2, 274/1, 281/1, 770, 802, 805/2, 808, 924/1, 962, 963, 964, 1154/1, 1155/1 1/4th shares Ananthavaram Village Syno. 98, 85 K. Bitragunta Village 1/4th shares in Syno. 674 Gajularamaram, Hyd. Syno. 172, 173, 174, 175, 153 Total Area Ac78.46cents Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 14696000.00 Development Cost 0.00 1,46,96,000  1 Crore+",
+          "spouse_details": "Tangutur Village syno. 163 Ananthavaram Village Syno. 152/1, 152/2, 153, 162, 164, 163, 173/2 Total Area Ac22.74cents Built Up Area  Whether Inherited N Purchase Date 2012-03-25 Purchase Cost 1130000.00 Development Cost 0.00 11,30,000  11 Lacs+",
+          "dependent1_details": "Ananthavaram, Tanguru Mandal Syno. 159, 160, 168, 154, 155, 158/1, 160, 161, 162, 164, 165, 166, 167 Total Area Ac31.69cents Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 31,69,000  31 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 78614300,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 78614300,
+          "self_details": "Site at Hyd., Plot no. 576 Syno. 403/1 old and new 120 &102/1, Jubilee Hills Cooperative House Building Society Ltd., Shaikpet-500034 Total Area 15741sq.ft. Built Up Area  Whether Inherited N Purchase Date 2013-04-15 Purchase Cost 74682300.00 Development Cost 0.00 7,46,82,300  7 Crore+ Site at Pernamitta, Syno. 170 Total Area 27648sq.ft. Built Up Area  Whether Inherited N Purchase Date 2003-09-27 Purchase Cost 215500.00 Development Cost 0.00 25,00,000  25 Lacs+ Tangutur Village Syno. 1230/1 East of Door no. 6-75 Total Area 3213sq.ft. Built Up Area  Whether Inherited N Purchase Date 2013-04-16 Purchase Cost 1432000.00 Development Cost 0.00 14,32,000  14 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 70000000,
+          "spouse_value_rupees": 67000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 137000000,
+          "self_details": "Ameerpet, Hyd. Flat no. 024 Total Area 1490sq.ft. Built Up Area 1470sq.ft. Whether Inherited N Purchase Date 1996-01-25 Purchase Cost 450000.00 Development Cost 0.00 40,00,000  40 Lacs+ Flat at Kurnool Road Syno. 184, Flat no. 304 Total Area 850sq.ft. Built Up Area 850sq.ft. Whether Inherited Y Purchase Date 1998-03-30 Purchase Cost 233500.00 Development Cost 0.00 15,00,000  15 Lacs+ Tangutur Village 1/4shares  Total Area 2514.60sq.ft. Built Up Area 630sq.ft. Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 15,00,000  15 Lacs+",
+          "spouse_details": "Apartment at Sri Nagar Colony, Hyd. Flat no. 101 Total Area 1296sq.ft. Built Up Area 1296sq.ft. Whether Inherited N Purchase Date 2002-02-11 Purchase Cost 988255.00 Development Cost 0.00 27,00,000  27 Lacs+ Panjagutta, Hyd. D.no. 6-3-712/138 & 139/1-P, Flat no. 1B Total Area 362.09sq.ft. Built Up Area 362.09sq.ft. Whether Inherited N Purchase Date 2012-02-17 Purchase Cost 2344750.00 Development Cost 0.00 40,00,000  40 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 56548380,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 56548380,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 100310300
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 53877000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 53877000,
+          "self_details": "SBI Commercial branch, Ongole No 3002175xxxxx 1,04,62,024  1 Crore+ Loan in Axis Bank A/c no. PHR000800701427 4,34,14,976  4 Crore+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 2671380,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2671380,
+          "self_details": "P. Prema Kumari 26,71,380  26 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 1130000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Apartment at Sri Nagar Colony, Hyd. Flat no. 101; Panjagutta, Hyd. D.no. 6-3-712/138 & 139/1-P, Flat no. 1B",
-        "total_area_sqft": 1658.09,
-        "built_up_area_sqft": 1658.09,
-        "inherited": "N",
-        "purchase_date": "2002-02-11",
-        "purchase_cost_inr": 3333005,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6700000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 7830000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 53877000,
-      "loans_due_to_individual_entity_inr": 2671380,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 56548380
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "other_elections": [
+      {
+        "election_year": "2019",
+        "state": "Andhra Pradesh",
+        "declared_assets_in_rupees": 473494796,
+        "declared_cases": 0
+      }
+    ],
+    "expense_details": "https://www.myneta.info/andhra2014/expense.php?candidate_id=4254"
+  }
 }

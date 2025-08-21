@@ -1,150 +1,816 @@
-{
-  "candidate_name": "SAMIR KUMAR JANA",
-  "party": "AITC",
-  "constituency": "PATHARPRATIMA (SOUTH 24 PARGANAS)",
-  "father_or_husband_name": "Late Rathikanta Jana",
-  "age": 71,
-  "education": "Post Graduate M.A In 1986 from Examination Under CU, B.A In 1983 from Examination Under CU",
-  "profession_self": "Retired Teacher & Social Work",
-  "profession_spouse": "House wife",
-  "criminal_cases": 2,
-  "assets_total_inr": 9524413,
-  "liabilities_total_inr": 550000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2019-2020": 402670,
-        "2018-2019": 0,
-        "2017-2018": 412513,
-        "2016-2017": 0,
-        "2015-2016": 0
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2019-2020": 298920,
-        "2018-2019": 364051,
-        "2017-2018": 265518,
-        "2016-2017": 0,
-        "2015-2016": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2019-2020": 179300,
-        "2018-2019": 178310,
-        "2017-2018": 163545,
-        "2016-2017": 0,
-        "2015-2016": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
+[
+  {
+    "candidate_name": "SAMIR KUMAR JANA",
+    "party": "AITC",
+    "constituency": "PATHARPRATIMA",
+    "state": "West Bengal",
+    "status": "Winner",
+    "affidavit_info": {
+      "personal_details": {
+        "s_o_d_o_w_o": "Late Rathikanta Jana",
+        "age": 71,
+        "voter_enrolled_in": {
+          "constituency": "130 Pathar Pratima",
+          "state": "West Bengal",
+          "serial_no": 112,
+          "part_no": 59
+        },
+        "self_profession": "Retired Teacher & Social Work",
+        "spouse_profession": "House wife"
+      },
+      "other_elections_declaration": [
+        {
+          "election": "West Bengal 2016",
+          "declared_assets_rupees": 2222764,
+          "declared_cases": 6
+        },
+        {
+          "election": "West Bengal 2011",
+          "declared_assets_rupees": 1494850,
+          "declared_cases": 4
+        },
+        {
+          "election": "West Bengal 2006",
+          "declared_assets_rupees": 364000,
+          "declared_cases": 0
+        }
+      ],
+      "summary": {
+        "criminal_cases_count": 2,
+        "total_assets_in_rupees": 9524413,
+        "total_liabilities_in_rupees": 550000
+      },
+      "educational_details": {
+        "category": "Post Graduate",
+        "details": "M.A In 1986 from Examination Under CU, B.A In 1983 from Examination Under CU"
+      },
+      "income_tax_details": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "returns": [
+          {
+            "relation_type": "self",
+            "pan_given": true,
+            "financial_year": "2019 - 2020",
+            "total_income_shown_in_itr_rupees": 402670
+          },
+          {
+            "relation_type": "self",
+            "pan_given": true,
+            "financial_year": "2018 - 2019",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "self",
+            "pan_given": true,
+            "financial_year": "2017 - 2018",
+            "total_income_shown_in_itr_rupees": 412513
+          },
+          {
+            "relation_type": "self",
+            "pan_given": true,
+            "financial_year": "2016 - 2017",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "self",
+            "pan_given": true,
+            "financial_year": "2015 - 2016",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "spouse",
+            "pan_given": false,
+            "financial_year": "None",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "huf",
+            "pan_given": false,
+            "financial_year": "None",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent1",
+            "pan_given": true,
+            "financial_year": "2019 - 2020",
+            "total_income_shown_in_itr_rupees": 298920
+          },
+          {
+            "relation_type": "dependent1",
+            "pan_given": true,
+            "financial_year": "2018 - 2019",
+            "total_income_shown_in_itr_rupees": 364051
+          },
+          {
+            "relation_type": "dependent1",
+            "pan_given": true,
+            "financial_year": "2017 - 2018",
+            "total_income_shown_in_itr_rupees": 265518
+          },
+          {
+            "relation_type": "dependent1",
+            "pan_given": true,
+            "financial_year": "2016 - 2017",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent1",
+            "pan_given": true,
+            "financial_year": "2015 - 2016",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent2",
+            "pan_given": true,
+            "financial_year": "2019 - 2020",
+            "total_income_shown_in_itr_rupees": 179300
+          },
+          {
+            "relation_type": "dependent2",
+            "pan_given": true,
+            "financial_year": "2018 - 2019",
+            "total_income_shown_in_itr_rupees": 178310
+          },
+          {
+            "relation_type": "dependent2",
+            "pan_given": true,
+            "financial_year": "2017 - 2018",
+            "total_income_shown_in_itr_rupees": 163545
+          },
+          {
+            "relation_type": "dependent2",
+            "pan_given": true,
+            "financial_year": "2016 - 2017",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent2",
+            "pan_given": true,
+            "financial_year": "2015 - 2016",
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent3",
+            "pan_given": false,
+            "financial_year": "None",
+            "total_income_shown_in_itr_rupees": 0
+          }
+        ]
+      },
+      "criminal_cases": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "brief_details_ipc_bns": [
+          {
+            "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+            "ipc_section": "332",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Voluntarily causing grievous hurt to deter public servant from his duty",
+            "ipc_section": "333",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Attempt to murder",
+            "ipc_section": "307",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Punishment for theft",
+            "ipc_section": "379",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Punishment for criminal intimidation",
+            "ipc_section": "506",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Punishment for criminal breach of trust",
+            "ipc_section": "406",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Criminal breach of trust by public servant, or by banker, merchant or agent",
+            "ipc_section": "409",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Punishment for Rioting",
+            "ipc_section": "147",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Rioting, armed with deadly weapon",
+            "ipc_section": "148",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+            "ipc_section": "149",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Obstructing public servant in discharge of public functions",
+            "ipc_section": "186",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+            "ipc_section": "353",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+            "ipc_section": "427",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Furnishing false information",
+            "ipc_section": "177",
+            "count": 1
+          },
+          {
+            "charges_related_to": "Punishment of criminal conspiracy",
+            "ipc_section": "120B",
+            "count": 1
+          }
+        ],
+        "pending_cases": [
+          {
+            "serial_no": 1,
+            "fir_no": "Dholahat PS, South 24 Parganas",
+            "case_no": "78/2009, GR No 291/2009",
+            "court": "Special Court West Bengal (MPs & MLAs Cases) Mayukh Bhawan, Saltake, Kolkata",
+            "ipc_sections_applicable": "147, 148, 149, 332, 333, 307, 186, 353, 379, 427, 506, 177, 120B",
+            "other_details_or_acts_sections_applicable": null,
+            "charges_framed": false,
+            "date_on_which_charges_were_framed": null,
+            "appeal_filed": false,
+            "details_and_present_status_of_appeal": null
+          },
+          {
+            "serial_no": 2,
+            "fir_no": "Dholahat PS, South 24 Parganas",
+            "case_no": "58/2009",
+            "court": "Kakdwip Court, South 24 Parganas",
+            "ipc_sections_applicable": "406, 409",
+            "other_details_or_acts_sections_applicable": null,
+            "charges_framed": false,
+            "date_on_which_charges_were_framed": null,
+            "appeal_filed": false,
+            "details_and_present_status_of_appeal": null
+          }
+        ],
+        "convicted_cases": []
+      },
+      "movable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "gross_total_value_self_rupees": 1833913,
+        "gross_total_value_spouse_rupees": 96500,
+        "gross_total_value_huf_rupees": 0,
+        "gross_total_value_dependent1_rupees": 2013500,
+        "gross_total_value_dependent2_rupees": 334500,
+        "gross_total_value_dependent3_rupees": 0,
+        "gross_total_value_total_rupees": 4278413,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Cash",
+            "self_value_rupees": 4000,
+            "spouse_value_rupees": 1500,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 3500,
+            "dependent2_value_rupees": 4500,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 13500
+          },
+          {
+            "sr_no": "ii",
+            "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+            "self_value_rupees": 1287653,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 390000,
+            "dependent2_value_rupees": 330000,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 2007653,
+            "self_details": [
+              {
+                "bank": "Allahabad Bank (Indian Bank)",
+                "account_no": "2231053xxxxx",
+                "amount_rupees": 215417
+              },
+              {
+                "bank": "UBI (PNB)",
+                "branch": "DK, Raypur Branch",
+                "account_no": "121801010xxxxx",
+                "amount_rupees": 48256
+              },
+              {
+                "bank": "SBI",
+                "branch": "Kolkata High Court Branch",
+                "account_no": "3177934xxxxx",
+                "amount_rupees": 901990
+              },
+              {
+                "bank": "Samir Kumar Jana, Election Expenses",
+                "account_no": "699492xxxxx",
+                "amount_rupees": 12000
+              }
+            ],
+            "dependent1_details": [
+              {
+                "bank": "Allahabad Bank (Indian Bank)",
+                "account_no": "5008124xxxxx",
+                "amount_rupees": 30000
+              },
+              {
+                "bank": "Allahabad Bank (Indian Bank)",
+                "account_no": "5039468xxxxx",
+                "amount_rupees": 350000
+              },
+              {
+                "bank": "WBSC Bank",
+                "branch": "Patharpratima Branch",
+                "account_no": "101000976xxxxx",
+                "amount_rupees": 10000
+              }
+            ],
+            "dependent2_details": [
+              {
+                "bank": "Allahabad Bank (Indian Bank)",
+                "account_no": "5901579xxxxx",
+                "amount_rupees": 20000
+              },
+              {
+                "bank": "Allahabad Bank (Indian Bank)",
+                "account_no": "5047100xxxxx",
+                "amount_rupees": 300000
+              },
+              {
+                "bank": "WBSC Bank",
+                "branch": "Patharpratima Branch",
+                "account_no": "10100838xxxxx",
+                "amount_rupees": 10000
+              }
+            ]
+          },
+          {
+            "sr_no": "iii",
+            "description": "Bonds, Debentures and Shares in companies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iv",
+            "description": "(a) NSS, Postal Savings etc",
+            "self_value_rupees": 652250,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 652250,
+            "self_details": [
+              {
+                "bank": "SBI FD",
+                "amount_rupees": 652250
+              }
+            ]
+          },
+          {
+            "sr_no": null,
+            "description": "(b) LIC or other insurance Policies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 70000,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 70000,
+            "spouse_details": [
+              {
+                "company": "Bajaj Allianz",
+                "amount_rupees": 40000
+              },
+              {
+                "company": "Bajaj Allianz",
+                "amount_rupees": 30000
+              }
+            ]
+          },
+          {
+            "sr_no": "v",
+            "description": "Personal loans/advance given",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "vi",
+            "description": "Motor Vehicles (details of make, etc.)",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 1620000,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 1620000,
+            "dependent1_details": [
+              {
+                "make": "Mahindra Bolero (4 W)",
+                "registration_no": "WB98C8337",
+                "year": 2018,
+                "value_rupees": 820000
+              },
+              {
+                "make": "Renault Triber (4W)",
+                "registration_no": "WB98H8250",
+                "year": 2020,
+                "value_rupees": 800000
+              }
+            ]
+          },
+          {
+            "sr_no": "vii",
+            "description": "Jewellery (give details weight value)",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 25000,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 25000,
+            "spouse_details": [
+              {
+                "type": "Gold",
+                "weight_gm": 10,
+                "value_rupees": 25000
+              }
+            ]
+          },
+          {
+            "sr_no": "viii",
+            "description": "Other assets, such as values of claims / interests",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "immovable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "total_current_market_value_self_rupees": 1550000,
+        "total_current_market_value_spouse_rupees": 0,
+        "total_current_market_value_huf_rupees": 0,
+        "total_current_market_value_dependent1_rupees": 1344000,
+        "total_current_market_value_dependent2_rupees": 2352000,
+        "total_current_market_value_dependent3_rupees": 0,
+        "total_current_market_value_total_rupees": 5246000,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Agricultural Land",
+            "self_value_rupees": 850000,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 1344000,
+            "dependent2_value_rupees": 2352000,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 4546000,
+            "self_details": [
+              {
+                "location": "Paschim Sridharpur",
+                "jl_no": "145",
+                "total_area": "71 Dec",
+                "built_up_area": null,
+                "inherited": true,
+                "purchase_date": "1997-01-01",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 850000
+              }
+            ],
+            "dependent1_details": [
+              {
+                "location": "Paschim Sridharpur",
+                "jl_no": "145",
+                "total_area": "1.12 Acre",
+                "built_up_area": null,
+                "inherited": false,
+                "purchase_date": "2020-01-01",
+                "purchase_cost_rupees": 1344000,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 1344000
+              }
+            ],
+            "dependent2_details": [
+              {
+                "location": "Paschim Sridharpur",
+                "jl_no": "145",
+                "total_area": "1.96 Acre",
+                "built_up_area": null,
+                "inherited": false,
+                "purchase_date": "2020-01-01",
+                "purchase_cost_rupees": 2352000,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 2352000
+              }
+            ]
+          },
+          {
+            "sr_no": "ii",
+            "description": "Non Agricultural Land",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iii",
+            "description": "Commercial Buildings",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iv",
+            "description": "Residential Buildings",
+            "self_value_rupees": 700000,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 700000,
+            "self_details": [
+              {
+                "location": "Paschim Sridharpur, J.L. No. 145, Khatian No. 428, Dag No. 515",
+                "total_area": "0.15 Acre",
+                "built_up_area": "1700 sq ft",
+                "inherited": false,
+                "purchase_date": "1997-01-01",
+                "purchase_cost_rupees": 25000,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 700000
+              }
+            ]
+          },
+          {
+            "sr_no": "v",
+            "description": "Others",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "liabilities": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "grand_total_of_liabilities_self_rupees": 0,
+        "grand_total_of_liabilities_spouse_rupees": 0,
+        "grand_total_of_liabilities_huf_rupees": 0,
+        "grand_total_of_liabilities_dependent1_rupees": 550000,
+        "grand_total_of_liabilities_dependent2_rupees": 0,
+        "grand_total_of_liabilities_dependent3_rupees": 0,
+        "grand_total_of_liabilities_total_rupees": 550000,
+        "grand_total_of_all_govt_dues_self_rupees": 0,
+        "grand_total_of_all_govt_dues_spouse_rupees": 0,
+        "grand_total_of_all_govt_dues_huf_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+        "grand_total_of_all_govt_dues_total_rupees": 0,
+        "any_other_liabilities_in_dispute": {
+          "self_amount_rupees": 0,
+          "spouse_amount_rupees": 0,
+          "huf_amount_rupees": 0,
+          "dependent1_amount_rupees": 0,
+          "dependent2_amount_rupees": 0,
+          "dependent3_amount_rupees": 0,
+          "total_amount_rupees": 0,
+          "details": []
+        },
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Loans from Banks / FIs",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 550000,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 550000,
+            "dependent1_details": [
+              {
+                "bank": "Mahindra Finance",
+                "amount_rupees": 150000
+              },
+              {
+                "bank": "Renault Finance",
+                "amount_rupees": 400000
+              }
+            ]
+          },
+          {
+            "sr_no": null,
+            "description": "Loans due to Individual / Entity",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Any other Liability",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "ii",
+            "description": "Dues to departments dealing with government accommodation",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with supply of water",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with supply of electricity",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with telephones",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with supply of transport",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Income Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Wealth Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Service Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Property Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Sales Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "GST Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Any Other Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "huf_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "profession_or_occupation": {
+        "self": "Retired Teacher & Social Work",
+        "spouse": "House wife"
+      },
+      "sources_of_income": {
+        "self": "Pension & Salary / TA as MLA",
+        "spouse": "Nil",
+        "dependent": "Business"
+      },
+      "contracts_with_government_and_public_companies": {
+        "candidate": "NA",
+        "spouse": "NA",
+        "dependent": "Asish Jana, S/O- Samir Kumar Jana, in contract with WBSEDCL as Electricity Maintenance Job",
+        "huf_or_trust": "NA",
+        "partnership_firms": "NA",
+        "private_companies": "NA"
       }
     }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 4000,
-      "bank_deposits_inr": 1833913,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 652250,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1833913
-    },
-    "spouse": {
-      "cash_inr": 1500,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 70000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 25000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 96500
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 850000,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 700000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1550000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Pension & Salary / TA as MLA",
-    "spouse": "Nil",
-    "dependent": "Business"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "Asish Jana, S/O- Samir Kumar Jana, in contract with WBSEDCL as Electricity Maintenance Job",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
   }
-}
+]

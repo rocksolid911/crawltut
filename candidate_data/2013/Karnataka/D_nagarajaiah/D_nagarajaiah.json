@@ -1,145 +1,501 @@
 {
   "candidate_name": "D.Nagarajaiah",
   "party": "JD(S)",
-  "constituency": "KUNIGAL (TUMKUR)",
-  "father_or_husband_name": "LATE. DASEGOWDA",
-  "age": 69,
-  "education": "12th Pass APS COLLEGE, BASAVANGUDI, BANGALORE IN 1962",
-  "profession_self": "AGRICULTURE & SOCIAL SERVICE",
-  "profession_spouse": "HOUSE WIFE",
-  "criminal_cases": 1,
-  "assets_total_inr": 68685098,
-  "liabilities_total_inr": 174000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 461362
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 2000000,
-      "bank_deposits_inr": 25062789,
-      "bonds_debentures_shares_inr": 1000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 50000,
-      "personal_loans_advance_given_inr": 14500000,
-      "motor_vehicles_inr": 970000,
-      "jewellery_inr": 2611000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 43593789
-    },
-    "spouse": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 13466816,
-      "bonds_debentures_shares_inr": 1000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 550000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1701000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 16218816
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 39300000,
-      "non_agricultural_land": {
-        "description": "KHB COLONY KUNIGAL, FATHER LATE DASANEGOWDA'S PROPERTY, KRS AGRAHAARA KUNIGAL, KRS AGARHARA KUNIGAL, MOTHER HUCHAMMA'S PROPERTY, AGRAHARA, KUNIGAL",
-        "area_sq_mtr": 0,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6100000
+  "constituency": "KUNIGAL",
+  "state": "Karnataka",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "LATE. DASEGOWDA",
+      "age": 69,
+      "voter_enrolled_in": {
+        "constituency": "KUNIGAL (Karnataka)",
+        "serial_no": 57,
+        "part_no": 42
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "20 KHB COLONY, KUNIGAL TOWNM, KUNIGAL, HUCHAMMA DASEGOWDA'S FATHER RANGEGOWDA'S PROPERTY, KANNAGULI VILAGE, YADIYURU, KUNIGAL",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 120000,
-        "development_cost_inr": 300000,
-        "current_market_value_inr": 4800000
+      "self_profession": "AGRICULTURE & SOCIAL SERVICE",
+      "spouse_profession": "HOUSE WIFE"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 68685098,
+      "total_liabilities_in_rupees": 174000
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "APS COLLEGE, BASAVANGUDI, BANGALORE IN 1962"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 461362
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Joining or continuing in unlawful assembly, knowing it has been commanded to disperse",
+          "ipc_section": "145",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        }
+      ],
+      "pending_cases": [],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 145, 147, 188, 341, 149",
+          "other_details_or_acts_sections_applicable": "CC NO. 903-2011; KUNIGAL POLICE STATION, TUMKUR, KARNATAKA; Charges Framed on 23/10/2010"
+        }
+      ],
+      "cases_where_cognizance_taken": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 9083877,
+      "gross_total_value_spouse_rupees": 4101221,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 13185098,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 2000000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2500000,
+          "self_details": "CASH IN HAND 20,00,000",
+          "spouse_details": "CASH IN HAND 5,00,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2572789,
+          "spouse_value_rupees": 1349224,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3921101,
+          "self_details": "APEX BANK, LH BRANCH, BANGALORE SB ACCOUNT 62,789; CANARA BANK KUNIGAL SB ACCOUNT 9,088; APEX BANK, LH BRANCH, BANGALORE FD ACCOUNT 25,00,000",
+          "spouse_details": "APEX BANK, LH BRANCH, BANGALORE SB ACCOUNT 2,816; APEX BANK, LH BRANCH, BANGALORE FD ACCOUNT 13,46,408"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 1000,
+          "spouse_value_rupees": 1000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2000,
+          "self_details": "JANATA CREDIT CO OPERATIVE KUNIGAL 1,000",
+          "spouse_details": "JANATA CREDIT CO OPERATIVE KUNIGAL 1,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "self_details": "KISAN VIKAS PATRA 10,000; KISAN VIKAS PATRA 10,000; KISAN VIKAS PATRA 10,000; KISAN VIKAS PATRA 10,000; KISAN VIKAS PATRA 10,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 14500000,
+          "spouse_value_rupees": 550000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2000000,
+          "self_details": "JAYARAMAYYA HOPCOMES KUNIGAL 2,00,000; JAYARAMAYYA BOREGOWDA HIPPADI KUNIGAL 3,00,000; BOREGOWDA MOTAYYA CHANNAPURA KUNIGAL 1,50,000; R K GOWDA RANGAPPA GOWDA BIDANAGERE, KUNIGAL 5,00,000; NARASEGOWDA KUNDURU, KUNIGAL 3,00,000",
+          "spouse_details": "BL VINAY LAKSHIMINARASIMYA, BOMMANAHALI, TUMKUR 2,50,000; RAMESH RANGEGOWDA, KITHALAMANGALA, KUNIGAL 1,00,000; T VENUGOPAL TIRUMALEGOWDA, BOMMANAHALLI, TUMKUR 1,00,000; VENKATAPPA RETAIRED SECRETARY KAGGERE YADIYURU KUNIGAL 1,00,000"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 970000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 970000,
+          "self_details": "MEO 9947 MOTOR CYCLE MODEL 1974 3,000; AMBASSADOR CAR MODEKL 1963 30,000; MAHINDRA SCORPIO MODEL 2010 9,37,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2640000,
+          "spouse_value_rupees": 1701000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4512000,
+          "self_details": "GOLD 152GRM 3,81,000; GOLD BELONG TO PARENTS 1195 GRM 22,30,000; SILVER 5 KG 2,00,000",
+          "spouse_details": "GOLD 680 GRM 13,58,000; SILVER 8580 GRM 3,43,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 543000000,
+      "total_current_market_value_spouse_rupees": 1200000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 555000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 43100000,
+          "spouse_value_rupees": 1200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 44600000,
+          "self_details": "KANNAGUNI VILLAGE, YADIYURU HOBLI, KUNIGAL Total Area 7 A 12 G Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 9,00,000; BEGURU VILLAGE, KASABA HOBLI, KUNIGAL Total Area 1 A 26 G Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,00,000; NADEMAVINAPURA, AM KAVAL, YADIYURU KUNIGAL Total Area 28 A Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 36,00,000; FATHER LATE. DASANEGOWDA'S PROPERTY KUNIGAL YADIYURU HOBLI Total Area 18 A 02 G Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 19,00,000; FATHER LATE. DASANEGOWDA'S PROPERTY CHANNAPURA VILLAGE KASABA HOBLI KUNIGAL Total Area 190 A Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 3,25,00,000; MOTHER HUCHAMMA'S PROPERTY, KUNIGAL YADIYURU Total Area 20 A 49 G Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 16,00,000; LATE. RANGEGOWDA'S PROPERTY, KANNAGUNI VILLAGE, YADIYURU HOBLI KUNIGAL Total Area 27 A 32 G Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 27,00,000",
+          "spouse_details": "KASABA KUNIGAL TOWN KUNIGAL Total Area 38 A 5G Built Up Area  Whether Inherited N Purchase Date 2010-08-19 Purchase Cost 211750.00 Development Cost 0.00 12,00,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 6100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6100000,
+          "self_details": "KHB COLONY KUNIGAL Total Area 40*92 Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 18,00,000; FATHER LATE DASANEGOWDA'S PROPERTY, KRS AGRAHAARA KUNIGAL Total Area 30*90 Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 12,00,000; KRS AGARHARA KUNIGAL Total Area 30*70 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 10,00,000; MOTHER HUCHAMMA'S PROPERTY, AGRAHARA, KUNIGAL Total Area 30*64 Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 21,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 4800000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4800000,
+          "self_details": "20 KHB COLONY, KUNIGAL TOWNM, KUNIGAL Total Area 60*40 Built Up Area 50*37 Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 120000.00 Development Cost 300000.00 38,00,000; HUCHAMMA DASEGOWDA'S FATHER RANGEGOWDA'S PROPERTY, KANNAGULI VILAGE, YADIYURU, KUNIGAL Total Area 60*120 Built Up Area 60*120 Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 10,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 124500,
+      "grand_total_of_liabilities_spouse_rupees": 49500,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 174000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 50200000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 124500,
+          "spouse_value_rupees": 49500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 174000,
+          "self_details": "FACS BANK KUNIGAL AGRICULTURAL LOAN 75,000; JANGATA CREDIT CO OPERATIVE KUNIGAL AGRICULTURAL LOAN 49,500",
+          "spouse_details": "ANGATA CREDIT CO OPERATIVE KUNIGA AGRICULTURE LOAN 49,500"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 1200000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1200000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 124500,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 124500
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 49500,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 49500
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+    "election_history": [
+      {
+        "election": "Karnataka 2018",
+        "declared_assets_in_rupees": 87091356,
+        "declared_cases": 0
+      }
+    ]
   }
 }

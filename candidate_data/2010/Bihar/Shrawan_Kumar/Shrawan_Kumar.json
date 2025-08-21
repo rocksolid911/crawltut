@@ -1,116 +1,369 @@
 {
   "candidate_name": "Shrawan Kumar",
   "party": "JD(U)",
-  "constituency": "Nalanda (NALANDA)",
-  "father_or_husband_name": "HARI SINGH",
-  "age": 51,
-  "education": "12th Pass I.Sc. SPN Collage Bihar",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 1,
-  "assets_total_inr": 18323658,
-  "liabilities_total_inr": 16647,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 143000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 6800000,
-      "lic_other_insurance_inr": 1100000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 50000,
-      "jewellery_inr": 21800,
-      "other_assets_inr": 125000,
-      "gross_total_value_inr": 8264800
+  "constituency": "Nalanda",
+  "state": "Bihar",
+  "election_year": 2010,
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "HARI SINGH",
+      "age": 51
     },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 795858,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 350000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 215000,
-      "other_assets_inr": 10000,
-      "gross_total_value_inr": 1430858
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 5000000,
-      "non_agricultural_land": {
-        "description": "3 DEC. at Bihar shaib",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 600000
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 18323658,
+      "total_liabilities_in_rupees": 16647
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "I.Sc. SPN Collage Bihar"
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "504",
+          "other_details_or_acts_sections_applicable": "Gr. No. 1809/09, Court taken cog. : Sri Manoj kumar iv ISP 1 st class Magistrate Bihar, Dt. of cog. 11.01.2010"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 7164800,
+      "gross_total_value_spouse_rupees": 1070858,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 8235658,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 75000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 143000,
+          "spouse_value_rupees": 795858,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 938858,
+          "self_details": "SBI BANK Bihar Vidhan Sabaha, INDIRA BANK",
+          "spouse_details": "SBI BANK, GRAMIN BANK"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 6800000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6800000,
+          "self_details": "K.B.P."
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1100000,
+          "spouse_value_rupees": 350000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1450000,
+          "self_details": "Policy SBI patna, LIC",
+          "spouse_details": "LIC"
+        },
+        {
+          "sr_no": "v",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "self_details": "AMBASSADOR WB855"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 21800,
+          "spouse_value_rupees": 215000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 236800,
+          "self_details": "1 WATCH, RING SILVER",
+          "spouse_details": "GOLD 10 BHAR, SILVER 500 GRAM"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 125000,
+          "spouse_value_rupees": 10000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 135000,
+          "self_details": "RIFLE, REVOLVER",
+          "spouse_details": "OTHER"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 7745000,
+      "total_current_market_value_spouse_rupees": 2343000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 10088000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 50000000,
+          "spouse_value_rupees": 1280000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 63280000,
+          "self_details": "15 BIGHA",
+          "spouse_details": "6-1/4 DEC Bihar, 1.59 DEC, 6.25 DEC"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 600000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6000000,
+          "self_details": "3 DEC. at Bihar shaib"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Buildings",
+          "self_value_rupees": 125000,
+          "spouse_value_rupees": 10000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 11250000,
+          "self_details": "HOUSING COLONY BHADUR PUR PATNA 3MF14/41",
+          "spouse_details": "3 DEC. at Rajgir"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Houses",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000000,
+          "self_details": "6 DEC, 4 DEC, HOUSE"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 20000,
+          "spouse_value_rupees": 15000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 35000
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 16647,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 16647,
+      "items": [
+        {
+          "sr_no": "(a) i",
+          "description": "Loans from Banks",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans from Financial Institutions",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "(a) Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(c) Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(d) Dues to departments dealing with telephones",
+          "self_value_rupees": 16647,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16647,
+          "self_details": "TELEPHONE OFFICE PATNA"
+        },
+        {
+          "sr_no": null,
+          "description": "(e) Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(f) Other Dues if any",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "(i) (a) Income Tax including surcharge [Also indicate the assessment year upto which Income Tax Return filed.]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Permanent Account Number (PAN)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null,
+          "self_details": "PAN given-Y"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Wealth Tax [Also indicate the assessment year upto which Wealth Tax return filed.]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Sales Tax [Only in case proprietary business]",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Property Tax",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election": "Bihar 2020",
+        "declared_assets_rupees": 23943354,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "HOUSING COLONY BHADUR PUR PATNA 3MF14/41",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 125000
+      {
+        "election": "Bihar Ministers 2015",
+        "declared_assets_rupees": 18240087,
+        "declared_cases": 0
       },
-      "others_inr": 20000,
-      "total_current_market_value_inr": 7745000
-    },
-    "spouse": {
-      "agricultural_land_inr": 1228000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "3 DEC. at Rajgir",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1000000
-      },
-      "others_inr": 15000,
-      "total_current_market_value_inr": 2343000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 16647
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 16647,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 16647
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election": "Bihar 2015",
+        "declared_assets_rupees": 18526285,
+        "declared_cases": 1
+      }
+    ]
+  }
 }

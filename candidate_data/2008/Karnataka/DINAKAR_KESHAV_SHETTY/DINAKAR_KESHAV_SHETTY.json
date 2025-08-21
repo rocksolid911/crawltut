@@ -1,124 +1,265 @@
 {
   "candidate_name": "DINAKAR KESHAV SHETTY",
+  "constituency": "Kumta",
+  "state": "Karnataka",
+  "election_year": 2008,
   "party": "JD(S)",
-  "constituency": "Kumta (UTTARA KANNADA)",
-  "father_or_husband_name": "S/O Keshava Venkataramana Shetty",
-  "age": 51,
-  "education": "Graduate B.Com 1976, Dr. A.V Baliga vanijya vidyalaya, Kumata Karnataka University.",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 0,
-  "assets_total_inr": 9301000,
-  "liabilities_total_inr": 1232000,
-  "income_tax_details": null,
+  "status": "Winner",
+  "personal_details": {
+    "s_o_d_o_w_o": "S/O Keshava Venkataramana Shetty",
+    "age": 51
+  },
+  "summary": {
+    "criminal_cases_count": 0,
+    "total_assets_in_rupees": 9301000,
+    "total_liabilities_in_rupees": 1232000
+  },
+  "educational_details": {
+    "category": "Graduate",
+    "degree": "B.Com",
+    "year": 1976,
+    "institution": "Dr. A.V Baliga vanijya vidyalaya, Kumata Karnataka University"
+  },
+  "criminal_cases": {
+    "details": "No criminal cases",
+    "data_readability_report": "No Problems in Reading Affidavit Information"
+  },
   "movable_assets": {
-    "self": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 7000,
-      "bonds_debentures_shares_inr": 55000,
-      "nss_postal_savings_inr": 47000,
-      "lic_other_insurance_inr": 1800000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 750000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 1500000,
-      "gross_total_value_inr": 2559000
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 100000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 10000,
-      "lic_other_insurance_inr": 150000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 100000,
-      "jewellery_inr": 400000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 610000
-    }
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "gross_total_value_self_rupees": 2559000,
+    "gross_total_value_spouse_rupees": 610000,
+    "gross_total_value_dependent1_rupees": 74000,
+    "gross_total_value_dependent2_rupees": 108000,
+    "gross_total_value_dependent3_rupees": 0,
+    "gross_total_value_total_rupees": 3351000,
+    "items": [
+      {
+        "sr_no": "i",
+        "description": "Cash",
+        "self_value_rupees": 200000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0
+      },
+      {
+        "sr_no": "ii",
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_value_rupees": 7000,
+        "spouse_value_rupees": 100000,
+        "dependent1_value_rupees": 20000,
+        "dependent2_value_rupees": 80000,
+        "dependent3_value_rupees": 0,
+        "dependent1_details": "in Doughter's Name Vasavi",
+        "dependent2_details": "in Doughter's Name sanjotha"
+      },
+      {
+        "sr_no": "iii",
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_value_rupees": 55000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 37000,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "dependent1_details": "UTI"
+      },
+      {
+        "sr_no": "iv",
+        "description": "(a) NSS, Postal Savings etc",
+        "self_value_rupees": 47000,
+        "spouse_value_rupees": 10000,
+        "dependent1_value_rupees": 17000,
+        "dependent2_value_rupees": 28000,
+        "dependent3_value_rupees": 0,
+        "self_details": "For NSC",
+        "spouse_details": "NSC",
+        "dependent1_details": "NSC",
+        "dependent2_details": "NSC"
+      },
+      {
+        "sr_no": null,
+        "description": "(b) LIC or other insurance Policies",
+        "self_value_rupees": 1800000,
+        "spouse_value_rupees": 150000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 60000,
+        "dependent3_value_rupees": 0,
+        "self_details": "LIC",
+        "spouse_details": "LIC",
+        "dependent2_details": "iN dOughter Name for Vasavi",
+        "counted_in_total_assets": false
+      },
+      {
+        "sr_no": "v",
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_value_rupees": 750000,
+        "spouse_value_rupees": 100000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "self_details": "Fortfiaasta",
+        "spouse_details": "Maruthi800"
+      },
+      {
+        "sr_no": "vi",
+        "description": "Jewellery (give details weight value)",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 400000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "spouse_details": "400 Grams"
+      },
+      {
+        "sr_no": "vii",
+        "description": "Other assets, such as values of claims / interests",
+        "self_value_rupees": 1500000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1000000,
-      "non_agricultural_land": {
-        "description": "456/148,0-29-2,0-3-6,Kumata Village.",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1450000
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "total_current_market_value_self_rupees": 46500000,
+    "total_current_market_value_spouse_rupees": 13000000,
+    "total_current_market_value_dependent1_rupees": 0,
+    "total_current_market_value_dependent2_rupees": 0,
+    "total_current_market_value_dependent3_rupees": 0,
+    "total_current_market_value_total_rupees": 59500000,
+    "items": [
+      {
+        "sr_no": "i",
+        "description": "Agricultural Land",
+        "self_value_rupees": 10000000,
+        "spouse_value_rupees": 8000000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "self_details": "Survey no- 78/1,1-13-0 Sq ft at Manakki Village",
+        "spouse_details": "Survey No 557, 3-29-8, Kumata Village"
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "456/-148,3000 sqft,Kumata; 465/-148, 2000 sqft,at Kumuta.",
-        "total_area_sqft": 5000,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 2200000
+      {
+        "sr_no": "ii",
+        "description": "Non Agricultural Land",
+        "self_value_rupees": 14500000,
+        "spouse_value_rupees": 5000000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "self_details": "456/148,0-29-2,0-3-6,Kumata Village.",
+        "spouse_details": "443,0-4-12,Kumata Village."
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 4650000
-    },
-    "spouse": {
-      "agricultural_land_inr": 800000,
-      "non_agricultural_land": {
-        "description": "443,0-4-12,Kumata Village.",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 500000
+      {
+        "sr_no": "iii",
+        "description": "Buildings",
+        "self_value_rupees": 5000000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "self_details": "456/-148,3000 sqft,Kumata"
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 0
+      {
+        "sr_no": "iv",
+        "description": "Houses",
+        "self_value_rupees": 17000000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "self_details": "465/-148, 2000 sqft,at Kumuta."
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1300000
-    }
+      {
+        "sr_no": "v",
+        "description": "Others",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0
+      }
+    ]
   },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1232000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1232000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+  "liabilities": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "grand_total_of_liabilities_self_rupees": 1232000,
+    "grand_total_of_liabilities_spouse_rupees": 0,
+    "grand_total_of_liabilities_dependent1_rupees": 0,
+    "grand_total_of_liabilities_dependent2_rupees": 0,
+    "grand_total_of_liabilities_dependent3_rupees": 0,
+    "grand_total_of_liabilities_total_rupees": 1232000,
+    "items": [
+      {
+        "sr_no": "(a) i",
+        "description": "Loans from Banks",
+        "self_value_rupees": 1232000,
+        "self_details": "SBI at Kumata"
+      },
+      {
+        "sr_no": "ii",
+        "description": "Loans from Financial Institutions",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": "iii",
+        "description": "(a) Dues to departments dealing with government accommodation",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": null,
+        "description": "(b) Dues to departments dealing with supply of water",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": null,
+        "description": "(c) Dues to departments dealing with supply of electricity",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": null,
+        "description": "(d) Dues to departments dealing with telephones",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": null,
+        "description": "(e) Dues to departments dealing with supply of transport",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": null,
+        "description": "(f) Other Dues if any",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": "(b)",
+        "description": "(i) (a) Income Tax including surcharge",
+        "self_value_rupees": 0,
+        "pan_given": true
+      },
+      {
+        "sr_no": null,
+        "description": "(b) Permanent Account Number (PAN)",
+        "self_value_rupees": null,
+        "pan_given": true
+      },
+      {
+        "sr_no": "(ii)",
+        "description": "Wealth Tax",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": "(iii)",
+        "description": "Sales Tax [Only in case proprietary business]",
+        "self_value_rupees": 0
+      },
+      {
+        "sr_no": "(iv)",
+        "description": "Property Tax",
+        "self_value_rupees": 0
+      }
+    ]
+  }
 }

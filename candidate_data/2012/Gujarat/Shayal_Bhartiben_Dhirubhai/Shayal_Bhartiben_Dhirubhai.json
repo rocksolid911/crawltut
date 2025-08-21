@@ -1,162 +1,455 @@
 {
   "candidate_name": "Shayal Bhartiben Dhirubhai",
   "party": "BJP",
-  "constituency": "TALAJA (BHAVNAGAR)",
-  "father_or_husband_name": "SHYAL DHIRUBHAI BHAGVANBHAI",
-  "age": 48,
-  "education": "Graduate Professional B.A.M.S.FROM JAMNAGAR UNIVERSITY IN 1986",
-  "profession_self": "MEDICAL CONSULTANT",
-  "profession_spouse": "MEDICAL CONSULTANT",
-  "criminal_cases": 0,
-  "assets_total_inr": 10221315,
-  "liabilities_total_inr": 2746744,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 413012
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 348711
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 99000,
-      "bank_deposits_inr": 10689,
-      "bonds_debentures_shares_inr": 42921,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 151306,
-      "personal_loans_advance_given_inr": 508140,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 600000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1412056
-    },
-    "spouse": {
-      "cash_inr": 95000,
-      "bank_deposits_inr": 75121,
-      "bonds_debentures_shares_inr": 104464,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 102080,
-      "personal_loans_advance_given_inr": 611913,
-      "motor_vehicles_inr": 146688,
-      "jewellery_inr": 52500,
-      "other_assets_inr": 56000,
-      "gross_total_value_inr": 1243766
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+  "constituency": "TALAJA",
+  "state": "Gujarat",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "SHYAL DHIRUBHAI BHAGVANBHAI",
+      "age": 48,
+      "voter_enrolled_in": {
+        "constituency": "100 TALAJA",
+        "state": "Gujarat",
+        "serial_no": 683,
+        "part_no": 193
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "TARSAMIYA S.NO.93, 94/1,BLOCK116, JOINT 1/2 SHARES",
-        "total_area_sqft": 1742,
-        "built_up_area_sqft": 1262,
-        "inherited": "N",
-        "purchase_date": "2012-09-12",
-        "purchase_cost_inr": 2850000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3000000
+      "self_profession": "MEDICAL CONSULTANT",
+      "spouse_profession": "MEDICAL CONSULTANT"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 10221315,
+      "total_liabilities_in_rupees": 2746744
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.A.M.S.FROM JAMNAGAR UNIVERSITY IN 1986"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 413012
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 348711
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1212056,
+      "gross_total_value_spouse_rupees": 1243766,
+      "gross_total_value_dependent1_rupees": 140493,
+      "gross_total_value_dependent2_rupees": 125000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 2721315,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 99000,
+          "spouse_value_rupees": 95000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 194000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 10689,
+          "spouse_value_rupees": 74213,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 85810,
+          "self_details": "ICICI BANK 10,689",
+          "spouse_details": "SBI  1,000 ICICI BANK 73,213 Gramin Bank  908"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 42921,
+          "spouse_value_rupees": 104464,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 147385
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 151306,
+          "spouse_value_rupees": 102080,
+          "dependent1_value_rupees": 29965,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 283351
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 508140,
+          "spouse_value_rupees": 611803,
+          "dependent1_value_rupees": 71428,
+          "dependent2_value_rupees": 125000,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1316481,
+          "self_details": "PERSONAL LOAN GIVEN 3,83,140 SANGAM MAHILA MANDAL 1,25,000",
+          "spouse_details": "BHARTIBEN SHYAL 53,658 HIRVA SHYAL 38,380 PERSONAL LOAN GIVEN 4,19,875 SANGAM MAHILA MANDAL 1,00,000"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 146688,
+          "dependent1_value_rupees": 39100,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 185788,
+          "spouse_details": "TATA INDICA CAR GJ4H9279 1,33,725 TVS SCOOTY GJ4AE1872 6,699 BAJAJ SUPER GCN8612 Year 1987 6,264"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 600000,
+          "spouse_value_rupees": 52500,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 652500
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 56000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 56000,
+          "spouse_details": "RIVOLVER 56,000"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 3000000,
+      "total_current_market_value_spouse_rupees": 4500000,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 7500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 2000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2000000,
+          "spouse_details": {
+            "location": "MATHVADA",
+            "survey_no": "117(2/1)",
+            "total_area": "1.5 ACRE",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 2000000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 2500000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 5500000,
+          "self_details": {
+            "location": "TARSAMIYA",
+            "survey_no": "93, 94/1,BLOCK116, JOINT 1/2 SHARES",
+            "total_area": "1742 SQ FT",
+            "built_up_area": "1262 SQ.FT",
+            "inherited": false,
+            "purchase_date": "2012-09-12",
+            "purchase_cost_rupees": 2850000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 3000000
+          },
+          "spouse_details": {
+            "location": "TARSAMIYA",
+            "survey_no": "81/84, PLOT NO28/B, JOINT 1/2 SHARES",
+            "total_area": "1774 SQ.FT",
+            "built_up_area": "1225 SQ.FT",
+            "inherited": false,
+            "purchase_date": "2006-05-29",
+            "purchase_cost_rupees": 320000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 2500000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 698571,
+      "grand_total_of_liabilities_spouse_rupees": 2009793,
+      "grand_total_of_liabilities_dependent1_rupees": 38380,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 2746744,
+      "grand_total_of_all_govt_dues_self_rupees": null,
+      "grand_total_of_all_govt_dues_spouse_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": null,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": null,
+        "spouse_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": null,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 348485,
+          "spouse_value_rupees": 2009793,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2358278,
+          "self_details": "ICICI HOME LOAN JOINT 1/2 SHARES 2,89,346 ICICI PERSONAL LOAN 59,139",
+          "spouse_details": "SGB HOMELOAN 19,97,925 ICICI BANK PERSONAL LOAN 11,868"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 350086,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": 38380,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 388466,
+          "self_details": "ASTHA SHYAL 1,25,000 BHIRUBHAI SHYAL 53,658 DURGA TRADING 1,00,000 HARVA SHYAL 71,428",
+          "dependent1_details": "DHIRUBHAI SHYAL 38,380"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 2000000,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+    "other_elections": [
+      {
+        "election_year": "2019",
+        "election_type": "Lok Sabha",
+        "declared_assets_in_rupees": 17753161,
+        "declared_cases_count": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "TARSAMIYA S.NO.81/84, PLOT NO28/B, JOINT 1/2 SHARES",
-        "total_area_sqft": 1774,
-        "built_up_area_sqft": 1225,
-        "inherited": "N",
-        "purchase_date": "2006-05-29",
-        "purchase_cost_inr": 320000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 4500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 348485,
-      "loans_due_to_individual_entity_inr": 349086,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 697571
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 2009793,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2009793
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election_year": "2014",
+        "election_type": "Loksabha",
+        "declared_assets_in_rupees": 10448925,
+        "declared_cases_count": 0
+      }
+    ]
   }
 }

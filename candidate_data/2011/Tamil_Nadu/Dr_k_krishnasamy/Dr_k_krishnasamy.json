@@ -1,155 +1,475 @@
 {
   "candidate_name": "Dr.K.Krishnasamy",
   "party": "Puthiya Thamilagam",
-  "constituency": "OTTAPIDARAM (THOOTHUKUDI)",
-  "father_or_husband_name": "KARUPPUSAMY",
-  "age": 58,
-  "education": "Post Graduate M.B.B.S , M.D (General Medicine)",
-  "profession_self": "DOCTOR",
-  "profession_spouse": "DOCTOR",
-  "criminal_cases": 0,
-  "assets_total_inr": 68475690,
-  "liabilities_total_inr": 7344317,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009-2010": 321300
-      }
+  "constituency": "OTTAPIDARAM",
+  "state": "Tamil Nadu",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "KARUPPUSAMY",
+      "age": 58,
+      "self_profession": "DOCTOR",
+      "spouse_profession": "DOCTOR"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009-2010": 1164138
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 68475690,
+      "total_liabilities_in_rupees": 7344317
     },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.B.B.S , M.D (General Medicine)"
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 321300
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 1164138
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 181464,
-      "bonds_debentures_shares_inr": 50000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 300000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 100000,
-      "gross_total_value_inr": 1381464
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
     },
-    "spouse": {
-      "cash_inr": 150000,
-      "bank_deposits_inr": 284465,
-      "bonds_debentures_shares_inr": 50000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 250000,
-      "personal_loans_advance_given_inr": 1500000,
-      "motor_vehicles_inr": 803762,
-      "jewellery_inr": 402379,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3440606
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 11700000,
-      "non_agricultural_land": {
-        "description": "KUMNIYAMUTHUR",
-        "area_sq_mtr": 603.65,
-        "inherited": "N",
-        "purchase_date": "1990-03-07",
-        "purchase_cost_inr": 97470,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1381464,
+      "gross_total_value_spouse_rupees": 3440606,
+      "gross_total_value_dependent1_rupees": 803620,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5625690,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 150000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 400000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 181464,
+          "spouse_value_rupees": 284465,
+          "dependent1_value_rupees": 403620,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 869549,
+          "self_details": [
+            {"bank": "SYNDICATE BANK", "amount_rupees": 156970},
+            {"bank": "INDIAN BANK", "amount_rupees": 24494}
+          ],
+          "spouse_details": [
+            {"bank": "SYNDICATE BANK", "amount_rupees": 284465}
+          ],
+          "dependent1_details": [
+            {"bank": "SYNDICATE BANK", "amount_rupees": 403620}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100000,
+          "self_details": "SHARES IN SANGEETHA MODERN MEDICALS 50,000",
+          "spouse_details": "SHARES IN SANGEETHA MODERN MEDICALS 50,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 250000,
+          "dependent1_value_rupees": 400000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1150000,
+          "self_details": "LIC 2,00,000; LIC 3,00,000",
+          "spouse_details": "LIC 2,00,000; LIC 50,000",
+          "dependent1_details": "LIC 2,00,000; LIC 2,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1500000,
+          "spouse_details": "CAPITAL INVESTMENT IN THAMARAI PHARMACY 15,00,000"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 803762,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1103762,
+          "self_details": "TEMPO TRAVELLOR 3,00,000",
+          "spouse_details": "MARUTI ZEN 62,693; QUALIS CAR 1,63,735; INNOVA CAR 5,77,334"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 402379,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 402379,
+          "spouse_details": "1153.76 GMS  4,02,379"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100000,
+          "self_details": "1,00,000"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 321000000,
+      "total_current_market_value_spouse_rupees": 278000000,
+      "total_current_market_value_dependent1_rupees": 35500000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 634500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 117000000,
+          "spouse_value_rupees": 67000000,
+          "dependent1_value_rupees": 12500000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 196500000,
+          "self_details": [
+            {"location": "VASAVANAICKENPATTI KONDAMPATTI PO. KUDIMANGALAM", "total_area": "6 ACRES", "current_value_rupees": 15000000},
+            {"location": "KUDIMANGALAM", "total_area": "ACRES", "current_value_rupees": 44000000},
+            {"location": "VADAPOOTHINATHAM", "total_area": "1.79 ACRES", "current_value_rupees": 6000000},
+            {"location": "COIMBATORE", "total_area": "10 ACRES 6.5CENT", "current_value_rupees": 30000000},
+            {"location": "THIRUMALAYAPALAYAM", "total_area": "12.02 ACRES", "current_value_rupees": 22000000}
+          ],
+          "spouse_details": [
+            {"location": "KUDIMANGALAM", "total_area": "5.19 ACRES", "current_value_rupees": 13000000},
+            {"location": "VADAPOOTHINATHAM", "total_area": "1.79 ACRES", "current_value_rupees": 6000000},
+            {"location": "COIMBATORE", "total_area": "10 ACRES 10.5 CENT", "current_value_rupees": 30000000},
+            {"location": "THIRUMALAYAPALAYAM", "total_area": "8.98 acres", "current_value_rupees": 12000000},
+            {"location": "THIRUMALAYAPALAYAM", "total_area": "2.77 ACRES", "current_value_rupees": 6000000}
+          ],
+          "dependent1_details": [
+            {"location": "KUDIMANGALAM", "total_area": "4.90 ACRES", "current_value_rupees": 12500000}
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 40000000,
+          "spouse_value_rupees": 61000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 101000000,
+          "self_details": [
+            {"location": "KUMNIYAMUTHUR", "total_area": "6498 SQ.FT", "current_value_rupees": 40000000}
+          ],
+          "spouse_details": [
+            {"location": "THIRUVALLUVAR NAGAR", "total_area": "3228 SQ.FT", "current_value_rupees": 21000000},
+            {"location": "KUMNIYAMUTHUR", "total_area": "6498 SQ.FT", "current_value_rupees": 40000000}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 82000000,
+          "spouse_value_rupees": 50000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 132000000,
+          "self_details": [
+            {"location": "THIRUMOORTHY NAGAR", "total_area": "17 CENT 12000 SQ.FT", "current_value_rupees": 82000000}
+          ],
+          "spouse_details": [
+            {"location": "THIRUMOORTHY NAGAR", "total_area": "8000 sq.ft", "current_value_rupees": 50000000}
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 82000000,
+          "spouse_value_rupees": 150000000,
+          "dependent1_value_rupees": 23000000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 205000000,
+          "self_details": [
+            {"location": "MASAGOUNDENPUTHUR", "total_area": "1000 SQ.FT", "current_value_rupees": 7000000},
+            {"location": "POTHIGAI", "current_value_rupees": 75000000}
+          ],
+          "spouse_details": [
+            {"location": "POTHIGAI", "total_area": "1780 SQ.FT", "current_value_rupees": 75000000},
+            {"location": "VALMIKI NAGAR", "total_area": "1000 SQ.FT", "current_value_rupees": 25000000}
+          ],
+          "dependent1_details": [
+            {"location": "ANBU", "total_area": "3312 SQ.FT", "current_value_rupees": 23000000}
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 7344317,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 7344317,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 7344317,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7344317,
+          "spouse_details": [
+            {"bank": "LIC HOUSING FANACE LTD.", "amount_rupees": 4953301},
+            {"bank": "LIC HOUSING FANACE LTD.", "amount_rupees": 2391016}
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "DOCTOR",
+      "spouse": "DOCTOR"
+    },
+    "election_history": [
+      {
+        "election_name": "Lok Sabha 2024",
+        "declared_assets_rupees": 257414740,
+        "declared_cases": 5
       },
-      "commercial_buildings_inr": 8200000,
-      "residential_buildings": {
-        "description": "MASAGOUNDENPUTHUR and POTHIGAI (50% shares)",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 110278,
-        "development_cost_inr": 1700000,
-        "current_market_value_inr": 8200000
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 259584771,
+        "declared_cases": 9
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 32100000
-    },
-    "spouse": {
-      "agricultural_land_inr": 6700000,
-      "non_agricultural_land": {
-        "description": "THIRUVALLUVAR NAGAR and KUMNIYAMUTHUR",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "1987-06-03",
-        "purchase_cost_inr": 507000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 61000000
+      {
+        "election_name": "Tamil Nadu 2016",
+        "declared_assets_rupees": 177552565,
+        "declared_cases": 8
       },
-      "commercial_buildings_inr": 5000000,
-      "residential_buildings": {
-        "description": "POTHIGAI (50% shares) and VALMIKI NAGAR",
-        "total_area_sqft": 2780,
-        "built_up_area_sqft": 1780,
-        "inherited": "N",
-        "purchase_date": "1998-06-15",
-        "purchase_cost_inr": 303800,
-        "development_cost_inr": 1700000,
-        "current_market_value_inr": 100000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 27800000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 7344317,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 7344317
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Loksabha 2014",
+        "declared_assets_rupees": 166640601,
+        "declared_cases": 2
+      }
+    ]
+  }
 }

@@ -1,148 +1,424 @@
 {
   "candidate_name": "RANJU GEETA",
   "party": "JD(U)",
-  "constituency": "BAJPATTI (SITAMARHI)",
-  "father_or_husband_name": "Dilip Kumar",
-  "age": 41,
-  "education": "Doctorate, Ph.D from Magadh University Bodhgaya in 2004, PG from Patna University in 1996, Graduate from Arvind Mahilla College, Patna in 1994",
-  "profession_self": "Social Worker",
-  "profession_spouse": "Govt. Servant (Railway)",
-  "criminal_cases": 1,
-  "assets_total_inr": 19850590,
-  "liabilities_total_inr": 4448500,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 737753
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 426080
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 51000,
-      "bank_deposits_inr": 1206868,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 595795,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 880000,
-      "jewellery_inr": 539500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3618590
-    },
-    "spouse": {
-      "cash_inr": 34000,
-      "bank_deposits_inr": 238368,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 289579,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 561947
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Parsa Bazar Survey No. 658, 659, 235, 268, 269 Kurdhol Survey No. 763",
-        "area_sq_mtr": 318.23,
-        "inherited": "N",
-        "purchase_date": "Not Specified",
-        "purchase_cost_inr": 5487750,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6000000
+  "constituency": "BAJPATTI",
+  "state": "Bihar",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Dilip Kumar",
+      "age": 41,
+      "voter_enrolled_in": {
+        "constituency": "27 Bajpatti (Bihar)",
+        "serial_no": 1247,
+        "part_no": 6
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Lalji Tola Holding No. 259/261",
-        "total_area_sqft": 2790,
-        "built_up_area_sqft": 1769,
-        "inherited": "N",
-        "purchase_date": "2001-06-19",
-        "purchase_cost_inr": 527000,
-        "development_cost_inr": 500000,
-        "current_market_value_inr": 3000000
+      "self_profession": "Social Worker",
+      "spouse_profession": "Govt. Servant (Railway)"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 19850590,
+      "total_liabilities_in_rupees": 4448500
+    },
+    "educational_details": {
+      "category": "Doctorate",
+      "details": "Ph.D From Magadh University Bodhgaya In 2004, PG From Patna University In 1996, Graduate From Arvind Mahilla College, Patna In 1994"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 737753
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 426080
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security",
+          "ipc_section": "477",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Intentional insult with intent to provoke breach of the peace",
+          "ipc_section": "504",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "323, 504, 506, 353, 477, 120B, 34",
+          "other_details_or_acts_sections_applicable": "Case No. 200/09, Thana Dumra, Cognizance Court- Chief Judicial Magistrate sitamarhi T.R.No.4450/15 Dated 14-07-11, Framed Court- Chief Judicial Magistrate Sitamarhi dated 24-03-2012, Other 2 FIR no. Sitamarhi Police Station Case no.739/15, 744/15"
+        }
+      ],
+      "cases_where_cognizance_taken": "No Cases",
+      "convicted_cases": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3618590,
+      "gross_total_value_spouse_rupees": 561947,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 4180537,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 51000,
+          "spouse_value_rupees": 34000,
+          "total_value_rupees": 85000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1552295,
+          "spouse_value_rupees": 238368,
+          "total_value_rupees": 1790663,
+          "self_details": "UCO BanK 3,40,020, SBI 46,407, SBI 11,65,868",
+          "spouse_details": "Canara Bank 2,38,368"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 595795,
+          "spouse_value_rupees": 289579,
+          "total_value_rupees": 885374
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 880000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 880000,
+          "self_details": "Scorpio No. BR 1AP 4578, 2006 7,50,000, Safari No. BR O1P0 1699, 2011 1,30,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 539500,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 539500,
+          "self_details": "250 Gram Gold 5,11,500, 1 Kg. Silver 28,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 90000000,
+      "total_current_market_value_spouse_rupees": 30000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 120000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": {
+            "location": "Kardhol",
+            "survey_no": "762",
+            "date_of_purchase": "2010-07-23, 2010-07-26",
+            "total_area": "178 Decimal",
+            "inherited": false,
+            "purchase_cost": 2376000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 60000000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 60000000,
+          "self_details": {
+            "location": "Parsa Bazar",
+            "survey_no": "658, 659, 235, 268, 269",
+            "date_of_purchase": "2011-07-16, 2010-07-26",
+            "total_area": "78.6521 Decimal",
+            "inherited": false,
+            "purchase_cost": 5487750,
+            "current_value": 60000000
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 30000000,
+          "spouse_value_rupees": 30000000,
+          "total_value_rupees": 60000000,
+          "self_details": {
+            "location": "Lalji Tola",
+            "holding_no": "259/261",
+            "total_area": "2790 Sq. Ft.",
+            "built_up_area": "1769 Sq. Ft.",
+            "inherited": false,
+            "purchase_date": "2001-06-19",
+            "purchase_cost": 527000,
+            "development_cost": 500000,
+            "current_value": 30000000
+          },
+          "spouse_details": {
+            "location": "Lalji Tola",
+            "holding_no": "259/261",
+            "total_area": "2790 Sq. Ft.",
+            "built_up_area": "1769 Sq. Ft.",
+            "inherited": false,
+            "purchase_date": "2001-06-19",
+            "purchase_cost": 541000,
+            "development_cost": 500000,
+            "current_value": 30000000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2540500,
+      "grand_total_of_liabilities_spouse_rupees": 1908000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 4448500,
+      "grand_total_of_all_govt_dues_self_rupees": 62500,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 62500,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 9000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 2478000,
+          "spouse_value_rupees": 1908000,
+          "total_value_rupees": 4386000,
+          "self_details": "Loan From Friend & Relative 24,78,000",
+          "spouse_details": "19,08,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 62500,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 62500,
+          "self_details": "Car Loan 62,500"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Lalji Tola Holding No. 259/261",
-        "total_area_sqft": 2790,
-        "built_up_area_sqft": 1769,
-        "inherited": "N",
-        "purchase_date": "2001-06-19",
-        "purchase_cost_inr": 541000,
-        "development_cost_inr": 500000,
-        "current_market_value_inr": 3000000
+    "other_elections": [
+      {
+        "declaration_in": "Bihar 2020",
+        "declared_assets_rupees": 36332890,
+        "declared_cases": 2
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 2478000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2540500
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 1908000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1908000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 62500,
-      "grand_total_of_all_govt_dues_inr": 62500
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "declaration_in": "Bihar Ministers 2014",
+        "declared_assets_rupees": 23520597,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Bihar 2010",
+        "declared_assets_rupees": 8759626,
+        "declared_cases": 2
+      }
+    ]
+  }
 }

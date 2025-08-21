@@ -1,166 +1,559 @@
 {
   "candidate_name": "RAJENDRA SINGH YADAV",
   "party": "INC",
-  "constituency": "KOTPUTLI (JAIPUR)",
-  "father_or_husband_name": "Ramjilal Yadav",
-  "age": 54,
-  "education": "Graduate, Graduate from Kumaun University, Nainital, Uttrakhand in 1981",
-  "profession_self": "Business",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 273903326,
-  "liabilities_total_inr": 53487833,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 982042
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 489861
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 159092,
-      "bonds_debentures_shares_inr": 10351114,
-      "nss_postal_savings_inr": 923706,
-      "lic_other_insurance_inr": 37256,
-      "personal_loans_advance_given_inr": 26183441,
-      "motor_vehicles_inr": 1500000,
-      "jewellery_inr": 135000,
-      "other_assets_inr": 375000,
-      "gross_total_value_inr": 30064609
-    },
-    "spouse": {
-      "cash_inr": 125000,
-      "bank_deposits_inr": 17467,
-      "bonds_debentures_shares_inr": 6850247,
-      "nss_postal_savings_inr": 935380,
-      "lic_other_insurance_inr": 46577,
-      "personal_loans_advance_given_inr": 5769675,
-      "motor_vehicles_inr": 3770000,
-      "jewellery_inr": 2400000,
-      "other_assets_inr": 74371,
-      "gross_total_value_inr": 19988717
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 702000000,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+  "constituency": "KOTPUTLI",
+  "state": "Rajasthan",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Ramjilal Yadav",
+      "age": 54,
+      "voter_enrolled_in": {
+        "constituency": "040 Kotputli (Rajasthan)",
+        "state": "Rajasthan",
+        "serial_no": 1159,
+        "part_no": 41
       },
-      "commercial_buildings_inr": 7500000,
-      "residential_buildings": {
-        "description": "C-186, Maharana Enclave, Pitampura, Delhi, 1/2 Share; 106 Royal Green, Sirsi Road, Jaipur",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 630000000
+      "self_profession": "Business",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 273903326,
+      "total_liabilities_in_rupees": 53487833
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Graduate from Kumaun University, Nainital, Uttrakhand in 1981"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 982042
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 489861
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 39914609,
+      "gross_total_value_spouse_rupees": 18988717,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 58903326,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 125000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 375000,
+          "self_details": "2,50,000",
+          "spouse_details": "1,25,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 159092,
+          "spouse_value_rupees": 24467,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 176559,
+          "self_details": "The Nainital Bank Ltd., Pitampura, Delhi 52,509; The Nainital Bank Ltd., Kichchha, Utrakhand 3,665; The Nainital Bank Ltd., Panchkuiya Road, Delhi 2,918; The Nainital Bank Ltd., Kotputli 1,00,000",
+          "spouse_details": "The Nainital Bank Ltd., Pitampura, Delhi 10,467; HDFC Bank, Delhi 7,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 10351114,
+          "spouse_value_rupees": 6850247,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17201361,
+          "self_details": "Share in Non-Listed Co. 1,03,51,114",
+          "spouse_details": "Share in Non-Listed Co. 68,50,247"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 923706,
+          "spouse_value_rupees": 935380,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1859086,
+          "self_details": "PPF A/c 9,23,706",
+          "spouse_details": "PPF A/c 9,35,380"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 37256,
+          "spouse_value_rupees": 46577,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 83833,
+          "self_details": "Annual Ins. 37,256",
+          "spouse_details": "Annual Ins. 46,577"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 26183441,
+          "spouse_value_rupees": 5769675,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 31953116,
+          "self_details": "Deposit in Co. 2,61,83,441",
+          "spouse_details": "Deposit in Co. 57,69,675"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 2770000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4270000,
+          "self_details": "Bolero Mahindra, UP16P3583, Model 2007 5,00,000; Innova, RJ32UA3232, Model 2008, Toyota 10,00,000",
+          "spouse_details": "Vento, DL8CX0325, Model 2011 10,50,000; Liva, DL3FAN0008, Model 2013 5,70,000; Truck, RJ142G9405, Model 2005, Old Purchased 3,50,000; Truck, MH06AC9987, Eser, Model 2008, Old Purchased 8,00,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 135000,
+          "spouse_value_rupees": 2400000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2535000,
+          "self_details": "50g Gold's Jewellery 1,35,000",
+          "spouse_details": "1000g Gold's Jewellery 24,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 375000,
+          "spouse_value_rupees": 74371,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 449371,
+          "self_details": "Claim 1,25,000; 12 Vote Gun, 0.30 Pistol 2,50,000",
+          "spouse_details": "Claim 74,371"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 1425000000,
+      "total_current_market_value_spouse_rupees": 725000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 2150000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 70000000,
+          "spouse_value_rupees": 20000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 740000000,
+          "self_details": [
+            {
+              "location": "Wake, Vill. Khedki Veerbhan",
+              "total_area": "12.5 Acre",
+              "purchase_cost_rupees": 3000000,
+              "development_cost_rupees": 3600000,
+              "current_value_rupees": 68000000
+            },
+            {
+              "location": "Wake Vill. Rampura Khurd, Teh. Viratnagar",
+              "total_area": "1.80 Acre",
+              "purchase_cost_rupees": 1860000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 20000000
+            },
+            {
+              "location": "Wake Wajun, Teh. Nainital",
+              "total_area": "0.27 Acre",
+              "purchase_cost_rupees": 70000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 20000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Wake Vill. Rampura Khurd, Teh. Viratnagar",
+              "total_area": "1.80 Acre",
+              "purchase_cost_rupees": 1860000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 20000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 7500000,
+          "spouse_value_rupees": 5000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12500000,
+          "self_details": [
+            {
+              "location": "Godown Rudhdpur Road, Kichchha, Dist. Udhamsinghnagar",
+              "total_area": "12000 Sq.Ft",
+              "built_up_area": "10000 Sq.Ft",
+              "purchase_cost_rupees": 250000,
+              "development_cost_rupees": 5000000,
+              "current_value_rupees": 7500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Godown Rudhdpur Road, Kichchha, Dist. Udhamsinghnagar",
+              "total_area": "12000 Sq.Ft",
+              "built_up_area": "10000 Sq.F",
+              "purchase_cost_rupees": 300000,
+              "development_cost_rupees": 3764000,
+              "current_value_rupees": 5000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 630000000,
+          "spouse_value_rupees": 655000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12850000000,
+          "self_details": [
+            {
+              "location": "C-186, Maharana Enclave, Pitampura, Delhi",
+              "total_area": "3500 Sq.Ft",
+              "built_up_area": "4500 Sq.Ft",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 800000,
+              "current_value_rupees": 600000000
+            },
+            {
+              "location": "106 Royal Green, Sirsi Road, Jaipur",
+              "total_area": "1385 Sq.Ft",
+              "built_up_area": "1108 Sq.Ft",
+              "purchase_cost_rupees": 2450000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 30000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "C-186, Maharana Enclave, Pitampura, Delhi",
+              "total_area": "3500 Sq.Ft",
+              "built_up_area": "4500 Sq.Ft",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 800000,
+              "current_value_rupees": 600000000
+            },
+            {
+              "location": "K. No. 495 & 480, Vill. Khedki Veerbhan",
+              "total_area": "6000 Sq.Ft",
+              "built_up_area": "5000 Sq.Ft",
+              "purchase_cost_rupees": 747501,
+              "development_cost_rupees": 3500000,
+              "current_value_rupees": 55000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 51021936,
+      "grand_total_of_liabilities_spouse_rupees": 2465897,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 53487833,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1425000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 47939969,
+          "spouse_value_rupees": 2049512,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 51009958,
+          "self_details": "ING Vysya, Home Loan 4,78,20,477; The Nainital Bank Ltd., Home Loan 11,39,969",
+          "spouse_details": "The Nainital Bank Ltd., Vehicle Loan 5,09,727; The Nainital Bank Ltd., Godown Loan 15,39,785"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 2061490,
+          "spouse_value_rupees": 416385,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2477875,
+          "self_details": "Outstanding Loan 20,61,490",
+          "spouse_details": "Outstanding Loan 4,16,385"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 20000000,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "other_elections": [
+      {
+        "election_name": "Rajasthan 2023",
+        "declared_assets_rupees": 419424714,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 5000000,
-      "residential_buildings": {
-        "description": "C-186, Maharana Enclave, Pitampura, Delhi, 1/2 Share; K. No. 495 & 480, Vill. Khedki Veerbhan, 1/2 Share",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 655000000
+      {
+        "election_name": "Rajasthan 2018",
+        "declared_assets_rupees": 440298115,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 725000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 48960446,
-      "loans_due_to_individual_entity_inr": 2061490,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 51021936
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 2049512,
-      "loans_due_to_individual_entity_inr": 416385,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2465897
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Business",
-    "spouse": "House Wife",
-    "dependent": "N/A"
-  },
-  "contracts": {
-    "entered_by_candidate": "N/A",
-    "entered_by_spouse": "N/A",
-    "entered_by_dependent": "N/A",
-    "entered_by_huf_trust": "N/A",
-    "entered_by_partnership_firms": "N/A",
-    "entered_by_private_companies": "N/A"
+      {
+        "election_name": "Rajasthan 2008",
+        "declared_assets_rupees": 79521795,
+        "declared_cases": 0
+      }
+    ]
   }
 }

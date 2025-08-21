@@ -1,138 +1,425 @@
 {
   "candidate_name": "JOY RAM ENGLENG",
   "party": "BJP",
-  "constituency": "HOWRAGHAT (ST) (DIPHU)",
-  "father_or_husband_name": "Late Moniram Engleng",
-  "age": 56,
-  "education": "10th Pass HSLC Passed From Diphu Govt. Boys High School in 1983 Diphu, Dist. Darbi Anglong",
-  "profession_self": "Social Worker",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 43301342,
-  "liabilities_total_inr": 6041837,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 5299211
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 507905,
-      "bank_deposits_inr": 13890198,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1400000,
-      "personal_loans_advance_given_inr": 1300000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 17340036
-    },
-    "spouse": {
-      "cash_inr": 35000,
-      "bank_deposits_inr": 153886,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 143440,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 52000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 384326
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2286400,
-      "non_agricultural_land": {
-        "description": "Outenga (Palimplamla NGSO) PP No. 119",
-        "area_sq_mtr": 133.78,
-        "inherited": "N",
-        "purchase_date": "2003-08-05",
-        "purchase_cost_inr": 25000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 44000
+  "constituency": "HOWRAGHAT (ST)",
+  "state": "Assam",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Moniram Engleng",
+      "age": 56,
+      "voter_enrolled_in": {
+        "constituency": "20 Baithalangso (Assam)",
+        "serial_no": 323,
+        "part_no": 10
       },
-      "commercial_buildings_inr": 2320000,
-      "residential_buildings": {
-        "description": "Baithalangso Vill. Dalimbari, PP No. 04 / Land and Building at Beltola Dag No. 212, Patta No. 101",
-        "total_area_sqft": 8704,
-        "built_up_area_sqft": 9456,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 594002,
-        "development_cost_inr": 3780400,
-        "current_market_value_inr": 8240000
+      "self_profession": "Social Worker",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 43301342,
+      "total_liabilities_in_rupees": 6041837
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "HSLC Passed From Diphu Govt. Boys High School in 1983 Diphu, Dist. Darbi Anglong"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 5299211
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 17340036,
+      "gross_total_value_spouse_rupees": 384326,
+      "gross_total_value_dependent1_rupees": 239080,
+      "gross_total_value_dependent2_rupees": 3000,
+      "gross_total_value_dependent3_rupees": 1500,
+      "gross_total_value_total_rupees": 17967942,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 507905,
+          "spouse_value_rupees": 35000,
+          "dependent1_value_rupees": 7000,
+          "dependent2_value_rupees": 3000,
+          "dependent3_value_rupees": 1500,
+          "total_value_rupees": 554405
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 14120000,
+          "spouse_value_rupees": 153886,
+          "dependent1_value_rupees": 232080,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14518097,
+          "self_details": "FDR in SBI Diphu Branch 1,38,90,198; Deposit in S/B Account SBI Diphu Branch 2,06,157; HDFC, Ghy 11,719; LDRB Bhoksong Branch 24,057"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1400000,
+          "spouse_value_rupees": 143440,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1543440,
+          "self_details": "Kotak Life Ins. P.No 0176xxxxx 5,00,000; Aviva Life Ins. P.No. APG2596121 1,00,000; Bajaj Allianz Life Ins. P.No 030020xxxxx 3,00,000; SBI Life Ins. 5,00,000",
+          "spouse_details": "LICI Policy No 48282xxxxx 1,43,440"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 1300000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1300000,
+          "self_details": "Chesong Engti 3,00,000; Rajen Engti 10,00,000"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "spouse_details": "Toyota Innova Reg. No. AS-09B-6543",
+          "dependent1_details": "Chevrolet Beat Reg. No. AS-09B-4466"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 52000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 52000,
+          "spouse_details": "15 Gms 52,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 12890400,
+      "total_current_market_value_spouse_rupees": 235000,
+      "total_current_market_value_dependent1_rupees": 12208000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 25333400,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2286400,
+          "spouse_value_rupees": 235000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2521400,
+          "self_details": "under Donka, Diphu & Phuloni Revenue Circle Patta No. 3, 27, 28, 24, 26, 7, 29, 30 Total Area 100B 80L Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 22,86,400",
+          "spouse_details": "Under Donka Revenue Circle Patta No. 31 Total Area 7B Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,35,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 44000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 208000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 252000,
+          "self_details": "Outenga (Palimplamla NGSO) PP No. 119 Total Area 14400 sq. ft. (1 Bigha) Built Up Area  Whether Inherited N Purchase Date 2003-08-05 Purchase Cost 25000.00 Development Cost 0.00 44,000",
+          "dependent1_details": "Diphu Town PP No. 1797 Total Area 28800 Sq. ft. (2 Bigha) Built Up Area  Whether Inherited N Purchase Date 2010-10-14 Purchase Cost 120000.00 Development Cost 0.00 2,08,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 2320000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 12000000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14320000,
+          "self_details": "Diphu town PP No. 1489 Total Area 11376 Sq. ft. (3K-19L) Built Up Area  Whether Inherited N Purchase Date 2013-03-14 Purchase Cost 2000000.00 Development Cost 0.00 23,20,000",
+          "dependent1_details": "Diphu Town PP No. 24 Total Area 4320 sq. ft. (1K 10L) Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,20,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 8240000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8240000,
+          "self_details": "Baithalangso Vill. Dalimbari, PP No. 04 Total Area 2 Bighas Built Up Area 6000 sq. ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,40,000; Land and Building at Beltola Dag No. 212, Patta No. 101 Total Area 2K 15L Built Up Area 3456 sq. ft. Whether Inherited N Purchase Date 2009-07-01 Purchase Cost 594002.00 Development Cost 3780400.00 80,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 6041837,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 6041837,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12890400
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 5641837,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5641837,
+          "self_details": "Demand Loan SBI Diphu Branch 56,41,837"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 400000,
+          "self_details": "Sagar Tibrewal 2,00,000; Pranab Kalita 2,00,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 235000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 235000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 5641837,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 400000,
-      "grand_total_of_liabilities_inr": 6041837
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2024",
+        "declared_assets_rupees": 7603228,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Loksabha 2014",
+        "declared_assets_rupees": 22032158,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

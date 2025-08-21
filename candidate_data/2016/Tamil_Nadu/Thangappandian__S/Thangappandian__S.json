@@ -2,165 +2,807 @@
   "candidate_name": "Thangappandian. S",
   "party": "DMK",
   "constituency": "RAJAPALAYAM",
-  "father_or_husband_name": "SOUNDARAPANDIAN",
-  "age": 47,
-  "education": "5th Pass",
-  "profession_self": "THANGAMARIAMMAN TEXTILES",
-  "profession_spouse": "RAMYA TEXTILES",
-  "criminal_cases": 4,
-  "assets_total_inr": 100629000,
-  "liabilities_total_inr": 61720669,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 1695277
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 1601738
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 5191000,
-      "jewellery_inr": 220000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6284000
-    },
-    "spouse": {
-      "cash_inr": 560000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 750000,
-      "jewellery_inr": 1980000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3290000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2460000,
-      "non_agricultural_land": {
-        "description": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, ILANTHIRAIKONDAN VILLAGE S.NO 778/2, 807/1,817/1,818/1 ACRE 1 CENT 93 1/3 PART",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2011-06-29",
-        "purchase_cost_inr": 154500,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 300000
+  "state": "Tamil Nadu 2016",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "SOUNDARAPANDIAN",
+      "age": 47,
+      "voter_enrolled_in": {
+        "constituency": "RAJAPALAYAM",
+        "state": "Tamil Nadu",
+        "serial_no": 311,
+        "part_no": 193
       },
-      "commercial_buildings_inr": 30000000,
-      "residential_buildings": {
-        "description": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE S.NO 328/1,328/3,329/2, 4.98 CENT, D.NO 10C3, RENGANATHAPURAM KOVIL ST",
-        "total_area_sqft": 2171.28,
-        "built_up_area_sqft": 1300,
-        "inherited": "N",
-        "purchase_date": "1998-08-19",
-        "purchase_cost_inr": 42591,
-        "development_cost_inr": 1000000,
-        "current_market_value_inr": 4000000
+      "self_profession": "THANGAMARIAMMAN TEXTILES",
+      "spouse_profession": "RAMYA TEXTILES"
+    },
+    "summary": {
+      "criminal_cases_count": 4,
+      "total_assets_in_rupees": 100629000,
+      "total_liabilities_in_rupees": 61720669
+    },
+    "educational_details": {
+      "category": "5th Pass",
+      "details": "6TH STD P.M.MARIMUTHU NADAR HIGHSCHOOL, THALAVAIPURAM"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 1695277
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 1601738
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 2
+        }
+      ],
+      "cases_where_charges_framed": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "294(B), 506(i)",
+          "other_details_or_acts_sections_applicable": "Sec. 4(1) of Tamil Nadu Open Places Disfigurement Prevention Act, STC.NO.3759/2012 DATED 19-03-2012"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "143, 188",
+          "other_details_or_acts_sections_applicable": "Sec.136 of Peoples Representation Act, 1950 R/w, STC.NO.2601/2014 DATED 30-04-2014"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "143, 188",
+          "other_details_or_acts_sections_applicable": "Sec.136 of Peoples Representation Act, 1950 R/w, STC.NO.2616/2014 DATED 17-04-2014"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Sec.4(A)(1)(b) of Tamil Nadu Open Places Disfigurement Prevention act, STC.NO.2618/2014 DATED 19-04-2014"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6284000,
+      "gross_total_value_spouse_rupees": 3290000,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9574000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 560000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1060000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 4056000,
+          "spouse_value_rupees": 750000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4806000,
+          "self_details": [
+            "TATA ACE LMV 1,70,000",
+            "TOYOTA FORTUNER CAR 22,50,000",
+            "MARUTI SWIFT CAR 3,00,000",
+            "SWARAJ MAZDA VAN 8,00,000",
+            "SWARAJ MAZDA VAN 8,00,000",
+            "SWARAJ MAZDA VAN 8,00,000",
+            "FORCE TRAVELLER 2,00,000",
+            "FORCE TRAX CRUSIER 1,25,000",
+            "HERO HONDA PLEASURE SCOOTER 28,000",
+            "HERO HONDA SPLENDOR PLUS 18,000",
+            "HERO HONDA SUPER SPLENDOR 48,000",
+            "TVS XL SUPER 25,000"
+          ],
+          "spouse_details": [
+            "MAHINDRA SCORPIO CAR 7,50,000"
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 220000,
+          "spouse_value_rupees": 1980000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2200000,
+          "self_details": "10 GRAMS",
+          "spouse_details": "90 GRAMS"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 43160000,
+      "total_current_market_value_spouse_rupees": 51927000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 95087000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2460000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2460000,
+          "self_details": [
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, NORTH DEVADANAM VILLAGE",
+              "s_no": "127/2, 127/1, 126/3, 125/2",
+              "total_area": "2.75 ACRE",
+              "inherited": false,
+              "purchase_date": "2007-02-19",
+              "purchase_cost_rupees": 119000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 250000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, NORTH DEVADANAM VILLAGE",
+              "s_no": "127/2, 127/1, 126/3, 125/2",
+              "total_area": "1.37.1/2 ACRE",
+              "inherited": false,
+              "purchase_date": "2007-02-19",
+              "purchase_cost_rupees": 59000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 120000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, NORTH DEVADANAM VILLAGE",
+              "s_no": "127/2, 127/1, 126/3, 125/2",
+              "total_area": "1.37.1/2 ACRE",
+              "inherited": false,
+              "purchase_date": "2007-02-19",
+              "purchase_cost_rupees": 59000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 120000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, NORTH DEVADANAM VILLAGE",
+              "s_no": "127/2,127/1,126/3 2.74 125/2 ACRE",
+              "total_area": null,
+              "inherited": false,
+              "purchase_date": "2007-02-19",
+              "purchase_cost_rupees": 119000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 220000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "7/7",
+              "total_area": "94 CENT",
+              "inherited": false,
+              "purchase_date": "2008-08-07",
+              "purchase_cost_rupees": 37000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "7/6",
+              "total_area": "2.43 ACRE",
+              "inherited": false,
+              "purchase_date": "2008-08-07",
+              "purchase_cost_rupees": 97000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, ILANTHIRAIKONDAN VILLAGE",
+              "s_no": "776/1",
+              "total_area": "76 CENT",
+              "inherited": false,
+              "purchase_date": "2009-02-05",
+              "purchase_cost_rupees": 38000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 90000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, ILANTHIRAIKONDAN VILLAGE",
+              "s_no": "776/2C-37 CENT, 776/2A-9 CENT TOTAL 46 CENT",
+              "total_area": null,
+              "inherited": false,
+              "purchase_date": "2009-02-05",
+              "purchase_cost_rupees": 22000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 70000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, ILANTHIRAIKONDAN VILLAGE",
+              "s_no": "776/2D-16 CENT, 776/2B-10 CENT TOTAL 26 CENT",
+              "total_area": null,
+              "inherited": false,
+              "purchase_date": "2009-05-02",
+              "purchase_cost_rupees": 12900,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 40000
+            },
+            {
+              "location": "THIRUNELVELI DIST, SIVAGIRI TALUK, VISVANATHAPERI VILLAGE, PART-1",
+              "s_no": "1352/1-1 ACRE 6 CENT",
+              "total_area": null,
+              "inherited": false,
+              "purchase_date": "2012-06-15",
+              "purchase_cost_rupees": 90000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, ILANTHIRAIKONDAN VILLAGE",
+              "s_no": "774/3",
+              "total_area": "36 CENT",
+              "inherited": false,
+              "purchase_date": "2009-02-05",
+              "purchase_cost_rupees": 16000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 50000
+            },
+            {
+              "location": "THIRUNELVELI DIST, THENKASI TALUK, RAYAGIRI VILLAGE",
+              "s_no": "186/2,186/2A,186/2B,186/3,186/9",
+              "total_area": "2 ACRE 68 CENT",
+              "inherited": false,
+              "purchase_date": "2013-04-25",
+              "purchase_cost_rupees": 700000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2200000,
+          "spouse_value_rupees": 11595000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13795000,
+          "self_details": [
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, ILANTHIRAIKONDAN VILLAGE",
+              "s_no": "778/2, 807/1,817/1,818/1 ACRE 1 CENT 93 1/3 PART",
+              "total_area": "27904 SF",
+              "inherited": false,
+              "purchase_date": "2011-06-29",
+              "purchase_cost_rupees": 154500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 300000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, KOMMANDAAPURAM VILLAGE",
+              "s_no": "281/4A,281/4B CENT 14 1/6 PART",
+              "total_area": "1015.88 SF",
+              "inherited": false,
+              "purchase_date": "2000-10-11",
+              "purchase_cost_rupees": 25000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 300000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "282/5 CENT 5.49",
+              "total_area": "2393.64",
+              "inherited": false,
+              "purchase_date": "2000-10-04",
+              "purchase_cost_rupees": 52000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1600000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "327/IR",
+              "total_area": "9243.2 SF",
+              "inherited": false,
+              "purchase_date": "2007-04-29",
+              "purchase_cost_rupees": 286000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 650000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE, NATHAM",
+              "s_no": "313/3A",
+              "total_area": "3134 SF",
+              "inherited": false,
+              "purchase_date": "2008-09-03",
+              "purchase_cost_rupees": 120000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 275000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "281/1A1",
+              "total_area": "7499.2 SF",
+              "inherited": false,
+              "purchase_date": "2010-10-29",
+              "purchase_cost_rupees": 300000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 670000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "261/4,262/3 1/6 PART",
+              "total_area": "7499.2 SF",
+              "inherited": false,
+              "purchase_date": "2008-11-12",
+              "purchase_cost_rupees": 81000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000
+            },
+            {
+              "location": "THIRUNELVELI DIST, SRIVAIKUNDAM TALUK, KEELAVALLANADU VILLAGE",
+              "s_no": "805/2C,806 CENT 18",
+              "total_area": "7848 SF",
+              "inherited": false,
+              "purchase_date": "2011-06-10",
+              "purchase_cost_rupees": 36000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "293/1A,293/2A,294",
+              "total_area": "27437.48 SF",
+              "inherited": false,
+              "purchase_date": "2010-02-10",
+              "purchase_cost_rupees": 1200000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7500000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 30000000,
+          "spouse_value_rupees": 30000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 60000000,
+          "self_details": [
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE, PAMPALAMMAN KOVIL ST, D.NO 65A1,A2,61A",
+              "s_no": "327/1 PART",
+              "total_area": "8040 SF",
+              "inherited": false,
+              "purchase_date": "2003-02-06",
+              "purchase_cost_rupees": 239600,
+              "development_cost_rupees": 3000000,
+              "current_value_rupees": 15000000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TOWN, WARD 1, D.NO.92/1,92/2",
+              "s_no": "T.S.NO.7/1, 6/3, R.S.NO.280A/4 CENT",
+              "total_area": "1096 SF",
+              "inherited": false,
+              "purchase_date": "2013-11-13",
+              "purchase_cost_rupees": 10000000,
+              "development_cost_rupees": 1000000,
+              "current_value_rupees": 15000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "327/IR,330/3R,330/8B 6.27 CENT",
+              "total_area": "2049 SF",
+              "inherited": false,
+              "purchase_date": "2006-02-06",
+              "purchase_cost_rupees": 84782,
+              "development_cost_rupees": 6000000,
+              "current_value_rupees": 8000000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TOWN, WARD 1, D.NO.92/1,92/2",
+              "s_no": "T.S.NO 7/1,6/3, R.S.NO.280A/4 CENT",
+              "total_area": "800 SF",
+              "inherited": false,
+              "purchase_date": "2013-11-13",
+              "purchase_cost_rupees": 6000000,
+              "development_cost_rupees": 500000,
+              "current_value_rupees": 9000000
+            },
+            {
+              "location": "THIRUNELVELI DIST, SIVAGIRI TALUK, VISVANATHAPERI VILLAGE, PART-1",
+              "s_no": "1352/1 CENT 29",
+              "total_area": "12644 SF",
+              "inherited": false,
+              "purchase_date": "2011-09-07",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 5000000,
+              "current_value_rupees": 10000000
+            },
+            {
+              "location": "THIRUNELVELI DIST, SIVAGIRI VILLAGE, WARD 4-D.NO.81 CENT 10",
+              "s_no": null,
+              "total_area": "2834 SF",
+              "inherited": false,
+              "purchase_date": "2011-09-07",
+              "purchase_cost_rupees": 1000000,
+              "development_cost_rupees": 1000000,
+              "current_value_rupees": 3000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 8500000,
+          "spouse_value_rupees": 8500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17000000,
+          "self_details": [
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "328/1,328/3,329/2, 4.98 CENT, D.NO 10C3, RENGANATHAPURAM KOVIL ST",
+              "total_area": "2171.28 SF",
+              "built_up_area": "1300 SF",
+              "inherited": false,
+              "purchase_date": "1998-08-19",
+              "purchase_cost_rupees": 42591,
+              "development_cost_rupees": 1000000,
+              "current_value_rupees": 4000000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE, INDIRA NAGAR, D.NO.205-4",
+              "s_no": "282/5",
+              "total_area": "2410 SF",
+              "built_up_area": "3300 SF",
+              "inherited": false,
+              "purchase_date": "1992-05-27",
+              "purchase_cost_rupees": 31600,
+              "development_cost_rupees": 1500000,
+              "current_value_rupees": 4500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE, WARD 15, D.NO.11, NATHAM",
+              "s_no": "231/A",
+              "total_area": "616.75 SF",
+              "built_up_area": "547.50 SF",
+              "inherited": false,
+              "purchase_date": "2001-09-24",
+              "purchase_cost_rupees": 90000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            },
+            {
+              "location": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE",
+              "s_no": "282/5, D.NO.55K24/1 TO 55K24/16",
+              "total_area": "5082 SF",
+              "built_up_area": "5000.00 SF",
+              "inherited": false,
+              "purchase_date": "2002-06-19",
+              "purchase_cost_rupees": 147000,
+              "development_cost_rupees": 4000000,
+              "current_value_rupees": 7500000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 4032000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4032000,
+          "spouse_details": [
+            {
+              "description": "TAMILNADU MERCANTILE BANK MORTGAGE AMOUNT"
+            }
+          ]
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 29354275,
+      "grand_total_of_liabilities_spouse_rupees": 32366394,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 61720669,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 1646451,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 1646451,
+      "whether_any_other_liabilities_are_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 43160000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 29354275,
+          "spouse_value_rupees": 30719943,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 60074218,
+          "self_details": [
+            "UA EXCHANGE VEHICLE LOAN 7,88,076",
+            "INDUS IND BANK VEHICLE LOAN 1,29,640",
+            "INDUS IND BANK VEHICLE LOAN 1,29,640",
+            "INDUS IND BANK VEHICLE LOAN 1,29,640",
+            "TAMILNADU MERCANTILE VEHICLE LOAN 62,140",
+            "TAMILNADU MERCANTILE VEHICLE LOAN 1,65,135",
+            "TMB INVESTMENT LOAN FOR THANGAMARIMMAN TEXTILES A. 5,11,505",
+            "B. 2,30,519",
+            "C. 21,36,105",
+            "D. 71,875",
+            "TMB WORKING CAPITAL LOAN FOR THANGA MARIAMMAN TEXTILES 2,50,00,000"
+          ],
+          "spouse_details": [
+            "TMB HOUSING LOAN 7,19,943",
+            "TMB LOAN FOR RAMYA TEXTILES 3,00,00,000"
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1646451,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1646451,
+          "spouse_details": "ACT 47A1-STAMP FEES 16,46,451"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE S.NO 327/IR",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2007-04-29",
-        "purchase_cost_inr": 286000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 650000
-      },
-      "commercial_buildings_inr": 37000000,
-      "residential_buildings": {
-        "description": "VIRDHUNAGAR DIST, RAJAPALAYAM TALUK, CHETTIYARPATTY VILLAGE, WARD 15, D.NO.11, NATHAM S.NO.231/A",
-        "total_area_sqft": 616.75,
-        "built_up_area_sqft": 547.5,
-        "inherited": "N",
-        "purchase_date": "2001-09-24",
-        "purchase_cost_inr": 90000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
-      },
-      "others_inr": 4032000,
-      "total_current_market_value_inr": 51927000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 29354275,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 29354275
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 30719943,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 32366394
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 1646451
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "THANGAMARIAMMAN TEXTILES",
-    "spouse": "RAMYA TEXTILES",
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "other_elections": [
+      {
+        "declaration_in": "Tamil Nadu 2011",
+        "declared_assets_rupees": 25722888,
+        "declared_cases": 0
+      }
+    ]
   }
 }

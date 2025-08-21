@@ -1,172 +1,331 @@
 {
   "candidate_name": "SARWAT KAREEM ANSARI",
-  "party": "BSP",
+  "election_year": 2012,
+  "state": "Uttarakhand",
   "constituency": "MANGLOR",
-  "father_or_husband_name": "Abdul Hafiz",
-  "age": 55,
-  "education": "8th Pass From Junior High School,Manglore Janpad Haridwar",
-  "profession_self": "Agriculture",
-  "profession_spouse": "House wife & Agriculture",
-  "criminal_cases": 0,
-  "assets_total_inr": 18300000,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
+  "district": "HARIDWAR",
+  "party": "BSP",
+  "status": "Winner",
+  "personal_details": {
+    "s_o_d_o_w_o": "Abdul Hafiz",
+    "age": 55,
+    "self_profession": "Agriculture",
+    "spouse_profession": "House wife & Agriculture"
+  },
+  "past_elections": [
+    {
+      "election": "Uttarakhand 2022",
+      "declared_assets_rupees": 149535470,
+      "declared_cases": 2
     },
-    "spouse": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    {
+      "election": "Uttarakhand 2017",
+      "declared_assets_rupees": 50374887,
+      "declared_cases": 0
     }
+  ],
+  "criminal_cases": {
+    "count": 0,
+    "details": "No criminal cases",
+    "readability_report": "No Problems in Reading Affidavit Information"
+  },
+  "assets_liabilities": {
+    "assets_rupees": 18300000,
+    "liabilities_rupees": 0
+  },
+  "educational_details": {
+    "category": "8th Pass",
+    "institution": "Junior High School,Manglore Janpad Haridwar"
+  },
+  "pan_income_tax_details": {
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "returns": [
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "spouse",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent1",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent2",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent3",
+        "pan_given": false,
+        "financial_year": null,
+        "total_income_shown_in_itr_rupees": 0
+      }
+    ]
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 1661740,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 5000,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 390000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2656740
-    },
-    "spouse": {
-      "cash_inr": 400000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 400000
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "items": [
+      {
+        "description": "Cash",
+        "self_value_rupees": 500000,
+        "spouse_value_rupees": 400000,
+        "dependent1_value_rupees": 300000,
+        "dependent2_value_rupees": 200000,
+        "dependent3_value_rupees": 200000,
+        "total_value_rupees": 1600000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_value_rupees": 1661740,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 1661740
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_value_rupees": 5000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 5000,
+        "details": "Indra Vikas Patra"
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_value_rupees": 100000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 100000,
+        "details": "LIC Policy"
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_value_rupees": 390000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 1000000,
+        "total_value_rupees": 1390000,
+        "details": [
+          {"make": "Ambesder Car", "reg_no": "UGX-7683", "year": 1987, "value_rupees": 40000},
+          {"make": "Maruti Zen", "reg_no": "UA-08-1839", "year": 2003, "value_rupees": 350000},
+          {"make": "Scorpio Car", "value_rupees": 1000000}
+        ]
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0,
+        "details": [
+          {"relation": "self", "type": "Gold", "weight_tola": 25, "value_given": false},
+          {"relation": "spouse", "type": "Gold", "weight_tola": 50, "value_given": false},
+          {"relation": "spouse", "type": "Silver", "weight_gm": 500, "value_given": false},
+          {"relation": "dependent1", "type": "Gold", "weight_tola": 25, "value_given": false},
+          {"relation": "dependent2", "type": "Gold", "weight_tola": 10, "value_given": false},
+          {"relation": "dependent3", "type": "Gold", "weight_tola": 15, "value_given": false}
+        ]
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ],
+    "gross_total_value_calculated": {
+      "self_rupees": 2656740,
+      "spouse_rupees": 400000,
+      "dependent1_rupees": 300000,
+      "dependent2_rupees": 200000,
+      "dependent3_rupees": 1200000,
+      "overall_total_rupees": 4756740
     }
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 10000000,
-      "non_agricultural_land": {
-        "description": "Manglore",
-        "area_sq_mtr": 650.32,
-        "inherited": "Y",
-        "purchase_date": "2004-12-24",
-        "purchase_cost_inr": 26350,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_value_rupees": 10000000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 10000000,
+        "details": [
+          {"location": "Mauja makhiyali Simloni manglor", "khasra_no": "199,210,266,405,1217", "total_area": "17.948 acre", "inherited": true, "purchase_date": "2003-08-21", "purchase_cost_rupees": 36000, "development_cost_rupees": 0}
+        ]
       },
-      "commercial_buildings_inr": 500000,
-      "residential_buildings": {
-        "description": "Bandartol Manglore",
-        "total_area_sqft": 5000,
-        "built_up_area_sqft": 4000,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 700000
+      {
+        "description": "Non Agricultural Land",
+        "self_value_rupees": 1000000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 1000000,
+        "details": [
+          {"location": "Manglore", "total_area": "7000 sq.ft", "inherited": true, "purchase_date": "2004-12-24", "purchase_cost_rupees": 26350, "development_cost_rupees": 0}
+        ]
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12200000
+      {
+        "description": "Commercial Buildings",
+        "self_value_rupees": 500000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 500000,
+        "details": [
+          {"location": "Bandartol Manglore", "total_area": "1000 sq.ft", "inherited": true, "purchase_date": "0000-00-00", "purchase_cost_rupees": 0, "development_cost_rupees": 0}
+        ]
+      },
+      {
+        "description": "Residential Buildings",
+        "self_value_rupees": 700000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 700000,
+        "details": [
+          {"location": "Bandartol Manglore", "total_area": "5000 sq.ft", "built_up_area": "4000 sq.ft", "inherited": true, "purchase_date": "0000-00-00", "purchase_cost_rupees": 0, "development_cost_rupees": 0}
+        ]
+      },
+      {
+        "description": "Others",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ],
+    "total_current_market_value_as_per_affidavit": {
+      "self_rupees": 12200000,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "overall_total_rupees": 12200000
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "",
-        "area_sq_mtr": 0,
-        "inherited": "",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
+    "totals_calculated": {
+      "self_rupees": 12200000,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "overall_total_rupees": 12200000
     }
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ],
+    "grand_total_of_liabilities_as_per_affidavit": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "overall_total_rupees": 0
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "govt_dues": {
+      "dues_to_departments_with_government_accommodation": 0,
+      "dues_to_departments_with_supply_of_water": 0,
+      "dues_to_departments_with_supply_of_electricity": 0,
+      "dues_to_departments_with_telephones": 0,
+      "dues_to_departments_with_supply_of_transport": 0,
+      "income_tax_dues": 0,
+      "wealth_tax_dues": 0,
+      "service_tax_dues": 0,
+      "property_tax_dues": 0,
+      "sales_tax_dues": 0,
+      "any_other_dues": 0
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
+    "grand_total_of_all_govt_dues_as_per_affidavit": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "overall_total_rupees": 0
     },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "NA",
-    "spouse": "NA",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+    "totals_calculated": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "overall_total_rupees": 0
+    }
   }
 }

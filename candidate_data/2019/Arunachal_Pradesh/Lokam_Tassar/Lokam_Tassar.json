@@ -1,136 +1,683 @@
 {
-  "candidate_name": "Lokam Tassar",
-  "party": "BJP",
-  "constituency": "KOLORIANG (KURUNGKUMEY)",
-  "father_or_husband_name": "Late Lokam Gari",
-  "age": 55,
-  "education": "10th Pass",
-  "profession_self": "Social worker",
-  "profession_spouse": "House wife",
-  "criminal_cases": 2,
-  "assets_total_inr": 113427448,
-  "liabilities_total_inr": 34598854,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 1939127
+      "candidate_name": "Lokam Tassar",
+      "party": "BJP",
+      "constituency": "KOLORIANG",
+      "state": "Arunachal Pradesh 2019",
+      "status": "Winner",
+      "affidavit_info": {
+        "personal_details": {
+          "s_o_d_o_w_o": "Late Lokam Gari",
+          "age": 55,
+          "voter_enrolled_in": {
+            "constituency": "21 Koloriang",
+            "state": "Arunachal Pradesh",
+            "serial_no": 555,
+            "part_no": 23
+          },
+          "self_profession": "Social worker",
+          "spouse_profession": "House wife"
+        },
+        "summary": {
+          "criminal_cases_count": 2,
+          "total_assets_in_rupees": 113427448,
+          "total_liabilities_in_rupees": 34598854
+        },
+        "educational_details": {
+          "category": "10th Pass",
+          "details": "Matriculation from National Open School, New Delhi in 2000"
+        },
+        "income_tax_details": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "returns": [
+            {
+              "relation_type": "self",
+              "pan_given": true,
+              "financial_year": "2017 - 2018",
+              "total_income_shown_in_itr_rupees": 1939127
+            },
+            {
+              "relation_type": "spouse",
+              "pan_given": true,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "huf",
+              "pan_given": false,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "dependent1",
+              "pan_given": false,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "dependent2",
+              "pan_given": true,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "dependent3",
+              "pan_given": true,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "dependent4",
+              "pan_given": null,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": null
+            }
+          ]
+        },
+        "criminal_cases": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "brief_details_ipc_bns": [
+            {
+              "charges_related_to": "Punishment for voluntarily causing grievous hurt",
+              "ipc_section": "325",
+              "count": 1
+            },
+            {
+              "charges_related_to": "Punishment for dacoity",
+              "ipc_section": "395",
+              "count": 1
+            },
+            {
+              "charges_related_to": "Mischief by destroying or moving, etc., a land- mark fixed by public authority Mischief by fire or explosive substance with intent to cause damage to amount of one hundred or (in case of agricultural produce) ten rupees",
+              "ipc_section": "435",
+              "count": 1
+            },
+            {
+              "charges_related_to": "Punishment for wrongful restraint",
+              "ipc_section": "341",
+              "count": 1
+            },
+            {
+              "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+              "ipc_section": "353",
+              "count": 1
+            }
+          ],
+          "pending_cases": [
+            {
+              "serial_no": 1,
+              "fir_no": "Naharlagun PS Case No.85/14 Police Station Naharlagun, Dist. Papumpare Arunachal Pradesh",
+              "case_no": "GR Case No. 296/15",
+              "court": "Chief Judicial Magistrate Yupia Dist. Papumpare Arunachal Pradesh",
+              "ipc_sections_applicable": "341, 325",
+              "other_details_or_acts_sections_applicable": null,
+              "charges_framed": false,
+              "date_on_which_charges_were_framed": null,
+              "appeal_filed": false,
+              "details_and_present_status_of_appeal": null
+            },
+            {
+              "serial_no": 2,
+              "fir_no": "Kimin PS Case No.21/13, Police Station Kimin, Dist.Papumpare, Arunachal Pradesh",
+              "case_no": "Session Case No. 32/14",
+              "court": "District & Session Judge, West Division Yupia, Dist. Papumpare Arunachal Pradesh",
+              "ipc_sections_applicable": "395, 353, 435",
+              "other_details_or_acts_sections_applicable": null,
+              "charges_framed": true,
+              "date_on_which_charges_were_framed": "11 Aug 2014",
+              "appeal_filed": false,
+              "details_and_present_status_of_appeal": null
+            }
+          ],
+          "convicted_cases": []
+        },
+        "movable_assets": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "gross_total_value_self_rupees": 9165448,
+          "gross_total_value_spouse_rupees": 4375000,
+          "gross_total_value_huf_rupees": 0,
+          "gross_total_value_dependent1_rupees": 5000,
+          "gross_total_value_dependent2_rupees": 12000,
+          "gross_total_value_dependent3_rupees": 20000,
+          "gross_total_value_total_rupees": 13577448,
+          "items": [
+            {
+              "sr_no": "i",
+              "description": "Cash",
+              "self_value_rupees": 250000,
+              "spouse_value_rupees": 50000,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 300000,
+              "self_details": {
+                "amount_rupees": 250000
+              },
+              "spouse_details": {
+                "amount_rupees": 50000
+              }
+            },
+            {
+              "sr_no": "ii",
+              "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+              "self_value_rupees": 55000,
+              "spouse_value_rupees": 200000,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 5000,
+              "dependent2_value_rupees": 12000,
+              "dependent3_value_rupees": 20000,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 294000,
+              "self_details": [
+                {
+                  "bank": "SBI Bank",
+                  "branch": "Itanagar",
+                  "account_no": "1094010xxxxx",
+                  "amount_rupees": 5000
+                },
+                {
+                  "bank": "SBI Bank",
+                  "branch": "Koloriang",
+                  "account_no": "3097239xxxxx",
+                  "amount_rupees": 5000
+                },
+                {
+                  "bank": "Axis Bank",
+                  "branch": "Itanagar",
+                  "account_no": "37901010001xxxxx",
+                  "amount_rupees": 10000
+                },
+                {
+                  "bank": "IDBI Bank",
+                  "branch": "Itanagar",
+                  "account_no": "1613720001xxxxx",
+                  "amount_rupees": 5000
+                },
+                {
+                  "bank": "BOI",
+                  "branch": "Itanagar",
+                  "account_no": "504510100xxxxx",
+                  "amount_rupees": 10000
+                },
+                {
+                  "bank": "HDFC Bank",
+                  "branch": "Itanagar",
+                  "account_no": "5010008821xxxxx",
+                  "amount_rupees": 2000
+                },
+                {
+                  "bank": "Firm=Lokam Yasi Carriage & Construction Associates SBI Itanagar",
+                  "branch": "Itanagar",
+                  "account_no": "3105266xxxxx",
+                  "amount_rupees": 15000
+                },
+                {
+                  "bank": "Apex Bank",
+                  "account_no": "68812507xxxxx",
+                  "amount_rupees": 5000
+                }
+              ],
+              "spouse_details": [
+                {
+                  "bank": "SBI Bank",
+                  "branch": "Itanagar",
+                  "account_no": "3202265xxxxx",
+                  "amount_rupees": 150000
+                },
+                {
+                  "bank": "Canaa Bank",
+                  "branch": "Itanagar",
+                  "account_no": "343510100xxxxx",
+                  "amount_rupees": 50000
+                }
+              ],
+              "dependent1_details": {
+                "bank": "SBI Naharlagun",
+                "branch": "Naharlagun",
+                "account_no": "3454768xxxxx",
+                "amount_rupees": 5000
+              },
+              "dependent2_details": {
+                "bank": "SBI Itanagar",
+                "branch": "Itanagar",
+                "account_no": "3454728xxxxx",
+                "amount_rupees": 12000
+              },
+              "dependent3_details": {
+                "bank": "SBI Itanagar",
+                "branch": "Itanagar",
+                "account_no": "3725047xxxxx",
+                "amount_rupees": 20000
+              }
+            },
+            {
+              "sr_no": "iii",
+              "description": "Bonds, Debentures and Shares in companies",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "iv",
+              "description": "(a) NSS, Postal Savings etc",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "(b) LIC or other insurance Policies",
+              "self_value_rupees": 1000000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 1000000,
+              "self_details": [
+                {
+                  "company": "SBI Life Smart ULIP",
+                  "policy_no": "3305665xxxxx",
+                  "premium_rupees": 500000
+                },
+                {
+                  "company": "SBI Life Smart ULIP",
+                  "policy_no": "33056658xxxxx",
+                  "premium_rupees": 500000
+                }
+              ],
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "v",
+              "description": "Personal loans/advance given",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "vi",
+              "description": "Motor Vehicles (details of make, etc.)",
+              "self_value_rupees": 3474448,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 3474448,
+              "self_details": [
+                {
+                  "make": "LMV Fortuner",
+                  "reg_no": "AR01F4710",
+                  "year": "2012-13",
+                  "value_rupees": 2234448
+                },
+                {
+                  "make": "LMV Terra",
+                  "reg_no": "XVD AR023733",
+                  "year": "2014-15",
+                  "value_rupees": 1240000
+                }
+              ],
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "vii",
+              "description": "Jewellery (give details weight value)",
+              "self_value_rupees": 4000000,
+              "spouse_value_rupees": 4125000,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 8125000,
+              "self_details": {
+                "type": "Local sword",
+                "nos": 10,
+                "value_rupees": 4000000
+              },
+              "spouse_details": [
+                {
+                  "type": "Local ornaments",
+                  "value_rupees": 2300000
+                },
+                {
+                  "type": "Gold",
+                  "weight_gm": 553,
+                  "value_rupees": 1825000
+                }
+              ]
+            },
+            {
+              "sr_no": "viii",
+              "description": "Other assets, such as values of claims / interests",
+              "self_value_rupees": 367000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 367000,
+              "self_details": [
+                {
+                  "type": "12Bore SBBI Gun",
+                  "value_rupees": 17000
+                },
+                {
+                  "type": "0.32 Bore Pistol",
+                  "nos": "8xxxxx",
+                  "value_rupees": 200000
+                },
+                {
+                  "type": "NPB (.366)",
+                  "nos": "9.3+62) 28787 Made in Australia",
+                  "value_rupees": 150000
+                }
+              ],
+              "spouse_details": "Nil"
+            }
+          ]
+        },
+        "immovable_assets": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "total_current_market_value_self_rupees": 945000000,
+          "total_current_market_value_spouse_rupees": 0,
+          "total_current_market_value_huf_rupees": 0,
+          "total_current_market_value_dependent1_rupees": 3900000,
+          "total_current_market_value_dependent2_rupees": 750000,
+          "total_current_market_value_dependent3_rupees": 0,
+          "total_current_market_value_dependent4_rupees": 700000,
+          "total_current_market_value_total_rupees": 998500000,
+          "items": [
+            {
+              "sr_no": "i",
+              "description": "Agricultural Land",
+              "self_value_rupees": 6500000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 6500000,
+              "self_details": {
+                "location": "Jhuming land at Saitam village, damin",
+                "total_area_acres": 31.68,
+                "inherited": true,
+                "purchase_date": "0000-00-00",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 2000000,
+                "current_value_rupees": 6500000
+              },
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "ii",
+              "description": "Non Agricultural Land",
+              "self_value_rupees": 3000000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 900000,
+              "dependent2_value_rupees": 750000,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 700000,
+              "total_value_rupees": 5350000,
+              "self_details": {
+                "location": "D Sector Naharlagun",
+                "allotment_no": "LRB-09387/97",
+                "total_area_sq_mtr": 300,
+                "total_area_sqft": 32302.5,
+                "inherited": false,
+                "purchase_date": "0000-00-00",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 3000000
+              },
+              "spouse_details": "Nil",
+              "dependent1_details": {
+                "location": "Koloriang",
+                "allotment_no": "LM4/2003 (Vol-1/419)",
+                "total_area_sqft": 1151.74,
+                "inherited": false,
+                "purchase_date": "0000-00-00",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 900000
+              },
+              "dependent2_details": {
+                "location": "Koloriang",
+                "allotment_no": "LM4/2003 (VOL-I/419)",
+                "total_area_sq_mtr": 98,
+                "total_area_sqft": 1054.86,
+                "inherited": false,
+                "purchase_date": "0000-00-00",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 750000
+              },
+              "dependent4_details": {
+                "location": "Koloriang",
+                "allotment_no": "LM4/2003 (VOL-I/419)",
+                "total_area_sq_mtr": 75,
+                "total_area_sqft": 807.29,
+                "inherited": false,
+                "purchase_date": "0000-00-00",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 0,
+                "current_value_rupees": 700000
+              }
+            },
+            {
+              "sr_no": "iii",
+              "description": "Commercial Buildings",
+              "self_value_rupees": 60000000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 60000000,
+              "self_details": [
+                {
+                  "description": "Four storied building",
+                  "location": "Koloriang",
+                  "allotment_order_no": "LM-4/2003 (VOL-I)1419, dated 11.12.2007",
+                  "built_up_sq_mtr": 430,
+                  "total_area_sq_mtr": 530,
+                  "inherited": false,
+                  "purchase_date": "0000-00-00",
+                  "purchase_cost_rupees": 0,
+                  "development_cost_rupees": 40000000,
+                  "current_value_rupees": 60000000
+                },
+                {
+                  "description": "Building under construction",
+                  "location": "six mile itanagar",
+                  "total_area_sq_mtr": 337.50,
+                  "total_area_sqft": 9337.69,
+                  "built_up_sqft": 8255.92,
+                  "inherited": false,
+                  "purchase_date": "0000-00-00",
+                  "purchase_cost_rupees": 0,
+                  "development_cost_rupees": 40000000,
+                  "current_value_rupees": 60000000
+                }
+              ],
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "iv",
+              "description": "Residential Buildings",
+              "self_value_rupees": 25000000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 3000000,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 28000000,
+              "self_details": {
+                "location": "Dam site naharlagun",
+                "total_area_sqft": 18836.84,
+                "built_up_sqft": 10763.90,
+                "inherited": false,
+                "purchase_date": "0000-00-00",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 15000000,
+                "current_value_rupees": 25000000
+              },
+              "spouse_details": "Nil",
+              "dependent1_details": {
+                "location": "Koloriang",
+                "allotment_no": "LM-4/2003(VdI) 1419",
+                "total_area_sqft": 4554,
+                "built_up_sqft": 3000,
+                "inherited": false,
+                "purchase_date": "0000-00-00",
+                "purchase_cost_rupees": 0,
+                "development_cost_rupees": 2000000,
+                "current_value_rupees": 3000000
+              }
+            },
+            {
+              "sr_no": "v",
+              "description": "Others",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            }
+          ]
+        },
+        "liabilities": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "grand_total_of_liabilities_self_rupees": 34598854,
+          "grand_total_of_liabilities_spouse_rupees": 0,
+          "grand_total_of_liabilities_huf_rupees": 0,
+          "grand_total_of_liabilities_dependent1_rupees": 0,
+          "grand_total_of_liabilities_dependent2_rupees": 0,
+          "grand_total_of_liabilities_dependent3_rupees": 0,
+          "grand_total_of_liabilities_dependent4_rupees": 0,
+          "grand_total_of_liabilities_total_rupees": 34598854,
+          "grand_total_of_all_govt_dues_self_rupees": 0,
+          "grand_total_of_all_govt_dues_spouse_rupees": 0,
+          "grand_total_of_all_govt_dues_huf_rupees": 0,
+          "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+          "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+          "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+          "grand_total_of_all_govt_dues_dependent4_rupees": 0,
+          "grand_total_of_all_govt_dues_total_rupees": 0,
+          "any_other_liabilities_in_dispute": {
+            "self_amount_rupees": 0,
+            "spouse_amount_rupees": 0,
+            "huf_amount_rupees": 0,
+            "dependent1_amount_rupees": 0,
+            "dependent2_amount_rupees": 0,
+            "dependent3_amount_rupees": 0,
+            "dependent4_amount_rupees": 0,
+            "total_amount_rupees": 0,
+            "details": []
+          },
+          "items": [
+            {
+              "sr_no": "i",
+              "description": "Loans from Banks / FIs",
+              "self_value_rupees": 34598854,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 34598854,
+              "self_details": [
+                {
+                  "bank": "Arunachal Pradesh State Co-operative, Apex Bank",
+                  "loan_type": "CC Loan",
+                  "amount_rupees": 34598854
+                }
+              ],
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Loans due to Individual / Entity",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Any other Liability",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "dependent4_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            }
+          ]
+        },
+        "profession_or_occupation": {
+          "self": "Social worker",
+          "spouse": "House wife"
+        },
+        "sources_of_income": {
+          "self": "Rent from commercial buildings and contract works",
+          "spouse": "Agri-Horti products and domestic source",
+          "dependent": "NIL"
+        },
+        "contracts_with_government_and_public_companies": {
+          "candidate": "Contracted with NBCC (India) Ltd and successfully completed the work C/O infrastructure development Project of Kokoriang town on 27.02.2018",
+          "spouse": "NA",
+          "dependent": "NA",
+          "huf_or_trust": "NA",
+          "partnership_firms": "NA",
+          "private_companies": "NA"
+        }
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
-    },
-    "dependent3": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
     }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 52000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 3474448,
-      "jewellery_inr": 4000000,
-      "other_assets_inr": 367000,
-      "gross_total_value_inr": 9148448
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 200000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 4125000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4375000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 6500000,
-      "non_agricultural_land": {
-        "description": "D Sector Naharlagun",
-        "area_sq_mtr": 300,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3000000
-      },
-      "commercial_buildings_inr": 60000000,
-      "residential_buildings_inr": 25000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 94500000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 34598854,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 34598854
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Rent from commercial buildings and contract works",
-    "spouse": "Agri-Horti products and domestic source",
-    "dependent": "NIL"
-  },
-  "contracts": {
-    "entered_by_candidate": "Contracted with NBCC (India) Ltd and successfully completed the work C/O infrastructure development Project of Kokoriang town on 27.02.2018",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
-  }
-}

@@ -1,166 +1,577 @@
 {
   "candidate_name": "CHANDRA PRAKASH CHOUDHARY",
   "party": "AJSU Party",
-  "constituency": "RAMGARH (RAMGARH)",
-  "father_or_husband_name": "Late Rijhu Nath Choudhary",
-  "age": 45,
-  "education": "Graduate, B.Com. From Ramgarh College, Ramgarh, Ranchi University, Ranchi,Year-1988",
-  "profession_self": "Social Worker & Politician",
-  "profession_spouse": "Teacher in Govt. School",
-  "criminal_cases": 5,
-  "assets_total_inr": 7730325,
-  "liabilities_total_inr": 997750,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 567083
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 627755
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 122137,
-      "bank_deposits_inr": 231925,
-      "bonds_debentures_shares_inr": 650000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 372107,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 558000,
-      "jewellery_inr": 25000,
-      "other_assets_inr": 55125,
-      "gross_total_value_inr": 2014294
-    },
-    "spouse": {
-      "cash_inr": 125106,
-      "bank_deposits_inr": 195623,
-      "bonds_debentures_shares_inr": 13500,
-      "nss_postal_savings_inr": 10000,
-      "lic_other_insurance_inr": 454221,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 255000,
-      "jewellery_inr": 215400,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1268850
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Gram-Hetbarga, Thana-Berlanga(Gola) Ramgarh, Khata No.148, Plot No.1339",
-        "area_sq_mtr": 161.87,
-        "inherited": "N",
-        "purchase_date": "2002-03-15",
-        "purchase_cost_inr": 100000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 200000
+  "constituency": "RAMGARH",
+  "state": "Jharkhand",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Rijhu Nath Choudhary",
+      "age": 45,
+      "voter_enrolled_in": {
+        "constituency": "23-Ramgarh",
+        "state": "Jharkhand",
+        "serial_no": 304,
+        "part_no": 149
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Parental House At-Sandi, Thana-Rajrappa, Ramgarh, Khata NO.02, Plot No.144",
-        "total_area_sqft": 8131,
-        "built_up_area_sqft": 2083,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 850000
+      "self_profession": "Social Worker & Politician",
+      "spouse_profession": "Teacher in Govt. School"
+    },
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 7730325,
+      "total_liabilities_in_rupees": 997750
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Com. From Ramgarh College, Ramgarh, Ranchi University, Ranchi,Year-1988"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 567083
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 627755
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief committed after preparation made for causing death or hurt",
+          "ipc_section": "440",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+          "ipc_section": "332",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Resistance to the taking of property by the lawful authority of a public servant",
+          "ipc_section": "183",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Causing hurt by act endangering life or personal safety of others",
+          "ipc_section": "337",
+          "count": 1
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Joining unlawful assembly armed with deadly weapon",
+          "ipc_section": "144",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punished for mischief",
+          "ipc_section": "426",
+          "count": 1
+        }
+      ],
+      "pending_cases": [],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 144, 149, 353, 452, 440, 341",
+          "other_details_or_acts_sections_applicable": "Ramgarh P.S. Case No.162/01, Dist.Ramgarh, Jharkhand, Court taking Cog. Sri Abhimanyu Kumar, JMFC, Hazaribag, Cog. Date-18/8/2009, Court which framed the Charges- Sri Abhimanyu Kumar, JMFC, Hazaribag, Charge Framed Date-1/3/2012"
+        }
+      ],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 149, 148",
+          "other_details_or_acts_sections_applicable": "Sec. 32 Police Act, Case No.104/09, Court Taking Cog.- JMFC, Hazaribag, Cog. Date- 5/2/10"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "147, 148, 149, 323, 337, 332, 353, 427",
+          "other_details_or_acts_sections_applicable": "Case No.283/02, Court Taking Cog.- JMFC, Hazaribag, Cog. Date-4/10/05"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "183, 143",
+          "other_details_or_acts_sections_applicable": "Sec. 126 Peoples Representative Act, Case No.16/2009, Court taking Cog. SDJM, Hazaribag, Cog. Date-5/8/2009"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "426, 427",
+          "other_details_or_acts_sections_applicable": "Sec. 3 Defacement of Property Act, Case No.275/2009, Court taking Cog. CJM, Hazaribag,"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2014294,
+      "gross_total_value_spouse_rupees": 1268850,
+      "gross_total_value_dependent1_rupees": 133032,
+      "gross_total_value_dependent2_rupees": 132703,
+      "gross_total_value_dependent3_rupees": 131446,
+      "gross_total_value_total_rupees": 3680325,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 122137,
+          "spouse_value_rupees": 125106,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 247243
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 231925,
+          "spouse_value_rupees": 195623,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 427548,
+          "self_details": [
+            "SBI, SB A/C., Doranda, Ranchi 2,11,977",
+            "BOI, SB A/C. Rajrappa 19,948"
+          ],
+          "spouse_details": "SBI, SB A/C., Main Road Ranchi 1,95,623"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 650000,
+          "spouse_value_rupees": 13500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 663500,
+          "self_details": "Equity Share 6,50,000",
+          "spouse_details": "BOI Shares, Units 300 13,500"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 10000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000,
+          "self_details": "Nil",
+          "spouse_details": "NSC 10,000"
+        },
+        {
+          "sr_no": "(b)",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 372107,
+          "spouse_value_rupees": 454221,
+          "dependent1_value_rupees": 125032,
+          "dependent2_value_rupees": 125203,
+          "dependent3_value_rupees": 125446,
+          "total_value_rupees": 1202009,
+          "self_details": "Reliance Life Insurance 25,000, LIC Sum Deposit 3,47,107",
+          "spouse_details": "Bajaj Allianz life Insurance 1,05,000, LIC Sum Deposit 3,49,221",
+          "dependent1_details": "ICICI Prudential 40,000, LIC Sum Deposit 85,032",
+          "dependent2_details": "ICICI Prudential 40,000, LIC Sum Deposit 85,203",
+          "dependent3_details": "ICICI Prudential 40,000, LIC Sum Deposit 85,446"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 558000,
+          "spouse_value_rupees": 255000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 813000,
+          "self_details": "ZYPSY, No.JH01Y-3111, Year-2009 5,58,000",
+          "spouse_details": "Maruti, No.BR14F-6211, Year-1998 2,55,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 215400,
+          "dependent1_value_rupees": 8000,
+          "dependent2_value_rupees": 7500,
+          "dependent3_value_rupees": 6000,
+          "total_value_rupees": 261900,
+          "self_details": "40 Grm Gold 25,000",
+          "spouse_details": "190 Grm Gold 1,75,000, 850 Grm Silver 40,400",
+          "dependent1_details": "12 Grm Gold 8,000",
+          "dependent2_details": "11 Grm Gold 7,500",
+          "dependent3_details": "9 Grm Gold 6,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 55125,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 55125,
+          "self_details": "Arms 3 Nos. 55,125",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 10500000,
+      "total_current_market_value_spouse_rupees": 30000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 40500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 200000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 200000,
+          "self_details": {
+            "location": "Gram-Hetbarga, Thana-Berlanga(Gola) Ramgarh",
+            "khata_no": "148",
+            "plot_no": "1339",
+            "total_area": "1742.4 Sq.Ft.",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2002-03-15",
+            "purchase_cost_rupees": 100000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 200000
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 850000,
+          "spouse_value_rupees": 3000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3850000,
+          "self_details": {
+            "location": "Parental House At-Sandi, Thana-Rajrappa, Ramgarh",
+            "khata_no": "02",
+            "plot_no": "144",
+            "total_area": "8131 Sq.Ft.",
+            "built_up_area": "2083 Sq.Ft.",
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 850000
+          },
+          "spouse_details": {
+            "location": "3A-Vatika Apartment, Line Tank Road, Ranchi",
+            "total_area": "1700 Sq.Ft.",
+            "built_up_area": "1700 Sq.Ft.",
+            "inherited": false,
+            "purchase_date": "2005-05-16",
+            "purchase_cost_rupees": 418500,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 3000000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 997750,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 997750,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1050000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 97750,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 97750,
+          "self_details": "Vehicle Advance From Jharkhand Vidhan Sabha, Finance Dept. 97,750"
+        },
+        {
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 900000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 900000,
+          "self_details": "Loan from Mother 4,00,000, Loan From Brother 5,00,000"
+        },
+        {
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "past_elections": [
+      {
+        "declaration_in": "Lok Sabha 2024",
+        "declared_assets": 49849182,
+        "declared_cases": 2
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "3A-Vatika Apartment, Line Tank Road, Ranchi",
-        "total_area_sqft": 1700,
-        "built_up_area_sqft": 1700,
-        "inherited": "N",
-        "purchase_date": "2005-05-16",
-        "purchase_cost_inr": 418500,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3000000
+      {
+        "declaration_in": "Lok Sabha 2019",
+        "declared_assets": 13456889,
+        "declared_cases": 2
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 97750,
-      "loans_due_to_individual_entity_inr": 900000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 997750
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Social Worker & Politician",
-    "spouse": "Teacher in Govt. School",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "Nil"
+      {
+        "declaration_in": "Jharkhand 2009",
+        "declared_assets": 4520816,
+        "declared_cases": 6
+      },
+      {
+        "declaration_in": "Lok Sabha 2009",
+        "declared_assets": 2942581,
+        "declared_cases": 4
+      },
+      {
+        "declaration_in": "Jharkhand 2005",
+        "declared_assets": 1287632,
+        "declared_cases": 4
+      }
+    ]
   }
 }

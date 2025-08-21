@@ -2,120 +2,372 @@
   "candidate_name": "KUMAR SARVJEET",
   "party": "RJD",
   "constituency": "BODH GAYA (SC)",
-  "father_or_husband_name": "Rajesh Kumar",
-  "age": 40,
-  "education": "Graduate Professional B.E. From BIT Mesra Ranchi in 2001, I.Sc. From Mahesh Singh Yadav College Gaya in 1991",
-  "profession_self": "Social Service",
-  "profession_spouse": "Business",
-  "criminal_cases": 1,
-  "assets_total_inr": 16846186,
-  "liabilities_total_inr": 1030000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 344104
+  "state": "Bihar",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Rajesh Kumar",
+      "age": 40,
+      "voter_enrolled_in": {
+        "constituency": "229 Bodh Gaya (Bihar)",
+        "serial_no": 606,
+        "part_no": 26
+      },
+      "self_profession": "Social Service",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 16846186,
+      "total_liabilities_in_rupees": 1030000
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.E. From BIT Mesra Ranchi in 2001, I.Sc. From Mahesh Singh Yadav College Gaya in 1991"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 344104
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 407828
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 357820
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for undue influence or personation at an election",
+          "ipc_section": "171F",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Illegal payments in connection with an election",
+          "ipc_section": "171H",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        }
+      ],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "171F, 171H, 188",
+          "other_details_or_acts_sections_applicable": "Section 3 of Bihar Prevention of defacement of property Act, Case No. 346/10, Cognizance Court Judicial Magistrate First Class, Cognizance Date 16.03.2011"
+        }
+      ],
+      "cases_where_convicted": "No Cases",
+      "cases_where_charges_framed": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1504594,
+      "gross_total_value_spouse_rupees": 1311560,
+      "gross_total_value_dependent1_rupees": 80032,
+      "gross_total_value_dependent2_rupees": 200000,
+      "gross_total_value_dependent3_rupees": 200000,
+      "gross_total_value_total_rupees": 3296186,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 10000,
+          "dependent1_value_rupees": 10000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 45000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 24594,
+          "spouse_value_rupees": 211560,
+          "dependent1_value_rupees": 16032,
+          "dependent2_value_rupees": 200000,
+          "dependent3_value_rupees": 200000,
+          "total_value_rupees": 652186
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1000000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 210000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 210000
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 820000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 820000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 135000,
+          "spouse_value_rupees": 380000,
+          "dependent1_value_rupees": 54000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 569000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 8000000,
+      "total_current_market_value_spouse_rupees": 60000000,
+      "total_current_market_value_dependent1_rupees": 67500000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 135500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 8000000,
+          "spouse_value_rupees": 60000000,
+          "dependent1_value_rupees": 7500000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 75500000,
+          "self_details": {
+            "location": "Thana No. 114, Atri",
+            "total_area": "4.24 3/4 Acre",
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 8000000
+          },
+          "spouse_details": {
+            "location": "Thana No. 424, Bodh Gaya",
+            "total_area": "3.62 3/4 Acre",
+            "inherited": false,
+            "purchase_date": "2013-03-20",
+            "purchase_cost_rupees": 4400000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 60000000
+          },
+          "dependent1_details": {
+            "location": "Thana No. 114, Atri",
+            "total_area": "3.94 1/4 Acre",
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 7500000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 60000000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 60000000,
+          "dependent1_details": {
+            "location": "Patna Bahadurpur, Ward No. 46, Survey No. 551/73",
+            "total_area": "3360 sq. ft.",
+            "built_up_area": "2500 sq. ft.",
+            "inherited": true,
+            "purchase_date": "1981-10-21",
+            "purchase_cost_rupees": 59661,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 60000000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 820000,
+      "grand_total_of_liabilities_spouse_rupees": 210000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1030000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 820000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 820000,
+          "self_details": {
+            "bank": "PNB Bodh Gaya",
+            "loan_type": "Vehicle Loan",
+            "amount_rupees": 820000
+          }
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 210000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 210000,
+          "spouse_details": {
+            "entity": "Sahara India",
+            "amount_rupees": 210000
+          }
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "declaration_in": "Lok Sabha 2024",
+        "declared_assets_rupees": 119061473,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Bihar 2020",
+        "declared_assets_rupees": 62976206,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Bihar 2005",
+        "declared_assets_rupees": 5160000,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014 - 2015": 407828
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014 - 2015": 357820
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 24594,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 820000,
-      "jewellery_inr": 135000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1504594
-    },
-    "spouse": {
-      "cash_inr": 10000,
-      "bank_deposits_inr": 211560,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 210000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 380000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1311560
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 800000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 800000
-    },
-    "spouse": {
-      "agricultural_land_inr": 6000000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 6000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 820000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 820000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 210000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 210000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    ]
+  }
 }

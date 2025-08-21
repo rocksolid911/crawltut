@@ -1,155 +1,635 @@
 {
   "candidate_name": "PUSHPENDRA SINGH",
   "party": "BJP",
-  "constituency": "BALI (PALI)",
-  "father_or_husband_name": "Narendra Singh",
-  "age": 43,
-  "education": "Graduate BA Pass From Maharaja Shijirav University Baroda",
-  "profession_self": "Agriculture",
-  "profession_spouse": "House wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 24668699,
-  "liabilities_total_inr": 2208184,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 486818
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 400000,
-      "bank_deposits_inr": 641489,
-      "bonds_debentures_shares_inr": 7000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 3005210,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5053699
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 200000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1250000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1610000,
-      "non_agricultural_land": {
-        "description": "Village Bijapur ,Khata no 486, Khasra No 1730/2960",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 100000
+  "constituency": "BALI",
+  "state": "Rajasthan",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Narendra Singh",
+      "age": 43,
+      "voter_enrolled_in": {
+        "constituency": "120 Bali",
+        "state": "Rajasthan",
+        "serial_no": 415,
+        "part_no": 212
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "In Jaipur Tirthraj Appartment Flat No 1 Jaipur; A Plot Indira Gandhi Nagar Jodhpur; In Sumerpur Front OF Mandi Plot No 913 Sq.Meter",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 8000000
+      "self_profession": "Agriculture",
+      "spouse_profession": "House wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 24668699,
+      "total_liabilities_in_rupees": 2208184
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "BA Pass From Maharaja Shijirav University Baroda"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 486818
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 5953699,
+      "gross_total_value_spouse_rupees": 6350000,
+      "gross_total_value_dependent1_rupees": 570000,
+      "gross_total_value_dependent2_rupees": 1685000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 14558699,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 450000,
+          "self_details": {
+            "amount_rupees": 400000
+          },
+          "spouse_details": {
+            "amount_rupees": 50000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 641489,
+          "spouse_value_rupees": 200000,
+          "dependent1_value_rupees": 220000,
+          "dependent2_value_rupees": 50000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1111489,
+          "self_details": [
+            {
+              "bank": "Marupara village Bank Branch Bali",
+              "amount_rupees": 200000
+            },
+            {
+              "bank": "State Bank Of Bikaner &jaipur Branch Jaipur",
+              "amount_rupees": 250000
+            },
+            {
+              "bank": "Bank Of Baroda Branch Japur",
+              "amount_rupees": 50000
+            },
+            {
+              "bank": "State Bank Of Bikaner &jaipur Branch Jaipur",
+              "amount_rupees": 141489
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "FD Adarsh Credit Co-operative Ltd",
+              "amount_rupees": 150000
+            },
+            {
+              "bank": "FD Bank Of baroda Branch Jaipur",
+              "amount_rupees": 50000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "bank": "FD Adarsh Credit Co-operative Ltd",
+              "amount_rupees": 150000
+            },
+            {
+              "bank": "FD Bank Of baroda Branch Jaipur",
+              "amount_rupees": 70000
+            }
+          ],
+          "dependent2_details": [
+            {
+              "bank": "FD Bank Of baroda Branch Jaipur",
+              "amount_rupees": 50000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 7000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7000,
+          "self_details": [
+            {
+              "company": "Liberty Shoes LTD",
+              "shares": 100,
+              "value_rupees": 2000
+            },
+            {
+              "company": "State Bank Of Bikaner &jaipur Branch Jaipur",
+              "shares": "25*200",
+              "value_rupees": 5000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 1000000,
+          "dependent1_value_rupees": 50000,
+          "dependent2_value_rupees": 1435000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3535000,
+          "self_details": [
+            {
+              "company": "LIC",
+              "value_rupees": 500000
+            },
+            {
+              "company": "LIC",
+              "value_rupees": 500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "company": "LIC",
+              "value_rupees": 1000000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "company": "LIC",
+              "value_rupees": 50000
+            }
+          ],
+          "dependent2_details": [
+            {
+              "company": "LIc",
+              "value_rupees": 50000
+            },
+            {
+              "company": "Mutual Found Bank Of baroda Jaipur",
+              "value_rupees": 1435000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 3005210,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3005210,
+          "self_details": [
+            {
+              "make": "Tyota Qulish",
+              "registration_no": "Rj22U104",
+              "date": "2003-02-24",
+              "value_rupees": 655210
+            },
+            {
+              "make": "Varna Hundai Comapani Car",
+              "registration_no": "RJ14CK2437",
+              "date": "2010-05-28",
+              "value_rupees": 900000
+            },
+            {
+              "make": "Stom Tata New",
+              "date": "2013-07-10",
+              "value_rupees": 1450000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 9710000,
+      "total_current_market_value_spouse_rupees": 400000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 10110000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 1610000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1610000,
+          "self_details": [
+            {
+              "location": "Khata No 157, Khasra No 585 Village Bijapur",
+              "area": "7.34 Hect Share 1/2, 22.9375 Bigha Total Area 9.175 Acre",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 360000
+            },
+            {
+              "location": "Village Bijapur Khasra No 1215 Rakva",
+              "area": "6.54 HEct Share 1/2, 20, 43 Bigha Total Area 8.175 Acre",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 450000
+            },
+            {
+              "location": "Bijapur Khasra No 1202,m 1265,1274",
+              "area": "Share 1/3,  Total Area 3.466 Acre",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000
+            },
+            {
+              "location": "Khata no 485, Khasra No 1206/1",
+              "area": "4 Hect Total Area 10 Acre",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 600000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100000,
+          "self_details": [
+            {
+              "location": "Village Bijapur ,Khata no 486, Khasra No 1730/2960",
+              "area": "Area1.19 Hect Share 1/3  Total Area 43196 Sq.Ft",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 8000000,
+          "spouse_value_rupees": 400000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8400000,
+          "self_details": [
+            {
+              "location": "In Jaipur Tirthraj Appartment Flat No 1 Jaipur",
+              "area": "Total Area 144.18 Sq.Meter",
+              "inherited": false,
+              "purchase_date": "2005-03-24",
+              "purchase_cost_rupees": 1700000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4000000
+            },
+            {
+              "location": "A Plot Indira Gandhi Nagar Jodhpur",
+              "area": "Total Area 328.05Sq.Meter",
+              "inherited": false,
+              "purchase_date": "2010-03-29",
+              "purchase_cost_rupees": 1150000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1500000
+            },
+            {
+              "location": "In Sumerpur Front OF Mandi Plot No 913 Sq.Meter",
+              "area": "Total Area 913 Sq.Meter",
+              "inherited": false,
+              "purchase_date": "1985-10-30",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "On Lease A Plot Village Bijapur",
+              "area": "Total Area 5700 Sq. Ft",
+              "inherited": false,
+              "purchase_date": "1999-12-14",
+              "purchase_cost_rupees": 200,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 400000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2208184,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2208184,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 9710000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2208184,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2208184,
+          "self_details": [
+            {
+              "bank": "Housing Loan SBBJ Branch Jaipur",
+              "amount_rupees": 1000000
+            },
+            {
+              "bank": "KCC Loan SBBJ Falana",
+              "amount_rupees": 250000
+            },
+            {
+              "bank": "Car Loan Varna Car SBBJ",
+              "amount_rupees": 228184
+            },
+            {
+              "bank": "Tata Stom Car LOan SBBJ Bali",
+              "amount_rupees": 730000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "On Lease A Plot Village Bijapur",
-        "total_area_sqft": 5700,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "1999-12-14",
-        "purchase_cost_inr": 200,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 400000
+    "other_elections_declarations": [
+      {
+        "declaration_in": "Rajasthan 2023",
+        "declared_assets_rupees": 53594435,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 400000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2208184,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2208184
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "declaration_in": "Rajasthan 2018",
+        "declared_assets_rupees": 25903889,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Rajasthan 2008",
+        "declared_assets_rupees": 15415189,
+        "declared_cases": 0
+      }
+    ]
   }
 }

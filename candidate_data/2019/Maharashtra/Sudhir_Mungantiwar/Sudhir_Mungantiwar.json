@@ -1,146 +1,615 @@
 {
   "candidate_name": "Sudhir Mungantiwar",
-  "party": "Bharatiya Janata Party (BJP)",
-  "constituency": "BALLARPUR (CHANDRAPUR)",
-  "father_or_husband_name": null,
-  "age": 52,
-  "education": "Post Graduate, M.Phil From Nagpur University In 1990",
-  "profession_self": "Social work",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 10,
-  "assets_total_inr": 33000064,
-  "liabilities_total_inr": 1842252,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 726233
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 349735
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 223374
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 293829,
-      "bank_deposits_inr": 1033669,
-      "bonds_debentures_shares_inr": 178640,
-      "nss_postal_savings_inr": 140500,
-      "lic_other_insurance_inr": 2100000,
-      "personal_loans_advance_given_inr": 1842252,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 550000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6139129
-    },
-    "spouse": {
-      "cash_inr": 293236,
-      "bank_deposits_inr": 3862607,
-      "bonds_debentures_shares_inr": 364033,
-      "nss_postal_savings_inr": 30678,
-      "lic_other_insurance_inr": 300000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 50000,
-      "jewellery_inr": 1200000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6100554
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 9959250,
-      "non_agricultural_land": {
-        "description": "Chandrapur 81/2, 1/3 part 1/8 part Total Area 1000 Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 70,00,000  70 Lacs+ Survey No. 14 Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 6,95,565  6 Lacs+",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 7695565
+  "party": "BJP",
+  "constituency": "BALLARPUR",
+  "state": "Maharashtra",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": null,
+      "age": 52,
+      "voter_enrolled_in": {
+        "constituency": "71 Chandrapur",
+        "state": "Maharashtra",
+        "serial_no": 91,
+        "part_no": 122
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Mhada mumbai D-1202 Total Area 986 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 4277368.00 Development Cost 0.00 42,77,368  42 Lacs+",
-        "total_area_sqft": 986,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 4277368,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4277368
+      "self_profession": "Social work",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 10,
+      "total_assets_in_rupees": 33000064,
+      "total_liabilities_in_rupees": 1842252
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.Phil From Nagpur University In 1990"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 726233
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 349735
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 223374
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Altering appearance of India coin with intent that it shall pass as coin of different description",
+          "ipc_section": "249",
+          "count": 1
+        },
+        {
+          "charges_related_to": "house-trespass",
+          "ipc_section": "448",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 2
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Act endangering life or personal safety of others",
+          "ipc_section": "336",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Obstructing public servant in discharge of public functions",
+          "ipc_section": "186",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        },
+        {
+          "charges_related_to": "criminal trespass",
+          "ipc_section": "447",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "147, 148, 149, 336, 323",
+          "other_details_or_acts_sections_applicable": "Section 135 B.P Act, Section 129 Public Representative Act, 109/04, Ramnagar, Dt 10.09.1999"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "171(1), 188",
+          "other_details_or_acts_sections_applicable": "Case No 3751/99, 3131/99"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "135 B.P Act, Case No 14965/03, 323303"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 3 Damage To Public Property Act, Case No 18515/04, 3241/04"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "135 B.P. Act Case No 2049/01, 3043/01"
+        },
+        {
+          "serial_no": 6,
+          "ipc_sections_applicable": "143, 448, 186",
+          "other_details_or_acts_sections_applicable": "Case No 582/12, 256/07"
+        },
+        {
+          "serial_no": 7,
+          "ipc_sections_applicable": "341",
+          "other_details_or_acts_sections_applicable": "Section 135 B.P.Act Case NO 3093/08, 44/2008"
+        },
+        {
+          "serial_no": 8,
+          "ipc_sections_applicable": "448, 249, 323, 34",
+          "other_details_or_acts_sections_applicable": "Case No 203/2004"
+        },
+        {
+          "serial_no": 9,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Section 135 B.P. Act, Case No 52/08, 3034/2007, Ballarpur"
+        },
+        {
+          "serial_no": 10,
+          "ipc_sections_applicable": "143, 147, 149, 336, 447, 448, 353",
+          "other_details_or_acts_sections_applicable": "Case No 314122/2012"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6288967,
+      "gross_total_value_spouse_rupees": 6100554,
+      "gross_total_value_dependent1_rupees": 711812,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 13101333,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 293829,
+          "spouse_value_rupees": 293236,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 587065
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1133746,
+          "spouse_value_rupees": 3862612,
+          "dependent1_value_rupees": 451812,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5498165,
+          "self_details": "FDR 2,70,077, PPF 6,47,005, SBI A/c 1,46,626, SBI A/c HUF 1,20,038",
+          "spouse_details": "PPF 7,81,189, FD 10,65,954, Saving A/c 20,15,464",
+          "dependent1_details": "BOB Saving A/c 4,51,812"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 178640,
+          "spouse_value_rupees": 364033,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 542673,
+          "self_details": "mutual funds 1,69,000, Shares 9,640",
+          "spouse_details": "Bonds 1,20,000, Investment in Firm 2,44,033"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 140500,
+          "spouse_value_rupees": 30678,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 171178,
+          "self_details": "Kisan vikas certificate 1,40,500",
+          "spouse_details": "NSC 30,678"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 2100000,
+          "spouse_value_rupees": 300000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2400000,
+          "self_details": "LIC 5,00,000, LIC 6,00,000, LIC 10,00,000",
+          "spouse_details": "LIC 3,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 1842252,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1842252,
+          "self_details": "Maharashtra state co-op. bank, Home loan 18,42,252"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 50000,
+          "spouse_details": "Motar 20,000, Auto trally 15,000, Auto trally 15,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 550000,
+          "spouse_value_rupees": 1200000,
+          "dependent1_value_rupees": 260000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2010000,
+          "self_details": "Gold 200 gram 5,50,000",
+          "spouse_details": "500 gram 12,00,000",
+          "dependent1_details": "100 gram 2,60,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 21932183,
+      "total_current_market_value_spouse_rupees": 2208800,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 24140983,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 9959250,
+          "spouse_value_rupees": 876800,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10836050,
+          "self_details": {
+            "location": "Vadgaon, Land measure no.117/1,Flat no.2,3,4, 118 serve",
+            "total_area": "3/24 (part)",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 9959250
+          },
+          "spouse_details": {
+            "location": "Ballarpur serve no.167/3,4",
+            "total_area": null,
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 876800
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 7695565,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7695565,
+          "self_details": [
+            {
+              "location": "Chandrapur 81/2, 1/3 part 1/8 part",
+              "total_area": "1000",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7000000
+            },
+            {
+              "location": "Survey No. 14",
+              "total_area": null,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 695565
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1332000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1332000,
+          "spouse_details": {
+            "location": null,
+            "total_area": null,
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 1332000
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 4277368,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4277368,
+          "self_details": {
+            "location": "Mhada mumbai D-1202",
+            "total_area": "986",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 4277368,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 4277368
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1842252,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1842252,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 21932183
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1842252,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1842252,
+          "self_details": "Maharashtra state co.op.bank 18,42,252"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 876800,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 1332000,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2208800
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1842252,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1842252
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "other_elections": [
+      {
+        "declaration_in": "Lok Sabha 2024",
+        "declared_assets_in_rupees": 176564907,
+        "declared_cases": 2
+      },
+      {
+        "declaration_in": "Maharashtra 2024",
+        "declared_assets_in_rupees": 176248893,
+        "declared_cases": 2
+      },
+      {
+        "declaration_in": "Maharashtra 2019",
+        "declared_assets_in_rupees": 114234951,
+        "declared_cases": 2
+      }
+    ]
   }
 }

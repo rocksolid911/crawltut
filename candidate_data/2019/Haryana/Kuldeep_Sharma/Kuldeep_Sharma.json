@@ -1,135 +1,458 @@
 {
   "candidate_name": "Kuldeep Sharma",
+  "constituency": "GANAUR",
+  "state": "Haryana",
+  "election_year": 2014,
+  "status": "Winner",
   "party": "INC",
-  "constituency": "GANAUR (SONIPAT)",
-  "father_or_husband_name": "Shri Chiranji Lal",
-  "age": 57,
-  "education": "Graduate Professional L.L.B. & B.A From Rajasthan University, Jaipur in 1980",
-  "profession_self": "Advocate",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 40532828,
-  "liabilities_total_inr": 1000000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 1458062
-      }
+  "personal_details": {
+    "father_or_husband_name": "Shri Chiranji Lal",
+    "age": 57,
+    "voter_enrolled_as": {
+      "constituency": "21-Karnal, Haryana",
+      "serial_no": 273,
+      "part_no": 36
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 225430
-      }
+    "self_profession": "Advocate",
+    "spouse_profession": "House Wife"
+  },
+  "other_elections_declarations": [
+    {
+      "election": "Haryana 2024",
+      "declared_assets_rupees": 184117124,
+      "declared_cases": 0
     },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    {
+      "election": "Lok Sabha 2019",
+      "declared_assets_rupees": 113355363,
+      "declared_cases": 0
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    {
+      "election": "Haryana 2019",
+      "declared_assets_rupees": 117175597,
+      "declared_cases": 0
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    {
+      "election": "Haryana 2009",
+      "declared_assets_rupees": 15693687,
+      "declared_cases": 0
     }
+  ],
+  "criminal_cases": {
+    "count": 0,
+    "details": "No criminal cases",
+    "readability_report": "No Problems in Reading Affidavit Information"
+  },
+  "assets_and_liabilities": {
+    "assets_rupees": 40532828,
+    "liabilities_rupees": 1000000
+  },
+  "educational_details": {
+    "category": "Graduate Professional",
+    "degree": "L.L.B. & B.A",
+    "university": "Rajasthan University, Jaipur",
+    "year": 1980
+  },
+  "pan_and_income_tax_details": {
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "declarations": [
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2012 - 2013",
+        "total_income_shown_in_itr_rupees": 1458062
+      },
+      {
+        "relation_type": "spouse",
+        "pan_given": true,
+        "financial_year": "2012 - 2013",
+        "total_income_shown_in_itr_rupees": 225430
+      },
+      {
+        "relation_type": "dependent1",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent2",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent3",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      }
+    ]
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 3251028,
-      "bonds_debentures_shares_inr": 50000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2312879,
-      "jewellery_inr": 260000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6393915
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "totals_as_per_affidavit": {
+      "self_rupees": 6393035,
+      "spouse_rupees": 4419793,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "grand_total_rupees": 10812828
     },
-    "spouse": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 234792,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 485000,
-      "jewellery_inr": 3500000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4419792
-    }
+    "totals_calculated": {
+      "self_rupees": 6393915,
+      "spouse_rupees": 4419792,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "grand_total_rupees": 10813707
+    },
+    "items": [
+      {
+        "description": "Cash",
+        "self_rupees": 500000,
+        "spouse_rupees": 200000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 700000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_rupees": {
+          "SBI Bank, Sec-1, Chandigarh": 706448,
+          "PNB Bank Sec-13 Branch, Karnal Joint A/c": 2534588,
+          "HDFC Bank Ganaur": 10000,
+          "PNB Bank Ganaur": 20000
+        },
+        "spouse_rupees": {
+          "HDFC Bank, Karnal": 178783,
+          "Axis Bank, Karnal": 56009
+        },
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 3505828
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_rupees": {
+          "500 Equity Shares of BOI Bank Rs 100 Each joint with spouse": 50000
+        },
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 50000
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_rupees": {
+          "Toyota Innova Car No. HR05V9900 in 2007 Model": 900000,
+          "Toyota Innova Car No. HR05AM1008 in Model 2014": 1412879
+        },
+        "spouse_rupees": {
+          "Maruti Swift Car No. HR05X6903 in 2009 Model": 485000
+        },
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 2797879
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_rupees": {
+          "100 Grams Gold": 260000
+        },
+        "spouse_rupees": {
+          "1150 Grams Gold": 3500000
+        },
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 3760000
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Plot & H.No.936, Sec-9",
-        "total_area_sqft": 10764,
-        "built_up_area_sqft": 5500,
-        "inherited": "N",
-        "purchase_date": "1992-03-09",
-        "purchase_cost_inr": 363974,
-        "development_cost_inr": 2500000,
-        "current_market_value_inr": 27720000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 27720000
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "total_current_market_value_as_per_affidavit": {
+      "self_rupees": 277200000,
+      "spouse_rupees": 20000000,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "grand_total_rupees": 297200000
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Plot No.1668 Sec-4, Kurukshetra, 96 Sqm, Date 02/09/2005, Cost Rs 150000, 2. Plot No.1091 Sec-8, Panipat, 8 M, Date 30/11/2006, Cost 750000 Rs, Plot No. 1354, Sec-3, Kurukshetra, Date 30/01/2006, Cost 80000 Rs Total Area 3459 Sqft Built Up Area",
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2000000
+    "totals_calculated": {
+      "self_rupees": 277200000,
+      "spouse_rupees": 20000000,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "grand_total_rupees": 297200000
+    },
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {},
-      "others_inr": 0,
-      "total_current_market_value_inr": 2000000
-    }
+      {
+        "description": "Non Agricultural Land",
+        "self_rupees": 0,
+        "spouse_rupees": {
+          "Plot No.1668 Sec-4, Kurukshetra": {
+            "area": "96 Sqm",
+            "purchase_date": "2005-09-02",
+            "cost_rupees": 150000
+          },
+          "Plot No.1091 Sec-8, Panipat": {
+            "area": "8 M",
+            "purchase_date": "2006-11-30",
+            "cost_rupees": 750000
+          },
+          "Plot No. 1354, Sec-3, Kurukshetra": {
+            "area": "3459 Sqft Built Up Area",
+            "purchase_date": "2006-01-30",
+            "cost_rupees": 80000
+          }
+        },
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 20000000
+      },
+      {
+        "description": "Commercial Buildings",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Residential Buildings",
+        "self_rupees": {
+          "Plot & H.No.936, Sec-9": {
+            "total_area": "10764 Sqft",
+            "built_up_area": "5500 Sqft",
+            "inherited": false,
+            "purchase_date": "1992-03-09",
+            "purchase_cost_rupees": 363974,
+            "development_cost_rupees": 2500000,
+            "current_value_rupees": 277200000
+          }
+        },
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 277200000
+      },
+      {
+        "description": "Others",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ]
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1000000
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "grand_total_of_liabilities_as_per_affidavit": {
+      "self_rupees": 1000000,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "grand_total_rupees": 1000000
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "totals_calculated": {
+      "self_rupees": 1000000,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "grand_total_rupees": 1000000
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_rupees": {
+          "Vehicle Loan From Haryana Vidhan Sabha": 1000000
+        },
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 1000000
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ]
+  },
+  "liabilities_in_dispute": {
+    "status": false,
+    "amount_involved_rupees": 0,
+    "authority_pending_before": null
   }
 }

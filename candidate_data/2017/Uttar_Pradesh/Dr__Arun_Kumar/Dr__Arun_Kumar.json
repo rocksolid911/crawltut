@@ -1,139 +1,562 @@
 {
   "candidate_name": "DR. ARUN KUMAR",
   "party": "BJP",
-  "constituency": "BAREILLY (BAREILLY)",
-  "father_or_husband_name": "Grees Chandra",
-  "age": 68,
-  "education": "Graduate Professional B.S.C Year 1965, Bareilly college, Bareilly, Aagra University, Aagra M.B.B.S Year 1970 King George Medical college, Lucknow",
-  "profession_self": "Doctor",
-  "profession_spouse": "",
-  "criminal_cases": 0,
-  "assets_total_inr": 136176941,
-  "liabilities_total_inr": 14609530.16,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 1327854
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 323046
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 510000,
-      "bank_deposits_inr": 583407.52,
-      "bonds_debentures_shares_inr": 464808.41,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1145579.34,
-      "personal_loans_advance_given_inr": 750000,
-      "motor_vehicles_inr": 3149114,
-      "jewellery_inr": 452000,
-      "other_assets_inr": 2079973,
-      "gross_total_value_inr": 14692320.37
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 0
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Pirbahoda Tehasil and Distt. Bareilly Gata No. 777/1, 779/1, 780, 783/2",
-        "area_sq_mtr": 38650,
-        "inherited": "N",
-        "purchase_date": "1985-03-22",
-        "purchase_cost_inr": 53300,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 30644000
+  "constituency": "BAREILLY",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Grees Chandra",
+      "age": 68,
+      "voter_enrolled_in": {
+        "constituency": "124 Bareilly",
+        "state": "Uttar Pradesh",
+        "serial_no": 557,
+        "part_no": 105
       },
-      "commercial_buildings_inr": 495000,
-      "residential_buildings": {
-        "description": "H.No. 135 B Civil lines, Bareilly",
-        "total_area_sqft": 8100,
-        "built_up_area_sqft": 3800,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 22951000
+      "self_profession": "Doctor",
+      "spouse_profession": null
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 136176941,
+      "total_liabilities_in_rupees": 14609530.16
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.S.C Year 1965, Bareilly college, Bareilly, Aagra University, Aagra M.B.B.S Year 1970 King George Medical college, Lucknow"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 1327854
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 323046
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 14692320.42,
+      "gross_total_value_spouse_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 4004621,
+      "gross_total_value_total_rupees": 18696941.42,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 510000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 30800,
+          "total_value_rupees": 540800,
+          "self_details": "5,10,000  5 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "30,800  30 Thou+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5602492.68,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 1083102.42,
+          "total_value_rupees": 6685595.1,
+          "self_details": "Uko bank Branch Nainital Road, Bareilly A/c No. 3422 15,133  15 Thou+ Uko bank Branch Nainital Road, Bareilly A/c No. 7322 17,097.72  17 Thou+ Uko bank Branch Nainital Road, Bareilly A/c No. 2571 1,95,973.65  1 Lacs+ SBI Branch Vidhansabha Marg Lucknow Saving A/c 3392 3,17,303.64  3 Lacs+ SBI Branch 148 Civil lines, Bareilly Saving A/c 7810 25,403  25 Thou+ SBI Branch civil lines Bareilly No 1xxxxx 4,69,930.17  4 Lacs+ Kotak Mahindra Bank, Branch Civil lines Bareilly Saving A/c No. 6868 50,27,625.44  50 Lacs+ Urban co-operative Bank Branch D.D.Puram Bareilly saving A/c 6558 22,379  22 Thou+ Uko Bank Branch Nainital Road Bareilly H.D.R No 0228031009xxxxx 50,000  50 Thou+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Uko Bank Branch Nainital Road, Bareilly Saving A/c 2344 68,186.79  68 Thou+ SBI Branch Civil lines Bareilly P.P.F No 1089803xxxxx 9,15,015.63  9 Lacs+ Uko Bank Branch Nainital Road, Bareilly H.D.R No 0228031008xxxxx 1,00,000  1 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 464808.41,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 464808.41,
+          "self_details": "Reliance Mutual fund Folio No 4594050xxxxx 4,64,808.41  4 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1145579.34,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1145579.34,
+          "self_details": "LIC Policy No 22277xxxxx 1,88,790  1 Lacs+ LIC Policy No 22277xxxxx 2,58,549  2 Lacs+ LIC Policy No 22415xxxxx 83,087  83 Thou+ LIC Policy No 22322xxxxx 1,92,857.34  1 Lacs+ LIC Policy No 22190xxxxx 1,05,574  1 Lacs+ LIC Policy No 22190xxxxx 3,16,722  3 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 750000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 750000,
+          "self_details": "Capital contribushion with Varun Kumar Associate (AOP) 7,50,000  7 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 3149114,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3149114,
+          "self_details": "Fortuner car Panji. S. U.P 25A-J-8400 Date 8-10-2010  20,65,309  20 Lacs+ Scorpiyo Car Panji S. U.P. 25BA-0306 Date 31-12-2013 10,83,805  10 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 452000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 452000,
+          "self_details": "Gold 4 Banglas 50 gram (2) 4 ring 20 gram (3) 1 Neckless 35 gram (4) 2 chain 25 gram (5) 2 Jodi Kundal 20 gram, 150 garm 4,31,000  4 Lacs+ Payjeb 4 150 gram Tagdi 200 grm, Bichua 150 grm 21,000  21 Thou+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 2079973,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 2890619,
+          "total_value_rupees": 4970592,
+          "self_details": "Capital with quality fules Bareilly  20,79,973  20 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Dr. Arun Kumar H.U.F Loans given by Arun  28,90,619  28 Lacs+"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 117480000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 117480000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Village Raju Parsapur Pargana and Tehasil Fridpru Distt. Bareilly Agriculture land Gata No. 455 Total Area 0.366 acre Built Up Area  Whether Inherited N Purchase Date 2007-10-20 Purchase Cost 440000.00 Development Cost 0.00 0*(Value Not Given) Village Aandharpura Pargana and Tehasil Paridpur Distt. Bareilly Gata No. 209, 210/1, 210/2, 211, 212  Total Area 0.592 acre Built Up Area  Whether Inherited N Purchase Date 2007-12-22 Purchase Cost 550000.00 Development Cost 0.00 0*(Value Not Given) Village Barkapur Pargana and Tehasil and Distt Bareilly Gata No. 69, 70, 71 Total Area 1.68 acre Built Up Area  Whether Inherited N Purchase Date 1984-01-20 Purchase Cost 23300.00 Development Cost 0.00 0*(Value Not Given) Village Barkapur Pargana and Tehasil and Distt Bareilly Gata No. 77 Total Area 0.56 acre Built Up Area  Whether Inherited N Purchase Date 1987-11-17 Purchase Cost 9600.00 Development Cost 0.00 0*(Value Not Given) Village Barkapur Pargana Tehasil and Distt Bareilly Gata No. 59, 60, 64, 61, 62, 63, 65 Total Area 2.08 Built Up Area  Whether Inherited N Purchase Date 1984-01-20 Purchase Cost 29050.00 Development Cost 0.00 0*(Value Not Given) Village Barkapur Pargana Tehasil and Distt Bareilly Gata No. 68 Total Area 0.48 Built Up Area  Whether Inherited N Purchase Date 1984-01-20 Purchase Cost 6600.00 Development Cost 0.00 0*(Value Not Given) Village Barkapur Pargana Tehasil and Distt Bareilly Gata No.69 Total Area 0.588 Built Up Area  Whether Inherited N Purchase Date 2005-11-26 Purchase Cost 126500.00 Development Cost 0.00 0*(Value Not Given) Village Barkapur Pargana Tehasil and Distt Bareilly Gata No. 66 Total Area 0.087 Built Up Area  Whether Inherited N Purchase Date 2005-11-26 Purchase Cost 26400.00 Development Cost 0.00 0*(Value Not Given) Village Barkapur Pargana, Tehasil and Distt. Bareilly Gata No. 50 Total Area 1.04 acre Built Up Area  Whether Inherited N Purchase Date 1991-12-11 Purchase Cost 26200.00 Development Cost 0.00 0*(Value Not Given) Village Megi Nagala Pargana, Tehasil and Distt. Bareilly Gata No. 50 Total Area 0.564 acre Built Up Area  Whether Inherited N Purchase Date 2012-09-10 Purchase Cost 1937000.00 Development Cost 0.00 0*(Value Not Given) Village Megi Nagala Pargana, Tehasil Faridpur Bareilly Gata No. 81 Total Area 0.48 acre Built Up Area  Whether Inherited N Purchase Date 1988-05-30 Purchase Cost 260000.00 Development Cost 0.00 0*(Value Not Given) Village Gausangaj Sarai Pargana, Tehasil Faridpur Bareilly Gata No. 106, 107, 108 Total Area 0.44 acre Built Up Area  Whether Inherited N Purchase Date 2013-06-20 Purchase Cost 634000.00 Development Cost 0.00 0*(Value Not Given)",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 53517000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 53517000,
+          "self_details": "Pirbahoda Tehasil and Distt. Bareilly Gata No. 777/1, 779/1, 780, 783/2 Total Area 38650 Built Up Area  Whether Inherited N Purchase Date 1985-03-22 Purchase Cost 53300.00 Development Cost 0.00 3,06,44,000  3 Crore+ Pirbahoda Tehasil and Distt. Bareilly Gata No. 778/1 Total Area 6412.11 Built Up Area  Whether Inherited N Purchase Date 1991-03-05 Purchase Cost 165000.00 Development Cost 0.00 53,61,000  53 Lacs+ Pirbahoda Tehasil and Distt. Bareilly Gata No. 767/1, 768/1, 769/1, 771/1 Total Area 20942 Built Up Area  Whether Inherited N Purchase Date 1986-04-19 Purchase Cost 35000.00 Development Cost 0.00 1,75,12,000  1 Crore+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 495000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 495000,
+          "self_details": "1 Shop NO. 284A Shahabad Bareilly  Total Area 118 sq.ft. Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 10000.00 Development Cost 0.00 4,95,000  4 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 26156000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 26156000,
+          "self_details": "H.No. 135 B Civil lines, Bareilly  Total Area 8100 sq.ft. Built Up Area 3800 sq.ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,29,51,000  2 Crore+ H.No. 159-51 Gnadhi Nagar Bareilly, 1/3 share, 1/3 of Rs. 9615000/- Area 4500 sq. ft. Built Up Area 2900  Total Area 1500 sq.ft. Built Up Area 1300 sq.ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 14200000.00 32,05,000  32 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 10957111.16,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 3652419,
+      "grand_total_of_liabilities_total_rupees": 14609530.16,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 80168000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 916155.16,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 916155.16,
+          "self_details": "SBI Limit Branch Kurmanchal Nagar, Bareilly Quvality fules, Bareilly No 3653566436136xxxxx 9,16,155.16  9 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 10040996,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 3652419,
+          "total_value_rupees": 13693375,
+          "self_details": "Dr. Varun Kumar  28,91,392  28 Lacs+ S.K. Bhardwaj  5,99,000  5 Lacs+ Anil kumar  55,25,282  55 Lacs+ Priti Saxena 2,62,641  2 Lacs+ Tanuj Kumar 2,62,641  2 Lacs+ Dr. Priya Saxena 5,00,000  5 Lacs+",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Arun Kumar H.U.F  28,90,619  28 Lacs+ Sumiti Mishra H.U.F  7,61,800  7 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 916155.16,
-      "loans_due_to_individual_entity_inr": 9940856,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 10857011.16
+    "profession_or_occupation": {
+      "self": "Doctor",
+      "spouse": null
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "sources_of_income": null,
+    "contracts_with_government_and_public_companies": null,
+    "other_elections_data": [
+      {
+        "election": "Uttar Pradesh 2022",
+        "declared_assets_rupees": 146468299,
+        "declared_cases": 0
+      },
+      {
+        "election": "Uttar Pradesh 2012",
+        "declared_assets_rupees": 101640861,
+        "declared_cases": 0
+      },
+      {
+        "election": "Uttar Pradesh 2007",
+        "declared_assets_rupees": 29756000,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

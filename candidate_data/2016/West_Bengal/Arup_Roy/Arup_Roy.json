@@ -1,143 +1,381 @@
 {
   "candidate_name": "ARUP ROY",
+  "election_state": "West Bengal 2016",
+  "constituency": "HOWRAH MADHYA",
+  "district": "HOWRAH",
+  "status": "Winner",
   "party": "AITC",
-  "constituency": "HOWRAH MADHYA (HOWRAH)",
-  "father_or_husband_name": "Late Prabhat Roy",
-  "age": 60,
-  "education": "Graduate Professional Bachelor of Commerce from Calcutta University, Bachelor of Arts from Calcutta University, Bachelor of Legislature Law from Calcutta University in 1984",
-  "profession_self": "Advocate",
-  "profession_spouse": "Service",
-  "criminal_cases": 0,
-  "assets_total_inr": 27303482,
-  "liabilities_total_inr": 2361469,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 454100
-      }
+  "personal_details": {
+    "father_spouse_name": "Late Prabhat Roy",
+    "age": 60,
+    "voter_enrolled_in": {
+      "constituency": "171 Howrah (West Bengal)",
+      "serial_no": 568,
+      "part_no": 158
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 441740
-      }
+    "self_profession": "Advocate",
+    "spouse_profession": "Service"
+  },
+  "other_elections": [
+    {
+      "election": "West Bengal 2021",
+      "declared_assets_rupees": 30285927,
+      "declared_cases": 0
     },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    {
+      "election": "West Bengal 2006",
+      "declared_assets_rupees": 1396890,
+      "declared_cases": 0
     }
+  ],
+  "assets_liabilities_summary": {
+    "total_assets_rupees": 27303482,
+    "total_liabilities_rupees": 2361469
+  },
+  "educational_details": {
+    "category": "Graduate Professional",
+    "degrees": [
+      "Bachelor of Commerce from Calcutta University",
+      "Bachelor of Arts from Calcutta University",
+      "Bachelor of Legislature Law from Calcutta University in 1984"
+    ]
+  },
+  "income_tax_returns": [
+    {
+      "relation": "self",
+      "pan_given": true,
+      "financial_year": "2014 - 2015",
+      "total_income_shown_itr_rupees": 454100
+    },
+    {
+      "relation": "spouse",
+      "pan_given": true,
+      "financial_year": "2014 - 2015",
+      "total_income_shown_itr_rupees": 441740
+    },
+    {
+      "relation": "dependent1",
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_itr_rupees": 0
+    },
+    {
+      "relation": "dependent2",
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_itr_rupees": 0
+    },
+    {
+      "relation": "dependent3",
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_itr_rupees": 0
+    }
+  ],
+  "criminal_cases": {
+    "count": 0,
+    "details": "No criminal cases"
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 125360,
-      "bank_deposits_inr": 1401818,
-      "bonds_debentures_shares_inr": 4050788,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 3843792,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1850000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 12660239
-    },
-    "spouse": {
-      "cash_inr": 96350,
-      "bank_deposits_inr": 899631,
-      "bonds_debentures_shares_inr": 4553872,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 147216,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 300000,
-      "jewellery_inr": 1500000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 7497069
-    }
+    "self_total_rupees": 12660239,
+    "spouse_total_rupees": 7497069,
+    "dependent1_total_rupees": 0,
+    "dependent2_total_rupees": 0,
+    "dependent3_total_rupees": 0,
+    "grand_total_rupees": 20157308,
+    "items": [
+      {
+        "description": "Cash",
+        "self_rupees": 125360,
+        "spouse_rupees": 96350,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 221710
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_details": "Saving Bank 14,01,818  Bank FDR 13,68,336  PPF 20,145",
+        "spouse_details": "HSBC Saving Bank 6,50,775  SBI Saving Bank 2,48,856",
+        "self_rupees": 2790299,
+        "spouse_rupees": 899631,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 3689930
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_details": "MF 40,50,788",
+        "spouse_details": "MF 45,53,872",
+        "self_rupees": 4050788,
+        "spouse_rupees": 4553872,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 8604660
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_rupees": 0,
+        "spouse_details": "LIC Policies Premium paid 1,47,216",
+        "spouse_rupees": 147216,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 147216
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_details": "Loans of Wife And Daughter 38,43,792",
+        "self_rupees": 3843792,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 3843792
+      },
+      {
+        "description": "Motor Vehicles",
+        "self_rupees": 0,
+        "spouse_details": "Maruti Zen Eztilo VXI WB12B2300 3,00,000",
+        "spouse_rupees": 300000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 300000
+      },
+      {
+        "description": "Jewellery",
+        "self_details": "Gold rings,With Stones,Gold Chains,total 400 gms 18,50,000",
+        "spouse_details": "Gold Necklece,Bengal,Churi,ring With Stones etc,600 gms 15,00,000",
+        "self_rupees": 1850000,
+        "spouse_rupees": 1500000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 3350000
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 6293390,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "2/1,Dharamtala Lane.Howrah 711101",
-        "total_area_sqft": 1700,
-        "built_up_area_sqft": 3200,
-        "inherited": "Y",
-        "purchase_date": "1987-00-00",
-        "purchase_cost_inr": 1,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+    "self_total_rupees": 7293390,
+    "spouse_total_rupees": 0,
+    "dependent1_total_rupees": 0,
+    "dependent2_total_rupees": 0,
+    "dependent3_total_rupees": 0,
+    "grand_total_current_market_value_rupees": 7293390,
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_details": "Dag No-2666,Kh No-46-1,Jl No-015,Mouza Gangadharpur,ps Panchala Dist Howrah Total Area 0.97 Acre Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+        "self_rupees": 6293390,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 6293390
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 7293390
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
+      {
+        "description": "Non Agricultural Land",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Commercial Buildings",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Residential Buildings",
+        "self_details": "2/1,Dharamtala Lane.Howrah 711101 Total Area 1/4 share of 1700 Sq ft Built Up Area 1/4 share of 3200 Sq ft Whether Inherited Y Purchase Date 1987-00-00 Purchase Cost 1.00 Development Cost 0.00",
+        "self_rupees": 1000000,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 1000000
+      },
+      {
+        "description": "Others",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ]
   },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 1517677,
-      "grand_total_of_liabilities_inr": 1517677
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 843792,
-      "grand_total_of_liabilities_inr": 843792
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
+  "liabilities": {
+    "self_total_rupees": 1517677,
+    "spouse_total_rupees": 843792,
+    "dependent1_total_rupees": 0,
+    "dependent2_total_rupees": 0,
+    "dependent3_total_rupees": 0,
+    "grand_total_liabilities_rupees": 2361469,
+    "grand_total_govt_dues_rupees": 0,
+    "any_other_liabilities_in_dispute": null,
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_rupees": 1517677,
+        "spouse_rupees": 843792,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 2361469
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ]
   },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+  "data_readability_reports": {
+    "pan_and_income_tax": "No Problems in Reading Affidavit Information",
+    "criminal_cases": "No Problems in Reading Affidavit Information",
+    "movable_assets": "No Problems in Reading Affidavit Information",
+    "immovable_assets": "No Problems in Reading Affidavit Information",
+    "liabilities": "No Problems in Reading Affidavit Information"
   }
 }

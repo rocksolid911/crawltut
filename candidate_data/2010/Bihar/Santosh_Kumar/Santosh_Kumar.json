@@ -1,115 +1,280 @@
 {
   "candidate_name": "Santosh Kumar",
   "party": "BJP",
-  "constituency": "Baisi (PURNIA)",
-  "father_or_husband_name": "NEVI LAL VISWAAS",
+  "s_o_d_o_w_o": "NEVI LAL VISWAAS",
   "age": 31,
-  "education": "12th Pass",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 1,
-  "assets_total_inr": 5048601,
-  "liabilities_total_inr": 0,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 55000,
-      "bank_deposits_inr": 1052000,
-      "bonds_debentures_shares_inr": 500000,
-      "nss_postal_savings_inr": 401000,
-      "lic_other_insurance_inr": 50000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 60000,
-      "other_assets_inr": 65000,
-      "gross_total_value_inr": 2183000
+  "constituency": "Baisi",
+  "district": "PURNIA",
+  "state": "Bihar",
+  "election_year": 2010,
+  "status": "Winner",
+  "other_elections_declarations": [
+    {
+      "election": "Lok Sabha 2024",
+      "declared_assets_in_rupees": 88037133,
+      "declared_cases": 0
     },
-    "spouse": {
-      "cash_inr": 40000,
-      "bank_deposits_inr": 6600,
-      "bonds_debentures_shares_inr": 300000,
-      "nss_postal_savings_inr": 200000,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 130000,
-      "other_assets_inr": null,
-      "gross_total_value_inr": 776600
+    {
+      "election": "Lok Sabha 2019",
+      "declared_assets_in_rupees": 41036294,
+      "declared_cases": 1
+    },
+    {
+      "election": "Loksabha 2014",
+      "declared_assets_in_rupees": 22316594,
+      "declared_cases": 3
     }
+  ],
+  "criminal_cases": {
+    "number_of_criminal_cases": 1,
+    "brief_details_of_ipc_bns": [
+      {
+        "charge": "wrongful restraint",
+        "ipc_section": "341",
+        "count": 1
+      },
+      {
+        "charge": "voluntarily causing hurt",
+        "ipc_section": "323",
+        "count": 1
+      },
+      {
+        "charge": "Intentional insult with intent to provoke breach of the peace",
+        "ipc_section": "504",
+        "count": 1
+      },
+      {
+        "charge": "Acts done by several persons in furtherance of common intention",
+        "ipc_section": "34",
+        "count": 1
+      }
+    ],
+    "cases_where_accused": [
+      {
+        "serial_no": 1,
+        "ipc_sections_applicable": "341, 323, 504, 34",
+        "other_details_or_acts_sections_applicable": null
+      }
+    ],
+    "cases_where_convicted": []
+  },
+  "assets_and_liabilities": {
+    "total_assets_in_rupees": 5048601,
+    "total_liabilities_in_rupees": 0
+  },
+  "educational_details": {
+    "category": "12th Pass"
+  },
+  "movable_assets": {
+    "report_status": "No Problems in Reading Affidavit Information",
+    "details": [
+      {
+        "description": "Cash",
+        "self_value_in_rupees": 55000,
+        "spouse_value_in_rupees": 40000,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 95000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_value_in_rupees": 1052000,
+        "spouse_value_in_rupees": 6600,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 1107601,
+        "self_bank_details": [
+          {"bank": "SBI", "value_in_rupees": 30000},
+          {"bank": "SBI", "value_in_rupees": 1000},
+          {"bank": "CENTRAL BANK OF INDIA", "value_in_rupees": 13000},
+          {"bank": "PNB", "value_in_rupees": 5001},
+          {"bank": "CENTRAL BANK OF INDIA", "value_in_rupees": 0}
+        ],
+        "spouse_bank_details": [
+          {"bank": "PNB", "value_in_rupees": 6600}
+        ]
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_value_in_rupees": 500000,
+        "spouse_value_in_rupees": 300000,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 800000
+      },
+      {
+        "description": "(a) NSS, Postal Savings etc",
+        "self_value_in_rupees": 401000,
+        "spouse_value_in_rupees": 200000,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 601000,
+        "self_details": {"type": "NSC"},
+        "spouse_details": {"type": "NSC"}
+      },
+      {
+        "description": "(b) LIC or other insurance Policies",
+        "self_value_in_rupees": 50000,
+        "spouse_value_in_rupees": 100000,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 150000,
+        "not_counted_in_total_assets": true,
+        "self_details": {"company": "LIC"},
+        "spouse_details": {"company": "LIC"}
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_value_in_rupees": 0,
+        "spouse_value_in_rupees": 0,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 0
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_value_in_rupees": 60000,
+        "spouse_value_in_rupees": 130000,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 190000,
+        "self_details": {"grams_gold": 30},
+        "spouse_details": {"grams_gold": 60, "grams_silver": 500}
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_value_in_rupees": 65000,
+        "spouse_value_in_rupees": 0,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 65000,
+        "self_details": {"item": "315 BORE RIFALE"}
+      }
+    ],
+    "total_self_movable_assets_in_rupees": 2182001,
+    "total_spouse_movable_assets_in_rupees": 676600,
+    "total_dependent_movable_assets_in_rupees": 0,
+    "grand_total_movable_assets_in_rupees": 2858601
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 500000,
-      "non_agricultural_land": {
-        "description": "9.5 DECIMAL",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 300000
+    "report_status": "No Problems in Reading Affidavit Information",
+    "details": [
+      {
+        "description": "Agricultural Land",
+        "self_value_in_rupees": 500000,
+        "spouse_value_in_rupees": 0,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 500000,
+        "self_details": {"area": "38 DECIMAL"}
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
+      {
+        "description": "Non Agricultural Land",
+        "self_value_in_rupees": 300000,
+        "spouse_value_in_rupees": 890000,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 1190000,
+        "self_details": {"area": "9.5 DECIMAL"},
+        "spouse_details": {"area": "13 DECIMAL 5 KARI"}
+      },
+      {
         "description": "Buildings",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 500000
+        "self_value_in_rupees": 500000,
+        "spouse_value_in_rupees": 0,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 500000,
+        "self_details": {"type": "Buildings"}
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1300000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "13 DECIMAL 5 KARI",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 890000
+      {
+        "description": "Houses",
+        "self_value_in_rupees": 0,
+        "spouse_value_in_rupees": 0,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 0
       },
-      "commercial_buildings_inr": null,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 890000
-    }
+      {
+        "description": "Others",
+        "self_value_in_rupees": 0,
+        "spouse_value_in_rupees": 0,
+        "dependent1_value_in_rupees": 0,
+        "dependent2_value_in_rupees": 0,
+        "dependent3_value_in_rupees": 0,
+        "total_value_in_rupees": 0
+      }
+    ],
+    "total_self_immovable_assets_in_rupees": 1300000,
+    "total_spouse_immovable_assets_in_rupees": 890000,
+    "total_dependent_immovable_assets_in_rupees": 0,
+    "grand_total_immovable_assets_in_rupees": 2190000
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": null,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": null
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "report_status": "No Problems in Reading Affidavit Information",
+    "details": [
+      {
+        "description": "Loans from Banks",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Loans from Financial Institutions",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Other Dues if any",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Income Tax including surcharge",
+        "amount_in_rupees": 0,
+        "pan_given": "Y"
+      },
+      {
+        "description": "Wealth Tax",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Sales Tax",
+        "amount_in_rupees": 0
+      },
+      {
+        "description": "Property Tax",
+        "amount_in_rupees": 0
+      }
+    ],
+    "total_liabilities_in_rupees": 0
+  }
 }

@@ -1,176 +1,559 @@
 {
   "candidate_name": "BABASAHEB MOHANRAO PATIL",
   "party": "NCP",
-  "constituency": "AHMEDPUR (LATUR)",
-  "father_or_husband_name": "Mohanrao Kishanrao Patil",
-  "age": 65,
-  "education": "Graduate, B.A from Swami Ramanand Teerath Marathwada University Nanded Swami Vivekanand College, Shirur Tajband, Tal. Ahmedpur, Dist. Latur in Year 2000",
-  "profession_self": "Agriculture",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 82862515,
-  "liabilities_total_inr": 759347119,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 4036750,
-        "2022-2023": 3940080,
-        "2021-2022": 3274450,
-        "2020-2021": 2525540,
-        "2019-2020": 1072192
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 65810,
-      "bank_deposits_inr": 4639575,
-      "bonds_debentures_shares_inr": 6077190,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1500000,
-      "personal_loans_advance_given_inr": 203250,
-      "motor_vehicles_inr": 3765000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 16242556
-    },
-    "spouse": {
-      "cash_inr": 11690,
-      "bank_deposits_inr": 3169,
-      "bonds_debentures_shares_inr": 5100,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 5300000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5319959
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 30100000,
-      "non_agricultural_land": {
-        "description": "Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 10",
-        "area_sq_mtr": 23199.1,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 193000,
-        "current_market_value_inr": 30000000
+  "constituency": "AHMEDPUR",
+  "state": "Maharashtra",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Mohanrao Kishanrao Patil",
+      "age": 65,
+      "voter_enrolled_in": {
+        "constituency": "236 Ahmadpur (Maharashtra)",
+        "serial_no": 389,
+        "part_no": 192
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+      "self_profession": "Agriculture",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 82862515,
+      "total_liabilities_in_rupees": 759347119
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A From Swami Ramanand Teerath Marathwada University Nanded Swami Vivekanand College, Shirur Tajband, Tal. Ahmedpur, Dist. Latur in Year 2000"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2023 - 2024",
+          "total_income_shown_in_itr_rupees": 4036750
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 3940080
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 3274450
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 2525540
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1072192
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 16242556,
+      "gross_total_value_spouse_rupees": 5319959,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 21562515,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 65810,
+          "spouse_value_rupees": 11690,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 77500,
+          "self_details": "65,810",
+          "spouse_details": "11,690"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 4639575,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4639575,
+          "self_details": "Mahesh Urban Co Bank Br. Ahmadpur  32,701  Mahesh Urban Co Bank Br. Ahmadpur  95,881  Mahesh Nagari Sahakari Patsanstha 2,70,419  Mahesh Nagari Sahakari Patsanstha 3 FDR 39,32,905  SBI Br. Mumbai  29,566  SBI Ahmadpur  5,435  SBI Br. Shirur Tajband  44,331  Latur District Central Bank, Shirur Tajband Branch 30,995  Osmanabad Janata Sahakari Bank Ltd., Ahmadpur 8,261  HDFC Bank, Ahmadpur 71,912  MSEB, Deposit  1,14,000",
+          "spouse_details": "Mahesh Urban Co Bank Br. Ahmadpur 3,169  Mahesh Nagari Sahakari Patsanstha 0"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 6077190,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6077190,
+          "self_details": "Jagruti Sugar and Allied Industries Ltd., Talegaon, Tal. Devni 25,000  Various Executive Service Societies, Shirur Tajband 64,590  Mahesh Urban Bank, Ahmedpur 50,000  Osmanabad Janata Sahakari Bank, Ahmedpur 13,000  Bhagyalakshmi Mahila Sahakari Bank 1,000  Mahesh Nagari Patsanstha, Shirur Tajband 500  Mahesh Sahakari Vastroudyog, Shirur Tajband 5,500  Siddhi Sugar and Allied Industries Ltd., Ujana Tal. Ahmedpur 49,25,000  Siddhi Shetkari Producer Co. Ltd., Ujana 23,500  Mahesh Kashi Cooperative Society, Shirur Tajband 4,000  Ujana Milk Product Company Sangvi Sunegaon  9,60,000",
+          "spouse_details": "Mahesh Urban Bank, Ahmedpur 1,000  Mahesh Kashi Cooperative Society, Shirur Tajband 4,000  Mahesh Nagari Patsanstha, Shirur Tajband 100"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1500000,
+          "self_details": "LIC Total  15,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 203250,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 203250,
+          "self_details": "Balak Bhagwan Shikshan Prasarak Mandal, Ahmedpur 77,310  Shahu Shikshan Prasarak Mandal, Shirur Tajband 1,25,940",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 3765000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3765000,
+          "self_details": "Khadi Machinery 1996 65,000  Mahindra Tractor MH 245433 2,00,000  Fortuner Car MH 24 BM 5151 35,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 5300000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5300000,
+          "self_details": "Nil",
+          "spouse_details": "100 Tola Gold Diamond Jewellery  53,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 61300000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 61300000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 30100000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30100000,
+          "self_details": "Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 4 Total Area 20 Gunthe Built Up Area  Whether Inherited N Purchase Date 1997-08-30 Purchase Cost 190000.00 Development Cost 0.00 12,00,000  Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 41 Total Area 8 Acre 15 Gunthe Built Up Area  Whether Inherited N Purchase Date 1995-04-06 Purchase Cost 250000.00 Development Cost 0.00 70,00,000  Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 395 Total Area 4 Acre 81 Gunthe  Built Up Area  Whether Inherited N Purchase Date 2006-07-06 Purchase Cost 335000.00 Development Cost 0.00 50,00,000  Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 396 Total Area 2Acre 91 Gunthe  Built Up Area  Whether Inherited N Purchase Date 2007-03-13 Purchase Cost 250000.00 Development Cost 0.00 31,00,000  Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 583 Total Area 5 Gunthe  Built Up Area  Whether Inherited N Purchase Date 1995-12-27 Purchase Cost 100000.00 Development Cost 0.00 17,00,000  Dhaswadi Tal Ahmadpur DIst Latur Survey no. 214 Total Area 2 Acre  Built Up Area  Whether Inherited N Purchase Date 2000-08-16 Purchase Cost 50000.00 Development Cost 0.00 14,00,000  Chaundi Tal Loha Dist Nanded Survey no. 106/1 Total Area 1 acre 13 Gunthe Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 50000.00 Development Cost 0.00 7,00,000  Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 45 Total Area 8 Acre 89 Gunthe  Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,00,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 31200000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 31200000,
+          "self_details": "Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 10 Total Area 249723 Sq Ft  Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 193000.00 3,00,00,000  Shirur Tajband Tal. Ahmadpur Dist Latur Survey no. 1931 Total Area 1500 Sq Ft  Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 200000.00 Development Cost 0.00 12,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 759347119,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 759347119,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 61300000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 753351881,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 753351881,
+          "self_details": "Latur District Central Bank, Shirur Tajband, Ta. Ahmedpur, Dist. Latur 5,00,000  State Bank of India, Shirur Tajband Car Loan 4,84,062  The Maharashtra State Co-op Bank, Mumbai Office ,Shirur Tajband Vehicle Group No. 10 75,00,00,000  Mahesh Nagari Sahakari Pathsansatha FD Loan 23,67,819",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 4000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4000000,
+          "self_details": "Bharate Jeevan Mohanrao 5,00,000  Bharate Mohanrao Wamanrao 5,00,000  Bharate Shankarrav Sopanrav 5,00,000  Bharate Tukaram Ramling 5,00,000  Dhangale Bapurav Kishanrav 5,00,000  Dhengale Lakshman Madhav 5,00,000  Shelke Vikas Baburav 5,00,000  Vaidya Vishwambhar Kishanrav 5,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 1995238,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1995238,
+          "self_details": "HUF 19,95,238",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": null,
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+    "profession_or_occupation": {
+      "self": "Agriculture",
+      "spouse": "House Wife"
+    },
+    "sources_of_income": {
+      "self": "Agriculture & MLA Salary",
+      "spouse": "House Wife",
+      "dependent": "NIL"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NIL",
+      "spouse": "NIL",
+      "dependent": "NIL",
+      "huf_or_trust": "NIL",
+      "partnership_firms": "NIL",
+      "private_companies": "NIL"
+    },
+    "election_history": [
+      {
+        "election": "Maharashtra 2019",
+        "declared_assets_rupees": 69463932,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 753351881,
-      "loans_due_to_individual_entity_inr": 4000000,
-      "any_other_liability_inr": 1995238,
-      "grand_total_of_liabilities_inr": 759347119
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture & MLA Salary",
-    "spouse": "House Wife",
-    "dependent": "NIL"
-  },
-  "contracts": {
-    "entered_by_candidate": "NIL",
-    "entered_by_spouse": "NIL",
-    "entered_by_dependent": "NIL",
-    "entered_by_huf_trust": "NIL",
-    "entered_by_partnership_firms": "NIL",
-    "entered_by_private_companies": "NIL"
+      {
+        "election": "Maharashtra Election 2014",
+        "declared_assets_rupees": 63912582,
+        "declared_cases": 0
+      }
+    ]
   }
 }

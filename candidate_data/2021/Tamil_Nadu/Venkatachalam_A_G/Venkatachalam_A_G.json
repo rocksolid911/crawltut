@@ -2,179 +2,958 @@
   "candidate_name": "VENKATACHALAM.A.G",
   "party": "DMK",
   "constituency": "ANTHIYUR (ERODE)",
-  "father_or_husband_name": "Govindaraj",
-  "age": 61,
-  "education": "10th Pass",
-  "profession_self": "Agriculture",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 9,
-  "assets_total_inr": 42951409,
-  "liabilities_total_inr": 7433657,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2019-2020": 498880,
-        "2018-2019": 496380,
-        "2017-2018": 345310,
-        "2016-2017": 318930,
-        "2015-2016": 302690
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2019-2020": 499850,
-        "2018-2019": 499800,
-        "2017-2018": 346790,
-        "2016-2017": 323350,
-        "2015-2016": 280250
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 80000,
-      "bank_deposits_inr": 21838,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 105940
-    },
-    "spouse": {
-      "cash_inr": 60000,
-      "bank_deposits_inr": 19635,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1000000,
-      "jewellery_inr": 962500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2042135
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 10683333,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+  "state": "Tamil Nadu 2021",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Govindaraj",
+      "age": 61,
+      "voter_enrolled_in": {
+        "constituency": "105-Anthiyur (Tamil Nadu)",
+        "serial_no": 841,
+        "part_no": 93
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "1/3rd shares in anthiyur Village, anthiyur taluk, S.NO:1612/3",
-        "total_area_sqft": 180,
-        "built_up_area_sqft": 180,
-        "inherited": "N",
-        "purchase_date": "1989-04-25",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 400000
+      "self_profession": "Agriculture",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 9,
+      "total_assets_in_rupees": 42951409,
+      "total_liabilities_in_rupees": 7433657
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "10th std- Government Boys Hr.Sce.School-1975"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 498880
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 496380
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 345310
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 318930
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 302690
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 499850
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 499800
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 346790
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 323350
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 280250
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Disobedience to quarantine rule",
+          "ipc_section": "271",
+          "count": 7
+        },
+        {
+          "charges_related_to": "Continuance of nuisance after injunction to discontinue",
+          "ipc_section": "291",
+          "count": 5
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Punishment for wrongful restraint",
+          "ipc_section": "341",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Negligent act likely to spread infection of disease dangerous to life",
+          "ipc_section": "269",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Punishment for public nuisance in cases not otherwise provided for",
+          "ipc_section": "290",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Negligent conduct with respect to fire or combustible matter",
+          "ipc_section": "285",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "5/2021, Anthiyur PS",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "271, 291",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "779/2020, Anthiyur PS",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "143, 269, 271, 341",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "fir_no": "772/2020, Anthiyur Ps",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "143, 269, 271, 341",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 4,
+          "fir_no": "719/2020, Anthiyur PS",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "143, 269, 271, 341",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 5,
+          "fir_no": "612/2020, Anthiyur PS",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "271, 291",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 6,
+          "fir_no": "504/2020, Anthiyur PS",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "271, 291",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 7,
+          "fir_no": "502/2020, Anthiyur PS",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": "271, 291",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 8,
+          "fir_no": "335/2017, Anthiyur PS",
+          "case_no": "STC No.180/2018, Case renumbered as STC No.77/2020",
+          "court": "Judicial Magistrate No.II Bhavani",
+          "ipc_sections_applicable": "188, 290, 291, 341",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": "02 Apr 2018",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 9,
+          "fir_no": "190/2016, Anthiyur PS",
+          "case_no": "STC No.167/2018 Case renumbered as STC No.306/20201",
+          "court": "Judicial Magistrate No.I Erode",
+          "ipc_sections_applicable": "143, 188, 285",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": true,
+          "date_on_which_charges_were_framed": "24 Dec 2018",
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 105941,
+      "gross_total_value_spouse_rupees": 2042135,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 2148076,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 80000,
+          "spouse_value_rupees": 60000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 140000,
+          "self_details": {
+            "amount_rupees": 80000
+          },
+          "spouse_details": {
+            "amount_rupees": 60000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 21840,
+          "spouse_value_rupees": 19635,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 45575,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "Anthiyur Branch",
+              "account_no": "35721956229",
+              "amount_rupees": 4653
+            },
+            {
+              "bank": "Axis Bank",
+              "branch": "Anthiyur branch",
+              "account_no": "916010025114503",
+              "amount_rupees": 563
+            },
+            {
+              "bank": "EDCC Bank",
+              "branch": "Anthiyur Branch",
+              "account_no": "202035966",
+              "amount_rupees": 5783
+            },
+            {
+              "bank": "EDCC Bank",
+              "branch": "Anthiyur Branch",
+              "account_no": "713420459",
+              "amount_rupees": 14941
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI",
+              "branch": "Anthiyur Branch",
+              "account_no": "31414116697",
+              "amount_rupees": 2599
+            },
+            {
+              "bank": "KVB",
+              "branch": "Anthiyur Branch",
+              "account_no": "1642155000083998",
+              "amount_rupees": 2095
+            },
+            {
+              "bank": "EDCC Bank",
+              "branch": "AC.NO:713420459",
+              "account_no": null,
+              "amount_rupees": 14941
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 1000000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1000000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "make": "Ashok Leyland Tipper",
+            "year": 2012,
+            "registration_no": "TN36AY1237",
+            "value_rupees": 1332782
+          }
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 962500,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 962500,
+          "self_details": "Nil",
+          "spouse_details": {
+            "type": "Gold jewel",
+            "weight_grms": 250,
+            "value_rupees": 962500
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 13503333,
+      "total_current_market_value_spouse_rupees": 27300000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 40803333,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 10733333,
+          "spouse_value_rupees": 8700000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 19383333,
+          "self_details": [
+            {
+              "location": "Kannappali Village, Bhavani taluk",
+              "sy_no": "323/1,3,5",
+              "total_area_acres": 6.56,
+              "inherited": false,
+              "purchase_date": "2012-01-23",
+              "purchase_cost_rupees": 37500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7000000
+            },
+            {
+              "location": "Kannappalli Village, Bhavani taluk",
+              "sy_no": "323/2",
+              "total_area_acres": 1.38,
+              "inherited": false,
+              "purchase_date": "2013-02-01",
+              "purchase_cost_rupees": 50000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1500000
+            },
+            {
+              "location": "kannappalli village, bhavani",
+              "sy_no": "321/1B,2A",
+              "total_area_acres": 2.495,
+              "inherited": false,
+              "purchase_date": "2013-07-26",
+              "purchase_cost_rupees": 100000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1050000
+            },
+            {
+              "location": "Nagalur Village, Bhavani Taluk",
+              "sy_no": "104/2",
+              "total_area_acres": 3.49,
+              "inherited": false,
+              "purchase_date": "2012-09-17",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 400000
+            },
+            {
+              "location": "common 1/3rd share in savandapoor village, gobitaluk",
+              "sy_no": "82/1,4",
+              "total_area_acres": 2.45,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 733333
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Anthiyur village",
+              "sy_no": "1593/3",
+              "total_area_acres": 0.2925,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4200000
+            },
+            {
+              "location": "Common 1/4th share in Anthiyur Village, bhavani taluk",
+              "sy_no": "1593/3",
+              "total_area_acres": 0.39,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1500000
+            },
+            {
+              "location": "Common 1/4th shares in Anthiyur Village, bhavani",
+              "sy_no": "1593/3",
+              "total_area_acres": 0.79,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 8000000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 8000000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "location": "Anthiyur village, Anthiyur taluk",
+            "sy_no": "2114/30",
+            "total_area_sq_ft": 1510,
+            "built_up_area_sq_ft": 4500,
+            "inherited": false,
+            "purchase_date": "2004-05-03",
+            "purchase_cost_rupees": 344000,
+            "development_cost_rupees": 4450,
+            "current_value_rupees": 8000000
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 10600000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 11000000,
+          "self_details": [
+            {
+              "location": "1/3rd shares in anthiyur Village, anthiyur taluk",
+              "sy_no": "1612/3",
+              "total_area_sq_ft": 180,
+              "built_up_area_sq_ft": 180,
+              "inherited": false,
+              "purchase_date": "1989-04-25",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 400000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Anthiyur village, Anthiyur taluk",
+              "sy_no": "2053/11",
+              "total_area_sq_ft": 447,
+              "inherited": false,
+              "purchase_date": "2012-03-27",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "Anthiyur Village, Anthiyur taluk",
+              "sy_no": "1612/3",
+              "total_area_sq_ft": 924,
+              "inherited": false,
+              "purchase_date": "1999-03-12",
+              "purchase_cost_rupees": 50000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "Anthiyur Village, thavuttupalayam",
+              "sy_no": "1309/9,R.S.NO;1829/7",
+              "total_area_sq_ft": 1345,
+              "inherited": false,
+              "purchase_date": "2006-11-03",
+              "purchase_cost_rupees": 147000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 600000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 2420000,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2420000,
+          "self_details": [
+            {
+              "description": "Agreemwnts of sale value of claims",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 20000
+            },
+            {
+              "description": "Agreemwnts of sale value of claims",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 500000
+            },
+            {
+              "description": "Agreemwnts of sale value of claims",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1900000
+            }
+          ],
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 7433657,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 7433657,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": null,
+        "spouse_amount_rupees": null,
+        "huf_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 2420000,
-      "total_current_market_value_inr": 13503333
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 7433657,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 7433657,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "bank": "IndusInd Bank",
+              "branch": "Gobi branch",
+              "amount_rupees": 933657
+            },
+            {
+              "description": "Registered Mortgagedeed",
+              "amount_rupees": 1500000
+            },
+            {
+              "description": "registered Mortgagedeed",
+              "amount_rupees": 5000000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 8700000,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "commercial_buildings_inr": 8000000,
-      "residential_buildings": {
-        "description": "Anthiyur village, Anthiyur taluk, S.NO:2053/11",
-        "total_area_sqft": 447,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "2012-03-27",
-        "purchase_cost_inr": 200000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 5000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 27300000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "profession_or_occupation": {
+      "self": "Agriculture",
+      "spouse": "Housewife"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 7433657,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 7433657
+    "sources_of_income": {
+      "self": "Agriculture",
+      "spouse": "Rent",
+      "dependent": "Not Applicable"
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "NIl",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
     },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture",
-    "spouse": "Rent",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
+    "other_elections": [
+      {
+        "election_name": "Tamil Nadu 2016",
+        "declared_assets_rupees": 41768000,
+        "declared_cases": 0
+      }
+    ]
   }
 }

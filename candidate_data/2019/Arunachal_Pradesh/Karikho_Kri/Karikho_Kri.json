@@ -1,156 +1,628 @@
 {
   "candidate_name": "Karikho Kri",
   "party": "IND",
-  "constituency": "TEZU (LOHIT)",
-  "father_or_husband_name": "Late Sotri Kri",
-  "age": 45,
-  "education": "10th Pass From Govt. Secondary School, Hayuliang, Year-1990",
-  "profession_self": "Social worker and Business",
-  "profession_spouse": "Social worker and Business",
-  "criminal_cases": 5,
-  "assets_total_inr": 188547815,
-  "liabilities_total_inr": 74177,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 10730050
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 9210532
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 479717
-      }
-    },
-    "dependent2": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 289337
-      }
-    },
-    "dependent3": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
-    },
-    "dependent4": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 750000,
-      "bank_deposits_inr": 4446429,
-      "bonds_debentures_shares_inr": 7180493,
-      "nss_postal_savings_inr": 4155377,
-      "lic_other_insurance_inr": 5066742,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 4296584,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 21895625
-    },
-    "spouse": {
-      "cash_inr": 650000,
-      "bank_deposits_inr": 4872995,
-      "bonds_debentures_shares_inr": 1811723,
-      "nss_postal_savings_inr": 2735617,
-      "lic_other_insurance_inr": 671880,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 877000,
-      "jewellery_inr": 676000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 12399990
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3550000,
-      "non_agricultural_land": {
-        "description": "Tamla Nagar Tezu Dag No.416, Plot Of Land At jhalukbari Road, Plot Of Land at Kri Niwas At Tezu, Plot Of Land At Telluliang vill Tezu, Green Meedown Layout Plot At Bangalore",
-        "total_area_sqft": 48209,
-        "built_up_area_sqft": null,
-        "inherited": "Y",
-        "purchase_date": "2016-05-23",
-        "purchase_cost_inr": 3780000,
-        "development_cost_inr": 100000,
-        "current_market_value_inr": 6250000
+  "constituency": "TEZU(LOHIT)",
+  "state": "Arunachal Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Sotri Kri",
+      "age": 45,
+      "voter_enrolled_in": {
+        "constituency": "44-Tezu",
+        "state": "Arunachal Pradesh",
+        "serial_no": 660,
+        "part_no": 18
       },
-      "commercial_buildings_inr": 5630000,
-      "residential_buildings_inr": 215000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 230380000
+      "self_profession": "Social worker and Business",
+      "spouse_profession": "Social worker and Business"
     },
-    "spouse": {
-      "agricultural_land_inr": 4830000,
-      "non_agricultural_land": {
-        "description": "Senki Park Itanagar Dag No.51, Tezu township Dag No.1422, Plot Of Land oshin Market At Tezu, Polt Of land Near D Nellah Tezu, Plot Of land Near Denglal D.no.1565, Land Near Niwas, Sp Type House At Near R/Line, Sp Type House At A/Line Tezu, Plot Of Land At Cs Colony, Plot Of land At Near AR Hall Tezu",
-        "total_area_sqft": 73299,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "2010-10-21",
-        "purchase_cost_inr": 1500000,
-        "development_cost_inr": 450000,
-        "current_market_value_inr": 4700000
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 188547815,
+      "total_liabilities_in_rupees": 74177
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "10th Pass From Govt. Secondary School, Hayuliang, Year-1990"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 10730050
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 9210532
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 479717
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 289337
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent4",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for criminal intimidation",
+          "ipc_section": "506",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Assault or criminal force to woman with intent to outrage her modesty",
+          "ipc_section": "354",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Punishment for house-trespass",
+          "ipc_section": "448",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Punishment for Defamation",
+          "ipc_section": "500",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for wrongful Confinement",
+          "ipc_section": "342",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Printing or engraving matter known to be defamatory",
+          "ipc_section": "501",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "98/2013, Tezu Police Station",
+          "case_no": "C/S.No.05/2015",
+          "court": "JMFC, Tezu",
+          "ipc_sections_applicable": "341, 342, 323, 34",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "83/2013, Tezu Police Station",
+          "case_no": "C/S.No.03/2015",
+          "court": "JMFC, Tezu",
+          "ipc_sections_applicable": "147, 427, 448, 506, 34",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 3,
+          "fir_no": "82/2013, Tezu Police Station",
+          "case_no": "C/S.No.61/2014",
+          "court": "JMFC, Tezu",
+          "ipc_sections_applicable": "147, 427, 448, 354, 506, 34",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 4,
+          "fir_no": "81/2013, Tezu Police Station",
+          "case_no": "C/S.No.26/2014",
+          "court": "JMFC, Tezu",
+          "ipc_sections_applicable": "148, 427, 448, 354, 34",
+          "other_details_or_acts_sections_applicable": "Sec.25/27 Arms Act",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 5,
+          "fir_no": null,
+          "case_no": "Compt. C.No.07/05",
+          "court": "JMFC, Tezu",
+          "ipc_sections_applicable": "500, 501",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": true,
+          "details_and_present_status_of_appeal": "Cri. Petition was filed before in Honorable Gauhati High Court, being Crl Pet No.127 of 2006, which was dispose off & send back to Trail Court."
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 26047332,
+      "gross_total_value_spouse_rupees": 13676036,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 11771014,
+      "gross_total_value_dependent2_rupees": 3093653,
+      "gross_total_value_dependent3_rupees": 1505942,
+      "gross_total_value_dependent4_rupees": 2450086,
+      "gross_total_value_total_rupees": 58544063,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 750000,
+          "spouse_value_rupees": 650000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 200000,
+          "dependent2_value_rupees": 100000,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 1700000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 4848037,
+          "spouse_value_rupees": 4905788,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 7328045,
+          "dependent2_value_rupees": 1070808,
+          "dependent3_value_rupees": 526707,
+          "dependent4_value_rupees": 839695,
+          "total_value_rupees": 19865774
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 4252654,
+          "spouse_value_rupees": 2246723,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 182372,
+          "dependent2_value_rupees": 205626,
+          "dependent3_value_rupees": 26669,
+          "dependent4_value_rupees": 155287,
+          "total_value_rupees": 9417118
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 2796777,
+          "spouse_value_rupees": 2785617,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 853013,
+          "dependent2_value_rupees": 1475000,
+          "dependent3_value_rupees": 980450,
+          "dependent4_value_rupees": 933418,
+          "total_value_rupees": 11948965
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 5519142,
+          "spouse_value_rupees": 671880,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 2656000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 9182622
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 877000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 580000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 1457000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 4296584,
+          "spouse_value_rupees": 676000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 4972584
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 369300000,
+      "total_current_market_value_spouse_rupees": 569200000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 69450000,
+      "total_current_market_value_dependent2_rupees": 17700000,
+      "total_current_market_value_dependent3_rupees": 13450000,
+      "total_current_market_value_dependent4_rupees": 5000000,
+      "total_current_market_value_total_rupees": 1044100000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 30500000,
+          "spouse_value_rupees": 50050000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 12950000,
+          "dependent2_value_rupees": 7700000,
+          "dependent3_value_rupees": 6300000,
+          "dependent4_value_rupees": 5000000,
+          "total_value_rupees": 117150000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 62500000,
+          "spouse_value_rupees": 52500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 4000000,
+          "dependent2_value_rupees": 3500000,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 117500000
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 56300000,
+          "spouse_value_rupees": 170000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 52500000,
+          "dependent2_value_rupees": 6500000,
+          "dependent3_value_rupees": 6500000,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 301450000
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 215000000,
+          "spouse_value_rupees": 346650000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 508000000
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 33962,
+      "grand_total_of_liabilities_spouse_rupees": 40215,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_dependent4_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 74177,
+      "grand_total_of_all_govt_dues_self_rupees": 33962,
+      "grand_total_of_all_govt_dues_spouse_rupees": 40215,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent4_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 74177,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "dependent4_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "commercial_buildings_inr": 15950000,
-      "residential_buildings_inr": 283000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 308480000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 33962,
+          "spouse_value_rupees": 40215,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 74177
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Social worker and Business",
+      "spouse": "Social worker and Business"
+    },
+    "sources_of_income": {
+      "self": "Agriculture and Business",
+      "spouse": "Agriculture and Business",
+      "dependent": "Capital Gains, Agariculture and Business"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "Nil",
+      "dependent": "Nil",
+      "huf_or_trust": "NA",
+      "partnership_firms": "Nil",
+      "private_companies": "Nil"
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 74177,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 74177
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture and Business",
-    "spouse": "Agriculture and Business",
-    "dependent": "Capital Gains, Agariculture and Business"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
   }
 }

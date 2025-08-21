@@ -1,166 +1,771 @@
 {
   "candidate_name": "MANJUNATHA R",
   "party": "JD(S)",
-  "constituency": "DASARAHALLI (BANGALORE URBAN)",
-  "father_or_husband_name": "Rangaswamya",
-  "age": 59,
-  "education": "10th Pass",
-  "profession_self": "Self Employment and Buisness",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 266066219,
-  "liabilities_total_inr": 41863525,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 3228289
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 1907713
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 300000,
-      "bank_deposits_inr": 4609758,
-      "bonds_debentures_shares_inr": 99000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2586000,
-      "jewellery_inr": 1445000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 9274638
-    },
-    "spouse": {
-      "cash_inr": 30000,
-      "bank_deposits_inr": 122897,
-      "bonds_debentures_shares_inr": 49500,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1747500,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2049897
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 25217500,
-      "non_agricultural_land": {
-        "description": "Various plots in Bangalore North",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 4893000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 890000000
+  "constituency": "DASARAHALLI",
+  "state": "Karnataka",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Rangaswamya",
+      "age": 59,
+      "voter_enrolled_in": {
+        "constituency": "155-Dasarahalli (Karnataka)",
+        "serial_no": 616,
+        "part_no": 180
       },
-      "commercial_buildings_inr": 345000000,
-      "residential_buildings": {
-        "description": "Various properties in Bangalore",
-        "total_area_sqft": 12530,
-        "built_up_area_sqft": 68,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 1928000,
-        "development_cost_inr": 18500000,
-        "current_market_value_inr": 600000000
+      "self_profession": "Self Employment and Buisness",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 266066219,
+      "total_liabilities_in_rupees": 41863525
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "10th Class,Kanasavadi School,Madurae hobli,Doddabalapur dist.Bang. Dist. year 1975"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 3228289
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 1907713
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 8974638,
+      "gross_total_value_spouse_rupees": 2019897,
+      "gross_total_value_dependent1_rupees": 400000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 11394535,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 30000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 330000,
+          "self_details": {
+            "amount_rupees": 300000
+          },
+          "spouse_details": {
+            "amount_rupees": 30000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 4252358,
+          "spouse_value_rupees": 122897,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4375255,
+          "self_details": [
+            {
+              "bank": "Canara Bank",
+              "account_type": "SB",
+              "account_no": "119910101xxxxx",
+              "amount_rupees": 42280
+            },
+            {
+              "bank": "Karnataka Bank",
+              "account_type": "SB",
+              "account_no": "904250010000xxxxx",
+              "amount_rupees": 1617817
+            },
+            {
+              "bank": "Karnataka Bank",
+              "account_type": "SB",
+              "account_no": "904250010000xxxxx",
+              "amount_rupees": 560971
+            },
+            {
+              "bank": "Karnataka Bank",
+              "account_type": "SB",
+              "account_no": "904200010006xxxxx",
+              "amount_rupees": 49372
+            },
+            {
+              "bank": "Karnataka Bank",
+              "account_type": "SB",
+              "account_no": "904200010005xxxxx",
+              "amount_rupees": 71167
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "account_type": "Sb",
+              "account_no": "23100200000xxxxx",
+              "amount_rupees": 2387031
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "account_type": "Sb",
+              "account_no": "23100100000xxxxx",
+              "amount_rupees": 16000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Karnataka Bank",
+              "account_type": "A/c",
+              "account_no": "904250010027xxxxx",
+              "amount_rupees": 3034
+            },
+            {
+              "bank": "Karnataka Bank",
+              "account_type": "A/c",
+              "account_no": "9042500100000xxxxx",
+              "amount_rupees": 13491
+            },
+            {
+              "bank": "Karnataka Bank",
+              "account_type": "A/c",
+              "account_no": "904200010007xxxxx",
+              "amount_rupees": 106372
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 99000,
+          "spouse_value_rupees": 49500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 148500,
+          "self_details": [
+            {
+              "name": "Udeshitha R.M CO Society",
+              "units": 90,
+              "amount_rupees": 99000
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Udeshitha R.M CO Society",
+              "units": 45,
+              "amount_rupees": 49500
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 400000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 600000,
+          "self_details": [
+            {
+              "policy_no": "363474978",
+              "amount_rupees": 100000
+            }
+          ],
+          "spouse_details": [
+            {
+              "policy_no": "36347xxxxx",
+              "amount_rupees": 100000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "policy_no": "698460500",
+              "amount_rupees": 400000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2586000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2586000,
+          "self_details": [
+            {
+              "make": "Toyato Etios",
+              "registration_no": "KA 04MN8202",
+              "amount_rupees": 450000
+            },
+            {
+              "make": "Honda Activa",
+              "registration_no": "KA 04 HZ 4662",
+              "amount_rupees": 36000
+            },
+            {
+              "make": "Inova",
+              "registration_no": "KA 04 MU 0939",
+              "amount_rupees": 2100000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1445000,
+          "spouse_value_rupees": 1747500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3192500,
+          "self_details": {
+            "type": "gold",
+            "weight": "500 gm",
+            "value_rupees": 1400000,
+            "other_type": "silver",
+            "other_weight": "1 kg",
+            "other_value_rupees": 45000
+          },
+          "spouse_details": {
+            "type": "gold",
+            "weight": "600 gm",
+            "value_rupees": 1680000,
+            "other_type": "Silver",
+            "other_weight": "1.5 kg",
+            "other_value_rupees": 67500
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 245671684,
+      "total_current_market_value_spouse_rupees": 9000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 254671684,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 25217500,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25217500,
+          "self_details": [
+            {
+              "location": "Doddabalapura t.,Madurae Hobli, Honavara Village",
+              "sy_no": "52/1",
+              "total_area": "0.28 acers",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1680000
+            },
+            {
+              "location": "Doddabalapura t.,Madurae Hobli, Honavara Village",
+              "sy_no": "89/2A and 89/2B",
+              "total_area": "2.23 acers",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7725000
+            },
+            {
+              "location": "Bang.North t. ,Hesaraghatta Hobli, Hurulichikanahalli Village",
+              "sy_no": "133",
+              "total_area": "2.8 acers",
+              "inherited": false,
+              "purchase_date": "2007-10-11",
+              "purchase_cost_rupees": 3300000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 12100000
+            },
+            {
+              "location": "banb. North T.,Hesarghatta Hobli ,Hurulichikanahalli villge",
+              "sy_no": "132/2",
+              "total_area": "0.72 gunte",
+              "inherited": false,
+              "purchase_date": "2007-10-11",
+              "purchase_cost_rupees": 1080000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3712500
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 890000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 890000000,
+          "self_details": [
+            {
+              "location": "Bang. North ,Yesh, Hobli,Nagasandra Village",
+              "plot_no": "13",
+              "total_area": "8200 sqft",
+              "inherited": false,
+              "purchase_date": "2007-05-11",
+              "purchase_cost_rupees": 2525000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000000
+            },
+            {
+              "location": "Bang. north Yesh, Hobli,Nagasandra Village",
+              "plot_no": "14",
+              "total_area": "5500 sq ft",
+              "inherited": false,
+              "purchase_date": "2008-05-23",
+              "purchase_cost_rupees": 1868000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 140000000
+            },
+            {
+              "location": "Bang. North ,Dasapura Hobli,Chikkabidaranakallu Village",
+              "plot_no": "50",
+              "total_area": "0.20 gunte",
+              "inherited": false,
+              "purchase_date": "2012-11-17",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 550000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 345000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 345000000,
+          "self_details": [
+            {
+              "location": "Bang. Yesh. Hobli, Dasarahalli Village",
+              "plot_no": "40/1",
+              "total_area": "3300 sq ft",
+              "built_up_area": "80 sq ft",
+              "inherited": false,
+              "purchase_date": "2007-01-18",
+              "purchase_cost_rupees": 713000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 165000000
+            },
+            {
+              "location": "Bang. Dasanapura Hobli,Chikkabidiranakallu Village",
+              "plot_no": "162/120",
+              "total_area": "3750 sqft",
+              "built_up_area": "80 sq ft",
+              "inherited": false,
+              "purchase_date": "2009-01-05",
+              "purchase_cost_rupees": 6500000,
+              "development_cost_rupees": 9000000,
+              "current_value_rupees": 180000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 600000000,
+          "spouse_value_rupees": 90000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 690000000,
+          "self_details": [
+            {
+              "location": "Bang. Yesh. Hobli, Dasarahalli Village ,vidyanagar",
+              "plot_no": "19",
+              "total_area": "2184 sqft",
+              "built_up_area": "34 sqft",
+              "inherited": false,
+              "purchase_date": "2004-07-31",
+              "purchase_cost_rupees": 328000,
+              "development_cost_rupees": 3500000,
+              "current_value_rupees": 200000000
+            },
+            {
+              "location": "Bang. Yesh. Hobli, Bagulkuntae village ,MEI Layout",
+              "plot_no": "2628",
+              "total_area": "10346 sqft",
+              "built_up_area": "34 sq ft",
+              "inherited": false,
+              "purchase_date": "2007-02-24",
+              "purchase_cost_rupees": 1600000,
+              "development_cost_rupees": 15000000,
+              "current_value_rupees": 400000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Bang. Yesh. Hobli, Dasarahalli Village",
+              "plot_no": "1724",
+              "total_area": "1200 sq ft",
+              "inherited": false,
+              "purchase_date": "1994-03-02",
+              "purchase_cost_rupees": 75000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 45000000
+            },
+            {
+              "location": "Bang. Yesh. Hobli, Dasarahalli Village CMC",
+              "plot_no": "54/1",
+              "total_area": "1200 sq ft",
+              "built_up_area": "21sq ft",
+              "inherited": false,
+              "purchase_date": "2007-09-13",
+              "purchase_cost_rupees": 944000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 45000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 56954184,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 56954184,
+          "self_details": [
+            {
+              "name": "Paramount Developers",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 45907121
+            },
+            {
+              "name": "RMN tyers And Service",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7173720
+            },
+            {
+              "name": "AM Samiulla",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3873343
+            }
+          ],
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 41863525,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 41863525,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 56954184,
-      "total_current_market_value_inr": 265671684
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 41863525,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 41863525,
+          "self_details": [
+            {
+              "bank": "Karnataka bank",
+              "account_no": "904700060000xxxxx",
+              "amount_rupees": 4925166
+            },
+            {
+              "bank": "Karnataka bank",
+              "account_no": "9047001600002xxxxx",
+              "amount_rupees": 22757919
+            },
+            {
+              "bank": "Karnataka bank",
+              "account_no": "904700160000xxxxx",
+              "amount_rupees": 5770440
+            },
+            {
+              "bank": "Karnataka bank",
+              "account_no": "904700100001xxxxx",
+              "amount_rupees": 8410000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Various properties in Bangalore",
-        "total_area_sqft": 2400,
-        "built_up_area_sqft": 21,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 1019000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 90000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 90000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 41863525,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 41863525
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Self Employment and Buisness",
-    "spouse": "Housewife",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+    "other_elections": [
+      {
+        "declaration_in": "Karnataka 2023",
+        "declared_assets_rupees": 344114950,
+        "declared_cases": 0
+      }
+    ]
   }
 }

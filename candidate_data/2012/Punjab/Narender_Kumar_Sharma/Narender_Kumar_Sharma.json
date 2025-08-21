@@ -1,130 +1,708 @@
 {
   "candidate_name": "Narender Kumar Sharma",
   "party": "SAD",
-  "constituency": "DERA BASSI (S.A.S. NAGAR)",
-  "father_or_husband_name": "Vishwa Nath Sharma",
-  "age": 42,
-  "education": "Graduate B.SC. From Panjab University, Chandigrah",
-  "profession_self": "BUSINESS Man",
-  "profession_spouse": "EMPLOYED",
-  "criminal_cases": 0,
-  "assets_total_inr": 58016215,
-  "liabilities_total_inr": 22236264,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010-2011": 1928904
+  "constituency": "DERA BASSI",
+  "state": "Punjab",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Vishwa Nath Sharma",
+      "age": 42,
+      "self_profession": "BUSINESS Man",
+      "spouse_profession": "EMPLOYED"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 58016215,
+      "total_liabilities_in_rupees": 22236264
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.SC. From Panjab University, Chandigrah"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2010 - 2011",
+          "total_income_shown_in_itr_rupees": 1928904
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2010 - 2011",
+          "total_income_shown_in_itr_rupees": 290618
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 21376501,
+      "gross_total_value_spouse_rupees": 958363,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 22334864,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 83069,
+          "spouse_value_rupees": 22220,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 105289,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 478843,
+          "spouse_value_rupees": 56687,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 675530,
+          "self_details": [
+            {
+              "bank": "Axis Bank",
+              "branch": "sector-10 Panchkula",
+              "account_no": "06701010032xxxxx",
+              "amount_rupees": 242379
+            },
+            {
+              "bank": "HDFC Bank Ltd.",
+              "branch": "sector-35 chandigarh",
+              "account_no": "1314100004xxxxx",
+              "amount_rupees": 140683
+            },
+            {
+              "bank": "HDFC Bank Ltd.",
+              "branch": "Zirakpur",
+              "account_no": "0154100000xxxxx",
+              "amount_rupees": 7751
+            },
+            {
+              "bank": "IDBI Bank",
+              "branch": "Zirakpur",
+              "account_no": "16410400001xxxxx",
+              "amount_rupees": 42690
+            },
+            {
+              "bank": "Induslnd Bank",
+              "branch": "phase-1 Mohali",
+              "account_no": "0083-AB-4585-001",
+              "amount_rupees": 184340
+            },
+            {
+              "bank": "Union Bank of India",
+              "branch": "Zirakpur",
+              "account_no": "63600201000xxxxx",
+              "amount_rupees": 1000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "HDFC Bank",
+              "branch": "Zikarpur",
+              "account_no": "0154100001xxxxx",
+              "amount_rupees": 10620
+            },
+            {
+              "bank": "IDBI Bank",
+              "branch": "zikarpur",
+              "account_no": "16410400001xxxxx",
+              "amount_rupees": 46067
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 7058865,
+          "spouse_value_rupees": 73800,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7066455,
+          "self_details": [
+            {
+              "company": "ABC Sites ltd",
+              "shares": 25680,
+              "amount_rupees": 256800
+            },
+            {
+              "company": "NK sharma Entrprises ltd.",
+              "shares": 5000,
+              "amount_rupees": 1355000
+            },
+            {
+              "company": "Sharma Empires ltd.",
+              "shares": 250595,
+              "amount_rupees": 2465855
+            },
+            {
+              "company": "Sharma Sites pvt. ltd.",
+              "shares": 2000,
+              "amount_rupees": 20000
+            },
+            {
+              "company": "VN Sharma Builders pvt. ltd.",
+              "shares": 2500,
+              "amount_rupees": 2805000
+            },
+            {
+              "company": "Whistler Highest Township p. ltd.",
+              "shares": 5000,
+              "amount_rupees": 50000
+            },
+            {
+              "company": "Travel Crafts Mgf.institutes Pvt.Ltd.",
+              "shares": 4000,
+              "amount_rupees": 40000
+            }
+          ],
+          "spouse_details": [
+            {
+              "company": "Sharma Empires",
+              "shares": 7500,
+              "amount_rupees": 73800
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 12378634,
+          "spouse_value_rupees": 675000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13053634,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 759600,
+          "spouse_value_rupees": 75000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 834600,
+          "self_details": {
+            "weight_gms": 495.57,
+            "value_rupees": 759600
+          },
+          "spouse_details": {
+            "weight_gms": 150,
+            "value_rupees": 75000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 543700,
+          "spouse_value_rupees": 55656,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 599356,
+          "self_details": null,
+          "spouse_details": null
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 35396350,
+      "total_current_market_value_spouse_rupees": 285000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 35681350,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 19406250,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 19406250,
+          "self_details": [
+            {
+              "location": "Village nabha ,Tehsil Derabassi Dist.-Mohali",
+              "khata_no": "17/20-21-22, 56/91-92-93",
+              "khasra_no": "731(4-0),732(4-0), 733(2-9),730(4-0), 723(4-0),725(4-0),724(4-0), 726(5-0),727(2-18),722(4-0), 728(4-0),729(4-0)",
+              "kitte": 12,
+              "area": "46 Bighe 7 Biswa",
+              "share_bakdar": "3 Bigha 9 Biswe",
+              "total_area_acres": 0.8625,
+              "inherited": false,
+              "purchase_date": "2005-03-13",
+              "purchase_cost_rupees": 538228,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 12937500
+            },
+            {
+              "location": "Village nabha Tehsil Derabassi Dist.-Mohali",
+              "khata_no": "15/18,53/82/1",
+              "khasra_no": "931/706N(4-18),707(2-11), 708(4-5),709(4-0), 923/710(2-15),935/711(9-19)",
+              "kitte": 8,
+              "area": "19 Bighe 8 Biswa",
+              "share_bakdar": "1 Bigha 14 Biswe 10 Biswasi",
+              "total_area_acres": 0.43125,
+              "inherited": false,
+              "purchase_date": "2006-11-24",
+              "purchase_cost_rupees": 891310,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6468750
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 3249000,
+          "spouse_value_rupees": 285000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3275100,
+          "self_details": [
+            {
+              "location": "Village Lohagarh,Tehsil Derabassi,Dist. mohali.",
+              "share_sq_ft": 300,
+              "total_area_sq_ft": 900,
+              "inherited": false,
+              "purchase_date": "2006-09-11",
+              "purchase_cost_rupees": 109000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 300000
+            },
+            {
+              "location": "Village Lohagarh,Tehsil Derabassi,Dist. mohali.",
+              "share_sq_ft": 201.6,
+              "total_area_sq_ft": 1008,
+              "inherited": false,
+              "purchase_date": "2011-01-05",
+              "purchase_cost_rupees": 110312,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 201600
+            },
+            {
+              "location": "Village Lohagarh,Tehsil Derabassi,Dist. mohali.",
+              "share_sq_ft": 238.5,
+              "total_area_sq_ft": 954,
+              "inherited": false,
+              "purchase_date": "2011-02-04",
+              "purchase_cost_rupees": 177125,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 238500
+            },
+            {
+              "location": "Village Bishanpur,Tehsil DerabassiDist.-mohali.",
+              "total_area_sq_ft": 2250,
+              "inherited": false,
+              "purchase_date": "2008-10-07",
+              "purchase_cost_rupees": 872000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2250000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Village Lohagarh Tehsil Derabassi Dist.Ambala",
+              "share_sq_ft": 258,
+              "total_area_sq_ft": 570,
+              "inherited": false,
+              "purchase_date": "2005-03-23",
+              "purchase_cost_rupees": 145000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 285000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 13000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13000000,
+          "self_details": [
+            {
+              "location": "Ward No.6, Village Lohagarh MC zirakpur Dist. mohali,Punjab",
+              "share_sq_ft": 2025,
+              "total_area_sq_ft": 6075,
+              "built_up_area_sq_ft_approx": 2125,
+              "inherited": false,
+              "purchase_date": "2002-10-18",
+              "purchase_cost_rupees": 318000,
+              "development_cost_rupees": 3142688,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "House no.1518 sector-69 dist.mohali,panjab",
+              "share_sq_ft": 900,
+              "total_area_sq_ft": 4500,
+              "built_up_area_sq_ft_approx": 4724,
+              "inherited": false,
+              "purchase_date": "2010-07-19",
+              "purchase_cost_rupees": 5390000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 8000000
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 22216264,
+      "grand_total_of_liabilities_spouse_rupees": 20000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 22236264,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": null,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 4310458,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4310458,
+          "self_details": [
+            {
+              "bank": "Indian Bulls Ltd.",
+              "branch": "Chandigarh.",
+              "loan_type": "House Loan.",
+              "amount_rupees": 4310458
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 16855806,
+          "spouse_value_rupees": 20000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16875806,
+          "self_details": [
+            {
+              "name": "Mrs.Himani shrama",
+              "loan_type": "Un secured loan.",
+              "amount_rupees": 332559
+            },
+            {
+              "name": "Mrs.Rajni shrama",
+              "loan_type": "Un secured loan.",
+              "amount_rupees": 350000
+            },
+            {
+              "name": "Mr. Vishwa Nath Sharma.",
+              "loan_type": "Un secured loan.",
+              "amount_rupees": 576000
+            },
+            {
+              "name": "Mrs. Babita shrama",
+              "loan_type": "Un secured loan.",
+              "amount_rupees": 20000
+            },
+            {
+              "name": "Vn sharma Buiders Pvt. ltd.",
+              "loan_type": "Advance against property.",
+              "amount_rupees": 2896513
+            },
+            {
+              "name": "Mrs.Kaveri shrama",
+              "loan_type": "Un secured loan.",
+              "amount_rupees": 325000
+            },
+            {
+              "name": "Nk sharma Enterprises Ltd.",
+              "loan_type": "Advance against property.",
+              "amount_rupees": 12335734
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "vn sharma Builders Pvt. Ltd.",
+              "loan_type": "Un secured loan.",
+              "amount_rupees": 20000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 1070000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1070000,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2024",
+        "declared_assets": 320726079,
+        "declared_cases": 3
+      },
+      {
+        "election_name": "Punjab 2022",
+        "declared_assets": 237125284,
+        "declared_cases": 4
+      },
+      {
+        "election_name": "Punjab 2017",
+        "declared_assets": 112412304,
+        "declared_cases": 1
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010-2011": 290618
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 83069,
-      "bank_deposits_inr": 578037,
-      "bonds_debentures_shares_inr": 7000655,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 12378634,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 759600,
-      "other_assets_inr": 543700,
-      "gross_total_value_inr": 21376501
-    },
-    "spouse": {
-      "cash_inr": 22220,
-      "bank_deposits_inr": 56687,
-      "bonds_debentures_shares_inr": 73800,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 675000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 75000,
-      "other_assets_inr": 55656,
-      "gross_total_value_inr": 958363
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 19406250,
-      "non_agricultural_land": 2989900,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 13000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 35396350
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": 285000,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 285000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 4310458,
-      "loans_due_to_individual_entity_inr": 16835734,
-      "any_other_liability_inr": 1070000,
-      "grand_total_of_liabilities_inr": 22216192
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 20000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 20000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "BUSINESS",
-    "spouse": "EMPLOYED",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+    ]
   }
 }

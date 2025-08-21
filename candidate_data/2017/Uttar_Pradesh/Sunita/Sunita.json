@@ -1,132 +1,463 @@
 {
   "candidate_name": "SUNITA",
   "party": "BJP",
-  "constituency": "ZAMANIA (GHAZIPUR)",
-  "father_or_husband_name": "Parikshit",
-  "age": 51,
-  "education": "Graduate B.A. from Kashi Hindu University in 1986",
-  "profession_self": "Agriculture/Busniess",
-  "profession_spouse": "Agriculture/Busniess",
-  "criminal_cases": 0,
-  "assets_total_inr": 153833889,
-  "liabilities_total_inr": 25867770,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 418248
+  "constituency": "ZAMANIA",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Parikshit",
+      "age": 51,
+      "voter_enrolled_in": {
+        "constituency": "379 Zamania",
+        "state": "Uttar Pradesh",
+        "serial_no": 292,
+        "part_no": 308
+      },
+      "self_profession": "Agriculture/Busniess",
+      "spouse_profession": "Agriculture/Busniess"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 153833889,
+      "total_liabilities_in_rupees": 25867770
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A. from Kashi Hindu University in 1986"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 418248
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 12122706
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3772051,
+      "gross_total_value_spouse_rupees": 67561838,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 71333889,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 176400,
+          "spouse_value_rupees": 242985,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 419385,
+          "self_details": "1,76,400  1 Lacs+",
+          "spouse_details": "2,42,985  2 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 633805,
+          "spouse_value_rupees": 233150,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 876955,
+          "self_details": "SBI INDIA Baxsar No 338699xxxxx 35,156  35 Thou+ SBI India Gaimar No 3646260xxxxx 5,12,243  5 Lacs+ ICICI Bank Noida No 62840155xxxxx 2,801  2 Thou+ SBI No 3291632xxxxx 83,605  83 Thou+",
+          "spouse_details": "State Bank of India Buxer No 1132762xxxxx 9,585  9 Thou+ SBI Buxer No 3064518xxxxx 1,93,000  1 Lacs+ AXIS BANK No 915020000983xxxxx  40,565  40 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 550000,
+          "spouse_value_rupees": 300000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 850000,
+          "self_details": "Pathdarshi Constructions pvt ltd 50,000  50 Thou+ vatika devolopar 5,00,000  5 Lacs+",
+          "spouse_details": "Pathdarshi Constructions pvt ltd  50,000  50 Thou+ Vatika Developar pvt ltd 2,50,000  2 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 476000,
+          "spouse_value_rupees": 21213629,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 21689629,
+          "self_details": "LIC  4,76,000  4 Lacs+",
+          "spouse_details": "LIC NCS ETC 2,12,13,629  2 Crore+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 11520305,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 11520305,
+          "self_details": "Nil",
+          "spouse_details": "Vatika Developar pvt ltd 1,15,20,305  1 Crore+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1389846,
+          "spouse_value_rupees": 14778046,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16167892,
+          "self_details": "Safari/2016 Made Reg. No. UP65CL 7200 Purchase On 30/06/2016 13,89,846  13 Lacs+",
+          "spouse_details": "Safari 2016 made reg no up65f5cl-7300 purchase on 30/06/2016 12,43,056  12 Lacs+ Scarpio 2013 made geg no jh01be-2092 11/12/2013 11,35,986  11 Lacs+ Acent/2014 Made Reg. No. JH01BH6215 Purchase On 12/09/2014  7,59,254  7 Lacs+ Hiwa/2014 Made Reg. No. UP65DT1196 Purchase On 28,50,350  28 Lacs+ Hiwa/2014 Made Reg. No. UP65DT1195 Purchase on 28,50,350  28 Lacs+ Dhampher/2008 Made Reg. No.JH05Z3560 Purchase On 7,97,000  7 Lacs+ Dhampher/2008 Made Reg. No. BR01GA1954 Purchase On  7,95,000  7 Lacs+ Dhampher/2008 Made , Reg. No. BR01GA1954  7,95,000  7 Lacs+ Dhampherj2009 Made ,i',, Reg. No. BROIGA7724 Purchase On 7,91,000  7 Lacs+ Dhampherj2009 Made Reg. No. BROIGA7727 Purchase On  7,91,000  7 Lacs+ JCB/2008/ Chasis No. IAl0246F Purchase Rs. 19,70,000  19 Lacs+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 546000,
+          "spouse_value_rupees": 99200,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 645200,
+          "self_details": "237 GRM GOLD 5,46,000  5 Lacs+",
+          "spouse_details": "GOLD 35 GRM 99,200  99 Thou+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 19164573,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 19164573,
+          "self_details": "Nil",
+          "spouse_details": "1,91,64,573  1 Crore+"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 9700000,
+      "total_current_market_value_spouse_rupees": 728000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 825000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2200000,
+          "spouse_value_rupees": 10300000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12500000,
+          "self_details": "Agricultural land Joint Share of 1/2, Gamher Ghazipur UP Survey No.57/1407 Total Area 0.262 acre Built Up Area  Whether Inherited N Purchase Date 1999-12-06 Purchase Cost 247500.00 Development Cost 0.00 12,00,000  12 Lacs+ Agricultural Land Noida UP Survey no. 336/327 Total Area 0.0067 acre Built Up Area  Whether Inherited N Purchase Date 2008-04-17 Purchase Cost 392200.00 Development Cost 0.00 10,00,000  10 Lacs+",
+          "spouse_details": "Bhitoli Kala Lucknow UP Survey No.1688 Total Area 0.078 acre  Built Up Area  Whether Inherited N Purchase Date 2013-10-01 Purchase Cost 1604000.00 Development Cost 0.00 25,00,000  25 Lacs+ Bhitoli Kala Lucknow UP Survey No.1688  Total Area 0.040 acre Built Up Area  Whether Inherited N Purchase Date 2013-02-16 Purchase Cost 735000.00 Development Cost 0.00 10,00,000  10 Lacs+ Batora Zamania up Survey no,562/1269 Total Area 1.902 acre Built Up Area  Whether Inherited N Purchase Date 2015-01-27 Purchase Cost 1541000.00 Development Cost 0.00 19,00,000  19 Lacs+ Sultanpur Zamaia up Survey no,88/420,34/136,39/40 Total Area 1.108 acre Built Up Area  Whether Inherited N Purchase Date 2015-06-09 Purchase Cost 1037500.00 Development Cost 0.00 13,00,000  13 Lacs+ Gehmar Zamaia UP Survey no.83/2945 Total Area 0.188 acre  Built Up Area  Whether Inherited N Purchase Date 2009-11-25 Purchase Cost 157910.00 Development Cost 0.00 8,00,000  8 Lacs+ Gehmar zamania up survey no,2945/3040 Total Area 0.188 acre Built Up Area  Whether Inherited N Purchase Date 2013-04-04 Purchase Cost 525660.00 Development Cost 0.00 8,00,000  8 Lacs+ Gehmar zamania up survey no,1463&1493 Total Area 1.00 acre  Built Up Area  Whether Inherited N Purchase Date 2016-05-10 Purchase Cost 1703500.00 Development Cost 0.00 20,00,000  20 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 400000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 400000000,
+          "self_details": "Nil",
+          "spouse_details": "Sohnipatti buxer bihar  Total Area 18191.01 sq.ft  Built Up Area  Whether Inherited N Purchase Date 1989-06-28 Purchase Cost 81690.00 Development Cost 0.00 1,50,00,000  1 Crore+ Sohinipatti buxer bihar  Total Area 36382.02 sq.ft  Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,50,00,000  2 Crore+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 7500000,
+          "spouse_value_rupees": 225000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 300000000,
+          "self_details": "Resi House noida UP Hisar Total Area 672 sq ft Built Up Area 672 sq ft Whether Inherited N Purchase Date 2015-02-04 Purchase Cost 6831356.00 Development Cost 0.00 75,00,000  75 Lacs+",
+          "spouse_details": "JP Green UP Total Area 1789 sq ft Built Up Area 1798 sq ft Whether Inherited N Purchase Date 2011-03-12 Purchase Cost 5359977.00 Development Cost 0.00 70,00,000  70 Lacs+ JP Green UP  Total Area 1356 SQ FT Built Up Area 1356 SQ FT Whether Inherited N Purchase Date 2014-03-11 Purchase Cost 6001675.00 Development Cost 0.00 80,00,000  80 Lacs+ Vev Mega city center noida up joint share of 1/2 Total Area 672 sq ft Built Up Area 672 sq ft Whether Inherited N Purchase Date 2015-02-04 Purchase Cost 6831356.00 Development Cost 0.00 75,00,000  75 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2040992,
+      "grand_total_of_liabilities_spouse_rupees": 23826778,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 25867770,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2040992,
+          "spouse_value_rupees": 16550274,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18591266,
+          "self_details": "Home Loan (Joint) A/c no. NHNOD00000793837 ICICI Bank Noida  20,40,992  20 Lacs+",
+          "spouse_details": "HOME LOAN NHNOD00000793837 ICICI NODIA  20,40,992  20 Lacs+ SBI No 3551219xxxxx  1,61,77,754  1 Crore+ SBI LOAN NUM 35125448860  3,48,256  3 Lacs+ SBI LOAN NUM 33843567840  2,96,274  2 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 4963502,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4963502,
+          "self_details": "Nil",
+          "spouse_details": "Tata Capital Finance Patna Vehicle Loan 14,77,740  14 Lacs+ Unsecured Loan 34,85,762  34 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election_name": "Uttar Pradesh 2022",
+        "declared_assets_rupees": 251667639,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 12122706
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 176400,
-      "bank_deposits_inr": 633805,
-      "bonds_debentures_shares_inr": 550000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 476000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1389846,
-      "jewellery_inr": 546000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3772051
-    },
-    "spouse": {
-      "cash_inr": 242985,
-      "bank_deposits_inr": 253050,
-      "bonds_debentures_shares_inr": 300000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 21213629,
-      "personal_loans_advance_given_inr": 11520305,
-      "motor_vehicles_inr": 16167842,
-      "jewellery_inr": 99200,
-      "other_assets_inr": 19164573,
-      "gross_total_value_inr": 67561838
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2200000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 7500000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 9700000
-    },
-    "spouse": {
-      "agricultural_land_inr": 10500000,
-      "non_agricultural_land": 40000000,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 22500000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 72800000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2040992,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2040992
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 20904268,
-      "loans_due_to_individual_entity_inr": 4963502,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 25867770
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture/Busniess",
-    "spouse": "Agriculture/Busniess",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+    ],
+    "election_expenses_link": "https://www.myneta.info/uttarpradesh2017/expense.php?candidate_id=5820"
   }
 }

@@ -1,163 +1,668 @@
 {
   "candidate_name": "VIRAJIBHAI KESHAVBHAI THUMMAR",
   "party": "INC",
-  "constituency": "LATHI (AMRELI)",
-  "father_or_husband_name": "Keshavbhai Thummar",
-  "age": 57,
-  "education": "Graduate B.Com From Saurashtra University Rajkot , Year-1981",
-  "profession_self": "Farming and Business",
-  "profession_spouse": "Advocate and Farming",
-  "criminal_cases": 9,
-  "assets_total_inr": 59495829,
-  "liabilities_total_inr": 3767269,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 682586
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 432324
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1202000,
-      "bank_deposits_inr": 863264,
-      "bonds_debentures_shares_inr": 7625727,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 375172,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2283871,
-      "jewellery_inr": 1000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 13337168
-    },
-    "spouse": {
-      "cash_inr": 700000,
-      "bank_deposits_inr": 918151,
-      "bonds_debentures_shares_inr": 357476,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 80000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 800000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3048898
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1425000,
-      "non_agricultural_land": {
-        "description": "Vavdi Rd. Plot no.1 S.No. 103 Part Plot No. 04",
-        "area_sq_mtr": 686.25,
-        "inherited": "N",
-        "purchase_date": "2000-12-18",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 73600
+  "constituency": "LATHI",
+  "state": "Gujarat",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Keshavbhai Thummar",
+      "age": 57,
+      "voter_enrolled_in": {
+        "constituency": "95 Amreli",
+        "state": "Gujarat",
+        "serial_no": 1,
+        "part_no": 37
       },
-      "commercial_buildings_inr": 19387463,
-      "residential_buildings": {
-        "description": "M. Shela, taluka sanhad Samhavad Plot No.181 part",
-        "total_area_sqft": null,
-        "built_up_area_sqft": 6458.35,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 6600000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9000000
+      "self_profession": "Farming and Business",
+      "spouse_profession": "Advocate and Farming"
+    },
+    "summary": {
+      "criminal_cases_count": 9,
+      "total_assets_in_rupees": 59495829,
+      "total_liabilities_in_rupees": 3767269
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Com From Saurashtra University Rajkot , Year-1981"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 682586
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 432324
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for criminal breach of trust",
+          "ipc_section": "406",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 5
+        },
+        {
+          "charges_related_to": "Dishonest misappropriation of property",
+          "ipc_section": "403",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Abettor present when offence is committed",
+          "ipc_section": "114",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for wrongful restraint",
+          "ipc_section": "341",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Bhagdana Police Station Case no.33/09 and 877/09, Court Which Framed the Charges Palitana Court Naam Mahuwa Court"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Dhari Police Station, Case No.73/08, Court which Framed the charges Dhari Court"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "403, 406, 420, 114",
+          "other_details_or_acts_sections_applicable": "Madiya Police Station Case No. 56/08, Court Which Framed the Charges Madiya Hatina Court"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "143, 147, 148, 149, 341, 427",
+          "other_details_or_acts_sections_applicable": "Fodina Case no.166/04, Court Which Framed the Charges Dodinar Court"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "135 G.P. Act, Amreli City Case no. 26/14, Court Which Framed the Charges Amreli Court"
+        }
+      ],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Amreli City Police Staion Case no.150/2014"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Amreli City Police Staion Case no.9/2016"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Amreli City Police Staion Case no,84/2015"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "135 G.P. Act, Amreli City Police Station Case no. 26/2014"
+        }
+      ],
+      "cases_where_convicted": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 13137168,
+      "gross_total_value_spouse_rupees": 3048898,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 16186066,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1202000,
+          "spouse_value_rupees": 700000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1902000,
+          "self_details": {
+            "amount_rupees": 1202000
+          },
+          "spouse_details": {
+            "amount_rupees": 700000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 202500,
+          "spouse_value_rupees": 200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1955820.23,
+          "self_details": [
+            {"bank": "Kukawaw Nagarik Sahrafi", "amount_rupees": 202500},
+            {"bank": "Vavdi Rd., Seva Sahkari", "amount_rupees": 6500},
+            {"bank": "Angel Broking Ltd.", "amount_rupees": 39766},
+            {"bank": "Kotak Security", "amount_rupees": 55000},
+            {"bank": "HDFC Bank", "amount_rupees": 5541},
+            {"bank": "SBI Saving A/c ND No 2382xxxxx", "amount_rupees": 23316},
+            {"bank": "AGMH Bank Vavdi Branch", "amount_rupees": 1546},
+            {"bank": "SBI Saving A/c JP No 1xxxxx", "amount_rupees": 3860},
+            {"bank": "PNB Saving A/c Amreli", "amount_rupees": 5438},
+            {"bank": "Amreli Nagarik Sahkari Bank Saving A/c", "amount_rupees": 1384},
+            {"bank": "Kunkavav Nagarik Sahkari Saving A/c", "amount_rupees": 1174},
+            {"bank": "Kunkavav Nagarik Sahkari FDR", "amount_rupees": 5000},
+            {"bank": "IDBI Saving A/c Amreli", "amount_rupees": 4848},
+            {"bank": "Vavdi Rd. Mandali Ltd. Saving A/c", "amount_rupees": 608},
+            {"bank": "Nagarik Sahkari Bank", "amount_rupees": 200000},
+            {"bank": "HDFC Bank A/c no05952000002837", "amount_rupees": 702},
+            {"bank": "SBI 10023821971", "amount_rupees": 12221},
+            {"bank": "AGMH Vavdi Branch No 69303600xxxxx", "amount_rupees": 12016},
+            {"bank": "AGMS Bank Vavdi No 69303600xxxxx", "amount_rupees": 8086},
+            {"bank": "SBI Saving No 34991947xxxxx", "amount_rupees": 135975},
+            {"bank": "HDFC Saving No 05951600000xxxxx", "amount_rupees": 31300},
+            {"bank": "Tamilnadi Merchantile Bank Ltd. Saving No 47910000000xxxxx", "amount_rupees": 87617}
+          ],
+          "spouse_details": [
+            {"bank": "Nagrik Sahakari bank Ltd. , Amreli", "amount_rupees": 200000},
+            {"bank": "Kunkavava Sahkari Mandali Ltd.", "amount_rupees": 201000},
+            {"bank": "Vavdi Rd. Mandali", "amount_rupees": 2580},
+            {"bank": "Agricultural Bank Deposit", "amount_rupees": 2000},
+            {"bank": "AGMS Bank", "amount_rupees": 4311},
+            {"bank": "Kunkavava Mandali Saving A/c", "amount_rupees": 270},
+            {"bank": "Roakadiya Mahadev Sahakai Mandali Ltd.", "amount_rupees": 600000},
+            {"bank": "SBI S.No 3491947xxxxx", "amount_rupees": 59464},
+            {"bank": "HDFC Saving No 0595100003xxxxx", "amount_rupees": 30021.23},
+            {"bank": "Tamilnadi Merchantile bank Saving No 47910005030xxxxx", "amount_rupees": 11776}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 7384000,
+          "spouse_value_rupees": 123566,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7989203,
+          "self_details": [
+            {"name": "National bank Shares", "amount_rupees": 7384000},
+            {"name": "Shree vavdi Rd. Seva Sahakari Mandali Ltd. A/c no.368", "amount_rupees": 6500},
+            {"name": "Shree Vavdi Rd. Seva Sahkari mandali A/c No.", "amount_rupees": 211227},
+            {"name": "Jamin Vikas bank", "amount_rupees": 30000}
+          ],
+          "spouse_details": [
+            {"name": "Shares", "amount_rupees": 123566},
+            {"name": "Shree Vavdi Rd. Seva Sahakari mandali A/c no.901", "amount_rupees": 2580},
+            {"name": "Shree Vavdi Rd. Seva Sahakari Madal, A/c no.637", "amount_rupees": 201330},
+            {"name": "Jamin Vikas bank", "amount_rupees": 30000}
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 375172,
+          "spouse_value_rupees": 80000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 455172,
+          "self_details": {
+            "company": "LIC",
+            "amount_rupees": 375172
+          },
+          "spouse_details": {
+            "company": "LIC",
+            "amount_rupees": 80000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 851540,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2283871,
+          "self_details": [
+            {"make": "Hyundai i20", "reg_no": "GJ 01 RN 3199", "year": 2016, "amount_rupees": 851540},
+            {"make": "Mahindra Xuv Car", "reg_no": "GJ 1 KR 4499", "amount_rupees": 1402331},
+            {"make": "TVS Wego", "reg_no": "GJ 14 AD 6099", "year": 2012, "amount_rupees": 30000}
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 800000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1800000,
+          "self_details": {
+            "amount_rupees": 1000000
+          },
+          "spouse_details": {
+            "amount_rupees": 800000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 32886063,
+      "total_current_market_value_spouse_rupees": 10423700,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 43309763,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 14250000,
+          "spouse_value_rupees": 410000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18350000,
+          "self_details": [
+            {"location": "Amreli 944P 944P1 944P5 946P1 947P1 1153P3 Vavdi Road 212/2P1 27/1P1 103/1-2N3", "area": "0.47.55 0.47.55 1.30.51 0.03.57 0.23.78 0.41.62 1.35.06 2.98.45 0.06.46", "inherited": false, "purchase_date": "2000-04-29", "purchase_cost_rupees": 0, "development_cost_rupees": 0, "current_value_rupees": 14250000}
+          ],
+          "spouse_details": [
+            {"location": "Amreli 946P4 Vavdi Rd. 31/1P3", "area": "2..8.75", "inherited": false, "purchase_date": "0000-00-00", "purchase_cost_rupees": 0, "development_cost_rupees": 0, "current_value_rupees": 410000}
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 73600,
+          "spouse_value_rupees": 892700,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7087800,
+          "self_details": [
+            {"location": "Vavdi Rd. Plot no.1 S.No. 103 Part Plot No. 04", "area": "686.25 sq.mtr.", "inherited": false, "purchase_date": "2000-12-18", "purchase_cost_rupees": 0, "development_cost_rupees": 0, "current_value_rupees": 73600}
+          ],
+          "spouse_details": [
+            {"location": "Shapar", "area": "67.28", "inherited": false, "purchase_date": "2011-03-01", "purchase_cost_rupees": 850000, "development_cost_rupees": 0, "current_value_rupees": 892700},
+            {"location": "Sarti Residency", "area": "123.95", "built_up_area": "123.95", "inherited": false, "purchase_date": "2011-03-15", "purchase_cost_rupees": 804420, "development_cost_rupees": 0, "current_value_rupees": 1000000},
+            {"location": "R.S.No. 293/1 Part C.S.No. 559 Part plot No. 364 Part", "inherited": false, "purchase_date": "2005-02-23", "purchase_cost_rupees": 206000, "development_cost_rupees": 0, "current_value_rupees": 206000},
+            {"location": "R.S.No. 293/1 C.S.no. 559 part Plot No.364", "inherited": false, "purchase_date": "1992-02-19", "purchase_cost_rupees": 25000, "development_cost_rupees": 0, "current_value_rupees": 325000},
+            {"location": "Shop heaven Flat No. D/203 S.No.539/1, 539/8 Part Plot No.1", "inherited": false, "purchase_date": "2017-09-04", "purchase_cost_rupees": 3490500, "development_cost_rupees": 0, "current_value_rupees": 4590500}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 6752680,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 19387463,
+          "self_details": [
+            {"location": "Tika no.21 Part S.no.41 Amreli Silver Palace office", "area": "1200 sq.ft.", "inherited": false, "purchase_date": "2011-12-03", "purchase_cost_rupees": 5500000, "development_cost_rupees": 0, "current_value_rupees": 6752680},
+            {"location": "Tika no.21 Part S.no.41 Amreli Silver Palace office", "area": "4100 sq.ft.", "inherited": false, "purchase_date": "2011-12-03", "purchase_cost_rupees": 3500000, "development_cost_rupees": 0, "current_value_rupees": 5634783},
+            {"location": "Vavdi Taluka Rajkot S.No.42 Part plot No.30 31", "area": "963 sq.mtr.", "inherited": false, "purchase_date": "2011-06-30", "purchase_cost_rupees": 4815000, "development_cost_rupees": 0, "current_value_rupees": 5000000},
+            {"location": "Katiyara Rajkot S.no.149, 154 Part 1, 155, 155, 156", "area": "132 sq.mtr.", "inherited": false, "purchase_date": "2012-04-09", "purchase_cost_rupees": 1800000, "development_cost_rupees": 0, "current_value_rupees": 2000000}
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 90000000,
+          "spouse_value_rupees": 30000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000000,
+          "self_details": [
+            {"location": "M. Shela, taluka sanhad Samhavad Plot No.181 part", "area": "1262 sq. var", "built_up_area": "600 sq.mtr.", "inherited": false, "purchase_date": "0000-00-00", "purchase_cost_rupees": 6600000, "development_cost_rupees": 0, "current_value_rupees": 90000000},
+            {"location": "R No.293/1 559 Haridawar Amreli", "area": "191.10 sq.mtr.", "built_up_area": "100 sq.mtr.", "inherited": false, "purchase_date": "0000-00-00", "purchase_cost_rupees": 3000000, "development_cost_rupees": 0, "current_value_rupees": 30000000}
+          ],
+          "spouse_details": [
+            {"location": "Vaishnavdevi Flat Ahmedabad", "area": "145 sq.vara", "built_up_area": "145 sq.vara", "inherited": false, "purchase_date": "0000-00-00", "purchase_cost_rupees": 0, "development_cost_rupees": 0, "current_value_rupees": 30000000}
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3646205,
+      "grand_total_of_liabilities_spouse_rupees": 121064,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3767269,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 32886063
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 268604,
+          "spouse_value_rupees": 69464,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3767269,
+          "self_details": [
+            {"bank": "SBI", "loan_type": "Car Loan", "amount_rupees": 268604},
+            {"bank": "IDBI", "loan_type": "Credit Cash", "amount_rupees": 900014},
+            {"bank": "Ahmedabad District Co.Op. Bank", "amount_rupees": 2120387},
+            {"bank": "HDFC", "loan_type": "Cash Credit", "amount_rupees": 62000},
+            {"bank": "City Bank", "loan_type": "Credit Card", "amount_rupees": 40000},
+            {"bank": "Shree Vavdi Rd. Seva Sahakari Ltd.", "amount_rupees": 119200},
+            {"bank": "SBI", "amount_rupees": 136000}
+          ],
+          "spouse_details": [
+            {"bank": "SBI", "amount_rupees": 69464},
+            {"bank": "Shree vavdi Rd. Sahakari Ltd.", "amount_rupees": 51600}
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 410000,
-      "non_agricultural_land": {
-        "description": "Shapar Total Area 67.28",
-        "area_sq_mtr": 67.28,
-        "inherited": "N",
-        "purchase_date": "2011-03-01",
-        "purchase_cost_inr": 850000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 892700
+    "other_elections": [
+      {
+        "election_name": "Gujarat 2022",
+        "declared_assets_rupees": 107058017,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Vaishnavdevi Flat Ahmedabad",
-        "total_area_sqft": 1560.85,
-        "built_up_area_sqft": 1560.85,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 10424200
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3646205,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3646205
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 121064,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 121064
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election_name": "Loksabha 2014",
+        "declared_assets_rupees": 48834257,
+        "declared_cases": 5
+      }
+    ]
   }
 }

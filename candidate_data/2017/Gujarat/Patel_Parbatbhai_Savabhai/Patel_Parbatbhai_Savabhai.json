@@ -2,121 +2,645 @@
   "candidate_name": "PATEL PARBATBHAI SAVABHAI",
   "party": "BJP",
   "constituency": "THARAD",
-  "father_or_husband_name": "Patel Savabhai Lagdhirbhai",
-  "age": 69,
-  "education": "Graduate Professional Old SSC., G.S.C.I. Board, Vadodara, March 1986, B.A.- Gujarat University, Ahmedabad, Year - March/April - 1972, LL.B - Gujarat University, Ahmedabad, April - 1980",
-  "profession_self": "Farmer & Social Worker",
-  "profession_spouse": "Farming & Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 28535221,
-  "liabilities_total_inr": 1500000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 1185750
+  "state": "Gujarat",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Patel Savabhai Lagdhirbhai",
+      "age": 69,
+      "voter_enrolled_in": {
+        "constituency": "78 - Tharad (Gujarat)",
+        "serial_no": 822,
+        "part_no": 162
+      },
+      "self_profession": "Farmer & Social Worker",
+      "spouse_profession": "Farming & Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 28535221,
+      "total_liabilities_in_rupees": 1500000
+    },
+    "educational_details": {
+      "category": "Graduate Professional Old SSC.",
+      "details": "Old SSC., G.S.C.I. Board, Vadodara, March 1986, B.A.- Gujarat University, Ahmedabad, Year - March/April - 1972, LL.B - Gujarat University, Ahmedabad, April - 1980"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 1185750
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 5057897
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 1031786
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 5372793,
+      "gross_total_value_spouse_rupees": 4967428,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 10340221,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 995000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1395000,
+          "self_details": {
+            "amount_rupees": 400000
+          },
+          "spouse_details": {
+            "amount_rupees": 995000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2189034,
+          "spouse_value_rupees": 3211196,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5400230,
+          "self_details": [
+            {
+              "bank": "State Back",
+              "branch": "Tharad",
+              "account_no": "10842389389",
+              "amount_rupees": 55965
+            },
+            {
+              "bank": "State Bank",
+              "branch": "Gandhinagar",
+              "account_no": "10325130346",
+              "amount_rupees": 1363923
+            },
+            {
+              "bank": "Banasbank",
+              "branch": "Tharad Branch",
+              "account_no": "11800032506",
+              "amount_rupees": 761264
+            },
+            {
+              "bank": "HUF - Banasbank",
+              "branch": "Tharad",
+              "account_no": "118000322391",
+              "amount_rupees": 2882
+            },
+            {
+              "bank": "Dena Bank",
+              "branch": "Tharad",
+              "account_no": "081310076775",
+              "amount_rupees": 40000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Banas Bank",
+              "branch": "Tharad",
+              "account_no": "118000417987",
+              "amount_rupees": 2199931
+            },
+            {
+              "bank": "Dena Bank",
+              "branch": "Tharad",
+              "account_no": "081310047430",
+              "amount_rupees": 11265
+            },
+            {
+              "bank": "The Shenal Nagarik Sharafi Mandali Ltd.",
+              "branch": "Tharad",
+              "amount_rupees": 1030000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 913905,
+          "spouse_value_rupees": 44000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 957905,
+          "self_details": [
+            {
+              "type": "NSC",
+              "amount_rupees": 772000
+            },
+            {
+              "type": "Post Office",
+              "account_no": "9531749240",
+              "amount_rupees": 141905,
+              "joint": true
+            }
+          ],
+          "spouse_details": [
+            {
+              "type": "NSC",
+              "amount_rupees": 44000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 354852,
+          "spouse_value_rupees": 27232,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 382084,
+          "self_details": {
+            "policy": "Bima Premium",
+            "frequency": "Yearly",
+            "amount_rupees": 354852
+          },
+          "spouse_details": {
+            "policy": "Insurance Premium",
+            "frequency": "Yearly",
+            "amount_rupees": 27232
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 600000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 600000,
+          "self_details": {
+            "amount_rupees": 600000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 690000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 990000,
+          "self_details": {
+            "item": "Gold",
+            "weight_tola": 10,
+            "amount_rupees": 300000
+          },
+          "spouse_details": [
+            {
+              "item": "Gold",
+              "weight_tola": 15,
+              "amount_rupees": 450000
+            },
+            {
+              "item": "Silver",
+              "weight_kg": 6,
+              "amount_rupees": 240000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 575000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 575000,
+          "self_details": [
+            {
+              "description": "Mu. Bhachar Ac. Tubewell",
+              "amount_rupees": 500000
+            },
+            {
+              "description": "Revolver",
+              "license_no": "2/85",
+              "amount_rupees": 75000
+            }
+          ],
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 107500000,
+      "total_current_market_value_spouse_rupees": 74450000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 181950000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 40000000,
+          "spouse_value_rupees": 28000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 68000000,
+          "self_details": [
+            {
+              "location": "Bhachar, Lendau (Joint), Lendau (Joint)",
+              "total_area": "37 Acre 25 Guntha",
+              "inherited": true,
+              "purchase_date": "2013-11-20",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 40000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Lendau, Tharad, Vajegadh (Joint), Tharad (Joint)",
+              "total_area": "31 Acre",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 2794775,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 28000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 4000000,
+          "spouse_value_rupees": 37000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 41000000,
+          "self_details": [
+            {
+              "location": "(1)Bhachar, (Joint) Plot, Tharad,S.No.1, (2)Tharad Survey No. 209, (3)Tharad, Survey No. 191/2, Plot",
+              "area": "1041 Sq.Ft., 2874.8 Sq.Ft., 14977.92 Sq.Ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 160000,
+              "current_value_rupees": 4000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "1) Bhachar, Survey No. 2/2 Part/1, 2) Tharad, Survey No. 187/P2, 3) Tharad, Survey No. 191/2, 4) Tharad, Shop No. 17, 5) Tharad, Survey No. 185/1 P1",
+              "total_area": "18475.84 Sq.mt.",
+              "inherited": true,
+              "purchase_date": "2005-09-12",
+              "purchase_cost_rupees": 2275745,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 37000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 945000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 945000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "location": "Marketyard Shop-cum-Godown",
+              "inherited": false,
+              "purchase_date": "2016-05-30",
+              "purchase_cost_rupees": 945000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 945000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 63500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 63500000,
+          "self_details": [
+            {
+              "location": "1) Bhachar, Gamtan, 2) Mu. Vajegadh, Survey No. 78/A Part 3) Mu. Vajegadh, Survey No. 78/A Part 4) Mu. Tharad, Survey No. 214B 5) Mu. Gandhinagar, Sector-3D, Plot No. 1152",
+              "total_area": "13472 Sq.ft.",
+              "built_up_area": "8080 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "1987-08-09",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 63500000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 1500000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1500000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1500000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "name": "HUF - Parbatbhai Patel",
+              "amount_rupees": 500000
+            },
+            {
+              "name": "Maheshbhai",
+              "amount_rupees": 500000
+            },
+            {
+              "name": "Maliben",
+              "amount_rupees": 500000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election": "Lok Sabha 2019",
+        "declared_assets_rupees": 41819177,
+        "declared_cases": 0
+      },
+      {
+        "election": "Gujarat 2012",
+        "declared_assets_rupees": 18535177,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 5057897
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 1031786
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 400000,
-      "bank_deposits_inr": 2171070,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 913905,
-      "lic_other_insurance_inr": 354852,
-      "personal_loans_advance_given_inr": 600000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 300000,
-      "other_assets_inr": 575000,
-      "gross_total_value_inr": 5367791
-    },
-    "spouse": {
-      "cash_inr": 995000,
-      "bank_deposits_inr": 3231196,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 44000,
-      "lic_other_insurance_inr": 27232,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 690000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4997428
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 4000000,
-      "non_agricultural_land": 400000,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 6350000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 10750000
-    },
-    "spouse": {
-      "agricultural_land_inr": 2800000,
-      "non_agricultural_land": 3700000,
-      "commercial_buildings_inr": 945000,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 7445000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 1500000,
-      "grand_total_of_liabilities_inr": 1500000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    ],
+    "election_expenses_url": "https://www.myneta.info/Gujarat2017/expense.php?candidate_id=4399",
+    "print_profile_url": "https://www.myneta.info/Gujarat2017/candidate.php?candidate_id=4399&print=true",
+    "compare_profile_url": "https://www.myneta.info/compare_profile.php?group_id=EZZXEB9NHf28bA4NPwKJ"
+  }
 }

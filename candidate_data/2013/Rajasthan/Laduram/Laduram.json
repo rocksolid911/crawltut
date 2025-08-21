@@ -1,156 +1,580 @@
 {
   "candidate_name": "LADURAM",
   "party": "BJP",
-  "constituency": "GUDAMALANI (BARMER)",
-  "father_or_husband_name": "Chimaram",
-  "age": 71,
-  "education": "Graduate Professional Bachelor of Engineering (Electrical), 1965 From Jodhpur University, Jodhpur",
-  "profession_self": "Pension, Agriculture and Fixed Deposit in Bank",
-  "profession_spouse": "Business and Agriculture Income",
-  "criminal_cases": 0,
-  "assets_total_inr": 84971019,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 1011579
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 16919
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 119020,
-      "bank_deposits_inr": 5585026,
-      "bonds_debentures_shares_inr": 80000,
-      "nss_postal_savings_inr": 1962578,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 389000,
-      "other_assets_inr": 760242,
-      "gross_total_value_inr": 9750266
-    },
-    "spouse": {
-      "cash_inr": 199502,
-      "bank_deposits_inr": 1999905,
-      "bonds_debentures_shares_inr": 110000,
-      "nss_postal_savings_inr": 2227594,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 8500000,
-      "motor_vehicles_inr": 6342786,
-      "jewellery_inr": 3428005,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 22808892
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3725000,
-      "non_agricultural_land": {
-        "description": "Dharam Nagar, Near New Power House, Barmer, Plot No. A-9; R.S.E.B. Colony, Pal Road, Jodhpur, Plot No. 171",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1700000
+  "constituency": "GUDAMALANI",
+  "state": "Rajasthan",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Chimaram",
+      "age": 71,
+      "voter_enrolled_in": {
+        "constituency": "139 Gudamalani",
+        "state": "Rajasthan",
+        "serial_no": 538,
+        "part_no": 162
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "R.S.E.B. Colony, Pal Road, Jodhpur, Plot No. 170; Shivaji Nagar Colony, Jalore, B-4",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "Y",
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1900000
+      "self_profession": "Pension, Agriculture and Fixed Deposit in Bank",
+      "spouse_profession": "Business and Agriculture Income"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 84971019,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "Bachelor of Engineering (Electrical), 1965 From Jodhpur University, Jodhpur"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1011579
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 16919
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 9761267,
+      "gross_total_value_spouse_rupees": 22808893,
+      "gross_total_value_dependent1_rupees": 11000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 32570160,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 119020,
+          "spouse_value_rupees": 199502,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 318522,
+          "self_details": "1,19,020",
+          "spouse_details": "1,99,502"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 6341417,
+          "spouse_value_rupees": 2040439,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8437431,
+          "self_details": "HSBC Jodhpur No 15605028xxxxx 76,740  76 Thou+ SBBJ Jodhpur No 5103920xxxxx 8,58,977  8 Lacs+ SBBJ Jaipur No 5108901xxxxx 95,699  95 Thou+ SBI Gaudamalani No 33433xxxxxRG21 5,010  5 Thou+ SBBJ FDR 43,00,000  43 Lacs+ SBBJ FDR 11,00,000  11 Lacs+",
+          "spouse_details": "HSBC Jodhpur No 15604967xxxxx 19,80,781  19 Lacs+ Canara Bank Jodhpur No 1xxxxx 20,224  20 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 80000,
+          "spouse_value_rupees": 110000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 190000,
+          "self_details": "UTI Mepus 10,000  10 Thou+ SBI Magnum Comma Fund 50,000  50 Thou+ IDFC Bond 20,000  20 Thou+",
+          "spouse_details": "MEP-95 10,000  10 Thou+ SBI Magnum Comma Fund 1,00,000  1 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 1965578,
+          "spouse_value_rupees": 2227594,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4193172,
+          "self_details": "NSC 3,000  3 Thou+ PPF A/C No. 219 19,62,578  19 Lacs+",
+          "spouse_details": "PPF A/C No. 221 22,27,594  22 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 8500000,
+          "dependent1_value_rupees": 11000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8511000,
+          "self_details": "Nil",
+          "spouse_details": "85,00,000  85 Lacs+",
+          "dependent1_details": "Laduram Vishnoi (HUF 11,000  11 Thou+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 6342786,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6342786,
+          "self_details": "Nil",
+          "spouse_details": "Pajaro RJ19UB0007 (Hynduai Moter's) 27-02-2009 19,87,786  19 Lacs+ Innova RJ19UA4589 Tyoto Kirloskar Moters Pvt. Ltd. 8-10-2009 8,30,000  8 Lacs+ Scorpio RJ19UB1007 OS Motors Pvt. Ltd. 10,75,000  10 Lacs+ Fortuner A/F 24-10-2012 24,50,000  24 Lacs+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 389000,
+          "spouse_value_rupees": 3428005,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3817005,
+          "self_details": "Silver 3,89,000  3 Lacs+",
+          "spouse_details": "Gold Jewellery 22,87,905  22 Lacs+ Silver 11,40,100  11 Lacs+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 760242,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 760242,
+          "self_details": "Telephone Security 2,500  2 Thou+ Accured Interest on FDR 7,57,742  7 Lacs+",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 7325000,
+      "total_current_market_value_spouse_rupees": 45075859,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 52400859,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 3725000,
+          "spouse_value_rupees": 1000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4725000,
+          "self_details": [
+            {
+              "location": "Daukiyo and Saduo Ki Thadi, Hemaguda Teh. Sanchore",
+              "sy_no": "894, 910, 892, 1018, 3, 696, 4",
+              "total_area": "142 Bigha",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2000000
+            },
+            {
+              "location": "Daukiyo and Saduo Ki Thadi, Hemaguda Teh. Sanchore",
+              "sy_no": "946, 1111, 663",
+              "total_area": "62 Bigha",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 500000
+            },
+            {
+              "location": "Bhaduo and Goyato Ki Thadi, Hemaguda, Teh. Sanchore",
+              "sy_no": "310, 311, 919",
+              "total_area": "44 Bigha",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 525000
+            },
+            {
+              "location": "Vill. Akoli, Teh. Sanchore",
+              "sy_no": "503",
+              "total_area": "9 Bigha",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 700000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Mandgaon, Jalore",
+              "sy_no": "206-207",
+              "total_area": "26 Bigha",
+              "inherited": false,
+              "purchase_date": "1973-01-01",
+              "purchase_cost_rupees": 5000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 300000
+            },
+            {
+              "location": "Nagari, Nagaur",
+              "sy_no": "350/1/545",
+              "total_area": "3 Bigha",
+              "inherited": false,
+              "purchase_date": "1992-01-01",
+              "purchase_cost_rupees": 75000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 700000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 1700000,
+          "spouse_value_rupees": 7225000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8925000,
+          "self_details": [
+            {
+              "location": "Dharam Nagar, Near New Power House, Barmer",
+              "plot_no": "A-9",
+              "total_area": "1800 sq. ft.",
+              "inherited": false,
+              "purchase_date": "1984-01-01",
+              "purchase_cost_rupees": 5240,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            },
+            {
+              "location": "R.S.E.B. Colony, Pal Road, Jodhpur",
+              "plot_no": "171",
+              "total_area": "2800 Sq. ft.",
+              "inherited": false,
+              "purchase_date": "1993-01-01",
+              "purchase_cost_rupees": 29332,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 700000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Vidhan Sabha Nagar, New Sanganer Road Jaipur",
+              "plot_no": "B-147",
+              "total_area": "3600 Sq. ft.",
+              "inherited": false,
+              "purchase_date": "1991-01-01",
+              "purchase_cost_rupees": 127800,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2000000
+            },
+            {
+              "location": "Samrathal Dhora Road, Nokha, Bikaner",
+              "total_area": "675 Sq. ft.",
+              "inherited": false,
+              "purchase_date": "1985-01-01",
+              "purchase_cost_rupees": 6764,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 125000
+            },
+            {
+              "location": "Tanawara",
+              "total_area": "17.50 Bigha",
+              "inherited": false,
+              "purchase_date": "2008-01-01",
+              "purchase_cost_rupees": 2308600,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5100000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 1900000,
+          "spouse_value_rupees": 6369220,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8269220,
+          "self_details": "R.S.E.B. Colony, Pal Road, Jodhpur, Plot No. 170 Area 2100 Rs. 1000000, 2) Inherited Property Shivaji Nagar Colony, Jalore, B-4 Area 2250 Rs. 900000 Total Area 5050 sq. ft. Built Up Area  Whether Inherited Y Purchase Date 1993-01-01 Purchase Cost 29332.00 Development Cost 0.00 19,00,000  19 Lacs+",
+          "spouse_details": "One Flat Osho Apartment Jodhpur  Total Area 1125 Sq. ft. Built Up Area 1125 Sq. ft. Whether Inherited N Purchase Date 2002-01-01 Purchase Cost 950000.00 Development Cost 0.00 20,00,000  20 Lacs+ Ansal Properties & Infrastructure Ltd. (Plot) Total Area Built Up Area  Whether Inherited N Purchase Date 2002-01-01 Purchase Cost 1289626.00 Development Cost 0.00 12,89,626  12 Lacs+ Pal Infrastructure and Development Pvt. Ltd. Faridabad (Flat) Total Area Built Up Area  Whether Inherited N Purchase Date 2006-01-01 Purchase Cost 979594.00 Development Cost 0.00 9,79,594  9 Lacs+ House, Rajasthan Awasan Mandal Kudi, Jodhpur Total Area Built Up Area  Whether Inherited N Purchase Date 2007-01-01 Purchase Cost 1160016.00 Development Cost 0.00 21,00,000  21 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 30481638,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30481638,
+          "self_details": "Nil",
+          "spouse_details": "Maisars Krishna International AcJim, Share Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,83,73,377  2 Crore+ Krishna Group Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 21,08,261  21 Lacs+"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 7325000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 1000000,
-      "non_agricultural_land": {
-        "description": "Vidhan Sabha Nagar, New Sanganer Road Jaipur, Plot No. B-147; Samrathal Dhora Road, Nokha, Bikaner; Tanawara",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 7225000
+    "other_elections": [
+      {
+        "declaration_in": "Rajasthan 2018",
+        "declared_assets_rupees": 129682089,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "One Flat Osho Apartment Jodhpur; Ansal Properties & Infrastructure Ltd. (Plot); Pal Infrastructure and Development Pvt. Ltd. Faridabad (Flat); House, Rajasthan Awasan Mandal Kudi, Jodhpur",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 6369220
-      },
-      "others_inr": 30481638,
-      "total_current_market_value_inr": 45075858
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "declaration_in": "Rajasthan 2008",
+        "declared_assets_rupees": 37179719,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

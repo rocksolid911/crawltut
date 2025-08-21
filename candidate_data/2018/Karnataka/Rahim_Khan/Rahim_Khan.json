@@ -2,165 +2,634 @@
   "candidate_name": "RAHIM KHAN",
   "party": "INC",
   "constituency": "BIDAR",
-  "father_or_husband_name": "Mahmood Khan",
-  "age": 52,
-  "education": "12th Pass PUC II year (Science) from Department of Pre-University Education, Bangalore (Board), Govt. Junior College, Bidar in 1985",
-  "profession_self": "Social Worker, Educationlist & Agirculture",
-  "profession_spouse": "Spouse 1 - House Wife & Agriculture, Spouse 2 - Business & Agriculture",
-  "criminal_cases": 0,
-  "assets_total_inr": 129048323,
-  "liabilities_total_inr": 42569374,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 3450455
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 411580
-      }
-    },
-    "huf": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017 - 2018": 1303881
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 96500,
-      "bank_deposits_inr": 14757391,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 90000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2740000,
-      "jewellery_inr": 164683,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 17482328
-    },
-    "spouse": {
-      "cash_inr": 72500,
-      "bank_deposits_inr": 2208476,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 210000,
-      "jewellery_inr": 647519,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3065995
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 34000000,
-      "non_agricultural_land": {
-        "description": "Naganhalli Gulbarga, Sy. No. 4/1",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2006-10-31",
-        "purchase_cost_inr": 137710,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2000000
+  "state": "Karnataka",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Mahmood Khan",
+      "age": 52,
+      "voter_enrolled_in": {
+        "constituency": "50 Bidar (Karnataka)",
+        "serial_no": 104,
+        "part_no": 144
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "H.No. 13/3 Jayamahal Ext Apartment BNG",
-        "total_area_sqft": 426.79,
-        "built_up_area_sqft": 2318.1,
-        "inherited": "N",
-        "purchase_date": "2016-08-12",
-        "purchase_cost_inr": 7726412,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9000000
+      "self_profession": "Social Worker, Educationlist & Agirculture",
+      "spouse_profession": "Spouse 1 - House Wife & Agriculture, Spouse 2 - Business & Agriculture"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 129048323,
+      "total_liabilities_in_rupees": 42569374
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "PUC II year (Science) from Department of Pre-University Education, Bangalore (Board), Govt. Junior College, Bidar in 1985"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 3450455
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 411580
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 1303881
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 17482328,
+      "gross_total_value_spouse_rupees": 3065995,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 20548323,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 96500,
+          "spouse_value_rupees": 72500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 169000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 14785491,
+          "spouse_value_rupees": 2208476,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16996003,
+          "self_details": [
+            {
+              "bank": "The Karnataka State Co-operative Apex Bank Ltd.",
+              "amount": 5948270
+            },
+            {
+              "bank": "Karnataka Bank Ltd.",
+              "amount": 43853
+            },
+            {
+              "bank": "ICICI Bank",
+              "amount": 19839
+            },
+            {
+              "bank": "Syndicate Bank",
+              "amount": 1183922
+            },
+            {
+              "bank": "Indian Bank",
+              "amount": 551886
+            },
+            {
+              "bank": "Canara Bank",
+              "amount": 172036
+            },
+            {
+              "bank": "IDBI",
+              "amount": 6867721
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "ICICI Bank",
+              "amount": 314910
+            },
+            {
+              "bank": "SBT",
+              "amount": 1893566
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 90000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 90000,
+          "self_details": {
+            "policy": "LIC",
+            "value": 90000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2740000,
+          "spouse_value_rupees": 210000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2950000,
+          "self_details": [
+            {
+              "make": "Scorpio Vehicle",
+              "model": "KA-02/MA-2046",
+              "value": 90000
+            },
+            {
+              "make": "Fortuner",
+              "model": "2015",
+              "value": 2650000
+            }
+          ],
+          "spouse_details": [
+            {
+              "make": "Qualis",
+              "model": "KA-09 MD 1236",
+              "value": 210000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 164683,
+          "spouse_value_rupees": 647519,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 812202,
+          "self_details": {
+            "weight_gm": 150,
+            "value": 164683
+          },
+          "spouse_details": [
+            {
+              "weight_gm": 350,
+              "value": 452519
+            },
+            {
+              "weight_gm": 290,
+              "value": 195000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 450000000,
+      "total_current_market_value_spouse_rupees": 635000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 1085000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 340000000,
+          "spouse_value_rupees": 265000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 605000000,
+          "self_details": [
+            {
+              "location": "Village Hallad Keri",
+              "sy_no": "101/1, 105/*/2, 105/*/5",
+              "area": "10 Acre 38 Gunta",
+              "purchase_cost": 1823000,
+              "current_value": 340000000
+            },
+            {
+              "location": "chidri, Bidar",
+              "sy_no": "112/1C",
+              "area": null,
+              "purchase_cost": null,
+              "current_value": null
+            },
+            {
+              "location": "Malgati",
+              "sy_no": "99/3, 99/4",
+              "area": "06 Acre 00 gunta",
+              "purchase_cost": 107985,
+              "current_value": null
+            },
+            {
+              "location": "Biddarhalli-Hobli Bangalore",
+              "sy_no": "10/D23, 10, 10, 10, 54*2, 200/*/p39",
+              "area": "03 Acre 20 Gunta",
+              "purchase_cost": 5704105,
+              "current_value": null
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Bidar",
+              "sy_no": "15/4, 101/5, 101/3, 101/4, 101/1",
+              "area": "12 acre 38.8 Gunta",
+              "purchase_cost": 4555000,
+              "current_value": 265000000
+            },
+            {
+              "location": "Malgati, Kapnoora, azadpur Gulbarga",
+              "sy_no": "97, 79, 99/4, 10/4, 94/2, 94/3",
+              "area": "18 acre 38 gunta",
+              "purchase_cost": 1151000,
+              "current_value": null
+            },
+            {
+              "location": "Bangalore",
+              "sy_no": "200/*/P11, P3, 53*4",
+              "area": "04 Acre 00 Gunta",
+              "purchase_cost": 1050000,
+              "current_value": null
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 95000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 115000000,
+          "self_details": [
+            {
+              "location": "Naganhalli Gulbarga",
+              "sy_no": "4/1",
+              "area": "1 Acre 07 Gunta",
+              "purchase_date": "2006-10-31",
+              "purchase_cost": 137710,
+              "current_value": 20000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Naganhali Gulbarga",
+              "sy_no": "4/4",
+              "area": "3 Acre 29 gunta",
+              "purchase_date": "0000-00-00",
+              "purchase_cost": 0,
+              "current_value": 95000000
+            },
+            {
+              "location": "Ring Road, Gulbarga",
+              "sy_no": "127/A, 127/A",
+              "area": null,
+              "purchase_date": "2006-10-17, 2006-10-18",
+              "purchase_cost": 550000,
+              "current_value": null
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 90000000,
+          "spouse_value_rupees": 275000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 365000000,
+          "self_details": [
+            {
+              "location": "Jayamahal Ext Apartment BNG",
+              "h_no": "13/3",
+              "total_area": "426.79 sq. ft.",
+              "built_up_area": "2318.1 sq. ft.",
+              "purchase_date": "2016-08-12",
+              "purchase_cost": 7726412,
+              "current_value": 90000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Jayamahal Ext Apartment BNG",
+              "h_no": "13/2",
+              "total_area": null,
+              "built_up_area": "2765.90 sq. ft.",
+              "purchase_date": "2016-08-12",
+              "purchase_cost": 20619178,
+              "current_value": 275000000
+            },
+            {
+              "location": "Chidri Bidari",
+              "h_no": "18-1-207/1",
+              "total_area": "1400 sq. ft.",
+              "built_up_area": "4800 sq. ft.",
+              "purchase_date": "2010-09-22",
+              "purchase_cost": 2900000,
+              "current_value": null
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 27008160,
+      "grand_total_of_liabilities_spouse_rupees": 15561214,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 42569374,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 45000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 7304926,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7304926,
+          "self_details": [
+            {
+              "bank": "Indian Bank",
+              "amount": 7304926
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 19703234,
+          "spouse_value_rupees": 15561214,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 35264448,
+          "self_details": [
+            {
+              "entity": "Golden Infra",
+              "amount": null
+            },
+            {
+              "entity": "SM kamal Pasha",
+              "amount": null
+            },
+            {
+              "entity": "Shamshir Ali & Other",
+              "amount": 19703234
+            }
+          ],
+          "spouse_details": [
+            {
+              "entity": "Other Individula Loan Rahim Khan",
+              "amount": 15561214
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 63500000,
-      "non_agricultural_land": {
-        "description": "Naganhali Gulbarga Sy. No. 4/4 Ring Road, Gulbarga Sy. No. 127/A, 127/A",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 2650000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9500000
+    "other_elections": [
+      {
+        "election_name": "Karnataka 2023",
+        "declared_assets_rupees": 838440950,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "H.No. 13/2 Jayamahal Ext Apartment BNG H.No. 18-1-207/1 Chidri Bidari",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 23519178,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 27500000
+      {
+        "election_name": "Karnataka 2013",
+        "declared_assets_rupees": 69934931,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 63500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 7304926,
-      "loans_due_to_individual_entity_inr": 19703234,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 27008160
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 15561214,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 15561214
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election_name": "Karnataka 2013",
+        "declared_assets_rupees": 89889329,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Karnataka 2008",
+        "declared_assets_rupees": 16901128,
+        "declared_cases": 0
+      }
+    ]
   }
 }

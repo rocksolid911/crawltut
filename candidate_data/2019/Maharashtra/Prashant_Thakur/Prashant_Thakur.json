@@ -1,162 +1,514 @@
 {
   "candidate_name": "Prashant Thakur",
   "party": "BJP",
-  "constituency": "PANVEL (RAIGAD)",
-  "father_or_husband_name": "Thakur Ram",
-  "age": 40,
-  "education": "12th Pass First Year from M.G.M. Engineer College, Panvel in 1993-94",
-  "profession_self": "Agriculture, Machinery-to-let",
-  "profession_spouse": "Agriculture, Machinery-to-let",
-  "criminal_cases": 5,
-  "assets_total_inr": 586036849,
-  "liabilities_total_inr": 28447351,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 54102482
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 2034657
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 10157992,
-      "bank_deposits_inr": 129312594,
-      "bonds_debentures_shares_inr": 56047710,
-      "nss_postal_savings_inr": 150000,
-      "lic_other_insurance_inr": 52537000,
-      "personal_loans_advance_given_inr": 100951330,
-      "motor_vehicles_inr": 29138958,
-      "jewellery_inr": 864000,
-      "other_assets_inr": 4820000,
-      "gross_total_value_inr": 319760584
-    },
-    "spouse": {
-      "cash_inr": 395943,
-      "bank_deposits_inr": 14787263,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 7847058,
-      "jewellery_inr": 1215000,
-      "other_assets_inr": 6000,
-      "gross_total_value_inr": 24701264
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 65545598,
-      "non_agricultural_land": {
-        "description": "Parsik Hill CBD Navi Mumbai Flot No 147B, Pali Devad Flot No 1 Gat No 27",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "2010-09-13",
-        "purchase_cost_inr": 11176610,
-        "development_cost_inr": 4566762,
-        "current_market_value_inr": 16683000
+  "constituency": "PANVEL",
+  "state": "Maharashtra",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Thakur Ram",
+      "age": 40,
+      "voter_enrolled_in": {
+        "constituency": "Panvel",
+        "state": "Maharashtra",
+        "serial_no": 196,
+        "part_no": 274
       },
-      "commercial_buildings_inr": 38583000,
-      "residential_buildings": {
-        "description": "Flot No 55 MCCH SOc Panvel, Flot No 58 Falt No 58 Flat No 5 MCCH Soc, Falt No 227,Asprayar Pride Flat NO 402 Panvel, Jasai Ta Uran Room No 739,740,741,742, Jasai Ta Uran Room No 765,766,767A, Jasai Ta Uran Room No 1053,1054,1055,1056, Jasai Ta Uran Room No 1113,1114,1115,1116, Jasai Ta Uran Room No 1296, Kundehal Padeghar Ta Panvel Room No 376,377,378, Nanoshi Manghar Ta Panvel Room No 508,509,510,511, Shivaji nagar Ta panvel Room No 1197, Derivali Panvel Room No 292",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "1999-02-20",
-        "purchase_cost_inr": 2267681,
-        "development_cost_inr": 6557457,
-        "current_market_value_inr": 33701434
+      "self_profession": "Agriculture, Machinery-to-let",
+      "spouse_profession": "Agriculture, Machinery-to-let"
+    },
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 586036849,
+      "total_liabilities_in_rupees": 28447351
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "First Year from M.G.M. Engineer College, Panvel in 1993-94"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 54102482
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 2034657
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "dacoity",
+          "ipc_section": "395",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Voluntarily causing hurt by dangerous weapons or means",
+          "ipc_section": "324",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Being member of an unlawful assembly",
+          "ipc_section": "143",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 2
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Unlawful assembly",
+          "ipc_section": "141",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Defamation",
+          "ipc_section": "499",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Defamation",
+          "ipc_section": "500",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        }
+      ],
+      "pending_cases": [],
+      "convicted_cases": [],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "143, 147, 148, 149, 452, 323, 427, 506, 395",
+          "other_details_or_acts_sections_applicable": "Crime no.108/2005, Kanlboli Police Station, Thane, Teh. Panvel, Dist. Raigad, First Class Judicial Magistrate Panvel, dated 15/09/2014"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "141, 143, 147, 149, 323, 427, 506(2)",
+          "other_details_or_acts_sections_applicable": "Sec.37(1)135 Bombay Police Act, Crime no.196/2008, Taloja Police Station Thane, Teh. Panvel, Dist. Raigad, First Class Judicial Magistrate Panvel, RC No.217/2010, dated 26/03/2010"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "143, 147, 148, 149, 324, 427, 506(2)",
+          "other_details_or_acts_sections_applicable": "Crime no.195/04, C.B.D. Police, Thane, Navi Mumbai, RC No.544/2005, Judicial Magistrate First Class Vashi Court, navi mumbai, dated 20/07/2005"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "499, 500",
+          "other_details_or_acts_sections_applicable": "SC No.1641/2009, First Class Judicial Magistrate Panvel, dated 01/08/2009"
+        },
+        {
+          "serial_no": 5,
+          "ipc_sections_applicable": "188",
+          "other_details_or_acts_sections_applicable": "Sec.37(1)(3)135 Mumbai Police Act, Case no. MA No.281/2013, dated 08/07/2013 Fir no.72/2010 dated 27/09/2010, First Class Judicial Magistrate Panvel,"
+        }
+      ]
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 365219543,
+      "gross_total_value_spouse_rupees": 14787263,
+      "gross_total_value_dependent1_rupees": 5725101,
+      "gross_total_value_dependent2_rupees": 27000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 385758907,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 10157992,
+          "spouse_value_rupees": 395943,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10553935
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 129312594,
+          "spouse_value_rupees": 223271,
+          "dependent1_value_rupees": 1589721,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 140685376
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 56047710,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 56047710
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 52537000,
+          "spouse_value_rupees": 5100000,
+          "dependent1_value_rupees": 40000000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 97637000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 100951330,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100951330
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 29138958,
+          "spouse_value_rupees": 992700,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30131658
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 864000,
+          "spouse_value_rupees": 1215000,
+          "dependent1_value_rupees": 81000,
+          "dependent2_value_rupees": 27000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2187000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 4820000,
+          "spouse_value_rupees": 6000,
+          "dependent1_value_rupees": 54380,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4880380
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 136862062,
+      "total_current_market_value_spouse_rupees": 72515880,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 209377942,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 120410508,
+          "spouse_value_rupees": 72515880,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 192926388
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 16683000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16683000
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 38583000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 38583000
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 33701434,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 33701434
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 14683875,
+      "grand_total_of_liabilities_spouse_rupees": 13763476,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 28447351,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 154512032
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 15627351,
+          "spouse_value_rupees": 2443476,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18070827
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 12820000,
+          "spouse_value_rupees": 11320000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 24140000
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 72515880,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "Nil",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "other_elections": [
+      {
+        "declaration_in": "Maharashtra 2024",
+        "declared_assets_rupees": 4758539330,
+        "declared_cases": 10
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "Nil",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+      {
+        "declaration_in": "Maharashtra 2019",
+        "declared_assets_rupees": 1832722562,
+        "declared_cases": 2
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 72515880
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 13083875,
-      "loans_due_to_individual_entity_inr": 1500000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 14583875
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 2443476,
-      "loans_due_to_individual_entity_inr": 11320000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 13763476
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "Nil"
+      {
+        "declaration_in": "Maharashtra 2009",
+        "declared_assets_rupees": 187074500,
+        "declared_cases": 3
+      }
+    ]
   }
 }

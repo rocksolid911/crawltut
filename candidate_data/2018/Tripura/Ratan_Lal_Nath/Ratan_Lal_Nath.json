@@ -1,146 +1,512 @@
 {
   "candidate_name": "RATAN LAL NATH",
   "party": "BJP",
-  "constituency": "MOHANPUR (WEST TRIPURA)",
-  "father_or_husband_name": "Late Debendra Kumar Nath",
-  "age": 67,
-  "education": "Graduate Professional B.A. From MBB College Under Calcutta University 1972, LLB From Calcutta University in 1979",
-  "profession_self": "Social Worker",
-  "profession_spouse": "Govt. Service",
-  "criminal_cases": 4,
-  "assets_total_inr": 12897253,
-  "liabilities_total_inr": 1005192,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 780830
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 21000,
-      "bank_deposits_inr": 3415088,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 120000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 819180,
-      "jewellery_inr": 50000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5142907
-    },
-    "spouse": {
-      "cash_inr": 12000,
-      "bank_deposits_inr": 1841020,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 550000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2403386
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 800000,
-      "non_agricultural_land": {
-        "description": "2.82 Acre T.K. Mouja Taranagar Khatian No. 1151 R.S. Plot No. 9799",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2016-06-03",
-        "purchase_cost_inr": 360000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 360000
+  "constituency": "MOHANPUR",
+  "state": "Tripura",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Debendra Kumar Nath",
+      "age": 67,
+      "voter_enrolled_in": {
+        "constituency": "2 Mohanpur (Tripura)",
+        "serial_no": 453,
+        "part_no": 10
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "2160 Sq.Ft. at Krishnanagar, Khatian No. 27356, Mauja Agartala Sheet No. 7 Plot No. 2249",
-        "total_area_sqft": 2160,
-        "built_up_area_sqft": 1790,
-        "inherited": "N",
-        "purchase_date": "1992-07-15",
-        "purchase_cost_inr": 200000,
-        "development_cost_inr": 512000,
-        "current_market_value_inr": 3500000
+      "self_profession": "Social Worker",
+      "spouse_profession": "Govt. Service"
+    },
+    "summary": {
+      "criminal_cases_count": 4,
+      "total_assets_in_rupees": 12897253,
+      "total_liabilities_in_rupees": 1005192
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.A. From MBB College Under Calcutta University 1972, LLB From Calcutta University in 1979"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 780830
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Voluntarily causing grievous hurt to deter public servant from his duty",
+          "ipc_section": "333",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Voluntarily causing grievous hurt by dangerous weapons or means",
+          "ipc_section": "326",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Attempt to murder",
+          "ipc_section": "307",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Defamation",
+          "ipc_section": "500",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Knowingly joining or continuing in assembly of five or more persons after it has been commanded to disperse",
+          "ipc_section": "151",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Printing or engraving matter known to be defamatory",
+          "ipc_section": "501",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Sale of printed or engraved substance containing defamatory matter",
+          "ipc_section": "502",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        }
+      ],
+      "cognizance_taken_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "500",
+          "other_details_or_acts_sections_applicable": "Court Taken Cognizance : Ld. Court C.J.M. Agartala West Tripura Case No. CR 11/12, Date of Cognizance : 24.01.2012"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "148, 149, 151, 188, 353, 333",
+          "other_details_or_acts_sections_applicable": "FIR No. East Agt P.S. 164/11 Dated 10-07-2011, Court Taken Cognizance : Addl. C.J.M. Agartala, West Tripura, Case No. PRC 709/11, Date of Cognizance 16.02.2012"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "148, 149, 326, 333, 353, 307, 427",
+          "other_details_or_acts_sections_applicable": "Addl CJM Agartala Court no.7 West Agt P.S. FIR No.231/2011 dated 11-07-2011 now ST (T2) 193/13 Case No. PRC 713/11, Date of Cognizance : 16.02.2012, Date of Charges : 26.07.2017, Sec. 5 of Exclusive Substance Act in the Court Addl. District & Session Judge West Tripura Agartala Court No. 2,"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "500, 501, 502, 34",
+          "other_details_or_acts_sections_applicable": "Court taking Cognizance -J.M. 1st Class Agartala, Court No. 1, Case No CR 98/12, Date of Cognizance : 18.02.2012"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 5142907,
+      "gross_total_value_spouse_rupees": 2403386,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 7546293,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 21000,
+          "spouse_value_rupees": 12000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 33000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5121907,
+          "spouse_value_rupees": 2403346,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5974113,
+          "self_details": "UCO Bank Mohanpur  9,928 ICICI Bank Agr. Br. 6,17,149 ICICI Bank Agr. Br. 7,32,656 Urban Bank Ltd.  5,610 SBI Agr.  7,10,811 Joint A/c With Wife SBI TLA House 71,630 Canara Bank Agr.  22,985 UBI SB A/c Battala  1,82,825 New UBI SB A/c Mohanpur No 179701001xxxxx 30,115 F.D. 17,49,018",
+          "spouse_details": "SBI Agr. Br.  1,67,366 Co.Op Urban Bank Ltd.  19,239 UCO Bank Mohanpur 5,096 UBI Agr.  1,91,262 F.D. 14,58,423"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 120000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 120000,
+          "self_details": "LIC Policy  1,20,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 819180,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 819180,
+          "self_details": "TR01-AN 0608, Private Car year 2016 8,19,180"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 550000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 600000,
+          "self_details": "2 Vori  50,000",
+          "spouse_details": "21 Vories 5,50,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 4660000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 4660000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 800000,
+          "self_details": "Inherited Property with other Survivors 8 Kanies Khatian No. 515, 510, 561/1 Mouja Mohanpur Another Land Under Mouja Mjisshpur khatian No. 3385 Total Area 19 Gandas Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 8,00,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 360000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 360000,
+          "self_details": "2.82 Acre T.K. Mouja Taranagar Khatian No. 1151 R.S. Plot No. 9799 Total Area 2.82 Acre Built Up Area  Whether Inherited N Purchase Date 2016-06-03 Purchase Cost 360000.00 Development Cost 0.00 3,60,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 3500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3500000,
+          "self_details": "2160 Sq.Ft. at Krishnanagar, Khatian No. 27356, Mauja Agartala Sheet No. 7 Plot No. 2249 Total Area 2160 Sq.Ft. Built Up Area 1790 Sq.ft. Whether Inherited N Purchase Date 1992-07-15 Purchase Cost 200000.00 Development Cost 512000.00 35,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1005192,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1005192,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 4660000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 1005192,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1005192,
+          "self_details": "Tripura Legislative Assembly, building construction loan 10,05,192"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 1005192,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1005192
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "other_elections": [
+      {
+        "declaration_in": "Tripura 2023",
+        "declared_assets_rupees": 26054154,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Tripura 2013",
+        "declared_assets_rupees": 8163595,
+        "declared_cases": 6
+      },
+      {
+        "declaration_in": "Tripura 2008",
+        "declared_assets_rupees": 2407049,
+        "declared_cases": 2
+      }
+    ]
   }
 }

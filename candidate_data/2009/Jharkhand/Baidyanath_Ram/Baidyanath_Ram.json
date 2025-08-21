@@ -2,109 +2,343 @@
   "candidate_name": "Baidyanath Ram",
   "party": "BJP",
   "constituency": "Latehar",
-  "father_or_husband_name": "Late Thuru Manjhi",
-  "age": 43,
-  "education": "Graduate, Matriculation from S.S.High School,Latehar in 1984, Graduation from Ranchi University,Ranchi in 1988",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 1,
-  "assets_total_inr": 7129899,
-  "liabilities_total_inr": 473560,
-  "income_tax_details": null,
-  "movable_assets": {
-    "self": {
-      "cash_inr": 75000,
-      "bank_deposits_inr": 117395,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 300000,
-      "jewellery_inr": 252000,
-      "other_assets_inr": 900000,
-      "gross_total_value_inr": 1660044
+  "state": "Jharkhand",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Thuru Manjhi",
+      "age": 43
     },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 2355,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": null,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 169000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 221355
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 7129899,
+      "total_liabilities_in_rupees": 473560
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Matriculation from S.S.High School,Latehar in 1984, Graduation from Ranchi University,Ranchi in 1988"
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Joining or continuing in unlawful assembly, knowing it has been commanded to disperse",
+          "ipc_section": "145",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting",
+          "ipc_section": "146",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "145, 146, 147",
+          "other_details_or_acts_sections_applicable": "174 I.R. Act, Railway Judicial Magistrate, Palamu at Dattonganj, Case No 20 of 2008, Date Of Order 22.04.2008"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1660044,
+      "gross_total_value_spouse_rupees": 221355,
+      "gross_total_value_dependent1_rupees": 28500,
+      "gross_total_value_dependent2_rupees": 366000,
+      "gross_total_value_dependent3_rupees": 4000,
+      "gross_total_value_total_rupees": 2279899,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 75000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 8500,
+          "dependent2_value_rupees": 16000,
+          "dependent3_value_rupees": 4000,
+          "total_value_rupees": 153500
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 117395,
+          "spouse_value_rupees": 2355,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 135399,
+          "self_details": [
+            {"bank": "SBI", "branch": "Doranda", "amount_rupees": 17395},
+            {"bank": "SBI", "branch": "Ltr.", "amount_rupees": 15649},
+            {"bank": "SBI", "branch": "Ltr.(Fixed)", "amount_rupees": 100000}
+          ],
+          "spouse_details": [
+            {"bank": "Gramin Bank Ltr.", "branch": "Vananchal", "amount_rupees": 2355}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": [
+            {"company": "LIC", "policy_no": "55154xxxxx", "value_not_given": true},
+            {"company": "LIC", "policy_no": "55357xxxxx", "value_not_given": true},
+            {"company": "LIC", "policy_no": "55155xxxxx", "value_not_given": true}
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 300000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 20000,
+          "dependent2_value_rupees": 350000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 670000,
+          "self_details": [
+            {"make": "Tata Sumo", "year": 2001, "value_rupees": 300000}
+          ],
+          "dependent1_details": [
+            {"make": "Scooty Pep.", "year": 2004, "value_rupees": 20000}
+          ],
+          "dependent2_details": [
+            {"make": "Tata Sumo Ex.", "year": 2003, "value_rupees": 350000}
+          ]
+        },
+        {
+          "sr_no": "vi",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 252000,
+          "spouse_value_rupees": 169000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 421000,
+          "self_details": [
+            {"item": "Gold", "weight_grams": 150, "value_rupees": 240000},
+            {"item": "Silver", "weight_grams": 400, "value_rupees": 12000}
+          ],
+          "spouse_details": [
+            {"item": "Gold", "weight_grams": 100, "value_rupees": 160000},
+            {"item": "Silver", "weight_grams": 300, "value_rupees": 9000}
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 900000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 900000,
+          "self_details": [
+            {"description": "Dairy", "value_rupees": 900000}
+          ]
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 43500000,
+      "total_current_market_value_spouse_rupees": 5000000,
+      "total_current_market_value_total_rupees": 48500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 13500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13500000,
+          "self_details": [
+            {"location": "Karkat-Jatta", "plot_no": "K-78-15", "area_acres": 2.33, "value_rupees": 13500000}
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 10000000,
+          "spouse_value_rupees": 5000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15000000,
+          "self_details": [
+            {"location": "Latehar", "plot_no": "K-53,73", "area_acres": 0.19, "value_rupees": 10000000}
+          ],
+          "spouse_details": [
+            {"location": "Lategar", "plot_no": "K-73", "area_acres": 0.08, "value_rupees": 5000000}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Buildings",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000000,
+          "self_details": [
+            {"type": "Residential", "location": "Latehar", "plot_no": "K-53", "area_acres": 0.31, "value_rupees": 20000000}
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Houses",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 473560,
+      "grand_total_of_liabilities_total_rupees": 473560,
+      "items": [
+        {
+          "sr_no": "(a) i",
+          "description": "Loans from Banks",
+          "self_value_rupees": 473560,
+          "total_value_rupees": 473560,
+          "self_details": [
+            {"bank": "SBI", "branch": "Latehar", "amount_rupees": 473560}
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Loans from Financial Institutions",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "(a) Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(c) Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(d) Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(e) Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(f) Other Dues if any",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b) (i) (a)",
+          "description": "Income Tax including surcharge",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) Permanent Account Number (PAN)",
+          "self_value_rupees": "PAN given-Y",
+          "total_value_rupees": "PAN given-Y"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Wealth Tax",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Sales Tax",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Property Tax",
+          "self_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     }
   },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1350000,
-      "non_agricultural_land": {
-        "description": "Latehar,K-53,73,Area 0.19 Acres",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1000000
-      },
-      "commercial_buildings_inr": null,
-      "residential_buildings": {
-        "description": "Residential ,Latehar, K-53,Area 0.31 Acre",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 2000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 4350000
+  "other_elections_data": [
+    {
+      "election": "Jharkhand 2024",
+      "declared_assets_rupees": 32909595,
+      "declared_cases": 0
     },
-    "spouse": {
-      "agricultural_land_inr": null,
-      "non_agricultural_land": {
-        "description": "Lategar,K-73,Area 0.08 Acre",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 500000
-      },
-      "commercial_buildings_inr": null,
-      "residential_buildings": null,
-      "others_inr": null,
-      "total_current_market_value_inr": 500000
+    {
+      "election": "Jharkhand 2019",
+      "declared_assets_rupees": 22546856,
+      "declared_cases": 0
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 473560,
-      "loans_due_to_individual_entity_inr": null,
-      "any_other_liability_inr": null,
-      "grand_total_of_liabilities_inr": 473560
-    },
-    "spouse": null,
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": null,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": null
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+  ]
 }

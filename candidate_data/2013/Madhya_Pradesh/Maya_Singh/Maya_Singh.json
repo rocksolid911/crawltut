@@ -1,156 +1,877 @@
 {
   "candidate_name": "Maya Singh",
   "party": "BJP",
-  "constituency": "GWALIOR EAST (GWALIOR)",
-  "father_or_husband_name": "Dhyanendra Singh",
-  "age": 62,
-  "education": "Post Graduate M.A.(Political Science),Jivaji University Gwalior,Year-1972",
-  "profession_self": "Government Honorarium and Agriculture",
-  "profession_spouse": "Pension,House Rent and Agriculture",
-  "criminal_cases": 0,
-  "assets_total_inr": 89999100,
-  "liabilities_total_inr": 1549055,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 966400
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 537050
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 2326483,
-      "bonds_debentures_shares_inr": 626434,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2200000,
-      "jewellery_inr": 4249199,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 10222116
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 10228347,
-      "bonds_debentures_shares_inr": 88125,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1260000,
-      "jewellery_inr": 1169680,
-      "other_assets_inr": 80000,
-      "gross_total_value_inr": 12851152
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 18700000,
-      "non_agricultural_land": {
-        "description": "Maharana Pratap Nagar Laskhar,Dist.Gwalior,Plot No.76,Area-1500 Sq.Ft.Plot No.-77,Area-1500 Sq.Ft.",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 1902000,
-        "development_cost_inr": 2210000,
-        "current_market_value_inr": 9180000
+  "constituency": "GWALIOR EAST",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Dhyanendra Singh",
+      "age": 62,
+      "voter_enrolled_in": {
+        "constituency": "16-Gwalior East",
+        "state": "Madhya Pradesh",
+        "serial_no": 552,
+        "part_no": 210
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Riviara Town Bhopal,Duplex No.59,Shri Bhagwan Mathur City Enclave New City Centre Gwalior,H.I.G.3 BHK Flat NO.H.B.204",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 1370000,
-        "development_cost_inr": 1268000,
-        "current_market_value_inr": 6350000
+      "self_profession": "Government Honorarium and Agriculture",
+      "spouse_profession": "Pension,House Rent and Agriculture"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 89999100,
+      "total_liabilities_in_rupees": 1549055
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A.(Political Science),Jivaji University Gwalior,Year-1972"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 966400
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 537050
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 10220516,
+      "gross_total_value_spouse_rupees": 12781152,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 23001668,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 20000,
+          "spouse_value_rupees": 25000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 45000,
+          "self_details": {
+            "amount_rupees": 20000
+          },
+          "spouse_details": {
+            "amount_rupees": 25000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2185583,
+          "spouse_value_rupees": 7171942,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9357525,
+          "self_details": [
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "Saving Account",
+              "account_no": "1002381xxxxx",
+              "amount_rupees": 54907
+            },
+            {
+              "bank": "Punjab National Bank",
+              "branch": "New Delhi",
+              "account_type": "Saving Account",
+              "account_no": "19800010018xxxxx",
+              "amount_rupees": 102206
+            },
+            {
+              "bank": "Dena Bank",
+              "branch": "Nayabazar,Gwalior",
+              "account_type": "Saving Account",
+              "account_no": "SB/GEN/2092",
+              "amount_rupees": 652350
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3217402xxxxx",
+              "amount_rupees": 659201
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3231527xxxxx",
+              "amount_rupees": 203919
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3263844xxxxx",
+              "amount_rupees": 150000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3268972xxxxx",
+              "amount_rupees": 350000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3274863xxxxx",
+              "amount_rupees": 120000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3280577xxxxx",
+              "amount_rupees": 250000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3303522xxxxx",
+              "amount_rupees": 57000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3310108xxxxx",
+              "amount_rupees": 220000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3326415xxxxx",
+              "amount_rupees": 100000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3335126xxxxx",
+              "amount_rupees": 49000
+            },
+            {
+              "bank": "State Bank of India",
+              "branch": "Parliament New Delhi",
+              "account_type": "FDR",
+              "account_no": "3342535xxxxx",
+              "amount_rupees": 150000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "State Bank of India",
+              "branch": "Jayendraganj Gwalior",
+              "account_type": "Saving Account",
+              "account_no": "1012406xxxxx",
+              "amount_rupees": 3396565
+            },
+            {
+              "bank": "Allahabad Bank",
+              "branch": "Urai(U.P.)",
+              "account_type": "Saving Account",
+              "account_no": "2028903xxxxx",
+              "amount_rupees": 856392
+            },
+            {
+              "bank": "Dena Bank",
+              "branch": "Nayabazar Lashkar Gwalior",
+              "account_type": "Saving Account",
+              "account_no": "SB/GEN/1971",
+              "amount_rupees": 642696
+            },
+            {
+              "bank": "Allahabad Bank",
+              "account_type": "FD",
+              "account_no": "08xxxxx",
+              "amount_rupees": 546715
+            },
+            {
+              "bank": "Allahabad Bank",
+              "account_type": "FD",
+              "account_no": "05xxxxx",
+              "amount_rupees": 715979
+            },
+            {
+              "bank": "State Bank of India",
+              "account_type": "FDR",
+              "account_no": "3301709xxxxx",
+              "amount_rupees": 4000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 580034,
+          "spouse_value_rupees": 88125,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 668159,
+          "self_details": [
+            {
+              "company": "HUL",
+              "type": "Share",
+              "value_rupees": 316082
+            },
+            {
+              "company": "Relience Capital",
+              "type": "Share",
+              "value_rupees": 3810
+            },
+            {
+              "company": "Relience Communication",
+              "type": "Share",
+              "value_rupees": 30280
+            },
+            {
+              "company": "Relience Industries",
+              "type": "Share",
+              "value_rupees": 272610
+            },
+            {
+              "company": "Relience Power",
+              "type": "Share",
+              "value_rupees": 3778
+            },
+            {
+              "company": "Relience Infra",
+              "type": "Share",
+              "value_rupees": 6174
+            }
+          ],
+          "spouse_details": [
+            {
+              "company": "Relience Power",
+              "type": "Share",
+              "value_rupees": 2040
+            },
+            {
+              "company": "Relience Bank",
+              "type": "Share",
+              "value_rupees": 86085
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2200000,
+          "spouse_value_rupees": 1260000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3460000,
+          "self_details": [
+            {
+              "make": "Honda City Car",
+              "registration_no": "DL4CAH6147",
+              "year": 2008,
+              "value_rupees": 900000
+            },
+            {
+              "make": "XUV500 Mahindra Car",
+              "registration_no": "DL-2CQ7758",
+              "year": 2012,
+              "value_rupees": 1300000
+            }
+          ],
+          "spouse_details": [
+            {
+              "make": "Honda City Car",
+              "registration_no": "DLMP11CC0406",
+              "year": 2007,
+              "value_rupees": 150000
+            },
+            {
+              "make": "Maruti Begon-R Car",
+              "registration_no": "DL3CN9913",
+              "year": 2000,
+              "value_rupees": 380000
+            },
+            {
+              "make": "Shevrolet Tavera Car",
+              "registration_no": "DL4CAD0274",
+              "year": 2004,
+              "value_rupees": 730000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 4219199,
+          "spouse_value_rupees": 969680,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5188879,
+          "self_details": [
+            {
+              "type": "Gold",
+              "weight_tola": 50,
+              "value_rupees": 1799199
+            },
+            {
+              "type": "Silver",
+              "weight_kg": 5,
+              "value_rupees": 250000
+            },
+            {
+              "type": "Jewellery",
+              "value_rupees": 2200000
+            }
+          ],
+          "spouse_details": [
+            {
+              "type": "Gold",
+              "weight_tola": 20,
+              "value_rupees": 719680
+            },
+            {
+              "type": "Silver",
+              "weight_kg": 5,
+              "value_rupees": 250000
+            },
+            {
+              "type": "Jewellery",
+              "value_rupees": 200000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 80000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 80000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "type": "12 Bor Gun",
+              "value_rupees": 20000
+            },
+            {
+              "type": "Revolver 32 Bor",
+              "value_rupees": 60000
+            }
+          ]
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 426300000,
+      "total_current_market_value_spouse_rupees": 243690000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 669990000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 22100000,
+          "spouse_value_rupees": 140600000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 162700000,
+          "self_details": [
+            {
+              "location": "Village-Nonera Naugaon,Pahan No.72 R.N.M.3 Lashkar,Teh.or Dist.Gwalior",
+              "khasra_no": "14 or 17",
+              "part_of_land_owner": "Maya Singh Husband Dhyanendra Singh,Part 1/4,Rupsingh Son Kalyan Singh,Part 1/4,Kamal Singh Son Nathu Singh",
+              "total_area_acre": 4.942,
+              "total_area_part_acre": 2.471,
+              "inherited": false,
+              "purchase_date": "2005-10-07",
+              "purchase_cost_rupees": 330000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4400000
+            },
+            {
+              "location": "Village-Nonera Naugaon,Pahan No.72 R.N.M.3 Lashkar,Teh.or Dist.Gwalior",
+              "khasra_no": "18",
+              "total_area_acre": 4.966,
+              "inherited": false,
+              "purchase_date": "2007-02-19",
+              "purchase_cost_rupees": 595000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 8840000
+            },
+            {
+              "location": "Village-Manpura Aroli,Pahan No.130,R.N.M.7 Supawali,Teh.or Dist.Gwalior",
+              "khasra_no": "54,55,61",
+              "total_area_acre": 3.805,
+              "inherited": false,
+              "purchase_date": "1996-11-15",
+              "purchase_cost_rupees": 186000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 13860000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Village-Manpura Aroli,Pahan No.130,R.N.M.7,Supawali,Teh.or Dist.Gwalior",
+              "khasra_no": "33",
+              "total_area_acre": 0.543,
+              "inherited": false,
+              "purchase_date": "1987-06-05",
+              "purchase_cost_rupees": 6500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1980000
+            },
+            {
+              "location": "Village-Nagor,Pahan No.83,R.N.M.Murar,Teh.or Dist.Gwalior",
+              "khasra_no": "430,431,433,435",
+              "total_area_acre": 1.062,
+              "inherited": false,
+              "purchase_date": null,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 101000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 91800000,
+          "spouse_value_rupees": 57620000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 149420000,
+          "self_details": [
+            {
+              "location": "Maharana Pratap Nagar Laskhar,Dist.Gwalior",
+              "plot_no": "76",
+              "area_sq_ft": 1500,
+              "purchase_date": "2002-02-28",
+              "purchase_cost_rupees": 220000,
+              "investment_on_land_rupees": 2210000,
+              "current_value_rupees": 91800000
+            },
+            {
+              "location": "Maharana Pratap Nagar Laskhar,Dist.Gwalior",
+              "plot_no": "77",
+              "area_sq_ft": 1500,
+              "purchase_date": "2011-11-18",
+              "purchase_cost_rupees": 1682000,
+              "current_value_rupees": 91800000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Maharana Pratap Nagar lashkar,Dist.Gwalior",
+              "plot_no": "80",
+              "area_sq_ft": 1750,
+              "inherited": false,
+              "purchase_date": "1992-07-27",
+              "purchase_cost_rupees": 55000,
+              "development_cost_rupees": 1290000,
+              "current_value_rupees": 57620000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 63500000,
+          "spouse_value_rupees": 65270000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 128770000,
+          "self_details": [
+            {
+              "location": "Riviara Town Bhopal",
+              "type": "Duplex",
+              "plot_no": "59",
+              "total_area_sq_ft": 1883,
+              "built_up_area_sq_ft": 1590,
+              "inherited": false,
+              "purchase_date": "2012-12-15",
+              "purchase_cost_rupees": 1370000,
+              "development_cost_rupees": 1268000,
+              "current_value_rupees": 30000000
+            },
+            {
+              "location": "Shri Bhagwan Mathur City Enclave New City Centre Gwalior",
+              "type": "H.I.G.3 BHK Flat",
+              "plot_no": "H.B.204",
+              "total_area_sq_ft": 1274.78,
+              "built_up_area_sq_ft": 956.489,
+              "inherited": false,
+              "purchase_date": null,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 33500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Dindayal Nagar Gwalior",
+              "type": "House",
+              "plot_no": "H.A-A1 Duplex",
+              "total_area_sq_ft": 2985.17,
+              "built_up_area_sq_ft": 1702.31,
+              "inherited": false,
+              "purchase_date": null,
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 1047000,
+              "current_value_rupees": 54270000
+            },
+            {
+              "location": "Bhawan No.222,Patel Nagar Churkhi Road Urai(U.P.)",
+              "total_area_sq_ft": 2427.39,
+              "built_up_area_sq_ft": 1312.54,
+              "inherited": true,
+              "purchase_date": null,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 11000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1003055,
+      "grand_total_of_liabilities_spouse_rupees": 546000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 1549055,
+      "grand_total_of_all_govt_dues_self_rupees": 66055,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 66055,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 34230000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 937000,
+          "spouse_value_rupees": 546000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1483000,
+          "self_details": [
+            {
+              "bank": "State Bank of India",
+              "branch": "Jayendraganj Lashkar,Dist.Gwalior",
+              "loan_type": "Home Loan",
+              "amount_rupees": 937000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "State Bank of India",
+              "branch": "Jayendraganj Lashkar,Dist.Gwalior",
+              "loan_type": "Home Loan",
+              "amount_rupees": 546000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 21200,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 21200,
+          "self_details": {
+            "amount_rupees": 21200
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 44855,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 44855,
+          "self_details": {
+            "amount_rupees": 44855
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 12080000,
-      "non_agricultural_land": {
-        "description": "Maharana Pratap Nagar lashkar,Dist.Gwalior,Plot No.80",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "1992-07-27",
-        "purchase_cost_inr": 55000,
-        "development_cost_inr": 1290000,
-        "current_market_value_inr": 5762000
+    "other_elections": [
+      {
+        "election": "Madhya Pradesh 2023",
+        "declared_assets_rupees": 85794494,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Dindayal Nagar Gwalior,House No.H.A-A1 Duplex,Bhawan No.222,Patel Nagar Churkhi Road Urai(U.P.)",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 500000,
-        "development_cost_inr": 1047000,
-        "current_market_value_inr": 6527000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 24369000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 937000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 937000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 546000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 546000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 21200,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 44855,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 66055
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election": "Rajya Sabha Affidavits",
+        "declared_assets_rupees": 14829794,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

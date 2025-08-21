@@ -1,166 +1,581 @@
 {
   "candidate_name": "KULJIT SINGH NAGRA",
   "party": "INC",
-  "constituency": "FATEHGARH SAHIB (FATEHGARH SAHIB)",
-  "father_or_husband_name": "Late S Kartar Singh",
-  "age": 51,
-  "education": "Graduate Professional LLB From From Deptt. of Low Punjab University Chanidgarh In 1990",
-  "profession_self": "Business",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 57518762,
-  "liabilities_total_inr": 2612744,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 1052838
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 433288
-      }
-    },
-    "huf": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 4894589,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 749760,
-      "personal_loans_advance_given_inr": 2844500,
-      "motor_vehicles_inr": 1550000,
-      "jewellery_inr": 280000,
-      "other_assets_inr": 502170,
-      "gross_total_value_inr": 10966445
-    },
-    "spouse": {
-      "cash_inr": 45000,
-      "bank_deposits_inr": 2888697,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 216353,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 840000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4040050
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 910000,
-      "non_agricultural_land": {
-        "description": "Vill Balongi,Teh And Dist,Mohali Share in Khewat/Kh No-296/308",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2004-06-25",
-        "purchase_cost_inr": 500000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2210000
+  "constituency": "FATEHGARH SAHIB",
+  "state": "Punjab",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late S Kartar Singh",
+      "age": 51,
+      "voter_enrolled_in": {
+        "constituency": "55 Fateh Garh Sahib",
+        "state": "Punjab",
+        "serial_no": 634,
+        "part_no": 39
       },
-      "commercial_buildings_inr": 1762500,
-      "residential_buildings": {
-        "description": "Kartar Complex Oppo DC Office,Fatehgarh Sahib/Harnam Nagar Teh And Distt Fatehgarh Sahib",
-        "total_area_sqft": 1225,
-        "built_up_area_sqft": 500,
-        "inherited": "N",
-        "purchase_date": "2007-08-06",
-        "purchase_cost_inr": 150000,
-        "development_cost_inr": 395000,
-        "current_market_value_inr": 395000
+      "self_profession": "Business",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 57518762,
+      "total_liabilities_in_rupees": 2612744
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "LLB From From Deptt. of Low Punjab University Chanidgarh In 1990"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 1052838
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 433288
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 10966445,
+      "gross_total_value_spouse_rupees": 4040810,
+      "gross_total_value_dependent1_rupees": 520364,
+      "gross_total_value_dependent2_rupees": 206140,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 15733759,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 45000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 95000,
+          "self_details": "50000",
+          "spouse_details": "45000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 4367335,
+          "spouse_value_rupees": 2724477,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7091812,
+          "self_details": "S No 2005315xxxxx SBI Haryana Civil Sec,Sec 1 26,94,542  26 Lacs+ S No 00580152xxxxx In ICICI BAnk,Ph 7 Mohali 5,55,641  5 Lacs+ S No 1209100001xxxxx In HDFC Bank Ph 3,B2 Mohali 88,886  88 Thou+ S No 503250010007xxxxx Karnataka Bank Ltd 4,40,458  4 Lacs+ Axis Bank Bassi Road,Fatehgarh Sahib,S No 91201002325xxxxx 25,882  25 Thou+ 1/3 sahres of 75164 No 12170001007xxxxx With HArjit Singh,PNB Patiala 25,055  25 Thou+ FDR No 12xxxxxDP00013713 PNB Bassi Pathana 8,60,524  8 Lacs+ FDR No 503150021343xxxxx Karnataka 2,59,027  2 Lacs+ Axis Bank Fatehgarh Sahib No 91601007629xxxxx 40,000  40 Thou+",
+          "spouse_details": "in Joint S Ac With Wit Husband A No 5503457xxxxx,State Bank Of Patiala Ph 7,Mohali 1,35,839  1 Lacs+ S No 503250010007xxxxx Karnataka Bank,Ph 3 B2 Mohali 6,90,646  6 Lacs+ ICICI Bank Bassi Road,Fatehgarh Sahib 77,881  77 Thou+ FDR No 6519983xxxxx State Bank Of Patiala, 18,10,386  18 Lacs+ FDR No 503150021367xxxxx,Karnataka Bank Mohali 2,14,705  2 Lacs+ Election No 91601007629xxxxx in Axis Bank Bank Fatehgarh Sahib 10,000  10 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 749760,
+          "spouse_value_rupees": 216353,
+          "dependent1_value_rupees": 520364,
+          "dependent2_value_rupees": 206140,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1692617,
+          "self_details": "LIC Policy No 47096xxxxx,SA 500000/- Annual Premium Amt 37082/- Total Amount 749760/- 7,49,760  7 Lacs+",
+          "spouse_details": "Baja Allianz Life Insurance,LIC Policy No 000933xxxxx,SA 500000 2,00,000  2 Lacs+ LIC Policy o 165811120 DOC 28.08.2015, SA 200000/-, Premium Amt 16353/- 16,353  16 Thou+",
+          "dependent1_details": "LIC Policy No 47096xxxxx,SA  5,20,364  5 Lacs+",
+          "dependent2_details": "Tata AIG Insurance POlicy No-C110081265, 1,83,926  1 Lacs+ LIC Policy No 16581xxxxx,SA 300000 22,214  22 Thou+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 2844500,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2844500,
+          "self_details": "Loans And Adv MAde MS MKR Industries Baddi HP  13,44,500  13 Lacs+ Adv MS BK Saini Engg Ltd Pathankot 7,50,000  7 Lacs+ Loans And Adv MS RC Hydro Projects H No-663,Sec 8B 7,50,000  7 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1550000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1550000,
+          "self_details": "Toyota Qualis PB 12N-3889 Purchased in Year 2002 2,00,000  2 Lacs+ Toyota Invoa PB 23J-9910 Purchased in Year 2010 5,50,000  5 Lacs+ Mitusbishi Pajero PBR 1 Purchased in Year 2011 of 160000, 20 % Shares Of  8,00,000  8 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 280000,
+          "spouse_value_rupees": 840000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1120000,
+          "self_details": "10 Tolas Gold 2,80,000  2 Lacs+",
+          "spouse_details": "30 Tola Gold 8,40,000  8 Lacs+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 502170,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 502170,
+          "self_details": "Flat to punjab legislators Cooperative House Building Society,Sco 662,Sec 70 Mohali 5,00,000  5 Lacs+ Partner share 20% Share MS Radiant Real Estate Shivalik City,Sec 127,Mohali,No 217002000xxxxx Of Firm in Indian Overseas Bank Kharar 2,170  2 Thou+",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 15877500,
+      "total_current_market_value_spouse_rupees": 26547500,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 42425000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 910000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 910000,
+          "self_details": {
+            "location": "Vill Bassi,Teh Bassi Pathana",
+            "total_area": "26.66 Marla",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost_rupees": 0,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 910000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2210000,
+          "spouse_value_rupees": 1100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3310000,
+          "self_details": {
+            "location": "Vill Balongi,Teh And Dist,Mohali",
+            "share_in_khewat_kh_no": "296/308",
+            "total_area": "2700 Sq Ft",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2004-06-25",
+            "purchase_cost_rupees": 500000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 2210000
+          },
+          "spouse_details": {
+            "location": "Vill Balongi,Teh And Dist,Mohali",
+            "share_in_khewat_kh_no": "296/308",
+            "total_area": "5 Marla",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2011-12-20",
+            "purchase_cost_rupees": 666000,
+            "development_cost_rupees": 0,
+            "current_value_rupees": 1100000
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 1762500,
+          "spouse_value_rupees": 6762500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8525000,
+          "self_details": {
+            "location": "Harnam Nagar,Teh And Dist Fatehgarh Sahib",
+            "total_area": "1275 Sq Ft",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2007-08-06",
+            "purchase_cost_rupees": 150000,
+            "development_cost_rupees": 637500,
+            "current_value_rupees": 1762500
+          },
+          "spouse_details": [
+            {
+              "location": "Harnam Nagar,Teh And Dist Fatehgarh Sahib",
+              "total_area": "3825 Sq Ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2005-07-14",
+              "purchase_cost_rupees": 640000,
+              "development_cost_rupees": 1912500,
+              "current_value_rupees": 5587500
+            },
+            {
+              "location": "Plot For Showroom ,Vill Jhungain Teh Kharar Dist SAS Nagar",
+              "total_area": "900 Sq Ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2015-05-18",
+              "purchase_cost_rupees": 1150000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1175000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 109950000,
+          "spouse_value_rupees": 18685000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 128635000,
+          "self_details": [
+            {
+              "location": "Kartar Complex Oppo DC Office,Fatehgarh Sahib/Harnam Nagar Teh And Distt Fatehgarh Sahib",
+              "total_area": "1225 Sq Ft",
+              "built_up_area": "500 Sq ft",
+              "inherited": false,
+              "purchase_date": "2007-08-06",
+              "purchase_cost_rupees": 150000,
+              "development_cost_rupees": 395000,
+              "current_value_rupees": 395000
+            },
+            {
+              "location": "Vill Balongi Teh And Dist Mohali",
+              "share_in_kh_no": "184/187",
+              "total_area": "4500 Sq Ft",
+              "built_up_area": "2600 Sq Ft",
+              "inherited": false,
+              "purchase_date": "2005-02-15",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3600000
+            },
+            {
+              "location": "Flat No-79 The Punjab State High Court Lawyers Co Operative House Building Society Ltd Sec 76 Mohali",
+              "total_area": "1760 Sq Ft",
+              "built_up_area": "1760 Sq Ft",
+              "inherited": false,
+              "purchase_date": "2016-00-00",
+              "purchase_cost_rupees": 6232000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Kartar Complex,OPp DC Office Fatehgarh,Harnam Nagar Teh & Dist Fatehgarh Sahib",
+              "total_area": "3675 Sq Ft",
+              "built_up_area": "1500 Sq Ft",
+              "inherited": false,
+              "purchase_date": "2005-07-14",
+              "purchase_cost_rupees": 640000,
+              "development_cost_rupees": 1185000,
+              "current_value_rupees": 1185000
+            },
+            {
+              "location": "H No 397,Ph 3A,Mohali",
+              "total_area": "2362 Sq Ft",
+              "built_up_area": "2090 Sq Ft",
+              "inherited": false,
+              "purchase_date": "2006-01-11",
+              "purchase_cost_rupees": 2500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 17500000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2612744,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2612744,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 15877500
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2612744,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2612744,
+          "self_details": "O/S Housing Loan,No 6517624xxxxx State Bank Of Patiala 26,12,744  26 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Vill Balongi,Teh And Dist,Mohali Share in Khewat/Kh No-296/308",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2011-12-20",
-        "purchase_cost_inr": 666000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1100000
+    "election_history": [
+      {
+        "election": "Punjab 2022",
+        "declared_assets_in_rupees": 76491545,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 6762500,
-      "residential_buildings": {
-        "description": "Kartar Complex,OPp DC Office Fatehgarh,Harnam Nagar Teh & Dist Fatehgarh Sahib",
-        "total_area_sqft": 3675,
-        "built_up_area_sqft": 1500,
-        "inherited": "N",
-        "purchase_date": "2005-07-14",
-        "purchase_cost_inr": 640000,
-        "development_cost_inr": 1185000,
-        "current_market_value_inr": 1185000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 26547500
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2612744,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2612744
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election": "Punjab 2012",
+        "declared_assets_in_rupees": 40562286,
+        "declared_cases": 1
+      }
+    ]
   }
 }

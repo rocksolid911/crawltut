@@ -1,122 +1,603 @@
 {
   "candidate_name": "TADVI ABHESINH MOTIBHAI",
   "party": "BJP",
-  "constituency": "SANKHEDA (ST) (CHHOTA UDEPUR)",
-  "father_or_husband_name": "Motibhai Tadvi",
-  "age": 61,
-  "education": "10th Pass S.S.C.,D.B.Parekh Sarvajanik Highschool, Sankheda, Chota Udaipur, Gandhinagar-1974",
-  "profession_self": "Farming And Kerosene Dealership",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 18018355,
-  "liabilities_total_inr": 6252773,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016-2017": 668080
+  "constituency": "SANKHEDA (ST)",
+  "state": "Gujarat",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Motibhai Tadvi",
+      "age": 61,
+      "voter_enrolled_in": {
+        "constituency": "139-Sankheda",
+        "state": "Gujarat",
+        "serial_no": 1107,
+        "part_no": 112
+      },
+      "self_profession": "Farming And Kerosene Dealership",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 18018355,
+      "total_liabilities_in_rupees": 6252773
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "S.S.C.,D.B.Parekh Sarvajanik Highschool, Sankheda, Chota Udaipur, Gandhinagar-1974"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 668080
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2150235,
+      "gross_total_value_spouse_rupees": 1125818,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3276053,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 106000,
+          "spouse_value_rupees": 21000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 127000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 331254,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 331254,
+          "self_details": [
+            {
+              "bank": "Allahabad Bank Ajwa Road",
+              "account_type": "Saving Ac",
+              "amount_rupees": 6000
+            },
+            {
+              "bank": "SBI Sankheda",
+              "amount_rupees": 2000
+            },
+            {
+              "bank": "SBI Gandhinagar",
+              "account_type": "Saving Ac",
+              "amount_rupees": 5556
+            },
+            {
+              "bank": "Bank Of India Vaghodiya Road",
+              "amount_rupees": 317698
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 16000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16000,
+          "self_details": [
+            {
+              "company": "Unnati Co.Op Bank",
+              "amount_rupees": 16000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 40000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 40000,
+          "self_details": [
+            {
+              "type": "NSC",
+              "amount_rupees": 40000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 117798,
+          "spouse_value_rupees": 102368,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 220166,
+          "self_details": [
+            {
+              "policy_type": "LIC Surrender Value",
+              "amount_rupees": 117798
+            }
+          ],
+          "spouse_details": [
+            {
+              "policy_type": "LIC Surrender Value",
+              "amount_rupees": 102368
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1404183,
+          "spouse_value_rupees": 54300,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1458483,
+          "self_details": [
+            {
+              "make": "Innova",
+              "model": "2015",
+              "registration_no": "GJ6JE7779",
+              "value_rupees": 1353805
+            },
+            {
+              "make": "Activa",
+              "model": "2007",
+              "registration_no": "GJ6BQ-1717",
+              "value_rupees": 50378
+            }
+          ],
+          "spouse_details": [
+            {
+              "make": "Activa",
+              "model": "2011",
+              "registration_no": "GJ6EJ1717",
+              "value_rupees": 54300
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 135000,
+          "spouse_value_rupees": 948150,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1083150,
+          "self_details": [
+            {
+              "type": "Gold Ornaments",
+              "weight_gram": 50,
+              "value_rupees": 135000
+            }
+          ],
+          "spouse_details": [
+            {
+              "type": "Gold Ornaments",
+              "weight_gram": 247,
+              "value_rupees": 666900
+            },
+            {
+              "type": "Gold Ornaments",
+              "weight_gram": 100,
+              "value_rupees": 270000
+            },
+            {
+              "type": "Silver Ornaments",
+              "weight_gram": 200,
+              "value_rupees": 11250
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 7664802,
+      "total_current_market_value_spouse_rupees": 7077500,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 14742302,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 1040000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1040000,
+          "self_details": [
+            {
+              "location": "Kodiya Sankheda",
+              "survey_no": "500 Part 4",
+              "total_area": "0-57-00",
+              "built_up_area": "1-64-00",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 800000
+            },
+            {
+              "location": "Nagarwala Sankheda",
+              "survey_no": "146 Survey No. 145 Part1",
+              "total_area": "0-57-09",
+              "built_up_area": "0-33-39",
+              "inherited": false,
+              "purchase_date": "2014-06-17",
+              "purchase_cost_rupees": 92000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 240000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 5973000,
+          "spouse_value_rupees": 7077500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13050500,
+          "self_details": [
+            {
+              "location": "C-31, Jay Chamunda Society Vaghodiya Road, Vadodara",
+              "total_area": "1000Sq.Ft",
+              "built_up_area": "560Sq.Ft",
+              "inherited": false,
+              "purchase_date": "1986-07-08",
+              "purchase_cost_rupees": 49901,
+              "development_cost_rupees": 525000,
+              "current_value_rupees": 5448000
+            },
+            {
+              "location": "Desai Sheri No.2, Sankheda Vadodara",
+              "total_area": "308Sq.Ft",
+              "built_up_area": "308Sq.Ft",
+              "inherited": false,
+              "purchase_date": "2001-05-25",
+              "purchase_cost_rupees": 28000,
+              "development_cost_rupees": 300000,
+              "current_value_rupees": 525000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "287 Vaghodiya Road, Vadodara",
+              "total_area": "1165Sq.Ft",
+              "built_up_area": "550Sq.Ft",
+              "inherited": false,
+              "purchase_date": "2003-07-03",
+              "purchase_cost_rupees": 43303,
+              "development_cost_rupees": 272000,
+              "current_value_rupees": 2577500
+            },
+            {
+              "location": "A-11, Silver Leaf Bungalows, Vaghodiya Road, Vadodara",
+              "total_area": "1898Sq.Ft",
+              "built_up_area": "1670Sq.Ft",
+              "inherited": false,
+              "purchase_date": "2013-03-22",
+              "purchase_cost_rupees": 486840,
+              "development_cost_rupees": 1100000,
+              "current_value_rupees": 4500000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 651802,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 651802,
+          "self_details": [
+            {
+              "description": "Jay Jalaram Petroleum Dabhoi Road, Tilakwada, Narmada",
+              "type": "BPCL Dealer Proprietership",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 651802
+            }
+          ]
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 4890000,
+      "grand_total_of_liabilities_spouse_rupees": 1362773,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 6252773,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 4890000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4890000,
+          "self_details": [
+            {
+              "bank": "HDFC Vaghodiya Road",
+              "loan_type": "loan",
+              "amount_rupees": 4435000
+            },
+            {
+              "bank": "Bank Of India Vaghodiya Road",
+              "loan_type": "Car Loan",
+              "amount_rupees": 455000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1362773,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1362773,
+          "spouse_details": [
+            {
+              "entity": "HDFC Finance",
+              "loan_type": "Housing Loan",
+              "amount_rupees": 1362773
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "declaration_in": "Gujarat 2022",
+        "declared_assets_rupees": 40255121,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Gujarat 2012",
+        "declared_assets_rupees": 12168112,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Gujarat 2007",
+        "declared_assets_rupees": 3366710,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 106000,
-      "bank_deposits_inr": 331254,
-      "bonds_debentures_shares_inr": 16000,
-      "nss_postal_savings_inr": 40000,
-      "lic_other_insurance_inr": 117798,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1404183,
-      "jewellery_inr": 135000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2150235
-    },
-    "spouse": {
-      "cash_inr": 21000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 102368,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 54300,
-      "jewellery_inr": 948150,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1125818
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1040000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 5973000,
-      "others_inr": 651802,
-      "total_current_market_value_inr": 7664802
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 7077500,
-      "others_inr": 0,
-      "total_current_market_value_inr": 7077500
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 4890000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 4890000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 1362773,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1362773
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    ]
+  }
 }

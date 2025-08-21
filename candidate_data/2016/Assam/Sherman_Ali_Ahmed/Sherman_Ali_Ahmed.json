@@ -1,146 +1,464 @@
 {
   "candidate_name": "SHERMAN ALI AHMED",
   "party": "INC",
-  "constituency": "BAGHBAR (BARPETA)",
-  "father_or_husband_name": "Late Raushan Ali Ahmed",
-  "age": 49,
-  "education": "Graduate Bachelor of Arts Passed from Nabajyoti College, Kalgachia under Gauhati University in the year 1989",
-  "profession_self": "Retd. Govt. Servant",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 36505342,
-  "liabilities_total_inr": 2280500,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014 - 2015": 975501
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 26978,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1659400,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1406600,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3193576
-    },
-    "spouse": {
-      "cash_inr": 10000,
-      "bank_deposits_inr": 20,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 511746,
-      "jewellery_inr": 30000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 551766
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Multiple properties listed including Hatigaon, Azara, KK Bhatta Road, Natbama, Gog, Betkuchi, Kharhuli, Barpeta",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "Multiple dates",
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 23635000
+  "constituency": "BAGHBAR",
+  "state": "Assam",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Raushan Ali Ahmed",
+      "age": 49,
+      "voter_enrolled_in": {
+        "constituency": "45 Baghbar (Assam)",
+        "serial_no": 705,
+        "part_no": 138
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Multiple properties listed including Vilage Mandia, Lakhtokia, Ajanta Path, Natboma, Dergaon",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "Multiple dates",
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 6250000
+      "self_profession": "Retd. Govt. Servant",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 36505342,
+      "total_liabilities_in_rupees": 2280500
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Bachelor of Arts Passed from Nabajyoti College, Kalgachia under Gauhati University in the year 1989"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 975501
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 3193575,
+      "gross_total_value_spouse_rupees": 551766,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3745341,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 10000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 110000,
+          "self_details": "100000",
+          "spouse_details": "10000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 27575,
+          "spouse_value_rupees": 20,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 27595,
+          "self_details": "SBI, No 1028206xxxxx South Guwahati Branch 755; No 3369719xxxxx, Dispur Branch 283; Axis Bank, No 91001003359xxxxx Beltola Branch 10,836; UBI, No 109201018xxxxx, Thakur Bazar Branch, Barpeta 9,701; UBI, No 55580201000xxxxx, SS Raod, Guwahati Branch 5,000; Assam Gramin Vikash Bank, No 710901007xxxxx, Mandia Branch 1,000",
+          "spouse_details": "UBI, No 38060201002xxxxx Chandmari Branch 20"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1659400,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1659400,
+          "self_details": "Policy No 48068xxxxx 1,00,000; Policy No 49034xxxxx 1,00,000; Policy No 49066xxxxx 5,00,000; Policy No 49152xxxxx 2,59,400; Policy No 49116xxxxx 2,00,000; Policy No 48311xxxxx 5,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1406600,
+          "spouse_value_rupees": 511746,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1918346,
+          "self_details": "Scorpio, Hawk Sletster, Reg. No. AS01MB2276, Purchased in 2012 9,56,600; Chevrolet Beat, Reg. No. AS01AY1341, Purchased in 2011 4,50,000",
+          "spouse_details": "i-20 Sportz, Reg. No. AS01AR8211, Purchased in 2010 5,11,746"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 30000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30000,
+          "self_details": "Nil",
+          "spouse_details": "10 gm Gold 30,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 29360000,
+      "total_current_market_value_spouse_rupees": 2200000,
+      "total_current_market_value_dependent1_rupees": 1200000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 32760000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 23635000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 23635000,
+          "self_details": "Hatigaon, Beltola, Guwahati, Patta No. 118, Dag No. 467 Total Area 2K 10L Built Up Area  Whether Inherited N Purchase Date 2001-04-19 Purchase Cost 125000.00 Development Cost 0.00 37,50,000; Azara Kamrup Assam, Dag No. 31, 32, KP Patta No. 264, 48 Total Area 1B 3K 13L Built Up Area  Whether Inherited N Purchase Date 2005-03-30 Purchase Cost 175000.00 Development Cost 0.00 34,60,000; KK Bhatta Road, Hatigaon Guwahati, Dag No. 768, Patta No. 1495 Total Area 1K 10L Built Up Area  Whether Inherited N Purchase Date 2007-04-27 Purchase Cost 225000.00 Development Cost 0.00 22,50,000; Natbama Guwahati, Dag No. 1112, Patta No. 685 Total Area 15L Built Up Area  Whether Inherited N Purchase Date 2008-03-15 Purchase Cost 60000.00 Development Cost 0.00 11,25,000; Gog, Guwahati, Dag No. 90, Patta No. 50 Total Area 3K 0L Built Up Area  Whether Inherited N Purchase Date 2008-02-29 Purchase Cost 120000.00 Development Cost 0.00 12,00,000; Betkuchi Beltola Guwahati, Dag No. 1342, Patta No. 1330 Total Area 1K 10L Built Up Area  Whether Inherited N Purchase Date 2009-02-13 Purchase Cost 115000.00 Development Cost 0.00 45,00,000; Betkuchi Beltola Guwahati, Dag No. 1335, Patta No. 80 Total Area 14L Built Up Area  Whether Inherited N Purchase Date 2009-02-21 Purchase Cost 57500.00 Development Cost 0.00 21,00,000; Kharhuli Guwahati, Dag No. 55, Patta No. 1 Total Area 2K 10L Built Up Area  Whether Inherited N Purchase Date 2009-05-15 Purchase Cost 113555.00 Development Cost 0.00 37,50,000; Barpeta, Dist. Barpeta, Dag No. 760, Patta No. 70 Total Area 1B 13L Built Up Area  Whether Inherited N Purchase Date 2009-12-05 Purchase Cost 160150.00 Development Cost 0.00 5,00,000; Gog, Guwahati, Dag No. 287, Patta No. 68 Total Area 2K 10L Built Up Area  Whether Inherited N Purchase Date 2011-12-31 Purchase Cost 291250.00 Development Cost 0.00 10,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 5775000,
+          "spouse_value_rupees": 2200000,
+          "dependent1_value_rupees": 1200000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9175000,
+          "self_details": "Vilage Mandia, Mouza Mandia, Dist. Barpeta, Dag No. 161, KP Patta No. 107 Total Area 3K 15L Built Up Area 1250 sqft Whether Inherited N Purchase Date 1993-07-13 Purchase Cost 14000.00 Development Cost 100000.00 1,50,000; Lakhtokia, Danish Road, Guwahati, Dag No. 133, 134, 135, Patta No. 246 Total Area 13.5L Built Up Area 405 sqft Whether Inherited N Purchase Date 2007-10-17 Purchase Cost 337500.00 Development Cost 0.00 35,75,000; Ajanta Path, Hatigaon, Guwahati. Dag No. 5, Patta No. 1163 Total Area 12L Built Up Area 1230 sqft Whether Inherited N Purchase Date 2007-12-06 Purchase Cost 750000.00 Development Cost 0.00 15,00,000; Natboma, Dag No. 172 Total Area 1K 10L Built Up Area 1210 sqft Whether Inherited N Purchase Date 2009-12-22 Purchase Cost 160150.00 Development Cost 0.00 3,00,000; Dergaon, Dist. Golapra, Dag No. 2359, Patta No. 218, Dag No. 2358, Patta No. 308 (joint owenership) Total Area 2L 11L Built Up Area 1314 sqft Whether Inherited N Purchase Date 1999-06-07 Purchase Cost 49000.00 Development Cost 100000.00 2,00,000",
+          "spouse_details": "Flat at Lakhimi Nagar, Guwahati, Dag No. 1534, KP Patta No. 588 Total Area 625 sqft Built Up Area 625 sqft Whether Inherited N Purchase Date 2008-03-29 Purchase Cost 1225000.00 Development Cost 0.00 20,00,000; Dergaon, Dist. Golapra, Dag No. 2359, Patta No. 218, Dag No. 2358, Patta No. 308 (joint owenership)  Total Area 2K 11L Built Up Area 1314 sqft Whether Inherited N Purchase Date 1999-06-07 Purchase Cost 49000.00 Development Cost 100000.00 2,00,000",
+          "dependent1_details": "Flat at Dharapur, Guwahati, Dag No. 839, KP Patta No. 188 Total Area 1060 sqft Built Up Area 1060 sqft Whether Inherited N Purchase Date 2013-04-20 Purchase Cost 1060000.00 Development Cost 0.00 12,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2280500,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2280500,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 29360000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 780500,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 780500,
+          "self_details": "Loan from LICI 7,80,500",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1500000,
+          "self_details": "House Building Advance from MLA 15,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Flat at Lakhimi Nagar, Dergaon (joint ownership)",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "Multiple dates",
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 2200000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2200000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 780500,
-      "loans_due_to_individual_entity_inr": 1500000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2280500
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    "other_elections": [
+      {
+        "election_name": "Assam 2011",
+        "declared_assets_rupees": 10858441,
+        "declared_cases": 0
+      }
+    ],
+    "print_profile_url": "https://www.myneta.info/assam2016/candidate.php?candidate_id=908&print=true",
+    "view_candidate_election_expenses_url": "https://www.myneta.info/assam2016/expense.php?candidate_id=908"
+  }
 }

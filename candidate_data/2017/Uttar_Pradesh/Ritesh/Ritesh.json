@@ -1,139 +1,1020 @@
 {
   "candidate_name": "RITESH",
   "party": "BSP",
-  "constituency": "JALALPUR (AMBEDKAR NAGAR)",
-  "father_or_husband_name": "Rakesh",
-  "age": 33,
-  "education": "Graduate BA From Uropian Business School,London in 2005",
-  "profession_self": "Agriculture & Business",
-  "profession_spouse": null,
-  "criminal_cases": 0,
-  "assets_total_inr": 210813416,
-  "liabilities_total_inr": 5500000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 5968608
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 47500,
-      "bank_deposits_inr": 34792028,
-      "bonds_debentures_shares_inr": 13557976,
-      "nss_postal_savings_inr": 161000,
-      "lic_other_insurance_inr": 678847,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 301817,
-      "other_assets_inr": 42394352,
-      "gross_total_value_inr": 91933520
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 0
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 9937738,
-      "non_agricultural_land": {
-        "description": "Multiple parcels (Jauhardeeh & Mohsinpur, Meeranpur, Pulsawan, Jalalpur Dehat, Abdullapur, Khanpur Sahasalempr, Ambedkar nagar)",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 84373178
+  "constituency": "JALALPUR",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Rakesh",
+      "age": 33,
+      "voter_enrolled_in": {
+        "constituency": "281 Akbarpur",
+        "state": "Uttar Pradesh",
+        "serial_no": 944,
+        "part_no": 79
       },
-      "commercial_buildings_inr": 7505250,
-      "residential_buildings": {
-        "description": "Multiple properties (Mohsinpur Mansoorpur, Jangpura A New Delhi, Omicron-A Noida, Vijay Gaon)",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 17063731
+      "self_profession": "Agriculture & Business",
+      "spouse_profession": null
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 210813416,
+      "total_liabilities_in_rupees": 5500000
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "BA From Uropian Business School,London in 2005"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 5968608
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 91933519,
+      "gross_total_value_spouse_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 91933519,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 47500,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 47500,
+          "self_details": {
+            "amount_rupees": 47500
+          },
+          "spouse_details": {
+            "amount_rupees": 0
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 34792028,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 34792028,
+          "self_details": [
+            {
+              "bank": "BOB",
+              "branch": "Akbarpur",
+              "account_no": "0783010000xxxxx",
+              "amount_rupees": 261134
+            },
+            {
+              "bank": "CITI Bank",
+              "branch": "Akbarpur",
+              "account_no": "500093xxxxx",
+              "amount_rupees": 120427
+            },
+            {
+              "bank": "ICICI Bank",
+              "branch": "Lukhnow",
+              "account_no": "62810107xxxxx",
+              "amount_rupees": 150348
+            },
+            {
+              "bank": "Punjab National Bank",
+              "account_no": "097400010612xxxxx",
+              "amount_rupees": 588104
+            },
+            {
+              "bank": "HDFC Bank",
+              "branch": "Akbarpur",
+              "account_no": "188210000xxxxx",
+              "amount_rupees": 503449
+            },
+            {
+              "bank": "HSBC",
+              "branch": "186,Baker Street London NW15RU",
+              "account_no": "GB45MIDL4002671312324",
+              "amount_rupees": 157566
+            },
+            {
+              "bank": "SBI",
+              "branch": "Akbarpur",
+              "account_no": "3651219xxxxx",
+              "amount_rupees": 511000
+            },
+            {
+              "bank": "HDFC Bank",
+              "branch": "Akbarpur,Ambedkar Nagar",
+              "account_no": "5030014292xxxxx",
+              "amount_rupees": 32500000,
+              "type": "FD"
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 13557976,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13557976,
+          "self_details": [
+            {
+              "company": "Surya International Pvt Ltd,Akbarpur",
+              "shares": 328250,
+              "value_rupees": 3282500
+            },
+            {
+              "company": "Mark Industries Ltd",
+              "shares": 400000,
+              "value_rupees": 4000000
+            },
+            {
+              "company": "Cherry Art Pvt Ltd",
+              "shares": null,
+              "value_rupees": 90000
+            },
+            {
+              "company": "Awadh Mutineers Sports Club Pvt Ltd",
+              "shares": null,
+              "value_rupees": 550000
+            },
+            {
+              "company": "CANADEL OU,Tallinn,Estonia",
+              "shares": null,
+              "value_rupees": 5635476,
+              "type": "Investment In Foreign Co."
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 161000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 161000,
+          "self_details": {
+            "type": "6 Years National Savings Certificates",
+            "count": 8,
+            "value_rupees": 161000
+          },
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 678847,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 678847,
+          "self_details": [
+            {
+              "company": "Birla Sun Life Insurance",
+              "policy_no": "00624xxxxx",
+              "value_rupees": 480000
+            },
+            {
+              "company": "Bajaj Allianz",
+              "policy_no": "032218xxxxx",
+              "value_rupees": 198847
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 301817,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 301817,
+          "self_details": {
+            "weight_gms": 115,
+            "value_rupees": 301817
+          },
+          "spouse_details": null
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 42394352,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 42394352,
+          "self_details": [
+            {
+              "item": "Pistol Second hand",
+              "value_rupees": 20000
+            },
+            {
+              "item": "DBBI Gun 12 Bore",
+              "value_rupees": 12000
+            },
+            {
+              "item": "Rifle",
+              "value_rupees": 25000
+            },
+            {
+              "item": "MS High Spirit",
+              "value_rupees": 9613928
+            },
+            {
+              "item": "MS K Dar Trading Co",
+              "value_rupees": 2683990
+            },
+            {
+              "item": "MS MVD Enterprises",
+              "value_rupees": 308677
+            },
+            {
+              "item": "MS Pegn N Pints",
+              "value_rupees": 8268806
+            },
+            {
+              "item": "MS Surya Construction Co",
+              "value_rupees": 16718058
+            },
+            {
+              "item": "MS Cherry Arts Pvt Ltd",
+              "value_rupees": 3068893
+            },
+            {
+              "item": "MS Awadh Mutineers Sports Club Pvt Ltd",
+              "value_rupees": 50000
+            },
+            {
+              "item": "MS Surya International Pvt Ltd",
+              "value_rupees": 1600000
+            },
+            {
+              "item": "MS Suryasons Realtors LLP",
+              "value_rupees": 25000
+            }
+          ],
+          "spouse_details": null
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 118879897,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 118879897,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 9937738,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9937738,
+          "self_details": [
+            {
+              "location": "Ashradabad Akbarpur,Dist Ambedkar Nagar",
+              "gata_no": "88,92,493, Kha,616,639",
+              "area": "2.107 Acre",
+              "inherited": true,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2420400
+            },
+            {
+              "location": "Vill Lorepur Tazan,Akbarpur Dist Ambedkar Nagar",
+              "area": "1.524 Acre",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1773038
+            },
+            {
+              "location": "Vill Lorepur Tazan,Akbarpur Dist Akbarpur Nagar",
+              "gata_no": "Sr No-4077",
+              "area": "0.885 Acre",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2894530
+            },
+            {
+              "location": "Vill Lorepur Tazan,Akbarpur Dist Akbarpur Nagar",
+              "gata_no": "Sr No-4283",
+              "area": "0.461 Acre",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 777470
+            },
+            {
+              "location": "Vill Lorepur Tazan,Akbarpur Dist Akbarpur Nagar",
+              "gata_no": "Sr No-4815",
+              "area": "0.263 Acre",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1136000
+            },
+            {
+              "location": "Vill Lorepur Tazan,Akbarpur Dist Akbarpur Nagar",
+              "gata_no": "Sr No-2218",
+              "area": "0.051 Acre",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 936300
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 84373178,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 84373178,
+          "self_details": [
+            {
+              "location": "Jauhardeeh & Mohsinpur Distt Ambedkar Nagar",
+              "area": "1090 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2180000
+            },
+            {
+              "location": "Meeranpur Ambedkar Nagar Land",
+              "gata_no": "Sr no-2937",
+              "area": "6810 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6810000
+            },
+            {
+              "location": "Meeranpur Ambedkar Nagar Land",
+              "area": "2700 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 8890000
+            },
+            {
+              "location": "Meeranpur Ambedkar Nagar Land",
+              "gata_no": "Sr no-1812",
+              "area": "2690 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5380000
+            },
+            {
+              "location": "Mohsinpur Mansorpur Akbarpur Dist Ambedkar Nagar",
+              "gata_no": "Sr No-1606",
+              "area": "2810 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5620000
+            },
+            {
+              "location": "Mohsinpur,Mansoorpur Akbarpur Dist Ambedkar,Dist Ambedkar",
+              "share": "1/2",
+              "area": "2400 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4800000
+            },
+            {
+              "location": "Pulsawan Akbarpur Dist Ambedkar Nagar",
+              "share": "1/4",
+              "area": "1350 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1350000
+            },
+            {
+              "location": "Meeranpur Akbarpur Ambedkar Nagar And",
+              "gata_no": "137m,143m",
+              "area": "2700 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2700000
+            },
+            {
+              "location": "Meeranpur Akbarpur Ambedkar Nagar",
+              "gata_no": "137M",
+              "area": "2700 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2700000
+            },
+            {
+              "location": "Meeranpur Akbarpur Ambedkar Nagar",
+              "gata_no": "71m,72m",
+              "area": "1420 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1420000
+            },
+            {
+              "location": "Pulswan Akbarpur,Dist Ambedkar Nagar",
+              "area": "4480 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3360000
+            },
+            {
+              "location": "Jalalpur Dehat,Pargana Surhurpur,Teh Jalalpur Dist Ambedkar Nagar",
+              "area": "650 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2600000
+            },
+            {
+              "location": "Vill Meeranpur,Akbarpur Dist Ambedkar Nagar",
+              "area": "1420 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5680000
+            },
+            {
+              "location": "Mohsinpur Akbarpur,Dist Ambedkar Nagar",
+              "area": "1610 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3220000
+            },
+            {
+              "location": "Vill Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "area": "2400 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4800000
+            },
+            {
+              "location": "Vill Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "area": "800 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1600000
+            },
+            {
+              "location": "Vill Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "area": "1900 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3800000
+            },
+            {
+              "location": "Vill Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "area": "290 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2197940
+            },
+            {
+              "location": "Jalalpur Dehat,Pargana Surhurpur Teh Jalalpur Dist Ambedkar Nagar",
+              "area": "148.70 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 594800
+            },
+            {
+              "location": "Vill Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "area": "158.920 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1630450
+            },
+            {
+              "location": "Vill Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "area": "126.65 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1181330
+            },
+            {
+              "location": "Vill Abdullapur,Paragana & Teh Akbarpur Dist Ambedkar Nagar",
+              "area": "1885 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6847644
+            },
+            {
+              "location": "Vill Khanpur Sahasalempr,Pargana & Teh Akbarpur Dist Ambedkar Nagar",
+              "area": "2020 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2381014
+            },
+            {
+              "location": "Ambedkar nagar",
+              "area": "1350 Sq.mtr",
+              "inherited": false,
+              "purchase_date": "1994-07-04",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1350000
+            },
+            {
+              "location": "Pulsawan Akbarpur",
+              "area": "1280 Sq.ft",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1280000
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 7505250,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7505250,
+          "self_details": [
+            {
+              "location": "Vill Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "share": "1/2",
+              "area": "314.38 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 628760
+            },
+            {
+              "location": "Ariyauna Akbarpur,Dist Akbarpur Nagar",
+              "area": "126.58 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 253160
+            },
+            {
+              "location": "Baskhari,Akbarpur Dist Ambedkar Nagar",
+              "area": "26.4 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 55000
+            },
+            {
+              "location": "Baskhari,Akbarpur Dist Ambedkar Nagar",
+              "area": "87.18 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 174360
+            },
+            {
+              "location": "Rusttampur,Baskhari Dist Ambedkar Nagar",
+              "area": "142 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 142000
+            },
+            {
+              "location": "Maharuwa Akbarpur,Ambedkar Nagar",
+              "area": "17.81 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 383200
+            },
+            {
+              "location": "Kurki Mahmoodpur,Teh Akbarpur Dist Ambedkar Nagar",
+              "area": "85.688 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1906340
+            },
+            {
+              "location": "Vasudev Nagar,Ashrafpur,Kichuchha Dist Ambedkar Nagar",
+              "area": "465 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3196340
+            },
+            {
+              "location": "Vijay Gaon,Akbarpur Dist Ambedkar Nagar",
+              "area": "82.15 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 766090
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 17063731,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 17063731,
+          "self_details": [
+            {
+              "name": "H No-421/1",
+              "location": "Mohsinpur Mansoorpur Akbarpur Ambedkar Nagar",
+              "area": "740 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1480000
+            },
+            {
+              "name": "Flat No-2/23",
+              "location": "Jangpura A New Delhi",
+              "area": "167.2 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6996028
+            },
+            {
+              "name": "H No-25B",
+              "location": "Omicron-A Noida",
+              "area": "250 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5274445
+            },
+            {
+              "name": "H No-329A",
+              "location": "Vijay Gaon,Paragana & Teh Akbarpur Dist Ambedkar Nagar",
+              "area": "139.40 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1809090
+            },
+            {
+              "name": "Flat No-201",
+              "area": "85.90 Sq Mtrs",
+              "inherited": false,
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1504168
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 5500000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 5500000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 118879897
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 5500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5500000,
+          "self_details": [
+            {
+              "name": "MS Shakti Filling Station",
+              "loan_type": "Loan Recieved",
+              "amount_rupees": 5500000
+            }
+          ],
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": null,
+          "spouse_details": null
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 5500000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 5500000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "other_elections": [
+      {
+        "declaration_in": "Lok Sabha 2024",
+        "declared_assets_rupees": 372235887,
+        "declared_cases": 0
+      },
+      {
+        "declaration_in": "Lok Sabha 2019",
+        "declared_assets_rupees": 307265121,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Uttar Pradesh 2012",
+        "declared_assets_rupees": 54444489,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

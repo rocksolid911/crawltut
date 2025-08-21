@@ -1,121 +1,375 @@
 {
   "candidate_name": "Krishna Dev Bhandari",
   "party": "BJP",
-  "constituency": "JALANDHAR NORTH (JALANDHAR)",
-  "father_or_husband_name": "Sh. Chanan Ram",
-  "age": 50,
-  "education": "Graduate B.A. From DAV Collage Jalandhar in 1980",
-  "profession_self": "Business",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 17463433,
-  "liabilities_total_inr": 2254845,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 507310
+  "constituency": "JALANDHAR NORTH",
+  "state": "Punjab 2012",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sh. Chanan Ram",
+      "age": 50,
+      "self_profession": "Business",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 17463433,
+      "total_liabilities_in_rupees": 2254845
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A. From DAV Collage Jalandhar in 1980"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 507310
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2010 - 2011",
+          "total_income_shown_in_itr_rupees": 298934
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1510273,
+      "gross_total_value_spouse_rupees": 1618184,
+      "gross_total_value_dependent1_rupees": 584976,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3713433,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 125000,
+          "spouse_value_rupees": 65000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 190000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 15292,
+          "spouse_value_rupees": 111696,
+          "dependent1_value_rupees": 5741,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 132729
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 146356,
+          "spouse_value_rupees": 146356,
+          "dependent1_value_rupees": 480990,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 773702
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 200000,
+          "dependent1_value_rupees": 100000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 800000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 535000,
+          "spouse_value_rupees": 30000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 565000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 413000,
+          "spouse_value_rupees": 1100000,
+          "dependent1_value_rupees": 56000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1569000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 1200000,
+      "total_current_market_value_spouse_rupees": 125500000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 137500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1200000,
+          "spouse_details": [
+            {
+              "location": "Land at Village & District - Jalandhar",
+              "khasra_no": "12/22/1, 22/2, 16/2",
+              "total_area": "2 Kanal 13.5 Marlas",
+              "inherited": false,
+              "purchase_date": "2010-12-16",
+              "purchase_cost_rupees": 1090000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1200000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1150000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1150000,
+          "spouse_details": [
+            {
+              "location": "Plot Sitituated at Preet Nagar Sodal Road Jalandhar",
+              "property_no": "1188",
+              "total_area": "6 Marlas",
+              "inherited": false,
+              "purchase_date": "2011-12-29",
+              "purchase_cost_rupees": 1144520,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1150000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 1700000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2900000,
+          "self_details": [
+            {
+              "location": "Property Situated at BZR Bohar, Wala Jalandhar",
+              "share": "1/3",
+              "total_area": "10*35 Feet",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 700000
+            },
+            {
+              "location": "Property Situated at Shekhan BZR Jlandhar",
+              "share": "1/4",
+              "total_area": "1 Marlas 79 Sq. Feet",
+              "inherited": false,
+              "purchase_date": "2006-03-24",
+              "purchase_cost_rupees": 308000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Property Situated Bazar Bohar Wala Jalandhar",
+              "share": "1/3",
+              "total_area": "5 Marlas",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1700000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 8500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8500000,
+          "spouse_details": [
+            {
+              "location": "Property Number 61, Seth Hukam Chand Colony Jalandhar",
+              "total_area": "23.94 Marlas",
+              "built_up_area": "8000 Sq. Ft.",
+              "inherited": false,
+              "purchase_date": "2011-05-10",
+              "purchase_cost_rupees": 1272000,
+              "development_cost_rupees": 2500000,
+              "current_value_rupees": 8500000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 106845,
+      "grand_total_of_liabilities_spouse_rupees": 2148000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2254845,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 106845,
+          "spouse_value_rupees": 2148000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2254845,
+          "self_details": [
+            {
+              "bank": "SBOP Rainak BZR",
+              "loan_type": "Car Loan",
+              "amount_rupees": 106845
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "PNB Railway Road",
+              "loan_type": "House Loan",
+              "amount_rupees": 1337028
+            },
+            {
+              "bank": "Citizan Urban Co-Op Bank Kishanpura",
+              "loan_type": "Term Loan for Purchase of Plot",
+              "amount_rupees": 810972
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "declaration_in": "Punjab 2022",
+        "declared_assets": 36936502,
+        "declared_cases": 1
+      },
+      {
+        "declaration_in": "Punjab 2017",
+        "declared_assets": 28663196,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010 - 2011": 298934
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 125000,
-      "bank_deposits_inr": 15292,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 146356,
-      "lic_other_insurance_inr": 500000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 535000,
-      "jewellery_inr": 413000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1734648
-    },
-    "spouse": {
-      "cash_inr": 65000,
-      "bank_deposits_inr": 111696,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 146356,
-      "lic_other_insurance_inr": 200000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 30000,
-      "jewellery_inr": 1100000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1653052
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1200000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 1200000,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1200000
-    },
-    "spouse": {
-      "agricultural_land_inr": 1200000,
-      "non_agricultural_land": 1150000,
-      "commercial_buildings_inr": 1700000,
-      "residential_buildings_inr": 8500000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 12550000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 106845,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 106845
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 2148000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2148000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    ]
+  }
 }

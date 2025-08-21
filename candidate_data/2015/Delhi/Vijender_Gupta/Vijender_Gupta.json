@@ -1,146 +1,526 @@
 {
   "candidate_name": "VIJENDER GUPTA",
   "party": "BJP",
-  "constituency": "ROHINI (NORTH-WEST)",
-  "father_or_husband_name": "Sh. Mahavir Prasad",
-  "age": 51,
-  "education": "Post Graduate M.Com From Delhi University in 1986, B.Com(Hons) From Ram Jas College Delhi University in 1984",
-  "profession_self": "Business",
-  "profession_spouse": "Social Worker and Holding the Position of Municipal Councillor in MCD",
-  "criminal_cases": 2,
-  "assets_total_inr": 85886067,
-  "liabilities_total_inr": 11560502,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 658563
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 1330373
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 141964,
-      "bank_deposits_inr": 841243,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 161564,
-      "lic_other_insurance_inr": 1070497,
-      "personal_loans_advance_given_inr": 3496095,
-      "motor_vehicles_inr": 1586582,
-      "jewellery_inr": 540000,
-      "other_assets_inr": 196954,
-      "gross_total_value_inr": 8258599
-    },
-    "spouse": {
-      "cash_inr": 54774,
-      "bank_deposits_inr": 2370815,
-      "bonds_debentures_shares_inr": 20000,
-      "nss_postal_savings_inr": 271845,
-      "lic_other_insurance_inr": 2685308,
-      "personal_loans_advance_given_inr": 5601518,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1080000,
-      "other_assets_inr": 547026,
-      "gross_total_value_inr": 14727468
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Sonepat Haryana, Plot No. 220P, Sector-7, Sonepat Haryana Total Area 9787.93 Sq.ft.",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 2848552,
-        "current_market_value_inr": 14500000
+  "constituency": "ROHINI",
+  "state": "Delhi",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sh. Mahavir Prasad",
+      "age": 51,
+      "voter_enrolled_in": {
+        "constituency": "13 Rohini",
+        "state": "Delhi",
+        "serial_no": 318,
+        "part_no": 123
       },
-      "commercial_buildings_inr": 2200000,
-      "residential_buildings": {
-        "description": "Delhi B-85, Vinobha Kunj Apptt, Sector-9, Rohini, Delhi-110085 Total Area 991.21 Sq. ft. Built Up Area 991.21 Sq. ft. AND Delhi Basement No. 36, Vinobha Kunj Apptt. Sector 9, Rohini, Delhi-110085 Total Area 274.92 Sq. ft. Built Up Area 274.92 Sq.ft.",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 9500000
+      "self_profession": "Business",
+      "spouse_profession": "Social Worker and Holding the Position of Municipal Councillor in MCD"
+    },
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 85886067,
+      "total_liabilities_in_rupees": 11560502
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.Com From Delhi University in 1986, B.Com(Hons) From Ram Jas College Delhi University in 1984"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 658563
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 1330373
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Voluntarily causing hurt to deter public servant from his duty",
+          "ipc_section": "332",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Defamation",
+          "ipc_section": "499",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Defamation",
+          "ipc_section": "500",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        }
+      ],
+      "charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "499, 500",
+          "other_details_or_acts_sections_applicable": "CC No. 688/1/14, PS. Hazrat Nizamuddin, South East, Dist. New Delhi, Sheila Dixit Vs Vijender Gupta, Cognizance Court Ms. Saumya Chauhan, Metropolitan Magistrate Saket South East Dist. New Delhi, CC No. 60/13, Cognizance Date 04.06.2012, Court which Framed the Charges Ms. Namrita Aggarwal, Metropolitan Magistrate, South East, Dist. Saket New Delhi, Date of Charge Framed 01.07.2013"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "147, 148, 149, 188, 332, 353",
+          "other_details_or_acts_sections_applicable": "Sec. 3 of Prevention of Damage to Public Property Act., FIR No. 35/11 PS. Connaught Place, Dist. New Delhi, Cognizance Court Ms. Jasjeet Kaur, Metropolitan Magistrate New Delhi, Date of Cognizance 30.11.2011, Court Which Charge Framed MM SS Lamba, Patiala Court Delhi, Date of Charge Framed 03.01.2015"
+        }
+      ],
+      "cognizance_taken": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 8258599,
+      "gross_total_value_spouse_rupees": 14727468,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 22986067,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 141964,
+          "spouse_value_rupees": 54774,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 196738,
+          "self_details": "1,41,964",
+          "spouse_details": "54,774"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 841243,
+          "spouse_value_rupees": 2245275,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3086518,
+          "self_details": "Axis Bank, Sector-9, Rohini, No 37101010000xxxxx 8,40,243  New Account opened on 19.01.2015 UCO Bank, Sector-14, Rohini, Delhi-110085, No 1872011002xxxxx 1,000",
+          "spouse_details": "Axis Bank, Sector-9, Rohini, No 37101010000xxxxx 18,00,586 Axis Bank, Sector-9, Rohini, No 91301004264xxxxx 4,544 OBC, NK Bagrodia School, Rohini, No 5059215100xxxxx 29,717 UCO Bank, Paschim Vihar, No 1963011003xxxxx 15,688 UCO Bank, Paschim Vihar, No 1963011003xxxxx 2,23,830 New Account opened on 19.01.2015, UCO Bank, Sector-14, Rohini, Delhi-110085, No 1872011002xxxxx 1,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 20000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 20000,
+          "self_details": "Nil",
+          "spouse_details": "IFCI Infra Bonds 20,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 161564,
+          "spouse_value_rupees": 271845,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 433409,
+          "self_details": "Post Office Ashok Vihar PPF No 11xxxxx 1,61,564",
+          "spouse_details": "Post Office Keshav Puram, RD No 48xxxxx 1,00,000 Post Office Ashok Vihar, PPF No 11xxxxx 1,71,845"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1262147,
+          "spouse_value_rupees": 2635299,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3897446,
+          "self_details": "LIC Policy No 11243xxxxx 1,81,983 LIC Policy No 11264xxxxx 5,52,750 LIC Policy No 11388xxxxx 2,34,049 LIC Policy No 11558xxxxx 1,31,614 LIC Policy No 11610xxxxx 1,61,801",
+          "spouse_details": "LIC Policy No 12032xxxxx 99,239 LIC Policy No 12138xxxxx 24,329 LIC Policy No 11297xxxxx 4,71,900 LIC Policy No 11336xxxxx 1,47,748 LIC Policy No 11558xxxxx 1,91,992 3 Policies of PNB Metlife 16,50,000 SBI LIfe Insurance 1,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 34971000,
+          "spouse_value_rupees": 59570251,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 94541251,
+          "self_details": "Aadhar 5,65,000 Aaina Aggarwal 14,41,000 A.P. Real Estate 13,50,000 Mrinalini Raghavan 1,65,345 Other Receivable Security with Vodafone 6,750",
+          "spouse_details": "Aadhar 28,05,772 Aaina 15,00,266 Mrinalini Raghav 3,34,655 Niharika Gautam 1,05,000 Sampurna 2,16,250 Sampurna Sr. Citizen 1,40,000 Vijender Kumar Gupta (HUF) 3,30,000 Vijendra Kumar 21,09,079 Aviva Life Insurance Co. Ltd. 4,23,574 Muthoot 28,654"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1586582,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1586582,
+          "self_details": "Toyota Innova, Model 2012, Regn. No. DL8CAB0920 15,86,582",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 540000,
+          "spouse_value_rupees": 1080000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1620000,
+          "self_details": "Gold and Gold Jewellery 200 gm @ Rs. 27000/- per 10 gm. 5,40,000",
+          "spouse_details": "Gold and Gold Jewellery 400 gm. @ Rs. 27000/- per 10 gm. 10,80,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 196954,
+          "spouse_value_rupees": 547026,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 743980,
+          "self_details": "1/4 Share of Movable Assest in Vijender Kumar Gupta HUF (1/4 of Rs. 787815/-) 1,96,954",
+          "spouse_details": "Other Households 3,50,072 1/4 Share of Movable assets in Vijender Kumar Gupta HUF (1/4 of Rs. 787815/-) 1,96,954"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 279000000,
+      "total_current_market_value_spouse_rupees": 350000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 629000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 14500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14500000,
+          "self_details": "Sonepat Haryana, Plot No. 220P, Sector-7, Sonepat Haryana Total Area 9787.93 Sq.ft. Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 2848552.00 1,45,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 2200000,
+          "spouse_value_rupees": 345000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 347200000,
+          "self_details": "G-2, Vikas Surya Plaza Sector-9, Rohini, Delhi-110085, Area & Built Up Area 290.51 sq. ft. super area 165 Sq. ft. Carpet Area) Total Area 290.51 Sq. ft. Built Up Area  Whether Inherited N Purchase Date 2006-02-11 Purchase Cost 1400000.00 Development Cost 0.00 22,00,000",
+          "spouse_details": "1/2 Share of IInd Floor at K-4, Sector-18 Nodia (UP), Built Up Area 2425 Sq. ft. Total Area 2425 Sq. ft. Built Up Area  Whether Inherited N Purchase Date 2005-11-17 Purchase Cost 6350000.00 Development Cost 0.00 2,70,00,000 204/ACP7, Aggarwal Chamber, Plot No. 7 LSC, CD Block, Pitampura Delhi-34, Built Up Area 550 sq. ft. Total Area 550 Sq. ft. Built Up Area  Whether Inherited N Purchase Date 2014-07-11 Purchase Cost 1484340.00 Development Cost 0.00 75,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 95000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 95000000,
+          "self_details": "Delhi B-85, Vinobha Kunj Apptt, Sector-9, Rohini, Delhi-110085 Total Area 991.21 Sq. ft. Built Up Area 991.21 Sq. ft. Whether Inherited N Purchase Date 1992-01-10 Purchase Cost 408200.00 Development Cost 0.00 88,00,000 Delhi Basement No. 36, Vinobha Kunj Apptt. Sector 9, Rohini, Delhi-110085 Total Area 274.92 Sq. ft. Built Up Area 274.92 Sq.ft. Whether Inherited N Purchase Date 1997-06-01 Purchase Cost 75000.00 Development Cost 35000.00 7,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 18850000,
+          "spouse_value_rupees": 6850000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25700000,
+          "self_details": "Tenancy rights of Shop 2114, Chahindara baghirath Place Delhi Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 8,00,000 Tenancy Rights of Office 2114, Chahindara Baghirath Place Delhi Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 4,00,000 1/4th of HUF Property Rs. 740000/- Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,85,000 1/4th of HUF Property Rs. 2000000/- Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 5,00,000",
+          "spouse_details": "1/4th of HUF Property Rs. 740000/- Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,85,000 1/4th of HUF Property Rs. 2000000/- Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 5,00,000"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 6254311,
+      "grand_total_of_liabilities_spouse_rupees": 5306191,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 11560502,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 1850000,
-      "total_current_market_value_inr": 28085000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 776650,
+          "spouse_value_rupees": 444191,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1220841,
+          "self_details": "Loan against LIC Policies 5,68,701 Against Property From UCO Bank, Paschim Vihar 2,07,949",
+          "spouse_details": "Loan Against LIC Policies 4,44,191"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 4909079,
+          "spouse_value_rupees": 3990000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8899079,
+          "self_details": "Ahuja 3,00,000 Basti Sugar- Ahuja 4,50,000 Ganpati Foods 5,00,000 Govind Nagar Sugar Ltd. 5,00,000 Naharika Gautam 1,00,000 Shobha 21,09,079 Vijender Kumar Gupta (HUF) 14,46,582",
+          "spouse_details": "Bansal & Co. 1,90,000 Ganpati Foods 5,00,000 Govind Nagar Sugar Factory 5,00,000 J.M. Constructions 20,00,000 Kamlesh Gautam 1,00,000 Madhu Gupta 1,00,000 Pradeep Ahuja 3,00,000 Seema Ahuja 3,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 72000,
+          "spouse_value_rupees": 872000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 944000,
+          "self_details": "Rent Security From Axis Bank, Sec-9, Rohini, Delhi 72,000",
+          "spouse_details": "Rent Security From Aviva Life Insurance, Nodia 5,82,000 Rent Security From Muthoot Finance Limited 2,90,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 34500000,
-      "residential_buildings": null,
-      "others_inr": 685000,
-      "total_current_market_value_inr": 35185000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 776650,
-      "loans_due_to_individual_entity_inr": 4909079,
-      "any_other_liability_inr": 72000,
-      "grand_total_of_liabilities_inr": 6254311
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 444191,
-      "loans_due_to_individual_entity_inr": 3900000,
-      "any_other_liability_inr": 872000,
-      "grand_total_of_liabilities_inr": 5306191
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "other_elections": [
+      {
+        "election": "Delhi 2025",
+        "declared_assets": 161028211,
+        "declared_cases": 4
+      },
+      {
+        "election": "Delhi 2020",
+        "declared_assets": 108903810,
+        "declared_cases": 2
+      },
+      {
+        "election": "Delhi 2013",
+        "declared_assets": 81464484,
+        "declared_cases": 2
+      }
+    ]
   }
 }

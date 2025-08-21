@@ -1,159 +1,477 @@
 {
   "candidate_name": "VISHWAS SARANG",
   "party": "BJP",
-  "constituency": "NARELA(BHOPAL)",
-  "father_or_husband_name": "Kailash Narayan Sarang",
-  "age": 42,
-  "education": "Graduate Professional B.E. (Civil) Manohar Bhai Institude Of Engineering And Technology College Gondiya Maharashtra 1993 Nagpur Univeristy",
-  "profession_self": "Income from partnership firm vishal Packwell, Income from partnership firm Navlok Bharat, Income from bank interest and MLA Salary and Allowances",
-  "profession_spouse": "Income from Bank Interest",
-  "criminal_cases": 2,
-  "assets_total_inr": 56425784,
-  "liabilities_total_inr": 2700857,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 628830
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 293000
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 75000,
-      "bank_deposits_inr": 1715968,
-      "bonds_debentures_shares_inr": 10000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 235000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 240000,
-      "other_assets_inr": 28440,
-      "gross_total_value_inr": 1715968
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 2063850,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 150000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 825000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2063850
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 5988440,
-      "non_agricultural_land": {
-        "description": "100 % Land 28 Aranyavali House Develop Samiti Maryadit Village Chunabhatti Word 52 Bhopal Khasra no,54-55/5/1",
-        "area_sq_mtr": 355,
-        "inherited": "N",
-        "purchase_date": "2001-07-24",
-        "purchase_cost_inr": 196338,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 14202400
+  "constituency": "NARELA",
+  "state": "Madhya Pradesh",
+  "election_year": 2013,
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Kailash Narayan Sarang",
+      "age": 42,
+      "voter_enrolled_in": {
+        "constituency": "Bhopal Dakshin",
+        "state": "Madhya Pradesh",
+        "serial_no": 691,
+        "part_no": 113
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "50 Nishant Colony 74 Bangla 25% share",
-        "total_area_sqft": 7288,
-        "built_up_area_sqft": 2800,
-        "inherited": "N",
-        "purchase_date": "2005-10-27",
-        "purchase_cost_inr": 3316585,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 16000000
+      "self_profession": "Income from partnership firm vishal Packwell, Income from partnership firm Navlok Bharat, Income from bank interest and MLA Salary and Allowances",
+      "spouse_profession": "Income from Bank Interest"
+    },
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 56425784,
+      "total_liabilities_in_rupees": 2700857
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.E. (Civil) Manohar Bhai Institude Of Engineering And Technology College Gondiya Maharashtra 1993 Nagpur Univeristy"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 628830
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 293000
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "attempting to commit offences punishable with imprisonment for life or other imprisonment",
+          "ipc_section": "511",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful restraint",
+          "ipc_section": "341",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        }
+      ],
+      "charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "341, 511, 34",
+          "other_details_or_acts_sections_applicable": "Case No. 362/01, Police Station-Jahangirabad,Court Taking Cognizance- JMFC Bhopal (Shri Pradeep Soni), R. T. No.1202/01, Court which Framed Charge-JMFC Bhopal (Shri Pradeep Soni), Date of Charge Framed-26.05.2001"
+        }
+      ],
+      "cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "149, 341, 427",
+          "other_details_or_acts_sections_applicable": "Criminal No. 32/01, Police Station-Mangalwara Bazar, Court Taking Cognizance- J.M.F.C. Bhopal (Shri Vaibhav Mandloi), R. T. No. 1943/05, Date of Cognizance- 26.05.2001"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1715968,
+      "gross_total_value_spouse_rupees": 2063850,
+      "gross_total_value_dependent1_rupees": 127563,
+      "gross_total_value_dependent2_rupees": 127563,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 4034944,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 75000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 125000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 895086,
+          "spouse_value_rupees": 913949,
+          "dependent1_value_rupees": 115363,
+          "dependent2_value_rupees": 115363,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2397104,
+          "self_details": "Fixed Deposit 50% 311767 1,55,884  1 Lacs+ Joint Fixed Deposit Central Bank Of India 50% Share 51116 25,558  25 Thou+ Vidhan sabha 2013 HDFC Bank Br. Chuna No 501000234xxxxx 51,000  51 Thou+ Other Saving  8,95,086  8 Lacs+",
+          "spouse_details": "Fixed Deposit Allahabad Bank Raipur  9,13,949  9 Lacs+ 50% Share of 219262 Joint A/C Central Bank OF India  1,09,631  1 Lacs+ Joint A/C Bank Of Baroda 30541 15,270  15 Thou+",
+          "dependent1_details": "Bhopal Nagrik Sehkari Bank Ltd Bhopal Khata no,490 34,100  34 Thou+ 50 % share of Nagrik Sehkari Bank Ltd Bhopal Rs 162526  81,263  81 Thou+",
+          "dependent2_details": "Bhopal Nagrik Sehkari Bank Ltd Bhopal A/C no. 491 34,100  34 Thou+ 50 % share of Nagrik Sehkari Bank Ltd Bhopal 162526 A/C No. 3707 81,263  81 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 10000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000,
+          "self_details": "1000 share Of Icekom Education Socity"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 235000,
+          "spouse_value_rupees": 150000,
+          "dependent1_value_rupees": 12200,
+          "dependent2_value_rupees": 12200,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 409400,
+          "self_details": "SBI Mutual Fund 90000 of 50% Joint 45,000  45 Thou+ ICICI Bima  1,50,000  1 Lacs+ Lic Wealth Plus Scheme  40,000  40 Thou+",
+          "spouse_details": "ICICI Policy  1,50,000  1 Lacs+",
+          "dependent1_details": "Lic Policy  12,200  12 Thou+",
+          "dependent2_details": "Lic Policy  12,200  12 Thou+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 240000,
+          "spouse_value_rupees": 825000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1065000,
+          "self_details": "Gold 80gm",
+          "spouse_details": "Gold 275gm"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 28440,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 28440,
+          "self_details": "Navlok Bharat patrika 50% share of  28,440  28 Thou+ Vishal pekwell Industries 23 sec B Mandeep 50% share  0*(Value Not Given) Revolver  0*(Value Not Given)"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 36390840,
+      "total_current_market_value_spouse_rupees": 16000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 52390840,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 5988440,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5988440,
+          "self_details": "235000 of 50% share of Village Barkhedi Kala Patwari halka no,40 rajaswa mandal 4 Vikas khand fanda teh huzur khasra no,41/1/1 Total Area 0.26 acre  Built Up Area  Whether Inherited N Purchase Date 2001-11-29 Purchase Cost 117500.00 Development Cost 0.00 27,83,220  27 Lacs+ 50% share of 235000 Village Barkhedi Kala Patwari halka no,40 rajaswa mandal 4 Vikas khand fanda teh huzur khasra no,41/1/1 Total Area 2.26 acre  Built Up Area  Whether Inherited N Purchase Date 2001-11-29 Purchase Cost 1175000.00 Development Cost 0.00 27,83,220  27 Lacs+ 100 % share Village Saras Teh Ichavar Dist Sihore M.P. Khasra no.210/3 Total Area 1 acre (0.405 hec) Built Up Area  Whether Inherited N Purchase Date 2007-06-20 Purchase Cost 57500.00 Development Cost 0.00 1,62,000  1 Lacs+ 100 % Village Madia Viran Teh Gairatganj Dist raisen Patwari Halka No. Khasra no,22/1,63/1 Total Area 1 acre (0.404)hec  Built Up Area  Whether Inherited N Purchase Date 2008-02-25 Purchase Cost 135000.00 Development Cost 0.00 2,60,000  2 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 14202400,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14202400,
+          "self_details": "100 % Land 28 Aranyavali House Develop Samiti Maryadit Village Chunabhatti Word 52 Bhopal Khasra no,54-55/5/1 Total Area 3820.50 sq.ft  Built Up Area  Whether Inherited N Purchase Date 2001-07-24 Purchase Cost 196338.00 Development Cost 0.00 1,42,02,400  1 Crore+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 16000000,
+          "spouse_value_rupees": 16000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 32000000,
+          "self_details": "50 Nishant Colony 74 Bangla 25% share  Total Area 7288 sq.ft Built Up Area 2800 sq.ft  Whether Inherited N Purchase Date 2005-10-27 Purchase Cost 3316585.00 Development Cost 0.00 1,60,00,000  1 Crore+",
+          "spouse_details": "50 Nishant Colony 74 Bangla 25% share Total Area 7288 sq.ft Built Up Area 2800 sq.ft  Whether Inherited N Purchase Date 2005-10-27 Purchase Cost 3316585.00 Development Cost 0.00 1,60,00,000  1 Crore+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 200000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 200000,
+          "self_details": "10 Market Kamdar Complex Shop A.L. Ground Floor  Total Area Built Up Area  Whether Inherited N Purchase Date 1997-10-27 Purchase Cost 0.00 Development Cost 0.00 1,00,000  1 Lacs+ Village Goyala Khurd Delhi 605 Squard Yard Land khasra no,19/21 of 50% share  Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,00,000  1 Lacs+"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1915064,
+      "grand_total_of_liabilities_spouse_rupees": 785794,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2700858,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 200000,
-      "total_current_market_value_inr": 36390840
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 785794,
+          "spouse_value_rupees": 785794,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1571588,
+          "self_details": "SBI T.T. Nagar Bhopal Share of 50 % 3143178",
+          "spouse_details": "SBI T.T. Nagar House Loan 25% Of 3143178"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 1129269,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1129269,
+          "self_details": "Vishal Pekwell Date 21.10.2013"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "50 Nishant Colony 74 Bangla 25% share",
-        "total_area_sqft": 7288,
-        "built_up_area_sqft": 2800,
-        "inherited": "N",
-        "purchase_date": "2005-10-27",
-        "purchase_cost_inr": 3316585,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 16000000
+    "other_elections": [
+      {
+        "election": "Madhya Pradesh 2023",
+        "declared_assets_rupees": 188171194,
+        "declared_cases": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 16000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 785794,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 1129269,
-      "grand_total_of_liabilities_inr": 1915064
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 785794,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 785794
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Income from partnership firm vishal Packwell, Income from partnership firm Navlok Bharat, Income from bank interest and MLA Salary and Allowances",
-    "spouse": "Income from Bank Interest",
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election": "Madhya Pradesh 2018",
+        "declared_assets_rupees": 90647766,
+        "declared_cases": 0
+      },
+      {
+        "election": "Madhya Pradesh 2008",
+        "declared_assets_rupees": 20009242,
+        "declared_cases": 4
+      }
+    ]
   }
 }

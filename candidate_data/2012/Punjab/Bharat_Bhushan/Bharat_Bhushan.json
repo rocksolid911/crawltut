@@ -1,138 +1,427 @@
 {
   "candidate_name": "Bharat Bhushan",
+  "constituency": "LUDHIANA WEST",
+  "state": "Punjab",
+  "election_year": 2012,
+  "status": "Winner",
   "party": "INC",
-  "constituency": "LUDHIANA WEST (LUDHIANA)",
-  "father_or_husband_name": "sh Narain dass",
-  "age": 40,
-  "education": "Graduate, B.A. arya collage boys ludhiana (1989)",
-  "profession_self": "Business of Dairy Farming",
-  "profession_spouse": "House wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 70858639,
-  "liabilities_total_inr": 1090031.54,
-  "income_tax_details": {
+  "personal_details": {
+    "s_o_d_o_w_o": "sh Narain dass",
+    "age": 40,
+    "self_profession": "Business of Dairy Farming",
+    "spouse_profession": "House wife"
+  },
+  "other_elections": [
+    {
+      "year": 2022,
+      "declared_assets_in_rupees": 106067345,
+      "declared_cases": 0
+    },
+    {
+      "year": 2017,
+      "declared_assets_in_rupees": 81725273,
+      "declared_cases": 0
+    }
+  ],
+  "criminal_cases": {
+    "count": 0,
+    "details": "No criminal cases",
+    "readability_report": "No Problems in Reading Affidavit Information"
+  },
+  "assets_liabilities": {
+    "assets_in_rupees": 70858639,
+    "liabilities_in_rupees": 1090031.54
+  },
+  "educational_details": {
+    "category": "Graduate",
+    "degree": "B.A.",
+    "institution": "arya collage boys ludhiana",
+    "year": 1989
+  },
+  "income_tax_returns": {
+    "readability_report": "No Problems in Reading Affidavit Information",
     "self": {
       "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010 - 2011": 316625
-      }
+      "financial_year": "2010 - 2011",
+      "total_income_shown_in_itr_rupees": 316625
     },
     "spouse": {
       "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010 - 2011": 223318
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "financial_year": "2010 - 2011",
+      "total_income_shown_in_itr_rupees": 223318
     },
     "dependent1": {
       "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "financial_year": "None",
+      "total_income_shown_in_itr_rupees": 0
     },
     "dependent2": {
       "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "financial_year": "None",
+      "total_income_shown_in_itr_rupees": 0
     },
     "dependent3": {
       "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "financial_year": "None",
+      "total_income_shown_in_itr_rupees": 0
     }
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 592126.96,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 474265,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 179010,
-      "other_assets_inr": 1200000,
-      "gross_total_value_inr": 2495401.96
-    },
-    "spouse": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 815754.11,
-      "bonds_debentures_shares_inr": 17436.25,
-      "nss_postal_savings_inr": 33000,
-      "lic_other_insurance_inr": 2047365,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 789750,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3753305.36
-    }
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "gross_total_value_self_rupees": 2495401.96,
+    "gross_total_value_spouse_rupees": 3753305.36,
+    "gross_total_value_dependent1_rupees": 265721,
+    "gross_total_value_dependent2_rupees": 114211,
+    "gross_total_value_dependent3_rupees": 0,
+    "total_gross_value_rupees": 6628639.32,
+    "items": [
+      {
+        "description": "Cash",
+        "self_value_rupees": 50000,
+        "spouse_value_rupees": 50000,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 100000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_value_rupees": 592126.96,
+        "spouse_value_rupees": 815754.11,
+        "dependent1_value_rupees": 94000,
+        "dependent2_value_rupees": 114211,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 1616092.07
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_value_rupees": null,
+        "spouse_value_rupees": 17436.25,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 17436.25
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_value_rupees": 474265,
+        "spouse_value_rupees": 33000,
+        "dependent1_value_rupees": 171721,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 678986
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_value_rupees": null,
+        "spouse_value_rupees": 2047365,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 2047365
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_value_rupees": null,
+        "spouse_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_value_rupees": null,
+        "spouse_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_value_rupees": 179010,
+        "self_weight_gm": 85,
+        "spouse_value_rupees": 789750,
+        "spouse_weight_gm": 375,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 968760
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_value_rupees": 1200000,
+        "spouse_value_rupees": null,
+        "dependent1_value_rupees": null,
+        "dependent2_value_rupees": null,
+        "dependent3_value_rupees": null,
+        "total_value_rupees": 1200000
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3830000,
-      "non_agricultural_land": 4058000,
-      "commercial_buildings_inr": 37500000,
-      "residential_buildings": 4688000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 50076000
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "total_current_market_value_self_rupees": 61480000,
+    "total_current_market_value_spouse_rupees": 2750000,
+    "total_current_market_value_dependent1_rupees": 0,
+    "total_current_market_value_dependent2_rupees": 0,
+    "total_current_market_value_dependent3_rupees": 0,
+    "total_current_market_value_total_rupees": 64230000,
+    "calculated_totals": {
+      "self_rupees": 50076000,
+      "spouse_rupees": 2750000,
+      "total_rupees": 52826000
     },
-    "spouse": {
-      "agricultural_land_inr": 1500000,
-      "non_agricultural_land": 1250000,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2750000
-    }
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_details": [
+          {
+            "property_ludhiana": "SHARE 1/3 Total Area 18ACRE 9MARLAS",
+            "inherited": "N",
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 1400000
+          },
+          {
+            "property_ludhiana": "Share 1/3 Total Area 2.43acer 3kanal 8.5 marlla",
+            "inherited": "N",
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 2430000
+          }
+        ],
+        "spouse_details": [
+          {
+            "property_ludhiana": "SHARE 1/9 Total Area 0.94acer(7kanal 11marla)",
+            "inherited": "N",
+            "purchase_date": "2006-05-22",
+            "purchase_cost": 495000,
+            "development_cost": 0,
+            "value_rupees": 1500000
+          }
+        ],
+        "total_value_rupees": 5330000
+      },
+      {
+        "description": "Non Agricultural Land",
+        "self_details": [
+          {
+            "property_ludhiana": "kochar market  Total Area 252Sq ft /22ga",
+            "inherited": "N",
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 780000
+          },
+          {
+            "property_ludhiana": "Total Area 22.50Sq ft",
+            "inherited": "N",
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 778000
+          },
+          {
+            "property_ludhiana": "Total Area 293Sq ft /1/39.97 sq ft",
+            "inherited": "N",
+            "purchase_date": "2005-12-01",
+            "purchase_cost": 629100,
+            "development_cost": 0,
+            "value_rupees": 2500000
+          }
+        ],
+        "spouse_details": [
+          {
+            "property_ludhiana": "Total Area 125Sq ft /1125Sqft",
+            "inherited": "N",
+            "purchase_date": "2006-02-16",
+            "purchase_cost": 206260,
+            "development_cost": 0,
+            "value_rupees": 1250000
+          }
+        ],
+        "total_value_rupees": 5308000
+      },
+      {
+        "description": "Commercial Buildings",
+        "self_details": [
+          {
+            "property_ludhiana": "property complax ludhiana Total Area 500 sq.yd./4500 Sq pt",
+            "inherited": "N",
+            "purchase_date": "2010-03-29",
+            "purchase_cost": 17450,
+            "development_cost": 5000,
+            "value_rupees": 12500000
+          },
+          {
+            "property_ludhiana": "property complex ludhiana  Total Area 1000Sq ft /9000Sq ft",
+            "inherited": "N",
+            "purchase_date": "2010-03-29",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 25000000
+          }
+        ],
+        "spouse_details": [],
+        "total_value_rupees": 37500000
+      },
+      {
+        "description": "Residential Buildings",
+        "self_details": [
+          {
+            "property_ludhiana": "residential ludhiana  Total Area 1000Sq ft /900Sq ft  Built Up Area",
+            "inherited": "N",
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 1500000
+          },
+          {
+            "property_ludhiana": "house ludhiana  Total Area 33.33Sq ft /300 Sq ft  Built Up Area",
+            "inherited": "N",
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 500000
+          },
+          {
+            "property_ludhiana": "residential Total Area 112.50 Sq ft /1012.50 Sq ft  Built Up Area",
+            "inherited": "N",
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "value_rupees": 2688000
+          }
+        ],
+        "spouse_details": [],
+        "total_value_rupees": 4688000
+      },
+      {
+        "description": "Others",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      }
+    ]
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1090031.54,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1090031
+    "readability_report": "No Problems in Reading Affidavit Information",
+    "grand_total_of_liabilities_self_rupees": 1090031,
+    "grand_total_of_liabilities_spouse_rupees": 0,
+    "grand_total_of_liabilities_dependent1_rupees": 0,
+    "grand_total_of_liabilities_dependent2_rupees": 0,
+    "grand_total_of_liabilities_dependent3_rupees": 0,
+    "total_liabilities_rupees": 1090031,
+    "grand_total_of_all_govt_dues_self_rupees": 0,
+    "grand_total_of_all_govt_dues_spouse_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+    "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+    "total_govt_dues_rupees": 0,
+    "calculated_totals": {
+      "loans_from_banks_fis_self_rupees": 1090031.54,
+      "total_loans_from_banks_fis_rupees": 1090031.54
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Business of Dairy Farming",
-    "spouse": "House wife",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "Nil"
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_details": [
+          {
+            "bank": "bank of india",
+            "account_no": "65332521000xxxxx",
+            "value_rupees": 566088
+          },
+          {
+            "bank": "bank of india",
+            "account_no": "65337631000xxxxx",
+            "value_rupees": 523943.54
+          }
+        ],
+        "spouse_details": [],
+        "total_value_rupees": 1090031.54
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_details": [],
+        "spouse_details": [],
+        "total_value_rupees": 0
+      }
+    ]
   }
 }

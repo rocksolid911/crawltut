@@ -1,153 +1,444 @@
 {
   "candidate_name": "AKHILESH PRATAP SINGH",
   "party": "INC",
-  "constituency": "RUDRAPUR (DEORIA )",
-  "father_or_husband_name": "Fatehbahadur Singh",
-  "age": 51,
-  "education": "Post Graduate M.A. (History ) from Allahbad Univesity in 1981",
-  "profession_self": "Agriculture ,Social Worker & Politics",
-  "profession_spouse": "Petrol Pump Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 18457054,
-  "liabilities_total_inr": 2350000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009-2010": 208000
-      }
+  "constituency": "RUDRAPUR",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Fatehbahadur Singh",
+      "age": 51,
+      "self_profession": "Agriculture, Social Worker & Politics",
+      "spouse_profession": "Petrol Pump Business"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010-2011": 247870
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 18457054,
+      "total_liabilities_in_rupees": 2350000
     },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A. (History) from Allahabad University in 1981"
     },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 208000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2010 - 2011",
+          "total_income_shown_in_itr_rupees": 247870
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 75000,
-      "bank_deposits_inr": 315359,
-      "bonds_debentures_shares_inr": 1350000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 50000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 200000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1990359
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1990359,
+      "gross_total_value_spouse_rupees": 10566195,
+      "gross_total_value_huf_rupees": null,
+      "gross_total_value_dependent1_rupees": 500,
+      "gross_total_value_dependent2_rupees": null,
+      "gross_total_value_dependent3_rupees": null,
+      "gross_total_value_total_rupees": 12557054,
+      "items": [
+        {
+          "description": "Cash",
+          "self_value_rupees": 75000,
+          "spouse_value_rupees": 45000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 120000
+        },
+        {
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 315359,
+          "spouse_value_rupees": 321295,
+          "dependent1_value_rupees": 500,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 637054
+        },
+        {
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 1350000,
+          "spouse_value_rupees": 450000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1800000
+        },
+        {
+          "description": "NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 100000
+        },
+        {
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 200000,
+          "spouse_value_rupees": 1000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1200000
+        },
+        {
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 700000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 700000
+        },
+        {
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 8000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 8000000
+        }
+      ]
     },
-    "spouse": {
-      "cash_inr": 45000,
-      "bank_deposits_inr": 321200,
-      "bonds_debentures_shares_inr": 450000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 50000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1000000,
-      "jewellery_inr": 700000,
-      "other_assets_inr": 8000000,
-      "gross_total_value_inr": 10566195
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2000000,
-      "non_agricultural_land": {
-        "description": "Village Kanholi share by 1/5, of 40800sq.ft.",
-        "area_sq_mtr": 758,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 800000
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 53000000,
+      "total_current_market_value_spouse_rupees": 15000000,
+      "total_current_market_value_huf_rupees": null,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 68000000,
+      "items": [
+        {
+          "description": "Agricultural Land",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 20000000,
+          "self_details": [
+            {
+              "location": "Village Kanholi, Haraiya",
+              "total_area": "745acre",
+              "inherited": true,
+              "current_value_rupees": 20000000
+            }
+          ]
+        },
+        {
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 8000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 8000000,
+          "self_details": [
+            {
+              "location": "Village Kanholi",
+              "total_area": "8160sq.ft.",
+              "inherited": true,
+              "current_value_rupees": 8000000
+            }
+          ]
+        },
+        {
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Residential Buildings",
+          "self_value_rupees": 15000000,
+          "spouse_value_rupees": 15000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 30000000,
+          "self_details": [
+            {
+              "location": "Mekhayali Lucknow, Meri gold apartment (Joint)",
+              "total_area": "700sq.ft.",
+              "built_up_area": "1400sq.ft.",
+              "inherited": false,
+              "purchase_date": "2007-09-13",
+              "purchase_cost_rupees": 750000,
+              "current_value_rupees": 15000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Meri Gold apartment joint both wife and husband",
+              "total_area": "700sq.ft.",
+              "built_up_area": "1400sq.ft.",
+              "inherited": false,
+              "purchase_date": "2007-09-13",
+              "purchase_cost_rupees": 750000,
+              "current_value_rupees": 15000000
+            }
+          ]
+        },
+        {
+          "description": "Others",
+          "self_value_rupees": 10000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 10000000,
+          "self_details": [
+            {
+              "location": "Devria , Shop",
+              "inherited": false,
+              "current_value_rupees": 10000000
+            }
+          ]
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 6000000,
+      "grand_total_of_liabilities_spouse_rupees": 17500000,
+      "grand_total_of_liabilities_huf_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 23500000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": null,
+      "items": [
+        {
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 6000000,
+          "spouse_value_rupees": 17500000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 23500000,
+          "self_details": [
+            {
+              "bank": "Vijay Bank",
+              "branch": "Gomati nagar Lucknow",
+              "loan_type": "home loan (joint)",
+              "amount_rupees": 6000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Vijaya Bank",
+              "branch": "Gomati nagar Lucknow",
+              "loan_type": "Car loan",
+              "amount_rupees": 2500000
+            },
+            {
+              "bank": "Central Bank of India",
+              "loan_type": "for petrol pump",
+              "amount_rupees": 15000000
+            }
+          ]
+        },
+        {
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        },
+        {
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2024",
+        "declared_assets_rupees": 42734648,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Mekhayali Lucknow,Meri gold apartment(Joint) total area 1400sq.ft. share by 1/2",
-        "total_area_sqft": 700,
-        "built_up_area_sqft": 1400,
-        "inherited": "N",
-        "purchase_date": "2007-09-13",
-        "purchase_cost_inr": 750000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1500000
+      {
+        "election_name": "Uttar Pradesh 2022",
+        "declared_assets_rupees": 38068140,
+        "declared_cases": 0
       },
-      "others_inr": 1000000,
-      "total_current_market_value_inr": 5300000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Meri Gold apartment joint both wife and husband ,total area 1400sq.ft. share by 1/2",
-        "total_area_sqft": 700,
-        "built_up_area_sqft": 1400,
-        "inherited": "N",
-        "purchase_date": "2007-09-13",
-        "purchase_cost_inr": 750000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 1500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 600000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 600000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1750000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1750000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Uttar Pradesh 2017",
+        "declared_assets_rupees": 24209418,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

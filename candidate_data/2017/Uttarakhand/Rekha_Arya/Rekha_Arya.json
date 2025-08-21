@@ -1,134 +1,398 @@
 {
   "candidate_name": "REKHA ARYA",
   "party": "BJP",
-  "constituency": "SOMESHWAR(SC) (ALMORA)",
-  "father_or_husband_name": "Girdhari Lal Sahu",
-  "age": 38,
-  "education": "Post Graduate M.Com In 2005 & B.Ed. In 2002 From Kumaun University Nainital (Uttarakhand)",
-  "profession_self": "Business",
-  "profession_spouse": "Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 127813693,
-  "liabilities_total_inr": 489044,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 2271665
+  "constituency": "SOMESHWAR(SC)",
+  "state": "Uttarakhand 2017",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Girdhari Lal Sahu",
+      "age": 38,
+      "voter_enrolled_in": {
+        "constituency": "51 Someshwar (Uttarakhand) constituency",
+        "serial_no": 682,
+        "part_no": 38
+      },
+      "self_profession": "Business",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 127813693,
+      "total_liabilities_in_rupees": 489044
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.Com In 2005 & B.Ed. In 2002 From Kumaun University Nainital (Uttarakhand)"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 2271665
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 455384
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 14053057,
+      "gross_total_value_spouse_rupees": 3928128,
+      "gross_total_value_dependent1_rupees": 1374829,
+      "gross_total_value_dependent2_rupees": 1465734,
+      "gross_total_value_dependent3_rupees": 527755,
+      "gross_total_value_total_rupees": 21349504,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 250000,
+          "dependent1_value_rupees": 1000,
+          "dependent2_value_rupees": 1000,
+          "dependent3_value_rupees": 100,
+          "total_value_rupees": 502100
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 5604107,
+          "spouse_value_rupees": 1069136,
+          "dependent1_value_rupees": 966156,
+          "dependent2_value_rupees": 962251,
+          "dependent3_value_rupees": 527678,
+          "total_value_rupees": 8125228,
+          "self_details": [
+            {"bank_name": "Axis Bank Rudrapur", "account_no": "91101001770xxxxx", "value_rupees": 5425.65},
+            {"bank_name": "Axis Bank Haldwani", "account_no": "91501001684xxxxx", "value_rupees": 3822},
+            {"bank_name": "Axis Bank Bareli", "account_no": "9160100270xxxxx", "value_rupees": 910614.50},
+            {"bank_name": "SBI Someshawar", "account_no": "1060758xxxxx", "value_rupees": 846},
+            {"bank_name": "SBI Delhi", "account_no": "3026944xxxxx", "value_rupees": 22762},
+            {"bank_name": "SBI Deharadun", "account_no": "2022333xxxxx", "value_rupees": 5988.61},
+            {"bank_name": "Bank of Baroda Bareli", "account_no": "2677020000xxxxx", "value_rupees": 213332},
+            {"bank_name": "Axis Bank Bareli", "account_no": "91602004393xxxxx", "value_rupees": 13562.75},
+            {"bank_name": "Canera Bank Haldwani", "account_no": "232521400xxxxx", "value_rupees": 58790},
+            {"bank_name": "Canara Bank Haldwani", "account_no": "232521400xxxxx", "value_rupees": 741250.49},
+            {"bank_name": "PNB", "account_no": "793500010002xxxxx", "value_rupees": 15561.14},
+            {"bank_name": "Axis Bank Haldwani Folio", "account_no": "9151902xxxxx", "value_rupees": 965120.46},
+            {"bank_name": "FD Canara Bank Haladwani", "account_no": "232540100xxxxx", "value_rupees": 1760494.92},
+            {"bank_name": "FD Canara Bank Haldvani", "account_no": "232540100xxxxx", "value_rupees": 1812007.52}
+          ],
+          "spouse_details": [
+            {"bank_name": "Axis Bank Halwani", "account_no": "91501003227xxxxx", "value_rupees": 531922.64},
+            {"bank_name": "Rubi Sahu Chairitebal Trust Bank of Baroda Bareli", "account_no": "0074010001xxxxx", "value_rupees": 7451},
+            {"bank_name": "Axis Income Saver growth Axis Bank Haldwani", "account_no": "9151971xxxxx", "value_rupees": 531714.82}
+          ],
+          "dependent1_details": [
+            {"bank_name": "Axis Bank Haldwani", "account_no": "91501003885xxxxx", "value_rupees": 1036},
+            {"bank_name": "Axis Bank Haldwani Folio", "account_no": "9151902xxxxx", "value_rupees": 965120.46}
+          ],
+          "dependent2_details": [
+            {"bank_name": "Axis Bank Haldwani Folio", "account_no": "9151907xxxxx", "value_rupees": 961006},
+            {"bank_name": "Axis Bank Haldwani", "account_no": "91501003885xxxxx", "value_rupees": 1245}
+          ],
+          "dependent3_details": [
+            {"bank_name": "Axis Bank Haldwani", "account_no": "91501003879xxxxx", "value_rupees": 1977},
+            {"bank_name": "Axis Equity Saver Fund Growth", "account_no": "9151914xxxxx", "value_rupees": 525678.46}
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 450000,
+          "spouse_value_rupees": 450000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 900000,
+          "self_details": [{"company_name": "M/S Krishana Vaishnavi Infra developer pvt. ltd", "value_rupees": 450000}],
+          "spouse_details": [{"company_name": "M/S Krishana Vaishnavi Infra developer pvt. ltd", "value_rupees": 450000}]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 823479,
+          "spouse_value_rupees": 1597040,
+          "dependent1_value_rupees": 407673,
+          "dependent2_value_rupees": 501800,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3330675,
+          "self_details": [
+            {"company": "LIC", "policy_no": "24199xxxxx", "value_rupees": 145560},
+            {"company": "LIC", "policy_no": "24199xxxxx", "value_rupees": 101376},
+            {"company": "Max Life Insurance", "policy_no": "71585xxxxx", "value_rupees": 399996},
+            {"company": "LIC", "policy_no": "242339500", "value_rupees": 176547}
+          ],
+          "spouse_details": [
+            {"company": "LIC", "policy_no": "24200xxxxx", "value_rupees": 97040},
+            {"company": "Max Life Insurance", "policy_no": "13089xxxxx", "value_rupees": 100000},
+            {"company": "Max Life Insurance", "policy_no": "71499xxxxx", "value_rupees": 200000},
+            {"company": "Plus Indian Limited Rudrapur", "policy_no": "U105120291", "value_rupees": 400000},
+            {"company": "Plus India Ltd. Rudrapur", "policy_no": "U105120292", "value_rupees": 400000},
+            {"company": "Plus India Ltd. Rudrapur", "policy_no": "U105120293", "value_rupees": 400000}
+          ],
+          "dependent1_details": [
+            {"company": "LIC", "policy_no": "24282xxxxx", "value_rupees": 203955},
+            {"company": "LIC", "policy_no": "24199xxxxx", "value_rupees": 155904},
+            {"company": "LIC", "policy_no": "24283xxxxx", "value_rupees": 47814}
+          ],
+          "dependent2_details": [
+            {"company": "LIC", "policy_no": "24200xxxxx", "value_rupees": 217600},
+            {"company": "LIC", "policy_no": "24282xxxxx", "value_rupees": 189483},
+            {"company": "LIC", "policy_no": "24283xxxxx", "value_rupees": 53608},
+            {"company": "LIC", "policy_no": "24340xxxxx", "value_rupees": 41792}
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 3200000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3200000,
+          "self_details": [
+            {"make": "Figo", "registration_no": "UK04J 5279", "year": 2010, "value_rupees": 600000},
+            {"make": "Scorpio", "registration_no": "UK04K1166", "year": 2011, "value_rupees": 1100000},
+            {"make": "XUV 500", "registration_no": "UK 04V7511", "year": 2015, "value_rupees": 1500000}
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 2800000,
+          "spouse_value_rupees": 560000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3360000,
+          "self_details": [{"item": "Gold", "weight_kg": 1, "value_rupees": 2800000}],
+          "spouse_details": [{"item": "Gold", "weight_gram": 200, "value_rupees": 560000}]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 850600000,
+      "total_current_market_value_spouse_rupees": 215000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 1065600000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 305600000,
+          "spouse_value_rupees": 140000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 445600000,
+          "self_details": [
+            {"location": "Gram Laveshal Patti P.Cha. Nainital", "account_no": "113 and 25", "area": "7 Nali 14 Muthi", "purchase_cost_rupees": 15646448, "current_value_rupees": 305600000}
+          ],
+          "spouse_details": [
+            {"location": "Village Dhamipur Tehasil Nbabganj Distt. Bareli", "account_no": "0033. 00235, 00236, 00198, 00234, 00014, 00177", "area": "5.147 he.", "purchase_cost_rupees": 5430000, "current_value_rupees": 140000000}
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 275000000,
+          "spouse_value_rupees": 75000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 350000000,
+          "self_details": [
+            {"location": "Omakas Radrapur", "area": "1350.84 sq.ft.", "purchase_cost_rupees": 675000, "current_value_rupees": 25000000},
+            {"location": "Kausani Hotel", "area": "06 Nali", "purchase_cost_rupees": 5500000, "current_value_rupees": 150000000},
+            {"location": "Vadilal Factory C.and F Haladwani", "area": "200.92 sq. mtr", "purchase_cost_rupees": 390000, "current_value_rupees": 100000000}
+          ],
+          "spouse_details": [
+            {"location": "Cmmercial Home Bareli", "area": "250 sq.ft.", "purchase_cost_rupees": 133000, "current_value_rupees": 75000000}
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 270000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 270000000,
+          "self_details": [
+            {"location": "Pluda Someshawar", "account_no": "51", "area": "1 Nali 15 Mutti", "purchase_cost_rupees": 88500, "current_value_rupees": 25000000},
+            {"location": "Pluda Someshawar", "account_no": "51", "area": "1 Nali 15 Mutti", "purchase_cost_rupees": 88500, "current_value_rupees": 25000000},
+            {"location": "Lalpur Nayak Halwani", "account_no": "307 Kasara No.38", "area": "4100 sq. mtr.", "purchase_cost_rupees": 6500000, "current_value_rupees": 200000000},
+            {"location": "Haripur Futkuva Bhavar Haldwani Flat", "account_no": "106", "area": "78.38 sq.mtr.", "purchase_cost_rupees": 727000, "current_value_rupees": 20000000}
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 489044,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 489044,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 489044,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 489044,
+          "spouse_details": [
+            {"bank_name": "Punjab national Bank Bareli", "loan_type": "Housing loan", "value_rupees": 489044}
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election_year": "2022",
+        "election_state": "Uttarakhand",
+        "declared_assets_rupees": 252018003,
+        "declared_cases": 0
+      },
+      {
+        "election_year": "2014",
+        "election_state": "Uttarkhand Bye Election",
+        "declared_assets_rupees": 67215490,
+        "declared_cases": 0
+      },
+      {
+        "election_year": "2012",
+        "election_state": "Uttarakhand",
+        "declared_assets_rupees": 41609576,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014-2015": 455384
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 7288673,
-      "bonds_debentures_shares_inr": 450000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 823479,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 3200000,
-      "jewellery_inr": 2800000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 14053057
-    },
-    "spouse": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 1073887,
-      "bonds_debentures_shares_inr": 450000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1300000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 560000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3928128
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 30560000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 27500000,
-      "residential_buildings_inr": 27000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 85060000
-    },
-    "spouse": {
-      "agricultural_land_inr": 14000000,
-      "non_agricultural_land": 0,
-      "commercial_buildings_inr": 7500000,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 21500000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 489044,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 489044
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
+    ]
   }
 }

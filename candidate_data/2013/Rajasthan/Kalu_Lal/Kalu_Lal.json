@@ -1,166 +1,463 @@
 {
   "candidate_name": "KALU LAL",
   "party": "BJP",
-  "constituency": "MANDAL (BHILWARA)",
-  "father_or_husband_name": "Gangaram",
-  "age": 60,
-  "education": "Graduate Professional B.A Hons From MLV Govt. Collage Bhilwara Rajasthan University In 1973 & L.L.B From Rajsthan University In 1976",
-  "profession_self": "Agricultural & MLA Pension",
-  "profession_spouse": "Head of Panchayat Samiti,",
-  "criminal_cases": 0,
-  "assets_total_inr": 28009934,
-  "liabilities_total_inr": 5287350,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 186480
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 79330
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 182405,
-      "bank_deposits_inr": 1003836,
-      "bonds_debentures_shares_inr": 37500,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 857755,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 70304,
-      "jewellery_inr": 0,
-      "other_assets_inr": 127166,
-      "gross_total_value_inr": 2664929
-    },
-    "spouse": {
-      "cash_inr": 129444,
-      "bank_deposits_inr": 148526,
-      "bonds_debentures_shares_inr": 3585000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 73704,
-      "personal_loans_advance_given_inr": 514831,
-      "motor_vehicles_inr": 79000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 52000,
-      "gross_total_value_inr": 4545005
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 4300000,
-      "non_agricultural_land": {
-        "description": "Plot No A-77 Madhav Nagar Bhilwadea",
-        "area_sq_ft": 4650,
-        "inherited": "N",
-        "purchase_date": "2008-03-26",
-        "purchase_cost_inr": 733470,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1000000
+  "constituency": "MANDAL",
+  "state": "Rajasthan",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Gangaram",
+      "age": 60,
+      "voter_enrolled_in": {
+        "constituency": "178 Mandal (Rajasthan)",
+        "serial_no": 375,
+        "part_no": 186
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Bhavan No 227 Mukharji Park Bhilwada",
-        "total_area_sqft": 1364.76,
-        "built_up_area_sqft": 1364.76,
-        "inherited": "N",
-        "purchase_date": "1987-09-07",
-        "purchase_cost_inr": 121497,
-        "development_cost_inr": 2251091,
-        "current_market_value_inr": 2500000
+      "self_profession": "Agricultural & MLA Pension",
+      "spouse_profession": "Head of Panchayat Samiti"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 28009934,
+      "total_liabilities_in_rupees": 5287350
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.A Hons From MLV Govt. Collage Bhilwara Rajasthan University In 1973 & L.L.B From Rajsthan University In 1976"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 186480
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 79330
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2664929,
+      "gross_total_value_spouse_rupees": 4545005,
+      "gross_total_value_huf_rupees": null,
+      "gross_total_value_dependent1_rupees": null,
+      "gross_total_value_dependent2_rupees": null,
+      "gross_total_value_dependent3_rupees": null,
+      "gross_total_value_total_rupees": 7209934,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 182405,
+          "spouse_value_rupees": 129444,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 311849
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1082261,
+          "spouse_value_rupees": 154885,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1538325
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 37500,
+          "spouse_value_rupees": 3585000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3585000
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 857755,
+          "spouse_value_rupees": 73704,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 931459
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 514831,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 514831
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 70304,
+          "spouse_value_rupees": 79000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 149304
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Gold 095gm & 2kg Silver  0*(Value Not Given)",
+          "spouse_details": "Gold 250gm & 2KG Silver  0*(Value Not Given)"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 127166,
+          "spouse_value_rupees": 52000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 179166
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 145500000,
+      "total_current_market_value_spouse_rupees": 62500000,
+      "total_current_market_value_huf_rupees": null,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 208000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 4300000,
+          "spouse_value_rupees": 1200000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5500000,
+          "self_details": [
+            {
+              "location": "Vill. Gurla Kh. No (1)871/1 (2)871/2 (3)871/3, (4)871/4 (5) 871/5 (6) 3186/865/1 (7)86/86/ (8) 3186/865/3 (9) 3186/865/4 (10)3186/865/5",
+              "total_area": "5 Bigha",
+              "inherited": false,
+              "purchase_date": "2007-05-28",
+              "purchase_cost_rupees": 159750,
+              "current_value_rupees": 500000
+            },
+            {
+              "location": "Vill. Gurla Kh. Mo 1556",
+              "total_area": "3 Bigha (1.87 Acres)",
+              "inherited": false,
+              "purchase_date": "1997-05-28",
+              "purchase_cost_rupees": 60250,
+              "current_value_rupees": 500000
+            },
+            {
+              "location": "Jodhdas Kh. No 148",
+              "total_area": "2.25 Bigha (1.40 Acres)",
+              "inherited": false,
+              "purchase_date": "2006-10-17",
+              "purchase_cost_rupees": 229220,
+              "current_value_rupees": 800000
+            },
+            {
+              "location": "Devghad Kh No 176",
+              "total_area": "14 Bigha 8.75 Acres",
+              "inherited": false,
+              "purchase_date": "2030-03-00",
+              "purchase_cost_rupees": 0,
+              "current_value_rupees": 1400000
+            },
+            {
+              "location": "Govindpura Kh No 334, 335, 336, 2098/335 3170/335",
+              "total_area": "6.84 Acres",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 781530,
+              "current_value_rupees": 1100000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Vill. Gurla Kh. No (1)871/1 (2)871/2 (3)871/3, (4)871/4 (5) 871/5 (6) 3186/865/1 (7)86/86/ (8) 3186/865/3 (9) 3186/865/4 (10)3186/865/5",
+              "total_area": "5 Bigha (3.12 Acres )",
+              "inherited": false,
+              "purchase_date": "2007-05-28",
+              "purchase_cost_rupees": 159750,
+              "current_value_rupees": 500000
+            },
+            {
+              "location": "Vill. Gurla Kh No 1892",
+              "total_area": "19 Biswa (0.59 Acres)",
+              "inherited": false,
+              "purchase_date": "1982-06-07",
+              "purchase_cost_rupees": 5365,
+              "current_value_rupees": 200000
+            },
+            {
+              "location": "Pansl Kh No 2762/1 2763",
+              "total_area": "1 Bigha 19 Biswa (1.21 Acres)",
+              "inherited": false,
+              "purchase_date": "2006-02-06",
+              "purchase_cost_rupees": 338773,
+              "current_value_rupees": 500000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 1050000,
+          "spouse_value_rupees": 50000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1100000,
+          "self_details": [
+            {
+              "location": "Plot No A-77 Madhav Nagar Bhilwadea",
+              "total_area": "4650 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2008-03-26",
+              "purchase_cost_rupees": 733470,
+              "current_value_rupees": 1000000
+            },
+            {
+              "location": "Plot No A-6 Shiv Nagar Gurla",
+              "total_area": "2400 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "1984-06-29",
+              "purchase_cost_rupees": 2225,
+              "current_value_rupees": 50000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Plot No B- 39 Shiv Nagar Gurla",
+              "total_area": "2400 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "1998-09-22",
+              "purchase_cost_rupees": 5000,
+              "current_value_rupees": 50000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 9200000,
+          "spouse_value_rupees": 5000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14200000,
+          "self_details": [
+            {
+              "location": "Bhavan No 227 Mukharji Park Bhilwada",
+              "total_area": "1364.76 Sq.ft.",
+              "built_up_area": "1364.76 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "1987-09-07",
+              "purchase_cost_rupees": 121497,
+              "development_cost_rupees": 2251091,
+              "current_value_rupees": 2500000
+            },
+            {
+              "location": "House No 6-A-31 H. Board Udaipur",
+              "total_area": "2352.24 Sq.ft.",
+              "built_up_area": "2253.25 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2012-07-28",
+              "purchase_cost_rupees": 1689831,
+              "current_value_rupees": 1700000
+            },
+            {
+              "location": "H. No 38/374 Board Mansarovar Jaipur",
+              "total_area": "2400 Sq.ft.",
+              "built_up_area": "2400 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "1993-02-20",
+              "purchase_cost_rupees": 330666,
+              "development_cost_rupees": 1718083,
+              "current_value_rupees": 5000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Bhavan No 227 Mukharji Park Bhilwada",
+              "total_area": "1159.6 Sq.ft.",
+              "built_up_area": "1159.6 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "1987-09-07",
+              "purchase_cost_rupees": 110650,
+              "development_cost_rupees": 1000000,
+              "current_value_rupees": 1500000
+            },
+            {
+              "location": "H. No-7 2nd Floor Gangaram Nagar Jaipur",
+              "total_area": "1650 Sq.ft.",
+              "built_up_area": "1650 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2012-05-06",
+              "purchase_cost_rupees": 1360130,
+              "current_value_rupees": 2000000
+            },
+            {
+              "location": "H. No 5-O-14 R.C. Bhilwada",
+              "total_area": "980 Sq.ft.",
+              "built_up_area": "980 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2009-05-11",
+              "purchase_cost_rupees": 850000,
+              "current_value_rupees": 1500000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3129384,
+      "grand_total_of_liabilities_spouse_rupees": 2157966,
+      "grand_total_of_liabilities_huf_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 5287350,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": 0,
+        "details": null
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 14550000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1502466,
+          "spouse_value_rupees": 1502466,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3004932,
+          "self_details": "H. Laon O.K.Bank Bhilwada 15,02,466",
+          "spouse_details": "H. Laon O.K.Bank Bhilwada 15,02,466"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 1626918,
+          "spouse_value_rupees": 655500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2282418,
+          "self_details": "Individual Loan  16,26,918",
+          "spouse_details": "Individual Loan  6,55,500"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 700000,
-      "non_agricultural_land": {
-        "description": "Plot No B- 39 Shiv Nagar Gurla",
-        "area_sq_ft": 2400,
-        "inherited": "N",
-        "purchase_date": "1998-09-22",
-        "purchase_cost_inr": 5000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 50000
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Bhavan No 227 Mukharji Park Bhilwada",
-        "total_area_sqft": 1159.6,
-        "built_up_area_sqft": 1159.6,
-        "inherited": "N",
-        "purchase_date": "1987-09-07",
-        "purchase_cost_inr": 110650,
-        "development_cost_inr": 1000000,
-        "current_market_value_inr": 1500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 6250000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1502466,
-      "loans_due_to_individual_entity_inr": 1626918,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3129384
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1502466,
-      "loans_due_to_individual_entity_inr": 655500,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2157966
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agricultural & MLA Pension",
-    "spouse": "Head of Panchayat Samiti",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "Nil"
+    "other_elections": [
+      {
+        "declaration_in": "Rajasthan 2018",
+        "declared_assets_rupees": 57171456,
+        "declared_cases": 1
+      }
+    ]
   }
 }

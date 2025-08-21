@@ -1,139 +1,426 @@
-{
-  "candidate_name": "IQBAL SINGH JHUNDAN",
-  "party": "SAD",
-  "constituency": "AMARGARH (SANGRUR )",
-  "father_or_husband_name": "S. Didar Singh",
-  "age": 50,
-  "education": "Graduate Professional LLB(Law) from university of rajasthan in 1985",
-  "profession_self": "Member of Legislative Assembly Punjab",
-  "profession_spouse": "House wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 163576193,
-  "liabilities_total_inr": 1096000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010 - 2011": 623588
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 291193,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 185000,
-      "jewellery_inr": 75000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 601193
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 650000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 675000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 51350000,
-      "non_agricultural_land": {
-        "description": "SHERPUR KALAN, NEAR MOTI NAGAR COLONY LUDHIANA SHARE 1/5 in 9000 Sq.Yd.; OPPOSITE MOTI NAGAR LUDHIANA SHARE 1/4 in 2200 Sq.Yd.; BACHITTAR NAGAR VILL. GILL LUDHIANA SHARE 1/4 IN 8500 SQ.YD.",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 102500000
+[
+  {
+    "candidate_name": "IQBAL SINGH JHUNDAN",
+    "party": "SAD",
+    "constituency": "AMARGARH",
+    "state": "Punjab",
+    "status": "Winner",
+    "affidavit_info": {
+      "personal_details": {
+        "s_o_d_o_w_o": "S. Didar Singh",
+        "age": 50,
+        "self_profession": "Member of Legislative Assembly Punjab",
+        "spouse_profession": "House wife"
       },
-      "commercial_buildings_inr": 6700000,
-      "residential_buildings": {
-        "description": "One Old House at Vill. Jhundhan dist Sangrur; One House is Under Construction House at Vill. Jhundhan in above Mentioned Agriculture Land",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "Y/N",
-        "purchase_date": null,
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 2000000,
-        "current_market_value_inr": 1750000
+      "summary": {
+        "criminal_cases_count": 0,
+        "total_assets_in_rupees": 163576193,
+        "total_liabilities_in_rupees": 1096000
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 161450000
-    },
-    "spouse": {
-      "agricultural_land_inr": 850000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 850000
+      "educational_details": {
+        "category": "Graduate Professional",
+        "details": "LLB(Law) from university of rajasthan in 1985"
+      },
+      "income_tax_details": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "returns": [
+          {
+            "relation_type": "self",
+            "pan_given": true,
+            "financial_year": "2010 - 2011",
+            "total_income_shown_in_itr_rupees": 623588
+          },
+          {
+            "relation_type": "spouse",
+            "pan_given": false,
+            "financial_year": null,
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent1",
+            "pan_given": false,
+            "financial_year": null,
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent2",
+            "pan_given": false,
+            "financial_year": null,
+            "total_income_shown_in_itr_rupees": 0
+          },
+          {
+            "relation_type": "dependent3",
+            "pan_given": false,
+            "financial_year": null,
+            "total_income_shown_in_itr_rupees": 0
+          }
+        ]
+      },
+      "criminal_cases": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "brief_details_ipc_bns": [],
+        "pending_cases": [],
+        "convicted_cases": []
+      },
+      "movable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "gross_total_value_self_rupees": 601193,
+        "gross_total_value_spouse_rupees": 675000,
+        "gross_total_value_dependent1_rupees": 0,
+        "gross_total_value_dependent2_rupees": 0,
+        "gross_total_value_dependent3_rupees": 0,
+        "gross_total_value_total_rupees": 1276193,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Cash",
+            "self_value_rupees": 50000,
+            "spouse_value_rupees": 25000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 75000
+          },
+          {
+            "sr_no": "ii",
+            "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+            "self_value_rupees": 291193,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 291193,
+            "self_details": "SAVING BANK ACCOUNT IN PNB AMARGARH 1,38,516 SAVING BANK A/C IN STATE BANK CHANDIGARH 51,677 HDFC BANK AMARGARH 1,01,000"
+          },
+          {
+            "sr_no": "iii",
+            "description": "Bonds, Debentures and Shares in companies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "iv",
+            "description": "(a) NSS, Postal Savings etc",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "(b) LIC or other insurance Policies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "v",
+            "description": "Personal loans/advance given",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "vi",
+            "description": "Motor Vehicles (details of make, etc.)",
+            "self_value_rupees": 185000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 185000,
+            "self_details": "ONE TRACTOR OWNED JOINTLY WITH BALJEET SINGH REGD. NO. PB13 A 5817, MODEL 1991"
+          },
+          {
+            "sr_no": "vii",
+            "description": "Jewellery (give details weight value)",
+            "self_value_rupees": 75000,
+            "spouse_value_rupees": 650000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 725000,
+            "self_details": "25 GMS GOLD",
+            "spouse_details": "210 GMS"
+          },
+          {
+            "sr_no": "viii",
+            "description": "Other assets, such as values of claims / interests",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "immovable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "total_current_market_value_self_rupees": 1614500000,
+        "total_current_market_value_spouse_rupees": 0,
+        "total_current_market_value_dependent1_rupees": 850000,
+        "total_current_market_value_dependent2_rupees": 0,
+        "total_current_market_value_dependent3_rupees": 0,
+        "total_current_market_value_total_rupees": 1623000000,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Agricultural Land",
+            "self_value_rupees": 513500000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 850000,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 514350000,
+            "self_details": [
+              "AT VILL. JHUNDAN DIST SANGRUR KHEWAT NO.28/49,50,51,52,53,54,55, & 109/168,169,170,171,27/44,45,46,47,48, Area-1/3 share in 30-16 Bighas, (DATE. 14/10/1991, 6/11/2006, 11/04/2007, Purchase Cost-199000,325000,324000, (TOTAL VALUE OF LAND 7800000/-) Total Area 30-16 BIGHA Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 26,00,000",
+              "VILL JHALL DIST. SANGRUR KHEWAT NO.41/80 & 142/252 & 143/252 & 228/374, 380, 382, 229/387-393, 230/395, 231/396, Area-47-7 Bighas share at vill Jhall out of 160 Bighas, LAND JOINTLY ACQUED SHARE IS TOTAL VALUE OF LAND 48000000 Total Area 47-7 BIGHA Whether Inherited N Purchase Date 2004-06-17 Purchase Cost 650000.00 Development Cost 0.00 1,44,00,000",
+              "AT VILL. BURJA BAGHEL SINGH WALA DIST. SANGRUR KHEWAT NO.96/170, SHARE 1/3 IN 40 BIGHA TOTAL VALUE OF LAND ONE CRORE & THIRTY LACS Total Area Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 43,00,000",
+              "VILL MAREWAL DIST. LUDHIANA KHEWAT NO. 39/39, 24/24, 44 KANAL SHARE AT VILL.Marewal out of 206 Kanal, TOTAL VALUE OF LAND TWELEVE CRORE FIFTY LACS Total Area 44 KANAL Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,64,00,000",
+              "VILL. AMARGARH DIST. SANGRUR KHEWAT NO.448/620, SHARE 1/3 IN 10 BIGHA JOINTLY PROPERTY TOTAL VALUE OF LAND EIGHTY FOUR LACS Total Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 28,00,000"
+            ],
+            "dependent1_details": "AT VILL. JHALL KHEWAT NO.233/216 Total Area 3Bigha, 19Biswa, 3Biswasi Whether Inherited N Purchase Date 2011-01-25 Purchase Cost 650000.00 Development Cost 0.00 8,50,000"
+          },
+          {
+            "sr_no": "ii",
+            "description": "Non Agricultural Land",
+            "self_value_rupees": 1025000000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 1025000000,
+            "self_details": [
+              "SHERPUR KALAN, NEAR MOTI NAGAR COLONY LUDHIANA SHARE 1/5 in 9000 Sq.Yd. TOTAL VALUE AT THIRTY ONE CRORES FIFTY LACS Total Area 9000SQ.YD. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 6,30,00,000",
+              "OPPOSITE MOTI NAGAR LUDHIANA SHARE 1/4 in 2200 Sq.Yd. TOTAL VALUE EIGHT CRORE TWELVE LACS Total Area 2200 SQ.YD. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 2,03,00,000",
+              "BACHITTAR NAGAR VILL. GILL LUDHIANA SHARE 1/4 IN 8500 SQ.YD. TOTLA VALUE OF LAND SEVEN CRORE SIXTY FIVE LACS Total Area 8500SQ.YD. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,92,00,000"
+            ]
+          },
+          {
+            "sr_no": "iii",
+            "description": "Commercial Buildings",
+            "self_value_rupees": 67000000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 67000000,
+            "self_details": "Vill. Amargarh Gill MKT. Near Punjab National Bank, Amargarh, Total value of property two crore Total Area 3400sq.ft. Whether Inherited N Purchase Date 1993-02-23 Purchase Cost 130000.00 Development Cost 340000.00 67,00,000"
+          },
+          {
+            "sr_no": "iv",
+            "description": "Residential Buildings",
+            "self_value_rupees": 17500000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 17500000,
+            "self_details": [
+              "One Old House at Vill. Jhundhan dist Sangrur, Total value 2500000 Deponent's Share) Total Area 12000 sq.yds Built Up Area 2000sq.ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 2000000.00 6,25,000",
+              "One House is Under Construction House at Vill. Jhundhan in above Mentioned Agriculture Land, Total Value 4500000, Deponent share Total Area 54000sq.ft. Built Up Area 8000 Sq.Ft. Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 11,25,000"
+            ]
+          },
+          {
+            "sr_no": "v",
+            "description": "Others",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "liabilities": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "grand_total_of_liabilities_self_rupees": 1096000,
+        "grand_total_of_liabilities_spouse_rupees": 0,
+        "grand_total_of_liabilities_dependent1_rupees": 0,
+        "grand_total_of_liabilities_dependent2_rupees": 0,
+        "grand_total_of_liabilities_dependent3_rupees": 0,
+        "grand_total_of_liabilities_total_rupees": 1096000,
+        "grand_total_of_all_govt_dues_self_rupees": 0,
+        "grand_total_of_all_govt_dues_spouse_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+        "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+        "grand_total_of_all_govt_dues_total_rupees": 0,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Loans from Banks / FIs",
+            "self_value_rupees": 1096000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 1096000,
+            "self_details": "krishi card PNB amargarh 10,00,000 S.T. Loan in the Amargarh Co-Operative Society Amargarh 96,000"
+          },
+          {
+            "sr_no": null,
+            "description": "Loans due to Individual / Entity",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Any other Liability",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": "ii",
+            "description": "Dues to departments dealing with government accommodation",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with supply of water",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with supply of electricity",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with telephones",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Dues to departments dealing with supply of transport",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Income Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Wealth Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Service Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Property Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Sales Tax Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          },
+          {
+            "sr_no": null,
+            "description": "Any Other Dues",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0
+          }
+        ]
+      },
+      "other_elections": [
+        {
+          "election_name": "Lok Sabha 2024",
+          "declared_assets_rupees": 131420154,
+          "declared_cases": 0
+        },
+        {
+          "election_name": "Punjab 2022",
+          "declared_assets_rupees": 120182356,
+          "declared_cases": 1
+        },
+        {
+          "election_name": "Punjab 2017",
+          "declared_assets_rupees": 114510448,
+          "declared_cases": 0
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1096000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1096000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
-}
+  }
+]

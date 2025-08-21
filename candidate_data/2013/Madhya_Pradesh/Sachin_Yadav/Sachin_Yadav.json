@@ -1,166 +1,425 @@
 {
   "candidate_name": "SACHIN YADAV",
   "party": "INC",
-  "constituency": "KASRAWAD (KHARGONE)",
-  "father_or_husband_name": "Late. Subhashchandra Yadav",
-  "age": 31,
-  "education": "Graduate, Graduate (Commerce) from Barkatullah University Bhopal in 2003",
-  "profession_self": "Agricultural & Business",
-  "profession_spouse": "Agricultural & Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 230809827,
-  "liabilities_total_inr": 18985394,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 2204504
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 509351,
-      "bank_deposits_inr": 296236,
-      "bonds_debentures_shares_inr": 1740405,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 2194782,
-      "personal_loans_advance_given_inr": 10115507,
-      "motor_vehicles_inr": 2478812,
-      "jewellery_inr": 200000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 17762931
-    },
-    "spouse": {
-      "cash_inr": 178743,
-      "bank_deposits_inr": 5595,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1431000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1478276
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 46392150,
-      "non_agricultural_land": {
-        "description": "Dana pur P.H.No 16 survey no,8/4 rakba hec 0.636",
-        "area_sq_mtr": 636,
-        "inherited": "N",
-        "purchase_date": "2001-06-10",
-        "purchase_cost_inr": 453030,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 45744089
+  "constituency": "KASRAWAD",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late. Subhashchandra Yadav",
+      "age": 31,
+      "voter_enrolled_in": {
+        "constituency": "184 Kasrawad",
+        "state": "Madhya Pradesh",
+        "serial_no": 254,
+        "part_no": 132
       },
-      "commercial_buildings_inr": 88424721,
-      "residential_buildings": {
-        "description": "(1)Delhi area 1200 sq.ft Date 15.01.2009 Cost of purchase 1800000(2) Shakun Bila Indore share of 2785 sq.ft Date 01.04.2005 Cost of purchase 886535(3) House In Thorawa Rehwasi Area 3000 sq.ft Date 1998.01.01 cost of purchase 496989",
-        "total_area_sqft": 6985,
-        "built_up_area_sqft": 6985,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 3183524,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 30353160
+      "self_profession": "Agricultural & Business",
+      "spouse_profession": "Agricultural & Business"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 230809827,
+      "total_liabilities_in_rupees": 18985394
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Graduate (Commerce) from Barkatullah University Bhopal in 2003"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 2204504
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 17762931,
+      "gross_total_value_spouse_rupees": 1478276,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 19241005,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 509351,
+          "spouse_value_rupees": 178743,
+          "dependent1_value_rupees": 40517,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 728611
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 351788,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 2250,
+          "dependent2_value_rupees": 4509,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 351788,
+          "self_details": "Bank Of Baroda Khargaon No 2979020000xxxxx 10,778  10 Thou+ Bank Of Baroda No 2979010000xxxxx 80,000  80 Thou+ Bank Of Baroda No 2979020000xxxxx 20,977  20 Thou+ M.P. Rajya Seh Bank Marya Khargaon A/C No.276 11,652  11 Thou+ M.P. Rajya Seh Bank Marya Khargaon A/C No 308 37,122  37 Thou+ M.P. Rajya Seh Bank Marya A/C No. 112  5,198  5 Thou+ M.P. Rajya Seh Bank Marya No 1xxxxx 16,608  16 Thou+ HDFC Bank No 0920256000xxxxx 41,000  41 Thou+ HDFC Bank No 920193000xxxxx 44,555  44 Thou+ HDFC Bank No 36100021xxxxx 5,066  5 Thou+ Ayasi Awasi Bank No 8670100xxxxx 28,452  28 Thou+ State Bank OF India No 5302253xxxxx 10,270  10 Thou+ State Bank OF India No 5302245xxxxx 23,351  23 Thou+ State Bank OF India A/C No63027407304 10,000  10 Thou+",
+          "spouse_details": "State Bank OF India No 6303924xxxxx 2,250  2 Thou+ Vijya Bank Br. Delhi No 60200101001xxxxx 4,509  4 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 1740505,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1740505,
+          "self_details": "M.P. Electric Deposit  45,495  45 Thou+ Force Motors Puna  10,000  10 Thou+ Nimad Motors P.L. Khargaon Share  16,50,000  16 Lacs+ Nimad Infraliyal Pvt LTd  27,400  27 Thou+ Sewa Sehkari Sanstha Marya  3,010  3 Thou+ M.P. Rajya Sehkari Bank Marya Share 100  1 Hund+ J.N.Seh A.Pro.Pro.So Sut Mill Khargaon Share  4,500  4 Thou+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 2194782,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2194782,
+          "self_details": "Lic Policy 800000 premium 38961 5,45,454  5 Lacs+ Loc Policy 4000000 Premium 274888 16,49,328  16 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 10115507,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10115507,
+          "self_details": "Nimad Tractors Khargaon  15,52,424  15 Lacs+ Nimad Infrasalution Pvt Ltd Khargaon 85,63,083  85 Lacs+"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2478812,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2478812,
+          "self_details": "Hero Hona Motor Cycle MP10F8252-2004 30,698  30 Thou+ Motor Cycyle MP10M5653-2006 30,899  30 Thou+ Motor Cycle MP10BA1057=2005 30,899  30 Thou+ Motor Cycle MP10BA1056-2005 32,015  32 Thou+ Motor Cycle MP10MA9343-2006 46,693  46 Thou+ Motor Cycle MP10MD8916-2007 35,400  35 Thou+ Motor Cycle MP10MA9303-2007 35,400  35 Thou+ Motor Cycle MP10M00159-2012 36,808  36 Thou+ Bajaj Tempo Trax Judo MP10E0770-2001 4,15,000  4 Lacs+ Bajaj Tempo Tractor MP10A6539-1999 2,25,000  2 Lacs+ Skoda MP10A6539-2007 15,60,000  15 Lacs+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1631000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1631000,
+          "self_details": "Gold 5 Tola  1,55,000  1 Lacs+ Silver 750gm 45,000  45 Thou+",
+          "spouse_details": "Gold 450gm 13,95,000  13 Lacs+ 600gm Silver  36,000  36 Thou+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 210914120,
+      "total_current_market_value_spouse_rupees": 654500,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 211568620,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 46392150,
+          "spouse_value_rupees": 654500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 47046650,
+          "self_details": "Agricultural land survey no,total 16.177 Survey no.124/1,125 rakba 7.688, Date 2011.03.31 Cost of purhcase 3900765 (2)Kundia P,H,No. 169/1.2.3. Khata no,4.018 date 2008.03.31,Cost of purchase 1021420 (3)Borkheda Kala P.H.No. 60 rakba no,1.600 cost of purchase 364730 date 05.10.2011(4) Boraba no,32 survey no,163/1& 2 rakba hec 3.761 cost of purchase 337080 (5) Survey no,11 rakba hec 1.092 date 2003.03.22 cost of purchase 155553 Total Area 39.97 Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 5779548.00 Development Cost 0.00 4,63,92,150  4 Crore+",
+          "spouse_details": "Kundia P.H.No. 9 survey no,172/3 khata no,1.870 total 4.62 acre  Total Area 4.62 acre  Built Up Area  Whether Inherited N Purchase Date 2011-03-31 Purchase Cost 401710.00 Development Cost 0.00 6,54,500  6 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 45744089,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 45744089,
+          "self_details": "Dana pur P.H.No 16 survey no,8/4 rakba hec 0.636 Total Area 68362 sq.ft  Built Up Area  Whether Inherited N Purchase Date 2001-06-10 Purchase Cost 453030.00 Development Cost 0.00 4,57,44,089  4 Crore+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 88424721,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 88424721,
+          "self_details": "Jaitapur P.H.No. 25 survey no,11/1/2 sherum workshop & mangal Total Area 46500 sq.ft , 23050 sq.ft  Built Up Area  Whether Inherited N Purchase Date 1998-03-30 Purchase Cost 137250.00 Development Cost 5709777.00 8,84,24,721  8 Crore+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 30353160,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30353160,
+          "self_details": "(1)Delhi area 1200 sq.ft Date 15.01.2009 Cost of purchase 1800000(2) Shakun Bila Indore share of 2785 sq.ft Date 01.04.2005 Cost of purchase 886535(3) House In Thorawa Rehwasi Area 3000 sq.ft Date 1998.01.01 cost of purchase 496989 Total Area 6985 sq.ft  Built Up Area 6985 sq.ft  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 3183524.00 Development Cost 0.00 3,03,53,160  3 Crore+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 18985394,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 18985394,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 210914120
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 15254540,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15254540,
+          "self_details": "Bank Of Baroda Khargaon C.C. Limit Date 31.10.2013 1,39,54,540  1 Crore+ Lic Loan  10,00,000  10 Lacs+ State Bank Of India Khargaon Crop Loan  3,00,000  3 Lacs+"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 3730854,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3730854,
+          "self_details": "37,30,854  37 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 654500,
-      "non_agricultural_land": {
-        "description": "",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+    "other_elections": [
+      {
+        "declaration_in": "Madhya Pradesh 2023",
+        "declared_assets_rupees": 384764206,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 654500
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 15254540,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 3730854,
-      "grand_total_of_liabilities_inr": 18985394
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "declaration_in": "Madhya Pradesh 2018",
+        "declared_assets_rupees": 229922990,
+        "declared_cases": 0
+      }
+    ]
   }
 }

@@ -1,158 +1,535 @@
 {
-  "candidate_name": "VINOD KUMAR",
-  "party": "BJP",
-  "constituency": "NACHAN (SC) (MANDI)",
-  "father_or_husband_name": "Kanhya Lal",
-  "age": 42,
-  "education": "12th Pass From HPBOSE In 2000 from GSSS Chailchowk",
-  "profession_self": "Agriculturist",
-  "profession_spouse": "House wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 21409897,
-  "liabilities_total_inr": 2744431,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2021-2022": 1757370,
-        "2020-2021": 1462780,
-        "2019-2020": 1669280,
-        "2018-2019": 1691247,
-        "2017-2018": 1709331
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
+      "candidate_name": "VINOD KUMAR",
+      "party": "BJP",
+      "constituency": "NACHAN (SC)",
+      "state": "Himachal Pradesh 2022",
+      "status": "Winner",
+      "affidavit_info": {
+        "personal_details": {
+          "s_o_d_o_w_o": "Kanhya Lal",
+          "age": 42,
+          "voter_enrolled_in": {
+            "constituency": "28 Nachan (Himachal Pradesh)",
+            "serial_no": 334,
+            "part_no": 108
+          },
+          "self_profession": "Agriculturist",
+          "spouse_profession": "House wife"
+        },
+        "summary": {
+          "declared_assets_2017_rupees": 9174095,
+          "declared_cases_2017": 1,
+          "declared_assets_2012_rupees": 1645877,
+          "declared_cases_2012": 0,
+          "total_assets_in_rupees": 21409897,
+          "total_liabilities_in_rupees": 2744431
+        },
+        "educational_details": {
+          "category": "12th Pass",
+          "details": "12th From HPBOSE In 2000 from GSSS Chailchowk"
+        },
+        "income_tax_details": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "returns": [
+            {
+              "relation_type": "self",
+              "pan_given": true,
+              "financial_year": "2021 - 2022",
+              "total_income_shown_in_itr_rupees": 1757370
+            },
+            {
+              "relation_type": "self",
+              "pan_given": true,
+              "financial_year": "2020 - 2021",
+              "total_income_shown_in_itr_rupees": 1462780
+            },
+            {
+              "relation_type": "self",
+              "pan_given": true,
+              "financial_year": "2019 - 2020",
+              "total_income_shown_in_itr_rupees": 1669280
+            },
+            {
+              "relation_type": "self",
+              "pan_given": true,
+              "financial_year": "2018 - 2019",
+              "total_income_shown_in_itr_rupees": 1691247
+            },
+            {
+              "relation_type": "self",
+              "pan_given": true,
+              "financial_year": "2017 - 2018",
+              "total_income_shown_in_itr_rupees": 1709331
+            },
+            {
+              "relation_type": "spouse",
+              "pan_given": false,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "huf",
+              "pan_given": false,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "dependent1",
+              "pan_given": false,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "dependent2",
+              "pan_given": false,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            },
+            {
+              "relation_type": "dependent3",
+              "pan_given": false,
+              "financial_year": null,
+              "total_income_shown_in_itr_rupees": 0
+            }
+          ]
+        },
+        "criminal_cases": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "details": "No criminal cases"
+        },
+        "movable_assets": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "gross_total_value_self_rupees": 8185757,
+          "gross_total_value_spouse_rupees": 1224140,
+          "gross_total_value_huf_rupees": 0,
+          "gross_total_value_dependent1_rupees": 0,
+          "gross_total_value_dependent2_rupees": 0,
+          "gross_total_value_dependent3_rupees": 0,
+          "gross_total_value_total_rupees": 9409897,
+          "items": [
+            {
+              "sr_no": "i",
+              "description": "Cash",
+              "self_value_rupees": 60000,
+              "spouse_value_rupees": 45000,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 105000,
+              "self_details": "60,000",
+              "spouse_details": "45,000"
+            },
+            {
+              "sr_no": "ii",
+              "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+              "self_value_rupees": 3887677,
+              "spouse_value_rupees": 153140,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 4045817,
+              "self_details": "UCO Bank Vidhansabha No 1255011001xxxxx 38,51,239, UCO Bank Mandi No 0832011002xxxxx 25,415, PNB Chailchowk No 058000010007xxxxx 6,023, PNB Chailchwk Election Expenses No 058000010511xxxxx 10,000",
+              "spouse_details": "PNB Chailchwk No 058000010507xxxxx 1,53,140"
+            },
+            {
+              "sr_no": "iii",
+              "description": "Bonds, Debentures and Shares in companies",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "iv",
+              "description": "(a) NSS, Postal Savings etc",
+              "self_value_rupees": 760000,
+              "spouse_value_rupees": 26000,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 786000,
+              "self_details": "RD No 02000722xxxxx PO Gohar 1,90,000, RD No 389890xxxxx with PO Gohar 5,70,000",
+              "spouse_details": "RD with P.O. Gohar No 020020053801 26,000"
+            },
+            {
+              "sr_no": null,
+              "description": "(b) LIC or other insurance Policies",
+              "self_value_rupees": 23080,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 23080,
+              "self_details": "LIC Premium 23,080",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "v",
+              "description": "Personal loans/advance given",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "vi",
+              "description": "Motor Vehicles (details of make, etc.)",
+              "self_value_rupees": 3200000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 3200000,
+              "self_details": "Mahindra Scorpio No HP32A9007 Purchase Year 2018 7,00,000, Toyota Innova on HP65A1551 In 2021 25,00,000",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "vii",
+              "description": "Jewellery (give details weight value)",
+              "self_value_rupees": 250000,
+              "spouse_value_rupees": 1000000,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 1250000,
+              "self_details": "Two Gold Ring & Two Gold Chain 50gm 2,50,000",
+              "spouse_details": "3 Gold Ring 1, Chain 1, Bangle Set, 2 Ear Ring, 1 Mangalsutra Total 200gm 10,00,000"
+            },
+            {
+              "sr_no": "viii",
+              "description": "Other assets, such as values of claims / interests",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            }
+          ]
+        },
+        "immovable_assets": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "total_current_market_value_self_rupees": 120000000,
+          "total_current_market_value_spouse_rupees": 0,
+          "total_current_market_value_huf_rupees": 0,
+          "total_current_market_value_dependent1_rupees": 0,
+          "total_current_market_value_dependent2_rupees": 0,
+          "total_current_market_value_dependent3_rupees": 0,
+          "total_current_market_value_total_rupees": 120000000,
+          "items": [
+            {
+              "sr_no": "i",
+              "description": "Agricultural Land",
+              "self_value_rupees": 1000000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 1000000,
+              "self_details": "(1) Khata/ Khatauni No 167/209, Shares 0-13-00 Bigha Muhal Oaeri/55, Date of Purchase- 2019, Cost of Purchase- 128000/- (2) Khata Khatauni No 58/62 KLhasra No 727, measuring 00-03-07 Bigha Muhal Chachyot/54, Date of Purchase 2019, Cost of Purchase- 200000/- Total Area 00-16-07 Bigha Built Up Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 10,00,000",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "ii",
+              "description": "Non Agricultural Land",
+              "self_value_rupees": 2000000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 2000000,
+              "self_details": "(1) Khata Khatauni No 68/70, Khasra No 572/96 shares 00-01-18 Bigha Muhal Chail/51 Total Area 00-03-08 Bigha Built Up Area Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 800000.00 18,00,000 Khata Khatauni No 208/230, Khasra No 1277, shares 0-01-10 Bigha Muhal Chachyot/54 Total Area Built Up Area Whether Inherited N Purchase Date 2007-01-01 Purchase Cost 6000.00 Development Cost 0.00 2,00,000",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "iii",
+              "description": "Commercial Buildings",
+              "self_value_rupees": 90000000,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 90000000,
+              "self_details": "Khata Khatauni No 68/70, Khasra No 572/96, share 00-01-18 Bigha Muhal Chail/51 Total Area 00-01-18 Bigha Built Up Area 400 sq. ft. Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 5000000.00 90,00,000",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "iv",
+              "description": "Residential Buildings",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "v",
+              "description": "Others",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            }
+          ]
+        },
+        "liabilities": {
+          "report_status": "No Problems in Reading Affidavit Information",
+          "grand_total_of_liabilities_self_rupees": 2744431,
+          "grand_total_of_liabilities_spouse_rupees": 0,
+          "grand_total_of_liabilities_huf_rupees": 0,
+          "grand_total_of_liabilities_dependent1_rupees": 0,
+          "grand_total_of_liabilities_dependent2_rupees": 0,
+          "grand_total_of_liabilities_dependent3_rupees": 0,
+          "grand_total_of_liabilities_total_rupees": 2744431,
+          "grand_total_of_all_govt_dues_self_rupees": 0,
+          "grand_total_of_all_govt_dues_spouse_rupees": 0,
+          "grand_total_of_all_govt_dues_huf_rupees": 0,
+          "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+          "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+          "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+          "grand_total_of_all_govt_dues_total_rupees": 0,
+          "any_other_liabilities_in_dispute": {
+            "self_amount_rupees": 0,
+            "spouse_amount_rupees": 0,
+            "huf_amount_rupees": 0,
+            "dependent1_amount_rupees": 0,
+            "dependent2_amount_rupees": 0,
+            "dependent3_amount_rupees": 0,
+            "total_amount_rupees": 0,
+            "details": "Nil"
+          },
+          "items": [
+            {
+              "sr_no": "i",
+              "description": "Loans from Banks / FIs",
+              "self_value_rupees": 2744431,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 2744431,
+              "self_details": "House Loan HP Government 27,44,431",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Loans due to Individual / Entity",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Any other Liability",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": "ii",
+              "description": "Dues to departments dealing with government accommodation",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Dues to departments dealing with supply of water",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Dues to departments dealing with supply of electricity",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Dues to departments dealing with telephones",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Dues to departments dealing with supply of transport",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Income Tax Dues",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Wealth Tax Dues",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Service Tax Dues",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Property Tax Dues",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "Sales Tax Dues",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            },
+            {
+              "sr_no": null,
+              "description": "GST Dues",
+              "self_value_rupees": 0,
+              "spouse_value_rupees": 0,
+              "huf_value_rupees": 0,
+              "dependent1_value_rupees": 0,
+              "dependent2_value_rupees": 0,
+              "dependent3_value_rupees": 0,
+              "total_value_rupees": 0,
+              "self_details": "Nil",
+              "spouse_details": "Nil"
+            }
+          ]
+        },
+        "profession_or_occupation": {
+          "self": "Agriculturist",
+          "spouse": "House wife"
+        },
+        "sources_of_income": {
+          "self": "Salary, as member, HP Legislative Assembaly",
+          "spouse": "Agriculture, Interest form Deposits",
+          "dependent": "Nil"
+        },
+        "contracts_with_government_and_public_companies": {
+          "candidate": "Nil",
+          "spouse": "Nil",
+          "dependent": "Nil",
+          "huf_or_trust": "Nil",
+          "partnership_firms": "Nil",
+          "private_companies": "Nil"
+        }
       }
     }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 60000,
-      "bank_deposits_inr": 3851239,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 760000,
-      "lic_other_insurance_inr": 23080,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 3200000,
-      "jewellery_inr": 250000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 8185757
-    },
-    "spouse": {
-      "cash_inr": 45000,
-      "bank_deposits_inr": 153140,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 26000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1224140
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1000000,
-      "non_agricultural_land": {
-        "description": "(1) Khata Khatauni No 68/70, Khasra No 572/96 shares 00-01-18 Bigha Muhal Chail/51, (2) Khata Khatauni No 208/230, Khasra No 1277, shares 0-01-10 Bigha Muhal Chachyot/54",
-        "area_sq_mtr": "Total Area 00-03-08 Bigha (first property)",
-        "inherited": "Y (first property), N (second property)",
-        "purchase_date": "0000-00-00 (first property), 2007-01-01 (second property)",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 800000,
-        "current_market_value_inr": 2000000
-      },
-      "commercial_buildings_inr": 9000000,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 12000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": "",
-        "inherited": "",
-        "purchase_date": "",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2744431,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2744431
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Salary, as member, HP Legislative Assembaly",
-    "spouse": "Agriculture, Interest form Deposits",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "Nil",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "Nil",
-    "entered_by_partnership_firms": "Nil",
-    "entered_by_private_companies": "Nil"
-  }
-}

@@ -1,125 +1,393 @@
 {
   "candidate_name": "KIMFA SIDNEY MARBANIANG",
   "party": "INC",
-  "constituency": "RAMBRAI JYRNGAM (WEST KHASI HILLS)",
-  "father_or_husband_name": "Shri. Paul Leong",
-  "age": 38,
-  "education": "Graduate B.Com from the University of Pune, Pune in the year 2003",
-  "profession_self": "Businessman/ Member of Khasi Hills Autonomous District Council",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 24695000,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
+  "constituency": "RAMBRAI JYRNGAM",
+  "state": "Meghalaya",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Shri. Paul Leong",
+      "age": 38,
+      "voter_enrolled_in": {
+        "constituency": "33 Rambrai Jyrngam",
+        "state": "Meghalaya",
+        "serial_no": 482,
+        "part_no": 44
+      },
+      "self_profession": "Businessman/ Member of Khasi Hills Autonomous District Council",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 24695000,
+      "total_liabilities_in_rupees": 0
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Com from the University of Pune, Pune in the year 2003"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 6530000,
+      "gross_total_value_spouse_rupees": 165000,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 6695000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 5000,
+          "total_value_rupees": 405000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 530000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 530000,
+          "self_details": [
+            {
+              "bank": "Indusind Bank",
+              "branch": "Shilong Branch",
+              "account_no": "10001312xxxxx",
+              "amount_rupees": 30000
+            },
+            {
+              "bank": "Central Bank of India",
+              "branch": "Nongstoin Branch, Nongstoin",
+              "account_no": "323367xxxxx",
+              "amount_rupees": 500000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 5000000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 5000000,
+          "self_details": {
+            "company": "LIC",
+            "policy_no": "48348xxxxx",
+            "current_value_rupees": 5000000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 600000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 600000,
+          "self_details": {
+            "make": "Bolero DI Tabbu, Mahindra & Mahindra Ltd.",
+            "registration_no": "ML-05-J-3338",
+            "chassis_no": "MAIXB4GHKD2161949",
+            "engine_no": "GHD40L60938",
+            "value_rupees": 600000
+          }
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 160000,
+          "total_value_rupees": 160000,
+          "spouse_details": {
+            "type": "Gold Bracelet Earring Ring finger Ring Locket",
+            "weight_tolas": 4,
+            "value_rupees": 160000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 18000000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 18000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 15000000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 15000000,
+          "self_details": [
+            {
+              "location": "Pynthorumkhrah, Shillong",
+              "boundaries": "North Land of Mir Shal Rai, East Village Footpath, South Land of Ranjit Kumar chanda, West Land of Om Prakash Sharaf",
+              "total_area_sq_ft": 10782,
+              "built_up_area_sq_ft": 5600,
+              "inherited": false,
+              "purchase_date": "2005-06-25",
+              "purchase_cost_rupees": 1500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 15000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": [
+            {
+              "location": "R.R. Colony, Umpling Rynjah, Shillong",
+              "plot_no": "75",
+              "boundaries": "North Plot No. 74 icased to R R Choudhury, East Plot No. 80 Ieased to Depali Das, South Plot No. 76 alloted to Monoranjan Das, West PWD Road",
+              "total_area_sq_ft": 4191,
+              "built_up_area_sq_ft": 4191,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 400000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 600000
+            },
+            {
+              "location": "RR Colony, Umpling, Rynjah, Shillong",
+              "plot_no": "216",
+              "boundaries": "North PWD Road, East Plot of Adhir Ranjan Das, South Vivekananda L.p. School, West Plot of Barinda Kumar Hazra",
+              "total_area_sq_ft": 3913,
+              "built_up_area_sq_ft": null,
+              "inherited": false,
+              "purchase_date": "2011-09-09",
+              "purchase_cost_rupees": 2000000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2400000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": null,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election": "Meghalaya 2023",
+        "declared_assets_rupees": 53335033,
+        "declared_cases": 0
+      },
+      {
+        "election": "Meghalaya 2013",
+        "declared_assets_rupees": 42850428,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 400000,
-      "bank_deposits_inr": 530000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 5000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 600000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 6530000
-    },
-    "spouse": {
-      "cash_inr": 5000,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 160000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 165000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 15000000,
-      "residential_buildings": 3000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 18000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 0,
-      "residential_buildings": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    ]
+  }
 }

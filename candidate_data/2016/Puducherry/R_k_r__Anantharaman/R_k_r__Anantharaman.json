@@ -1,155 +1,476 @@
 {
   "candidate_name": "R.K.R. ANANTHARAMAN",
   "party": "INC",
-  "constituency": "MANAVELY (PUDUCHERRY)",
-  "father_or_husband_name": "K.Ramatchandirane",
-  "age": 43,
-  "education": "Graduate Professional B.Tech From Pondicherry Engineering College 1997",
-  "profession_self": "Business",
-  "profession_spouse": "Business",
-  "criminal_cases": 2,
-  "assets_total_inr": 21288795,
-  "liabilities_total_inr": 18254352,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014 - 2015": 149780
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2014 - 2015": 20491
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 10000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 3965000,
-      "jewellery_inr": 100000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5371276
-    },
-    "spouse": {
-      "cash_inr": 75000,
-      "bank_deposits_inr": 1519,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1231000,
-      "jewellery_inr": 3000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 4307519
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 625000,
-      "non_agricultural_land": {
-        "description": "Villianur Commune RS No. 283/2 Total Area 1200 Sq.ft; Mannadipet Commune RS. No. 27/2A, 27/2B, 29/11, 30/1, 30/2 Total Area 10673 Sq.ft; Mannadipet Commune RS. No. 26/12, 27/2A, 27/2B, 29/11, 30/1, 30/2 Total Area 10800 Sq.ft",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2011-12-07, 2013-05-28",
-        "purchase_cost_inr": 2340000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2600000
+  "constituency": "MANAVELY",
+  "state": "PUDUCHERRY",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "K.Ramatchandirane",
+      "age": 43,
+      "voter_enrolled_in": {
+        "constituency": "Manavely",
+        "state": "Pondicherry",
+        "serial_no": 189,
+        "part_no": 10
       },
-      "commercial_buildings_inr": 1200000,
-      "residential_buildings": {
-        "description": "Mannadipet Commune RS. No. 44/6 Pt Total Area 600 Sq.ft Built Up Area 600 Sq.ft",
-        "total_area_sqft": 600,
-        "built_up_area_sqft": 600,
-        "inherited": "N",
-        "purchase_date": "2013-06-20",
-        "purchase_cost_inr": 900000,
-        "development_cost_inr": 1000000,
-        "current_market_value_inr": 1900000
+      "self_profession": "Business",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 21288795,
+      "total_liabilities_in_rupees": 18254352
+    },
+    "educational_details": {
+      "category": "Graduate Professional",
+      "details": "B.Tech From Pondicherry Engineering College 1997"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 149780
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2014 - 2015",
+          "total_income_shown_in_itr_rupees": 20491
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Attempt to murder",
+          "ipc_section": "307",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for murder",
+          "ipc_section": "302",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Disobedience to order duly promulgated by public servant",
+          "ipc_section": "188",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "147, 188",
+          "other_details_or_acts_sections_applicable": "Case No. 44/2013, Court Taking Cognizance- Hon'ble Judicial Magistrate Court No II Cuddalore Cognizance Taken in STC No. 148/2013 Date of cognizance 10/7/2013, Court which framed Charge- Hon'ble Judicial Magistrate Court No II Cuddalore, Date of Framed 23/12/2013"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "147, 148, 307, 302",
+          "other_details_or_acts_sections_applicable": "Cr. No. 434/2014, Sec. 3 of Explosive Substance Act and Sec. 25(1B)b of Arms Act, Court Taking Cognizance- Hon'ble Judicial Magistrate Court No II Nagapattinam Court which charges framed - Hon'ble Judicial Magistrate Court No II Nagapattinam STC No 13/2015, Cognizance Taken in P.R.C 43/2015 on Date 28/8/2015, Charges framed date 14-09-2015"
+        }
+      ],
+      "cases_where_cognizance_taken": "No Cases",
+      "cases_where_convicted": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 5371276,
+      "gross_total_value_spouse_rupees": 4307519,
+      "gross_total_value_dependent1_rupees": 117500,
+      "gross_total_value_dependent2_rupees": 117500,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9913795,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 75000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 175000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 10000,
+          "spouse_value_rupees": 1519,
+          "dependent1_value_rupees": 117500,
+          "dependent2_value_rupees": 117500,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 246519,
+          "self_details": "Indian Bank Ariyankuppam Puducherry No 60586xxxxx 10,000",
+          "spouse_details": "Indian Bank Ariyankuppam Puducherry No 71764xxxxx 1,519",
+          "dependent1_details": "KVB Puducherry No 12301550001xxxxx 1,17,500",
+          "dependent2_details": "KVB Puducherry No 12301550001xxxxx 1,17,500"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 4180000,
+          "spouse_value_rupees": 1231000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6391000,
+          "self_details": "Innova Reg.No. PY01BQ5171 Year of Purchase2012 10,00,000; TATA ACE Reg.No.PY01AV9237 1,95,000; TATA ACE Reg.No. PY01AZ6036 1,90,000; ASHOK LEYLAND DOST Reg.No.PY01BV0981 3,75,000; HONDA AMAZE Reg.no.PY01BY5171 6,50,000; EICHER LORRY Reg.No.PY01BU1065 12,00,000; NISSAN TERRANO Reg.No.PY01CL7666 11,00,000; TATA MANZA Reg.No.PY01BC0452 4,50,000",
+          "spouse_details": "RENAULT SCALA Reg.No.PY01BY9055 8,50,000; SUZUKI ACCESS Reg.No. PY01BL0578 31,000; TATA ACE Reg.No.TN16A0191 3,50,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 3000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3100000,
+          "self_details": "5 Sovereign 1,00,000",
+          "spouse_details": "150 Sovereign 30,00,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 6325000,
+      "total_current_market_value_spouse_rupees": 5050000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 11375000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 625000,
+          "spouse_value_rupees": 900000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1525000,
+          "self_details": "Manavely Rs. No. 12/5 Total Area 7 R, 75 Centiares Built Up Area  Whether Inherited N Purchase Date 2011-07-22 Purchase Cost 582000.00 Development Cost 0.00 6,25,000",
+          "spouse_details": "Manavely Rs. No.12/5 Total Area 16R.50 Centiares Built Up Area  Whether Inherited N Purchase Date 2010-10-18 Purchase Cost 713000.00 Development Cost 0.00 9,00,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2600000,
+          "spouse_value_rupees": 2650000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4750000,
+          "self_details": "Villianur Commune RS No. 283/2 Total Area 1200 Sq.ft Built Up Area  Whether Inherited N Purchase Date 2011-12-07 Purchase Cost 192000.00 Development Cost 0.00 3,00,000; Mannadipet Commune RS. No. 27/2A, 27/2B, 29/11, 30/1, 30/2 Total Area 10673 Sq.ft Built Up Area  Whether Inherited N Purchase Date 2013-05-28 Purchase Cost 1070000.00 Development Cost 0.00 12,00,000; Mannadipet Commune RS. No. 26/12, 27/2A, 27/2B, 29/11, 30/1, 30/2 Total Area 10800 Sq.ft Built Up Area  Whether Inherited N Purchase Date 2013-05-28 Purchase Cost 1080000.00 Development Cost 0.00 11,00,000",
+          "spouse_details": "Ariyankuppam Commune RS No. 14/8 Total Area 1000 Sq.ft Built Up Area  Whether Inherited N Purchase Date 2012-07-20 Purchase Cost 700000.00 Development Cost 0.00 9,00,000; Ariyankuppam Commune RS No.76/1B Total Area 1800 Sq.ft Built Up Area  Whether Inherited N Purchase Date 2009-03-13 Purchase Cost 144000.00 Development Cost 0.00 3,00,000; Ariyankuppam Commune RS No. 147/2 Total Area 49R50 Centiares Built Up Area  Whether Inherited N Purchase Date 2011-12-07 Purchase Cost 140000.00 Development Cost 0.00 2,00,000; Villianur Commune RS. No. 118/14 Total Area 1750 Sq.ft Built Up Area  Whether Inherited N Purchase Date 2012-07-18 Purchase Cost 70000.00 Development Cost 0.00 1,00,000; Thavalakuppam Revenue Village RS. No. 121/13 Total Area 8R Built Up Area  Whether Inherited N Purchase Date 2014-01-29 Purchase Cost 650000.00 Development Cost 0.00 6,50,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1200000,
+          "self_details": "Manavely Commune RS. No. 14/3, 14/10 Total Area 7200 Sq.ft Built Up Area  Whether Inherited N Purchase Date 2000-01-31 Purchase Cost 71000.00 Development Cost 1000000.00 12,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 1900000,
+          "spouse_value_rupees": 2000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3900000,
+          "self_details": "Mannadipet Commune RS. No. 44/6 Pt Total Area 600 Sq.ft Built Up Area 600 Sq.ft Whether Inherited N Purchase Date 2013-06-20 Purchase Cost 900000.00 Development Cost 1000000.00 19,00,000",
+          "spouse_details": "Ariyankuppam RS No. 38/66 Total Area 1131.5 Sq.ft Built Up Area 1131.5 Sq.ft Whether Inherited N Purchase Date 2003-10-08 Purchase Cost 70000.00 Development Cost 1000000.00 20,00,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 14031716,
+      "grand_total_of_liabilities_spouse_rupees": 4222636,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 18254352,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 6325000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 14031716,
+          "spouse_value_rupees": 4222636,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 18254352,
+          "self_details": "Uco Bank Puducherry 4,97,697; Indian Bank Ariyankuppam Four Wheeler Loan 5,95,741; Four Wheeler Loan Uco Bank 48,08,634; Home Loan Sundaaram Finance 2,20,430; Four Wheeler Loan Uco Bank 6,16,384; Term Loan Uco Bank 72,92,830",
+          "spouse_details": "Indian Bank Ariyankuppam 36,35,086; Home Loan Sundaaram Finance 4,00,251; Four Wheeler Loan Indian Bank Ariyankuppam 1,87,299"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 900000,
-      "non_agricultural_land": {
-        "description": "Ariyankuppam Commune RS No. 14/8 Total Area 1000 Sq.ft; Ariyankuppam Commune RS No.76/1B Total Area 1800 Sq.ft; Ariyankuppam Commune RS No. 147/2 Total Area 49R50 Centiares; Villianur Commune RS. No. 118/14 Total Area 1750 Sq.ft; Thavalakuppam Revenue Village RS. No. 121/13 Total Area 8R",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2012-07-20, 2009-03-13, 2011-12-07, 2012-07-18, 2014-01-29",
-        "purchase_cost_inr": 1664000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4750000
+    "other_elections": [
+      {
+        "election": "Puducherry 2021",
+        "declared_assets_rupees": 53854368,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Ariyankuppam RS No. 38/66 Total Area 1131.5 Sq.ft Built Up Area 1131.5 Sq.ft",
-        "total_area_sqft": 1131.5,
-        "built_up_area_sqft": 1131.5,
-        "inherited": "N",
-        "purchase_date": "2003-10-08",
-        "purchase_cost_inr": 70000,
-        "development_cost_inr": 1000000,
-        "current_market_value_inr": 2000000
+      {
+        "election": "Loksabha 2014",
+        "declared_assets_rupees": 24654438,
+        "declared_cases": 3
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 5050000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 14031716,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 14031716
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 4222636,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 4222636
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election": "Puducherry 2011",
+        "declared_assets_rupees": 10172494,
+        "declared_cases": 0
+      },
+      {
+        "election": "Pondicherry 2006",
+        "declared_assets_rupees": 4678000,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

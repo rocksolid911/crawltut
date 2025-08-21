@@ -350,20 +350,231 @@ def get_urls_by_year(year):
 
 
 
-async def process_candidate_data(base_path="state_assembly", batch_size=1):
+# async def process_candidate_data(base_path_for_getting_link="state_assembly", batch_size=1):
+#     """
+#     Process candidates from CSV files and generate JSON data files.
+#     Handles by-election candidates separately.
+#
+#     Args:
+#         base_path_for_getting_link: Base directory containing candidate CSV files
+#         batch_size: Number of candidates to process in parallel
+#     """
+#     print("🔍 Finding candidate CSV files...")
+#
+#     # Find all CSV files
+#     csv_files = []
+#     for root, dirs, files in os.walk(base_path_for_getting_link):
+#         for file in files:
+#             if file.endswith("_winners.csv"):
+#                 csv_files.append(os.path.join(root, file))
+#
+#     print(f"📊 Found {len(csv_files)} winner CSV files")
+#
+#     if not csv_files:
+#         print("❌ No candidate CSV files found!")
+#         return
+#
+#     # Configure browser settings for crawling
+#     browser_config = BrowserConfig(
+#         headless=True,
+#         browser_type="chromium",
+#     )
+#
+#     run_config = CrawlerRunConfig(
+#         cache_mode=CacheMode.BYPASS,
+#         session_id="candidate_crawl_session",
+#     )
+#
+#     # Process each CSV file
+#     total_candidates = 0
+#     by_election_candidates = 0
+#
+#     # Base directory for output
+#     output_base = "candidate_data"
+#     os.makedirs(output_base, exist_ok=True)
+#
+#     async with AsyncWebCrawler(config=browser_config) as crawler:
+#         for csv_file in csv_files:
+#             # Extract state and year from file path
+#             # Expected path: state_assembly/State_Name/YYYY/State_Name_YYYY_winners.csv
+#             path_parts = csv_file.split(os.sep)
+#             if len(path_parts) >= 3:
+#                 state = path_parts[-3]
+#                 year = path_parts[-2]
+#                 print(f"\n📄 Processing {state} {year} winners from {csv_file}")
+#
+#                 # Read the CSV file
+#                 candidates = []
+#                 try:
+#                     with open(csv_file, 'r', encoding='utf-8') as f:
+#                         reader = csv.reader(f)
+#                         next(reader, None)  # Skip header
+#
+#                         for row in reader:
+#                             candidate_name = row[1].strip()
+#                             candidate_url = row[8].strip()
+#                             constituency = row[2].strip() if len(row) > 3 else "Unknown"
+#
+#                             # Check if the URL is valid
+#                             if candidate_url and isinstance(candidate_url, str) and (
+#                                     candidate_url.startswith('http://') or
+#                                     candidate_url.startswith('https://')):
+#
+#                                 # Check if this is a by-election
+#                                 is_by_election = False
+#                                 if constituency:
+#                                     by_election_match = re.search(r'\b(by[-\s]election|by[-\s]poll)\b',
+#                                                                   constituency, re.IGNORECASE)
+#                                     is_by_election = bool(by_election_match)
+#
+#                                 candidates.append({
+#                                     'name': candidate_name,
+#                                     'url': candidate_url,
+#                                     'constituency': constituency,
+#                                     'is_by_election': is_by_election
+#                                 })
+#                             # Ensure row has enough columns
+#
+#
+#                 except Exception as e:
+#                     print(f"❌ Error reading CSV {csv_file}: {e}")
+#                     continue
+#
+#                 print(f"ℹ️ Found {len(candidates)} candidates in {csv_file}")
+#                 total_candidates += len(candidates)
+#
+#                 # Process candidates in batches
+#                 batches = [candidates[i:i+batch_size] for i in range(0, len(candidates), batch_size)]
+#
+#                 for batch_num, batch in enumerate(batches, 1):
+#                     print(f"🔄 Processing batch {batch_num}/{len(batches)} ({len(batch)} candidates)")
+#
+#                     # Create tasks for the batch
+#                     tasks = []
+#                     for candidate in batch:
+#                         candidate_name = candidate['name']
+#                         candidate_url = candidate['url']
+#                         is_by_election = candidate['is_by_election']
+#
+#                         # Create safe name for filesystem
+#                         safe_name = "".join([c if c.isalnum() else "_" for c in candidate_name]).rstrip("_")
+#
+#                         # Determine output directory based on by-election status
+#                         if is_by_election:
+#                             by_election_candidates += 1
+#                             candidate_dir = os.path.join(output_base, str(year), state, "by_elections", safe_name)
+#                         else:
+#                             candidate_dir = os.path.join(output_base, str(year), state, safe_name)
+#
+#                         os.makedirs(candidate_dir, exist_ok=True)
+#                         json_output_file = os.path.join(candidate_dir, f"{safe_name}.json")
+#
+#                         # Skip if already processed
+#                         if os.path.exists(json_output_file) and os.path.getsize(json_output_file) > 0:
+#                             print(f"✅ Skipping {candidate_name}: JSON already exists")
+#                             continue
+#
+#                         # Add task for processing this candidate
+#                         task = process_candidate(
+#                             crawler,
+#                             candidate_name,
+#                             candidate_url,
+#                             json_output_file,
+#                             run_config
+#                         )
+#                         tasks.append(task)
+#
+#                     # Execute all tasks in this batch
+#                     if tasks:
+#                         results = await asyncio.gather(*tasks, return_exceptions=True)
+#
+#                         # Log results
+#                         success = sum(1 for r in results if r is True)
+#                         failed = sum(1 for r in results if isinstance(r, Exception) or r is False)
+#                         print(f"📊 Batch completed: {success} successful, {failed} failed")
+#                     else:
+#                         print("ℹ️ No tasks to process in this batch (all may be skipped)")
+#
+#     print(f"\n✅ Processing complete! Processed {total_candidates} candidates total.")
+#     print(f"🗂️ By-election candidates: {by_election_candidates}")
+#
+# async def process_candidate(crawler, candidate_name, candidate_url, json_output_file, run_config):
+#     """Process a single candidate and extract their data."""
+#     try:
+#         print(f"🔍 Processing: {candidate_name} ({candidate_url})")
+#
+#         # Fetch the candidate page
+#         result = await crawler.arun(candidate_url, config=run_config)
+#
+#         # Extract markdown content
+#         markdown_content = result.markdown if hasattr(result, 'markdown') else str(result)
+#
+#         print(f"✅ Extracted data for {candidate_name}")
+#
+#         # --- Extract image URL from markdown_content ---
+#         image_url = None
+#         match = re.search(r'!\[[^\]]*\]\(([^)]+)\)', markdown_content)
+#         if match:
+#             image_url = match.group(1)
+#
+#         # --- Download and save image as JPG ---
+#         if image_url:
+#             try:
+#                 response = requests.get(image_url, timeout=10)
+#                 response.raise_for_status()
+#                 image = Image.open(io.BytesIO(response.content)).convert('RGB')
+#                 image_path = os.path.splitext(json_output_file)[0] + ".jpg"
+#                 image.save(image_path, format='JPEG')
+#                 print(f"🖼️ Image saved for {candidate_name} at {image_path}")
+#             except Exception as img_err:
+#                 print(f"⚠️ Failed to download/save image for {candidate_name}: {img_err}")
+#         else:
+#             print(f"⚠️ No image found in markdown for {candidate_name}")
+#
+#         # Generate JSON in a separate thread
+#         loop = asyncio.get_event_loop()
+#         with ThreadPoolExecutor(max_workers=10) as executor:
+#             await loop.run_in_executor(
+#                 executor,
+#                 generate_wrapper,
+#                 markdown_content,
+#                 json_output_file
+#             )
+#
+#         print(f"✅ JSON saved for {candidate_name}")
+#         return True
+#
+#     except Exception as e:
+#         print(f"❌ Error processing {candidate_name}: {e}")
+#         return False
+
+
+async def process_candidate_data(base_path_for_getting_link="state_assembly",
+                                 batch_size=1,
+                                 force_regenerate_json=False,
+                                 skip_if_force_regenerated=True):
     """
     Process candidates from CSV files and generate JSON data files.
     Handles by-election candidates separately.
 
     Args:
-        base_path: Base directory containing candidate CSV files
+        base_path_for_getting_link: Base directory containing candidate CSV files
         batch_size: Number of candidates to process in parallel
+        force_regenerate_json: Force regenerate JSON files even if they exist
+        skip_if_force_regenerated: Skip candidates that have already been force-regenerated
     """
     print("🔍 Finding candidate CSV files...")
 
+    if force_regenerate_json:
+        if skip_if_force_regenerated:
+            print(
+                "🔄 FORCE REGENERATE JSON MODE: Will regenerate existing JSON files (skipping already force-regenerated)")
+        else:
+            print("🔄 FORCE REGENERATE JSON MODE: Will regenerate ALL existing JSON files")
+
     # Find all CSV files
     csv_files = []
-    for root, dirs, files in os.walk(base_path):
+    for root, dirs, files in os.walk(base_path_for_getting_link):
         for file in files:
             if file.endswith("_winners.csv"):
                 csv_files.append(os.path.join(root, file))
@@ -433,8 +644,6 @@ async def process_candidate_data(base_path="state_assembly", batch_size=1):
                                     'constituency': constituency,
                                     'is_by_election': is_by_election
                                 })
-                            # Ensure row has enough columns
-
 
                 except Exception as e:
                     print(f"❌ Error reading CSV {csv_file}: {e}")
@@ -444,7 +653,7 @@ async def process_candidate_data(base_path="state_assembly", batch_size=1):
                 total_candidates += len(candidates)
 
                 # Process candidates in batches
-                batches = [candidates[i:i+batch_size] for i in range(0, len(candidates), batch_size)]
+                batches = [candidates[i:i + batch_size] for i in range(0, len(candidates), batch_size)]
 
                 for batch_num, batch in enumerate(batches, 1):
                     print(f"🔄 Processing batch {batch_num}/{len(batches)} ({len(batch)} candidates)")
@@ -468,10 +677,39 @@ async def process_candidate_data(base_path="state_assembly", batch_size=1):
 
                         os.makedirs(candidate_dir, exist_ok=True)
                         json_output_file = os.path.join(candidate_dir, f"{safe_name}.json")
+                        force_flag_file = os.path.join(candidate_dir, f"{safe_name}.force_regenerated")
 
-                        # Skip if already processed
-                        if os.path.exists(json_output_file) and os.path.getsize(json_output_file) > 0:
-                            print(f"✅ Skipping {candidate_name}: JSON already exists")
+                        # Check if should skip processing
+                        should_skip = False
+                        skip_reason = ""
+
+                        if force_regenerate_json:
+                            # Force regeneration mode
+                            if skip_if_force_regenerated and os.path.exists(force_flag_file):
+                                # Check when it was force-regenerated
+                                try:
+                                    with open(force_flag_file, 'r') as f:
+                                        timestamp = f.read().strip()
+                                    should_skip = True
+                                    skip_reason = f"Already force-regenerated on {timestamp}"
+                                except:
+                                    # If can't read flag file, regenerate
+                                    should_skip = False
+                            else:
+                                # Force regenerate (either no flag or skip_if_force_regenerated=False)
+                                if os.path.exists(json_output_file):
+                                    print(f"🔄 Force regenerating JSON for {candidate_name} (overriding existing)")
+                                    should_skip = False
+                                    skip_reason = "Force regeneration mode"
+
+                        else:
+                            # Normal mode - skip if JSON already exists
+                            if os.path.exists(json_output_file) and os.path.getsize(json_output_file) > 0:
+                                should_skip = True
+                                skip_reason = "JSON already exists"
+
+                        if should_skip:
+                            print(f"✅ Skipping {candidate_name}: {skip_reason}")
                             continue
 
                         # Add task for processing this candidate
@@ -480,7 +718,8 @@ async def process_candidate_data(base_path="state_assembly", batch_size=1):
                             candidate_name,
                             candidate_url,
                             json_output_file,
-                            run_config
+                            run_config,
+                            force_regenerate_json
                         )
                         tasks.append(task)
 
@@ -498,7 +737,9 @@ async def process_candidate_data(base_path="state_assembly", batch_size=1):
     print(f"\n✅ Processing complete! Processed {total_candidates} candidates total.")
     print(f"🗂️ By-election candidates: {by_election_candidates}")
 
-async def process_candidate(crawler, candidate_name, candidate_url, json_output_file, run_config):
+
+async def process_candidate(crawler, candidate_name, candidate_url, json_output_file, run_config,
+                            force_regenerate_json=False):
     """Process a single candidate and extract their data."""
     try:
         print(f"🔍 Processing: {candidate_name} ({candidate_url})")
@@ -510,26 +751,14 @@ async def process_candidate(crawler, candidate_name, candidate_url, json_output_
         markdown_content = result.markdown if hasattr(result, 'markdown') else str(result)
 
         print(f"✅ Extracted data for {candidate_name}")
-
-        # --- Extract image URL from markdown_content ---
-        image_url = None
-        match = re.search(r'!\[[^\]]*\]\(([^)]+)\)', markdown_content)
-        if match:
-            image_url = match.group(1)
-
-        # --- Download and save image as JPG ---
-        if image_url:
-            try:
-                response = requests.get(image_url, timeout=10)
-                response.raise_for_status()
-                image = Image.open(io.BytesIO(response.content)).convert('RGB')
-                image_path = os.path.splitext(json_output_file)[0] + ".jpg"
-                image.save(image_path, format='JPEG')
-                print(f"🖼️ Image saved for {candidate_name} at {image_path}")
-            except Exception as img_err:
-                print(f"⚠️ Failed to download/save image for {candidate_name}: {img_err}")
-        else:
-            print(f"⚠️ No image found in markdown for {candidate_name}")
+        # Show force regeneration message
+        if force_regenerate_json and os.path.exists(json_output_file):
+            force_flag_file = os.path.splitext(json_output_file)[0] + ".force_regenerated"
+            if os.path.exists(force_flag_file):
+                print(
+                    f"🔄 Force regenerating JSON for {os.path.basename(json_output_file)} (overriding previous force generation)")
+            else:
+                print(f"🔄 Force regenerating JSON for {os.path.basename(json_output_file)}")
 
         # Generate JSON in a separate thread
         loop = asyncio.get_event_loop()
@@ -541,15 +770,18 @@ async def process_candidate(crawler, candidate_name, candidate_url, json_output_
                 json_output_file
             )
 
+        # Create force regeneration flag if in force mode
+        if force_regenerate_json:
+            from datetime import datetime
+            force_flag_file = os.path.splitext(json_output_file)[0] + ".force_regenerated"
+            timestamp = datetime.now().isoformat()
+            with open(force_flag_file, 'w') as f:
+                f.write(timestamp)
+            print(f"🏷️ Marked as force-regenerated: {os.path.basename(force_flag_file)}")
+
         print(f"✅ JSON saved for {candidate_name}")
         return True
 
     except Exception as e:
         print(f"❌ Error processing {candidate_name}: {e}")
         return False
-
-# # Example usage
-# if __name__ == "__main__":
-#     # Process all candidates from state_assembly directory
-#     asyncio.run(process_candidate_data())
-#

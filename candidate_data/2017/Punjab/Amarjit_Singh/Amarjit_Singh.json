@@ -2,129 +2,423 @@
   "candidate_name": "AMARJIT SINGH",
   "party": "AAP",
   "constituency": "RUPNAGAR",
-  "father_or_husband_name": "S. Kabal Singh",
-  "age": 39,
-  "education": "10th Pass Matriculation from PSEB Mohali in March 1995",
-  "profession_self": "Transporter (Prop of M/s New Rajdhani Taxi Service)",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 10755348,
-  "liabilities_total_inr": 3241490,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2016 - 2017": 581332
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 48000,
-      "bank_deposits_inr": 66738,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 159220,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 6912700,
-      "jewellery_inr": 84000,
-      "other_assets_inr": 570200,
-      "gross_total_value_inr": 7840858
-    },
-    "spouse": {
-      "cash_inr": 15000,
-      "bank_deposits_inr": 5000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 9950,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 168000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 197950
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 1200000,
-      "residential_buildings": {
-        "description": "H.No.508 Village Sandoa (lal Laquir)",
-        "total_area_sqft": 1200,
-        "built_up_area_sqft": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 900000
+  "state": "Punjab",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "S. Kabal Singh",
+      "age": 39,
+      "voter_enrolled_in": {
+        "constituency": "Rupnagar",
+        "state": "Punjab",
+        "serial_no": 685,
+        "part_no": 50
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 2100000
+      "self_profession": "Transporter (Prop of M/s New Rajdhani Taxi Service)",
+      "spouse_profession": "House Wife"
     },
-    "spouse": {
-      "agricultural_land_inr": 400000,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {},
-      "others_inr": 0,
-      "total_current_market_value_inr": 400000
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 10755348,
+      "total_liabilities_in_rupees": 3241490
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Matriculation from PSEB Mohali in March 1995"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2016 - 2017",
+          "total_income_shown_in_itr_rupees": 581332
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 7840858,
+      "gross_total_value_spouse_rupees": 197950,
+      "gross_total_value_dependent1_rupees": 13506,
+      "gross_total_value_dependent2_rupees": 130034,
+      "gross_total_value_dependent3_rupees": 73000,
+      "gross_total_value_total_rupees": 8255348,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 48000,
+          "spouse_value_rupees": 15000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": 3000,
+          "total_value_rupees": 66000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 67038,
+          "spouse_value_rupees": 5000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 71738,
+          "self_details": "Indian Bank  3,032  3 Thou+ The Kangara Co-op Bank 7,705  7 Thou+ HDFC Bank 5,000  5 Thou+ PNB Bank 2,500  2 Thou+ Indian Bank, M/s new rajdhani taxi service, Prop Amarjit singh  48,501  48 Thou+",
+          "spouse_details": "PNB Bank 5,000  5 Thou+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 159220,
+          "spouse_value_rupees": 9950,
+          "dependent1_value_rupees": 13506,
+          "dependent2_value_rupees": 130034,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 312710,
+          "self_details": "Life Policies P.No 16213xxxxx 38,080  38 Thou+ HDFC Bank, P.No 1505xxxxx 1,21,140  1 Lacs+",
+          "spouse_details": "Life Policies lic No 16692xxxxx 9,950  9 Thou+",
+          "dependent1_details": "Life Policies lic No 16692xxxxx 13,506  13 Thou+",
+          "dependent2_details": "Life Policies lic No 163842xxxxx 1,18,784  1 Lacs+ ICICI Prudential P.No 1054xxxxx 11,250  11 Thou+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 6912700,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 6912700,
+          "self_details": "Maruti Year 2013 R.No.DL6CN3271 3,00,000  3 Lacs+ Toyota Innova year 2015 R.No.DL1ZZ3140 11,00,000  11 Lacs+ Maruti Dezire, year 2015, R.No.DL1YE3075 5,00,000  5 Lacs+ Maruti Swift year 2015, R.No.DL3CPU9763 4,76,000  4 Lacs+ Toyota Etios year 2014, R.No. DL1YD6919 3,62,000  3 Lacs+ Maruti Desire year 2014, R.No.DL3CAA3949 3,31,000  3 Lacs+ Toyota Innova year 2011, R.No.DL1YC3279 2,26,200  2 Lacs+ Maruti Dezire year 2014, R.No.DL3CBU8691 3,65,000  3 Lacs+ Tata Indigo year 2010, R.No.DL1YC2746 1,50,000  1 Lacs+ Ford Figo year 2014, R.No.DL2CAT1309 3,35,000  3 Lacs+ Toyota Fortuner year 2014, R.No.DL3CBX2043 14,00,000  14 Lacs+ Tata Indigo year 2014, R.No.DL1YE0067 2,75,000  2 Lacs+ Hyundai I20 year 2013, R.No. DL7CP2733 4,39,000  4 Lacs+ Maruti Dezire year 2014, R.No.DL3CBU7689 3,00,500  3 Lacs+ Maruti Dezire year 2014, R.No.DL1YD1319 2,75,000  2 Lacs+ M/Cycle Enfield, year 2012, R.No.DL3SFC8834 70,000  70 Thou+ M/Cycle year 2005, R.No.BP16-B8345 8,000  8 Thou+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 84000,
+          "spouse_value_rupees": 168000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": 70000,
+          "total_value_rupees": 322000,
+          "self_details": "30gm 84,000  84 Thou+",
+          "spouse_details": "60gm 1,68,000  1 Lacs+",
+          "dependent3_details": "25gm 70,000  70 Thou+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 570200,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 570200,
+          "self_details": "Firm Debtors  5,70,200  5 Lacs+"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 21000000,
+      "total_current_market_value_spouse_rupees": 4000000,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 25000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 4000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 4000000,
+          "spouse_details": "H.No.508, V.Sandoa 2 kanal (1/4 acrees) Total Area 2 kanal (1/4 acres) Built Up Area  Whether Inherited N Purchase Date 2010-08-01 Purchase Cost 144200.00 Development Cost 0.00 4,00,000  4 Lacs+"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 12000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 12000000,
+          "self_details": "Shop no,11 Adda market Sarita Vihar  Total Area 54 sq.ft  Built Up Area  Whether Inherited N Purchase Date 2011-02-01 Purchase Cost 700000.00 Development Cost 0.00 12,00,000  12 Lacs+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 9000000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 9000000,
+          "self_details": "H.No.508 Village Sandoa (lal Laquir) Total Area 1200 sq,ft  Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 9,00,000  9 Lacs+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3241490,
+      "grand_total_of_liabilities_spouse_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 3241490,
+      "grand_total_of_all_govt_dues_self_rupees": null,
+      "grand_total_of_all_govt_dues_spouse_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": null,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": null,
+        "spouse_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": null,
+        "details": null
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 3241490,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 3241490,
+          "self_details": "Delhi State Taxi Operator Co-op Society Ltd(Business Loan) 80,000  80 Thou+ Indian Bank for Vehicle loan  5,44,656  5 Lacs+ Kangra Bank for Vehicle loan  21,93,088  21 Lacs+ ICICI Bank for Vehicle loan  3,63,870  3 Lacs+ Reliance Capital for Vehicle loan  59,876  59 Thou+"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "iv",
+          "description": "Whether any other liabilities are in dispute, if so, mention the amount involved and the authority before which it is pending",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3241490,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3241490
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+  }
 }

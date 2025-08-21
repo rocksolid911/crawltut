@@ -1,131 +1,486 @@
 {
   "candidate_name": "GOURI SANKAR DUTTA",
   "party": "AITC",
-  "constituency": "TEHATTA (NADIA)",
-  "father_or_husband_name": "Late Amiya Ranjan Dutta",
-  "age": 64,
-  "education": "Graduate B.Com from Calcutta University in 1970, Undergone studies under Institute of Chartered Accountants of India but did not appear at the examination",
-  "profession_self": "Social worker, Columnist and Essayist",
-  "profession_spouse": "Ex-Teacher",
-  "criminal_cases": 4,
-  "assets_total_inr": 6527894,
-  "liabilities_total_inr": 704785,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 581473
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 441986,
-      "bank_deposits_inr": 68713,
-      "bonds_debentures_shares_inr": 300000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1068587,
-      "jewellery_inr": 300000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2179286
-    },
-    "spouse": {
-      "cash_inr": 17000,
-      "bank_deposits_inr": 99646,
-      "bonds_debentures_shares_inr": 482450,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 750000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1349096
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "One two storied House at 33 A C Patra Lane, PO Krishnagar Nadia. Total Area 2289 sqft Built Up Area 738 sqft. Purchase Date 1988-01-01, Purchase Cost 10000.00, Development Cost 600000.00. Current Market Value 2000000.",
-        "total_area_sqft": 2289,
-        "built_up_area_sqft": 738,
-        "inherited": "N",
-        "purchase_date": "1988-01-01",
-        "purchase_cost_inr": 10000,
-        "development_cost_inr": 600000,
-        "current_market_value_inr": 2000000
+  "constituency": "TEHATTA",
+  "state": "West Bengal",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Amiya Ranjan Dutta",
+      "age": 64,
+      "voter_enrolled_in": {
+        "constituency": "83 Krishnagar",
+        "state": "West Bengal",
+        "serial_no": 24,
+        "part_no": 83
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3000000
+      "self_profession": "Social worker, Columnist and Essayist",
+      "spouse_profession": "Ex-Teacher"
+    },
+    "summary": {
+      "declared_assets_west_bengal_2011_rupees": 3527326,
+      "declared_cases_west_bengal_2011": 1,
+      "criminal_cases_count": 4,
+      "total_assets_in_rupees": 6527894,
+      "total_liabilities_in_rupees": 704785
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Com from Calcutta University in 1970, Undergone studies under Institute of Chartered Accountants of India but did not appear at the examination"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 581473
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for voluntarily causing grievous hurt",
+          "ipc_section": "325",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Voluntarily causing grievous hurt by dangerous weapons or means",
+          "ipc_section": "326",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Obstructing public servant in discharge of public functions",
+          "ipc_section": "186",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": "No Cases",
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "147, 148, 149, 427, 186",
+          "other_details_or_acts_sections_applicable": "Section 3/4 W.B.P.D.P.P. Act, Kotwali PS Case No. 646/08 Date 29.11.2008, Kotwali Police Station, Dist. Nadia WB, GR Case No. 2245/2008 Court taking Cognizance- JM 4th Court Nadia at Krishnagar"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "",
+          "other_details_or_acts_sections_applicable": "Section 121(4) West Bengal Municipal Act 2006, Kotwali PS GDE No. 2831/09 Date 28.03.2008, Nadia WB, Court taking Cognizance- ACJM Nadia at Krishnagar"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "147, 148, 149, 325, 326, 427",
+          "other_details_or_acts_sections_applicable": "Tehatta PS Case No. 158/11 Date 18.04.2011, Tehatta Police Station, Dist. Nadia WB, Court taking Cognizance- ACJM Nadia at Tehatta"
+        },
+        {
+          "serial_no": 4,
+          "ipc_sections_applicable": "506",
+          "other_details_or_acts_sections_applicable": "Kotwali PS GDE No. 852/14 Date 13.102014 and GDE No. 839 Dated 14.11.2015, NGR No. 3217/15, Court taking Cognizance- ACJM Nadia at Krishnagar"
+        }
+      ],
+      "cases_where_convicted": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2179288,
+      "gross_total_value_spouse_rupees": 1348606,
+      "gross_total_value_total_rupees": 3527894,
+      "calculated_total_self_rupees": 2179286,
+      "calculated_total_spouse_rupees": 1349096,
+      "calculated_total_rupees": 3528382,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 441986,
+          "spouse_value_rupees": 17000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 458986
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": {
+            "DUBI Bank, Nazirpur Branch, SB No 033201065xxxxx": 40000,
+            "BOB, Krishnagar Branch, SB No 0975010001xxxxx": 16215,
+            "Axis Bank, Krishnagar Branch, SB No 91101005059xxxxx": 5915,
+            "SBI, Krishnagar Main Branch, SB No 2008307xxxxx": 6583
+          },
+          "spouse_value_rupees": {
+            "PNB, Krishnagar Branch, SB No 320400010006xxxxx": 22891,
+            "SBI, Krishnagar Main Branch, SB No 1125607xxxxx": 50170,
+            "Postal Saving A/C Golapaty Sub Post Office No 725158xxxxx": 26585
+          },
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 168359
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": {
+            "FD under BOB Krishnagar Branch": 300000
+          },
+          "spouse_value_rupees": {
+            "FD under BOB Krishnagar Branch": 350000,
+            "FD under PNB Krishnagar Branch": 132450
+          },
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 782450
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": {
+            "Mahindra XUV, WB52R6999": 1068587
+          },
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1068587
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": {
+            "90 gm Gold": 300000
+          },
+          "spouse_value_rupees": {
+            "250 gm Gold": 750000
+          },
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1050000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 0,
+      "total_current_market_value_spouse_rupees": 3000000,
+      "total_current_market_value_total_rupees": 3000000,
+      "calculated_total_self_rupees": 0,
+      "calculated_total_spouse_rupees": 3000000,
+      "calculated_total_rupees": 3000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": {
+            "One two storied House at 33 A C Patra Lane, PO Krishnagar Nadia Total Area 2289 sqft Built Up Area 738 sqft Whether Inherited N Purchase Date 1988-01-01 Purchase Cost 10000.00 Development Cost 600000.00": 2000000,
+            "Vo ownership alongwith married, Flat No. 8-2/A-10, Khadim's Vidyakut, Gopalnagar North 24 pgs. (Half shares of Rs.2000000/-) Total Area 1810 sqft Built Up Area 738 sqft Whether Inherited N Purchase Date 2010-01-15 Purchase Cost 950000.00 Development Cost 0.00": 1000000
+          },
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 404598,
+      "grand_total_of_liabilities_spouse_rupees": 303187,
+      "grand_total_of_liabilities_total_rupees": 707785,
+      "calculated_total_self_rupees": 401598,
+      "calculated_total_spouse_rupees": 303187,
+      "calculated_total_rupees": 704785,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": {
+            "BOB Krishnagar Branch, Car Loan": 401598
+          },
+          "spouse_value_rupees": {
+            "Half share of House building loan from BOB Ranaghat Branch": 303187
+          },
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 704785
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Grand Total of all Govt Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Whether any other liabilities are in dispute, if so, mention the amount involved and the authority before which it is pending",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 401598,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 404598
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 303187,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 303187
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+  }
 }

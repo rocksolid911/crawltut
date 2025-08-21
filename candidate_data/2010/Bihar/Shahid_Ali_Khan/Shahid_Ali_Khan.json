@@ -1,142 +1,385 @@
-{
-  "candidate_name": "Shahid Ali Khan",
-  "party": "JD(U)",
-  "constituency": "Sursand",
-  "father_or_husband_name": "VADIUAJMA KHAN",
-  "age": 50,
-  "education": "Graduate Professional, LLB FROM BABA BHIMRAO AMBEDKAR UNIVERSITY MUZAFFARPUR (BIHAR)",
-  "profession_self": null,
-  "profession_spouse": null,
-  "criminal_cases": 1,
-  "assets_total_inr": 8585617,
-  "liabilities_total_inr": 100000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {}
-    },
-    "spouse": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    },
-    "huf": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {}
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 70500,
-      "bank_deposits_inr": 600117,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1200000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 250000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 920617
-    },
-    "spouse": {
-      "cash_inr": 225000,
-      "bank_deposits_inr": 300000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 500000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1025000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3000000,
-      "non_agricultural_land": {
-        "description": "PUPARI, AREA- 15 DIS.(3 KATHA 13 DHUR)",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 1000000
+[
+  {
+    "candidate_name": "Shahid Ali Khan",
+    "party": "JD(U)",
+    "constituency": "Sursand",
+    "state": "Bihar 2010",
+    "status": "Winner",
+    "affidavit_info": {
+      "personal_details": {
+        "s_o_d_o_w_o": "VADIUAJMA KHAN",
+        "age": 50
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 4000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "HOUSE AT PATNA RAJA BAZAR, AREA- 1 KATTHA",
-        "area_sq_mtr": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 2500000
+      "summary": {
+        "criminal_cases_count": 1,
+        "total_assets_in_rupees": 8585617,
+        "total_liabilities_in_rupees": 100000
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2500000
+      "educational_details": {
+        "category": "Graduate Professional",
+        "details": "LLB FROM BABA BHIMRAO AMBEDKAR UNIVERSITY MUZAFFARPUR (BIHAR)"
+      },
+      "criminal_cases": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "brief_details_ipc_bns": [
+          {
+            "charges_related_to": "Disobedience to order duly promulgated by public servant",
+            "ipc_section": "188",
+            "count": 1
+          }
+        ],
+        "pending_cases": [
+          {
+            "serial_no": 1,
+            "fir_no": null,
+            "case_no": "Trial No.2050/10",
+            "court": "Chief Judicial Magistrate Sitamarhi Sadar",
+            "ipc_sections_applicable": "188",
+            "other_details_or_acts_sections_applicable": "Belsand Police Station No.70/2005, Court taking Cog.- Chief Judicial Magistrate Sitamarhi Sadar, Date of Cog.- 12/05/2006",
+            "charges_framed": false,
+            "date_on_which_charges_were_framed": null,
+            "appeal_filed": false,
+            "details_and_present_status_of_appeal": null
+          }
+        ],
+        "convicted_cases": []
+      },
+      "movable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "gross_total_value_self_rupees": 920617,
+        "gross_total_value_spouse_rupees": 1025000,
+        "gross_total_value_dependent1_rupees": 50000,
+        "gross_total_value_dependent2_rupees": 50000,
+        "gross_total_value_dependent3_rupees": 40000,
+        "gross_total_value_total_rupees": 2085617,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Cash",
+            "self_value_rupees": 70500,
+            "spouse_value_rupees": 225000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 295500,
+            "self_details": {
+              "amount_rupees": 70500
+            },
+            "spouse_details": {
+              "amount_rupees": 225000
+            }
+          },
+          {
+            "sr_no": "ii",
+            "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+            "self_value_rupees": 600117,
+            "spouse_value_rupees": 300000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 900117,
+            "self_details": {
+              "amount_rupees": 600117
+            },
+            "spouse_details": {
+              "amount_rupees": 300000
+            }
+          },
+          {
+            "sr_no": "iii",
+            "description": "Bonds, Debentures and Shares in companies",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil",
+            "spouse_details": "Nil"
+          },
+          {
+            "sr_no": "iv",
+            "description": "(a) NSS, Postal Savings etc",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil",
+            "spouse_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(b) LIC or other insurance Policies",
+            "self_value_rupees": 1200000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 1200000,
+            "self_details": {
+              "policy_details": [
+                "LIC POLICY No 532537xxxxx",
+                "LIC POLICY No 53790xxxxx"
+              ],
+              "amount_rupees": 1200000
+            },
+            "spouse_details": "Nil"
+          },
+          {
+            "sr_no": "v",
+            "description": "Motor Vehicles (details of make, etc.)",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": {
+              "vehicles": [
+                "MARUTI 800, BR30A1000",
+                "SCORPIO M2, D1, BR1AP3500"
+              ],
+              "value_not_given": true
+            },
+            "spouse_details": "Nil"
+          },
+          {
+            "sr_no": "vi",
+            "description": "Jewellery (give details weight value)",
+            "self_value_rupees": 250000,
+            "spouse_value_rupees": 500000,
+            "dependent1_value_rupees": 50000,
+            "dependent2_value_rupees": 50000,
+            "dependent3_value_rupees": 40000,
+            "total_value_rupees": 890000,
+            "self_details": {
+              "details": "5 RINGS",
+              "value_rupees": 250000
+            },
+            "spouse_details": {
+              "details": "ORNAMENTS",
+              "value_rupees": 500000
+            },
+            "dependent1_details": {
+              "details": "ORNAMENTS",
+              "value_rupees": 50000
+            },
+            "dependent2_details": {
+              "details": "ORNAMENTS",
+              "value_rupees": 50000
+            },
+            "dependent3_details": {
+              "details": "ORNAMENTS",
+              "value_rupees": 40000
+            }
+          },
+          {
+            "sr_no": "vii",
+            "description": "Other assets, such as values of claims / interests",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil",
+            "spouse_details": "Nil"
+          }
+        ]
+      },
+      "immovable_assets": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "total_current_market_value_self_rupees": 40000000,
+        "total_current_market_value_spouse_rupees": 25000000,
+        "total_current_market_value_dependent1_rupees": 0,
+        "total_current_market_value_dependent2_rupees": 0,
+        "total_current_market_value_dependent3_rupees": 0,
+        "total_current_market_value_total_rupees": 65000000,
+        "items": [
+          {
+            "sr_no": "i",
+            "description": "Agricultural Land",
+            "self_value_rupees": 30000000,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 30000000,
+            "self_details": {
+              "location": "AKHTA",
+              "area": "7 ACRES",
+              "current_value_rupees": 30000000
+            },
+            "spouse_details": "Nil"
+          },
+          {
+            "sr_no": "ii",
+            "description": "Non Agricultural Land",
+            "self_value_rupees": 10000000,
+            "spouse_value_rupees": 25000000,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 35000000,
+            "self_details": {
+              "location": "PUPARI",
+              "area": "15 DIS.(3 KATHA 13 DHUR)",
+              "current_value_rupees": 10000000
+            },
+            "spouse_details": {
+              "location": "HOUSE AT PATNA RAJA BAZAR",
+              "area": "1 KATTHA",
+              "current_value_rupees": 25000000
+            }
+          },
+          {
+            "sr_no": "iii",
+            "description": "Buildings",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil",
+            "spouse_details": "Nil"
+          },
+          {
+            "sr_no": "iv",
+            "description": "Houses",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil",
+            "spouse_details": "Nil"
+          },
+          {
+            "sr_no": "v",
+            "description": "Others",
+            "self_value_rupees": 0,
+            "spouse_value_rupees": 0,
+            "dependent1_value_rupees": 0,
+            "dependent2_value_rupees": 0,
+            "dependent3_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil",
+            "spouse_details": "Nil"
+          }
+        ]
+      },
+      "liabilities": {
+        "report_status": "No Problems in Reading Affidavit Information",
+        "grand_total_of_liabilities_self_rupees": 100000,
+        "grand_total_of_liabilities_spouse_rupees": 0,
+        "grand_total_of_liabilities_dependent1_rupees": 0,
+        "grand_total_of_liabilities_dependent2_rupees": 0,
+        "grand_total_of_liabilities_dependent3_rupees": 0,
+        "grand_total_of_liabilities_total_rupees": 100000,
+        "items": [
+          {
+            "sr_no": "(a) i",
+            "description": "Loans from Banks",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": "ii",
+            "description": "Loans from Financial Institutions",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": "iii",
+            "description": "(a) Dues to departments dealing with government accommodation",
+            "self_value_rupees": 100000,
+            "total_value_rupees": 100000,
+            "self_details": "BIHAR VIDHAN SABHA"
+          },
+          {
+            "sr_no": null,
+            "description": "(b) Dues to departments dealing with supply of water",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(c) Dues to departments dealing with supply of electricity",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(d) Dues to departments dealing with telephones",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(e) Dues to departments dealing with supply of transport",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(f) Other Dues if any",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": "(b)",
+            "description": "(i) (a) Income Tax including surcharge [Also indicate the assessment year upto which Income Tax Return filed.]",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(b) Permanent Account Number (PAN)",
+            "self_value_rupees": null,
+            "total_value_rupees": null,
+            "self_details": "PAN given-Y"
+          },
+          {
+            "sr_no": null,
+            "description": "(ii) Wealth Tax [Also indicate the assessment year upto which Wealth Tax return filed.]",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(iii) Sales Tax [Only in case proprietary business]",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          },
+          {
+            "sr_no": null,
+            "description": "(iv) Property Tax",
+            "self_value_rupees": 0,
+            "total_value_rupees": 0,
+            "self_details": "Nil"
+          }
+        ]
+      },
+      "other_elections": {
+        "Loksabha 2014": {
+          "Declared Assets": "Rs4,74,46,000",
+          "Declared Cases": 3
+        }
+      }
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 100000,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 100000
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": null,
-    "spouse": null,
-    "dependent": null
-  },
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
   }
-}
+]

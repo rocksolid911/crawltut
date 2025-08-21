@@ -1,130 +1,653 @@
 {
   "candidate_name": "GIREESH KUMAR",
   "party": "INC",
-  "constituency": "NARSINGHGARH (RAJGARH)",
-  "father_or_husband_name": "Basant Kumar",
-  "age": 48,
-  "education": "Graduate, B.Com Final in 1983 from Veshnav College of Commerce, Indore, Devi Ahilya University, Indore",
-  "profession_self": "Agriculture",
-  "profession_spouse": "Agriculture",
-  "criminal_cases": 5,
-  "assets_total_inr": 26254749,
-  "liabilities_total_inr": 3280000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 134034
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 189659
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1060212,
-      "bank_deposits_inr": 405763,
-      "bonds_debentures_shares_inr": 190000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1600000,
-      "personal_loans_advance_given_inr": 139196,
-      "motor_vehicles_inr": 700000,
-      "jewellery_inr": 900000,
-      "other_assets_inr": 100000,
-      "gross_total_value_inr": 5105471
-    },
-    "spouse": {
-      "cash_inr": 672863,
-      "bank_deposits_inr": 5768,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 1767022,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1260000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3705653
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 10628000,
-      "non_agricultural_land": {
-        "description": "Narsinghgarh, Sr. No.38/2",
-        "area_sq_mtr": 473.8,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3315000
+  "constituency": "NARSINGHGARH",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Basant Kumar",
+      "age": 48,
+      "voter_enrolled_in": {
+        "constituency": "Vyawara",
+        "state": "Madhya Pradesh",
+        "serial_no": 449,
+        "part_no": 239
       },
-      "commercial_buildings_inr": 400000,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 14343000
+      "self_profession": "Agriculture",
+      "spouse_profession": "Agriculture"
     },
-    "spouse": {
-      "agricultural_land_inr": 2800000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings_inr": 0,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2800000
+    "summary": {
+      "criminal_cases_count": 5,
+      "total_assets_in_rupees": 26254749,
+      "total_liabilities_in_rupees": 3280000
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.Com Final in 1983 from Veshnav College of Commerce,Indore,Devi Ahilya University,Indore"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 134034
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 189659
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "506",
+          "count": 3
+        },
+        {
+          "charges_related_to": "criminal breach of trust",
+          "ipc_section": "406",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Criminal breach of trust by public servant, or by banker, merchant or agent",
+          "ipc_section": "409",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Cheating and dishonestly inducing delivery of property",
+          "ipc_section": "420",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery of valuable security, will, etc.",
+          "ipc_section": "467",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Forgery for purpose of cheating",
+          "ipc_section": "468",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Obscene acts and songs",
+          "ipc_section": "294",
+          "count": 4
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 4
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "34",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Forgery for purpose of harming reputation",
+          "ipc_section": "469",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Obstructing public servant in discharge of public functions",
+          "ipc_section": "186",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to deter public servant from discharge of his duty",
+          "ipc_section": "353",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of criminal conspiracy",
+          "ipc_section": "120B",
+          "count": 1
+        }
+      ],
+      "cases_where_charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "294, 353, 147, 323, 149, 186, 427",
+          "other_details_or_acts_sections_applicable": "Section 3(1) Public Property Damage Act 1984, Case No.73/11, Report No.350/10, Police Station- Kurawar, District Rajgarh, Court Taking Cognizance- Judicial Magistrate First Class Narsinghgarh, Date of Cognizance-31.01.11, Court which Framed Charge- Judicial Magistrate First Class Narsinghgarh, Date of Charge Framed- 10.5.12"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "294, 323, 34, 506",
+          "other_details_or_acts_sections_applicable": "Case No.478/12, Report No.301/11, Police Station- Narsinghgarh, District Rajgarh, Court Taking Cognizance- Judicial Magistrate First Class Narsinghgarh, Date of Cognizance- 07.06.12, Court which Framed Charge- Judicial Magistrate First Class Narsinghgar, Date of Charge Framed- 26.09.12"
+        }
+      ],
+      "cases_where_cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "294, 323, 506, 34, 147, 148",
+          "other_details_or_acts_sections_applicable": "Case No. 477/12, Court taking Cognizance- Judicial Magistrate First Class, Narsinghgarh, Date of Cognizance- 07.06.12"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "294, 323, 147, 148, 506",
+          "other_details_or_acts_sections_applicable": "Case No.479/12, Court taking Cognizance- Judicial Magistrate First Class, Narsinghgarh, Date of Cognizance- 07.06.12"
+        },
+        {
+          "serial_no": 3,
+          "ipc_sections_applicable": "406, 409, 420, 467, 468, 469, 120B",
+          "other_details_or_acts_sections_applicable": "Crime No. 143/07, Police Station- Rajgarh Madhya Pradesh, Court taking Cognizance- Chief Judicial Magistrate Rajgarh"
+        }
+      ],
+      "cases_where_convicted": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 5105471,
+      "gross_total_value_spouse_rupees": 3705653,
+      "gross_total_value_dependent1_rupees": 102841,
+      "gross_total_value_dependent2_rupees": 167984,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9081949,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1060212,
+          "spouse_value_rupees": 672863,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1733075
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 406463,
+          "spouse_value_rupees": 208757,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 5143,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 426974
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 190000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 190000
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1600000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1600000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 139196,
+          "spouse_value_rupees": 1767022,
+          "dependent1_value_rupees": 102841,
+          "dependent2_value_rupees": 102841,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2111900
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 700000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 700000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 900000,
+          "spouse_value_rupees": 1260000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 60000,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2220000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 14343000,
+      "total_current_market_value_spouse_rupees": 28000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 17143000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 106280000,
+          "spouse_value_rupees": 28000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 134280000,
+          "self_details": [
+            {
+              "location": "Vilage Ramgarh,Teh.Narsinghgarh",
+              "sr_no": "248/2/1",
+              "total_area": "6.432 Hec.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2600000
+            },
+            {
+              "location": "Narsinghgarh",
+              "sr_no": "38/1, 568/4, 568/13, 581/1",
+              "total_area": "0.801 Hec.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 8028000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Village Ramgarh,Teh.Narsinghgarh",
+              "sr_no": "248/2/2",
+              "total_area": "6.432 Hec.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 28000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 3315000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3315000,
+          "self_details": [
+            {
+              "location": "Narsinghgarh",
+              "sr_no": "38/2",
+              "total_area": "5100 sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3315000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 400000,
+          "self_details": [
+            {
+              "location": "Shop at Narsinghgarh Bus Stand",
+              "plot_no": "30000",
+              "total_area": "141.75 sqft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2005-07-18",
+              "purchase_cost_rupees": 30000,
+              "development_cost_rupees": 100000,
+              "current_value_rupees": 400000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2480000,
+      "grand_total_of_liabilities_spouse_rupees": 800000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3280000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2480000,
+          "spouse_value_rupees": 800000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3280000,
+          "self_details": [
+            {
+              "bank": "BOI,Narsinghgarh",
+              "loan_type": null,
+              "amount_rupees": 1700000
+            },
+            {
+              "bank": "BOI",
+              "loan_type": "Car Loan",
+              "amount_rupees": 300000
+            },
+            {
+              "bank": null,
+              "loan_type": "Pvt. Agriculture Loan",
+              "amount_rupees": 100000
+            },
+            {
+              "bank": "SBI Narsinghgarh",
+              "loan_type": "Gold Loan",
+              "amount_rupees": 290000
+            },
+            {
+              "bank": null,
+              "loan_type": "Car Loan",
+              "amount_rupees": 90000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "BOI,Narsinghgarh",
+              "loan_type": "KCC",
+              "amount_rupees": 400000
+            },
+            {
+              "bank": null,
+              "loan_type": "Pvt. Agriculture,Narsinghgarh",
+              "amount_rupees": 100000
+            },
+            {
+              "bank": "SBI Narsinghgarh",
+              "loan_type": null,
+              "amount_rupees": 300000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2480000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 2480000
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 800000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 800000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+  }
 }

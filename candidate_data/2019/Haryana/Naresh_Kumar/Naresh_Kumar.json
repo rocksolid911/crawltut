@@ -1,145 +1,654 @@
 {
   "candidate_name": "NARESH KUMAR",
   "party": "BJP",
-  "constituency": "BAHADURGARH (JHAJJAR)",
-  "father_or_husband_name": "Ram Karan",
-  "age": 47,
-  "education": "12th Pass B.A.-Final year pursuing appeared in exams Result awaited 2014",
-  "profession_self": "Business",
-  "profession_spouse": "Dairy Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 24583669,
-  "liabilities_total_inr": 2488239,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 365243
+  "constituency": "BAHADURGARH",
+  "state": "Haryana",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Ram Karan",
+      "age": 47,
+      "voter_enrolled_in": {
+        "constituency": "64 Bahadurgarh",
+        "state": "Haryana",
+        "serial_no": 142,
+        "part_no": 123
+      },
+      "self_profession": "Business",
+      "spouse_profession": "Dairy Business"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 24583669,
+      "total_liabilities_in_rupees": 2488239
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "B.A.-Final year pursuing appeared in exams Result awaited 2014"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 365243
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 219374
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent4",
+          "pan_given": null,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": null
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2914823,
+      "gross_total_value_spouse_rupees": 1274846,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 25500,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_dependent4_rupees": 43500,
+      "gross_total_value_total_rupees": 4258669,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 60600,
+          "spouse_value_rupees": 90800,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 151400,
+          "self_details": {
+            "amount_rupees": 60600
+          },
+          "spouse_details": {
+            "amount_rupees": 90800
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 22545188,
+          "spouse_value_rupees": 711046,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 2965634,
+          "self_details": [
+            {
+              "bank": "Bank Of Maharastra",
+              "branch": "Bahadurgarh",
+              "account_type": "Current Account",
+              "amount_rupees": 5500
+            },
+            {
+              "bank": "Bank Of Maharastra",
+              "branch": "Bahadurgarh",
+              "account_type": "Current Account",
+              "amount_rupees": 2245611
+            },
+            {
+              "bank": "Central Bank OF Maharashtra",
+              "branch": "Bahadurgarh",
+              "account_type": null,
+              "amount_rupees": 3477
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Bank Of Maharastra",
+              "branch": "Bahadurgarh",
+              "account_type": "S/B Account",
+              "amount_rupees": 705686
+            },
+            {
+              "bank": "Bank Of Maharastra",
+              "branch": "Bahadurgarh",
+              "account_type": "Current Account",
+              "amount_rupees": 5360
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 23000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 25500,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 43500,
+          "total_value_rupees": 92000,
+          "self_details": "Nil",
+          "spouse_details": "Samrudha Jeewan Food India Ltd Jhajjar",
+          "dependent2_details": "Samrudha Jeewan Food India Ltd Jhajjar",
+          "dependent4_details": "Shara Parivar B.Garh RD"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 169635,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 169635,
+          "self_details": [
+            {
+              "company": "LIC",
+              "branch": "B. Garh",
+              "amount_rupees": 141324
+            },
+            {
+              "company": "LIC",
+              "branch": "B. Garh",
+              "amount_rupees": 28311
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 180000,
+          "spouse_value_rupees": 450000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 630000,
+          "self_details": {
+            "weight_gram": 60,
+            "value_rupees": 180000
+          },
+          "spouse_details": {
+            "weight_gram": 150,
+            "value_rupees": 450000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 250000,
+          "self_details": "House Hold Guds",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 140000000,
+      "total_current_market_value_spouse_rupees": 63250000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_dependent4_rupees": 0,
+      "total_current_market_value_total_rupees": 203250000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 2500000,
+          "spouse_value_rupees": 1500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 4000000,
+          "self_details": [
+            {
+              "location": "Bahadurgarh",
+              "kh_no": "1404",
+              "total_area": "5 Acre",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2006-01-10",
+              "purchase_cost_rupees": 144000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Village Sarai Aurangabad",
+              "kila_no": "32/24/2/1",
+              "total_area": "8.5 Marla",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-03-16",
+              "purchase_cost_rupees": 146000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1500000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 4000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 4000000,
+          "self_details": [
+            {
+              "location": "Village Sarai Aurangabad",
+              "khasra_no": "37/5/2/1, 6/3/15/1",
+              "total_area": "4446 Sq.FT",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2001-12-14",
+              "purchase_cost_rupees": 35800,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 20000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 20000000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "location": "Jhajjar Road",
+              "address": "5112, /5113, 489.491",
+              "total_area": "382.5 Sq.Ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2007-07-06",
+              "purchase_cost_rupees": 181000,
+              "development_cost_rupees": 241500,
+              "current_value_rupees": 2000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 75000000,
+          "spouse_value_rupees": 28250000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 103250000,
+          "self_details": [
+            {
+              "location": "Adarsh Nagar Jhajjar Road 567",
+              "total_area": "1500 Sq.FT.",
+              "built_up_area": "2537 Sq.Ft",
+              "inherited": false,
+              "purchase_date": "1997-05-12",
+              "purchase_cost_rupees": 38000,
+              "development_cost_rupees": 2137850,
+              "current_value_rupees": 5500000
+            },
+            {
+              "location": "Adarsh Nagar Jhajjar Road 565",
+              "total_area": "1200 Sq.Ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "1997-05-12",
+              "purchase_cost_rupees": 31000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Jhajjar Road Bahadur Garh 3544/565, 566",
+              "total_area": "754 Sq.ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2011-11-30",
+              "purchase_cost_rupees": 355000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1200000
+            },
+            {
+              "location": "Chotu Ram Park Jhajjar Road 5112/5113, 489",
+              "total_area": "675 Sq.Ft",
+              "built_up_area": "1200 Sq.ft",
+              "inherited": false,
+              "purchase_date": "2012-05-08",
+              "purchase_cost_rupees": 1425500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1625000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 863239,
+      "grand_total_of_liabilities_spouse_rupees": 1625000,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_dependent4_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2488239,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent4_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "dependent4_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 863239,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 863239,
+          "self_details": [
+            {
+              "bank": "central Bank OF India",
+              "branch": "Bahadurgarh",
+              "amount_rupees": 863239
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1625000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 1625000,
+          "self_details": "Nil",
+          "spouse_details": "Advance Against Sale of Property"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "dependent4_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "other_elections": {
+      "Haryana 2019": {
+        "declared_assets_rupees": 32850694,
+        "declared_cases": 0,
+        "more_details_link": "https://www.myneta.info/compare_profile.php?group_id=zkqLariqksqRc5stzcKu"
       }
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013-2014": 219374
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 60600,
-      "bank_deposits_inr": 2254588,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 169635,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 180000,
-      "other_assets_inr": 250000,
-      "gross_total_value_inr": 2914823
-    },
-    "spouse": {
-      "cash_inr": 90800,
-      "bank_deposits_inr": 711046,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 23000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 450000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1274846
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 2500000,
-      "non_agricultural_land": {
-        "description": "One Plot In Village Sarai Aurangabad Khasra No 37/5/2/1, 6/3/15/1",
-        "area_sq_ft": 4446,
-        "inherited": "N",
-        "purchase_date": "2001-12-14",
-        "purchase_cost_inr": 35800,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "House Adarsh Nagar Jhajjar Road 567; House Adarsh Nagar Jhajjar Road 565",
-        "total_area_sqft": 2700,
-        "built_up_area_sqft": 2537,
-        "inherited": "N",
-        "purchase_date": "1997-05-12",
-        "purchase_cost_inr": 69000,
-        "development_cost_inr": 2137850,
-        "current_market_value_inr": 7500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 14000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 1500000,
-      "non_agricultural_land": {},
-      "commercial_buildings_inr": 2000000,
-      "residential_buildings": {
-        "description": "Jhajjar Road Bahadur Garh 3544/565, 566; One Building Chotu Ram Park Jhajjar Road 5112/5113, 489",
-        "total_area_sqft": 1429,
-        "built_up_area_sqft": 1200,
-        "inherited": "N",
-        "purchase_date": "2011-11-30",
-        "purchase_cost_inr": 1780500,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2825000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 6325000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 863239,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 863239
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 1625000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1625000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    "print_profile_link": "https://www.myneta.info/haryana2014/candidate.php?candidate_id=119&print=true",
+    "election_expenses_link": "https://www.myneta.info/haryana2014/expense.php?candidate_id=119"
+  }
 }

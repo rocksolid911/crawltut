@@ -2,137 +2,585 @@
   "candidate_name": "Bhupen Ray",
   "party": "AGP",
   "constituency": "ABHAYAPURI NORTH (NORTH SALMARA)",
-  "father_or_husband_name": "SHRI DWIJEN ROY",
-  "age": 52,
-  "education": "Graduate B.A.",
-  "profession_self": "CULTIVATOR",
-  "profession_spouse": "CULTIVATOR",
-  "criminal_cases": 0,
-  "assets_total_inr": 7991607,
-  "liabilities_total_inr": 440000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 158805
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 188937
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 152792,
-      "bank_deposits_inr": 78064,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 450000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 721636,
-      "jewellery_inr": 30000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1432492
-    },
-    "spouse": {
-      "cash_inr": 189628,
-      "bank_deposits_inr": 178140,
-      "bonds_debentures_shares_inr": 110000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 441800,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 602342,
-      "jewellery_inr": 135000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1656910
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1100000,
-      "non_agricultural_land": {
-        "description": "AMTOLA Patta no 39/191 Dag no 142/236 9B 19L Patta No 77/219 Dag no 83/437 New 186/441",
-        "area_sq_mtr": 15986.9,
-        "inherited": "N",
-        "purchase_date": "1998-05-12",
-        "purchase_cost_inr": 27000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 110000
+  "state": "Assam",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "SHRI DWIJEN ROY",
+      "age": 52,
+      "voter_enrolled_in": {
+        "constituency": "()",
+        "serial_no": null,
+        "part_no": null
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "DOUBLE STORIED RESIDENTIAL BUILDING Dag no 251 K.P.Patta no 2",
-        "total_area_sqft": 31680,
-        "built_up_area_sqft": 1772,
-        "inherited": "N",
-        "purchase_date": "1998-04-17",
-        "purchase_cost_inr": 20000,
-        "development_cost_inr": 823000,
-        "current_market_value_inr": 2000000
+      "self_profession": "CULTIVATOR",
+      "spouse_profession": "CULTIVATOR"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 7991607,
+      "total_liabilities_in_rupees": 440000
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A."
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 158805
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 188937
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1433798,
+      "gross_total_value_spouse_rupees": 1662809,
+      "gross_total_value_dependent1_rupees": 285000,
+      "gross_total_value_dependent2_rupees": 300000,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3681607,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 152792,
+          "spouse_value_rupees": 189628,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 342420,
+          "self_details": "1,52,792",
+          "spouse_details": "1,89,628"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 78864,
+          "spouse_value_rupees": 187940,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 266804,
+          "self_details": "AGVB North Salmara S/B A/C NO 935 1,230 AGVB North Salmara C/D/ A/C NO 37 6,326 SBI No 3035039xxxxx 15,608 UBI No 36590101000xxxxx 55,706 AGVB SB No 1xxxxx 500",
+          "spouse_details": "AGVB A/C NO 5477 9,099 AGVB North Salmara A/C NO 43 1,662 UBI No 36590101000xxxxx 91,395 FD SBI NO 792731 25000 &P.V. 81,883"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 110000,
+          "dependent1_value_rupees": 150000,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 260000,
+          "self_details": "Nil",
+          "spouse_details": "No 7xxxxx 76342 50,000 LIC MF 50000 60,000",
+          "dependent1_details": "UTI C.No 201991xxxxx 00023 00027 ,100000 1,50,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 450000,
+          "spouse_value_rupees": 441800,
+          "dependent1_value_rupees": 135000,
+          "dependent2_value_rupees": 300000,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1326800,
+          "self_details": "LIC POLICY 480440836 1625/hy 50000 40,000 MAX NEW YORK LIFE 613324276 50,000 MAX NEW YORK LIFE 617853965 40,000 RELIANCE SUPER GOLDEN YEAR TERM 10 PLAN 9374953A Clint ID 75552610 20,000 RELIANCE SUPER GOLDEN YEAR TERM 10 PLAN 073484513 77137590 3,00,000",
+          "spouse_details": "LIC POLICY 480978728, 7976 S.A.100000 83,000 ICICI PRUDENTIAL LIFE STAGE PENTION no 14442226 2,00,000 MAX NEW YORK LIFE 601141831 15,000 PAN CARD CLUB No 1xxxxx 63,800 POST OFFICE 1214070 80,000",
+          "dependent1_details": "LIC POLICY prim /12113 ,S.A. 200000 1,35,000",
+          "dependent2_details": "LIC POLICY /38343 230000 ,s.a.500000.00 2,30,000 LIC POLICY s.a.100000 70,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 721636,
+          "spouse_value_rupees": 602342,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1323978,
+          "self_details": "TATA SUMO AS 01AT 2670 7,21,636",
+          "spouse_details": "709 TATA TRUCK AS 19A 6838 1,99,342 HYUNDAI CAR AS 19B 5117 4,03,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 30000,
+          "spouse_value_rupees": 135000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 165000,
+          "self_details": "GOLD 18 GRM 30,000",
+          "spouse_details": "GOLD 82 GRM 1,35,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 32100000,
+      "total_current_market_value_spouse_rupees": 11000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 43100000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 11000000,
+          "spouse_value_rupees": 11000000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 22000000,
+          "self_details": [
+            {
+              "location": "BARIPUKHURI Patta no 118 Dag no 27.28,52.2/348 New 106,70 114 ,36",
+              "total_area": "22.36 ACRES",
+              "inherited": false,
+              "purchase_date": "2001-06-05",
+              "purchase_cost_rupees": 416200,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            },
+            {
+              "location": "GOLAKGANJ Patta NO Old 27 New 8Dag No Old 391/432 New 501",
+              "total_area": "8.27 ACRES",
+              "inherited": false,
+              "purchase_date": "2007-06-04",
+              "purchase_cost_rupees": 60300,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "BARIPUKHURI 1st Pt Patta no 118 Dag no old 32/5.48 New 542",
+              "total_area": "10.70 ACRES",
+              "inherited": false,
+              "purchase_date": "2001-06-05",
+              "purchase_cost_rupees": 196200,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            },
+            {
+              "location": "GOLAKGANJ pATTA NO oLD 27 New 8dag no old 391/432 New 501",
+              "total_area": "8.27 ACRES",
+              "inherited": false,
+              "purchase_date": "2007-06-04",
+              "purchase_cost_rupees": 60300,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 1100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 1100000,
+          "self_details": [
+            {
+              "location": "AMTOLA Patta no 39/191 Dag no 142/236 9B 19L Patta No 77/219 Dag no 83/437 New 186/441",
+              "total_area": "172080 SQFT",
+              "inherited": false,
+              "purchase_date": "1998-05-12",
+              "purchase_cost_rupees": 27000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1100000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 20000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 20000000,
+          "self_details": [
+            {
+              "location": "DOUBLE STORIED RESIDENTIAL BUILDING Dag no 251 K.P.Patta no 2",
+              "total_area": "31680 SQFT",
+              "built_up_area": "1772 SQFT",
+              "inherited": false,
+              "purchase_date": "1998-04-17",
+              "purchase_cost_rupees": 20000,
+              "development_cost_rupees": 823000,
+              "current_value_rupees": 20000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 440000,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 440000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 3210000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 440000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 440000,
+          "self_details": "AGVB A/C NO CDL 96 4,40,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil",
+          "dependent1_details": "Nil",
+          "dependent2_details": "Nil",
+          "dependent3_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 1100000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1100000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 440000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 440000
+    "profession_or_occupation": {
+      "self": "CULTIVATOR",
+      "spouse": "CULTIVATOR"
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    "other_elections": [
+      {
+        "election_name": "Assam 2021",
+        "declared_assets_rupees": 22876557,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Assam 2016",
+        "declared_assets_rupees": 15648640,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

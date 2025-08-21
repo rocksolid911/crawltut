@@ -1,148 +1,424 @@
 {
   "candidate_name": "SUDIPTA ROY",
-  "party": "AITC",
   "constituency": "SREERAMPUR",
-  "father_or_husband_name": "LATE ANIL ROY",
-  "age": 63,
-  "education": "Post Graduate MBBS, DA, MD(Cal) University of Calcutta",
-  "profession_self": "CONSULTANT ANESTHETIST AND RESPIRATORY PHYSICIAN",
-  "profession_spouse": "OWNER OF CHEMICAL LABORATORY",
-  "criminal_cases": 0,
-  "assets_total_inr": 31251423,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 236021
-      }
+  "state": "West Bengal",
+  "election_year": 2011,
+  "status": "Winner",
+  "party": "AITC",
+  "personal_details": {
+    "s_o_d_o_w_o": "LATE ANIL ROY",
+    "age": 63,
+    "voter_enrolled_in": {
+      "constituency": "",
+      "serial_no": null,
+      "part_no": null
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 203329
-      }
+    "self_profession": "CONSULTANT ANESTHETIST AND RESPIRATORY PHYSICIAN",
+    "spouse_profession": "OWNER OF CHEMICAL LABORATORY"
+  },
+  "other_elections": [
+    {
+      "election": "West Bengal 2021",
+      "declared_assets_rupees": 94686431,
+      "declared_cases": 0
     },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    {
+      "election": "West Bengal 2016",
+      "declared_assets_rupees": 49152747,
+      "declared_cases": 0
     }
+  ],
+  "criminal_cases": {
+    "count": 0,
+    "details": "No criminal cases",
+    "data_readability_report": "No Problems in Reading Affidavit Information"
+  },
+  "assets_and_liabilities": {
+    "assets_rupees": 31251423,
+    "liabilities_rupees": 0
+  },
+  "educational_details": {
+    "category": "Post Graduate",
+    "degree": "MBBS, DA, MD(Cal)",
+    "university": "University of Calcutta"
+  },
+  "pan_and_income_tax": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "returns": [
+      {
+        "relation_type": "self",
+        "pan_given": true,
+        "financial_year": "2009 - 2010",
+        "total_income_shown_in_itr_rupees": 236021
+      },
+      {
+        "relation_type": "spouse",
+        "pan_given": true,
+        "financial_year": "2009 - 2010",
+        "total_income_shown_in_itr_rupees": 203329
+      },
+      {
+        "relation_type": "dependent1",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent2",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      },
+      {
+        "relation_type": "dependent3",
+        "pan_given": false,
+        "financial_year": "None",
+        "total_income_shown_in_itr_rupees": 0
+      }
+    ]
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 55000,
-      "bank_deposits_inr": 409742,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 550000,
-      "jewellery_inr": 200000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1214742
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 111680.75,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 300000,
-      "jewellery_inr": 1000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1436680.75
-    }
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "total_value_rupees": 2651422.75,
+    "items": [
+      {
+        "description": "Cash",
+        "self_value_rupees": 55000,
+        "spouse_value_rupees": 25000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 80000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_value_rupees": 31251423,
+        "spouse_value_rupees": 111680.75,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 521422.75,
+        "self_details": [
+          {"bank": "SBI", "account_no": "3099521xxxxx", "value": 172583},
+          {"bank": "SBI", "account_no": "2000838xxxxx", "value": 34432},
+          {"bank": "IOB", "account_no": "05660100001xxxxx", "value": 202727}
+        ],
+        "spouse_details": [
+          {"bank": "BANK OF BARODA", "account_no": "0599010001xxxxx", "value": 111680.75}
+        ]
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_value_rupees": 550000,
+        "spouse_value_rupees": 300000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 850000,
+        "self_details": [{"make": "HONDA CITY CAR", "year": 1999, "registration": "WB02J5757"}],
+        "spouse_details": [{"make": "MAHENDRA CAMANDAR JEEP", "year": 1998, "registration": "WB-04A-5702"}]
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_value_rupees": 200000,
+        "self_weight_gms": 100,
+        "spouse_value_rupees": 1000000,
+        "spouse_weight_gms": 500,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 1200000
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ]
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 100000,
-      "non_agricultural_land": {
-        "description": "BABUGANJ HOOGHLY & DARPUR BABNAM HOOGHLY",
-        "area_sq_mtr": 133.78,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 675000,
-        "development_cost_inr": 1800000,
-        "current_market_value_inr": 5000000
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "total_current_market_value_rupees": 28600000,
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_value_rupees": 100000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 100000,
+        "self_details": {
+          "location": "SUGANDHA POLBA, HOOGHLY",
+          "total_area": "0.266 ACRES",
+          "inherited": true
+        }
       },
-      "commercial_buildings_inr": 3500000,
-      "residential_buildings": {
-        "description": "1/2 SHARE OF BT ROAD & 1/2 SHARE OF BT ROAD",
-        "total_area_sqft": 1663,
-        "built_up_area_sqft": 4050,
-        "inherited": "N",
-        "purchase_date": "1994-12-13",
-        "purchase_cost_inr": 475000,
-        "development_cost_inr": 5350000,
-        "current_market_value_inr": 10000000
+      {
+        "description": "Non Agricultural Land",
+        "self_value_rupees": 5000000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 5000000,
+        "self_details": {
+          "location": "BABUGANJ HOOGHLY & DARPUR BABNAM HOOGHLY",
+          "purchase_date": "2008-06-13, 2008-10-03, 2008-10-29",
+          "total_area": "1440SFT.",
+          "inherited": true,
+          "purchase_cost": 675000,
+          "development_cost": 1800000
+        }
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 18600000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "1/2 SHARE OF BT ROAD & 1/2 SHARE OF BT ROAD",
-        "total_area_sqft": 1663,
-        "built_up_area_sqft": 4050,
-        "inherited": "N",
-        "purchase_date": "1994-12-13",
-        "purchase_cost_inr": 475000,
-        "development_cost_inr": 5350000,
-        "current_market_value_inr": 10000000
+      {
+        "description": "Commercial Buildings",
+        "self_value_rupees": 3500000,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 3500000,
+        "self_details": {
+          "location": "BT ROAD KOLKATA & GUPTA LANE KOLKATA",
+          "total_area": "12000SQ.FT.",
+          "inherited": true
+        }
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 10000000
-    }
+      {
+        "description": "Residential Buildings",
+        "self_value_rupees": 10000000,
+        "spouse_value_rupees": 10000000,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 20000000,
+        "self_details": [
+          {
+            "share": "1/2 SHARE OF BT ROAD",
+            "total_area": "720SQ.FT.",
+            "built_up_area": "1250SQ.FT.",
+            "inherited": false,
+            "purchase_date": "1994-12-13",
+            "purchase_cost": 75000,
+            "development_cost": 1550000,
+            "value": 3000000
+          },
+          {
+            "share": "1/2 SHARE OF BT ROAD",
+            "total_area": "943SFT.",
+            "built_up_area": "2800SFT.",
+            "inherited": false,
+            "purchase_date": "1991-08-12",
+            "purchase_cost": 400000,
+            "development_cost": 3800000,
+            "value": 7000000
+          }
+        ],
+        "spouse_details": [
+          {
+            "share": "1/2 SHARE OF BT ROAD",
+            "total_area": "720SQ.FT.",
+            "built_up_area": "1250SQ.FT.",
+            "inherited": false,
+            "purchase_date": "1994-12-13",
+            "purchase_cost": 75000,
+            "development_cost": 1550000,
+            "value": 3000000
+          },
+          {
+            "share": "1/2 SHARE OF BT ROAD",
+            "total_area": "943SFT.",
+            "built_up_area": "2800SFT.",
+            "inherited": false,
+            "purchase_date": "1991-08-12",
+            "purchase_cost": 400000,
+            "development_cost": 3800000,
+            "value": 7000000
+          }
+        ]
+      },
+      {
+        "description": "Others",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ]
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "total_value_rupees": 0,
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_value_rupees": 0,
+        "spouse_value_rupees": 0,
+        "dependent1_value_rupees": 0,
+        "dependent2_value_rupees": 0,
+        "dependent3_value_rupees": 0,
+        "total_value_rupees": 0
+      }
+    ]
+  }
 }

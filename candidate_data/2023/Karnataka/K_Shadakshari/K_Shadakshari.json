@@ -1,158 +1,596 @@
 {
   "candidate_name": "K SHADAKSHARI",
   "party": "INC",
-  "constituency": "TIPTUR (TUMKUR)",
-  "father_or_husband_name": "Late Kallappa",
-  "age": 74,
-  "education": "Graduate, Bachelor of Commerce from R.V.Collage, Bangalore University",
-  "profession_self": "Agriculture",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 105683460,
-  "liabilities_total_inr": 47809263,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 677210,
-        "2018-2019": 578840,
-        "2019-2020": 600000,
-        "2020-2021": 590000,
-        "2021-2022": 650000
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 67960,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1650000,
-      "jewellery_inr": 675000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 2892960
-    },
-    "spouse": {
-      "cash_inr": 200000,
-      "bank_deposits_inr": 755000,
-      "bonds_debentures_shares_inr": 30000000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 6195000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 37150000
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 15000000,
-      "non_agricultural_land": {
-        "description": "tiptur Sr No.5541/1001",
-        "area_sq_mtr": 208.85,
-        "inherited": "N",
-        "purchase_date": "2011-02-10",
-        "purchase_cost_inr": 300000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 800000
+  "constituency": "TIPTUR",
+  "state": "Karnataka 2023",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Kallappa",
+      "age": 74,
+      "voter_enrolled_in": {
+        "constituency": "129 Tiptur",
+        "state": "Karnataka",
+        "serial_no": 87,
+        "part_no": 593
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 15800000
+      "self_profession": "Agriculture",
+      "spouse_profession": "Housewife"
     },
-    "spouse": {
-      "agricultural_land_inr": 8000000,
-      "non_agricultural_land": {
-        "description": "Tiptur Sr No.1)228/1551/32. 2)229/15552/33",
-        "area_sq_mtr": 222.96,
-        "inherited": "N",
-        "purchase_date": "1993-03-17",
-        "purchase_cost_inr": 90500,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 800000
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 105683460,
+      "total_liabilities_in_rupees": 47809263
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Bachelor of Commerce from R.V.Collage, Bangalore University"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 650000
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 590000
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 600000
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 578840
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 677210
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2892960,
+      "gross_total_value_spouse_rupees": 37150000,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 40042960,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 500000,
+          "spouse_value_rupees": 200000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 700000,
+          "self_details": "500000",
+          "spouse_details": "200000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 67960,
+          "spouse_value_rupees": 750000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 822960,
+          "self_details": "CANARA BANK,SAVINGS No 69910103xxxxx 61,960 DCCbANK SAVINGS No 00800100xxxxx 3,000 DCC Bank savings No 00800900xxxxx 2,000 Bank of Boroda savings No 5006010003xxxxx 1,000",
+          "spouse_details": "Udhayaravi Sahakara Sanga, No 2xxxxx 2,45,000 No 2xxxxx 5,00,000 State bank of India No 3985361xxxxx 5,000 Karnataka Bank No 7672500102183xxxxx 5,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 30000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30000000,
+          "self_details": "Nil",
+          "spouse_details": "S.S.Venchers No 39835773xxxxx 3,00,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1650000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1650000,
+          "self_details": "KA-44-M-1202,INOVA -2010-11 4,00,000 TracterMF,KA-44-TA-2382,Triler,KA-44-TA-2383,2021 8,50,000 KA-44-6776 maruthi car 2019 4,00,000",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 675000,
+          "spouse_value_rupees": 6195000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6870000,
+          "self_details": "Silver ,15 KG 6,75,000",
+          "spouse_details": "Gold 1050 GRAM 61,95,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 15800000,
+      "total_current_market_value_spouse_rupees": 46300000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 62100000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 15000000,
+          "spouse_value_rupees": 8000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 23000000,
+          "self_details": {
+            "location": "Tiptur,Kasbha hobli serve no.1)129/1-0.23G. 2)129/4-0.20 G. 3)134-4.36 G. 4)146/1-4.07G. Bennayakanahalli 5)93/1B-0.08 G. 6)93/3B-0.22G. 7)94/3-0.22G. 8)94/5-0.27G. 9)94/6-0.27G. 10)97/1-6.28G. 11)100/5-0.25G. 12)101-0.09G. 13)170/6-1.27G. 13)170/6-1.2G. 14)170/7-1.27G. 15)170/8-2.01G. 16)139/1B-0.29G. 1,4,11,12,purcase date . 17/1/1990,17/1/1990,24/1/1999,23/9/1989/02/11/1989. Cost or purchase:1,2 10000. 3 rs,48000,4 Rs 98000, 11 Rs 30000, 12 Rs 30000",
+            "total_area": "31 acre 18 gontas",
+            "built_up_area": "",
+            "inherited": false,
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0.00,
+            "development_cost": 500000.00,
+            "current_value": 15000000
+          },
+          "spouse_details": {
+            "location": "Tiptur, Kasava hobli,madhihalli village,sr no.151/8-1.10 gontas",
+            "total_area": "1.10 gontas",
+            "built_up_area": "",
+            "inherited": false,
+            "purchase_date": "2022-11-03",
+            "purchase_cost": 3000000.00,
+            "development_cost": 0.00,
+            "current_value": 8000000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": 800000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1600000,
+          "self_details": {
+            "location": "tiptur",
+            "sy_no": "5541/1001",
+            "total_area": "45*50 ft",
+            "built_up_area": "",
+            "inherited": false,
+            "purchase_date": "2011-02-10",
+            "purchase_cost": 300000.00,
+            "development_cost": 0.00,
+            "current_value": 800000
+          },
+          "spouse_details": {
+            "location": "Tiptur",
+            "sy_no": "1)228/1551/32. 2)229/15552/33",
+            "total_area": "2400 sqft",
+            "built_up_area": "",
+            "inherited": false,
+            "purchase_date": "1993-03-17",
+            "purchase_cost": 90500.00,
+            "development_cost": 0.00,
+            "current_value": 800000
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 37500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 37500000,
+          "self_details": "Nil",
+          "spouse_details": {
+            "location": "tiptur village,KR layout,4 main road",
+            "e_katha_no": "525/374",
+            "total_area": "5220 sqft",
+            "built_up_area": "5220 sqft",
+            "inherited": false,
+            "purchase_date": "2001-11-19",
+            "purchase_cost": 450000.00,
+            "development_cost": 6000000.00,
+            "current_value": 37500000
+          }
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 17809263,
+      "grand_total_of_liabilities_spouse_rupees": 30000000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 47809263,
+      "grand_total_of_all_govt_dues_self_rupees": 8385834,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 8385834,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "commercial_buildings_inr": 37500000,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 46300000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 9423429,
+          "spouse_value_rupees": 30000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 39423429,
+          "self_details": "VSSN,Benayakanahalli 1,50,000 B.L.D.Bank 4,23,429 Property loan 8,50,000 Dr,Lilavathi,mysur,Rs,75,00,000. 75,00,000 2)Shivaprasadh namurutha OIl 5,00,000",
+          "spouse_details": "Udayaravipathina sahakari sanga 3,00,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 8385834,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8385834,
+          "self_details": "2016-17- balance 83,85,834",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Agriculture",
+      "spouse": "Housewife"
+    },
+    "sources_of_income": {
+      "self": "Agriculture and business",
+      "spouse": "Nil",
+      "dependent": "Nil"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NO",
+      "spouse": "NO",
+      "dependent": "NO",
+      "huf_or_trust": "NO",
+      "partnership_firms": "NO",
+      "private_companies": "NO"
     }
   },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 8083429,
-      "loans_due_to_individual_entity_inr": 7500000,
-      "any_other_liability_inr": 500000,
-      "grand_total_of_liabilities_inr": 16083429
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 30000000,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 30000000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 8385834,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 8385834
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Agriculture and business",
-    "spouse": "Nil",
-    "dependent": "Nil"
-  },
-  "contracts": {
-    "entered_by_candidate": "NO",
-    "entered_by_spouse": "NO",
-    "entered_by_dependent": "NO",
-    "entered_by_huf_trust": "NO",
-    "entered_by_partnership_firms": "NO",
-    "entered_by_private_companies": "NO"
+  "other_elections": [
+    {
+      "declaration_in": "Karnataka 2018",
+      "declared_assets_in_rupees": 50000000,
+      "declared_cases": 0
+    }
+  ],
+  "links": {
+    "more_details": "https://www.myneta.info/compare_profile.php?group_id=q2QPuiU9n9Fp7tvQG3B",
+    "print_profile": "https://www.myneta.info/Karnataka2023/candidate.php?candidate_id=7360&print=true",
+    "view_election_expenses": "https://www.myneta.info/Karnataka2023/expense.php?candidate_id=7360",
+    "image_profile": "https://myneta.info/images_candidate/mynetai_ews5Karnataka2023/4495f2bb203a0c5af47c96e96d05d41454b9a59e.jpg"
   }
 }

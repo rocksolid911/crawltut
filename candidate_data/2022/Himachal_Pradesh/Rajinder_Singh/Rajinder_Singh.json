@@ -1,146 +1,576 @@
 {
   "candidate_name": "RAJINDER SINGH",
   "party": "INC",
-  "constituency": "SUJANPUR (HAMIRPUR)",
-  "father_or_husband_name": "Late Singh Sukh Ram",
-  "age": 56,
-  "education": "Graduate B.A. from Punjab University Evening College Chandigarh in 1986, Matric from Govt. High School Patlander District Hamirpur HP in 1982",
-  "profession_self": "Business",
-  "profession_spouse": "House wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 319728503,
-  "liabilities_total_inr": 3734978,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2021-2022": 2388210,
-        "2020-2021": 2486110,
-        "2019-2020": 3058986,
-        "2018-2019": 1973392,
-        "2017-2018": 2196722
+  "constituency": "SUJANPUR",
+  "state": "Himachal Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Singh Sukh Ram",
+      "age": 56,
+      "voter_enrolled_in": {
+        "constituency": "37 Sujanpur",
+        "state": "Himachal Pradesh",
+        "serial_no": 429,
+        "part_no": 44
+      },
+      "self_profession": "Business",
+      "spouse_profession": "House wife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 319728503,
+      "total_liabilities_in_rupees": 3734978
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A. from Punjab University Evening College Chandigarh in 1986, Matric from Govt. High School Patlander District Hamirpur HP in 1982"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 2388210
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 2486110
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 3058986
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 1973392
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 2196722
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 926510
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 839610
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 1092073
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2018 - 2019",
+          "total_income_shown_in_itr_rupees": 968845
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 1091620
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 8526622,
+      "gross_total_value_spouse_rupees": 7991881,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 10000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 16528503,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 250000,
+          "spouse_value_rupees": 210000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 10000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 470000,
+          "self_details": "2,50,000",
+          "spouse_details": "2,10,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 3959682,
+          "spouse_value_rupees": 4093881,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8053563,
+          "self_details": "Joint SB Account with wife SB No 3000008xxxxx State Bank of India, Sector 41D Chandigarh 5,27,646  5 Lacs+ SB No 00093400100xxxxx, Punjab State Co-operative Bank Sector-30, Chandigarh  12,951  12 Thou+ Sb No 3275448xxxxx, State Bank of India Sujanpur 7,952  7 Thou+ SB No 125501101xxxxx, UCO Bank Himachal Vidhan Sabha Shimla 7,02,148  7 Lacs+ Bank of Baroda Chadigarh No 535901000xxxxx 2,609  2 Thou+ Joint FDR with wife No 3910134xxxxx, State Bank of India Sector 41D, Chandigarh  16,59,158  16 Lacs+ Joint FDR with wife, No 3910134xxxxx, State Bank of India Sector-41D Chandigarh 16,59,158  16 Lacs+",
+          "spouse_details": "Joint SB Account with husband No 3000008xxxxx State Bank of India, Sector 41D Chandigarh  5,27,646  5 Lacs+ SB No 00093400100xxxxx, Punjab State Co-operative Bank Sector-30 Chandigarh 35,919  35 Thou+ Joint FDR No 3910134xxxxx, State Bank of India Sector 41D, Chandigarh  16,59,158  16 Lacs+ Joint FDR No 3910134xxxxx, State Bank of India Sector-41D Chandigarh  16,59,158  16 Lacs+"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2600000,
+          "spouse_value_rupees": 1900000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4500000,
+          "self_details": "Toyota Fortuner, CH04AH1899, Model 2011 17,00,000  17 Lacs+ Maruti Balero Zeta, CH01BT1899, Model- 2018 9,00,000  9 Lacs+",
+          "spouse_details": "Innova Crysta, CH 01BL1899, Model- 2016 19,00,000  19 Lacs+"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 2000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": "Gold Ring Chain Bracelet & Jewellery 200 Gms 10,00,000  10 Lacs+",
+          "spouse_details": "Gold Jewellery 400 Gms 20,00,000  20 Lacs+"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 105000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 105000,
+          "self_details": "Silver Utensils & Jewellery - 1 KG 75,000  75 Thou+ Revolver 20,000  20 Thou+ One 12 Bore double barrel gun 10,000  10 Thou+",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 1757000000,
+      "total_current_market_value_spouse_rupees": 1275000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 3032000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 158000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 158000000,
+          "self_details": "Khata No. 16, Khatoni No. 39, Khasra Kita 46, area 29k08m per jamabandi 2006-07 situate in Tika Lahru Mouza Chamiana The Sujanpur Distt. Hamirpur HP, 1/40th Share Total Area 15 Marlas Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 72,00,000  72 Lacs+ Khata No. 2min, KHatoni No.2Min, Khasra Kita 2 Area 0-50-04 sq,mts. per jamabandi 2008-09 situate in Mahal Mouza Matti Moring, Tehsil & Distt, Hamirpur, 2310/5004, Situate in Mahal Bharnang Mouza matti Morian Tehsil & Distt. Hamirpur HP Total Area 0-23-10 Hector  Built Up Area  Whether Inherited N Purchase Date 2009-02-27 Purchase Cost 684000.00 Development Cost 0.00 35,00,000  35 Lacs+ Land in Khata no. 56, Khatoni No. 59, Khasra No. 498, Situate at Mohal Bharnang Mouza Matti Tihra Tehsil & District Hamirpur HP  Total Area 0-15-59 Hector  Built Up Area  Whether Inherited N Purchase Date 2005-04-30 Purchase Cost 323000.00 Development Cost 0.00 27,00,000  27 Lacs+ Khata No. 17, Khatoni No. 17, Khasra No.2/3, 1/3 Share per jamabandii 2002-03 situate in Mahal Brahmani Mouza Matti Morian tehsil & District Hamirpur HP Total Area 0K17M Built Up Area  Whether Inherited N Purchase Date 2005-06-28 Purchase Cost 53835.00 Development Cost 0.00 9,00,000  9 Lacs+ Khata No. 24, Khatoni No. 24, Khasra No.5/4 area 3K-10, Khasra No.12 area- 0K-14M Kita 2 Area 4K-4M to the extent of 2K-2M per Jamabandi 2002-03 situate in Mouza Matti Morian Tehsil & Distt Hamirpur HP Total Area Built Up Area  Whether Inherited N Purchase Date 2006-07-31 Purchase Cost 151670.00 Development Cost 0.00 15,00,000  15 Lacs+ Khewat No. 1, Khatoni No.1 to 14 Khasra kita 143 area 137K 06M to the extent of 1/24 Share measuring 5k-14M and Khata No. 2, Khatoni No.15 to 26 Khasra Kita 234 area 168-15M to the extent of 1/12 share area 14k01M situate in Tika Grouru Nikhian Mouza Chamiana Tehsil Sujanapur Distt. Hamirpur (HP)  Total Area 19K-15M Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 0*(Value Not Given) Khata No. 1, Khatoni No.1, Khasra Kita 40 area 48K-07M to the extent of 14th share area 12K-02M, Khata No.2, Khatoni No. 2 & 3, Khasra Kita 5 and Khasra No. 161 area 0K-03M suited in Tika Grouru Nihalyan Mouza Chamiana The Sujanpur Distt. Hamirpur (HP) as per Jamabandi 2007-08 Total Area 13K-12M Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 0*(Value Not Given) Tika Lahru Mouza Chamaiana Tehsil Sujanpur District Hamirpur (HP)- 1/20 Share Total Area 1K-7M Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 0*(Value Not Given) Khata No.14, KHatoni No.32 to33, Khasra Kita 36 situate in Tika Lahru Mouza Chamiana Tehsil Suajnpur Distt. Hamirpur (HP), 1/60 Share Total Area 09 Marlas Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 0*(Value Not Given) Khata No. 15, Khatoni No. 34 to 38 Khasra Kita 40 situate in Tika Lahru Mouza Chamiana Tehsil Sujanpur Distt. Hamirpur (HP), 1/30 Share Total Area 1K-3M Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 0*(Value Not Given)",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 129000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 129000000,
+          "self_details": "Khata No. 55min, KHatoni No.24, Khasra kita 25, 20/217 share per jamabandi 2007-08 situate in Mohal Hira Nagar Mouza Jhaniara Tehsil & Distt. Hamirpur HP Total Area 385-27 Sq. mts Built Up Area  Whether Inherited N Purchase Date 1997-12-22 Purchase Cost 100000.00 Development Cost 0.00 25,00,000  25 Lacs+ Plot No. 454, Tribune Colony Village Kansal District Mohali PB Total Area 275.00 sq. Yards Built Up Area  Whether Inherited N Purchase Date 2012-02-28 Purchase Cost 1160000.00 Development Cost 0.00 30,00,000  30 Lacs+ Plot No. 474, Tribune Colony Village Kansal District Mohali PB Total Area 320.00 sq. yards Built Up Area  Whether Inherited N Purchase Date 2012-02-28 Purchase Cost 1349000.00 Development Cost 0.00 33,00,000  33 Lacs+ Plot No. 30, Tribune Colony Village Kansal District Mohali PB Total Area 270.00 Sq. Yards Built Up Area  Whether Inherited N Purchase Date 2012-03-05 Purchase Cost 2033000.00 Development Cost 0.00 41,00,000  41 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 650000000,
+          "spouse_value_rupees": 650000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1300000000,
+          "self_details": "Show room at SCO 27 Sector 41D Chandigarh, 50% Share Total Area 112.00 Sq. Yard Built Up Area  Whether Inherited N Purchase Date 2002-07-03 Purchase Cost 1689030.00 Development Cost 0.00 4,00,00,000  4 Crore+ SCF-5, 1st & IInd Floor Sector 18D Chandigarh, 25% Share Total Area 4500 Sq. Feet Built Up Area  Whether Inherited N Purchase Date 2005-02-10 Purchase Cost 1629185.00 Development Cost 0.00 2,50,00,000  2 Crore+",
+          "spouse_details": "Show room at SCO 27 Sector 41D Chandigarh, 50% Share  Total Area 112.00 Sq. Yard Built Up Area  Whether Inherited N Purchase Date 2002-07-03 Purchase Cost 1689030.00 Development Cost 0.00 4,00,00,000  4 Crore+ SCF-5, 1st & IInd Floor Sector 18D Chandigarh, 25% Share  Total Area 4500 sq feet Built Up Area  Whether Inherited N Purchase Date 2005-02-10 Purchase Cost 1629185.00 Development Cost 0.00 2,50,00,000  2 Crore+"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 820000000,
+          "spouse_value_rupees": 600000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1420000000,
+          "self_details": "Three storied building at 1168 Sector 33C Chandigarh, 66.66% Share Total Area 625.00 Sq. Yards Built Up Area  Whether Inherited N Purchase Date 2004-07-08 Purchase Cost 1514500.00 Development Cost 0.00 6,00,00,000  6 Crore+ One Storey Building at Plot No. 73 Tribune Colony Village Kansal District Mohali PB Total Area 260.00 Sq. Yards Built Up Area  Whether Inherited N Purchase Date 1997-11-11 Purchase Cost 391307.00 Development Cost 0.00 1,10,00,000  1 Crore+ Residential House on land in Khata No. 1, 2, 3 & $ of Tika Grouru Mohalyan Tehsil Sujanpur District Hamirpur HP, and has spent about Rs. 10000000 on same and this land is my ancestral property and there is ancestral house in the aforesaid land  Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 1,10,00,000  1 Crore+",
+          "spouse_details": "Three storied building at 1168 Sector 33C Chandigarh, 33.33% Share  Total Area 625.00 Square Yards Built Up Area  Whether Inherited N Purchase Date 2004-07-08 Purchase Cost 1514500.00 Development Cost 0.00 6,00,00,000  6 Crore+"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 25000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000000,
+          "self_details": "Nil",
+          "spouse_details": "25% Share at King Stones and Mines & Minerals, MOuja Dhillon Baharan, Tehsil Pachhad Distt Sirmour HP Total Area Built Up Area  Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00 25,00,000  25 Lacs+"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3734978,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 3734978,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 3734978,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3734978,
+          "self_details": "Rs. 5000000- H.P. Vidhan Sabha Secretariat 36,14,978  36 Lacs+ Rs. 500000, Vehicle Loan from Bank of Baroda Sector Chandigarh 1,20,000  1 Lacs+",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Business",
+      "spouse": "House wife"
+    },
+    "sources_of_income": {
+      "self": "Business, MLA Salary income from Rent & Agriculture",
+      "spouse": "Rent & Interest",
+      "dependent": "NIL"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NIL",
+      "spouse": "NIL",
+      "dependent": "NIL",
+      "huf_or_trust": "NIL",
+      "partnership_firms": "25% Share in partnership concern M/S King Stones and Mines and Minirals, Mouja Dhillon Baharan, Tehsil Pacchad Distt Sirmour HP",
+      "private_companies": "NIL"
+    },
+    "other_elections": [
+      {
+        "election": "Himachal Pradesh 2017",
+        "declared_assets": "Rs26,48,33,629",
+        "declared_cases": 0
+      },
+      {
+        "election": "Loksabha 2014",
+        "declared_assets": "Rs22,86,97,768",
+        "declared_cases": 0
+      },
+      {
+        "election": "Himachal Pradesh 2012",
+        "declared_assets": "Rs22,31,87,546",
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2021-2022": 926510,
-        "2020-2021": 839610,
-        "2019-2020": 1092073,
-        "2018-2019": 968845,
-        "2017-2018": 1091620
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 250000,
-      "bank_deposits_inr": 3669702,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2600000,
-      "jewellery_inr": 1000000,
-      "other_assets_inr": 105000,
-      "gross_total_value_inr": 8526622
-    },
-    "spouse": {
-      "cash_inr": 210000,
-      "bank_deposits_inr": 3727646,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1900000,
-      "jewellery_inr": 2000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 7991881
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 15800000,
-      "non_agricultural_land_inr": 12900000,
-      "commercial_buildings_inr": 650000000,
-      "residential_buildings_inr": 820000000,
-      "others_inr": 0,
-      "total_current_market_value_inr": 1757000000
-    },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land_inr": 0,
-      "commercial_buildings_inr": 650000000,
-      "residential_buildings_inr": 600000000,
-      "others_inr": 2500000,
-      "total_current_market_value_inr": 1275000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3734978,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3734978
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Business, MLA Salary income from Rent & Agriculture",
-    "spouse": "Rent & Interest",
-    "dependent": "NIL"
-  },
-  "contracts": {
-    "entered_by_candidate": "NIL",
-    "entered_by_spouse": "NIL",
-    "entered_by_dependent": "NIL",
-    "entered_by_huf_trust": "NIL",
-    "entered_by_partnership_firms": "25% Share in partnership concern M/S King Stones and Mines and Minirals, Mouja Dhillon Baharan, Tehsil Pacchad Distt Sirmour HP",
-    "entered_by_private_companies": "NIL"
+    ]
   }
 }

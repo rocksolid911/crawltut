@@ -1,162 +1,651 @@
 {
   "candidate_name": "THOTA TRIMURTHULU",
   "party": "TDP",
-  "constituency": "RAMACHANDRAPURAM (EAST GODAVARI)",
-  "father_or_husband_name": "Late Pundarikakshulu",
-  "age": 55,
-  "education": "5th Pass 7th Passed From Mandal Parishad UP School, Venkatayapalem In Year 1972",
-  "profession_self": "Cultivation",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 3,
-  "assets_total_inr": 35888942,
-  "liabilities_total_inr": 6421626,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2013 - 2014": 357000
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012 - 2013": 650000
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 900000,
-      "bank_deposits_inr": 216428,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 600000,
-      "jewellery_inr": 340000,
-      "other_assets_inr": 72000,
-      "gross_total_value_inr": 2128428
-    },
-    "spouse": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 88178,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 700000,
-      "jewellery_inr": 2225000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3513178
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Amalapuram Rs No. 417/61 Total Area 553 Sq.Yds.",
-        "area_sq_mtr": 462.4,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 1200000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2000000
+  "constituency": "RAMACHANDRAPURAM",
+  "state": "Andhra Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Pundarikakshulu",
+      "age": 55,
+      "voter_enrolled_in": {
+        "constituency": "161 Ramachandrapuram",
+        "state": "Andhra Pradesh",
+        "serial_no": 687,
+        "part_no": 91
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Terraced Building, Venkatayapalem D. No. 1-227",
-        "total_area_sqft": 4500,
-        "built_up_area_sqft": 500,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3000000
+      "self_profession": "Cultivation",
+      "spouse_profession": "House Wife"
+    },
+    "summary": {
+      "criminal_cases_count": 3,
+      "total_assets_in_rupees": 35888942,
+      "total_liabilities_in_rupees": 6421626
+    },
+    "educational_details": {
+      "category": "5th Pass",
+      "details": "7th Passed From Mandal Parishad UP School, Venkatayapalem In Year 1972"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2013 - 2014",
+          "total_income_shown_in_itr_rupees": 357000
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 650000
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "criminal intimidation",
+          "ipc_section": "IPC Section-506",
+          "count": 3
+        },
+        {
+          "charges_related_to": "Voluntarily causing hurt by dangerous weapons or means",
+          "ipc_section": "IPC Section-324",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Kidnapping or abducting with intent secretly and wrongfully to confine person",
+          "ipc_section": "IPC Section-365",
+          "count": 1
+        },
+        {
+          "charges_related_to": "wrongful Confinement",
+          "ipc_section": "IPC Section-342",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Acts done by several persons in furtherance of common intention",
+          "ipc_section": "IPC Section-34",
+          "count": 2
+        },
+        {
+          "charges_related_to": "criminal trespass",
+          "ipc_section": "IPC Section-447",
+          "count": 1
+        },
+        {
+          "charges_related_to": "voluntarily causing hurt",
+          "ipc_section": "IPC Section-323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment of abetment if the act abetted is committed in consequence, and where no express provision is made for its punishment",
+          "ipc_section": "IPC Section-109",
+          "count": 1
+        }
+      ],
+      "charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "342, 324, 506, 34",
+          "other_details_or_acts_sections_applicable": "Section- 3(X) of SC & ST (Prevention Of Attrocities) Act 1989, Cr. No. 1/97, SC No. 2/2009 Of Draksharama PS, Court Taking Cognizance- Spl. Session Judge Court Visakhapatnam, Court which Framed Charge-Spl. Sessions Judge Court, VSP, Dt of Charge Framed- 02.05.1997, Interim Stay of Trial Passed In Criminal RCMP No. 551/2009 In Criminal RC No 400/2009, Dt 23.03.2009 By Honorable High Court of A.P"
+        }
+      ],
+      "cognizance_taken": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "447, 323, 506, 34",
+          "other_details_or_acts_sections_applicable": "Cr. No. 117/2006 In CC No. 180/2009, Sarpavaram PS Kakinada East Godavari District, Andhra Pradesh, Court Taking Cognizance- Special Mobile Judicial First Class Magistrate, Kakinada, Not Framed, Withdrawal Petition filed by Govt. is Pending as it is stayed by Hon'ble High Court of A.P. Hyderabad"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "342, 365, 324, 506, 109",
+          "other_details_or_acts_sections_applicable": "Cr. No. 149/2005 In CC No. 144/2007, Nagarkurnool PS, Mahaboobnagar District, Andhra Pradesh, Court Taking Cognizance-A.J.F.C.M. Cum Spl. Mobile Court, Nagar Kurnool , Not Framed"
+        }
+      ],
+      "cases_where_convicted": "No Cases"
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 2128429,
+      "gross_total_value_spouse_rupees": 3513178,
+      "gross_total_value_dependent1_rupees": 847335,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 6488942,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 900000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 300000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1700000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 200428,
+          "spouse_value_rupees": 88184,
+          "dependent1_value_rupees": 422355,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 726961
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "(b)",
+          "description": "LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 600000,
+          "spouse_value_rupees": 700000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1300000
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 340000,
+          "spouse_value_rupees": 2225000,
+          "dependent1_value_rupees": 125000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2690000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 72000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 72000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 11400000,
+      "total_current_market_value_spouse_rupees": 15700000,
+      "total_current_market_value_dependent1_rupees": 2300000,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 29400000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": [
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "189/A",
+              "total_area_ac": 3.46,
+              "purchase_date": "2009-12-14",
+              "purchase_cost_per_acre_rupees": 400000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "358/20",
+              "total_area_ac": 0.58,
+              "purchase_date": "2007-07-23",
+              "purchase_cost_per_acre_rupees": 200000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "298/3",
+              "total_area_ac": 1.52,
+              "purchase_date": "2011-01-27",
+              "purchase_cost_per_acre_rupees": 400000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "367/2",
+              "total_area_ac": 0.3,
+              "purchase_date": "2007-07-28",
+              "purchase_cost_per_acre_rupees": 200000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "188/3",
+              "total_area_ac": 0.31,
+              "purchase_date": "2007-09-07",
+              "purchase_cost_per_acre_rupees": 200000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "357/2",
+              "total_area_ac": 4.16,
+              "purchase_date": "2005-05-09",
+              "purchase_cost_per_acre_rupees": 132000,
+              "inherited": true
+            },
+            {
+              "location": "Draksharama",
+              "sy_no": "122",
+              "total_area_ac": 1.0,
+              "purchase_date": "2004-12-30",
+              "purchase_cost_per_acre_rupees": 167000,
+              "inherited": true
+            },
+            {
+              "location": "Draksharama",
+              "sy_no": "26",
+              "total_area_ac": 1.5,
+              "purchase_date": "2006-02-15",
+              "purchase_cost_per_acre_rupees": 250000,
+              "inherited": true
+            },
+            {
+              "location": "Draksharama",
+              "sy_no": "129",
+              "total_area_ac": 2.21,
+              "purchase_date": "2005-05-04",
+              "purchase_cost_per_acre_rupees": 168000,
+              "inherited": true
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "189/A",
+              "total_area_ac": 1.24,
+              "purchase_date": "1999-02-10",
+              "purchase_cost_per_acre_rupees": 90000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "191/1B",
+              "total_area_ac": 1.23,
+              "purchase_date": "1999-02-10",
+              "purchase_cost_per_acre_rupees": 90000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "226",
+              "total_area_ac": 1.45,
+              "purchase_date": "1999-02-11",
+              "purchase_cost_per_acre_rupees": 90000,
+              "inherited": true
+            },
+            {
+              "location": "Pallipalem",
+              "sy_no": "227/2B",
+              "total_area_ac": 0.16,
+              "purchase_date": "2000-10-13",
+              "purchase_cost_per_acre_rupees": 90000,
+              "inherited": true
+            },
+            {
+              "location": "Pallipalem",
+              "sy_no": "227/4B",
+              "total_area_ac": 0.89,
+              "purchase_date": "2005-04-29",
+              "purchase_cost_per_acre_rupees": 454500,
+              "inherited": true
+            },
+            {
+              "location": "Pallipalem",
+              "sy_no": "227/5",
+              "total_area_ac": 0.77,
+              "purchase_date": "2005-04-29",
+              "purchase_cost_per_acre_rupees": 454500,
+              "inherited": true
+            },
+            {
+              "location": "Pallipalem",
+              "sy_no": "229/1",
+              "total_area_ac": 0.99,
+              "purchase_date": "2005-04-29",
+              "purchase_cost_per_acre_rupees": 454500,
+              "inherited": true
+            },
+            {
+              "location": "Pallipalem",
+              "sy_no": "232/3",
+              "total_area_ac": 1.65,
+              "purchase_date": "2005-04-29",
+              "purchase_cost_per_acre_rupees": 454500,
+              "inherited": true
+            }
+          ],
+          "dependent1_details": [
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "357/1",
+              "total_area_ac": 0.5,
+              "purchase_date": "2000-11-06",
+              "purchase_cost_per_acre_rupees": 90000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "357/2",
+              "total_area_ac": 3.08,
+              "purchase_date": "2000-11-06",
+              "purchase_cost_per_acre_rupees": 90000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "368/1",
+              "total_area_ac": 0.05,
+              "purchase_date": "2000-01-19",
+              "purchase_cost_per_acre_rupees": 90000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "368/2",
+              "total_area_ac": 1.72,
+              "purchase_date": "2002-06-22",
+              "purchase_cost_per_acre_rupees": 108000,
+              "inherited": true
+            },
+            {
+              "location": "Venkatayapalem",
+              "sy_no": "189/A",
+              "total_area_ac": 0.2,
+              "purchase_date": "2008-10-25",
+              "purchase_cost_per_acre_rupees": 200000,
+              "inherited": true
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 2000000,
+          "spouse_value_rupees": 2000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4000000,
+          "self_details": {
+            "location": "Amalapuram",
+            "rs_no": "417/61",
+            "total_area_sq_yds": 553,
+            "purchase_cost_rupees": 1200000,
+            "inherited": false
+          },
+          "spouse_details": {
+            "location": "Amalapuram",
+            "total_area_sq_yds": 403,
+            "purchase_date": "1996-03-14",
+            "purchase_cost_rupees": 1200000,
+            "inherited": false
+          }
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 10000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 10000000,
+          "spouse_details": [
+            {
+              "d_no": "22-3-22/A6",
+              "location": "Main Raod,Ramachandrapuram",
+              "total_area_sq_yds": 1558,
+              "purchase_date": "2002-01-25",
+              "purchase_cost_rupees": 861000,
+              "development_cost_rupees": 5000000,
+              "inherited": false
+            },
+            {
+              "location": "Warehousing Corporation Godown At Chodavaram",
+              "total_area_ac": 1.5,
+              "purchase_date": "2001-01-01",
+              "purchase_cost_rupees": 5000,
+              "development_cost_rupees": 3000000,
+              "inherited": false
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": {
+            "name": "Terraced Building",
+            "location": "Venkatayapalem",
+            "d_no": "1-227",
+            "built_up_area_sq_yds": 500,
+            "inherited": true
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 3791564,
+      "grand_total_of_liabilities_spouse_rupees": 1399862,
+      "grand_total_of_liabilities_dependent1_rupees": 1230180,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 6421606,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 5000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 2891564,
+          "spouse_value_rupees": 1399862,
+          "dependent1_value_rupees": 1230180,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 5521606,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "RCPur",
+              "loan_type": "Housing Loan",
+              "account_no": "3022761xxxxx",
+              "amount_rupees": 986630
+            },
+            {
+              "bank": "SBI",
+              "branch": "Draksharama",
+              "loan_type": "Agd. Term Loan",
+              "account_no": "3023515xxxxx",
+              "amount_rupees": 1121181
+            },
+            {
+              "bank": "PACS",
+              "branch": "Draksharama",
+              "loan_type": "Agrl. Loan",
+              "amount_rupees": 75000
+            },
+            {
+              "bank": "Indian Overseas Bank",
+              "branch": "KKD",
+              "loan_type": "Car Loan Jf. With Son",
+              "account_no": "00310327120xxxxx",
+              "amount_rupees": 608753
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI",
+              "branch": "Draksharama",
+              "loan_type": "Agrl. Term Loan",
+              "account_no": "3037475xxxxx",
+              "amount_rupees": 1324882
+            },
+            {
+              "bank": "PACCS",
+              "branch": "Draksharama",
+              "loan_type": "Agrl. Loan",
+              "amount_rupees": 75000
+            }
+          ],
+          "dependent1_details": [
+            {
+              "bank": "SBI",
+              "branch": "Drakshrama",
+              "loan_type": "Loan",
+              "account_no": "3037473xxxxx",
+              "amount_rupees": 1155180
+            },
+            {
+              "bank": "PACCS",
+              "branch": "Draksharama",
+              "loan_type": "Agrl. Loan",
+              "amount_rupees": 75000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 1000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1000000,
+          "self_details": [
+            {
+              "name": "KJ Srinivas",
+              "amount_rupees": 1000000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Amalapuram Vacant Site Total Area 403 Sq.Yds.",
-        "area_sq_mtr": 337.06,
-        "inherited": "N",
-        "purchase_date": "1996-03-14",
-        "purchase_cost_inr": 1200000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2000000
+    "other_elections": [
+      {
+        "election": "Andhra Pradesh 2024",
+        "declared_assets_rupees": 182562661,
+        "declared_cases": 3
       },
-      "commercial_buildings_inr": 10000000,
-      "residential_buildings": {
-        "description": null,
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": null
+      {
+        "election": "Andhra Pradesh 2019",
+        "declared_assets_rupees": 110989889,
+        "declared_cases": 3
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 2780564,
-      "loans_due_to_individual_entity_inr": 1000000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 3791564
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1399882,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1399882
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+      {
+        "election": "Andhra Pradesh Bye Election",
+        "declared_assets_rupees": 47796794,
+        "declared_cases": 3
+      }
+    ]
   }
 }

@@ -1,156 +1,412 @@
 {
   "candidate_name": "Narendra Singh Yadav",
   "party": "SP",
-  "constituency": "AMRITPUR (FARRUKHABAD)",
-  "father_or_husband_name": "Rajendra Singh",
-  "age": 64,
-  "education": "Post Graduate M.A, L.L.B from Lukhnow University 1974-75",
-  "profession_self": "Agriculture",
-  "profession_spouse": "Principal",
-  "criminal_cases": 0,
-  "assets_total_inr": 47263493,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 122148
-      }
+  "constituency": "AMRITPUR",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Rajendra Singh",
+      "age": 64,
+      "self_profession": "Agriculture",
+      "spouse_profession": "Principal"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2008-2009": 20630
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 47263493,
+      "total_liabilities_in_rupees": 0
     },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011-2012": 509582
-      }
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.A, L.L.B from Lukhnow University 1974-75"
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 122148
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2008 - 2009",
+          "total_income_shown_in_itr_rupees": 20630
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 509582
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 100000,
-      "bank_deposits_inr": 354206,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 20000,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 125000,
-      "other_assets_inr": 106500,
-      "gross_total_value_inr": 705706
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
     },
-    "spouse": {
-      "cash_inr": 170000,
-      "bank_deposits_inr": 558805,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 140000,
-      "lic_other_insurance_inr": 600000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 906482,
-      "jewellery_inr": 1175000,
-      "other_assets_inr": 106500,
-      "gross_total_value_inr": 3656787
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 8000000,
-      "non_agricultural_land": {
-        "description": "Gram Madhopur 2.20 ACRE purchase and rest all area is inherited",
-        "total_area_acre": 15.47,
-        "inherited": "N",
-        "purchase_date": "1998-10-29",
-        "purchase_cost_inr": 630000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 7000000
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 646706,
+      "gross_total_value_spouse_rupees": 3516787,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 4163493,
+      "calculated_total_self_rupees": 746706,
+      "calculated_total_spouse_rupees": 3686787,
+      "calculated_total_dependent1_rupees": 0,
+      "calculated_total_dependent2_rupees": 0,
+      "calculated_total_dependent3_rupees": 0,
+      "calculated_total_rupees": 4433493,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 90000,
+          "dependent1_value_rupees": 80000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 270000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 395206,
+          "spouse_value_rupees": 558805,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 954011
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 20000,
+          "spouse_value_rupees": 140000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 160000
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 600000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 600000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 906482,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 906482
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 125000,
+          "spouse_value_rupees": 1205000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1330000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 106500,
+          "spouse_value_rupees": 106500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 213000
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 353000000,
+      "total_current_market_value_spouse_rupees": 78000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 431000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 80000000,
+          "spouse_value_rupees": 5000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 85000000,
+          "self_details": "Gram Pakhna Khata No- 534, 372, 40 Sitholi Khata No- 337, Khata No- 94, 95, 97 Total Area 17 acre Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "Gram Vasulpur Khata No- 149, Bhaulan Pur Chirapura Khata No- 606, 607, Khata No- 1049 Total Area 4 acre Whether Inherited N Purchase Date 2006-12-05 Purchase Cost 390000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 70000000,
+          "spouse_value_rupees": 3000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 73000000,
+          "self_details": "Gram Madhopur 2.20 ACRE purchase and rest all area is inherited Total Area 15.47 acre Whether Inherited N Purchase Date 1998-10-29 Purchase Cost 630000.00 Development Cost 0.00",
+          "spouse_details": "Gram Madhopur Total Area 3.76 acre Whether Inherited N Purchase Date 1998-10-29 Purchase Cost 180000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 3000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6000000,
+          "self_details": "2 shop in Gram Mohammadabad Total Area 300 sq.ft Whether Inherited N Purchase Date 1973-01-01 Purchase Cost 20000.00 Development Cost 30000.00",
+          "spouse_details": "1 shop in Gram Mohammadabad Total Area 504 sq.ft Whether Inherited N Purchase Date 1996-01-01 Purchase Cost 50000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 100000000,
+          "spouse_value_rupees": 17000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 117000000,
+          "self_details": "Gram Mud Nagar, Gram Mohammadabad & Indira nagar Total Area 8250 sq.ft Built Up Area 8250 sq.ft Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "Farrukhabad, New Basti Total Area 3859 sq.ft Built Up Area 3600 sq.ft Whether Inherited N Purchase Date 1995-10-07 Purchase Cost 150000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 100000000,
+          "spouse_value_rupees": 50000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000000,
+          "self_details": "Yadav Cold Store, 50% share Total Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "Yadav cold Store, 25%share Total Area Whether Inherited N Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "other_elections": [
+      {
+        "election": "Uttar Pradesh 2022",
+        "declared_assets": 113764694,
+        "declared_cases": 1
       },
-      "commercial_buildings_inr": 300000,
-      "residential_buildings": {
-        "description": "Gram Mud Nagar, Gram Mohammadabad & Indira nagar",
-        "total_area_sqft": 8250,
-        "built_up_area_sqft": 8250,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 10000000
-      },
-      "others_inr": 100000000,
-      "total_current_market_value_inr": 125300000
-    },
-    "spouse": {
-      "agricultural_land_inr": 500000,
-      "non_agricultural_land": {
-        "description": "Gram Madhopur",
-        "total_area_acre": 3.76,
-        "inherited": "N",
-        "purchase_date": "1998-10-29",
-        "purchase_cost_inr": 180000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 300000
-      },
-      "commercial_buildings_inr": 300000,
-      "residential_buildings": {
-        "description": "Farrukhabad, New Basti",
-        "total_area_sqft": 3859,
-        "built_up_area_sqft": 3600,
-        "inherited": "N",
-        "purchase_date": "1995-10-07",
-        "purchase_cost_inr": 150000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1700000
-      },
-      "others_inr": 50000000,
-      "total_current_market_value_inr": 52800000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election": "Uttar Pradesh 2017",
+        "declared_assets": 68236987,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

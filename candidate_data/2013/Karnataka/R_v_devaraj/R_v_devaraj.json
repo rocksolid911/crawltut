@@ -2,120 +2,483 @@
   "candidate_name": "R.V.DEVARAJ",
   "party": "INC",
   "constituency": "CHICKPET",
-  "father_or_husband_name": "Late RV Venkateshappa",
-  "age": 55,
-  "education": "Graduate B.A FROM GURU GHASIDAS UNIVERSITY, BILASPUR (C.G), 2007",
-  "profession_self": "Business",
-  "profession_spouse": "Housewife",
-  "criminal_cases": 0,
-  "assets_total_inr": 320838000,
-  "liabilities_total_inr": 75677342,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 10853702
+  "state": "Karnataka",
+  "election_year": 2013,
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late RV Venkateshappa",
+      "age": 55,
+      "voter_enrolled_in": {
+        "constituency": "Chickpet",
+        "state": "Karnataka",
+        "serial_no": 446,
+        "part_no": 38
+      },
+      "self_profession": "Business",
+      "spouse_profession": "Housewife"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 320838000,
+      "total_liabilities_in_rupees": 75677342
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "B.A FROM GURU GHASIDAS UNIVERSITY, BILASPUR (C.G), 2007"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 10853702
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2012 - 2013",
+          "total_income_shown_in_itr_rupees": 1129167
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 25320388,
+      "gross_total_value_spouse_rupees": 35305921,
+      "gross_total_value_dependent1_rupees": 40000,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 60666309,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 289388,
+          "spouse_value_rupees": 1426241,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1715629,
+          "self_details": "2,89,388",
+          "spouse_details": "14,26,241"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 6445000,
+          "spouse_value_rupees": 30680,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6475680,
+          "self_details": "Savings Account in Bank of India 38,21,000; Savings Account in Andhra Bank 26,24,000",
+          "spouse_details": "Savings Bank Account with Bank of India 11,140; Savings Bank Account with Corporation Bank 19,540"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 200000,
+          "self_details": "Equity Shares in DRV Business solutions 1,00,000",
+          "spouse_details": "Equity Shares in DRV Business Solutions 1,00,000"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 120000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 120000,
+          "self_details": "Nil",
+          "spouse_details": "LIC Policy 1,20,000"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 3357000,
+          "spouse_value_rupees": 13405000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16762000,
+          "self_details": "D.R.V Business Solutions 5,50,000; Smt R.V Mamatharaj 12,07,000; Sri Muniraju 5,00,000; Sri Ramesh 5,00,000; Pai Viceroy 10,00,000",
+          "spouse_details": "Sri Mahesh Chandra 15,00,000; Sri Appaji Gowda 3,00,000; M/s Abhilash Constructions 5,00,000; Sri Shekhar 20,00,000; Sri Arvind Sriram 20,000; Sri Kumar 10,75,000; Sri Shekhar 10,00,000; Smt Sridevi 15,00,000; Jiddu Krishnamurthy 2,00,000; Sri Devraj 5,00,000; Sri Sunil Nagaraj 3,00,000; Sri Raghvendra 36,60,000; Sri Aldvin 4,50,000"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 7000000,
+          "spouse_value_rupees": 7762000,
+          "dependent1_value_rupees": 20000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 14782000,
+          "self_details": "BMW X6-KA-01 AB-2565, Make 2011 70,00,000",
+          "spouse_details": "Toyota Fortuner- KA51MA5259, Make Series 31,12,000; BMW 3 Series-KA51 MC 6219, Make 2012, 31,81,000; Kawasaki Intruder- KA05 HP4545, Make 2011 14,69,000",
+          "dependent1_details": "Honda Activa KA01 EB 455, Make 2006 20,000"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 4516000,
+          "spouse_value_rupees": 3281000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7797000,
+          "self_details": "Gold Ornaments 2012.98 Grms 45,16,000",
+          "spouse_details": "Gold ornaments received in marriage in 1981-81 as Stridhan 21,53,000; 328.42 grams Gold 11,28,000"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 3230000,
+          "spouse_value_rupees": 9550000,
+          "dependent1_value_rupees": 20000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12814000,
+          "self_details": "Investments in Associates Raaj Residency 5,15,000; RVTV Residency 26,64,000; Mookambika Finance 34,000",
+          "spouse_details": "Investments in Associates Raaj Residency 68,83,000; RVTV Residency 26,64,000; Mookambika Finance 34,000",
+          "dependent1_details": "Investments in Associates Raaj Residency 20,000"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 216202388,
+      "total_current_market_value_spouse_rupees": 43989563,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 260191951,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 50610000,
+          "spouse_value_rupees": 29304000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 105065000,
+          "self_details": "No 563/1, Anekal Taluka Total Area 1.22 acres 31,00,000; Anekal Total Area 1.28 Acres 51,00,000; 163/2, 175/1 Somanahalli Total Area 3.36 Acres 1,56,00,000; 4/1 Anekal Total Area 0.31 Acres 15,50,000; Attibele Total Area 0.20 Acres 32,50,000; Kammasandra Total Area 1.09.16 55,30,500; Cholamaranahalli Total Area 4.38 Acres 24,75,000; 3/2, 564/1, Anekal Total Area 1.01 Acres 20,00,500; Chikkahagade, Anekal Taluka Total Area 0.25 Acres 25,00,000; 32/4, 32/5 and 33/4, 33/5 Channapatna Taluk Total Area 3.20 Acres 63,00,000; 3/1 203/2, 203/3 & 203/4, 204 Total Area 3.20 Acres 1,40,00,000; No 264/1, 265, 564/1 Total Area 0.39.6 19,80,000; No. 85/p14, B.M Kavel Total Area 2.10 Acres 1,23,75,000",
+          "spouse_details": "No. 158, 205 & Channapatna Kukkur Village Total Area 44.1 Acres 1,76,04,000; No 563/2 & 564/1 Total Area 2.27 53,50,000; No. 564/2 & 564/3 Total Area 3.07 63,50,000"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 89896436,
+          "spouse_value_rupees": 3360000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 89896436,
+          "self_details": "No 19, Doddakalasandra Total Area 4095 Sq ft 53,23,500; No 12, Kodigehalli Total Area 1845 Sq Ft 25,86,094; No 2, Thayappa Layout Total Area 840 Sq ft 23,52,000; Plt No 49/1, Journal Colony, JC Road Cross Total Area 1572 Sq Ft 44,01,600; No/7, Journal Colony, JC Road Cross Total Area 2212 Sq Ft 61,93,600; No 11, Kodigehalli Total Area 1260 Sq Ft 13,91,642; 11, 12 13 at Chennenahalli Total Area 15585 Sq Ft 78,00,000; No 14 at Chenneahalli Total Area 6640 30,00,000; 15 & 16 at Chennenahalli Total Area 9540 Sq Ft 43,10,000; 18 at Chennenahalli Total Area 4770 Sq ft 21,60,000; 21 and 22 at Chennenahalli Total Area 11440 Sq Ft 56,63,000; 23 at Chennenahalli Total Area 4720 Sq ft 21,60,000; 24 and 25 at Chennenahalli Total Area 11120 Sq Ft 31,68,000; 27 at Chennenahalli Total Area 6120 sq ft 30,50,000; 61 and 62 at Chennenahalli Total Area 12000 Sq Ft 54,22,000; 15B Amrutahalli Village Total Area 6120 Sq Ft 1,04,04,000; 2-19 Vaderahalli Total Area 11016 Sq ft 54,90,000; 3-19 at Vaderahalli Total Area 13176 Sq Ft 54,90,000; 1-19 at Vaderahalli Total Area 7638 Sq Ft 38,19,000; Thayappa layout Total Area 840 sq ft 23,52,000",
+          "spouse_details": "Property at No 1, Thayappa Layout Total Area 1200 Sq ft 33,60,000"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 29998011,
+          "spouse_value_rupees": 1034513,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 29998011,
+          "self_details": "Property at No.24, MTB Road Total Area 2000 Sq Ft 53,46,000; Property at No 6, Thayappa Layout Total Area 2800 Sq ft 83,16,000; Property No at 47/1 MTB road Total Area 1227.2 in Sq ft 32,80,306; Property at No 11 & 12, Sriivasnagar Total Area 2769 1,09,86,679; Total Area 10,34,513",
+          "spouse_details": "Total Area 10,34,513"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 174411454,
+          "spouse_value_rupees": 102911050,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 27732504,
+          "self_details": "NO 52 Kote, 'C'Street, bangalore  Total Area 1032 sq ft 33,71,544; No 13 at Kodigehalli Total Area 1189 Sq ft 20,33,710; No 18, Vijaynagar Total Area 3147.6 Sq ft 1,20,36,200",
+          "spouse_details": "No 13 at 18 Vijaynagar Total Area 720 Sq ft 23,52,240; Property at NO 50 and 51 Kote C Street Total Area 2430 Sq ft 79,38,810"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 7500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7500000,
+          "self_details": "SRI. S. LOKESH 10,00,000; SMT. SUNITHA 10,00,000; SMT. SAVITHRAMMA 10,00,000; SMT. K.S. GEETHA 10,00,000; SRI. D.M. NAGARAJ 10,00,000; SHRI. T.N. RAMESH 25,00,000",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 53506250,
+      "grand_total_of_liabilities_spouse_rupees": 22171092,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 75677342,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 6700000,
+        "spouse_amount_rupees": 2200000,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 8900000,
+        "details": [
+          {
+            "relation_type": "self",
+            "amount_rupees": 6700000,
+            "authority": "ITAT"
+          },
+          {
+            "relation_type": "spouse",
+            "amount_rupees": 2200000,
+            "authority": "CIT (Appeals)"
+          }
+        ]
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 3522000,
+          "spouse_value_rupees": 6311000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 9833000,
+          "self_details": "Bank of India, V.V Puram Branch car loan 35,22,000",
+          "spouse_details": "Bank of India, VV Puram Branch Car Loan 9,66,000; Corporation Bank, Chamrajpet Branch House Loan 25,21,000; Corporation Bank Chamrajpet Branch Car Loan 10,24,000; Karnataka Bank, Chamrajpet Branch- Gold Loan 18,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 49984250,
+          "spouse_value_rupees": 15860000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 56944342,
+          "self_details": "Shri Chalapati Roa 25,00,000; Other Sundry Creditors 9,73,040; Naveen Chandra K Shah 2,00,000; Swarna Latha Enterprises 1,75,000; Lachman Das Dabla 6,00,000; Skytop Builders 25,00,000; BS Sekar Babu Kote 7,50,000; Rukamma 7,50,000; Raaj Residency 1,05,33,163; Govinda Raju 45,95,127; C Krishnappa 1,50,000; Johnson Motors 2,00,000; Sri Raghvendra-Land Advance 30,00,000; Chandrashekhar 45,00,000; M/S Mookambika promoters 8,00,000; Advances from Subba Reddy 70,00,000; M/S Chamundeshwari Builders ad Developers 10,57,920; Mr Sheshadri 30,00,000",
+          "spouse_details": "Sundry Creditors 5,63,592; R.V Devraj 33,91,150; RV Devraj (Income Tax) 13,85,350; S.V Chalapathi Rao 10,00,000; Smt Leelavathi 7,00,000; Rental Deposit 2,00,000; Mysore Aunty 2,30,000; N. Daddy 14,00,000; N. Madanpalli 5,00,000; Dhana 24,50,000; Babu 1,00,000; Dr Sunil 10,00,000; Leela 2,00,000; Raaj Residency 1,40,000; Madhu 4,00,000"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "other_election_details": [
+      {
+        "election_name": "Karnataka 2023",
+        "declared_assets_rupees": 978556522,
+        "declared_cases": 0
+      },
+      {
+        "election_name": "Karnataka 2018",
+        "declared_assets_rupees": 812684407,
+        "declared_cases": 0
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2012-2013": 1129167
-      }
-    },
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 289388,
-      "bank_deposits_inr": 6445000,
-      "bonds_debentures_shares_inr": 100000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 37570000,
-      "motor_vehicles_inr": 7000000,
-      "jewellery_inr": 4516000,
-      "other_assets_inr": 2779000,
-      "gross_total_value_inr": 54483388
-    },
-    "spouse": {
-      "cash_inr": 1426241,
-      "bank_deposits_inr": 30680,
-      "bonds_debentures_shares_inr": 100000,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 120000,
-      "personal_loans_advance_given_inr": 73200000,
-      "motor_vehicles_inr": 7762000,
-      "jewellery_inr": 32810000,
-      "other_assets_inr": 95470000,
-      "gross_total_value_inr": 210886921
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 50000000,
-      "non_agricultural_land_inr": 46800000,
-      "commercial_buildings_inr": 25963679,
-      "residential_buildings_inr": 17441454,
-      "others_inr": 7500000,
-      "total_current_market_value_inr": 147705133
-    },
-    "spouse": {
-      "agricultural_land_inr": 29304000,
-      "non_agricultural_land_inr": 3360000,
-      "commercial_buildings_inr": 1034513,
-      "residential_buildings_inr": 10291050,
-      "others_inr": 0,
-      "total_current_market_value_inr": 44000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3522000,
-      "loans_due_to_individual_entity_inr": 34969242,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 38491242
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 6311000,
-      "loans_due_to_individual_entity_inr": 7920000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 14231000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 8900000
-  },
-  "sources_of_income": {},
-  "contracts": {}
+    ]
+  }
 }

@@ -1,159 +1,743 @@
 {
   "candidate_name": "HARI SINGH RAGHUWANSHI (BADDA)",
   "party": "BJP",
-  "constituency": "BASODA (VIDISHA)",
-  "father_or_husband_name": "Udaybhan Singh Raghuwanshi",
-  "age": 65,
-  "education": "Graduate, Graduate From Bhopal University, Bhopal L.B.S. University Ganjabasauda Graduate ( Art Department) Year 1983",
-  "profession_self": "Agriculture and MLA Pension and Buliding Rent",
-  "profession_spouse": "Agriculture",
-  "criminal_cases": 0,
-  "assets_total_inr": 84308630,
-  "liabilities_total_inr": 440168,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 497940,
-        "2022-2023": 496330,
-        "2021-2022": 585160,
-        "2020-2021": 484090,
-        "2019-2020": 425267
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 39200,
-      "bank_deposits_inr": 4279327,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 200000,
-      "other_assets_inr": 170000,
-      "gross_total_value_inr": 4693627
-    },
-    "spouse": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 45002,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1050000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1115002
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 30000000,
-      "non_agricultural_land": {
-        "description": "Kasba Kurbai Survey No. 1525/2, 1526/2",
-        "area_sq_mtr": 8400,
-        "inherited": "N",
-        "purchase_date": "2000-02-11",
-        "purchase_cost_inr": 260000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 30000000
+  "constituency": "BASODA",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Udaybhan Singh Raghuwanshi",
+      "age": 65,
+      "voter_enrolled_in": {
+        "constituency": "145 Basoda (Madhya Pradesh)",
+        "serial_no": 71,
+        "part_no": 27
       },
-      "commercial_buildings_inr": 40000000,
-      "residential_buildings": {
-        "description": "Flat Riviyera Town Phase-1 Housing Board Colony Kotara Sultanabad Bhopal Flat No. 27 Gram Kherooaa (Haripur) Tahseel-Basida No. 80/3",
-        "total_area_sqft": 5031,
-        "built_up_area_sqft": 3931,
-        "inherited": "N",
-        "purchase_date": "2007-12-28",
-        "purchase_cost_inr": 2310000,
-        "development_cost_inr": 1200000,
-        "current_market_value_inr": 150000000
+      "self_profession": "Agriculture and MLA Pension and Buliding Rent",
+      "spouse_profession": "Agriculture"
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 84308630,
+      "total_liabilities_in_rupees": 440168
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Graduate From Bhopal University, Bhopal L.B.S. University Ganjabasauda Graduate ( Art Department) Year 1983"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2023 - 2024",
+          "total_income_shown_in_itr_rupees": 497940
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 496330
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 585160
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 484090
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 425267
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 4693628,
+      "gross_total_value_spouse_rupees": 1115002,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5808630,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 39200,
+          "spouse_value_rupees": 20000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 59200,
+          "self_details": {
+            "amount_rupees": 39200
+          },
+          "spouse_details": {
+            "amount_rupees": 20000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 4161567,
+          "spouse_value_rupees": 45002,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4329429,
+          "self_details": [
+            {
+              "bank": "PNB",
+              "branch": "Basoda",
+              "account_no": "068000010015xxxxx",
+              "amount_rupees": 4161567
+            },
+            {
+              "bank": "SBI",
+              "branch": "Basoda",
+              "account_no": "6302223xxxxx",
+              "amount_rupees": 5226
+            },
+            {
+              "bank": "DCCB",
+              "branch": "Basoda",
+              "account_no": "17500697xxxxx",
+              "amount_rupees": 2057
+            },
+            {
+              "bank": "PNB",
+              "branch": "Basoda",
+              "account_no": "068000880001xxxxx",
+              "amount_rupees": 65577
+            },
+            {
+              "bank": "AU Small Finance Bank",
+              "branch": "Basoda",
+              "account_no": "230123025187xxxxx",
+              "amount_rupees": 50000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "PNB Bank",
+              "branch": "Basoda",
+              "account_no": "068000010017xxxxx",
+              "amount_rupees": 45002
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 200000,
+          "spouse_value_rupees": 1000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1420000,
+          "self_details": [
+            {
+              "item": "Gold",
+              "weight_tola": 4,
+              "value_rupees": 200000
+            },
+            {
+              "item": "Raifal 315 Bor Licenses",
+              "details": "160/99/DM/VI DISHA",
+              "value_rupees": 80000
+            },
+            {
+              "item": "Rivolvar 32 Bor License",
+              "details": "89/07/DM/VIDISHA",
+              "value_rupees": 90000
+            }
+          ],
+          "spouse_details": [
+            {
+              "item": "Gold",
+              "weight_tola": 20,
+              "value_rupees": 1000000
+            },
+            {
+              "item": "Silver",
+              "weight_kg": 1,
+              "value_rupees": 50000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 52000000,
+      "total_current_market_value_spouse_rupees": 26500000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 78500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 30000000,
+          "spouse_value_rupees": 10000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 56500000,
+          "self_details": [
+            {
+              "village": "Kherua (Haripur)",
+              "tahsil": "Ganjbasauda",
+              "ak_no": "30/1, 32/1, 32/2, 32/3, 32/4, 32/5, 32/6, 32/7, 33, 41, 42, 48/1, 49/1, 57/1, 65/3/2, 66/2, 68, 69, 70, 18/1/1 Full Rakava and 8/2, 8/3, 11, 12, 28, 31, 44, 65/2, 80/3, 24/2, 25 1/2 share Inherited Property A.No. 18/1/1, 24/2, 25 self earned rest of inherited",
+              "total_area_he": 16.355,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 30000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "village": "Ravaryai",
+              "tahsil": "Basoda",
+              "ak_no": "25",
+              "total_area_he": 3.041,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2003-04-24",
+              "purchase_cost_rupees": 369000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            },
+            {
+              "village": "Parsora",
+              "tahsil": "Basoda",
+              "ak_no": "2, 9/2, 10",
+              "total_area_he": 3.031,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-10-21",
+              "purchase_cost_rupees": 1733700,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6000000
+            },
+            {
+              "village": "Vehlot",
+              "ak_no": "160/2, 161/2, 172, 173, Rakava 2.011 he share 1/3",
+              "total_area_he": 0.67,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2022-05-27",
+              "purchase_cost_rupees": 2300000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3000000
+            },
+            {
+              "village": "Hatoda",
+              "tahsil": "Basoda",
+              "ak_no": "232/1/4, 417/1/2, 420/1/1/8",
+              "total_area_he": 0.313,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7500000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": [
+            {
+              "kasba": "Kurbai",
+              "survey_no": "1525/2, 1526/2",
+              "total_area_sqft": 8400,
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2000-02-11",
+              "purchase_cost_rupees": 260000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 4000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4000000,
+          "self_details": [
+            {
+              "kasba": "Basoda (Vehlot)",
+              "ward_no": "07",
+              "house_no": "1764 RJ No. 10/1",
+              "total_area_sqft": 3061,
+              "built_up_area_sqft": 3061,
+              "inherited": false,
+              "purchase_date": "2002-03-27",
+              "purchase_cost_rupees": 153000,
+              "development_cost_rupees": 300000,
+              "current_value_rupees": 4000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 10000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15000000,
+          "self_details": [
+            {
+              "type": "Flat",
+              "name": "Riviyera Town Phase-1 Housing Board Colony Kotara Sultanabad Bhopal",
+              "flat_no": "27",
+              "total_area_sq_ft": 1431,
+              "built_up_area_sq_ft": 1431,
+              "inherited": false,
+              "purchase_date": "2007-12-28",
+              "purchase_cost_rupees": 2310000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            },
+            {
+              "village": "Kherooaa (Haripur)",
+              "tahseel": "Basida",
+              "no": "80/3",
+              "total_area_sq_ft": 3600,
+              "built_up_area_sq_ft": 2500,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 1200000,
+              "current_value_rupees": 5000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 440168,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 440168,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 520000000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 440168,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 440168,
+          "self_details": [
+            {
+              "bank": "Punjab National Bank",
+              "branch": "Basauda",
+              "loan_type": "K.C.C. Loan",
+              "amount_rupees": 0,
+              "status": "No Balance"
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "Punjab National Bank",
+              "branch": "Basauda",
+              "loan_type": "K.C. C. Loan",
+              "amount_rupees": 440168,
+              "status": "Balance amount"
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 265000000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": null,
-      "residential_buildings": null,
-      "others_inr": null,
-      "total_current_market_value_inr": 265000000
+    "profession_or_occupation": {
+      "self": "Agriculture and MLA Pension and Buliding Rent",
+      "spouse": "Agriculture"
+    },
+    "sources_of_income": {
+      "self": "Income from Agriculture , MLA Pension and Building Rent",
+      "spouse": "Income from Agriculture",
+      "dependent": "NA"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "NA",
+      "spouse": "NA",
+      "dependent": "NA",
+      "huf_or_trust": "NA",
+      "partnership_firms": "NA",
+      "private_companies": "NA"
     }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 440168,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 440168
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Income from Agriculture , MLA Pension and Building Rent",
-    "spouse": "Income from Agriculture",
-    "dependent": "NA"
-  },
-  "contracts": {
-    "entered_by_candidate": "NA",
-    "entered_by_spouse": "NA",
-    "entered_by_dependent": "NA",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
   }
 }

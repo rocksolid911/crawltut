@@ -34,7 +34,8 @@ if __name__ == "__main__":
     # asyncio.run(run_crawler_for_years(years_to_process))
     # extract_candidate_tables_to_csv()
     #  candidate_link_crawler(year=2024,winners_only=False)
-     process_all_years()
+    # Process all years sequentially for mp candidate links (main one for mp)
+    #process_all_years()
     # years_to_process = [2019, 2014, 2009, 2004]
     #
     # # Process each year sequentially
@@ -82,7 +83,13 @@ if __name__ == "__main__":
     # extract_all_winners_links()
 
     # extract_all_candidate_urls()
-    #asyncio.run(process_candidate_data())
+
+    #methods for extracting candidate data for mla elections (main one for mla)
+
+
+
+    asyncio.run(process_candidate_data(force_regenerate_json=True, skip_if_force_regenerated=True))
+
     # below is a test function to extract candidate images from links
     # asyncio.run(get_candidate_image_from_link())
     # asyncio.run(extract_and_download_profile_images())

@@ -1,147 +1,787 @@
 {
   "candidate_name": "HAR GOVIND BHARGAV",
   "party": "BSP",
-  "constituency": "SIDHAULI (SC) (SITAPUR)",
-  "father_or_husband_name": "Ramdulare",
-  "age": 42,
-  "education": "Doctorate Phd (Economics) in 2006 from CSA Kanpur, MBA in 2010 from Punjab Technical University Jalandhar",
-  "profession_self": "Assistant Professor & Ex-MLA",
-  "profession_spouse": "Social Work & Business Brick",
-  "criminal_cases": 1,
-  "assets_total_inr": 75947726,
-  "liabilities_total_inr": 7905410,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 633159
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015-2016": 358712
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 48000,
-      "bank_deposits_inr": 2185696,
-      "bonds_debentures_shares_inr": 78886,
-      "nss_postal_savings_inr": 30100,
-      "lic_other_insurance_inr": 396514,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1296000,
-      "jewellery_inr": 450000,
-      "other_assets_inr": 270000,
-      "gross_total_value_inr": 4778810
-    },
-    "spouse": {
-      "cash_inr": 30000,
-      "bank_deposits_inr": 7531,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 70365,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 410000,
-      "jewellery_inr": 591000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1108896
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 8066000,
-      "non_agricultural_land": {
-        "description": "Village Sarwa Jalalpur Sidholi Non farming Total Area 124375 Sq.ft.; Awantiv Plot No 44 Madhuwan Bapurdham Gaziabad  Total Area 3228 Sq.ft.",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 4594000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 27500000
+  "constituency": "SIDHAULI (SC)",
+  "state": "Uttar Pradesh 2017",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Ramdulare",
+      "age": 42,
+      "voter_enrolled_in": {
+        "constituency": "152-Sidhauli",
+        "state": "Uttar Pradesh",
+        "serial_no": 669,
+        "part_no": 87
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Village Singhpur G.T. Road  Total Area 2000 Sq.ft. Built Up Area 21000 Sq.ft.; H.No 9/313 Jankipuram Vistar Lucknow  Total Area 2152 Sq.ft. Built Up Area 2152 Sq.ft.",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 3900000,
-        "development_cost_inr": 2165000,
-        "current_market_value_inr": 15760000
+      "self_profession": "Assistant Professor & Ex-MLA",
+      "spouse_profession": "Social Work & Business Brick"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 75947726,
+      "total_liabilities_in_rupees": 7905410
+    },
+    "educational_details": {
+      "category": "Doctorate",
+      "details": "Phd (Economics) in 2006 from CSA Kanpur, MBA in 2010 from Punjab Technical University Jalandhar"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 633159
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 358712
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": null,
+          "case_no": "327/2013",
+          "court": "CJM Sitapur",
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": "Sec 127A R.P.Act, NCR No.10/12, P.S. Rampurkala, Case Adjourned By Allahabad High Court Lucknow, Petition No 5983/2013, Order Dt 26.11.2013",
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 4778810,
+      "gross_total_value_spouse_rupees": 1108896,
+      "gross_total_value_huf_rupees": null,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 5887706,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 48000,
+          "spouse_value_rupees": 30000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 78000,
+          "self_details": {
+            "amount_rupees": 48000
+          },
+          "spouse_details": {
+            "amount_rupees": 30000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2216841,
+          "spouse_value_rupees": 77531,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2294372,
+          "self_details": [
+            {
+              "bank": "SBI Mitauli Khurd Lucknow",
+              "amount_rupees": 99864
+            },
+            {
+              "bank": "PNB Janakipur Lucknow",
+              "amount_rupees": 6746
+            },
+            {
+              "bank": "Syndicate Bank Kamla Neharu Road Allahabad",
+              "amount_rupees": 10000
+            },
+            {
+              "bank": "OBC Sidholi",
+              "amount_rupees": 494715
+            },
+            {
+              "bank": "OBI Lucknow",
+              "amount_rupees": 10916
+            },
+            {
+              "bank": "Canara Bank Balaganj Lucknow",
+              "amount_rupees": 1587069
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI Mitholi Khurd No 2015149xxxxx",
+              "amount_rupees": 3500
+            },
+            {
+              "bank": "OBI No 1288219100xxxxx Br. Mugalsarai",
+              "amount_rupees": 4031
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 78886,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 78886,
+          "self_details": [
+            {
+              "name": "Share J.P. Associate",
+              "units": 710,
+              "amount_rupees": 14356
+            },
+            {
+              "name": "N.H.P.C. Ltd.",
+              "units": 523,
+              "amount_rupees": 15428
+            },
+            {
+              "name": "Reliance Industries",
+              "units": 12,
+              "amount_rupees": 12301
+            },
+            {
+              "name": "Reliance",
+              "units": 827,
+              "amount_rupees": 36801
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 30100,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30100,
+          "self_details": "NSC  30100",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 396514,
+          "spouse_value_rupees": 70365,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 466879,
+          "self_details": [
+            {
+              "company": "LIC",
+              "amount_rupees": 300000
+            },
+            {
+              "company": "LIC",
+              "amount_rupees": 26514
+            },
+            {
+              "company": "LILC",
+              "amount_rupees": 70000
+            }
+          ],
+          "spouse_details": "lic 70365"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1296000,
+          "spouse_value_rupees": 410000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1706000,
+          "self_details": [
+            {
+              "make": "Tata Safari",
+              "year": 2016,
+              "registration_no": "UP37GY8182",
+              "value_rupees": 1100000
+            },
+            {
+              "make": "Maruti 800",
+              "year": 200,
+              "registration_no": "UP32CQ7130",
+              "value_rupees": 196000
+            }
+          ],
+          "spouse_details": {
+            "make": "Tata Indigo",
+            "year": 2009,
+            "registration_no": "UP32CV1200",
+            "value_rupees": 410000
+          }
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 450000,
+          "spouse_value_rupees": 591000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1041000,
+          "self_details": [
+            {
+              "item": "Jewellery Ring & Chain",
+              "weight_gm": 60,
+              "value_rupees": 160000
+            },
+            {
+              "item": "Bliyan Gold Coin",
+              "weight_gm": 100,
+              "value_rupees": 290000
+            }
+          ],
+          "spouse_details": [
+            {
+              "item": "Jewellery Gold",
+              "weight_gm": 150,
+              "value_rupees": 425000
+            },
+            {
+              "item": "2 Jewelry Silver",
+              "weight_kg": 1,
+              "weight_gm": 250,
+              "value_rupees": 41000
+            },
+            {
+              "item": "Buliuan Gold",
+              "weight_gm": 50,
+              "value_rupees": 125000
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 270000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 270000,
+          "self_details": [
+            {
+              "item": "1 Rifle",
+              "bore": 202,
+              "value_rupees": 100000
+            },
+            {
+              "item": "1 Pistol",
+              "bore": 32,
+              "value_rupees": 110000
+            },
+            {
+              "item": "1 Gun Donali",
+              "bore": 12,
+              "value_rupees": 60000
+            }
+          ],
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 51326000,
+      "total_current_market_value_spouse_rupees": 18734000,
+      "total_current_market_value_huf_rupees": null,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 70060000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 8066000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8066000,
+          "self_details": [
+            {
+              "location": "Vilage Makhuwapur Sitapur",
+              "gata_no": "869, 559, 560",
+              "total_area": "2.72 Acrs",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2007-07-20",
+              "purchase_cost_rupees": 3100000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3264000
+            },
+            {
+              "location": "Village Daudpur Sidholi",
+              "gata_no": "251",
+              "total_area": "0.69 Acrs",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-02-06",
+              "purchase_cost_rupees": 300000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2169000
+            },
+            {
+              "location": "Village Sarwajalalpur",
+              "gata_no": "584",
+              "total_area": "1.51 Acrs",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-04-21",
+              "purchase_cost_rupees": 350000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1288000
+            },
+            {
+              "location": "Village Bahadurpur Sidholi",
+              "gata_no": "86",
+              "total_area": "0.19 Ac rs",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-11-15",
+              "purchase_cost_rupees": 200000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1345000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 27500000,
+          "spouse_value_rupees": 18734000,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 46234000,
+          "self_details": [
+            {
+              "location": "Village Sarwa Jalalpur Sidholi Non farming",
+              "total_area": "124375 Sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-07-28",
+              "purchase_cost_rupees": 700000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 17500000
+            },
+            {
+              "location": "Awantiv Plot No 44 Madhuwan Bapurdham Gaziabad",
+              "total_area": "3228 Sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2010-08-05",
+              "purchase_cost_rupees": 3894000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Village Sarwa Jalalpur Sidholi Not Farming",
+              "gata_no": "225",
+              "total_area": "105233 Sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-07-28",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 875000,
+              "current_value_rupees": 14181000
+            },
+            {
+              "location": "Village Sarwa Jalalpur Sidholi Not Farming",
+              "gata_no": "199",
+              "total_area": "33796 Sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2009-07-28",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4553000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 15760000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 15760000,
+          "self_details": [
+            {
+              "location": "Village Singhpur G.T. Road",
+              "total_area": "2000 Sq.ft.",
+              "built_up_area": "21000 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2010-04-26",
+              "purchase_cost_rupees": 700000,
+              "development_cost_rupees": 665000,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "H.No 9/313 Jankipuram Vistar Lucknow",
+              "total_area": "2152 Sq.ft.",
+              "built_up_area": "2152 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "2010-09-08",
+              "purchase_cost_rupees": 3200000,
+              "development_cost_rupees": 1500000,
+              "current_value_rupees": 10760000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 6985095,
+      "grand_total_of_liabilities_spouse_rupees": 920315,
+      "grand_total_of_liabilities_huf_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 7905410,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": null,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 51326000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 3285095,
+          "spouse_value_rupees": 920315,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4205410,
+          "self_details": [
+            {
+              "bank": "Canara Bank Balaganj Luckn ow No 238060500xxxxx",
+              "amount_rupees": 2458445
+            },
+            {
+              "bank": "Canara Bank Balaganj Lucknow No 23806030xxxxx",
+              "loan_type": "Vehicle Loan",
+              "amount_rupees": 826650
+            }
+          ],
+          "spouse_details": {
+            "bank": "OBI Sidholi A/C Non 12884011000120",
+            "loan_type": "Cash Created",
+            "amount_rupees": 920315
+          }
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 3700000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3700000,
+          "self_details": [
+            {
+              "name": "Shri Ram Dulare Bhargwa (Father)",
+              "loan_type": "Unsecured Loan",
+              "amount_rupees": 2900000
+            },
+            {
+              "name": "Shari P.L. Bharw (Baba)",
+              "loan_type": null,
+              "amount_rupees": 500000
+            },
+            {
+              "name": "Ram Prasad (Uncle)",
+              "loan_type": null,
+              "amount_rupees": 300000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": null,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Village Sarwa Jalalpur Sidholi Not Farming Gata No 225  Total Area 105233 Sq.ft.; Village Sarwa Jalalpur Sidholi Not Farming Gata No 199 Total Area 33796 Sq.ft.",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": null,
-        "purchase_cost_inr": 1000000,
-        "development_cost_inr": 875000,
-        "current_market_value_inr": 18734000
+    "other_elections": [
+      {
+        "election": "Uttar Pradesh 2022",
+        "declared_assets_rupees": 79054863,
+        "declared_cases": 2
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 18734000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 3285095,
-      "loans_due_to_individual_entity_inr": 3700000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 6985095
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 920315,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 920315
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election": "Uttar Pradesh 2012",
+        "declared_assets_rupees": 13269053,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

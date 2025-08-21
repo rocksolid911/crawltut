@@ -1,180 +1,821 @@
 {
   "candidate_name": "KULDEEP VATS",
   "party": "INC",
-  "constituency": "BADLI (JHAJJAR)",
-  "father_or_husband_name": "Sat Narayan",
-  "age": 49,
-  "education": "10th Pass Matric from Board of School Education Haryana 1992",
-  "profession_self": "Politician",
-  "profession_spouse": "Business",
-  "criminal_cases": 1,
-  "assets_total_inr": 96030239,
-  "liabilities_total_inr": 13150000,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": 2650670,
-        "2022-2023": 3747100,
-        "2021-2022": 2217690,
-        "2020-2021": 1787040,
-        "2019-2020": 578050
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2023-2024": -267557,
-        "2022-2023": -96609,
-        "2021-2022": 839670,
-        "2020-2021": 530730,
-        "2019-2020": 242500
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 47000,
-      "bank_deposits_inr": 29741402,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 2900000,
-      "jewellery_inr": 360000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 26991481
-    },
-    "spouse": {
-      "cash_inr": 48000,
-      "bank_deposits_inr": 6056921,
-      "bonds_debentures_shares_inr": 728327,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1297246,
-      "personal_loans_advance_given_inr": 7254137,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 1800000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 24438758
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 11800000,
-      "non_agricultural_land": {
-        "description": "Nil",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
+  "constituency": "BADLI",
+  "state": "HARYANA",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sat Narayan",
+      "age": 49,
+      "voter_enrolled_in": {
+        "constituency": "65-Badli",
+        "state": "Haryana",
+        "serial_no": 74,
+        "part_no": 137
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Allotment Flat No. C 3/1203 in Tulip ACE Sector 89 Main Pataudi Road Gurugram (installment of only 17,00,000/- deposited) & VPO Pataudhi, land comprised in Khewat no. 1553, Khewat no. 2181 Khewat no.2182 and in Khewat no. 783 as per jamabandi 2021-2022 of revenue estate Pataudi District Gurugram",
-        "total_area_sqft": 11200,
-        "built_up_area_sqft": 7600,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 4000000,
-        "current_market_value_inr": 11700000
+      "self_profession": "Politician",
+      "spouse_profession": "Business"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 96030239,
+      "total_liabilities_in_rupees": 13150000
+    },
+    "educational_details": {
+      "category": "10th Pass",
+      "details": "Matric from Board of School Education Haryana 1992"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2023 - 2024",
+          "total_income_shown_in_itr_rupees": 2650670
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": 3747100
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 2217690
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 1787040
+        },
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 578050
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2023 - 2024",
+          "total_income_shown_in_itr_rupees": -267557
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2022 - 2023",
+          "total_income_shown_in_itr_rupees": -96609
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2021 - 2022",
+          "total_income_shown_in_itr_rupees": 839670
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2020 - 2021",
+          "total_income_shown_in_itr_rupees": 530730
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2019 - 2020",
+          "total_income_shown_in_itr_rupees": 242500
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for voluntarily causing grievous hurt",
+          "ipc_section": "325",
+          "count": 1
+        },
+        {
+          "charges_related_to": "House-trespass after preparation for hurt, assault or wrongful restraint",
+          "ipc_section": "452",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for criminal intimidation",
+          "ipc_section": "506",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for voluntarily causing hurt",
+          "ipc_section": "323",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "187/2010 P.S. Bilaspur Dist. Gurugram",
+          "case_no": "CHI/518/2017",
+          "court": "JMIC Pataudi",
+          "ipc_sections_applicable": "147, 148, 323, 149, 325, 452, 506",
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": "Only Petition U/s 482 Crpc was filed."
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 26991481,
+      "gross_total_value_spouse_rupees": 24438758,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 51430239,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 47000,
+          "spouse_value_rupees": 48000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 95000,
+          "self_details": {
+            "amount_rupees": 47000
+          },
+          "spouse_details": {
+            "amount_rupees": 48000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 11744985,
+          "spouse_value_rupees": 6056921,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 29741402,
+          "self_details": [
+            {
+              "bank": "HDFC Bank",
+              "branch": "Hally mandi Gurugram",
+              "amount_rupees": 11744985
+            },
+            {
+              "bank": "SHGB",
+              "branch": "Pataudi Gurugram",
+              "amount_rupees": 11938496
+            },
+            {
+              "bank": "Union Bank of India",
+              "branch": "Jhajjar",
+              "amount_rupees": 1000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "HDFC Bank",
+              "branch": "Gurugram",
+              "amount_rupees": 1646889
+            },
+            {
+              "bank": "SHGB Branch",
+              "branch": "Gurugram",
+              "amount_rupees": 4410032
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 728327,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 728327,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "company": "DevkiNandan Waste Management Pvt ltd. Gurugram",
+              "shares": 5000,
+              "amount_rupees": 50000
+            },
+            {
+              "company": "Anubhuti Lifecare and saver private ltd. Gurugram",
+              "shares": 5000,
+              "amount_rupees": 50000
+            },
+            {
+              "company": "Whiz Bang Hospitality India pvt ltd. Gurugram",
+              "shares": 5000,
+              "amount_rupees": 50000
+            },
+            {
+              "company": "Proprietorship Firm Shree Krishna Enterprises Unit Gurugram",
+              "amount_rupees": 578327
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1297246,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1297246,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "company": "HDFC Life",
+              "policy_no": "2303xxxxx",
+              "amount_rupees": 1000000
+            },
+            {
+              "company": "HDFC",
+              "policy_no": "2303xxxxx",
+              "amount_rupees": 250000
+            },
+            {
+              "company": "LIC",
+              "policy_no": "1697xxxxx",
+              "amount_rupees": 47246
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 7254137,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 7254137,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "type": "Loan and Advances",
+              "entity": "Propritertoship firm Shri Krishna Enterprises",
+              "amount_rupees": 7254137
+            }
+          ]
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 2900000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2900000,
+          "self_details": [
+            {
+              "make": "Toyota Corolla",
+              "registration_no": "HR26AM6267",
+              "year": 2007,
+              "amount_rupees": 900000
+            },
+            {
+              "make": "Ford Endeavor",
+              "registration_no": "HR26BR0027",
+              "year": 2022,
+              "amount_rupees": 2000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 360000,
+          "spouse_value_rupees": 1800000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2160000,
+          "self_details": {
+            "type": "Gold Jewellery",
+            "weight_gm": 50,
+            "amount_rupees": 360000
+          },
+          "spouse_details": {
+            "type": "Gold Jewellery",
+            "weight_gm": 250,
+            "amount_rupees": 1800000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 235000000,
+      "total_current_market_value_spouse_rupees": 211000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 446000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 118000000,
+          "spouse_value_rupees": 25000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 143000000,
+          "self_details": [
+            {
+              "type": "Inherited Land",
+              "details": "comprised in Khewat no.80 as per jamabandi 2020-2021 to 1/5 share 8 kanal situated within revenue estate of village Hasanpur",
+              "total_area": "8 kanal",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 110000000
+            },
+            {
+              "type": "Self acquired",
+              "details": "Land comprised in Khewat No. 475 to the extent of 1/33 share i.e. 2 Kanal 6 marla and Khewat No. 486, Khewat No. 488 and Khewat No. 468 to the extent of 1/33 share i.e. less than Marla, situated within revenue estate of village Sureheti as per Jamabandi 2021-2022",
+              "total_area": "10 Kanal 6 Marla",
+              "inherited": false,
+              "purchase_date": "2013-11-21",
+              "purchase_cost_rupees": 3700000,
+              "development_cost_rupees": 6000000,
+              "current_value_rupees": 8000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "type": "Purchased",
+              "details": "Land comprised in Khewat no.80 as per jamabandi 2020-2021 to 23/200 share 4 kanal 12 marla situated within revenue estate of village Hasanpur",
+              "total_area": "4 kanal 12 marla",
+              "inherited": false,
+              "purchase_date": "2017-05-17",
+              "purchase_cost_rupees": 2012500,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 25000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 170000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 170000000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "type": "Purchased",
+              "details": "To the extent of 10/151 share in Khewat No. 2010 of Jamabandi for the year 2021- 2022 i.e. 0 Kanal 10 Marla i.e. 2722 sq. ft. situated within revenue estate Pataudi District Gurugram",
+              "total_area": "2722 sq. ft.",
+              "inherited": false,
+              "purchase_date": "2006-05-26",
+              "purchase_cost_rupees": 455000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 25000000
+            },
+            {
+              "type": "Received from mother",
+              "details": "Land situated Near Hari Mandir lin revenue estate Pataudi and comprised in Khewat No. 2181 to the extent of 12267/197783 share i. e. 12 marla i.e.3267 sq. ft. And in Khewat No. 2182 to the extent of 278033/31582 071 share i.e. 15.15 marla i. e. 4124.58 sq.ft. And in Khewat No. 783 to the extent of 42113/972603 share i.e. 3.85 marla i.e. 1048.16 sq. ft. as per jamabandi for the year 2021- 2022. bl. To the extent of 59/2214 share in Khewat No. 2535 of Jamabandi for the year 2016- 2017 i.e. 1 Kanal marla 9.5 i.e. 8031.3 sq. ft. situated in revenue estate Pataudi District Gurugram",
+              "total_area": "19193 sq.ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 145000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 16000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 16000000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "type": "Shop",
+              "details": "10.66 sq.yds.at Nohta Chowk Pataudi, 65 sq.yds.at Nohta chowk Pataudi",
+              "total_area": "75.66 sq.yds.",
+              "built_up_area": "680 sq.ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 900000,
+              "development_cost_rupees": 100000,
+              "current_value_rupees": 16000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 117000000,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 117000000,
+          "self_details": [
+            {
+              "type": "Allotment Flat",
+              "details": "Flat No. C 3/1203 in Tulip ACE Sector 89 Main Pataudi Road Gurugram (installment of only 17,00,000/- deposited)",
+              "total_area": "2200 sq.ft.",
+              "built_up_area": "2200 sq.ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 17000000
+            },
+            {
+              "type": "Land and Building",
+              "details": "VPO Pataudhi, land comprised in Khewat no. 1553, Khewat no. 2181 Khewat no.2182 and in Khewat no. 783 as per jamabandi 2021-2022 of revenue estate Pataudi District Gurugram",
+              "total_area": "9000 sq.ft.",
+              "built_up_area": "5400 sq.ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 4000000,
+              "current_value_rupees": 100000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 13150000,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 13150000,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 23500000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 13150000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13150000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "type": "Unsecured loan",
+              "entity": "Propritership firm Shri Krishna Enertprise",
+              "amount_rupees": 13150000
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "GST Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 2500000,
-      "non_agricultural_land": {
-        "description": "a. To the extent of 10/151 share in Khewat No. 2010 of Jamabandi for the year 2021- 2022 i.e. 0 Kanal 10 Marla i.e. 2722 sq. ft. situated within revenue estate Pataudi District Gurugram & b. Land situated Near Hari Mandir lin revenue estate Pataudi and comprised in Khewat No. 2181 to the extent of 12267/197783 share i. e. 12 marla i.e.3267 sq. ft. And in Khewat No. 2182 to the extent of 278033/31582 071 share i.e. 15.15 marla i. e. 4124.58 sq.ft. And in Khewat No. 783 to the extent of 42113/972603 share i.e. 3.85 marla i.e. 1048.16 sq. ft. as per jamabandi for the year 2021- 2022. bl. To the extent of 59/2214 share in Khewat No. 2535 of Jamabandi for the year 2016- 2017 i.e. 1 Kanal marla 9.5 i.e. 8031.3 sq. ft. situated in revenue estate Pataudi District Gurugram",
-        "area_sq_mtr": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 17000000
+    "profession_or_occupation": {
+      "self": "Politician",
+      "spouse": "Business"
+    },
+    "sources_of_income": {
+      "self": "Salary",
+      "spouse": "Business",
+      "dependent": "Not Applicable"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Not Applicable",
+      "spouse": "Not Applicable",
+      "dependent": "Not Applicable",
+      "huf_or_trust": "Not Applicable",
+      "partnership_firms": "Not Applicable",
+      "private_companies": "Not Applicable"
+    },
+    "other_election_declarations": [
+      {
+        "election": "Haryana 2019",
+        "declared_assets_rupees": 42799191,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 1600000,
-      "residential_buildings": {
-        "description": "Nil",
-        "total_area_sqft": 0,
-        "built_up_area_sqft": 0,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 0
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 21100000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 13150000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 13150000
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Salary",
-    "spouse": "Business",
-    "dependent": "Not Applicable"
-  },
-  "contracts": {
-    "entered_by_candidate": "Not Applicable",
-    "entered_by_spouse": "Not Applicable",
-    "entered_by_dependent": "Not Applicable",
-    "entered_by_huf_trust": "Not Applicable",
-    "entered_by_partnership_firms": "Not Applicable",
-    "entered_by_private_companies": "Not Applicable"
+      {
+        "election": "Haryana Election 2014",
+        "declared_assets_rupees": 18072659,
+        "declared_cases": 0
+      }
+    ]
   }
 }

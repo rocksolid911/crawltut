@@ -1,138 +1,601 @@
 {
   "candidate_name": "Sukhadev Prasad Verma",
   "party": "BSP",
-  "constituency": "BINDKI (FATEHPUR )",
-  "father_or_husband_name": "Rampal",
-  "age": 55,
-  "education": "8th Pass",
-  "profession_self": "Business,Agriculture ,House Rent ,Bank Intrest ,Plot rent ,MLA Salary",
-  "profession_spouse": "Business,Bank intrest ,Agriculture income",
-  "criminal_cases": 0,
-  "assets_total_inr": 12734246,
-  "liabilities_total_inr": 0,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010 - 2011": 771527
-      }
+  "constituency": "BINDKI",
+  "state": "Uttar Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Rampal",
+      "age": 55,
+      "self_profession": "Business,Agriculture ,House Rent ,Bank Intrest ,Plot rent ,MLA Salary",
+      "spouse_profession": "Business,Bank intrest ,Agriculture income"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2009 - 2010": 335179
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 12734246,
+      "total_liabilities_in_rupees": 0
     },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "educational_details": {
+      "category": "8th Pass",
+      "details": "9th pass from Purushottam Inter Collage ,Khajuha ,Fatehpur"
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2010 - 2011",
+          "total_income_shown_in_itr_rupees": 771527
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2009 - 2010",
+          "total_income_shown_in_itr_rupees": 335179
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 150000,
-      "bank_deposits_inr": 519787,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 165000,
-      "lic_other_insurance_inr": 226377,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 25000,
-      "jewellery_inr": 90000,
-      "other_assets_inr": 545974,
-      "gross_total_value_inr": 1727138
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
     },
-    "spouse": {
-      "cash_inr": 80000,
-      "bank_deposits_inr": 142108,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 100000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 500000,
-      "other_assets_inr": 1085000,
-      "gross_total_value_inr": 1907108
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 1800000,
-      "non_agricultural_land": {
-        "description": "1)Kanpur area 3636sq.ft. ,date 28-06-2008,cost 1692403, 2) Madhuban Bapudham , area 300sq.m. ,date 15-09-2010, Cost 2141056",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2010-09-15",
-        "purchase_cost_inr": 3833459,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1727138,
+      "gross_total_value_spouse_rupees": 1907108,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 3634246,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 150000,
+          "spouse_value_rupees": 80000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 230000,
+          "self_details": {
+            "amount_rupees": 150000
+          },
+          "spouse_details": {
+            "amount_rupees": 80000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 519787,
+          "spouse_value_rupees": 142108,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 661895,
+          "self_details": [
+            {
+              "bank": "State Bank",
+              "branch": "Lucknow",
+              "account_no": "3017514xxxxx",
+              "amount_rupees": 185961
+            },
+            {
+              "bank": "PNB",
+              "branch": "Kanpur",
+              "account_no": "188400010000xxxxx",
+              "amount_rupees": 282826
+            },
+            {
+              "bank": "Bhartiya State Bank",
+              "branch": "Bindki For Election",
+              "account_no": "3215525xxxxx",
+              "amount_rupees": 51000
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "PNB",
+              "branch": "Kanpur",
+              "account_no": "1884000100009xxxxx",
+              "amount_rupees": 142108
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 165000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 165000,
+          "self_details": {
+            "name": "NSC",
+            "number": "01EF127376 TO 3.91 & 66DD240821",
+            "amount_rupees": 165000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 226377,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 326377,
+          "self_details": {
+            "company": "LIC Policy",
+            "policy_no": "31351xxxxx 310713246 311780568",
+            "amount_rupees": 226377
+          },
+          "spouse_details": {
+            "company": "LIC",
+            "policy_no": "policy",
+            "amount_rupees": 100000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 25000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 25000,
+          "self_details": [
+            {
+              "make": "Truck",
+              "registration_no": "URQ429",
+              "value_rupees": 20000
+            },
+            {
+              "make": "Motor Cycle",
+              "registration_no": "UP78Q0993",
+              "value_rupees": 5000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 90000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 590000,
+          "self_details": {
+            "type": "Gold old jewellery",
+            "weight_gm": 100,
+            "value_rupees": 90000
+          },
+          "spouse_details": [
+            {
+              "type": "Gold, old jewellery",
+              "weight_gm": 500,
+              "value_rupees": 500000
+            },
+            {
+              "type": "Silver",
+              "weight_kg": 2,
+              "value_rupees": 0
+            }
+          ]
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 550974,
+          "spouse_value_rupees": 1085000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1635974,
+          "self_details": [
+            {
+              "name": "Shri Ram Brick Field",
+              "value_rupees": 508374
+            },
+            {
+              "name": "Rifle",
+              "value_rupees": 14600
+            },
+            {
+              "name": "Gun",
+              "value_rupees": 6000
+            },
+            {
+              "name": "Rivolver",
+              "value_rupees": 22000
+            }
+          ],
+          "spouse_details": [
+            {
+              "name": "Jaya Brick Field",
+              "value_rupees": 1085000
+            }
+          ]
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 64000000,
+      "total_current_market_value_spouse_rupees": 27000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 91000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 18000000,
+          "spouse_value_rupees": 12000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 30000000,
+          "self_details": [
+            {
+              "location": "Vill. Gangoli ,Jaroli , Nandapur, Dist. Fatehpur Vill. Sarsaul ,Teh. & Dist. Kanpur",
+              "total_area": "10acre",
+              "inherited": true,
+              "purchase_date": "2004-11-18",
+              "purchase_cost_rupees": 80000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 18000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Dist. Kanpur",
+              "total_area": "3acre",
+              "inherited": false,
+              "purchase_date": "1992-09-01",
+              "purchase_cost_rupees": 78332,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 12000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 40000000,
+          "spouse_value_rupees": 15000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 55000000,
+          "self_details": [
+            {
+              "location": "Kanpur, Madhuban Bapudham",
+              "total_area": "3636sq.ft. , 300sq.m.",
+              "inherited": false,
+              "purchase_date": "2010-09-15",
+              "purchase_cost_rupees": 3833459,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 40000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "GT road ,Kanpur, barra Kanpur",
+              "total_area": "4200sq.ft.",
+              "inherited": false,
+              "purchase_date": "2004-12-27",
+              "purchase_cost_rupees": 256021,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 15000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 6000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 6000000,
+          "self_details": [
+            {
+              "location": "Rama Devi ,Kanpur, Bakevar ,Fatehpur",
+              "total_area": "2100sq.ft.",
+              "inherited": false,
+              "purchase_date": "1989-02-03",
+              "purchase_cost_rupees": 18700,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6000000
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 0,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": "Nil"
       },
-      "commercial_buildings_inr": 600000,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 6400000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 1200000,
-      "non_agricultural_land": {
-        "description": "1) GT road ,Kanpur, area 2500sq.ft. ,date 06-04-1998,cost 25000, 2) barra Kanpur area 1700sq.ft. ,date 27-12-2004 ,cost 231021",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2004-12-27",
-        "purchase_cost_inr": 256021,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1500000
+    "other_elections": [
+      {
+        "election_name": "Lok Sabha 2019",
+        "declared_assets_rupees": 74544921,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2700000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": null
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Uttar Pradesh 2017",
+        "declared_assets_rupees": 49883749,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

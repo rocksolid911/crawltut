@@ -1,143 +1,493 @@
 {
   "candidate_name": "SUKHDEV PANSE",
   "party": "INC",
-  "constituency": "MULTAI (BETUL)",
-  "father_or_husband_name": "Basant Rao Panse",
-  "age": 50,
-  "education": "Post Graduate MA,LLB From Barkatullah University Bhopal in 1996",
-  "profession_self": "Agriculture",
-  "profession_spouse": "Agriculture & Business",
-  "criminal_cases": 2,
-  "assets_total_inr": 20459993,
-  "liabilities_total_inr": 2796371,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 632324
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 587019
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 78088,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 18946,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1425000,
-      "jewellery_inr": 125000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1697034
-    },
-    "spouse": {
-      "cash_inr": 25000,
-      "bank_deposits_inr": 125000,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 66423,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 25000,
-      "jewellery_inr": 450000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 691423
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 3000000,
-      "non_agricultural_land": {
-        "description": "Nil"
+  "constituency": "MULTAI",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Basant Rao Panse",
+      "age": 50,
+      "voter_enrolled_in": {
+        "constituency": "129 Multai (Madhya Pradesh)",
+        "serial_no": 92,
+        "part_no": 211
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Sharda Apartment Bhopal 102, Indira Gandhi Ward Multai, Pathara",
-        "total_area_sqft": 4120,
-        "built_up_area_sqft": 4120,
-        "inherited": "N",
-        "purchase_date": "2003-01-01",
-        "purchase_cost_inr": 1400000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 9500000
+      "self_profession": "Agriculture",
+      "spouse_profession": "Agriculture & Business"
+    },
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 20459993,
+      "total_liabilities_in_rupees": 2796371
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "MA,LLB From Barkatullah University Bhopal in 1996"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 632324
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 587019
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Punishment for murder",
+          "ipc_section": "302",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Assault or criminal force to woman with intent to outrage her modesty",
+          "ipc_section": "354",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Theft in dwelling house, etc.",
+          "ipc_section": "380",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief by fire or explosive substance with intent to destroy house, etc.",
+          "ipc_section": "436",
+          "count": 1
+        },
+        {
+          "charges_related_to": "House-trespass in order to commit offence punishable with imprisonment",
+          "ipc_section": "451",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Every member of unlawful assembly guilty of offence committed in prosecution of common object",
+          "ipc_section": "149",
+          "count": 2
+        },
+        {
+          "charges_related_to": "Punishment for Rioting",
+          "ipc_section": "147",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Rioting, armed with deadly weapon",
+          "ipc_section": "148",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for mischief",
+          "ipc_section": "426",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Mischief causing damage to the amount of fifty rupees",
+          "ipc_section": "427",
+          "count": 1
+        },
+        {
+          "charges_related_to": "Punishment for criminal trespass",
+          "ipc_section": "447",
+          "count": 1
+        }
+      ],
+      "charges_framed": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "302, 149, 354",
+          "other_details_or_acts_sections_applicable": "PS. Multai Dist. Betul Crime No. 643/08, Spl. C.B.I. Judge, ASJ Jabalpur, PS. Multai Session Case No. 486/2012, Framed Date 12.10.18"
+        },
+        {
+          "serial_no": 2,
+          "ipc_sections_applicable": "147, 148, 149, 380, 426, 427, 436, 447, 451",
+          "other_details_or_acts_sections_applicable": "PS. Multai Dist. Betul, CBIR C.M.-008200950016 ACB Bhopal, Spl. Second Judge CBI Court Jabalpur 1, Spl. CBI Case No. 617/2012, Case No. 2928/2012, Framed Date 30.09.2011"
+        }
+      ],
+      "cognizance_taken": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 1670034,
+      "gross_total_value_spouse_rupees": 691423,
+      "gross_total_value_dependent1_rupees": 7773,
+      "gross_total_value_dependent2_rupees": 40763,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 2409993,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 50000,
+          "spouse_value_rupees": 25000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 75000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 78088,
+          "spouse_value_rupees": 125000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 203088,
+          "self_details": "S.B.I Multai Bank Ac/No 1090028xxxxx",
+          "spouse_details": "ICICI Bhopal No 02830100xxxxx"
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 18946,
+          "spouse_value_rupees": 66423,
+          "dependent1_value_rupees": 7773,
+          "dependent2_value_rupees": 40763,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 133905,
+          "self_details": "LIC Policy No 35252xxxxx",
+          "spouse_details": "LIC Policy No 35253xxxxx, ICICI LIC Policy No 1877xxxxx",
+          "dependent1_details": "LIC Policy No 35206xxxxx",
+          "dependent2_details": "LIC Policy No 35278xxxxx"
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1400000,
+          "spouse_value_rupees": 25000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1425000,
+          "self_details": "Mahindra Scorpio,No-MP-04CL-1808 Year 2012; Santro MP04CE5396, year 2009",
+          "spouse_details": "M.C TVS Scooty No-MP-04SJ-4247 Year 2012"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 125000,
+          "spouse_value_rupees": 450000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 575000,
+          "self_details": "Gold 40 Gram",
+          "spouse_details": "150 Gram gold"
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 125000000,
+      "total_current_market_value_spouse_rupees": 55500000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 180500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 1550000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 4550000,
+          "self_details": "Mangonakla 109,110,119/2,228/2 Total Area 1 Rakba 5.5 Acre Built Up Area  Whether Inherited Y Purchase Date 0000-00-00 Purchase Cost 0.00 Development Cost 0.00",
+          "spouse_details": "Shergarh S No-91/2 92/2 Total Area 11 Acre Built Up Area  Whether Inherited N Purchase Date 2010-01-01 Purchase Cost 550000.00 Development Cost 1000000.00"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 9500000,
+          "spouse_value_rupees": 4000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 13500000,
+          "self_details": "Sharda Apartment Bhopal 102 Total Area 1500 Sq Ft Built Up Area 1500 Sq Ft Whether Inherited N Purchase Date 2003-01-01 Purchase Cost 500000.00 Development Cost 0.00; Indira Gandhi Ward Multai Total Area 1120 Sq Ft Built Up Area 1120 Sq Ft Whether Inherited N Purchase Date 2010-01-01 Purchase Cost 700000.00 Development Cost 0.00; Pathara Total Area 1500 Sq Ft Built Up Area 1500 Sq Ft Whether Inherited N Purchase Date 2003-01-01 Purchase Cost 200000.00 Development Cost 0.00",
+          "spouse_details": "Sharda Apartment Bhopal 201 Total Area 1500 Sq Ft Built Up Area 1500 Sq Ft Whether Inherited N Purchase Date 2007-00-00 Purchase Cost 800000.00 Development Cost 0.00"
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1540959,
+      "grand_total_of_liabilities_spouse_rupees": 1255412,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2796371,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 12500000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1540959,
+          "spouse_value_rupees": 1255412,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2796371,
+          "self_details": "SBI Multai Home Loan No 3247124xxxxx",
+          "spouse_details": "SBI Multai KCC No 3247113xxxxx, PNB Multai,KCC No 639300870000xxxxx, PNB Multai Term Loan No 6393086000xxxxx"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 1550000,
-      "non_agricultural_land": {
-        "description": "Nil"
+    "other_elections": [
+      {
+        "election": "Madhya Pradesh 2023",
+        "declared_assets": 39975900,
+        "declared_cases": 2
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "Sharda Apartment Bhopal 201",
-        "total_area_sqft": 1500,
-        "built_up_area_sqft": 1500,
-        "inherited": "N",
-        "purchase_date": "2007-00-00",
-        "purchase_cost_inr": 800000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 4000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 5550000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1540959,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1540959
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 1255412,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1255412
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election": "Madhya Pradesh 2013",
+        "declared_assets": 14960216,
+        "declared_cases": 5
+      }
+    ]
+  }
 }

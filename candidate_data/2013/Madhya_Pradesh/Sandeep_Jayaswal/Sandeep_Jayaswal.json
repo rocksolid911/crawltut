@@ -1,148 +1,306 @@
 {
   "candidate_name": "Sandeep Jayaswal",
   "party": "BJP",
-  "constituency": "MUDWARA (KATNI)",
-  "father_or_husband_name": "Sh. Shriprasad Jayaswal",
-  "age": 49,
-  "education": "Post Graduate M.Com in 1987 and L.L.B. in 1990 From Rani Durgawati University, Jabalpur,",
-  "profession_self": "Advocacy, Agriculture and Rent From Fixed Assests",
-  "profession_spouse": "LIC Agent, Agriculture and Rent From Fixed Assests",
-  "criminal_cases": 1,
-  "assets_total_inr": 67313076,
-  "liabilities_total_inr": 2275220,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 1499989
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2011 - 2012": 273776
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 181000,
-      "bank_deposits_inr": 128915,
-      "bonds_debentures_shares_inr": 127048,
-      "nss_postal_savings_inr": 805299,
-      "lic_other_insurance_inr": 1771165,
-      "personal_loans_advance_given_inr": 400000,
-      "motor_vehicles_inr": 1484756,
-      "jewellery_inr": 803250,
-      "other_assets_inr": 225000,
-      "gross_total_value_inr": 5930443
-    },
-    "spouse": {
-      "cash_inr": 110000,
-      "bank_deposits_inr": 312157,
-      "bonds_debentures_shares_inr": 53000,
-      "nss_postal_savings_inr": 865047,
-      "lic_other_insurance_inr": 94829,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 94500,
-      "jewellery_inr": 2079475,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 3638168
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 5500000,
-      "non_agricultural_land": {
-        "description": "Guru Nanak Ward 493/43",
-        "area_sq_mtr": 1071.34,
-        "inherited": "N",
-        "purchase_date": "2006-03-31",
-        "purchase_cost_inr": 210000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 6000000
+  "constituency": "MUDWARA",
+  "state": "Madhya Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Sh. Shriprasad Jayaswal",
+      "age": 49,
+      "voter_enrolled_in": {
+        "constituency": "093, Mundwara",
+        "state": "Madhya Pradesh",
+        "serial_no": 327,
+        "part_no": 123
       },
-      "commercial_buildings_inr": 1600000,
-      "residential_buildings": {
-        "description": "Guru Nanak Ward 493/43",
-        "total_area_sqft": 1800,
-        "built_up_area_sqft": 1800,
-        "inherited": "N",
-        "purchase_date": "2007-04-12",
-        "purchase_cost_inr": 49500,
-        "development_cost_inr": 850000,
-        "current_market_value_inr": 12500000
+      "self_profession": "Advocacy, Agriculture and Rent From Fixed Assests",
+      "spouse_profession": "LIC Agent, Agriculture and Rent From Fixed Assedts"
+    },
+    "summary": {
+      "criminal_cases_count": 1,
+      "total_assets_in_rupees": 67313076,
+      "total_liabilities_in_rupees": 2275220
+    },
+    "educational_details": {
+      "category": "Post Graduate",
+      "details": "M.Com in 1987 and L.L.B. in 1990 From Rani Durgawati University, Jabalpur"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 1499989
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2011 - 2012",
+          "total_income_shown_in_itr_rupees": 273776
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": true,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [
+        {
+          "charges_related_to": "Cheating with knowledge that wrongful loss may ensue to person whose interest offender is bound to protect",
+          "ipc_section": "418",
+          "count": 1
+        },
+        {
+          "charges_related_to": "forgery",
+          "ipc_section": "465",
+          "count": 1
+        }
+      ],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "ipc_sections_applicable": "418, 465",
+          "other_details_or_acts_sections_applicable": "Court taking Cognizance- Judicial Magistrate First Class Katni, Case No.- 3558/2011, Order Date- 21.10.2011, Revision filed on First Additional Session Judge Katni MP, Revision No. 0/12 & 9/12"
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 5930443,
+      "gross_total_value_spouse_rupees": 3638168,
+      "gross_total_value_dependent1_rupees": 766464,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 10335075,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 181000,
+          "spouse_value_rupees": 110000,
+          "dependent1_value_rupees": 22000,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 120025,
+          "spouse_value_rupees": 308729,
+          "dependent1_value_rupees": 82539,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 127048,
+          "spouse_value_rupees": 55000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 805299,
+          "spouse_value_rupees": 865047,
+          "dependent1_value_rupees": 208800,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1771165,
+          "spouse_value_rupees": 94829,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1484756,
+          "spouse_value_rupees": 94500,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 803250,
+          "spouse_value_rupees": 2079475,
+          "dependent1_value_rupees": 453125,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 225000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 271000000,
+      "total_current_market_value_spouse_rupees": 299000000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 570000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 69000000,
+          "spouse_value_rupees": 161000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 60000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 16000000,
+          "spouse_value_rupees": 58000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 125000000,
+          "spouse_value_rupees": 80000000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 1354276,
+      "grand_total_of_liabilities_spouse_rupees": 920944,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2275220,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 27100000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 1096340,
+          "spouse_value_rupees": 20944,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 257936,
+          "spouse_value_rupees": 900000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 16100000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 5800000,
-      "residential_buildings": {
-        "description": "Guru Nanak Ward 493/45/2",
-        "total_area_sqft": 1236,
-        "built_up_area_sqft": 800,
-        "inherited": "N",
-        "purchase_date": "2009-03-31",
-        "purchase_cost_inr": 690000,
-        "development_cost_inr": 50000,
-        "current_market_value_inr": 8000000
+    "other_elections": [
+      {
+        "election_name": "Madhya Pradesh 2023",
+        "declared_assets_rupees": 107662214,
+        "declared_cases": 1
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 29900000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 1096340,
-      "loans_due_to_individual_entity_inr": 257936,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 1354276
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 20944,
-      "loans_due_to_individual_entity_inr": 900000,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 920944
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_name": "Madhya Pradesh 2018",
+        "declared_assets_rupees": 108455296,
+        "declared_cases": 1
+      },
+      {
+        "election_name": "Madhya Pradesh 2008",
+        "declared_assets_rupees": 7814897,
+        "declared_cases": 0
+      }
+    ]
+  }
 }

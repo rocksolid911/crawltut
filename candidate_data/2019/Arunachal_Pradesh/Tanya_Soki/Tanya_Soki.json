@@ -1,164 +1,528 @@
 {
   "candidate_name": "Tanya Soki",
   "party": "BJP",
-  "constituency": "DAPORIJO (UPPER SUBANSIRI)",
-  "father_or_husband_name": "Late Tapak Soki",
-  "age": 55,
-  "education": "Graduate, Bachelor Of Engineer (Civil) Delhi Collage Of Engineering Delhi University in 1989",
-  "profession_self": "Ex-Serviceman/Public Leader",
-  "profession_spouse": "Business/Contractor",
-  "criminal_cases": 2,
-  "assets_total_inr": 197845942,
-  "liabilities_total_inr": 59633858,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
+  "constituency": "DAPORIJO",
+  "state": "Arunachal Pradesh",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Tapak Soki",
+      "age": 55,
+      "voter_enrolled_in": {
+        "constituency": "24- Deporijo",
+        "state": "Arunachal Pradesh",
+        "serial_no": 243,
+        "part_no": 22
+      },
+      "self_profession": "Ex-Serviceman/Public Leader",
+      "spouse_profession": "Business/Contractor"
+    },
+    "summary": {
+      "criminal_cases_count": 2,
+      "total_assets_in_rupees": 197845942,
+      "total_liabilities_in_rupees": 59633858
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "Bachelor Of Engineer (Civil) Delhi Collage Of Engineering Delhi University in 1989"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "huf",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [
+        {
+          "serial_no": 1,
+          "fir_no": "SIC (VIG) PS ENQ No 25/2018 (Enquiry Stage Only)",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        },
+        {
+          "serial_no": 2,
+          "fir_no": "SIC (VIG) PS ENQ No 02/2019 (Enquiry Stage Only)",
+          "case_no": null,
+          "court": null,
+          "ipc_sections_applicable": null,
+          "other_details_or_acts_sections_applicable": null,
+          "charges_framed": false,
+          "date_on_which_charges_were_framed": null,
+          "appeal_filed": false,
+          "details_and_present_status_of_appeal": null
+        }
+      ],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 24849152,
+      "gross_total_value_spouse_rupees": 83545260,
+      "gross_total_value_huf_rupees": 0,
+      "gross_total_value_dependent1_rupees": 2030530,
+      "gross_total_value_dependent2_rupees": 2013000,
+      "gross_total_value_dependent3_rupees": 2008000,
+      "gross_total_value_total_rupees": 114445942,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 225000,
+          "spouse_value_rupees": 500000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 5000,
+          "dependent2_value_rupees": 3000,
+          "dependent3_value_rupees": 1000,
+          "total_value_rupees": 734000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 4684152,
+          "spouse_value_rupees": 497860777,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 23530,
+          "dependent2_value_rupees": 10000,
+          "dependent3_value_rupees": 7000,
+          "total_value_rupees": 549346459
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 10000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 20000000,
+          "dependent2_value_rupees": 20000000,
+          "dependent3_value_rupees": 20000000,
+          "total_value_rupees": 71200000
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1900000,
+          "spouse_value_rupees": 10418397,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 12318397
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 16212000,
+          "spouse_value_rupees": 50000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 66212000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 530880,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 530880
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 114000000,
+      "total_current_market_value_spouse_rupees": 720000000,
+      "total_current_market_value_huf_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 834000000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 3000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": null,
+          "spouse_details": [
+            {
+              "location": "Wre Field At Siar-Rijo, Daporijo Vide, LPC NO LM/DRJ-31(LPC) 2016-2017",
+              "total_area": "61354 Sq.ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2017-06-12",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3000000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 14000000,
+          "spouse_value_rupees": 9000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 23000000,
+          "self_details": [
+            {
+              "location": "Govt.Alloted Land Near DDSE Office Daporijo",
+              "total_area": "6728 Sq.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "Govt.Land D-Sector Naharlagun",
+              "total_area": "5382 Sq. Ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 6000000
+            },
+            {
+              "location": "Plot Of Land Sikarjio",
+              "total_area": "16200 Sq.Ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "1994-02-18",
+              "purchase_cost_rupees": 40000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 3000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Govt.Alloted Land at Niti Nagar",
+              "total_area": "5207Sq.ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "Govt.Alloted Land At C Sector",
+              "total_area": "1292Sq.ft",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2014-05-08",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 150000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 150000000,
+          "self_details": null,
+          "spouse_details": [
+            {
+              "location": "3 Satoried RCC Buiding at C-Sec Naharlgun",
+              "total_area": "1125 Sq Ft",
+              "built_up_area": "1238 Sq Ft",
+              "inherited": false,
+              "purchase_date": "2014-05-08",
+              "purchase_cost_rupees": 10500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 150000000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 100000000,
+          "spouse_value_rupees": 557000000,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 657000000,
+          "self_details": [
+            {
+              "location": "3 Satoried RCC Buidin at D Sec Naharlagun",
+              "total_area": "900 Sq Ft",
+              "built_up_area": "1000 Sq Ft",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Two Storied RCC Building Near DDSE Office, Daporijo",
+              "total_area": "670 Sq.Ft.",
+              "built_up_area": "730 Sq.Ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 35000000
+            },
+            {
+              "location": "Two Storied RCC Building At D-Sector Naharlagun",
+              "total_area": "1311 Sq.Ft.",
+              "built_up_area": "1411 Sq.ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 170000000
+            },
+            {
+              "location": "Two Storied RCC Building At D-sec.",
+              "total_area": "700 Sq.Ft.",
+              "built_up_area": "770 Sq.Ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 255000000
+            },
+            {
+              "location": "3 BHK Flat At Berltola, Guwahati",
+              "total_area": "1855 Sq.Ft.",
+              "built_up_area": "1855 Sq.Ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 7000000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 73000000
+            },
+            {
+              "location": "3 BHK Flat At Games Village Basistha, Guwahati",
+              "total_area": "1250 Sq.Ft.",
+              "built_up_area": "1250Sq.Ft.",
+              "inherited": false,
+              "purchase_date": "2016-06-21",
+              "purchase_cost_rupees": 1928750,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 25000000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 0,
+      "grand_total_of_liabilities_spouse_rupees": 59633858,
+      "grand_total_of_liabilities_huf_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 59633858,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_huf_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "huf_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
+      },
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 59633858,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 59633858,
+          "self_details": null,
+          "spouse_details": [
+            {
+              "bank": "Vijaya Bank Ianagar",
+              "loan_type": "Against Term Deposit",
+              "amount_rupees": 6711722
+            },
+            {
+              "bank": "Vijaya Bank Ianagar",
+              "loan_type": "Against Term Deposit",
+              "amount_rupees": 10288013
+            },
+            {
+              "bank": "Vijaya Bank Ianagar",
+              "loan_type": "Against Term Deposit",
+              "amount_rupees": 42634123
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "huf_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "profession_or_occupation": {
+      "self": "Ex-Serviceman/Public Leader",
+      "spouse": "Business/Contractor"
+    },
+    "sources_of_income": {
+      "self": "Serviceman/ Retirement Benefits",
+      "spouse": "Business/Proprietorship Firm",
+      "dependent": "NIL"
+    },
+    "contracts_with_government_and_public_companies": {
+      "candidate": "Nil",
+      "spouse": "(A)Supply and Cretion works of IPDS in Karnaprayag Package on Turkry Basis.Tender Specification No-CCP-2/12/2016-17 under UPCL,Dehradun UK Rs 50525757/- (B)Supply and Erection Work of IPDS in Rudraprayag on Turnkey Baise Tender Specification No CCP-11/12/2016-17 under UPCL.Uttrakhand for 97102495 (C)Supply and Erection Works of IPDS in Rudraprayag on Turnkey Basis Tender Specification no CCP-II/12/2016-17 under UPCL, Uttrakhand For RS 55096193/ (D) Supply and Erection Works Under DDUGJY in Rudraprayag (package-10) in Uttrakhand Tender Sepecification No CCP-II28/2016-17 For Rs 271033822 (E) Supply and Erection Works Under DDUGJY on Turnkey Basis Against tender Specification No.CCP-1/43/2017-18 Package no CM-HH-DV (Chamoli) for Rs 94533759 (F) C/O New 33KV/22KV single Circuit/Double Circuit Lines at Various Sites of Couth zone HPSEBL shinla For Rs 73047193/- (G)C/O 33KV Line From Guptakshi Substaion To Sonprayag On Turnkey Basis against Tender Specification No CCP-II/11/2018-19 For Rs 47939942",
+      "dependent": "Nil",
+      "huf_or_trust": "NA",
+      "partnership_firms": "NA",
+      "private_companies": "NA"
+    },
+    "other_elections": {
+      "Arunachal Pradesh 2024": {
+        "declared_assets_rupees": 181383416,
+        "declared_cases": 0,
+        "more_details_link": "https://www.myneta.info/compare_profile.php?group_id=gpYomfXAiHoQWwy6oxG7"
       }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {}
     }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 225000,
-      "bank_deposits_inr": 4684152,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1200000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1900000,
-      "jewellery_inr": 16212000,
-      "other_assets_inr": 530880,
-      "gross_total_value_inr": 24752032
-    },
-    "spouse": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 71351545,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 1000000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 10398397,
-      "jewellery_inr": 5000000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 83545260
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Govt.Alloted Land Near DDSE Office Daporijo Vide No LM/DRJ-43/94-96",
-        "area_sq_mtr": 625.04,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 500000
-      },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "3 Satoried RCC Buidin at D Sec Naharlagun",
-        "total_area_sqft": 900,
-        "built_up_area_sqft": 1000,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 10000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 11400000
-    },
-    "spouse": {
-      "agricultural_land_inr": 300000,
-      "non_agricultural_land": {
-        "description": "Govt.Alloted Land at Niti Nagar",
-        "area_sq_mtr": 483.74,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 500000
-      },
-      "commercial_buildings_inr": 15000000,
-      "residential_buildings": {
-        "description": "Two Storied RCC Building Near DDSE Office, Daporijo",
-        "total_area_sqft": 670,
-        "built_up_area_sqft": 730,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 3500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 72000000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 59633858,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 59633858
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": {
-    "self": "Serviceman/ Retirement Benefits",
-    "spouse": "Business/Proprietorship Firm",
-    "dependent": "NIL"
-  },
-  "contracts": {
-    "entered_by_candidate": "Nil",
-    "entered_by_spouse": "(A)Supply and Cretion works of IPDS in Karnaprayag Package on Turkry Basis.Tender Specification No-CCP-2/12/2016-17 under UPCL,Dehradun UK Rs 50525757/- (B)Supply and Erection Work of IPDS in Rudraprayag on Turnkey Baise Tender Specification No CCP-11/12/2016-17 under UPCL.Uttrakhand for 97102495 (C)Supply and Erection Works of IPDS in Rudraprayag on Turnkey Basis Tender Specification no CCP-II/12/2016-17 under UPCL, Uttrakhand For RS 55096193/ (D) Supply and Erection Works Under DDUGJY in Rudraprayag (package-10) in Uttrakhand Tender Sepecification No CCP-II28/2016-17 For Rs 271033822 (E) Supply and Erection Works Under DDUGJY on Turnkey Basis Against tender Specification No.CCP-1/43/2017-18 Package no CM-HH-DV (Chamoli) for Rs 94533759 (F) C/O New 33KV/22KV single Circuit/Double Circuit Lines at Various Sites of Couth zone HPSEBL shinla For Rs 73047193/- (G)C/O 33KV Line From Guptakshi Substaion To Sonprayag On Turnkey Basis against Tender Specification No CCP-II/11/2018-19 For Rs 47939942",
-    "entered_by_dependent": "Nil",
-    "entered_by_huf_trust": "NA",
-    "entered_by_partnership_firms": "NA",
-    "entered_by_private_companies": "NA"
   }
 }

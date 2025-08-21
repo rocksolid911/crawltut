@@ -1,145 +1,602 @@
 {
   "candidate_name": "RENUPOMA RAJKHOWA",
   "party": "Asom Gana Parishad",
-  "constituency": "TEOK (JORHAT)",
-  "father_or_husband_name": "Late Lalit Rajkhowa",
-  "age": 61,
-  "education": "12th Pass Pre Degree Passed From Sibasagar girls College in the year 1976, HSLC Passed in the year 1973 From Fuleswari Ucha Madhyamik Balika and Bidyalaya",
-  "profession_self": "Business",
-  "profession_spouse": "",
-  "criminal_cases": 0,
-  "assets_total_inr": 5681954,
-  "liabilities_total_inr": 2616934,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2015 - 2016": 713310
-      }
-    },
-    "spouse": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 27931,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 141954,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 40000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 181954
-    },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 0,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 0
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 100000,
-      "non_agricultural_land": {
-        "description": "Measuring an area of 2 katha 17 Lochas, PP No. 85(Old), 243(new), Dag N o. 516/751, Situated at Bongali Gaon, Teok Revnue Circle, under Teok Mouza Dist. Jorhat assam and Proportionate right over the land on the building \"Century Appartment\" Standing over the plot of land 23.256 sq. ft. Covered by Dag No. 216 and 219, of PP No. 55 of Vill. Dispur, Under Mouza Beltola, Dist. Kamrup Assam",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 60000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 1500000
+  "constituency": "TEOK",
+  "state": "Assam",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Late Lalit Rajkhowa",
+      "age": 61,
+      "voter_enrolled_in": {
+        "constituency": "102 Teok",
+        "state": "Assam",
+        "serial_no": 60,
+        "part_no": 1
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": {
-        "description": "One Assam Type House Measuring 1500 Sq. ft.and one Two Storied R.C.C. building measuring an area of 1500 sq. ft. on each floor, covered by Dag No. 516/751 fo PP No. 85(Old), 243(new) situated at teok Bongali Gaon, under Teok Mouza, Teok Revenue Circle, Dist. Jorhat Assam AND One Flat Measuring an area of 1261 sq. ft. on the 1st floor, along with the proportionate right over the land including the car parking space on the building \"Century Appartment\" standing over the plot of land 23.256 Sq. ft. Covered by Dag No. 216 and 219 of PP No. 55 of Vill. Dispur under Mouza Beltola, Dist. Kamrup, Assam",
-        "total_area_sqft": 5761,
-        "built_up_area_sqft": 5761,
-        "inherited": "N",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 128270,
-        "development_cost_inr": 1500000,
-        "current_market_value_inr": 3000000
+      "self_profession": "Business",
+      "spouse_profession": ""
+    },
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 5681954,
+      "total_liabilities_in_rupees": 2616934
+    },
+    "educational_details": {
+      "category": "12th Pass",
+      "details": "Pre Degree Passed From Sibasagar girls College in the year 1976, HSLC Passed in the year 1973 From Fuleswari Ucha Madhyamik Balika and Bidyalaya"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2015 - 2016",
+          "total_income_shown_in_itr_rupees": 713310
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 181954,
+      "gross_total_value_spouse_rupees": 0,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 181954,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 27931,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 27931,
+          "self_details": [
+            {
+              "bank": "UCO Bank",
+              "branch": "Jorhat Branch",
+              "account_type": "SB",
+              "account_no": "1669010000xxxxx",
+              "amount_rupees": 570
+            },
+            {
+              "bank": "IDBI Bank",
+              "branch": "Teok Grant Branch SB",
+              "account_type": "SB",
+              "account_no": "204310400000xxxxx",
+              "amount_rupees": 10000
+            },
+            {
+              "bank": "AGBV",
+              "branch": "Sivasagar Branch",
+              "account_type": "SB",
+              "account_no": "719101050xxxxx",
+              "amount_rupees": 17361
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 141954,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 141954,
+          "self_details": [
+            {
+              "company": "Reliance Life Insurance",
+              "sum_assured_rupees": 126935,
+              "policy_no": "5119xxxxx",
+              "value_rupees": 29994
+            },
+            {
+              "company": "Kotak Life Insurnace",
+              "sum_assured_rupees": 75000,
+              "policy_no": "0322xxxxx",
+              "value_rupees": 9719
+            },
+            {
+              "company": "LICI",
+              "sum_assured_rupees": 800000,
+              "policy_no": "44413xxxxx",
+              "value_rupees": 39045
+            },
+            {
+              "company": "LICI",
+              "sum_assured_rupees": 62500,
+              "policy_no": "49472xxxxx",
+              "value_rupees": 14697
+            },
+            {
+              "company": "LICI",
+              "sum_assured_rupees": 250000,
+              "policy_no": "44372xxxxx",
+              "value_rupees": 35640
+            },
+            {
+              "company": "LICI",
+              "sum_assured_rupees": 50000,
+              "policy_no": "44344xxxxx",
+              "value_rupees": 12859
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 40000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 40000,
+          "self_details": {
+            "type": "Gold Ring",
+            "weight_tola": 1.3,
+            "value_rupees": 40000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 5500000,
+      "total_current_market_value_spouse_rupees": 0,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 5500000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 100000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 100000,
+          "self_details": [
+            {
+              "location": "Charingia Gaon, Simaluguri Mouza, Teok Revenue Circle, Dist. Jorhat, Assam",
+              "dag_no": "809, 973 of PP No. 283 Dag No. 848 & 855 of PP No. 284, Dag No. 907 of PP No. 292",
+              "total_area": "1 Bigha 3 Katha 5.5 Lochas",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 100000
+            },
+            {
+              "location": "Dulakakhoria Gaon, under Simaluguri Mouza, Teok Revenue Circle, Dist. Jorhat, Assam",
+              "dag_no": "491, 143, 144 of PP No. 148 and Dag No. 955/206 of PP No. 154",
+              "total_area": "14 Locahs",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 0
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1500000,
+          "self_details": [
+            {
+              "location": "Bongali Gaon, Teok Revnue Circle, under Teok Mouza Dist. Jorhat assam",
+              "pp_no": "85(Old), 243(new)",
+              "dag_no": "516/751",
+              "total_area": "2 katha 17 Lochas",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 60000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1500000
+            },
+            {
+              "location": "Vill. Dispur, Under Mouza Beltola, Dist. Kamrup Assam",
+              "dag_no": "216 and 219, of PP No. 55",
+              "total_area": "23.256 sq. ft.",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 0
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 3000000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 3000000,
+          "self_details": [
+            {
+              "type": "One Assam Type House",
+              "location": "teok Bongali Gaon, under Teok Mouza, Teok Revenue Circle, Dist. Jorhat Assam",
+              "dag_no": "516/751 fo PP No. 85(Old), 243(new)",
+              "total_area": "1500 Sq. ft.",
+              "built_up_area": "1500 Sq. ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 128270,
+              "development_cost_rupees": 1500000,
+              "current_value_rupees": 3000000
+            },
+            {
+              "type": "One Two Storied R.C.C. building",
+              "location": "teok Bongali Gaon, under Teok Mouza, Teok Revenue Circle, Dist. Jorhat Assam",
+              "dag_no": "516/751 fo PP No. 85(Old), 243(new)",
+              "total_area": "1500 sq. ft. on each floor",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 0
+            },
+            {
+              "type": "One Flat",
+              "location": "Vill. Dispur under Mouza Beltola, Dist. Kamrup, Assam",
+              "dag_no": "216 and 219 of PP No. 55",
+              "total_area": "1261 sq. ft. on the 1st floor",
+              "built_up_area": "5761 Sq. ft.",
+              "inherited": false,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 0
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 2616934,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 2616934,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": 0,
+        "spouse_amount_rupees": 0,
+        "dependent1_amount_rupees": 0,
+        "dependent2_amount_rupees": 0,
+        "dependent3_amount_rupees": 0,
+        "total_amount_rupees": 0,
+        "details": []
       },
-      "others_inr": 0,
-      "total_current_market_value_inr": 5500000
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 982228,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 982228,
+          "self_details": [
+            {
+              "bank": "UCO Bank",
+              "branch": "Jorhat Branch",
+              "loan_type": "housing Loan",
+              "account_no": "0742061000xxxxx",
+              "amount_rupees": 982228
+            }
+          ]
+        },
+        {
+          "sr_no": "i",
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 142906,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 142906,
+          "self_details": [
+            {
+              "loan_type": "Personal loan",
+              "from": "UCO Bank, Jorhat Branch",
+              "account_no": "0742061001xxxxx",
+              "amount_rupees": 43019
+            },
+            {
+              "loan_type": "Car Loan",
+              "from": "Assam Legislative Assembly",
+              "opening_balance_rupees": 500000,
+              "amount_rupees": 99887
+            }
+          ]
+        },
+        {
+          "sr_no": "i",
+          "description": "Any other Liability",
+          "self_value_rupees": 1491800,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1491800,
+          "self_details": [
+            {
+              "loan_type": "Cash Credit Loan",
+              "from": "AGBV, Sivasagar Branch",
+              "opening_balance_rupees": 2161421,
+              "account_no": "719125010xxxxx",
+              "amount_rupees": 1491800
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        },
+        {
+          "sr_no": "ii",
+          "description": "Any Other Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0
+        }
+      ]
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 0
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 982228,
-      "loans_due_to_individual_entity_inr": 142906,
-      "any_other_liability_inr": 1491800,
-      "grand_total_of_liabilities_inr": 2616934
+    "profession_or_occupation": {
+      "self": "Business",
+      "spouse": ""
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": {
-    "entered_by_candidate": null,
-    "entered_by_spouse": null,
-    "entered_by_dependent": null,
-    "entered_by_huf_trust": null,
-    "entered_by_partnership_firms": null,
-    "entered_by_private_companies": null
+    "sources_of_income": {},
+    "contracts_with_government_and_public_companies": {},
+    "other_election_declarations": [
+      {
+        "election_year": "Assam 2021",
+        "declared_assets_rupees": 14122826,
+        "declared_cases": 0
+      },
+      {
+        "election_year": "Assam 2006",
+        "declared_assets_rupees": 2069262,
+        "declared_cases": 0
+      }
+    ]
   }
 }

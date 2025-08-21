@@ -1,139 +1,548 @@
 {
   "candidate_name": "Banasri Maity",
-  "party": "AITC",
   "constituency": "KANTHI UTTAR",
-  "father_or_husband_name": "Achin Maity",
-  "age": 52,
-  "education": "Graduate, B.A. (Hons.) 1987 from P.K. College Conyai , Calcutta University",
-  "profession_self": "Teacher, Basantia high school",
-  "profession_spouse": "Other Elections",
-  "criminal_cases": 0,
-  "assets_total_inr": 2570194,
-  "liabilities_total_inr": 84750,
-  "income_tax_details": {
+  "state": "West Bengal",
+  "election_year": 2011,
+  "status": "Winner",
+  "party": "AITC",
+  "personal_details": {
+    "s_o_d_o_w_o": "Achin Maity",
+    "age": 52,
+    "name_enrolled_as_voter_in": {
+      "constituency": "()",
+      "serial_no": "in Part no"
+    },
+    "self_profession": "Teacher, Basantia high school",
+    "spouse_profession": null
+  },
+  "other_elections": [
+    {
+      "election": "West Bengal 2016",
+      "declared_assets_rupees": 5802934,
+      "declared_cases": 0
+    }
+  ],
+  "criminal_cases": {
+    "count": 0,
+    "details": "No criminal cases"
+  },
+  "assets_liabilities": {
+    "assets_rupees": 2570194,
+    "liabilities_rupees": 84750
+  },
+  "educational_details": {
+    "category": "Graduate",
+    "degree": "B.A. (Hons.)",
+    "year": 1987,
+    "institution": "P.K. College Conyai , Calcutta University"
+  },
+  "pan_income_tax_details": {
+    "data_readability_report": "No Problems in Reading Affidavit Information",
     "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010 - 2011": 343967
-      }
+      "pan_given": true,
+      "financial_year": "2010 - 2011",
+      "total_income_shown_in_itr_rupees": 343967
     },
     "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": true,
+      "financial_year": "None",
+      "total_income_shown_in_itr_rupees": 0
     },
-    "huf": null,
     "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr_rupees": 0
     },
     "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr_rupees": 0
     },
     "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+      "pan_given": false,
+      "financial_year": "None",
+      "total_income_shown_in_itr_rupees": 0
     }
   },
   "movable_assets": {
-    "self": {
-      "cash_inr": 50000,
-      "bank_deposits_inr": 242718,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 400000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 122000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 1125218
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "items": [
+      {
+        "description": "Cash",
+        "self_rupees": 50000,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 50000
+      },
+      {
+        "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+        "self_rupees": 242718,
+        "spouse_rupees": 14976,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 258194,
+        "details": [
+          {
+            "owner": "self",
+            "bank": "co. op. bank",
+            "amount_rupees": 242718
+          },
+          {
+            "owner": "self",
+            "bank": "co. op. bank",
+            "amount_rupees": 500
+          },
+          {
+            "owner": "spouse",
+            "bank": "co. op. bank",
+            "amount_rupees": 14976
+          }
+        ]
+      },
+      {
+        "description": "Bonds, Debentures and Shares in companies",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "NSS, Postal Savings etc",
+        "self_rupees": 0,
+        "spouse_rupees": 50000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 50000,
+        "details": [
+          {
+            "owner": "spouse",
+            "type": "K.V.P.",
+            "amount_rupees": 50000
+          }
+        ]
+      },
+      {
+        "description": "LIC or other insurance Policies",
+        "self_rupees": 710000,
+        "spouse_rupees": 205000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 915000,
+        "details": [
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 25000
+          },
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 50000
+          },
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 50000
+          },
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 25000
+          },
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 50000
+          },
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 100000
+          },
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 110000
+          },
+          {
+            "owner": "self",
+            "type": "LIC POLICY",
+            "amount_rupees": 300000
+          },
+          {
+            "owner": "spouse",
+            "type": "LIC POLICY",
+            "amount_rupees": 105000
+          },
+          {
+            "owner": "spouse",
+            "type": "LIC POLICY",
+            "amount_rupees": 100000
+          }
+        ]
+      },
+      {
+        "description": "Personal loans/advance given",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Motor Vehicles (details of make, etc.)",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Jewellery (give details weight value)",
+        "self_rupees": 122000,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 122000,
+        "details": [
+          {
+            "owner": "self",
+            "items": "2 Nos. Bangle,2 Nos.Ear ring,4 Nos.Gold Ring",
+            "total_grams": 60,
+            "value_rupees": 122000
+          }
+        ]
+      },
+      {
+        "description": "Other assets, such as values of claims / interests",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ],
+    "gross_total_value_as_per_affidavit": {
+      "self_rupees": 1125218,
+      "spouse_rupees": 269976,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 1395194
     },
-    "spouse": {
-      "cash_inr": 0,
-      "bank_deposits_inr": 14976,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 50000,
-      "lic_other_insurance_inr": 205000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 269976
+    "totals_calculated": {
+      "self_rupees": 1125218,
+      "spouse_rupees": 269976,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 1395194
     }
   },
   "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Mouza- pdmapukhuria,contai.",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2002-04-22",
-        "purchase_cost_inr": 100000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 250000
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "items": [
+      {
+        "description": "Agricultural Land",
+        "self_rupees": 0,
+        "spouse_rupees": 175000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 175000,
+        "details": [
+          {
+            "owner": "spouse",
+            "location": "Mouza- Badhia",
+            "j_l_no": "06",
+            "plot_no": "2916,4117,1498",
+            "total_area": "1.73 acres",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "current_value_rupees": 175000
+          }
+        ]
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 250000
+      {
+        "description": "Non Agricultural Land",
+        "self_rupees": 250000,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 250000,
+        "details": [
+          {
+            "owner": "self",
+            "location": "Mouza- pdmapukhuria,contai",
+            "total_area": "0.06dec",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2002-04-22",
+            "purchase_cost": 100000,
+            "development_cost": 0,
+            "current_value_rupees": 250000
+          }
+        ]
+      },
+      {
+        "description": "Commercial Buildings",
+        "self_rupees": 0,
+        "spouse_rupees": 150000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 150000,
+        "details": [
+          {
+            "owner": "spouse",
+            "location": "Mouza- kishorepur",
+            "total_area": "4000*3000mm",
+            "built_up_area": null,
+            "inherited": false,
+            "purchase_date": "2002-09-04",
+            "purchase_cost": 100000,
+            "development_cost": 0,
+            "current_value_rupees": 150000
+          }
+        ]
+      },
+      {
+        "description": "Residential Buildings",
+        "self_rupees": 0,
+        "spouse_rupees": 500000,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 500000,
+        "details": [
+          {
+            "owner": "spouse",
+            "location": "Mouza- kumarpur",
+            "j_l_no": "367",
+            "plot_no": "323",
+            "total_area": "0.02 dec",
+            "built_up_area": null,
+            "inherited": true,
+            "purchase_date": "0000-00-00",
+            "purchase_cost": 0,
+            "development_cost": 0,
+            "current_value_rupees": 500000
+          }
+        ]
+      },
+      {
+        "description": "Others",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ],
+    "total_current_market_value_as_per_affidavit": {
+      "self_rupees": 250000,
+      "spouse_rupees": 925000,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 1175000
     },
-    "spouse": {
-      "agricultural_land_inr": 175000,
-      "non_agricultural_land": null,
-      "commercial_buildings_inr": 150000,
-      "residential_buildings": {
-        "description": "Mouza- kumarpur,j.l. no.367,plot no.323",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 500000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 825000
+    "totals_calculated": {
+      "self_rupees": 250000,
+      "spouse_rupees": 825000,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 1075000
     }
   },
   "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 84750,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 84750
+    "data_readability_report": "No Problems in Reading Affidavit Information",
+    "items": [
+      {
+        "description": "Loans from Banks / FIs",
+        "self_rupees": 84750,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 84750,
+        "details": [
+          {
+            "owner": "self",
+            "type": "LIC LOAN",
+            "amount_rupees": 84750
+          }
+        ]
+      },
+      {
+        "description": "Loans due to Individual / Entity",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Any other Liability",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ],
+    "grand_total_of_liabilities_as_per_affidavit": {
+      "self_rupees": 84750,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 84750
     },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
+    "dues_to_government_departments": [
+      {
+        "description": "Dues to departments dealing with government accommodation",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of water",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of electricity",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with telephones",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Dues to departments dealing with supply of transport",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Income Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Wealth Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Service Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Property Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Sales Tax Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      },
+      {
+        "description": "Any Other Dues",
+        "self_rupees": 0,
+        "spouse_rupees": 0,
+        "dependent1_rupees": 0,
+        "dependent2_rupees": 0,
+        "dependent3_rupees": 0,
+        "total_rupees": 0
+      }
+    ],
+    "grand_total_of_all_govt_dues_as_per_affidavit": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 0
     },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": null,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
+    "any_other_liabilities_in_dispute": {
+      "self_rupees": 0,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 0,
+      "details": "Nil"
     },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+    "totals_calculated": {
+      "self_rupees": 84750,
+      "spouse_rupees": 0,
+      "dependent1_rupees": 0,
+      "dependent2_rupees": 0,
+      "dependent3_rupees": 0,
+      "total_rupees": 84750
+    }
+  }
 }

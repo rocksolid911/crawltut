@@ -1,138 +1,645 @@
 {
   "candidate_name": "LALRUATKIMA",
   "party": "MNF",
-  "constituency": "AIZAWL WEST II (AIZAWL)",
-  "father_or_husband_name": "Kapthanthuama (L)",
-  "age": 46,
-  "education": "Graduate BA (Hons) from Pachhunga University College NEHU 1996",
-  "profession_self": "Public Service/Business",
-  "profession_spouse": "Business",
-  "criminal_cases": 0,
-  "assets_total_inr": 35598167,
-  "liabilities_total_inr": 4730027,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2017-2018": 1262536
-      }
-    },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "huf": null,
-    "dependent1": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent2": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    },
-    "dependent3": {
-      "pan_given": null,
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 1500000,
-      "bank_deposits_inr": 336273,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 4200000,
-      "jewellery_inr": 0,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 8836639
-    },
-    "spouse": {
-      "cash_inr": 500000,
-      "bank_deposits_inr": 5391741,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 0,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 100000,
-      "other_assets_inr": 0,
-      "gross_total_value_inr": 5991741
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 800000,
-      "non_agricultural_land": {
-        "description": "Vaivakawn LSC No. AZL 3218 of 1985 Total Area 58846.3 Sq.ft.",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 18719926
+  "constituency": "AIZAWL WEST II",
+  "state": "Mizoram",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "Kapthanthuama (L)",
+      "age": 46,
+      "voter_enrolled_in": {
+        "constituency": "16-Aizawl West-II",
+        "state": "Mizoram",
+        "serial_no": 352,
+        "part_no": 4
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 18719926
+      "self_profession": "Public Service/Business",
+      "spouse_profession": "Business"
     },
-    "spouse": {
-      "agricultural_land_inr": 0,
-      "non_agricultural_land": {
-        "description": "Kanan veng LSC No. 1023/20/01/32 of 1999 Total Area 335.70 Built Up Area",
-        "area_sq_mtr": null,
-        "inherited": "Y",
-        "purchase_date": "0000-00-00",
-        "purchase_cost_inr": 0,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 2014200
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 35598167,
+      "total_liabilities_in_rupees": 4730027
+    },
+    "educational_details": {
+      "category": "Graduate",
+      "details": "BA (Hons) from Pachhunga University College NEHU 1996"
+    },
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2017 - 2018",
+          "total_income_shown_in_itr_rupees": 1262536
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "None",
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": null
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": null
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": null
+        }
+      ]
+    },
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
+    },
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 8836639,
+      "gross_total_value_spouse_rupees": 5991741,
+      "gross_total_value_dependent1_rupees": 35661,
+      "gross_total_value_dependent2_rupees": null,
+      "gross_total_value_dependent3_rupees": null,
+      "gross_total_value_total_rupees": 14864041,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 1500000,
+          "spouse_value_rupees": 500000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 2000000
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 2726359,
+          "spouse_value_rupees": 5391741,
+          "dependent1_value_rupees": 35661,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 8564041,
+          "self_details": [
+            {
+              "bank": "SBI",
+              "branch": "Vaivakawn Brach",
+              "account_no": "3033773xxxxx",
+              "amount_rupees": 126197
+            },
+            {
+              "bank": "SBI",
+              "branch": "Vaivakawn Branch",
+              "account_no": "2009429xxxxx",
+              "amount_rupees": 29285
+            },
+            {
+              "bank": "SBI",
+              "branch": "Vaivakawn Branch",
+              "account_no": "3805025xxxxx",
+              "amount_rupees": 450000
+            },
+            {
+              "bank": "SBI",
+              "branch": "Aizawl Branch",
+              "account_no": "1076366xxxxx",
+              "amount_rupees": 65992
+            },
+            {
+              "bank": "SBI",
+              "branch": "Platinum Branch",
+              "account_no": "2017587xxxxx",
+              "amount_rupees": 787825
+            },
+            {
+              "bank": "MRB",
+              "branch": "Vaivakawn Branch",
+              "account_no": "250520xxxxx",
+              "amount_rupees": 83324
+            },
+            {
+              "bank": "MRB",
+              "branch": "Vaivakawn Branch",
+              "account_no": "2505206xxxxx",
+              "amount_rupees": 1257743
+            },
+            {
+              "bank": "HDFC",
+              "branch": "Zarkawt Branch",
+              "account_no": "1814193000xxxxx",
+              "amount_rupees": 336273
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBI",
+              "branch": "Vaivakawn Branch",
+              "account_no": "3123464xxxxx",
+              "amount_rupees": 5097092
+            },
+            {
+              "bank": "SBI",
+              "branch": "Vaivakawn Branch",
+              "account_no": "3139590xxxxx",
+              "amount_rupees": 294649
+            }
+          ],
+          "dependent1_details": [
+            {
+              "bank": "SBI",
+              "branch": "Vaivakawn Branch",
+              "account_no": "2033882xxxxx",
+              "amount_rupees": 22501
+            },
+            {
+              "bank": "HDFC",
+              "branch": "Zarkawt Branch",
+              "account_no": "5010022330xxxxx",
+              "amount_rupees": 13160
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 4200000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 4200000,
+          "self_details": [
+            {
+              "make": "Hyundai i10 Grand",
+              "registration_no": "MZ-01 M 5177",
+              "year": 2016,
+              "value_rupees": 400000
+            },
+            {
+              "make": "M.Bolero",
+              "registration_no": "MZ-01 K 3727",
+              "year": 2014,
+              "value_rupees": 450000
+            },
+            {
+              "make": "M.Bolero",
+              "registration_no": "MZ-01 P 4627",
+              "year": 2017,
+              "value_rupees": 800000
+            },
+            {
+              "make": "Excavator (JCB)",
+              "registration_no": "MZ-01 Q 1587",
+              "year": 2018,
+              "value_rupees": 2550000
+            }
+          ]
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": null,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 100000
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 18719926,
+      "total_current_market_value_spouse_rupees": 2014200,
+      "total_current_market_value_dependent1_rupees": null,
+      "total_current_market_value_dependent2_rupees": null,
+      "total_current_market_value_dependent3_rupees": null,
+      "total_current_market_value_total_rupees": 20734126,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 800000,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 800000,
+          "self_details": [
+            {
+              "location": "Dampui Ram Mamit District",
+              "pp_no": "400509/10/468 of 2011",
+              "total_area": "11.36 Sq.ft.",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 600000
+            },
+            {
+              "location": "Sairang Ram",
+              "pp_no": "G-83/96",
+              "total_area": "5.09",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 200000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 17919926,
+          "spouse_value_rupees": 2014200,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 19934126,
+          "self_details": [
+            {
+              "location": "Vaivakawn",
+              "lsc_no": "AZL 3218 of 1985",
+              "total_area": "58846.3 Sq.ft.",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 13000000
+            },
+            {
+              "location": "Vaivakawn",
+              "lsc_no": "AZL-2276 of 1986",
+              "total_area": "3457.36 Sq.ft.",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1800000
+            },
+            {
+              "location": "Hunthar Veng",
+              "lsc_no": "ACI 1551 of 1986",
+              "total_area": "3451.12",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1100000
+            },
+            {
+              "location": "Rangvamual",
+              "lse_no": "1023/10/01/1335 of 2008",
+              "total_area": "10194.5",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2017-01-09",
+              "purchase_cost_rupees": 65000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 473550
+            },
+            {
+              "location": "Rangvamual",
+              "lsc_no": "1023/10/011725 of 2012",
+              "total_area": "10143.90",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2016-05-05",
+              "purchase_cost_rupees": 40000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 471200
+            },
+            {
+              "location": "Kolasib Hmar Veng",
+              "cad_no": "122 of 2009",
+              "total_area": "8879.14",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 300000
+            },
+            {
+              "location": "Chawlhhmun",
+              "lsc_no": "103704/01/1069 of 2007",
+              "total_area": "6953.27",
+              "built_up_area": null,
+              "inherited": false,
+              "purchase_date": "2014-06-02",
+              "purchase_cost_rupees": 50000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 775176
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "Kanan veng",
+              "lsc_no": "1023/20/01/32 of 1999",
+              "total_area": "335.70",
+              "built_up_area": null,
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2014200
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 4730027,
+      "grand_total_of_liabilities_spouse_rupees": null,
+      "grand_total_of_liabilities_dependent1_rupees": null,
+      "grand_total_of_liabilities_dependent2_rupees": null,
+      "grand_total_of_liabilities_dependent3_rupees": null,
+      "grand_total_of_liabilities_total_rupees": 4730027,
+      "grand_total_of_all_govt_dues_self_rupees": null,
+      "grand_total_of_all_govt_dues_spouse_rupees": null,
+      "grand_total_of_all_govt_dues_dependent1_rupees": null,
+      "grand_total_of_all_govt_dues_dependent2_rupees": null,
+      "grand_total_of_all_govt_dues_dependent3_rupees": null,
+      "grand_total_of_all_govt_dues_total_rupees": null,
+      "any_other_liabilities_in_dispute": {
+        "self_amount_rupees": null,
+        "spouse_amount_rupees": null,
+        "dependent1_amount_rupees": null,
+        "dependent2_amount_rupees": null,
+        "dependent3_amount_rupees": null,
+        "total_amount_rupees": null
       },
-      "commercial_buildings_inr": 0,
-      "residential_buildings": null,
-      "others_inr": 0,
-      "total_current_market_value_inr": 2014200
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 4041767,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 4041767,
+          "self_details": [
+            {
+              "bank": "MRB",
+              "branch": "Vaivakawn Branch",
+              "loan_type": "C/C Account",
+              "amount_rupees": 1414446
+            },
+            {
+              "bank": "Indusind Bank",
+              "loan_type": null,
+              "amount_rupees": 2627321
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 688260,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": 688260,
+          "self_details": [
+            {
+              "name": "Housing Building Advance (Mizoram Legislative Assembly)",
+              "amount_rupees": 688260
+            }
+          ]
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        },
+        {
+          "sr_no": null,
+          "description": "Any Other Dues",
+          "self_value_rupees": null,
+          "spouse_value_rupees": null,
+          "dependent1_value_rupees": null,
+          "dependent2_value_rupees": null,
+          "dependent3_value_rupees": null,
+          "total_value_rupees": null
+        }
+      ]
     }
   },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 4041767,
-      "loans_due_to_individual_entity_inr": 688260,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 4730027
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+  "other_elections": [
+    {
+      "declaration_in": "Mizoram 2023",
+      "declared_assets": 45868436,
+      "declared_cases": 0,
+      "more_details_link": "https://www.myneta.info/compare_profile.php?group_id=RAj5hgxtW4qxchCyGfBh"
+    }
+  ]
 }

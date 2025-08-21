@@ -1,156 +1,652 @@
 {
   "candidate_name": "SIKANDER SINGH MALUKA",
   "party": "SAD",
-  "constituency": "RAMPURA PHUL (BATHINDA)",
-  "father_or_husband_name": "S.Kartar Singh",
-  "age": 62,
-  "education": "10th Pass Matric Govt. High School",
-  "profession_self": "Political/Social Work",
-  "profession_spouse": "House Wife",
-  "criminal_cases": 0,
-  "assets_total_inr": 83772103,
-  "liabilities_total_inr": 497352,
-  "income_tax_details": {
-    "self": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010-2011": 1010458
-      }
+  "constituency": "RAMPURA PHUL",
+  "state": "Punjab",
+  "status": "Winner",
+  "affidavit_info": {
+    "personal_details": {
+      "s_o_d_o_w_o": "S.Kartar Singh",
+      "age": 62,
+      "self_profession": "Political/Social Work",
+      "spouse_profession": "House Wife"
     },
-    "spouse": {
-      "pan_given": "Y",
-      "income_by_financial_year": {
-        "2010-2011": 485573
-      }
+    "summary": {
+      "criminal_cases_count": 0,
+      "total_assets_in_rupees": 83772103,
+      "total_liabilities_in_rupees": 497352
     },
-    "huf": null,
-    "dependent1": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "educational_details": {
+      "category": "10th Pass Matric Govt. High School"
     },
-    "dependent2": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
+    "income_tax_details": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "returns": [
+        {
+          "relation_type": "self",
+          "pan_given": true,
+          "financial_year": "2010 - 2011",
+          "total_income_shown_in_itr_rupees": 1010458
+        },
+        {
+          "relation_type": "spouse",
+          "pan_given": true,
+          "financial_year": "2010 - 2011",
+          "total_income_shown_in_itr_rupees": 485573
+        },
+        {
+          "relation_type": "dependent1",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent2",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        },
+        {
+          "relation_type": "dependent3",
+          "pan_given": false,
+          "financial_year": null,
+          "total_income_shown_in_itr_rupees": 0
+        }
+      ]
     },
-    "dependent3": {
-      "pan_given": "N",
-      "income_by_financial_year": {
-        "None": 0
-      }
-    }
-  },
-  "movable_assets": {
-    "self": {
-      "cash_inr": 39000,
-      "bank_deposits_inr": 2041598,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 840000,
-      "personal_loans_advance_given_inr": 0,
-      "motor_vehicles_inr": 1200000,
-      "jewellery_inr": 375000,
-      "other_assets_inr": 400000,
-      "gross_total_value_inr": 4805598
+    "criminal_cases": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "brief_details_ipc_bns": [],
+      "pending_cases": [],
+      "convicted_cases": []
     },
-    "spouse": {
-      "cash_inr": 20000,
-      "bank_deposits_inr": 261505,
-      "bonds_debentures_shares_inr": 0,
-      "nss_postal_savings_inr": 0,
-      "lic_other_insurance_inr": 260000,
-      "personal_loans_advance_given_inr": 1350000,
-      "motor_vehicles_inr": 0,
-      "jewellery_inr": 2500000,
-      "other_assets_inr": 100000,
-      "gross_total_value_inr": 4491505
-    }
-  },
-  "immovable_assets": {
-    "self": {
-      "agricultural_land_inr": 7000000,
-      "non_agricultural_land": {
-        "description": "BHAGAT BHAI KA",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2011-09-07",
-        "purchase_cost_inr": 630000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 675000
+    "movable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "gross_total_value_self_rupees": 4805598,
+      "gross_total_value_spouse_rupees": 4491505,
+      "gross_total_value_dependent1_rupees": 0,
+      "gross_total_value_dependent2_rupees": 0,
+      "gross_total_value_dependent3_rupees": 0,
+      "gross_total_value_total_rupees": 9297103,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Cash",
+          "self_value_rupees": 39000,
+          "spouse_value_rupees": 20000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 59000,
+          "self_details": {
+            "amount_rupees": 39000
+          },
+          "spouse_details": {
+            "amount_rupees": 20000
+          }
+        },
+        {
+          "sr_no": "ii",
+          "description": "Deposits in Banks, Financial Institutions and Non-Banking Financial Companies",
+          "self_value_rupees": 1942548,
+          "spouse_value_rupees": 261505,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2213103,
+          "self_details": [
+            {
+              "bank": "SBOP BHAGTA",
+              "amount_rupees": 1219053
+            },
+            {
+              "bank": "SBOP CHD.",
+              "amount_rupees": 462354
+            },
+            {
+              "bank": "CANARA BANK RMP.",
+              "amount_rupees": 1000
+            },
+            {
+              "bank": "SBOP CHD. (FDR)",
+              "amount_rupees": 269191
+            }
+          ],
+          "spouse_details": [
+            {
+              "bank": "SBOP CHD.",
+              "amount_rupees": 257055
+            },
+            {
+              "bank": "THE BTI CNTRL COOP BANK",
+              "amount_rupees": 4450
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Bonds, Debentures and Shares in companies",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "iv",
+          "description": "(a) NSS, Postal Savings etc",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "(b) LIC or other insurance Policies",
+          "self_value_rupees": 840000,
+          "spouse_value_rupees": 260000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1100000,
+          "self_details": {
+            "policy": "LIC",
+            "amount_rupees": 840000
+          },
+          "spouse_details": {
+            "policy": "LIC",
+            "amount_rupees": 260000
+          }
+        },
+        {
+          "sr_no": "v",
+          "description": "Personal loans/advance given",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 1350000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1350000,
+          "self_details": "Nil",
+          "spouse_details": [
+            {
+              "to": "PARTNER CAPITAL M/s MALAUKA BRICK IND. VILL MALAUKA",
+              "amount_rupees": 950000
+            },
+            {
+              "to": "PROP CAPITAL M/s MALAUKA COMM.",
+              "amount_rupees": 400000
+            }
+          ]
+        },
+        {
+          "sr_no": "vi",
+          "description": "Motor Vehicles (details of make, etc.)",
+          "self_value_rupees": 1200000,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1200000,
+          "self_details": {
+            "make": "INNOVA",
+            "year": 2010,
+            "reg_no": "PB03S0001",
+            "value_rupees": 1200000
+          },
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "vii",
+          "description": "Jewellery (give details weight value)",
+          "self_value_rupees": 375000,
+          "spouse_value_rupees": 2500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 2875000,
+          "self_details": {
+            "type": "GOLD",
+            "weight_gms": 150,
+            "value_rupees": 375000
+          },
+          "spouse_details": {
+            "type": "GOLD",
+            "weight_gms": 1000,
+            "value_rupees": 2500000
+          }
+        },
+        {
+          "sr_no": "viii",
+          "description": "Other assets, such as values of claims / interests",
+          "self_value_rupees": 400000,
+          "spouse_value_rupees": 100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 500000,
+          "self_details": {
+            "description": "MISCELLANEOUS",
+            "value_rupees": 400000
+          },
+          "spouse_details": {
+            "description": "MISCELLANEOUS",
+            "value_rupees": 100000
+          }
+        }
+      ]
+    },
+    "immovable_assets": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "total_current_market_value_self_rupees": 41175000,
+      "total_current_market_value_spouse_rupees": 33300000,
+      "total_current_market_value_dependent1_rupees": 0,
+      "total_current_market_value_dependent2_rupees": 0,
+      "total_current_market_value_dependent3_rupees": 0,
+      "total_current_market_value_total_rupees": 74475000,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Agricultural Land",
+          "self_value_rupees": 7000000,
+          "spouse_value_rupees": 14050000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 21050000,
+          "self_details": [
+            {
+              "location": "VILL. MALUKA DIST. BATHINDA",
+              "total_area": "13 ACRE",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 20000,
+              "current_value_rupees": 7000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "VILL KARORA",
+              "total_area": "3Kanal",
+              "inherited": false,
+              "purchase_date": "2008-01-01",
+              "purchase_cost_rupees": 1200000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            },
+            {
+              "location": "VILL RAYIA",
+              "total_area": "6.25 ACRE",
+              "inherited": false,
+              "purchase_date": "2011-01-01",
+              "purchase_cost_rupees": 4050000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 4050000
+            }
+          ]
+        },
+        {
+          "sr_no": "ii",
+          "description": "Non Agricultural Land",
+          "self_value_rupees": 675000,
+          "spouse_value_rupees": 650000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 1325000,
+          "self_details": [
+            {
+              "location": "BHAGAT BHAI KA",
+              "total_area": "13Marlas 2Sarsai",
+              "inherited": false,
+              "purchase_date": "2011-09-07",
+              "purchase_cost_rupees": 630000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 675000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "BHAGAT BHAI KA",
+              "total_area": "13Marlas 2Sarsai",
+              "inherited": false,
+              "purchase_date": "2011-09-07",
+              "purchase_cost_rupees": 618000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 650000
+            }
+          ]
+        },
+        {
+          "sr_no": "iii",
+          "description": "Commercial Buildings",
+          "self_value_rupees": 4000000,
+          "spouse_value_rupees": 4500000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 8500000,
+          "self_details": [
+            {
+              "location": "VILL. PHABHAT ZIRAKNAR",
+              "total_area": "2034sq.ft.",
+              "inherited": false,
+              "purchase_date": "2005-01-01",
+              "purchase_cost_rupees": 250000,
+              "development_cost_rupees": 900000,
+              "current_value_rupees": 4000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "VILL. PHABHAT ZIRAKNAR",
+              "total_area": "2250sq.ft.",
+              "inherited": false,
+              "purchase_date": "2005-01-01",
+              "purchase_cost_rupees": 300000,
+              "development_cost_rupees": 900000,
+              "current_value_rupees": 4500000
+            }
+          ]
+        },
+        {
+          "sr_no": "iv",
+          "description": "Residential Buildings",
+          "self_value_rupees": 30000000,
+          "spouse_value_rupees": 14100000,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 43600000,
+          "self_details": [
+            {
+              "location": "VILL MALUKA HOUSE",
+              "total_area": "3Kanal",
+              "built_up_area": "16000sq.ft.",
+              "inherited": true,
+              "purchase_date": "0000-00-00",
+              "purchase_cost_rupees": 0,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 5000000
+            },
+            {
+              "location": "PHABAT PLOT",
+              "total_area": "350SQ.FT.",
+              "built_up_area": "",
+              "inherited": false,
+              "purchase_date": "2007-01-01",
+              "purchase_cost_rupees": 570000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            },
+            {
+              "location": "THE PBI COOP SOCIETY PLOT",
+              "total_area": "2Kanal",
+              "built_up_area": "",
+              "inherited": false,
+              "purchase_date": "1999-01-01",
+              "purchase_cost_rupees": 900000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 15000000
+            },
+            {
+              "location": "MULLNAPUR PLOT",
+              "total_area": "1000SQ.FT.",
+              "built_up_area": "",
+              "inherited": false,
+              "purchase_date": "2011-01-01",
+              "purchase_cost_rupees": 7000000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 7000000
+            }
+          ],
+          "spouse_details": [
+            {
+              "location": "PHABHAT PLOT",
+              "total_area": "350 sq.yd.",
+              "built_up_area": "",
+              "inherited": false,
+              "purchase_date": "2007-01-01",
+              "purchase_cost_rupees": 570000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 2500000
+            },
+            {
+              "location": "VILL KANSAL PLOT",
+              "total_area": "500 sq.yd.",
+              "built_up_area": "",
+              "inherited": false,
+              "purchase_date": "1999-01-01",
+              "purchase_cost_rupees": 500000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 10000000
+            },
+            {
+              "location": "ROYAL ESTATE II ZIRAKPUR",
+              "total_area": "1800 sq.ft.",
+              "built_up_area": "",
+              "inherited": false,
+              "purchase_date": "2011-01-01",
+              "purchase_cost_rupees": 1600000,
+              "development_cost_rupees": 0,
+              "current_value_rupees": 1600000
+            }
+          ]
+        },
+        {
+          "sr_no": "v",
+          "description": "Others",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "liabilities": {
+      "report_status": "No Problems in Reading Affidavit Information",
+      "grand_total_of_liabilities_self_rupees": 497352,
+      "grand_total_of_liabilities_spouse_rupees": 0,
+      "grand_total_of_liabilities_dependent1_rupees": 0,
+      "grand_total_of_liabilities_dependent2_rupees": 0,
+      "grand_total_of_liabilities_dependent3_rupees": 0,
+      "grand_total_of_liabilities_total_rupees": 497352,
+      "grand_total_of_all_govt_dues_self_rupees": 0,
+      "grand_total_of_all_govt_dues_spouse_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent1_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent2_rupees": 0,
+      "grand_total_of_all_govt_dues_dependent3_rupees": 0,
+      "grand_total_of_all_govt_dues_total_rupees": 0,
+      "items": [
+        {
+          "sr_no": "i",
+          "description": "Loans from Banks / FIs",
+          "self_value_rupees": 497352,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 497352,
+          "self_details": [
+            {
+              "bank": "SBOP",
+              "loan_type": "CAR LOAN",
+              "amount_rupees": 497352
+            }
+          ],
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Loans due to Individual / Entity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Any other Liability",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": "ii",
+          "description": "Dues to departments dealing with government accommodation",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of water",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of electricity",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with telephones",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Dues to departments dealing with supply of transport",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Income Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Wealth Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Service Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Property Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        },
+        {
+          "sr_no": null,
+          "description": "Sales Tax Dues",
+          "self_value_rupees": 0,
+          "spouse_value_rupees": 0,
+          "dependent1_value_rupees": 0,
+          "dependent2_value_rupees": 0,
+          "dependent3_value_rupees": 0,
+          "total_value_rupees": 0,
+          "self_details": "Nil",
+          "spouse_details": "Nil"
+        }
+      ]
+    },
+    "other_election_declarations": [
+      {
+        "election_year": "2022",
+        "election_state": "Punjab",
+        "declared_assets_rupees": 143978249,
+        "declared_cases": 0
       },
-      "commercial_buildings_inr": 4000000,
-      "residential_buildings": {
-        "description": "VILL MALUKA HOUSE, PHABAT PLOT, THE PBI COOP SOCIETY PLOT, MULLNAPUR PLOT",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 295000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 41175000
-    },
-    "spouse": {
-      "agricultural_land_inr": 14050000,
-      "non_agricultural_land": {
-        "description": "BHAGAT BHAI KA",
-        "area_sq_mtr": null,
-        "inherited": "N",
-        "purchase_date": "2011-09-07",
-        "purchase_cost_inr": 618000,
-        "development_cost_inr": 0,
-        "current_market_value_inr": 650000
-      },
-      "commercial_buildings_inr": 4500000,
-      "residential_buildings": {
-        "description": "PHABHAT PLOT, VILL KANSAL PLOT, ROYAL ESTATE II ZIRAKPUR",
-        "total_area_sqft": null,
-        "built_up_area_sqft": null,
-        "inherited": null,
-        "purchase_date": null,
-        "purchase_cost_inr": null,
-        "development_cost_inr": null,
-        "current_market_value_inr": 141000000
-      },
-      "others_inr": 0,
-      "total_current_market_value_inr": 33300000
-    }
-  },
-  "liabilities_details": {
-    "self": {
-      "loans_from_banks_fis_inr": 497352,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 497352
-    },
-    "spouse": {
-      "loans_from_banks_fis_inr": 0,
-      "loans_due_to_individual_entity_inr": 0,
-      "any_other_liability_inr": 0,
-      "grand_total_of_liabilities_inr": 0
-    },
-    "government_dues": {
-      "dues_govt_accommodation_inr": 0,
-      "dues_water_supply_inr": 0,
-      "dues_electricity_supply_inr": 0,
-      "dues_telephones_inr": 0,
-      "dues_transport_inr": 0,
-      "income_tax_dues_inr": 0,
-      "wealth_tax_dues_inr": 0,
-      "service_tax_dues_inr": 0,
-      "property_tax_dues_inr": 0,
-      "sales_tax_dues_inr": 0,
-      "gst_dues_inr": 0,
-      "any_other_dues_inr": 0,
-      "grand_total_of_all_govt_dues_inr": 0
-    },
-    "other_liabilities_in_dispute_inr": 0
-  },
-  "sources_of_income": null,
-  "contracts": null
+      {
+        "election_year": "2017",
+        "election_state": "Punjab",
+        "declared_assets_rupees": 107871695,
+        "declared_cases": 0
+      }
+    ]
+  }
 }
