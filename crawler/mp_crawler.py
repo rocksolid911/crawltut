@@ -113,18 +113,22 @@ class MPCrawler(BaseCrawler):
         # Download profile images for each candidate
         return await self._download_candidate_profile_images(candidate_image_data)
     
-    async def generate_candidate_profiles(self, candidate_urls: Dict[str, str]) -> Dict[str, int]:
+    async def generate_candidate_profiles(self, candidate_urls: Dict[str, str], 
+                                        force_regenerate: bool = False, 
+                                        skip_if_force_regenerated: bool = True) -> Dict[str, int]:
         """
         Generate detailed candidate profiles by crawling individual pages.
         
         Args:
             candidate_urls: Dictionary mapping candidate names to their profile URLs
+            force_regenerate: If True, regenerate files even if they exist
+            skip_if_force_regenerated: If True, skip candidates already processed
             
         Returns:
             Statistics dictionary
         """
         run_config = WebCrawlerConfig.get_candidate_config(f"mp_profiles_{self.year}")
-        stats = {'profiles_generated': 0, 'images_downloaded': 0, 'errors': 0}
+        stats = {'profiles_generated': 0, 'images_downloaded': 0, 'errors': 0, 'skipped': 0}
         
         # Convert dict to list of tuples for batch processing
         candidate_pairs = [(name, url) for name, url in candidate_urls.items()]
@@ -137,33 +141,67 @@ class MPCrawler(BaseCrawler):
                         self.base_output_dir, candidate_name
                     )
                     
+                    safe_name = FileManager.create_safe_filename(candidate_name)
+                    json_path = os.path.join(candidate_dir, f"{safe_name}.json")
+                    image_path = ImageProcessor.create_candidate_image_path(candidate_dir, candidate_name)
+                    
+                    # Check if files already exist
+                    json_exists = FileManager.file_exists_and_not_empty(json_path)
+                    image_exists = FileManager.file_exists_and_not_empty(image_path)
+                    
+                    # Check if this was previously regenerated
+                    was_force_regenerated = False
+                    if json_exists:
+                        try:
+                            with open(json_path, 'r', encoding='utf-8') as f:
+                                existing_data = json.load(f)
+                                was_force_regenerated = existing_data.get('force_regenerated', False)
+                        except:
+                            pass  # If can't read, treat as not regenerated
+                    
+                    # Skip logic based on your original implementation
+                    if json_exists and image_exists and not force_regenerate:
+                        print(f"⏭️  Skipping {candidate_name}: Files already exist")
+                        stats['skipped'] += 1
+                        return
+                    
+                    if was_force_regenerated and skip_if_force_regenerated:
+                        print(f"⏭️  Skipping {candidate_name}: Already regenerated (use --include-regenerated to process)")
+                        stats['skipped'] += 1
+                        return
+                    
+                    # Determine what needs to be processed
+                    need_json = not json_exists or force_regenerate
+                    need_image = not image_exists or force_regenerate
+                    
+                    print(f"🔄 Processing {candidate_name} (JSON: {need_json}, Image: {need_image})")
+                    
                     # Save profile data as JSON
-                    profile_data = {
-                        'name': candidate_name,
-                        'url': url,
-                        'year': self.year,
-                        'crawl_timestamp': str(asyncio.get_event_loop().time()),
-                        'markdown_content': result.markdown
-                    }
-                    
-                    json_path = os.path.join(candidate_dir, f"{FileManager.create_safe_filename(candidate_name)}.json")
-                    
-                    with open(json_path, 'w', encoding='utf-8') as f:
-                        json.dump(profile_data, f, indent=2, ensure_ascii=False)
-                    
-                    stats['profiles_generated'] += 1
+                    if need_json:
+                        profile_data = {
+                            'name': candidate_name,
+                            'url': url,
+                            'year': self.year,
+                            'crawl_timestamp': str(asyncio.get_event_loop().time()),
+                            'markdown_content': result.markdown,
+                            'force_regenerated': force_regenerate
+                        }
+                        
+                        with open(json_path, 'w', encoding='utf-8') as f:
+                            json.dump(profile_data, f, indent=2, ensure_ascii=False)
+                        
+                        stats['profiles_generated'] += 1
                     
                     # Extract and download profile image
-                    image_url = ImageProcessor.extract_profile_image_from_markdown(result.markdown, url)
-                    if image_url:
-                        image_path = ImageProcessor.create_candidate_image_path(candidate_dir, candidate_name)
-                        
-                        # Download image synchronously (in the callback)
-                        if ImageProcessor.download_image_sync(image_url, image_path):
-                            stats['images_downloaded'] += 1
+                    if need_image:
+                        image_url = ImageProcessor.extract_profile_image_from_markdown(result.markdown, url)
+                        if image_url:
+                            # Download image synchronously (in the callback)
+                            if ImageProcessor.download_image_sync(image_url, image_path):
+                                stats['images_downloaded'] += 1
                         
             except Exception as e:
-                print(f"Error processing candidate {candidate_name}: {str(e)}")
+                print(f"❌ Error processing candidate {candidate_name}: {str(e)}")
                 stats['errors'] += 1
         
         # Crawl all candidate profiles

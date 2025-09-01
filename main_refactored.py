@@ -23,17 +23,20 @@ def setup_argument_parser():
         epilog="""
 Examples:
 
-Single Year:
+Basic Usage (skips existing files by default):
   python main_refactored.py mp --year 2024 --mode constituencies
   python main_refactored.py mp --year 2024 --mode candidates --winners-only
-  python main_refactored.py mla --state "Karnataka" --year 2023 --mode winners
+  python main_refactored.py mp --year 2024 --mode profiles
+
+Force Regeneration:
+  python main_refactored.py mp --year 2024 --mode profiles --force-regenerate
+  python main_refactored.py mp --year 2024 --mode profiles --force-regenerate --include-regenerated
 
 Multiple Years:
-  python main_refactored.py mp --years 2024 2019 2014 2009 2004 --mode constituencies
-  python main_refactored.py mp --years 2024 2019 --mode candidates --winners-only
-  python main_refactored.py mla --state "Karnataka" --years 2023 2018 2013 --mode winners
+  python main_refactored.py mp --years 2024 2019 2014 --mode constituencies
+  python main_refactored.py mla --state "Karnataka" --years 2023 2018 --mode winners
   
-Other Commands:
+Analysis:
   python main_refactored.py analyze --csv-path "candidate_data/"
   python main_refactored.py util --merge-csv file1.csv file2.csv --output merged.csv
         """
@@ -53,6 +56,10 @@ Other Commands:
     mp_parser.add_argument('--csv-path', help='CSV file path (for images mode)')
     mp_parser.add_argument('--batch-size', type=int, default=50, 
                           help='Batch size for processing')
+    mp_parser.add_argument('--force-regenerate', action='store_true',
+                          help='Force regenerate files even if they already exist')
+    mp_parser.add_argument('--include-regenerated', action='store_true',
+                          help='Process files even if they were already regenerated (default: skip regenerated files)')
     
     # MLA (State Assembly) crawler
     mla_parser = subparsers.add_parser('mla', help='Crawl MLA (State Assembly) election data')
@@ -137,10 +144,25 @@ async def handle_mp_command(args):
                 print("No candidate URLs found in CSV file")
                 continue
             
-            stats = await crawler.generate_candidate_profiles(candidate_urls)
+            # Use your preferred defaults
+            force_regenerate = args.force_regenerate  # False by default
+            skip_if_force_regenerated = not args.include_regenerated  # True by default (skip regenerated files)
+            
+            print(f"Options: force_regenerate={force_regenerate}, skip_if_force_regenerated={skip_if_force_regenerated}")
+            if not force_regenerate:
+                print("  → Will skip files that already exist (use --force-regenerate to override)")
+            if skip_if_force_regenerated:
+                print("  → Will skip files that were already regenerated (use --include-regenerated to override)")
+            
+            stats = await crawler.generate_candidate_profiles(
+                candidate_urls, 
+                force_regenerate=force_regenerate,
+                skip_if_force_regenerated=skip_if_force_regenerated
+            )
             print(f"Profile generation completed for {year}:")
             print(f"  Profiles generated: {stats['profiles_generated']}")
             print(f"  Images downloaded: {stats['images_downloaded']}")
+            print(f"  Skipped: {stats['skipped']}")
             print(f"  Errors: {stats['errors']}")
             
         elif args.mode == 'images':
