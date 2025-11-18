@@ -1,2 +1,80 @@
+# IDE
 .idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
 .env
+.env.local
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Data files (uncomment if you don't want to track data)
+# data/
+# candidate_data/
+# constituency_data/
+# state_assembly/
+*.csv
+missing_profile_images*.csv
+
+# Generated files
+*.force_regenerated
+*_error.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Ruff
+.ruff_cache/
